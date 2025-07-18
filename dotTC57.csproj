@@ -10,6 +10,12 @@
 		<Description>A dotnet implementation of IEC Technical Commitee (TC) 57 for power systems management and information exchange with semantic web support</Description>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<PackageTags>CIM;IEC61970;IEC61968;Electrical;Power;RDF;OWL;Semantic</PackageTags>
+		<PackageProjectUrl>https://github.com/s-o-w/dotTC57</PackageProjectUrl>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageIcon>icon.png</PackageIcon>
+		<RepositoryUrl>https://github.com/s-o-w/dotTC57.git</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
 	</PropertyGroup>
 
 	<ItemGroup>
