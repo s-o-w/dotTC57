@@ -1,0 +1,692 @@
+<?xml version="1.0"?>
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#">
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#">
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+]>
+
+<rdf:RDF xmlns="http://www.example.org/substation-ontology#"
+    xml:base="http://www.example.org/substation-ontology"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+    <!-- Ontology Declaration -->
+    <owl:Ontology rdf:about="http://www.example.org/substation-ontology">
+        <rdfs:label>Substation Equipment Ontology</rdfs:label>
+        <rdfs:comment>An OWL ontology representing substation equipment based on the dotTC57 project</rdfs:comment>
+    </owl:Ontology>
+
+    <!-- ================ -->
+    <!-- Base Classes     -->
+    <!-- ================ -->
+    
+    <!-- IdentifiedObject -->
+    <owl:Class rdf:about="#IdentifiedObject">
+        <rdfs:label>IdentifiedObject</rdfs:label>
+        <rdfs:comment>Root class providing common identification for all classes needing identification and naming attributes</rdfs:comment>
+    </owl:Class>
+    
+    <!-- PowerSystemResource -->
+    <owl:Class rdf:about="#PowerSystemResource">
+        <rdfs:label>PowerSystemResource</rdfs:label>
+        <rdfs:comment>A power system resource can be an item of equipment such as a switch, an equipment container containing many individual items of equipment, or an organizational entity</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="#IdentifiedObject"/>
+    </owl:Class>
+    
+    <!-- Equipment -->
+    <owl:Class rdf:about="#Equipment">
+        <rdfs:label>Equipment</rdfs:label>
+        <rdfs:comment>The parts of a power system that are physical devices, electronic or mechanical</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="#PowerSystemResource"/>
+    </owl:Class>
+    
+    <!-- ConductingEquipment -->
+    <owl:Class rdf:about="#ConductingEquipment">
+        <rdfs:label>ConductingEquipment</rdfs:label>
+        <rdfs:comment>The parts of the AC power system that are designed to carry current or that are conductively connected through terminals</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="#Equipment"/>
+    </owl:Class>
+    
+    <!-- Asset -->
+    <owl:Class rdf:about="#Asset">
+        <rdfs:label>Asset</rdfs:label>
+        <rdfs:comment>Tangible resource of the utility, including power system equipment, various end devices, cabinets, buildings, etc.</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="#IdentifiedObject"/>
+    </owl:Class>
+    
+    <!-- AssetContainer -->
+    <owl:Class rdf:about="#AssetContainer">
+        <rdfs:label>AssetContainer</rdfs:label>
+        <rdfs:comment>Assets that can contain other assets</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="#Asset"/>
+    </owl:Class>
+    
+    <!-- Building -->
+    <owl:Class rdf:about="#Building">
+        <rdfs:label>Building</rdfs:label>
+        <rdfs:comment>Structure for housing equipment</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="#AssetContainer"/>
+    </owl:Class>
+    
+    <!-- Category Classification -->
+    <owl:Class rdf:about="#EquipmentCategory">
+        <rdfs:label>EquipmentCategory</rdfs:label>
+        <rdfs:comment>Classification of equipment by category</rdfs:comment>
+    </owl:Class>
+    
+    <owl:NamedIndividual rdf:about="#PrimaryCategory">
+        <rdf:type rdf:resource="#EquipmentCategory"/>
+        <rdfs:label>Primary</rdfs:label>
+        <rdfs:comment>Primary equipment category for substation equipment</rdfs:comment>
+    </owl:NamedIndividual>
+    
+    <owl:NamedIndividual rdf:about="#SecondaryCategory">
+        <rdf:type rdf:resource="#EquipmentCategory"/>
+        <rdfs:label>Secondary</rdfs:label>
+        <rdfs:comment>Secondary equipment category for substation equipment</rdfs:comment>
+    </owl:NamedIndividual>
+    
+    <owl:NamedIndividual rdf:about="#StructuralCategory">
+        <rdf:type rdf:resource="#EquipmentCategory"/>
+        <rdfs:label>Structural</rdfs:label>
+        <rdfs:comment>Structural equipment category for substation equipment</rdfs:comment>
+    </owl:NamedIndividual>
+    
+    <owl:NamedIndividual rdf:about="#OptionalCategory">
+        <rdf:type rdf:resource="#EquipmentCategory"/>
+        <rdfs:label>Optional</rdfs:label>
+        <rdfs:comment>Optional equipment category for substation equipment</rdfs:comment>
+    </owl:NamedIndividual>
+
+    <!-- ==================== -->
+    <!-- Primary Equipment    -->
+    <!-- ==================== -->
+    
+    <!-- PowerTransformer -->
+    <owl:Class rdf:about="#PowerTransformer">
+        <rdfs:label>PowerTransformer</rdfs:label>
+        <rdfs:comment>An electrical device consisting of two or more coupled windings, with or without a magnetic core, for introducing mutual coupling between electric circuits. Transformers can be used to control voltage and phase shift (active power flow)</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="#ConductingEquipment"/>
+        <owl:disjointWith rdf:resource="#Breaker"/>
+        <owl:disjointWith rdf:resource="#Disconnector"/>
+    </owl:Class>
+    
+    <!-- Breaker -->
+    <owl:Class rdf:about="#Breaker">
+        <rdfs:label>Breaker</rdfs:label>
+        <rdfs:comment>A mechanical switching device capable of making, carrying, and breaking currents under normal circuit conditions and also making, carrying for a specified time, and breaking currents under specified abnormal circuit conditions e.g. those of short circuit</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="#ProtectedSwitch"/>
+    </owl:Class>
+    
+    <!-- ProtectedSwitch -->
+    <owl:Class rdf:about="#ProtectedSwitch">
+        <rdfs:label>ProtectedSwitch</rdfs:label>
+        <rdfs:comment>A switch that can be operated by protection equipment</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="#Switch"/>
+    </owl:Class>
+    
+    <!-- Switch -->
+    <owl:Class rdf:about="#Switch">
+        <rdfs:label>Switch</rdfs:label>
+        <rdfs:comment>A generic device designed to close, or open, or both, one or more electric circuits</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="#ConductingEquipment"/>
+    </owl:Class>
+    
+    <!-- Disconnector -->
+    <owl:Class rdf:about="#Disconnector">
+        <rdfs:label>Disconnector</rdfs:label>
+        <rdfs:comment>A manually operated or motor operated mechanical switching device used for changing the connections in a circuit, or for isolating a circuit or equipment from a source of power</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="#Switch"/>
+    </owl:Class>
+    
+    <!-- CurrentTransformer -->
+    <owl:Class rdf:about="#CurrentTransformer">
+        <rdfs:label>CurrentTransformer</rdfs:label>
+        <rdfs:comment>Instrument transformer used to measure electrical qualities of the circuit that is being protected and/or monitored. Typically used as current transducer for the purpose of metering or protection</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="#Sensor"/>
+    </owl:Class>
+    
+    <!-- PotentialTransformer -->
+    <owl:Class rdf:about="#PotentialTransformer">
+        <rdfs:label>PotentialTransformer</rdfs:label>
+        <rdfs:comment>Instrument transformer (also known as Voltage Transformer) used to measure electrical qualities of the circuit that is being protected and/or monitored</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="#Sensor"/>
+    </owl:Class>
+    
+    <!-- Sensor -->
+    <owl:Class rdf:about="#Sensor">
+        <rdfs:label>Sensor</rdfs:label>
+        <rdfs:comment>Base class for devices that measure and report on electrical characteristics</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="#AuxiliaryEquipment"/>
+    </owl:Class>
+    
+    <!-- AuxiliaryEquipment -->
+    <owl:Class rdf:about="#AuxiliaryEquipment">
+        <rdfs:label>AuxiliaryEquipment</rdfs:label>
+        <rdfs:comment>Equipment associated with other primary equipment</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="#Equipment"/>
+    </owl:Class>
+    
+    <!-- BusbarSection -->
+    <owl:Class rdf:about="#BusbarSection">
+        <rdfs:label>BusbarSection</rdfs:label>
+        <rdfs:comment>A conductor, or group of conductors, with negligible impedance, that serve to connect other conducting equipment within a single substation</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="#Connector"/>
+    </owl:Class>
+    
+    <!-- Connector -->
+    <owl:Class rdf:about="#Connector">
+        <rdfs:label>Connector</rdfs:label>
+        <rdfs:comment>A conductor, or group of conductors, with negligible impedance</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="#ConductingEquipment"/>
+    </owl:Class>
+    
+    <!-- SurgeArrester -->
+    <owl:Class rdf:about="#SurgeArrester">
+        <rdfs:label>SurgeArrester</rdfs:label>
+        <rdfs:comment>Shunt device, installed on the network, usually in the proximity of electrical equipment in order to protect the said equipment against transient voltage transients caused by lightning or switching activity</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="#AuxiliaryEquipment"/>
+    </owl:Class>
+    
+    <!-- GroundingImpedance -->
+    <owl:Class rdf:about="#GroundingImpedance">
+        <rdfs:label>GroundingImpedance</rdfs:label>
+        <rdfs:comment>A fixed impedance device used for grounding</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="#EarthFaultCompensator"/>
+    </owl:Class>
+    
+    <!-- EarthFaultCompensator -->
+    <owl:Class rdf:about="#EarthFaultCompensator">
+        <rdfs:label>EarthFaultCompensator</rdfs:label>
+        <rdfs:comment>A conducting equipment used to represent a connection to ground</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="#ConductingEquipment"/>
+    </owl:Class>
+    
+    <!-- ===================== -->
+    <!-- Secondary Equipment   -->
+    <!-- ===================== -->
+    
+    <!-- ProtectionEquipment -->
+    <owl:Class rdf:about="#ProtectionEquipment">
+        <rdfs:label>ProtectionEquipment</rdfs:label>
+        <rdfs:comment>An electrical device designed to respond to input conditions in a prescribed manner and after specified conditions are met to cause contact operation or similar abrupt change in associated electric control circuits</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="#Equipment"/>
+    </owl:Class>
+    
+    <!-- RemoteUnit -->
+    <owl:Class rdf:about="#RemoteUnit">
+        <rdfs:label>RemoteUnit</rdfs:label>
+        <rdfs:comment>A remote unit can be an RTU, IED, substation control system, control center, etc. The communication with the remote unit can be through various protocols</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="#PowerSystemResource"/>
+    </owl:Class>
+    
+    <!-- CommunicationLink -->
+    <owl:Class rdf:about="#CommunicationLink">
+        <rdfs:label>CommunicationLink</rdfs:label>
+        <rdfs:comment>The connection to remote units is through one or more communication links</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="#PowerSystemResource"/>
+    </owl:Class>
+    
+    <!-- BatteryBank -->
+    <owl:Class rdf:about="#BatteryBank">
+        <rdfs:label>BatteryBank</rdfs:label>
+        <rdfs:comment>Battery bank used for backup power for control systems</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="#PowerSystemResource"/>
+    </owl:Class>
+    
+    <!-- ControlSystem -->
+    <owl:Class rdf:about="#ControlSystem">
+        <rdfs:label>ControlSystem</rdfs:label>
+        <rdfs:comment>System for controlling equipment in a substation</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="#PowerSystemResource"/>
+    </owl:Class>
+    
+    <!-- ===================== -->
+    <!-- Optional Equipment    -->
+    <!-- ===================== -->
+    
+    <!-- ShuntCompensator -->
+    <owl:Class rdf:about="#ShuntCompensator">
+        <rdfs:label>ShuntCompensator</rdfs:label>
+        <rdfs:comment>A shunt capacitor or reactor or switchable bank of shunt capacitors or reactors</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="#RegulatingCondEq"/>
+    </owl:Class>
+    
+    <!-- RegulatingCondEq -->
+    <owl:Class rdf:about="#RegulatingCondEq">
+        <rdfs:label>RegulatingCondEq</rdfs:label>
+        <rdfs:comment>Equipment used to regulate voltage or other attributes of the network</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="#ConductingEquipment"/>
+    </owl:Class>
+    
+    <!-- CapacitorBank -->
+    <owl:Class rdf:about="#CapacitorBank">
+        <rdfs:label>CapacitorBank</rdfs:label>
+        <rdfs:comment>Capacitor bank for improving power factor and voltage regulation</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="#ShuntCompensator"/>
+    </owl:Class>
+    
+    <!-- StaticVarCompensator -->
+    <owl:Class rdf:about="#StaticVarCompensator">
+        <rdfs:label>StaticVarCompensator</rdfs:label>
+        <rdfs:comment>A facility for providing fast-acting reactive power compensation on high-voltage electricity transmission networks</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="#RegulatingCondEq"/>
+    </owl:Class>
+    
+    <!-- GasInsulatedSubstation -->
+    <owl:Class rdf:about="#GasInsulatedSubstation">
+        <rdfs:label>GasInsulatedSubstation</rdfs:label>
+        <rdfs:comment>Compact, enclosed switchgear for space-constrained areas</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="#Equipment"/>
+    </owl:Class>
+    
+    <!-- ===================== -->
+    <!-- Structural Equipment  -->
+    <!-- ===================== -->
+    
+    <!-- ControlBuilding -->
+    <owl:Class rdf:about="#ControlBuilding">
+        <rdfs:label>ControlBuilding</rdfs:label>
+        <rdfs:comment>Building to house control and protection equipment</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="#Building"/>
+    </owl:Class>
+    
+    <!-- Structure -->
+    <owl:Class rdf:about="#Structure">
+        <rdfs:label>Structure</rdfs:label>
+        <rdfs:comment>Physical structure that supports electrical equipment</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="#Asset"/>
+    </owl:Class>
+    
+    <!-- SteelStructure -->
+    <owl:Class rdf:about="#SteelStructure">
+        <rdfs:label>SteelStructure</rdfs:label>
+        <rdfs:comment>Steel structure for support of busbars, insulators, etc.</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="#Structure"/>
+    </owl:Class>
+    
+    <!-- Insulator -->
+    <owl:Class rdf:about="#Insulator">
+        <rdfs:label>Insulator</rdfs:label>
+        <rdfs:comment>Device that electrically isolates conductors from structures</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="#Asset"/>
+    </owl:Class>
+    
+    <!-- CableTray -->
+    <owl:Class rdf:about="#CableTray">
+        <rdfs:label>CableTray</rdfs:label>
+        <rdfs:comment>Tray for organizing and protecting wiring</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="#Asset"/>
+    </owl:Class>
+    
+    <!-- LightingSystem -->
+    <owl:Class rdf:about="#LightingSystem">
+        <rdfs:label>LightingSystem</rdfs:label>
+        <rdfs:comment>System for illumination of the substation</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="#Asset"/>
+    </owl:Class>
+    
+    <!-- HVACSystem -->
+    <owl:Class rdf:about="#HVACSystem">
+        <rdfs:label>HVACSystem</rdfs:label>
+        <rdfs:comment>Heating, ventilation, and air conditioning system for substation buildings</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="#Asset"/>
+    </owl:Class>
+    
+    <!-- FireSystem -->
+    <owl:Class rdf:about="#FireSystem">
+        <rdfs:label>FireSystem</rdfs:label>
+        <rdfs:comment>Fire detection and suppression system for control rooms and transformer bays</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="#Asset"/>
+    </owl:Class>
+    
+    <!-- SecuritySystem -->
+    <owl:Class rdf:about="#SecuritySystem">
+        <rdfs:label>SecuritySystem</rdfs:label>
+        <rdfs:comment>Surveillance cameras, access control for the substation</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="#Asset"/>
+    </owl:Class>
+    
+    <!-- ConditionMonitoringSystem -->
+    <owl:Class rdf:about="#ConditionMonitoringSystem">
+        <rdfs:label>ConditionMonitoringSystem</rdfs:label>
+        <rdfs:comment>Real-time health monitoring of transformers and breakers</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="#Asset"/>
+    </owl:Class>
+    
+    <!-- ======================= -->
+    <!-- Object Properties       -->
+    <!-- ======================= -->
+    
+    <owl:ObjectProperty rdf:about="#hasCategory">
+        <rdfs:label>hasCategory</rdfs:label>
+        <rdfs:comment>Categorizes equipment</rdfs:comment>
+        <rdfs:domain rdf:resource="#Equipment"/>
+        <rdfs:range rdf:resource="#EquipmentCategory"/>
+    </owl:ObjectProperty>
+    
+    <owl:ObjectProperty rdf:about="#isConnectedTo">
+        <rdfs:label>isConnectedTo</rdfs:label>
+        <rdfs:comment>Represents a connection between equipment</rdfs:comment>
+        <rdfs:domain rdf:resource="#ConductingEquipment"/>
+        <rdfs:range rdf:resource="#ConductingEquipment"/>
+    </owl:ObjectProperty>
+    
+    <owl:ObjectProperty rdf:about="#isProtectedBy">
+        <rdfs:label>isProtectedBy</rdfs:label>
+        <rdfs:comment>Equipment is protected by protection equipment</rdfs:comment>
+        <rdfs:domain rdf:resource="#ConductingEquipment"/>
+        <rdfs:range rdf:resource="#ProtectionEquipment"/>
+    </owl:ObjectProperty>
+    
+    <owl:ObjectProperty rdf:about="#isMonitoredBy">
+        <rdfs:label>isMonitoredBy</rdfs:label>
+        <rdfs:comment>Equipment is monitored by monitoring equipment</rdfs:comment>
+        <rdfs:domain rdf:resource="#ConductingEquipment"/>
+        <rdfs:range rdf:resource="#Sensor"/>
+    </owl:ObjectProperty>
+    
+    <owl:ObjectProperty rdf:about="#isLocatedIn">
+        <rdfs:label>isLocatedIn</rdfs:label>
+        <rdfs:comment>Equipment is located in a building or structure</rdfs:comment>
+        <rdfs:domain rdf:resource="#Equipment"/>
+        <rdfs:range rdf:resource="#AssetContainer"/>
+    </owl:ObjectProperty>
+    
+    <owl:ObjectProperty rdf:about="#isMountedOn">
+        <rdfs:label>isMountedOn</rdfs:label>
+        <rdfs:comment>Equipment is mounted on a structure</rdfs:comment>
+        <rdfs:domain rdf:resource="#Equipment"/>
+        <rdfs:range rdf:resource="#Structure"/>
+    </owl:ObjectProperty>
+    
+    <owl:ObjectProperty rdf:about="#controls">
+        <rdfs:label>controls</rdfs:label>
+        <rdfs:comment>Control equipment controls power equipment</rdfs:comment>
+        <rdfs:domain rdf:resource="#ControlSystem"/>
+        <rdfs:range rdf:resource="#ConductingEquipment"/>
+    </owl:ObjectProperty>
+    
+    <owl:ObjectProperty rdf:about="#communicatesWith">
+        <rdfs:label>communicatesWith</rdfs:label>
+        <rdfs:comment>Communication link between equipment</rdfs:comment>
+        <rdfs:domain rdf:resource="#RemoteUnit"/>
+        <rdfs:range rdf:resource="#RemoteUnit"/>
+    </owl:ObjectProperty>
+    
+    <!-- ======================= -->
+    <!-- Data Properties         -->
+    <!-- ======================= -->
+    
+    <owl:DatatypeProperty rdf:about="#name">
+        <rdfs:label>name</rdfs:label>
+        <rdfs:comment>The name of the identified object</rdfs:comment>
+        <rdfs:domain rdf:resource="#IdentifiedObject"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+    <owl:DatatypeProperty rdf:about="#description">
+        <rdfs:label>description</rdfs:label>
+        <rdfs:comment>Description of the identified object</rdfs:comment>
+        <rdfs:domain rdf:resource="#IdentifiedObject"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+    <owl:DatatypeProperty rdf:about="#voltage">
+        <rdfs:label>voltage</rdfs:label>
+        <rdfs:comment>Voltage level of the equipment</rdfs:comment>
+        <rdfs:domain rdf:resource="#ConductingEquipment"/>
+        <rdfs:range rdf:resource="&xsd;decimal"/>
+    </owl:DatatypeProperty>
+    
+    <owl:DatatypeProperty rdf:about="#current">
+        <rdfs:label>current</rdfs:label>
+        <rdfs:comment>Current rating of the equipment</rdfs:comment>
+        <rdfs:domain rdf:resource="#ConductingEquipment"/>
+        <rdfs:range rdf:resource="&xsd;decimal"/>
+    </owl:DatatypeProperty>
+    
+    <owl:DatatypeProperty rdf:about="#status">
+        <rdfs:label>status</rdfs:label>
+        <rdfs:comment>Operational status of the equipment</rdfs:comment>
+        <rdfs:domain rdf:resource="#Equipment"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+    <owl:DatatypeProperty rdf:about="#inService">
+        <rdfs:label>inService</rdfs:label>
+        <rdfs:comment>Whether equipment is in service</rdfs:comment>
+        <rdfs:domain rdf:resource="#Equipment"/>
+        <rdfs:range rdf:resource="&xsd;boolean"/>
+    </owl:DatatypeProperty>
+    
+    <owl:DatatypeProperty rdf:about="#installationDate">
+        <rdfs:label>installationDate</rdfs:label>
+        <rdfs:comment>Date when equipment was installed</rdfs:comment>
+        <rdfs:domain rdf:resource="#Asset"/>
+        <rdfs:range rdf:resource="&xsd;date"/>
+    </owl:DatatypeProperty>
+    
+    <owl:DatatypeProperty rdf:about="#manufacturer">
+        <rdfs:label>manufacturer</rdfs:label>
+        <rdfs:comment>Manufacturer of the equipment</rdfs:comment>
+        <rdfs:domain rdf:resource="#Asset"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+    <owl:DatatypeProperty rdf:about="#serialNumber">
+        <rdfs:label>serialNumber</rdfs:label>
+        <rdfs:comment>Serial number of the asset</rdfs:comment>
+        <rdfs:domain rdf:resource="#Asset"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+    <!-- ======================= -->
+    <!-- Equipment Instances     -->
+    <!-- ======================= -->
+    
+    <!-- Example instances for each of the categories in the equipment list -->
+    
+    <owl:NamedIndividual rdf:about="#PowerTransformer_1">
+        <rdf:type rdf:resource="#PowerTransformer"/>
+        <name>Main Transformer 1</name>
+        <description>Step-down transformer for substation main supply</description>
+        <voltage>132000</voltage>
+        <hasCategory rdf:resource="#PrimaryCategory"/>
+    </owl:NamedIndividual>
+    
+    <owl:NamedIndividual rdf:about="#CircuitBreaker_1">
+        <rdf:type rdf:resource="#Breaker"/>
+        <name>Circuit Breaker 1</name>
+        <description>Main circuit breaker for incoming line</description>
+        <hasCategory rdf:resource="#PrimaryCategory"/>
+    </owl:NamedIndividual>
+    
+    <owl:NamedIndividual rdf:about="#Disconnector_1">
+        <rdf:type rdf:resource="#Disconnector"/>
+        <name>Isolator Switch 1</name>
+        <description>Isolation switch for maintenance of transformer</description>
+        <hasCategory rdf:resource="#PrimaryCategory"/>
+    </owl:NamedIndividual>
+    
+    <owl:NamedIndividual rdf:about="#CurrentTransformer_1">
+        <rdf:type rdf:resource="#CurrentTransformer"/>
+        <name>CT 1</name>
+        <description>Current transformer for metering</description>
+        <hasCategory rdf:resource="#PrimaryCategory"/>
+    </owl:NamedIndividual>
+    
+    <owl:NamedIndividual rdf:about="#VoltageTransformer_1">
+        <rdf:type rdf:resource="#PotentialTransformer"/>
+        <name>VT 1</name>
+        <description>Voltage transformer for measurement</description>
+        <hasCategory rdf:resource="#PrimaryCategory"/>
+    </owl:NamedIndividual>
+    
+    <owl:NamedIndividual rdf:about="#Busbar_1">
+        <rdf:type rdf:resource="#BusbarSection"/>
+        <name>Main Busbar Section 1</name>
+        <description>Primary busbar for distribution</description>
+        <hasCategory rdf:resource="#PrimaryCategory"/>
+    </owl:NamedIndividual>
+    
+    <owl:NamedIndividual rdf:about="#SurgeArrester_1">
+        <rdf:type rdf:resource="#SurgeArrester"/>
+        <name>Lightning Arrester 1</name>
+        <description>Protection against lightning strikes</description>
+        <hasCategory rdf:resource="#PrimaryCategory"/>
+    </owl:NamedIndividual>
+    
+    <owl:NamedIndividual rdf:about="#GroundingTransformer_1">
+        <rdf:type rdf:resource="#GroundingImpedance"/>
+        <name>Grounding Transformer 1</name>
+        <description>Provides grounding path in ungrounded system</description>
+        <hasCategory rdf:resource="#PrimaryCategory"/>
+    </owl:NamedIndividual>
+    
+    <owl:NamedIndividual rdf:about="#ProtectionRelay_1">
+        <rdf:type rdf:resource="#ProtectionEquipment"/>
+        <name>Relay 1</name>
+        <description>Overcurrent protection relay</description>
+        <hasCategory rdf:resource="#SecondaryCategory"/>
+    </owl:NamedIndividual>
+    
+    <owl:NamedIndividual rdf:about="#RTU_1">
+        <rdf:type rdf:resource="#RemoteUnit"/>
+        <name>Remote Terminal Unit 1</name>
+        <description>Interface between field devices and SCADA</description>
+        <hasCategory rdf:resource="#SecondaryCategory"/>
+    </owl:NamedIndividual>
+    
+    <owl:NamedIndividual rdf:about="#ControlPanel_1">
+        <rdf:type rdf:resource="#ControlSystem"/>
+        <name>Control Panel 1</name>
+        <description>Main control panel for substation</description>
+        <hasCategory rdf:resource="#SecondaryCategory"/>
+    </owl:NamedIndividual>
+    
+    <owl:NamedIndividual rdf:about="#BatteryBank_1">
+        <rdf:type rdf:resource="#BatteryBank"/>
+        <name>Battery Bank 1</name>
+        <description>Backup power for control systems</description>
+        <hasCategory rdf:resource="#SecondaryCategory"/>
+    </owl:NamedIndividual>
+    
+    <owl:NamedIndividual rdf:about="#FiberOptic_1">
+        <rdf:type rdf:resource="#CommunicationLink"/>
+        <name>Fiber Optic Network 1</name>
+        <description>Communication network for substation</description>
+        <hasCategory rdf:resource="#SecondaryCategory"/>
+    </owl:NamedIndividual>
+    
+    <owl:NamedIndividual rdf:about="#SteelStructure_1">
+        <rdf:type rdf:resource="#SteelStructure"/>
+        <name>Support Structure 1</name>
+        <description>Steel structure for busbar support</description>
+        <hasCategory rdf:resource="#StructuralCategory"/>
+    </owl:NamedIndividual>
+    
+    <owl:NamedIndividual rdf:about="#Insulator_1">
+        <rdf:type rdf:resource="#Insulator"/>
+        <name>Insulator 1</name>
+        <description>Ceramic insulator for high voltage</description>
+        <hasCategory rdf:resource="#StructuralCategory"/>
+    </owl:NamedIndividual>
+    
+    <owl:NamedIndividual rdf:about="#ControlBuilding_1">
+        <rdf:type rdf:resource="#ControlBuilding"/>
+        <name>Control House 1</name>
+        <description>Building for housing control equipment</description>
+        <hasCategory rdf:resource="#StructuralCategory"/>
+    </owl:NamedIndividual>
+    
+    <owl:NamedIndividual rdf:about="#CableTray_1">
+        <rdf:type rdf:resource="#CableTray"/>
+        <name>Cable Tray System 1</name>
+        <description>Organization of control cables</description>
+        <hasCategory rdf:resource="#StructuralCategory"/>
+    </owl:NamedIndividual>
+    
+    <owl:NamedIndividual rdf:about="#LightingSystem_1">
+        <rdf:type rdf:resource="#LightingSystem"/>
+        <name>Substation Lighting 1</name>
+        <description>Illumination for the substation yard</description>
+        <hasCategory rdf:resource="#StructuralCategory"/>
+    </owl:NamedIndividual>
+    
+    <owl:NamedIndividual rdf:about="#GIS_1">
+        <rdf:type rdf:resource="#GasInsulatedSubstation"/>
+        <name>GIS Bay 1</name>
+        <description>Compact switchgear for space constraints</description>
+        <hasCategory rdf:resource="#OptionalCategory"/>
+    </owl:NamedIndividual>
+    
+    <owl:NamedIndividual rdf:about="#ShuntReactor_1">
+        <rdf:type rdf:resource="#ShuntCompensator"/>
+        <name>Shunt Reactor 1</name>
+        <description>Absorbs reactive power to stabilize voltage</description>
+        <hasCategory rdf:resource="#OptionalCategory"/>
+    </owl:NamedIndividual>
+    
+    <owl:NamedIndividual rdf:about="#CapacitorBank_1">
+        <rdf:type rdf:resource="#CapacitorBank"/>
+        <name>Capacitor Bank 1</name>
+        <description>Improves power factor and voltage regulation</description>
+        <hasCategory rdf:resource="#OptionalCategory"/>
+    </owl:NamedIndividual>
+    
+    <owl:NamedIndividual rdf:about="#SVC_1">
+        <rdf:type rdf:resource="#StaticVarCompensator"/>
+        <name>Static VAR Compensator 1</name>
+        <description>Dynamic reactive power compensation</description>
+        <hasCategory rdf:resource="#OptionalCategory"/>
+    </owl:NamedIndividual>
+    
+    <owl:NamedIndividual rdf:about="#FireSystem_1">
+        <rdf:type rdf:resource="#FireSystem"/>
+        <name>Fire Suppression System 1</name>
+        <description>Fire detection and suppression for transformer bay</description>
+        <hasCategory rdf:resource="#OptionalCategory"/>
+    </owl:NamedIndividual>
+    
+    <owl:NamedIndividual rdf:about="#ConditionMonitoring_1">
+        <rdf:type rdf:resource="#ConditionMonitoringSystem"/>
+        <name>Transformer Monitor 1</name>
+        <description>Real-time health monitoring of transformer</description>
+        <hasCategory rdf:resource="#OptionalCategory"/>
+    </owl:NamedIndividual>
+    
+    <owl:NamedIndividual rdf:about="#SecuritySystem_1">
+        <rdf:type rdf:resource="#SecuritySystem"/>
+        <name>Substation Security System</name>
+        <description>Surveillance cameras and access control</description>
+        <hasCategory rdf:resource="#OptionalCategory"/>
+    </owl:NamedIndividual>
+    
+    <!-- Relationship Examples -->
+    <rdf:Description rdf:about="#PowerTransformer_1">
+        <isProtectedBy rdf:resource="#ProtectionRelay_1"/>
+        <isMonitoredBy rdf:resource="#CurrentTransformer_1"/>
+        <isMonitoredBy rdf:resource="#VoltageTransformer_1"/>
+        <isMountedOn rdf:resource="#SteelStructure_1"/>
+        <isConnectedTo rdf:resource="#Busbar_1"/>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="#CircuitBreaker_1">
+        <isProtectedBy rdf:resource="#ProtectionRelay_1"/>
+        <isConnectedTo rdf:resource="#Busbar_1"/>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="#RTU_1">
+        <isLocatedIn rdf:resource="#ControlBuilding_1"/>
+        <communicatesWith rdf:resource="#ControlPanel_1"/>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="#ControlPanel_1">
+        <isLocatedIn rdf:resource="#ControlBuilding_1"/>
+        <controls rdf:resource="#CircuitBreaker_1"/>
+    </rdf:Description>
+</rdf:RDF>
