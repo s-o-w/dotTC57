@@ -12,20 +12,29 @@ namespace TC57CIM.IEC61970.InfIEC61970.InfOperationalLimits {
 	/// </summary>
 	public class ScheduledApparentPowerLimitValue : ScheduledLimitValue {
 
-		/// <summary>
-		/// The apparent power limit value for the scheduled time.
-		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ApparentPower value;
+/// <summary>
+/// The apparent power limit value for the scheduled time.
+/// </summary>
+public TC57CIM.IEC61970.Base.Domain.ApparentPower? value;
 
-		public ScheduledApparentPowerLimitValue(){
+	   /// <summary>
+	   /// Initializes a new instance of the <see cref="ScheduledApparentPowerLimitValue"/> class.
+	   /// </summary>
+	   public ScheduledApparentPowerLimitValue(){
 
 		}
 
-		~ScheduledApparentPowerLimitValue(){
+	   /// <summary>
+	   /// Finalizes an instance of the <see cref="ScheduledApparentPowerLimitValue"/> class.
+	   /// </summary>
+	   ~ScheduledApparentPowerLimitValue(){
 
 		}
 
-		public override void Dispose(){
+	   /// <summary>
+	   /// Releases resources used by the <see cref="ScheduledApparentPowerLimitValue"/> class.
+	   /// </summary>
+	   public override void Dispose(){
 
 		}
 

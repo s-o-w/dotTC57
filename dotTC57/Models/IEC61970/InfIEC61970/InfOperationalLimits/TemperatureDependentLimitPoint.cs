@@ -12,24 +12,42 @@ namespace TC57CIM.IEC61970.InfIEC61970.InfOperationalLimits {
 	/// </summary>
 	public class TemperatureDependentLimitPoint {
 
-		/// <summary>
-		/// The scaling of the operational limit in percent.
-		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PerCent limitPercent;
-		/// <summary>
-		/// The temperature of the table point.
-		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Temperature temperature;
+	   /// <summary>
+	   /// The scaling of the operational limit in percent.
+	   /// </summary>
+	   public TC57CIM.IEC61970.Base.Domain.PerCent? limitPercent;
+	   /// <summary>
+	   /// The temperature of the table point.
+	   /// </summary>
+	   public TC57CIM.IEC61970.Base.Domain.Temperature? temperature;
 
-		public TemperatureDependentLimitPoint(){
+		/// <summary>
+		/// Initializes a new instance of the <see cref="TemperatureDependentLimitPoint"/> class.
+		/// </summary>
+	   /// <summary>
+	   /// Initializes a new instance of the <see cref="TemperatureDependentLimitPoint"/> class.
+	   /// </summary>
+	   public TemperatureDependentLimitPoint(){
 
 		}
 
-		~TemperatureDependentLimitPoint(){
+		/// <summary>
+		/// Finalizes an instance of the <see cref="TemperatureDependentLimitPoint"/> class.
+		/// </summary>
+	   /// <summary>
+	   /// Finalizes an instance of the <see cref="TemperatureDependentLimitPoint"/> class.
+	   /// </summary>
+	   ~TemperatureDependentLimitPoint(){
 
 		}
 
-		public virtual void Dispose(){
+		/// <summary>
+		/// Releases resources used by the <see cref="TemperatureDependentLimitPoint"/> class.
+		/// </summary>
+	   /// <summary>
+	   /// Releases resources used by the <see cref="TemperatureDependentLimitPoint"/> class.
+	   /// </summary>
+	   public virtual void Dispose(){
 
 		}
 

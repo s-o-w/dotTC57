@@ -15,24 +15,39 @@ namespace TC57CIM.IEC61970.InfIEC61970.InfOperationalLimits {
 	/// </summary>
 	public class OperatonalLimitTypeScaling {
 
-		/// <summary>
-		/// The percentage scaling of the source limit to compute the target limit.  Applys
-		/// to operational limits within an operaitonal limit set when both source and
-		/// target operational limit types exist.
-		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PerCent scalingPercent;
-		public TC57CIM.IEC61970.Base.OperationalLimits.OperationalLimitType SourceOperationalLimitType;
-		public TC57CIM.IEC61970.Base.OperationalLimits.OperationalLimitType TargetOperationalLimit;
+	   /// <summary>
+	   /// The percentage scaling of the source limit to compute the target limit. Applies
+	   /// to operational limits within an operational limit set when both source and
+	   /// target operational limit types exist.
+	   /// </summary>
+	   public TC57CIM.IEC61970.Base.Domain.PerCent? scalingPercent;
+	   /// <summary>
+	   /// The source operational limit type.
+	   /// </summary>
+	   public TC57CIM.IEC61970.Base.OperationalLimits.OperationalLimitType? SourceOperationalLimitType;
+	   /// <summary>
+	   /// The target operational limit type.
+	   /// </summary>
+	   public TC57CIM.IEC61970.Base.OperationalLimits.OperationalLimitType? TargetOperationalLimit;
 
-		public OperatonalLimitTypeScaling(){
+	   /// <summary>
+	   /// Initializes a new instance of the <see cref="OperatonalLimitTypeScaling"/> class.
+	   /// </summary>
+	   public OperatonalLimitTypeScaling(){
 
 		}
 
-		~OperatonalLimitTypeScaling(){
+	   /// <summary>
+	   /// Finalizes an instance of the <see cref="OperatonalLimitTypeScaling"/> class.
+	   /// </summary>
+	   ~OperatonalLimitTypeScaling(){
 
 		}
 
-		public virtual void Dispose(){
+	   /// <summary>
+	   /// Releases resources used by the <see cref="OperatonalLimitTypeScaling"/> class.
+	   /// </summary>
+	   public virtual void Dispose(){
 
 		}
 

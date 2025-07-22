@@ -13,17 +13,29 @@ namespace TC57CIM.IEC61970.InfIEC61970.InfOperationalLimits {
 	/// </summary>
 	public class TemperatureDependentLimitTable : EnvironmentalDependentLimit {
 
-		public TC57CIM.IEC61970.InfIEC61970.InfOperationalLimits.TemperatureDependentLimitPoint TemperatureLimitTablePoint;
+/// <summary>
+/// The temperature limit table point for this table.
+/// </summary>
+public TC57CIM.IEC61970.InfIEC61970.InfOperationalLimits.TemperatureDependentLimitPoint? TemperatureLimitTablePoint;
 
-		public TemperatureDependentLimitTable(){
+	   /// <summary>
+	   /// Initializes a new instance of the <see cref="TemperatureDependentLimitTable"/> class.
+	   /// </summary>
+	   public TemperatureDependentLimitTable(){
 
 		}
 
-		~TemperatureDependentLimitTable(){
+	   /// <summary>
+	   /// Finalizes an instance of the <see cref="TemperatureDependentLimitTable"/> class.
+	   /// </summary>
+	   ~TemperatureDependentLimitTable(){
 
 		}
 
-		public override void Dispose(){
+	   /// <summary>
+	   /// Releases resources used by the <see cref="TemperatureDependentLimitTable"/> class.
+	   /// </summary>
+	   public override void Dispose(){
 
 		}
 

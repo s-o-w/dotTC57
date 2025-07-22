@@ -16,33 +16,45 @@ namespace TC57CIM.IEC61970.InfIEC61970.InfOperationalLimits {
 		/// <summary>
 		/// The polinomial coefficent of power 0.
 		/// </summary>
-		public float coefficient0;
-		/// <summary>
-		/// The polinomial coefficent of power 1.
-		/// </summary>
-		public float coefficient1;
-		/// <summary>
-		/// The polinomial coefficent of power 2.
-		/// </summary>
-		public float coefficient2;
-		/// <summary>
-		/// The polinomial coefficent of power 3.
-		/// </summary>
-		public float coefficient3;
-		/// <summary>
-		/// The polinomial coefficent of power 4.
-		/// </summary>
-		public float coefficient4;
+	   /// <summary>
+	   /// The polynomial coefficient of power 0.
+	   /// </summary>
+	   public float? coefficient0;
+	   /// <summary>
+	   /// The polynomial coefficient of power 1.
+	   /// </summary>
+	   public float? coefficient1;
+	   /// <summary>
+	   /// The polynomial coefficient of power 2.
+	   /// </summary>
+	   public float? coefficient2;
+	   /// <summary>
+	   /// The polynomial coefficient of power 3.
+	   /// </summary>
+	   public float? coefficient3;
+	   /// <summary>
+	   /// The polynomial coefficient of power 4.
+	   /// </summary>
+	   public float? coefficient4;
 
-		public TemperaturePolynomialLimit(){
+	   /// <summary>
+	   /// Initializes a new instance of the <see cref="TemperaturePolynomialLimit"/> class.
+	   /// </summary>
+	   public TemperaturePolynomialLimit(){
 
 		}
 
-		~TemperaturePolynomialLimit(){
+	   /// <summary>
+	   /// Finalizes an instance of the <see cref="TemperaturePolynomialLimit"/> class.
+	   /// </summary>
+	   ~TemperaturePolynomialLimit(){
 
 		}
 
-		public override void Dispose(){
+	   /// <summary>
+	   /// Releases resources used by the <see cref="TemperaturePolynomialLimit"/> class.
+	   /// </summary>
+	   public override void Dispose(){
 
 		}
 

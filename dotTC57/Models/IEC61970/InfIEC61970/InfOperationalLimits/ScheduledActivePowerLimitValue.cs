@@ -9,17 +9,29 @@
 namespace TC57CIM.IEC61970.InfIEC61970.InfOperationalLimits {
 	public class ScheduledActivePowerLimitValue : ScheduledLimitValue {
 
-		public TC57CIM.IEC61970.Base.Domain.ActivePower value;
+/// <summary>
+/// The active power limit value for the scheduled time.
+/// </summary>
+public TC57CIM.IEC61970.Base.Domain.ActivePower? value;
 
-		public ScheduledActivePowerLimitValue(){
+	   /// <summary>
+	   /// Initializes a new instance of the <see cref="ScheduledActivePowerLimitValue"/> class.
+	   /// </summary>
+	   public ScheduledActivePowerLimitValue(){
 
 		}
 
-		~ScheduledActivePowerLimitValue(){
+	   /// <summary>
+	   /// Finalizes an instance of the <see cref="ScheduledActivePowerLimitValue"/> class.
+	   /// </summary>
+	   ~ScheduledActivePowerLimitValue(){
 
 		}
 
-		public override void Dispose(){
+	   /// <summary>
+	   /// Releases resources used by the <see cref="ScheduledActivePowerLimitValue"/> class.
+	   /// </summary>
+	   public override void Dispose(){
 
 		}
 

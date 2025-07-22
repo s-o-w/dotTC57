@@ -12,20 +12,29 @@ namespace TC57CIM.IEC61970.InfIEC61970.InfOperationalLimits {
 	/// </summary>
 	public class ScheduledVoltageLimitValue : ScheduledLimitValue {
 
-		/// <summary>
-		/// The voltage limit value for the scheduled time.
-		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Voltage value;
+/// <summary>
+/// The voltage limit value for the scheduled time.
+/// </summary>
+public TC57CIM.IEC61970.Base.Domain.Voltage? value;
 
-		public ScheduledVoltageLimitValue(){
+	   /// <summary>
+	   /// Initializes a new instance of the <see cref="ScheduledVoltageLimitValue"/> class.
+	   /// </summary>
+	   public ScheduledVoltageLimitValue(){
 
 		}
 
-		~ScheduledVoltageLimitValue(){
+	   /// <summary>
+	   /// Finalizes an instance of the <see cref="ScheduledVoltageLimitValue"/> class.
+	   /// </summary>
+	   ~ScheduledVoltageLimitValue(){
 
 		}
 
-		public override void Dispose(){
+	   /// <summary>
+	   /// Releases resources used by the <see cref="ScheduledVoltageLimitValue"/> class.
+	   /// </summary>
+	   public override void Dispose(){
 
 		}
 

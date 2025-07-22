@@ -13,21 +13,30 @@ namespace TC57CIM.IEC61970.InfIEC61970.InfOperationalLimits {
 	/// </summary>
 	public class ScheduledLimitValue : IdentifiedObject {
 
-		/// <summary>
-		/// The season for which the scheduled limits applies.    If not specified, then
-		/// applicable ot any season.
-		/// </summary>
-		public TC57CIM.IEC61970.Base.LoadModel.Season Season;
+	   /// <summary>
+	   /// The season for which the scheduled limits applies. If not specified, then
+	   /// applicable to any season.
+	   /// </summary>
+	   public TC57CIM.IEC61970.Base.LoadModel.Season? Season;
 
-		public ScheduledLimitValue(){
+	   /// <summary>
+	   /// Initializes a new instance of the <see cref="ScheduledLimitValue"/> class.
+	   /// </summary>
+	   public ScheduledLimitValue(){
 
 		}
 
-		~ScheduledLimitValue(){
+	   /// <summary>
+	   /// Finalizes an instance of the <see cref="ScheduledLimitValue"/> class.
+	   /// </summary>
+	   ~ScheduledLimitValue(){
 
 		}
 
-		public override void Dispose(){
+	   /// <summary>
+	   /// Releases resources used by the <see cref="ScheduledLimitValue"/> class.
+	   /// </summary>
+	   public override void Dispose(){
 
 		}
 

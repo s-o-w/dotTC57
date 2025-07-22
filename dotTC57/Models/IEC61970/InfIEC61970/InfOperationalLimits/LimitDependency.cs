@@ -16,15 +16,24 @@ namespace TC57CIM.IEC61970.InfIEC61970.InfOperationalLimits {
 	/// </summary>
 	public class LimitDependency : IdentifiedObject {
 
-		public LimitDependency(){
+	   /// <summary>
+	   /// Initializes a new instance of the <see cref="LimitDependency"/> class.
+	   /// </summary>
+	   public LimitDependency(){
 
 		}
 
-		~LimitDependency(){
+	   /// <summary>
+	   /// Finalizes an instance of the <see cref="LimitDependency"/> class.
+	   /// </summary>
+	   ~LimitDependency(){
 
 		}
 
-		public override void Dispose(){
+	   /// <summary>
+	   /// Releases resources used by the <see cref="LimitDependency"/> class.
+	   /// </summary>
+	   public override void Dispose(){
 
 		}
 

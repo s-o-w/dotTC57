@@ -8,21 +8,45 @@
 
 using TC57CIM.IEC61970.Base.Core;
 namespace TC57CIM.IEC61970.InfIEC61970.EnergyArea {
+	/// <summary>
+	/// Represents an energy group in the energy area.
+	/// </summary>
 	public class EnergyGroup : PowerSystemResource {
 
+		/// <summary>
+		/// Indicates if this group is a slack group.
+		/// </summary>
 		public bool isSlack;
-		public TC57CIM.IEC61970.Base.Domain.ActivePower p;
-		public TC57CIM.IEC61970.InfIEC61970.EnergyArea.EnergyTypeReference m_EnergyTypeReference;
-		public TC57CIM.IEC61970.Base.ControlArea.ControlArea m_ControlArea;
+		/// <summary>
+		/// The active power value for the energy group.
+		/// </summary>
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? p;
+		/// <summary>
+		/// The energy type reference associated with this group.
+		/// </summary>
+		public TC57CIM.IEC61970.InfIEC61970.EnergyArea.EnergyTypeReference? m_EnergyTypeReference;
+		/// <summary>
+		/// The control area associated with this group.
+		/// </summary>
+		public TC57CIM.IEC61970.Base.ControlArea.ControlArea? m_ControlArea;
 
+		/// <summary>
+		/// Initializes a new instance of the <see cref="EnergyGroup"/> class.
+		/// </summary>
 		public EnergyGroup(){
 
 		}
 
+		/// <summary>
+		/// Finalizes an instance of the <see cref="EnergyGroup"/> class.
+		/// </summary>
 		~EnergyGroup(){
 
 		}
 
+		/// <summary>
+		/// Releases resources used by the <see cref="EnergyGroup"/> class.
+		/// </summary>
 		public override void Dispose(){
 
 		}

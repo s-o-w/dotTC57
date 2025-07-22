@@ -13,14 +13,23 @@ namespace TC57CIM.IEC61970.InfIEC61970.InfOperationalLimits {
 	/// </summary>
 	public class WeatherStation : PowerSystemResource {
 
+		/// <summary>
+		/// Initializes a new instance of the <see cref="WeatherStation"/> class.
+		/// </summary>
 		public WeatherStation(){
 
 		}
 
+		/// <summary>
+		/// Finalizes an instance of the <see cref="WeatherStation"/> class.
+		/// </summary>
 		~WeatherStation(){
 
 		}
 
+		/// <summary>
+		/// Releases resources used by the <see cref="WeatherStation"/> class.
+		/// </summary>
 		public override void Dispose(){
 
 		}

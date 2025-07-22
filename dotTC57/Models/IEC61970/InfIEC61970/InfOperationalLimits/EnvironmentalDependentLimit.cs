@@ -13,15 +13,24 @@ namespace TC57CIM.IEC61970.InfIEC61970.InfOperationalLimits {
 	/// </summary>
 	public class EnvironmentalDependentLimit : LimitDependency {
 
-		public EnvironmentalDependentLimit(){
+	   /// <summary>
+	   /// Initializes a new instance of the <see cref="EnvironmentalDependentLimit"/> class.
+	   /// </summary>
+	   public EnvironmentalDependentLimit(){
 
 		}
 
-		~EnvironmentalDependentLimit(){
+	   /// <summary>
+	   /// Finalizes an instance of the <see cref="EnvironmentalDependentLimit"/> class.
+	   /// </summary>
+	   ~EnvironmentalDependentLimit(){
 
 		}
 
-		public override void Dispose(){
+	   /// <summary>
+	   /// Releases resources used by the <see cref="EnvironmentalDependentLimit"/> class.
+	   /// </summary>
+	   public override void Dispose(){
 
 		}
 

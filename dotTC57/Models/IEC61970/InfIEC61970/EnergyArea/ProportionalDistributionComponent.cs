@@ -7,18 +7,33 @@
 ///////////////////////////////////////////////////////////
 
 namespace TC57CIM.IEC61970.InfIEC61970.EnergyArea {
+	/// <summary>
+	/// Represents a proportional distribution component in the energy area.
+	/// </summary>
 	public class ProportionalDistributionComponent : EnergyComponent {
 
-		public TC57CIM.IEC61970.Base.Domain.ActivePower distributionFactor;
+		/// <summary>
+		/// The distribution factor for proportional distribution.
+		/// </summary>
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? distributionFactor;
 
+		/// <summary>
+		/// Initializes a new instance of the <see cref="ProportionalDistributionComponent"/> class.
+		/// </summary>
 		public ProportionalDistributionComponent(){
 
 		}
 
+		/// <summary>
+		/// Finalizes an instance of the <see cref="ProportionalDistributionComponent"/> class.
+		/// </summary>
 		~ProportionalDistributionComponent(){
 
 		}
 
+		/// <summary>
+		/// Releases resources used by the <see cref="ProportionalDistributionComponent"/> class.
+		/// </summary>
 		public override void Dispose(){
 
 		}

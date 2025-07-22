@@ -8,18 +8,33 @@
 
 using TC57CIM.IEC61970.Base.Core;
 namespace TC57CIM.IEC61970.InfIEC61970.EnergyArea {
+	/// <summary>
+	/// Represents an energy type reference in the energy area.
+	/// </summary>
 	public class EnergyTypeReference : IdentifiedObject {
 
+		/// <summary>
+		/// The kind of energy type referenced.
+		/// </summary>
 		public EnergyTypeKind kind;
 
+		/// <summary>
+		/// Initializes a new instance of the <see cref="EnergyTypeReference"/> class.
+		/// </summary>
 		public EnergyTypeReference(){
 
 		}
 
+		/// <summary>
+		/// Finalizes an instance of the <see cref="EnergyTypeReference"/> class.
+		/// </summary>
 		~EnergyTypeReference(){
 
 		}
 
+		/// <summary>
+		/// Releases resources used by the <see cref="EnergyTypeReference"/> class.
+		/// </summary>
 		public override void Dispose(){
 
 		}

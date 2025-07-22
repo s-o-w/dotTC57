@@ -8,19 +8,37 @@
 
 using TC57CIM.IEC61970.Base.Wires;
 namespace TC57CIM.IEC61970.InfIEC61970.Feeder {
+	/// <summary>
+	/// Represents a circuit, which is a specialized line with end bay and terminal information.
+	/// </summary>
 	public class Circuit : Line {
 
-		public TC57CIM.IEC61970.Base.Core.Bay EndBay;
-		public TC57CIM.IEC61970.Base.Core.Terminal EndTerminal;
+		/// <summary>
+		/// The bay at the end of the circuit.
+		/// </summary>
+		public TC57CIM.IEC61970.Base.Core.Bay? EndBay;
+		/// <summary>
+		/// The terminal at the end of the circuit.
+		/// </summary>
+		public TC57CIM.IEC61970.Base.Core.Terminal? EndTerminal;
 
+		/// <summary>
+		/// Initializes a new instance of the <see cref="Circuit"/> class.
+		/// </summary>
 		public Circuit(){
 
 		}
 
+		/// <summary>
+		/// Finalizes an instance of the <see cref="Circuit"/> class.
+		/// </summary>
 		~Circuit(){
 
 		}
 
+		/// <summary>
+		/// Releases resources used by the <see cref="Circuit"/> class.
+		/// </summary>
 		public override void Dispose(){
 
 		}

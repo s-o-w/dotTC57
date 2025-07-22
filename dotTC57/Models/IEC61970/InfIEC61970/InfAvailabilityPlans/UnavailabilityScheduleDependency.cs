@@ -8,19 +8,37 @@
 
 using TC57CIM.IEC61970.Base.Core;
 namespace TC57CIM.IEC61970.InfIEC61970.InfAvailabilityPlans {
+	/// <summary>
+	/// Represents a dependency between unavailability schedules.
+	/// </summary>
 	public class UnavailabilityScheduleDependency : IdentifiedObject {
 
-		public TC57CIM.IEC61970.InfIEC61970.InfAvailabilityPlans.UnavailablitySchedule UnavailabilityScheduleImpacts;
-		public TC57CIM.IEC61970.InfIEC61970.InfAvailabilityPlans.UnavailablitySchedule UnavailabilityScheduleDependsOn;
+		/// <summary>
+		/// The schedule that is impacted by this dependency.
+		/// </summary>
+		public TC57CIM.IEC61970.InfIEC61970.InfAvailabilityPlans.UnavailablitySchedule? UnavailabilityScheduleImpacts;
+		/// <summary>
+		/// The schedule that this dependency depends on.
+		/// </summary>
+		public TC57CIM.IEC61970.InfIEC61970.InfAvailabilityPlans.UnavailablitySchedule? UnavailabilityScheduleDependsOn;
 
+		/// <summary>
+		/// Initializes a new instance of the <see cref="UnavailabilityScheduleDependency"/> class.
+		/// </summary>
 		public UnavailabilityScheduleDependency(){
 
 		}
 
+		/// <summary>
+		/// Finalizes an instance of the <see cref="UnavailabilityScheduleDependency"/> class.
+		/// </summary>
 		~UnavailabilityScheduleDependency(){
 
 		}
 
+		/// <summary>
+		/// Releases resources used by the <see cref="UnavailabilityScheduleDependency"/> class.
+		/// </summary>
 		public override void Dispose(){
 
 		}

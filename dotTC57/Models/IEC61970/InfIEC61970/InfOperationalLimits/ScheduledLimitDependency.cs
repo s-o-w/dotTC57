@@ -9,20 +9,29 @@
 namespace TC57CIM.IEC61970.InfIEC61970.InfOperationalLimits {
 	public class ScheduledLimitDependency : LimitDependency {
 
-		/// <summary>
-		/// The scheduled limit values for this limit dependency.
-		/// </summary>
-		public TC57CIM.IEC61970.InfIEC61970.InfOperationalLimits.ScheduledLimitValue ScheduledLimitValues;
+/// <summary>
+/// The scheduled limit values for this limit dependency.
+/// </summary>
+public TC57CIM.IEC61970.InfIEC61970.InfOperationalLimits.ScheduledLimitValue? ScheduledLimitValues;
 
-		public ScheduledLimitDependency(){
+	   /// <summary>
+	   /// Initializes a new instance of the <see cref="ScheduledLimitDependency"/> class.
+	   /// </summary>
+	   public ScheduledLimitDependency(){
 
 		}
 
-		~ScheduledLimitDependency(){
+	   /// <summary>
+	   /// Finalizes an instance of the <see cref="ScheduledLimitDependency"/> class.
+	   /// </summary>
+	   ~ScheduledLimitDependency(){
 
 		}
 
-		public override void Dispose(){
+	   /// <summary>
+	   /// Releases resources used by the <see cref="ScheduledLimitDependency"/> class.
+	   /// </summary>
+	   public override void Dispose(){
 
 		}
 

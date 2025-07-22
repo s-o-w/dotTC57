@@ -18,16 +18,28 @@ namespace TC57CIM.IEC61970.InfIEC61970.InfAvailabilityPlans {
 		/// <summary>
 		/// The period of time for which the plan is valid.
 		/// </summary>
-		public DateTimeInterval validPeriod;
+		/// <summary>
+		/// The period of time for which the plan is valid.
+		/// </summary>
+		public DateTimeInterval? validPeriod;
 
+		/// <summary>
+		/// Initializes a new instance of the <see cref="AvailablityPlan"/> class.
+		/// </summary>
 		public AvailablityPlan(){
 
 		}
 
+		/// <summary>
+		/// Finalizes an instance of the <see cref="AvailablityPlan"/> class.
+		/// </summary>
 		~AvailablityPlan(){
 
 		}
 
+		/// <summary>
+		/// Releases resources used by the <see cref="AvailablityPlan"/> class.
+		/// </summary>
 		public override void Dispose(){
 
 		}

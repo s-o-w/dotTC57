@@ -8,19 +8,37 @@
 
 using TC57CIM.IEC61970.Base.Core;
 namespace TC57CIM.IEC61970.InfIEC61970.EnergyArea {
+	/// <summary>
+	/// Represents a block dispatch instruction in the energy area.
+	/// </summary>
 	public class BlockDispatchInstruction : IdentifiedObject {
 
-		public TC57CIM.IEC61970.InfIEC61970.EnergyArea.BlockDispatchOrder m_BlockDispatchOrder;
-		public TC57CIM.IEC61970.InfIEC61970.EnergyArea.EnergyGroup m_EnergyGroup;
+		/// <summary>
+		/// The block dispatch order associated with this instruction.
+		/// </summary>
+		public TC57CIM.IEC61970.InfIEC61970.EnergyArea.BlockDispatchOrder? m_BlockDispatchOrder;
+		/// <summary>
+		/// The energy group associated with this instruction.
+		/// </summary>
+		public TC57CIM.IEC61970.InfIEC61970.EnergyArea.EnergyGroup? m_EnergyGroup;
 
+		/// <summary>
+		/// Initializes a new instance of the <see cref="BlockDispatchInstruction"/> class.
+		/// </summary>
 		public BlockDispatchInstruction(){
 
 		}
 
+		/// <summary>
+		/// Finalizes an instance of the <see cref="BlockDispatchInstruction"/> class.
+		/// </summary>
 		~BlockDispatchInstruction(){
 
 		}
 
+		/// <summary>
+		/// Releases resources used by the <see cref="BlockDispatchInstruction"/> class.
+		/// </summary>
 		public override void Dispose(){
 
 		}

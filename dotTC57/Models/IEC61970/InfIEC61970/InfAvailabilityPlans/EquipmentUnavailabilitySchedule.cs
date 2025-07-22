@@ -8,19 +8,37 @@
 
 using TC57CIM.IEC61970.Base.Core;
 namespace TC57CIM.IEC61970.InfIEC61970.InfAvailabilityPlans {
+	/// <summary>
+	/// Represents an equipment unavailability schedule.
+	/// </summary>
 	public class EquipmentUnavailabilitySchedule : IdentifiedObject {
 
-		public TC57CIM.IEC61970.InfIEC61970.InfAvailabilityPlans.UnavailablitySchedule m_UnavailablitySchedule;
-		public TC57CIM.IEC61970.Base.Core.Equipment m_Equipment;
+		/// <summary>
+		/// The unavailability schedule associated with this equipment.
+		/// </summary>
+		public TC57CIM.IEC61970.InfIEC61970.InfAvailabilityPlans.UnavailablitySchedule? m_UnavailablitySchedule;
+		/// <summary>
+		/// The equipment associated with this unavailability schedule.
+		/// </summary>
+		public TC57CIM.IEC61970.Base.Core.Equipment? m_Equipment;
 
+		/// <summary>
+		/// Initializes a new instance of the <see cref="EquipmentUnavailabilitySchedule"/> class.
+		/// </summary>
 		public EquipmentUnavailabilitySchedule(){
 
 		}
 
+		/// <summary>
+		/// Finalizes an instance of the <see cref="EquipmentUnavailabilitySchedule"/> class.
+		/// </summary>
 		~EquipmentUnavailabilitySchedule(){
 
 		}
 
+		/// <summary>
+		/// Releases resources used by the <see cref="EquipmentUnavailabilitySchedule"/> class.
+		/// </summary>
 		public override void Dispose(){
 
 		}

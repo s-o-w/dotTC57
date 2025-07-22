@@ -19,17 +19,32 @@ namespace TC57CIM.IEC61970.InfIEC61970.InfAvailabilityPlans {
 		/// The switch is to be open during the scheduled period.
 		/// </summary>
 		public bool open;
-		public TC57CIM.IEC61970.InfIEC61970.InfAvailabilityPlans.EquipmentUnavailabilitySchedule m_EquipmentUnavailabilitySchedule;
-		public TC57CIM.IEC61970.Base.Wires.Switch m_Switch;
+		/// <summary>
+		/// The equipment unavailability schedule associated with this switch action.
+		/// </summary>
+		public TC57CIM.IEC61970.InfIEC61970.InfAvailabilityPlans.EquipmentUnavailabilitySchedule? m_EquipmentUnavailabilitySchedule;
+		/// <summary>
+		/// The switch associated with this unavailability switch action.
+		/// </summary>
+		public TC57CIM.IEC61970.Base.Wires.Switch? m_Switch;
 
+		/// <summary>
+		/// Initializes a new instance of the <see cref="UnavailabilitySwitchAction"/> class.
+		/// </summary>
 		public UnavailabilitySwitchAction(){
 
 		}
 
+		/// <summary>
+		/// Finalizes an instance of the <see cref="UnavailabilitySwitchAction"/> class.
+		/// </summary>
 		~UnavailabilitySwitchAction(){
 
 		}
 
+		/// <summary>
+		/// Releases resources used by the <see cref="UnavailabilitySwitchAction"/> class.
+		/// </summary>
 		public override void Dispose(){
 
 		}

@@ -7,16 +7,28 @@
 ///////////////////////////////////////////////////////////
 
 namespace TC57CIM.IEC61970.InfIEC61970.EnergyArea {
+	/// <summary>
+	/// Represents a block dispatch component in the energy area.
+	/// </summary>
 	public class BlockDispatchComponent : EnergyComponent {
 
+		/// <summary>
+		/// Initializes a new instance of the <see cref="BlockDispatchComponent"/> class.
+		/// </summary>
 		public BlockDispatchComponent(){
 
 		}
 
+		/// <summary>
+		/// Finalizes an instance of the <see cref="BlockDispatchComponent"/> class.
+		/// </summary>
 		~BlockDispatchComponent(){
 
 		}
 
+		/// <summary>
+		/// Releases resources used by the <see cref="BlockDispatchComponent"/> class.
+		/// </summary>
 		public override void Dispose(){
 
 		}

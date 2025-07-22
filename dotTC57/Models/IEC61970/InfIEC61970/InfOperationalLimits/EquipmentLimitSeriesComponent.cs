@@ -14,23 +14,31 @@ namespace TC57CIM.IEC61970.InfIEC61970.InfOperationalLimits {
 	/// </summary>
 	public class EquipmentLimitSeriesComponent : IdentifiedObject {
 
-		/// <summary>
-		/// Equipment contributing toward the series limit.   The reference here is to
-		/// Equipment rather than a specific limit on the equipment so the grouiping can be
-		/// reused for multiple limits of different types on the same instance of equipment.
-		/// 
-		/// </summary>
-		public TC57CIM.IEC61970.Base.Core.Equipment Equipment;
+	   /// <summary>
+	   /// Equipment contributing toward the series limit. The reference here is to
+	   /// Equipment rather than a specific limit on the equipment so the grouping can be
+	   /// reused for multiple limits of different types on the same instance of equipment.
+	   /// </summary>
+	   public TC57CIM.IEC61970.Base.Core.Equipment? Equipment;
 
-		public EquipmentLimitSeriesComponent(){
-
-		}
-
-		~EquipmentLimitSeriesComponent(){
+	   /// <summary>
+	   /// Initializes a new instance of the <see cref="EquipmentLimitSeriesComponent"/> class.
+	   /// </summary>
+	   public EquipmentLimitSeriesComponent(){
 
 		}
 
-		public override void Dispose(){
+	   /// <summary>
+	   /// Finalizes an instance of the <see cref="EquipmentLimitSeriesComponent"/> class.
+	   /// </summary>
+	   ~EquipmentLimitSeriesComponent(){
+
+		}
+
+	   /// <summary>
+	   /// Releases resources used by the <see cref="EquipmentLimitSeriesComponent"/> class.
+	   /// </summary>
+	   public override void Dispose(){
 
 		}
 

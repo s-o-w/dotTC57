@@ -14,16 +14,28 @@ namespace TC57CIM.IEC61970.InfIEC61970.InfAvailabilityPlans {
 	/// </summary>
 	public class UnavailablitySchedule : IdentifiedObject {
 
-		public TC57CIM.IEC61970.InfIEC61970.InfAvailabilityPlans.AvailablityPlan m_AvailablityPlan;
+		/// <summary>
+		/// The availability plan associated with this unavailability schedule.
+		/// </summary>
+		public TC57CIM.IEC61970.InfIEC61970.InfAvailabilityPlans.AvailablityPlan? m_AvailablityPlan;
 
+		/// <summary>
+		/// Initializes a new instance of the <see cref="UnavailablitySchedule"/> class.
+		/// </summary>
 		public UnavailablitySchedule(){
 
 		}
 
+		/// <summary>
+		/// Finalizes an instance of the <see cref="UnavailablitySchedule"/> class.
+		/// </summary>
 		~UnavailablitySchedule(){
 
 		}
 
+		/// <summary>
+		/// Releases resources used by the <see cref="UnavailablitySchedule"/> class.
+		/// </summary>
 		public override void Dispose(){
 
 		}

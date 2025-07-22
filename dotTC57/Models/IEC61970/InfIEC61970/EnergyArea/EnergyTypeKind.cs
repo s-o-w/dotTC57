@@ -7,12 +7,30 @@
 ///////////////////////////////////////////////////////////
 
 namespace TC57CIM.IEC61970.InfIEC61970.EnergyArea {
+	/// <summary>
+	/// Specifies the kind of energy type for an energy area component.
+	/// </summary>
 	public enum EnergyTypeKind : int {
 
+		/// <summary>
+		/// Photovoltaic park.
+		/// </summary>
 		PVpark,
+		/// <summary>
+		/// Wind park.
+		/// </summary>
 		WindPark,
+		/// <summary>
+		/// Consumer load.
+		/// </summary>
 		ConsumerLoad,
+		/// <summary>
+		/// Industrial load.
+		/// </summary>
 		IndustrialLoad,
+		/// <summary>
+		/// Other type of energy.
+		/// </summary>
 		Other
 
 	}//end EnergyTypeKind

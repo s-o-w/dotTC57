@@ -24,20 +24,29 @@ namespace TC57CIM.IEC61970.InfIEC61970.InfOperationalLimits {
 	/// </summary>
 	public class SeriesEquipmentDependentLimit : LimitDependency {
 
-		/// <summary>
-		/// Equipment linkages that participates in the limit calculation.
-		/// </summary>
-		public TC57CIM.IEC61970.InfIEC61970.InfOperationalLimits.EquipmentLimitSeriesComponent EquipmentLimitSeriesComponent;
+	   /// <summary>
+	   /// Equipment linkages that participates in the limit calculation.
+	   /// </summary>
+	   public TC57CIM.IEC61970.InfIEC61970.InfOperationalLimits.EquipmentLimitSeriesComponent? EquipmentLimitSeriesComponent;
 
-		public SeriesEquipmentDependentLimit(){
+	   /// <summary>
+	   /// Initializes a new instance of the <see cref="SeriesEquipmentDependentLimit"/> class.
+	   /// </summary>
+	   public SeriesEquipmentDependentLimit(){
 
 		}
 
-		~SeriesEquipmentDependentLimit(){
+	   /// <summary>
+	   /// Finalizes an instance of the <see cref="SeriesEquipmentDependentLimit"/> class.
+	   /// </summary>
+	   ~SeriesEquipmentDependentLimit(){
 
 		}
 
-		public override void Dispose(){
+	   /// <summary>
+	   /// Releases resources used by the <see cref="SeriesEquipmentDependentLimit"/> class.
+	   /// </summary>
+	   public override void Dispose(){
 
 		}
 

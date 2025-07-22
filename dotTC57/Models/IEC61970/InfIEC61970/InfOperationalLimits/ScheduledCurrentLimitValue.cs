@@ -12,20 +12,29 @@ namespace TC57CIM.IEC61970.InfIEC61970.InfOperationalLimits {
 	/// </summary>
 	public class ScheduledCurrentLimitValue : ScheduledLimitValue {
 
-		/// <summary>
-		/// The current flow limit value applicable at the scheduled time.
-		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.CurrentFlow value;
+/// <summary>
+/// The current flow limit value applicable at the scheduled time.
+/// </summary>
+public TC57CIM.IEC61970.Base.Domain.CurrentFlow? value;
 
-		public ScheduledCurrentLimitValue(){
+	   /// <summary>
+	   /// Initializes a new instance of the <see cref="ScheduledCurrentLimitValue"/> class.
+	   /// </summary>
+	   public ScheduledCurrentLimitValue(){
 
 		}
 
-		~ScheduledCurrentLimitValue(){
+	   /// <summary>
+	   /// Finalizes an instance of the <see cref="ScheduledCurrentLimitValue"/> class.
+	   /// </summary>
+	   ~ScheduledCurrentLimitValue(){
 
 		}
 
-		public override void Dispose(){
+	   /// <summary>
+	   /// Releases resources used by the <see cref="ScheduledCurrentLimitValue"/> class.
+	   /// </summary>
+	   public override void Dispose(){
 
 		}
 

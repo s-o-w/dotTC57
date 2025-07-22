@@ -8,18 +8,33 @@
 
 using TC57CIM.IEC61970.Base.Core;
 namespace TC57CIM.IEC61970.InfIEC61970.EnergyArea {
+	/// <summary>
+	/// Represents an energy component in the energy area.
+	/// </summary>
 	public class EnergyComponent : IdentifiedObject {
 
-		public TC57CIM.IEC61970.InfIEC61970.EnergyArea.EnergyGroup m_EnergyGroup;
+		/// <summary>
+		/// The energy group associated with this energy component.
+		/// </summary>
+		public TC57CIM.IEC61970.InfIEC61970.EnergyArea.EnergyGroup? m_EnergyGroup;
 
+		/// <summary>
+		/// Initializes a new instance of the <see cref="EnergyComponent"/> class.
+		/// </summary>
 		public EnergyComponent(){
 
 		}
 
+		/// <summary>
+		/// Finalizes an instance of the <see cref="EnergyComponent"/> class.
+		/// </summary>
 		~EnergyComponent(){
 
 		}
 
+		/// <summary>
+		/// Releases resources used by the <see cref="EnergyComponent"/> class.
+		/// </summary>
 		public override void Dispose(){
 
 		}
