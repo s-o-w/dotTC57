@@ -24,7 +24,7 @@ namespace TC57CIM.Semantic.Mapping
         /// <summary>
         /// Maps a CIM object to an RDF graph
         /// </summary>
-        public IGraph MapToRdf(IdentifiedObject cimObject)
+        public virtual IGraph MapToRdf(IdentifiedObject cimObject)
         {
             var graph = new Graph();
             CimOntologyNamespaces.AddNamespacesToGraph(graph);
@@ -47,7 +47,7 @@ namespace TC57CIM.Semantic.Mapping
         /// <summary>
         /// Maps a collection of CIM objects to an RDF graph
         /// </summary>
-        public IGraph MapToRdf(IEnumerable<IdentifiedObject> cimObjects)
+        public virtual IGraph MapToRdf(IEnumerable<IdentifiedObject> cimObjects)
         {
             var graph = new Graph();
             CimOntologyNamespaces.AddNamespacesToGraph(graph);
