@@ -24,10 +24,9 @@ namespace TC57CIM.IEC61970.InfIEC61970.InfSIPS {
 		/// </summary>
 		public AnalogToDigitalLogicKind aDLogicKind;
 		/// <summary>
-		/// The duration the compare condition need to be present before given a true.
-		/// Default is 0 seconds.
+		/// The duration the compare condition need to be present before given a true. Default is 0 seconds.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds duration;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? duration;
 		/// <summary>
 		/// Invert/negate the result of the compare.
 		/// </summary>
@@ -36,20 +35,29 @@ namespace TC57CIM.IEC61970.InfIEC61970.InfSIPS {
 		/// The threshold percentage that should be used for compare with the percentage
 		/// change between input value and threshold value.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PerCent thresholdPercentage;
+		public TC57CIM.IEC61970.Base.Domain.PerCent? thresholdPercentage;
 		/// <summary>
 		/// The threshold value that should be used for compare with the input value.
 		/// </summary>
 		public float thresholdValue;
 
+		/// <summary>
+		/// Initializes a new instance of the <see cref="GateInputPin"/> class.
+		/// </summary>
 		public GateInputPin(){
 
 		}
 
+		/// <summary>
+		/// Finalizes an instance of the <see cref="GateInputPin"/> class.
+		/// </summary>
 		~GateInputPin(){
 
 		}
 
+		/// <summary>
+		/// Releases resources used by the <see cref="GateInputPin"/> class.
+		/// </summary>
 		public override void Dispose(){
 
 		}

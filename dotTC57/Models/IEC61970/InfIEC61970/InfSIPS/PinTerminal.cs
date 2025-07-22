@@ -19,16 +19,28 @@ namespace TC57CIM.IEC61970.InfIEC61970.InfSIPS {
 		/// <summary>
 		/// The Terminal that should be used in compare.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Core.Terminal Terminal;
+		/// <summary>
+		/// The Terminal that should be used in compare.
+		/// </summary>
+		public TC57CIM.IEC61970.Base.Core.Terminal? Terminal;
 
+		/// <summary>
+		/// Initializes a new instance of the <see cref="PinTerminal"/> class.
+		/// </summary>
 		public PinTerminal(){
 
 		}
 
+		/// <summary>
+		/// Finalizes an instance of the <see cref="PinTerminal"/> class.
+		/// </summary>
 		~PinTerminal(){
 
 		}
 
+		/// <summary>
+		/// Releases resources used by the <see cref="PinTerminal"/> class.
+		/// </summary>
 		public override void Dispose(){
 
 		}

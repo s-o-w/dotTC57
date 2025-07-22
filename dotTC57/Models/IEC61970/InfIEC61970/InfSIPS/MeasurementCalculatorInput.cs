@@ -21,20 +21,35 @@ namespace TC57CIM.IEC61970.InfIEC61970.InfSIPS {
 		/// Positive number that defines the order of the operant in the calculation. 0 =
 		/// default. The order is not relevant (e.g. summation).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer order;
+		/// <summary>
+		/// Positive number that defines the order of the operant in the calculation. 0 = default. The order is not relevant (e.g. summation).
+		/// </summary>
+		public TC57CIM.IEC61970.Base.Domain.Integer? order;
 		/// <summary>
 		/// Measurement used as input to a calculation.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Meas.Measurement Measurement;
+		/// <summary>
+		/// Measurement used as input to a calculation.
+		/// </summary>
+		public TC57CIM.IEC61970.Base.Meas.Measurement? Measurement;
 
+		/// <summary>
+		/// Initializes a new instance of the <see cref="MeasurementCalculatorInput"/> class.
+		/// </summary>
 		public MeasurementCalculatorInput(){
 
 		}
 
+		/// <summary>
+		/// Finalizes an instance of the <see cref="MeasurementCalculatorInput"/> class.
+		/// </summary>
 		~MeasurementCalculatorInput(){
 
 		}
 
+		/// <summary>
+		/// Releases resources used by the <see cref="MeasurementCalculatorInput"/> class.
+		/// </summary>
 		public override void Dispose(){
 
 		}

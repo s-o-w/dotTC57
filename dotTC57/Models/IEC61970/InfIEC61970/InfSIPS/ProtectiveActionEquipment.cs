@@ -16,16 +16,28 @@ namespace TC57CIM.IEC61970.InfIEC61970.InfSIPS {
 		/// If true the equipment is put in-service, otherwise out-of-service.
 		/// </summary>
 		public bool inService;
-		public TC57CIM.IEC61970.Base.Core.Equipment Equipment;
+		/// <summary>
+		/// The equipment associated with this protective action.
+		/// </summary>
+		public TC57CIM.IEC61970.Base.Core.Equipment? Equipment;
 
+		/// <summary>
+		/// Initializes a new instance of the <see cref="ProtectiveActionEquipment"/> class.
+		/// </summary>
 		public ProtectiveActionEquipment(){
 
 		}
 
+		/// <summary>
+		/// Finalizes an instance of the <see cref="ProtectiveActionEquipment"/> class.
+		/// </summary>
 		~ProtectiveActionEquipment(){
 
 		}
 
+		/// <summary>
+		/// Releases resources used by the <see cref="ProtectiveActionEquipment"/> class.
+		/// </summary>
 		public override void Dispose(){
 
 		}

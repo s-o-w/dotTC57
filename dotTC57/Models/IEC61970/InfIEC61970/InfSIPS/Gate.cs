@@ -20,18 +20,36 @@ namespace TC57CIM.IEC61970.InfIEC61970.InfSIPS {
 		/// <summary>
 		/// Input to the gate.
 		/// </summary>
-		public TC57CIM.IEC61970.InfIEC61970.InfSIPS.GateInputPin GateInputPin;
-		public TC57CIM.IEC61970.InfIEC61970.InfSIPS.RemedialActionScheme RemedialActionScheme;
-		public TC57CIM.IEC61970.InfIEC61970.InfSIPS.PinGate PinGate;
+		/// <summary>
+		/// Input to the gate.
+		/// </summary>
+		public TC57CIM.IEC61970.InfIEC61970.InfSIPS.GateInputPin? GateInputPin;
+		/// <summary>
+		/// The remedial action scheme associated with this gate.
+		/// </summary>
+		public TC57CIM.IEC61970.InfIEC61970.InfSIPS.RemedialActionScheme? RemedialActionScheme;
+		/// <summary>
+		/// The pin gate associated with this gate.
+		/// </summary>
+		public TC57CIM.IEC61970.InfIEC61970.InfSIPS.PinGate? PinGate;
 
+		/// <summary>
+		/// Initializes a new instance of the <see cref="Gate"/> class.
+		/// </summary>
 		public Gate(){
 
 		}
 
+		/// <summary>
+		/// Finalizes an instance of the <see cref="Gate"/> class.
+		/// </summary>
 		~Gate(){
 
 		}
 
+		/// <summary>
+		/// Releases resources used by the <see cref="Gate"/> class.
+		/// </summary>
 		public override void Dispose(){
 
 		}

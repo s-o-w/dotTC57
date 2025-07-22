@@ -21,14 +21,23 @@ namespace TC57CIM.IEC61970 {
 		/// </summary>
 		public static readonly string version = "IEC61970CIM17v40";
 
+		/// <summary>
+		/// Initializes a new instance of the <see cref="IEC61970CIMVersion"/> class.
+		/// </summary>
 		public IEC61970CIMVersion(){
 
 		}
 
+		/// <summary>
+		/// Finalizes an instance of the <see cref="IEC61970CIMVersion"/> class.
+		/// </summary>
 		~IEC61970CIMVersion(){
 
 		}
 
+		/// <summary>
+		/// Releases resources used by the <see cref="IEC61970CIMVersion"/> instance.
+		/// </summary>
 		public virtual void Dispose(){
 
 		}

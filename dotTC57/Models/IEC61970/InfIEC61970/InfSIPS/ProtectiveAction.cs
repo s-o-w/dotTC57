@@ -22,21 +22,33 @@ namespace TC57CIM.IEC61970.InfIEC61970.InfSIPS {
 		/// The default/normal value used when other active signal/values are missing.
 		/// </summary>
 		public bool normalEnabled;
-		public TC57CIM.IEC61970.InfIEC61970.InfSIPS.Gate GateComCondition;
+		/// <summary>
+		/// Association to a Gate that through a gate logic and input pin defines communication condition for the ProtectiveAction.
+		/// </summary>
+		public TC57CIM.IEC61970.InfIEC61970.InfSIPS.Gate? GateComCondition;
 		/// <summary>
 		/// Association to a Gate that through a gate logic and input pin defines enabling
 		/// of the ProtectiveAction.
 		/// </summary>
-		public TC57CIM.IEC61970.InfIEC61970.InfSIPS.Gate GateEnabledCondition;
+		public TC57CIM.IEC61970.InfIEC61970.InfSIPS.Gate? GateEnabledCondition;
 
+		/// <summary>
+		/// Initializes a new instance of the <see cref="ProtectiveAction"/> class.
+		/// </summary>
 		public ProtectiveAction(){
 
 		}
 
+		/// <summary>
+		/// Finalizes an instance of the <see cref="ProtectiveAction"/> class.
+		/// </summary>
 		~ProtectiveAction(){
 
 		}
 
+		/// <summary>
+		/// Releases resources used by the <see cref="ProtectiveAction"/> class.
+		/// </summary>
 		public override void Dispose(){
 
 		}

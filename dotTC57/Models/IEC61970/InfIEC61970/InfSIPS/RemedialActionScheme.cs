@@ -31,16 +31,28 @@ namespace TC57CIM.IEC61970.InfIEC61970.InfSIPS {
 		/// A Remedial Action Scheme (RAS) consist of one or more stage that are trigger
 		/// and execute protection action.
 		/// </summary>
-		public TC57CIM.IEC61970.InfIEC61970.InfSIPS.Stage Stage;
+		/// <summary>
+		/// A Remedial Action Scheme (RAS) consist of one or more stage that are trigger and execute protection action.
+		/// </summary>
+		public TC57CIM.IEC61970.InfIEC61970.InfSIPS.Stage? Stage;
 
+		/// <summary>
+		/// Initializes a new instance of the <see cref="RemedialActionScheme"/> class.
+		/// </summary>
 		public RemedialActionScheme(){
 
 		}
 
+		/// <summary>
+		/// Finalizes an instance of the <see cref="RemedialActionScheme"/> class.
+		/// </summary>
 		~RemedialActionScheme(){
 
 		}
 
+		/// <summary>
+		/// Releases resources used by the <see cref="RemedialActionScheme"/> class.
+		/// </summary>
 		public override void Dispose(){
 
 		}

@@ -19,7 +19,7 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-	  <EmbeddedResource Include="Resources\cim-owl-ontology.owl" />
+	  <EmbeddedResource Include="Resources/cim-owl-ontology.owl" />
 	</ItemGroup>
 
 	<ItemGroup>

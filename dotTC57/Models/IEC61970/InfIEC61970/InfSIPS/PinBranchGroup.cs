@@ -19,16 +19,28 @@ namespace TC57CIM.IEC61970.InfIEC61970.InfSIPS {
 		/// <summary>
 		/// The branch group that should be used in compare.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.OperationalLimits.BranchGroup BranchGroup;
+		/// <summary>
+		/// The branch group that should be used in compare.
+		/// </summary>
+		public TC57CIM.IEC61970.Base.OperationalLimits.BranchGroup? BranchGroup;
 
+		/// <summary>
+		/// Initializes a new instance of the <see cref="PinBranchGroup"/> class.
+		/// </summary>
 		public PinBranchGroup(){
 
 		}
 
+		/// <summary>
+		/// Finalizes an instance of the <see cref="PinBranchGroup"/> class.
+		/// </summary>
 		~PinBranchGroup(){
 
 		}
 
+		/// <summary>
+		/// Releases resources used by the <see cref="PinBranchGroup"/> class.
+		/// </summary>
 		public override void Dispose(){
 
 		}

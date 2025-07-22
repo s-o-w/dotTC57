@@ -16,16 +16,28 @@ namespace TC57CIM.IEC61970.InfIEC61970.InfSIPS {
 		/// <summary>
 		/// The Measurement that should be used in compare.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Meas.Measurement Measurement;
+		/// <summary>
+		/// The Measurement that should be used in compare.
+		/// </summary>
+		public TC57CIM.IEC61970.Base.Meas.Measurement? Measurement;
 
+		/// <summary>
+		/// Initializes a new instance of the <see cref="PinMeasurement"/> class.
+		/// </summary>
 		public PinMeasurement(){
 
 		}
 
+		/// <summary>
+		/// Finalizes an instance of the <see cref="PinMeasurement"/> class.
+		/// </summary>
 		~PinMeasurement(){
 
 		}
 
+		/// <summary>
+		/// Releases resources used by the <see cref="PinMeasurement"/> class.
+		/// </summary>
 		public override void Dispose(){
 
 		}

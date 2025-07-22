@@ -10,28 +10,36 @@ using TC57CIM.IEC61970.Base.Core;
 namespace TC57CIM.IEC61970.InfIEC61970.InfSIPS {
 	/// <summary>
 	/// A collection of protective actions to protect the integrity of the power system.
-	/// 
+	///
 	/// </summary>
 	public class ProtectiveActionCollection : IdentifiedObject {
 
 		/// <summary>
-		/// When condition to the StageTrigger is met, the actions in the
-		/// ProtectiveActionCollection are activated/triggered.
+		/// When condition to the StageTrigger is met, the actions in the ProtectiveActionCollection are activated/triggered.
 		/// </summary>
-		public TC57CIM.IEC61970.InfIEC61970.InfSIPS.StageTrigger StageTrigger;
+		public TC57CIM.IEC61970.InfIEC61970.InfSIPS.StageTrigger? StageTrigger;
 		/// <summary>
 		/// Set of ProtectiveAction belonging to a ProtectiveActionCollection.
 		/// </summary>
-		public TC57CIM.IEC61970.InfIEC61970.InfSIPS.ProtectiveAction ProtectiveAction;
+		public TC57CIM.IEC61970.InfIEC61970.InfSIPS.ProtectiveAction? ProtectiveAction;
 
+		/// <summary>
+		/// Initializes a new instance of the <see cref="ProtectiveActionCollection"/> class.
+		/// </summary>
 		public ProtectiveActionCollection(){
 
 		}
 
+		/// <summary>
+		/// Finalizes an instance of the <see cref="ProtectiveActionCollection"/> class.
+		/// </summary>
 		~ProtectiveActionCollection(){
 
 		}
 
+		/// <summary>
+		/// Releases resources used by the <see cref="ProtectiveActionCollection"/> class.
+		/// </summary>
 		public override void Dispose(){
 
 		}

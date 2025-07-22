@@ -10,7 +10,7 @@ This library provides:
 3. Conversion of CIM objects to RDF, RDF/XML, Turtle, and JSON-LD formats
 4. Ontology-based validation and reasoning for electrical models
 
-The core model is derived from the UML model available at the [CIM User Group](https://cimug.ucaiug.org/CIM%20Model%20Releases/Forms/AllItems.aspx). You'll need [Sparx Enterprise Architect](https://sparxsystems.com/) to view the original EAP files from that site.
+The core model is derived from the UML model available at the [CIM User Group](https://cimug.ucaiug.org/CIM%20Model%20Releases/Forms/AllItems.aspx). You'll need [Sparx Enterprise Architect](https://sparxsystems.com/) to view the original EAP files from that site. You can use a temporary license to generate the base class files for use in your project (which is where I started).
 
 ## Getting Started
 

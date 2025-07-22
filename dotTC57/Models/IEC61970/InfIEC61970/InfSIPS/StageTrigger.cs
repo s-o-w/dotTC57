@@ -24,34 +24,39 @@ namespace TC57CIM.IEC61970.InfIEC61970.InfSIPS {
 		/// </summary>
 		public bool normalArmed;
 		/// <summary>
-		/// Priority of trigger. 0 = don t care (default) 1 = highest priority. 2 is less
-		/// than 1 and so on. A trigger with the highest priority will trigger first.
+		/// Priority of trigger. 0 = don t care (default) 1 = highest priority. 2 is less than 1 and so on. A trigger with the highest priority will trigger first.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer priority;
+		public TC57CIM.IEC61970.Base.Domain.Integer? priority;
 		/// <summary>
-		/// Association to a Gate that through a gate logic and input pin defines arming of
-		/// the StageTrigger.
+		/// Association to a Gate that through a gate logic and input pin defines arming of the StageTrigger.
 		/// </summary>
-		public TC57CIM.IEC61970.InfIEC61970.InfSIPS.Gate GateArmed;
+		public TC57CIM.IEC61970.InfIEC61970.InfSIPS.Gate? GateArmed;
 		/// <summary>
-		/// For the StageTrigger to active the set of protective actions the condition for
-		/// communication needs to be met (true).
+		/// For the StageTrigger to active the set of protective actions the condition for communication needs to be met (true).
 		/// </summary>
-		public TC57CIM.IEC61970.InfIEC61970.InfSIPS.Gate GateComCondition;
+		public TC57CIM.IEC61970.InfIEC61970.InfSIPS.Gate? GateComCondition;
 		/// <summary>
-		/// The Gate result that trigger the StageTrigger and thereby executing the a set
-		/// of protective actions.
+		/// The Gate result that trigger the StageTrigger and thereby executing the a set of protective actions.
 		/// </summary>
-		public TC57CIM.IEC61970.InfIEC61970.InfSIPS.Gate GateTrigger;
+		public TC57CIM.IEC61970.InfIEC61970.InfSIPS.Gate? GateTrigger;
 
+		/// <summary>
+		/// Initializes a new instance of the <see cref="StageTrigger"/> class.
+		/// </summary>
 		public StageTrigger(){
 
 		}
 
+		/// <summary>
+		/// Finalizes an instance of the <see cref="StageTrigger"/> class.
+		/// </summary>
 		~StageTrigger(){
 
 		}
 
+		/// <summary>
+		/// Releases resources used by the <see cref="StageTrigger"/> class.
+		/// </summary>
 		public override void Dispose(){
 
 		}

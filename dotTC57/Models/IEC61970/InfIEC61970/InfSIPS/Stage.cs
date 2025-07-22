@@ -14,24 +14,31 @@ namespace TC57CIM.IEC61970.InfIEC61970.InfSIPS {
 	public class Stage : IdentifiedObject {
 
 		/// <summary>
-		/// The priority of the stage.   0 = don t care (default) 1 = highest priority. 2
-		/// is less than 1 and so on. A stage with higher priority needs be activated
-		/// before a lower stage can be activated.
+		/// The priority of the stage.   0 = don t care (default) 1 = highest priority. 2 is less than 1 and so on. A stage with higher priority needs be activated before a lower stage can be activated.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer priority;
+		public TC57CIM.IEC61970.Base.Domain.Integer? priority;
 		/// <summary>
 		/// A Stage consist of one or more StageTrigger.
 		/// </summary>
-		public TC57CIM.IEC61970.InfIEC61970.InfSIPS.StageTrigger StageTrigger;
+		public TC57CIM.IEC61970.InfIEC61970.InfSIPS.StageTrigger? StageTrigger;
 
+		/// <summary>
+		/// Initializes a new instance of the <see cref="Stage"/> class.
+		/// </summary>
 		public Stage(){
 
 		}
 
+		/// <summary>
+		/// Finalizes an instance of the <see cref="Stage"/> class.
+		/// </summary>
 		~Stage(){
 
 		}
 
+		/// <summary>
+		/// Releases resources used by the <see cref="Stage"/> class.
+		/// </summary>
 		public override void Dispose(){
 
 		}

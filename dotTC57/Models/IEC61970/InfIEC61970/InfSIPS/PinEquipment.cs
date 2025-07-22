@@ -19,16 +19,28 @@ namespace TC57CIM.IEC61970.InfIEC61970.InfSIPS {
 		/// <summary>
 		/// The Equipment that should be used in compare.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Core.Equipment Equipment;
+		/// <summary>
+		/// The Equipment that should be used in compare.
+		/// </summary>
+		public TC57CIM.IEC61970.Base.Core.Equipment? Equipment;
 
+		/// <summary>
+		/// Initializes a new instance of the <see cref="PinEquipment"/> class.
+		/// </summary>
 		public PinEquipment(){
 
 		}
 
+		/// <summary>
+		/// Finalizes an instance of the <see cref="PinEquipment"/> class.
+		/// </summary>
 		~PinEquipment(){
 
 		}
 
+		/// <summary>
+		/// Releases resources used by the <see cref="PinEquipment"/> class.
+		/// </summary>
 		public override void Dispose(){
 
 		}

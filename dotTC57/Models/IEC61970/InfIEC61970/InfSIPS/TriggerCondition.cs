@@ -13,20 +13,32 @@ namespace TC57CIM.IEC61970.InfIEC61970.InfSIPS {
 	/// </summary>
 	public class TriggerCondition : IdentifiedObject {
 
-		public TC57CIM.IEC61970.InfIEC61970.InfSIPS.RemedialActionScheme RemedialActionScheme;
+		/// <summary>
+		/// The remedial action scheme associated with this trigger condition.
+		/// </summary>
+		public TC57CIM.IEC61970.InfIEC61970.InfSIPS.RemedialActionScheme? RemedialActionScheme;
 		/// <summary>
 		/// The resulting Gate that is the condition for the Trigger.
 		/// </summary>
-		public TC57CIM.IEC61970.InfIEC61970.InfSIPS.Gate GateTrigger;
+		public TC57CIM.IEC61970.InfIEC61970.InfSIPS.Gate? GateTrigger;
 
+		/// <summary>
+		/// Initializes a new instance of the <see cref="TriggerCondition"/> class.
+		/// </summary>
 		public TriggerCondition(){
 
 		}
 
+		/// <summary>
+		/// Finalizes an instance of the <see cref="TriggerCondition"/> class.
+		/// </summary>
 		~TriggerCondition(){
 
 		}
 
+		/// <summary>
+		/// Releases resources used by the <see cref="TriggerCondition"/> class.
+		/// </summary>
 		public override void Dispose(){
 
 		}

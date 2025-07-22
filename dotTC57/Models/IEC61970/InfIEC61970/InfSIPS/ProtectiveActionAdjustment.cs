@@ -16,7 +16,10 @@ namespace TC57CIM.IEC61970.InfIEC61970.InfSIPS {
 		/// <summary>
 		/// The adjustment is given in percent of the active value.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PerCent byPercentage;
+		/// <summary>
+		/// The adjustment is given in percent of the active value.
+		/// </summary>
+		public TC57CIM.IEC61970.Base.Domain.PerCent? byPercentage;
 		/// <summary>
 		/// The adjustment is given in value of the active value.
 		/// </summary>
@@ -39,16 +42,28 @@ namespace TC57CIM.IEC61970.InfIEC61970.InfSIPS {
 		/// The operating condition to the Conducting Equipment is changed when protective
 		/// action adjustment is activated.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.DC.DCConductingEquipment DCConductingEquipment;
+		/// <summary>
+		/// The DC conducting equipment associated with this protective action adjustment.
+		/// </summary>
+		public TC57CIM.IEC61970.Base.DC.DCConductingEquipment? DCConductingEquipment;
 
+		/// <summary>
+		/// Initializes a new instance of the <see cref="ProtectiveActionAdjustment"/> class.
+		/// </summary>
 		public ProtectiveActionAdjustment(){
 
 		}
 
+		/// <summary>
+		/// Finalizes an instance of the <see cref="ProtectiveActionAdjustment"/> class.
+		/// </summary>
 		~ProtectiveActionAdjustment(){
 
 		}
 
+		/// <summary>
+		/// Releases resources used by the <see cref="ProtectiveActionAdjustment"/> class.
+		/// </summary>
 		public override void Dispose(){
 
 		}

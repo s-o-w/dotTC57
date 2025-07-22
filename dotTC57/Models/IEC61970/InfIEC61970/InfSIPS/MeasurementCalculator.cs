@@ -20,17 +20,32 @@ namespace TC57CIM.IEC61970.InfIEC61970.InfSIPS {
 		/// <summary>
 		/// Used in the calculation.
 		/// </summary>
-		public TC57CIM.IEC61970.InfIEC61970.InfSIPS.MeasurementCalculatorInput MeasurementCalculatorInput;
-		public TC57CIM.IEC61970.InfIEC61970.InfSIPS.PinMeasurement PinMeasurement;
+		/// <summary>
+		/// Used in the calculation.
+		/// </summary>
+		public TC57CIM.IEC61970.InfIEC61970.InfSIPS.MeasurementCalculatorInput? MeasurementCalculatorInput;
+		/// <summary>
+		/// The pin measurement associated with this measurement calculator.
+		/// </summary>
+		public TC57CIM.IEC61970.InfIEC61970.InfSIPS.PinMeasurement? PinMeasurement;
 
+		/// <summary>
+		/// Initializes a new instance of the <see cref="MeasurementCalculator"/> class.
+		/// </summary>
 		public MeasurementCalculator(){
 
 		}
 
+		/// <summary>
+		/// Finalizes an instance of the <see cref="MeasurementCalculator"/> class.
+		/// </summary>
 		~MeasurementCalculator(){
 
 		}
 
+		/// <summary>
+		/// Releases resources used by the <see cref="MeasurementCalculator"/> class.
+		/// </summary>
 		public override void Dispose(){
 
 		}

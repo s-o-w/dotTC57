@@ -23,16 +23,28 @@ namespace TC57CIM.IEC61970.InfIEC61970.InfSIPS {
 		/// change the mode attribute.
 		/// </summary>
 		public float targetValue;
-		public TC57CIM.IEC61970.Base.Wires.RegulatingControl RegulatingControl;
+		/// <summary>
+		/// The regulating control associated with this protective action regulation.
+		/// </summary>
+		public TC57CIM.IEC61970.Base.Wires.RegulatingControl? RegulatingControl;
 
+		/// <summary>
+		/// Initializes a new instance of the <see cref="ProtectiveActionRegulation"/> class.
+		/// </summary>
 		public ProtectiveActionRegulation(){
 
 		}
 
+		/// <summary>
+		/// Finalizes an instance of the <see cref="ProtectiveActionRegulation"/> class.
+		/// </summary>
 		~ProtectiveActionRegulation(){
 
 		}
 
+		/// <summary>
+		/// Releases resources used by the <see cref="ProtectiveActionRegulation"/> class.
+		/// </summary>
 		public override void Dispose(){
 
 		}

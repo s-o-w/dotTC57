@@ -12,14 +12,23 @@ namespace TC57CIM.IEC61970.InfIEC61970.InfSIPS {
 	/// </summary>
 	public class PinGate : GateInputPin {
 
+		/// <summary>
+		/// Initializes a new instance of the <see cref="PinGate"/> class.
+		/// </summary>
 		public PinGate(){
 
 		}
 
+		/// <summary>
+		/// Finalizes an instance of the <see cref="PinGate"/> class.
+		/// </summary>
 		~PinGate(){
 
 		}
 
+		/// <summary>
+		/// Releases resources used by the <see cref="PinGate"/> class.
+		/// </summary>
 		public override void Dispose(){
 
 		}
