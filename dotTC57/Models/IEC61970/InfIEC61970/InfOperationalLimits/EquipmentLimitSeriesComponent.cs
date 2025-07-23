@@ -7,19 +7,17 @@
 ///////////////////////////////////////////////////////////
 
 using TC57CIM.IEC61970.Base.Core;
-namespace TC57CIM.IEC61970.InfIEC61970.InfOperationalLimits {
-	/// <summary>
-	/// This represents one instance of an equipment that contributes to the
-	/// calculation of an operational limit.
-	/// </summary>
-	public class EquipmentLimitSeriesComponent : IdentifiedObject {
 
-	   /// <summary>
-	   /// Equipment contributing toward the series limit. The reference here is to
-	   /// Equipment rather than a specific limit on the equipment so the grouping can be
-	   /// reused for multiple limits of different types on the same instance of equipment.
-	   /// </summary>
-	   public TC57CIM.IEC61970.Base.Core.Equipment? Equipment;
+namespace TC57CIM.IEC61970.InfIEC61970.InfOperationalLimits {
+   /// <summary>
+   /// This represents one instance of an equipment that contributes to the calculation of an operational limit.
+   /// </summary>
+   public class EquipmentLimitSeriesComponent : IdentifiedObject {
+
+	  /// <summary>
+	  /// Equipment contributing toward the series limit. The reference here is to Equipment rather than a specific limit on the equipment so the grouping can be reused for multiple limits of different types on the same instance of equipment.
+	  /// </summary>
+	  public TC57CIM.IEC61970.Base.Core.Equipment? Equipment;
 
 	   /// <summary>
 	   /// Initializes a new instance of the <see cref="EquipmentLimitSeriesComponent"/> class.

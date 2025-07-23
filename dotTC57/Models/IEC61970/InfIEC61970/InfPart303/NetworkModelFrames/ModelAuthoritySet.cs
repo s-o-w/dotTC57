@@ -19,17 +19,29 @@ namespace TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelFrames {
 		/// Modeling Authority suppliying and maintaining the data for the objects in this
 		/// Modeling Authority Set.
 		/// </summary>
-		public TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelFrames.ModelAuthority ModelingAuthority;
+	   /// <summary>
+	   /// The modeling authority supplying and maintaining the data for the objects in this set.
+	   /// </summary>
+	   public TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelFrames.ModelAuthority? ModelingAuthority;
 
-		public ModelAuthoritySet(){
+	   /// <summary>
+	   /// Initializes a new instance of the <see cref="ModelAuthoritySet"/> class.
+	   /// </summary>
+	   public ModelAuthoritySet(){
 
 		}
 
-		~ModelAuthoritySet(){
+	   /// <summary>
+	   /// Finalizes an instance of the <see cref="ModelAuthoritySet"/> class.
+	   /// </summary>
+	   ~ModelAuthoritySet(){
 
 		}
 
-		public override void Dispose(){
+	   /// <summary>
+	   /// Releases resources used by the <see cref="ModelAuthoritySet"/> class.
+	   /// </summary>
+	   public override void Dispose(){
 
 		}
 

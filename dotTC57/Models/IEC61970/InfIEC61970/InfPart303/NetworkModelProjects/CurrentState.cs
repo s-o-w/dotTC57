@@ -8,17 +8,29 @@
 
 using TC57CIM.IEC61970.Base.Core;
 namespace TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelProjects {
-	public class CurrentState : IdentifiedObject {
+	   /// <summary>
+	   /// Represents the current state of a network model project or component.
+	   /// </summary>
+	   public class CurrentState : IdentifiedObject {
 
-		public CurrentState(){
+	   /// <summary>
+	   /// Initializes a new instance of the <see cref="CurrentState"/> class.
+	   /// </summary>
+	   public CurrentState(){
 
 		}
 
-		~CurrentState(){
+	   /// <summary>
+	   /// Finalizes an instance of the <see cref="CurrentState"/> class.
+	   /// </summary>
+	   ~CurrentState(){
 
 		}
 
-		public override void Dispose(){
+	   /// <summary>
+	   /// Releases resources used by the <see cref="CurrentState"/> class.
+	   /// </summary>
+	   public override void Dispose(){
 
 		}
 

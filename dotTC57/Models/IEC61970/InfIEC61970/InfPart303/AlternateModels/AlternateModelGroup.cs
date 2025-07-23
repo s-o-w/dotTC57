@@ -8,16 +8,28 @@
 
 using TC57CIM.IEC61970.Base.Core;
 namespace TC57CIM.IEC61970.InfIEC61970.InfPart303.AlternateModels {
+	/// <summary>
+	/// Represents a group of alternate models, where one alternate is used at a time.
+	/// </summary>
 	public class AlternateModelGroup : IdentifiedObject {
 
+		/// <summary>
+		/// Initializes a new instance of the <see cref="AlternateModelGroup"/> class.
+		/// </summary>
 		public AlternateModelGroup(){
 
 		}
 
+		/// <summary>
+		/// Finalizes an instance of the <see cref="AlternateModelGroup"/> class.
+		/// </summary>
 		~AlternateModelGroup(){
 
 		}
 
+		/// <summary>
+		/// Releases resources used by the <see cref="AlternateModelGroup"/> class.
+		/// </summary>
 		public override void Dispose(){
 
 		}

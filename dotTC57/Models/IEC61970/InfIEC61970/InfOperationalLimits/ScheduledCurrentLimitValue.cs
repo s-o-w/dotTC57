@@ -6,16 +6,17 @@
 //  Original author: kdemaree
 ///////////////////////////////////////////////////////////
 
-namespace TC57CIM.IEC61970.InfIEC61970.InfOperationalLimits {
-	/// <summary>
-	/// A current limit that is scheduled.
-	/// </summary>
-	public class ScheduledCurrentLimitValue : ScheduledLimitValue {
 
-/// <summary>
-/// The current flow limit value applicable at the scheduled time.
-/// </summary>
-public TC57CIM.IEC61970.Base.Domain.CurrentFlow? value;
+namespace TC57CIM.IEC61970.InfIEC61970.InfOperationalLimits {
+   /// <summary>
+   /// A current limit that is scheduled.
+   /// </summary>
+   public class ScheduledCurrentLimitValue : ScheduledLimitValue {
+
+	  /// <summary>
+	  /// The current flow limit value applicable at the scheduled time.
+	  /// </summary>
+	  public TC57CIM.IEC61970.Base.Domain.CurrentFlow? value;
 
 	   /// <summary>
 	   /// Initializes a new instance of the <see cref="ScheduledCurrentLimitValue"/> class.

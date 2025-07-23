@@ -13,17 +13,29 @@ namespace TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelFrames {
 	/// </summary>
 	public class NetworkModelCaseDefinition {
 
-		public TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelFrames.Operation m_Operation;
+	   /// <summary>
+	   /// The operation associated with this network model case definition.
+	   /// </summary>
+	   public TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelFrames.Operation? m_Operation;
 
-		public NetworkModelCaseDefinition(){
+	   /// <summary>
+	   /// Initializes a new instance of the <see cref="NetworkModelCaseDefinition"/> class.
+	   /// </summary>
+	   public NetworkModelCaseDefinition(){
 
 		}
 
-		~NetworkModelCaseDefinition(){
+	   /// <summary>
+	   /// Finalizes an instance of the <see cref="NetworkModelCaseDefinition"/> class.
+	   /// </summary>
+	   ~NetworkModelCaseDefinition(){
 
 		}
 
-		public virtual void Dispose(){
+	   /// <summary>
+	   /// Releases resources used by the <see cref="NetworkModelCaseDefinition"/> class.
+	   /// </summary>
+	   public virtual void Dispose(){
 
 		}
 

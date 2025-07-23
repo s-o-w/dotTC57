@@ -6,17 +6,17 @@
 //  Original author: akamath
 ///////////////////////////////////////////////////////////
 
-namespace TC57CIM.IEC61970.InfIEC61970.InfOperationalLimits {
-	/// <summary>
-	/// This is a table lookup that provides limit values corresponding to a
-	/// temperature input.
-	/// </summary>
-	public class TemperatureDependentLimitTable : EnvironmentalDependentLimit {
 
-/// <summary>
-/// The temperature limit table point for this table.
-/// </summary>
-public TC57CIM.IEC61970.InfIEC61970.InfOperationalLimits.TemperatureDependentLimitPoint? TemperatureLimitTablePoint;
+namespace TC57CIM.IEC61970.InfIEC61970.InfOperationalLimits {
+   /// <summary>
+   /// This is a table lookup that provides limit values corresponding to a temperature input.
+   /// </summary>
+   public class TemperatureDependentLimitTable : EnvironmentalDependentLimit {
+
+	  /// <summary>
+	  /// The temperature limit table point for this table.
+	  /// </summary>
+	  public TC57CIM.IEC61970.InfIEC61970.InfOperationalLimits.TemperatureDependentLimitPoint? TemperatureLimitTablePoint;
 
 	   /// <summary>
 	   /// Initializes a new instance of the <see cref="TemperatureDependentLimitTable"/> class.

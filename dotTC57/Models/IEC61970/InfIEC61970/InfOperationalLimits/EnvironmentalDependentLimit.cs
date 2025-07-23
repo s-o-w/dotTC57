@@ -6,12 +6,12 @@
 //  Original author: akamath
 ///////////////////////////////////////////////////////////
 
+
 namespace TC57CIM.IEC61970.InfIEC61970.InfOperationalLimits {
-	/// <summary>
-	/// This is a environmental based limit dependency model for calculating
-	/// operational limits.
-	/// </summary>
-	public class EnvironmentalDependentLimit : LimitDependency {
+   /// <summary>
+   /// This is an environmental based limit dependency model for calculating operational limits.
+   /// </summary>
+   public class EnvironmentalDependentLimit : LimitDependency {
 
 	   /// <summary>
 	   /// Initializes a new instance of the <see cref="EnvironmentalDependentLimit"/> class.

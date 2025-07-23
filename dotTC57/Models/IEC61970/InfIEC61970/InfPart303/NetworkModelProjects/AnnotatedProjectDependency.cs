@@ -8,21 +8,42 @@
 
 using TC57CIM.IEC61970.Base.Core;
 namespace TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelProjects {
-	public class AnnotatedProjectDependency : IdentifiedObject {
+	   /// <summary>
+	   /// Represents a dependency between project stages with annotation of dependency kind.
+	   /// </summary>
+	   public class AnnotatedProjectDependency : IdentifiedObject {
 
-		public DependencyKind dependencyType;
-		public TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelProjects.NetworkModelProjectStage DependentOnStage;
-		public TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelProjects.NetworkModelProjectStage DependingStage;
+			   /// <summary>
+			   /// The type of dependency.
+			   /// </summary>
+			   public DependencyKind? dependencyType;
+			   /// <summary>
+			   /// The stage this dependency depends on.
+			   /// </summary>
+			   public TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelProjects.NetworkModelProjectStage? DependentOnStage;
+			   /// <summary>
+			   /// The stage that is depending on another stage.
+			   /// </summary>
+			   public TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelProjects.NetworkModelProjectStage? DependingStage;
 
-		public AnnotatedProjectDependency(){
+			   /// <summary>
+			   /// Initializes a new instance of the <see cref="AnnotatedProjectDependency"/> class.
+			   /// </summary>
+			   public AnnotatedProjectDependency(){
 
 		}
 
-		~AnnotatedProjectDependency(){
+			   /// <summary>
+			   /// Finalizes an instance of the <see cref="AnnotatedProjectDependency"/> class.
+			   /// </summary>
+			   ~AnnotatedProjectDependency(){
 
 		}
 
-		public override void Dispose(){
+			   /// <summary>
+			   /// Releases resources used by the <see cref="AnnotatedProjectDependency"/> class.
+			   /// </summary>
+			   public override void Dispose(){
 
 		}
 

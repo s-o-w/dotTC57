@@ -14,15 +14,24 @@ namespace TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelProjects {
 	/// </summary>
 	public class NetworkModelProjectState : IdentifiedObject {
 
-		public NetworkModelProjectState(){
+	   /// <summary>
+	   /// Initializes a new instance of the <see cref="NetworkModelProjectState"/> class.
+	   /// </summary>
+	   public NetworkModelProjectState(){
 
 		}
 
-		~NetworkModelProjectState(){
+	   /// <summary>
+	   /// Finalizes an instance of the <see cref="NetworkModelProjectState"/> class.
+	   /// </summary>
+	   ~NetworkModelProjectState(){
 
 		}
 
-		public override void Dispose(){
+	   /// <summary>
+	   /// Releases resources used by the <see cref="NetworkModelProjectState"/> class.
+	   /// </summary>
+	   public override void Dispose(){
 
 		}
 

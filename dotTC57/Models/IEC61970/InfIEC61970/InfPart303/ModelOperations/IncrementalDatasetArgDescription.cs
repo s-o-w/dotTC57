@@ -7,16 +7,28 @@
 ///////////////////////////////////////////////////////////
 
 namespace TC57CIM.IEC61970.InfIEC61970.InfPart303.ModelOperations {
+	/// <summary>
+	/// Describes an argument for an incremental dataset operation, providing metadata and details for the operation.
+	/// </summary>
 	public class IncrementalDatasetArgDescription : ModelOperationArgDescription {
 
+		/// <summary>
+		/// Initializes a new instance of the <see cref="IncrementalDatasetArgDescription"/> class.
+		/// </summary>
 		public IncrementalDatasetArgDescription(){
 
 		}
 
+		/// <summary>
+		/// Finalizes an instance of the <see cref="IncrementalDatasetArgDescription"/> class.
+		/// </summary>
 		~IncrementalDatasetArgDescription(){
 
 		}
 
+		/// <summary>
+		/// Releases resources used by the <see cref="IncrementalDatasetArgDescription"/> class.
+		/// </summary>
 		public override void Dispose(){
 
 		}

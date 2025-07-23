@@ -13,15 +13,24 @@ namespace TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelFrames {
 	/// </summary>
 	public class CompleteModelToBeDeleted : ModelToBeDeleted {
 
-		public CompleteModelToBeDeleted(){
+	   /// <summary>
+	   /// Initializes a new instance of the <see cref="CompleteModelToBeDeleted"/> class.
+	   /// </summary>
+	   public CompleteModelToBeDeleted(){
 
 		}
 
-		~CompleteModelToBeDeleted(){
+	   /// <summary>
+	   /// Finalizes an instance of the <see cref="CompleteModelToBeDeleted"/> class.
+	   /// </summary>
+	   ~CompleteModelToBeDeleted(){
 
 		}
 
-		public override void Dispose(){
+	   /// <summary>
+	   /// Releases resources used by the <see cref="CompleteModelToBeDeleted"/> class.
+	   /// </summary>
+	   public override void Dispose(){
 
 		}
 

@@ -13,18 +13,33 @@ namespace TC57CIM.IEC61970.InfIEC61970.InfPart303.ModelOperations {
 	/// </summary>
 	public class IncrementalDatasetArg : ModelOperationArg {
 
-		public TC57CIM.IEC61970.InfIEC61970.InfPart303.ModelOperations.IncrementalDatasetArgDescription IncrementalDatasetArgDescription;
-		public TC57CIM.IEC61970.InfIEC61970.Part303.GenericDataSet.ChangeSet IncrementalDataset;
+	   /// <summary>
+	   /// The description of the incremental dataset argument.
+	   /// </summary>
+	   public TC57CIM.IEC61970.InfIEC61970.InfPart303.ModelOperations.IncrementalDatasetArgDescription? IncrementalDatasetArgDescription;
+	   /// <summary>
+	   /// The incremental dataset associated with this argument.
+	   /// </summary>
+	   public TC57CIM.IEC61970.InfIEC61970.Part303.GenericDataSet.ChangeSet? IncrementalDataset;
 
-		public IncrementalDatasetArg(){
+	   /// <summary>
+	   /// Initializes a new instance of the <see cref="IncrementalDatasetArg"/> class.
+	   /// </summary>
+	   public IncrementalDatasetArg(){
 
 		}
 
-		~IncrementalDatasetArg(){
+	   /// <summary>
+	   /// Finalizes an instance of the <see cref="IncrementalDatasetArg"/> class.
+	   /// </summary>
+	   ~IncrementalDatasetArg(){
 
 		}
 
-		public override void Dispose(){
+	   /// <summary>
+	   /// Releases resources used by the <see cref="IncrementalDatasetArg"/> class.
+	   /// </summary>
+	   public override void Dispose(){
 
 		}
 

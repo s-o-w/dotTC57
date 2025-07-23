@@ -16,29 +16,41 @@ namespace TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelProjects {
 		/// <summary>
 		/// The date the Power System Project is in cancelled stage.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Date cancelled;
-		/// <summary>
-		/// The date Power System Project is in committed stage.
-		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Date committed;
-		/// <summary>
-		/// The date Power System Project is in build stage.
-		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Date inBuild;
-		/// <summary>
-		/// The date Power System Project is in planning stage.
-		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Date inPlan;
+	   /// <summary>
+	   /// The date the Power System Project is in cancelled stage.
+	   /// </summary>
+	   public TC57CIM.IEC61970.Base.Domain.Date? cancelled;
+	   /// <summary>
+	   /// The date Power System Project is in committed stage.
+	   /// </summary>
+	   public TC57CIM.IEC61970.Base.Domain.Date? committed;
+	   /// <summary>
+	   /// The date Power System Project is in build stage.
+	   /// </summary>
+	   public TC57CIM.IEC61970.Base.Domain.Date? inBuild;
+	   /// <summary>
+	   /// The date Power System Project is in planning stage.
+	   /// </summary>
+	   public TC57CIM.IEC61970.Base.Domain.Date? inPlan;
 
-		public PowerSystemProjectLifecycleToBeDeleted(){
+	   /// <summary>
+	   /// Initializes a new instance of the <see cref="PowerSystemProjectLifecycleToBeDeleted"/> class.
+	   /// </summary>
+	   public PowerSystemProjectLifecycleToBeDeleted(){
 
 		}
 
-		~PowerSystemProjectLifecycleToBeDeleted(){
+	   /// <summary>
+	   /// Finalizes an instance of the <see cref="PowerSystemProjectLifecycleToBeDeleted"/> class.
+	   /// </summary>
+	   ~PowerSystemProjectLifecycleToBeDeleted(){
 
 		}
 
-		public virtual void Dispose(){
+	   /// <summary>
+	   /// Releases resources used by the <see cref="PowerSystemProjectLifecycleToBeDeleted"/> class.
+	   /// </summary>
+	   public virtual void Dispose(){
 
 		}
 

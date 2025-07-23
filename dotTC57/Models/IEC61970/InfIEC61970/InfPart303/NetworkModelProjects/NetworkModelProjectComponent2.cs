@@ -8,24 +8,54 @@
 
 using TC57CIM.IEC61970.Base.Core;
 namespace TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelProjects {
-	public class NetworkModelProjectComponent2 : IdentifiedObject {
+	   /// <summary>
+	   /// Represents a component of a network model project with versioning and state information.
+	   /// </summary>
+	   public class NetworkModelProjectComponent2 : IdentifiedObject {
 
-		public System.DateTime closed;
-		public System.DateTime created;
-		public System.DateTime updated;
-		public TC57CIM.IEC61970.Base.Domain.Integer version;
-		public TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelProjects.CurrentState m_CurrentState;
-		public TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelProjects.NetworkModelProject2 Parent;
+			   /// <summary>
+			   /// The date the component was closed.
+			   /// </summary>
+			   public System.DateTime? closed;
+			   /// <summary>
+			   /// The date the component was created.
+			   /// </summary>
+			   public System.DateTime? created;
+			   /// <summary>
+			   /// The date the component was last updated.
+			   /// </summary>
+			   public System.DateTime? updated;
+			   /// <summary>
+			   /// The version of the component.
+			   /// </summary>
+			   public TC57CIM.IEC61970.Base.Domain.Integer? version;
+			   /// <summary>
+			   /// The current state of the component.
+			   /// </summary>
+			   public TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelProjects.CurrentState? m_CurrentState;
+			   /// <summary>
+			   /// The parent project of this component.
+			   /// </summary>
+			   public TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelProjects.NetworkModelProject2? Parent;
 
-		public NetworkModelProjectComponent2(){
+			   /// <summary>
+			   /// Initializes a new instance of the <see cref="NetworkModelProjectComponent2"/> class.
+			   /// </summary>
+			   public NetworkModelProjectComponent2(){
 
 		}
 
-		~NetworkModelProjectComponent2(){
+			   /// <summary>
+			   /// Finalizes an instance of the <see cref="NetworkModelProjectComponent2"/> class.
+			   /// </summary>
+			   ~NetworkModelProjectComponent2(){
 
 		}
 
-		public override void Dispose(){
+			   /// <summary>
+			   /// Releases resources used by the <see cref="NetworkModelProjectComponent2"/> class.
+			   /// </summary>
+			   public override void Dispose(){
 
 		}
 

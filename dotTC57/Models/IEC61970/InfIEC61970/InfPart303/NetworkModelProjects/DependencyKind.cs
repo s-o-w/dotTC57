@@ -7,11 +7,19 @@
 ///////////////////////////////////////////////////////////
 
 namespace TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelProjects {
-	public enum DependencyKind : int {
+	   /// <summary>
+	   /// Enumerates the types of dependencies between network model project stages.
+	   /// </summary>
+	   public enum DependencyKind : int {
+			   /// <summary>
+			   /// The projects are mutually exclusive.
+			   /// </summary>
+			   mutuallyExclusive,
+			   /// <summary>
+			   /// The project is required.
+			   /// </summary>
+			   required
 
-		mutuallyExclusive,
-		required
-
-	}//end DependencyKind
+	   }//end DependencyKind
 
 }//end namespace NetworkModelProjects

@@ -6,13 +6,17 @@
 //  Original author: kdemaree
 ///////////////////////////////////////////////////////////
 
-namespace TC57CIM.IEC61970.InfIEC61970.InfOperationalLimits {
-	public class ScheduledLimitDependency : LimitDependency {
 
-/// <summary>
-/// The scheduled limit values for this limit dependency.
-/// </summary>
-public TC57CIM.IEC61970.InfIEC61970.InfOperationalLimits.ScheduledLimitValue? ScheduledLimitValues;
+namespace TC57CIM.IEC61970.InfIEC61970.InfOperationalLimits {
+   /// <summary>
+   /// A dependency that schedules limit values over time.
+   /// </summary>
+   public class ScheduledLimitDependency : LimitDependency {
+
+	  /// <summary>
+	  /// The scheduled limit values for this limit dependency.
+	  /// </summary>
+	  public TC57CIM.IEC61970.InfIEC61970.InfOperationalLimits.ScheduledLimitValue? ScheduledLimitValues;
 
 	   /// <summary>
 	   /// Initializes a new instance of the <see cref="ScheduledLimitDependency"/> class.

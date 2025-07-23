@@ -6,29 +6,27 @@
 //  Original author: kdemaree
 ///////////////////////////////////////////////////////////
 
-namespace TC57CIM.IEC61970.InfIEC61970.InfOperationalLimits {
-	/// <summary>
-	/// One operational limit type scales values of another operational limit type when
-	/// under the same operational limit set.    This applies to any operational limit
-	/// assigned to the target operational limit type and without other limit
-	/// dependency models.
-	/// </summary>
-	public class OperatonalLimitTypeScaling {
 
-	   /// <summary>
-	   /// The percentage scaling of the source limit to compute the target limit. Applies
-	   /// to operational limits within an operational limit set when both source and
-	   /// target operational limit types exist.
-	   /// </summary>
-	   public TC57CIM.IEC61970.Base.Domain.PerCent? scalingPercent;
-	   /// <summary>
-	   /// The source operational limit type.
-	   /// </summary>
-	   public TC57CIM.IEC61970.Base.OperationalLimits.OperationalLimitType? SourceOperationalLimitType;
-	   /// <summary>
-	   /// The target operational limit type.
-	   /// </summary>
-	   public TC57CIM.IEC61970.Base.OperationalLimits.OperationalLimitType? TargetOperationalLimit;
+namespace TC57CIM.IEC61970.InfIEC61970.InfOperationalLimits {
+   /// <summary>
+   /// Represents scaling between two operational limit types within the same set.
+   /// </summary>
+   public class OperatonalLimitTypeScaling {
+
+	  /// <summary>
+	  /// The percentage scaling of the source limit to compute the target limit. Applies to operational limits within an operational limit set when both source and target operational limit types exist.
+	  /// </summary>
+	  public TC57CIM.IEC61970.Base.Domain.PerCent? scalingPercent;
+
+	  /// <summary>
+	  /// The source operational limit type.
+	  /// </summary>
+	  public TC57CIM.IEC61970.Base.OperationalLimits.OperationalLimitType? SourceOperationalLimitType;
+
+	  /// <summary>
+	  /// The target operational limit type.
+	  /// </summary>
+	  public TC57CIM.IEC61970.Base.OperationalLimits.OperationalLimitType? TargetOperationalLimit;
 
 	   /// <summary>
 	   /// Initializes a new instance of the <see cref="OperatonalLimitTypeScaling"/> class.

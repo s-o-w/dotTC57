@@ -13,15 +13,24 @@ namespace TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelProjects {
 	/// </summary>
 	public class NetworkModelProject : NetworkModelProjectComponent {
 
-		public NetworkModelProject(){
+	   /// <summary>
+	   /// Initializes a new instance of the <see cref="NetworkModelProject"/> class.
+	   /// </summary>
+	   public NetworkModelProject(){
 
 		}
 
-		~NetworkModelProject(){
+	   /// <summary>
+	   /// Finalizes an instance of the <see cref="NetworkModelProject"/> class.
+	   /// </summary>
+	   ~NetworkModelProject(){
 
 		}
 
-		public override void Dispose(){
+	   /// <summary>
+	   /// Releases resources used by the <see cref="NetworkModelProject"/> class.
+	   /// </summary>
+	   public override void Dispose(){
 
 		}
 

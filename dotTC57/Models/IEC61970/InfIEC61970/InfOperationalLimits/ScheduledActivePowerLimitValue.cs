@@ -6,13 +6,17 @@
 //  Original author: kdemaree
 ///////////////////////////////////////////////////////////
 
-namespace TC57CIM.IEC61970.InfIEC61970.InfOperationalLimits {
-	public class ScheduledActivePowerLimitValue : ScheduledLimitValue {
 
-/// <summary>
-/// The active power limit value for the scheduled time.
-/// </summary>
-public TC57CIM.IEC61970.Base.Domain.ActivePower? value;
+namespace TC57CIM.IEC61970.InfIEC61970.InfOperationalLimits {
+   /// <summary>
+   /// A scheduled value for active power limit at a specific time.
+   /// </summary>
+   public class ScheduledActivePowerLimitValue : ScheduledLimitValue {
+
+	  /// <summary>
+	  /// The active power limit value for the scheduled time.
+	  /// </summary>
+	  public TC57CIM.IEC61970.Base.Domain.ActivePower? value;
 
 	   /// <summary>
 	   /// Initializes a new instance of the <see cref="ScheduledActivePowerLimitValue"/> class.

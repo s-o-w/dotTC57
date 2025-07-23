@@ -7,22 +7,46 @@
 ///////////////////////////////////////////////////////////
 
 namespace TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelProjects {
-	public class NetworkModelProjectStage : NetworkModelProjectComponent2 {
+	   /// <summary>
+	   /// Represents a stage in a network model project, including changeset version and commissioning dates.
+	   /// </summary>
+	   public class NetworkModelProjectStage : NetworkModelProjectComponent2 {
 
-		public TC57CIM.IEC61970.Base.Domain.Integer changesetVersion;
-		public System.DateTime commissionedDate;
-		public System.DateTime plannedCommissionedDate;
-		public TC57CIM.IEC61970.InfIEC61970.Part303.GenericDataSet.ChangeSet ChangeSets;
+	   /// <summary>
+	   /// The version of the changeset.
+	   /// </summary>
+	   public TC57CIM.IEC61970.Base.Domain.Integer? changesetVersion;
+	   /// <summary>
+	   /// The date the project was commissioned.
+	   /// </summary>
+	   public System.DateTime? commissionedDate;
+	   /// <summary>
+	   /// The planned date for commissioning.
+	   /// </summary>
+	   public System.DateTime? plannedCommissionedDate;
+	   /// <summary>
+	   /// The set of changes associated with this project stage.
+	   /// </summary>
+	   public TC57CIM.IEC61970.InfIEC61970.Part303.GenericDataSet.ChangeSet? ChangeSets;
 
-		public NetworkModelProjectStage(){
+	   /// <summary>
+	   /// Initializes a new instance of the <see cref="NetworkModelProjectStage"/> class.
+	   /// </summary>
+	   public NetworkModelProjectStage(){
 
 		}
 
-		~NetworkModelProjectStage(){
+	   /// <summary>
+	   /// Finalizes an instance of the <see cref="NetworkModelProjectStage"/> class.
+	   /// </summary>
+	   ~NetworkModelProjectStage(){
 
 		}
 
-		public override void Dispose(){
+	   /// <summary>
+	   /// Releases resources used by the <see cref="NetworkModelProjectStage"/> class.
+	   /// </summary>
+	   public override void Dispose(){
 
 		}
 

@@ -13,15 +13,24 @@ namespace TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelProjects {
 	/// </summary>
 	public class DifferentialModel {
 
-		public DifferentialModel(){
+	   /// <summary>
+	   /// Initializes a new instance of the <see cref="DifferentialModel"/> class.
+	   /// </summary>
+	   public DifferentialModel(){
 
 		}
 
-		~DifferentialModel(){
+	   /// <summary>
+	   /// Finalizes an instance of the <see cref="DifferentialModel"/> class.
+	   /// </summary>
+	   ~DifferentialModel(){
 
 		}
 
-		public virtual void Dispose(){
+	   /// <summary>
+	   /// Releases resources used by the <see cref="DifferentialModel"/> class.
+	   /// </summary>
+	   public virtual void Dispose(){
 
 		}
 

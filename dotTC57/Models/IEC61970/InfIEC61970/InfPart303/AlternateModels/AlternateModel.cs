@@ -8,25 +8,38 @@
 
 using TC57CIM.IEC61970.Base.Core;
 namespace TC57CIM.IEC61970.InfIEC61970.InfPart303.AlternateModels {
+	/// <summary>
+	/// Represents an alternate model, which is a specific dataset used as an alternative within a group.
+	/// </summary>
 	public class AlternateModel : IdentifiedObject {
 
 		/// <summary>
 		/// The group of alternate models for which one alternate is used.
 		/// </summary>
-		public TC57CIM.IEC61970.InfIEC61970.InfPart303.AlternateModels.AlternateModelGroup AlternateModelGroup;
+		public TC57CIM.IEC61970.InfIEC61970.InfPart303.AlternateModels.AlternateModelGroup? AlternateModelGroup;
+
 		/// <summary>
 		/// The data belonging to the alternate model.
 		/// </summary>
-		public TC57CIM.IEC61970.InfIEC61970.Part303.GenericDataSet.DataSet Dataset;
+		public TC57CIM.IEC61970.InfIEC61970.Part303.GenericDataSet.DataSet? Dataset;
 
+		/// <summary>
+		/// Initializes a new instance of the <see cref="AlternateModel"/> class.
+		/// </summary>
 		public AlternateModel(){
 
 		}
 
+		/// <summary>
+		/// Finalizes an instance of the <see cref="AlternateModel"/> class.
+		/// </summary>
 		~AlternateModel(){
 
 		}
 
+		/// <summary>
+		/// Releases resources used by the <see cref="AlternateModel"/> class.
+		/// </summary>
 		public override void Dispose(){
 
 		}

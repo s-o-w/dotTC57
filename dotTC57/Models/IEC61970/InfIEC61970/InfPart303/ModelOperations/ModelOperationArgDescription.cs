@@ -17,28 +17,37 @@ namespace TC57CIM.IEC61970.InfIEC61970.InfPart303.ModelOperations {
 		/// The maximum multiplicity of the instance arguments that should be supplied for
 		/// a single operation.     Use -1 to indicate unlimited.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer multiplicityMaximum;
-		/// <summary>
-		/// The minimum multiplicity of the instance arguments that should be supplied for
-		/// a single operation.     Use zero to indicate optional.
-		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer multiplicityMinimum;
-		/// <summary>
-		/// The type of operation for this type of dataset role.   Operations referencing
-		/// the dataset role type should only belong to operations that reference the
-		/// operation type.
-		/// </summary>
-		public TC57CIM.IEC61970.InfIEC61970.InfPart303.ModelOperations.ModelOperationDescription ModelOperationDefinition;
+	   /// <summary>
+	   /// The maximum multiplicity of the instance arguments that should be supplied for a single operation. Use -1 to indicate unlimited.
+	   /// </summary>
+	   public TC57CIM.IEC61970.Base.Domain.Integer? multiplicityMaximum;
+	   /// <summary>
+	   /// The minimum multiplicity of the instance arguments that should be supplied for a single operation. Use zero to indicate optional.
+	   /// </summary>
+	   public TC57CIM.IEC61970.Base.Domain.Integer? multiplicityMinimum;
+	   /// <summary>
+	   /// The type of operation for this type of dataset role. Operations referencing the dataset role type should only belong to operations that reference the operation type.
+	   /// </summary>
+	   public TC57CIM.IEC61970.InfIEC61970.InfPart303.ModelOperations.ModelOperationDescription? ModelOperationDefinition;
 
-		public ModelOperationArgDescription(){
+	   /// <summary>
+	   /// Initializes a new instance of the <see cref="ModelOperationArgDescription"/> class.
+	   /// </summary>
+	   public ModelOperationArgDescription(){
 
 		}
 
-		~ModelOperationArgDescription(){
+	   /// <summary>
+	   /// Finalizes an instance of the <see cref="ModelOperationArgDescription"/> class.
+	   /// </summary>
+	   ~ModelOperationArgDescription(){
 
 		}
 
-		public override void Dispose(){
+	   /// <summary>
+	   /// Releases resources used by the <see cref="ModelOperationArgDescription"/> class.
+	   /// </summary>
+	   public override void Dispose(){
 
 		}
 

@@ -7,13 +7,27 @@
 ///////////////////////////////////////////////////////////
 
 namespace TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelProjects {
-	public enum ProjectStatusKind : int {
+	   /// <summary>
+	   /// Enumerates the possible statuses for a network model project.
+	   /// </summary>
+	   public enum ProjectStatusKind : int {
+			   /// <summary>
+			   /// The project is in draft status.
+			   /// </summary>
+			   draft,
+			   /// <summary>
+			   /// The project is cancelled.
+			   /// </summary>
+			   cancelled,
+			   /// <summary>
+			   /// The project is frozen.
+			   /// </summary>
+			   frozen,
+			   /// <summary>
+			   /// The project is closed.
+			   /// </summary>
+			   closed
 
-		draft,
-		cancelled,
-		frozen,
-		closed
-
-	}//end ProjectStatusKind
+	   }//end ProjectStatusKind
 
 }//end namespace NetworkModelProjects

@@ -18,17 +18,29 @@ namespace TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelFrames {
 		/// <summary>
 		/// Model frame of the model part.
 		/// </summary>
-		public TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelFrames.ModelAuthoritySet FrameworkPart;
+	   /// <summary>
+	   /// The framework part associated with this model part specification.
+	   /// </summary>
+	   public TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelFrames.ModelAuthoritySet? FrameworkPart;
 
-		public ModelPartSpecification(){
+	   /// <summary>
+	   /// Initializes a new instance of the <see cref="ModelPartSpecification"/> class.
+	   /// </summary>
+	   public ModelPartSpecification(){
 
 		}
 
-		~ModelPartSpecification(){
+	   /// <summary>
+	   /// Finalizes an instance of the <see cref="ModelPartSpecification"/> class.
+	   /// </summary>
+	   ~ModelPartSpecification(){
 
 		}
 
-		public override void Dispose(){
+	   /// <summary>
+	   /// Releases resources used by the <see cref="ModelPartSpecification"/> class.
+	   /// </summary>
+	   public override void Dispose(){
 
 		}
 

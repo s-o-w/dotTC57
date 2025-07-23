@@ -14,7 +14,7 @@ namespace TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelProjects {
 	/// are instantiated upon changes to the content of this class or changes to the
 	/// associated change set.  Instances of this class are considered immutable.  The
 	/// case audit trail can reference this immutable data to exactly reproduce a case.
-	/// 
+	///
 	/// </summary>
 	public class NetworkModelProjectChangeVersion : IdentifiedObject {
 
@@ -22,42 +22,52 @@ namespace TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelProjects {
 		/// A user provided comment describing the changes in this version from the
 		/// previous version.
 		/// </summary>
-		public string comment;
-		/// <summary>
-		/// The date/time the change set is included in the model.
-		/// </summary>
-		public System.DateTime effectiveDateTime;
-		/// <summary>
-		/// The date/time this version was finalized and thus made immutable.
-		/// </summary>
-		public System.DateTime timeStamp;
-		/// <summary>
-		/// The details of model changes for this project.   The change set should have a
-		/// new identifier if it changes.
-		/// </summary>
-		public TC57CIM.IEC61970.InfIEC61970.Part303.GenericDataSet.ChangeSet ChangeSet;
-		/// <summary>
-		/// The persistent network model project change to which this version applies.
-		/// </summary>
-		public TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelProjects.NetworkModelProjectChange NetworkModelProjectChange;
-		/// <summary>
-		/// The project version that will supercede this project version.
-		/// </summary>
-		public TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelProjects.NetworkModelProjectChangeVersion SupercededBy;
-		/// <summary>
-		/// The state of this network model project version.
-		/// </summary>
-		public TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelProjects.NetworkModelProjectState NetworkModelProjectState;
-
-		public NetworkModelProjectChangeVersion(){
+	   /// <summary>
+	   /// A user provided comment describing the changes in this version from the previous version.
+	   /// </summary>
+	   public string? comment;
+	   /// <summary>
+	   /// The persistent network model project change to which this version applies.
+	   /// </summary>
+	   public TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelProjects.NetworkModelProjectChange? NetworkModelProjectChange;
+	   /// <summary>
+	   /// The version that supersedes this one, if any.
+	   /// </summary>
+	   public TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelProjects.NetworkModelProjectChangeVersion? SupercededBy;
+	   /// <summary>
+	   /// The state of the network model project for this version.
+	   /// </summary>
+	   public TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelProjects.NetworkModelProjectState? NetworkModelProjectState;
+	   /// <summary>
+	   /// The date/time the change set is included in the model.
+	   /// </summary>
+	   public System.DateTime? effectiveDateTime;
+	   /// <summary>
+	   /// The date/time this version was finalized and thus made immutable.
+	   /// </summary>
+	   public System.DateTime? timeStamp;
+	   /// <summary>
+	   /// The details of model changes for this project. The change set should have a new identifier if it changes.
+	   /// </summary>
+	   public TC57CIM.IEC61970.InfIEC61970.Part303.GenericDataSet.ChangeSet? ChangeSet;
+	   /// <summary>
+	   /// Initializes a new instance of the <see cref="NetworkModelProjectChangeVersion"/> class.
+	   /// </summary>
+	   public NetworkModelProjectChangeVersion(){
 
 		}
 
-		~NetworkModelProjectChangeVersion(){
+	   /// <summary>
+	   /// Finalizes an instance of the <see cref="NetworkModelProjectChangeVersion"/> class.
+	   /// </summary>
+	   ~NetworkModelProjectChangeVersion(){
 
 		}
 
-		public override void Dispose(){
+	   /// <summary>
+	   /// Releases resources used by the <see cref="NetworkModelProjectChangeVersion"/> class.
+	   /// </summary>
+	   public override void Dispose(){
 
 		}
 

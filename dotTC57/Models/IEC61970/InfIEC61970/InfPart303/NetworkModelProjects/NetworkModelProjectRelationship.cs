@@ -15,18 +15,33 @@ namespace TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelProjects {
 	/// </summary>
 	public class NetworkModelProjectRelationship : IdentifiedObject {
 
-		public TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelProjects.NetworkModelProjectComponent ProjectA;
-		public TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelProjects.NetworkModelProjectComponent ProjectB;
+	   /// <summary>
+	   /// The first project component in the relationship.
+	   /// </summary>
+	   public TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelProjects.NetworkModelProjectComponent? ProjectA;
+	   /// <summary>
+	   /// The second project component in the relationship.
+	   /// </summary>
+	   public TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelProjects.NetworkModelProjectComponent? ProjectB;
 
-		public NetworkModelProjectRelationship(){
+	   /// <summary>
+	   /// Initializes a new instance of the <see cref="NetworkModelProjectRelationship"/> class.
+	   /// </summary>
+	   public NetworkModelProjectRelationship(){
 
 		}
 
-		~NetworkModelProjectRelationship(){
+	   /// <summary>
+	   /// Finalizes an instance of the <see cref="NetworkModelProjectRelationship"/> class.
+	   /// </summary>
+	   ~NetworkModelProjectRelationship(){
 
 		}
 
-		public override void Dispose(){
+	   /// <summary>
+	   /// Releases resources used by the <see cref="NetworkModelProjectRelationship"/> class.
+	   /// </summary>
+	   public override void Dispose(){
 
 		}
 

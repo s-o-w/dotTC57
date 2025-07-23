@@ -14,15 +14,24 @@ namespace TC57CIM.IEC61970.InfIEC61970.InfPart303.ModelOperations {
 	/// </summary>
 	public class ModelOperationDescription : IdentifiedObject {
 
-		public ModelOperationDescription(){
+	   /// <summary>
+	   /// Initializes a new instance of the <see cref="ModelOperationDescription"/> class.
+	   /// </summary>
+	   public ModelOperationDescription(){
 
 		}
 
-		~ModelOperationDescription(){
+	   /// <summary>
+	   /// Finalizes an instance of the <see cref="ModelOperationDescription"/> class.
+	   /// </summary>
+	   ~ModelOperationDescription(){
 
 		}
 
-		public override void Dispose(){
+	   /// <summary>
+	   /// Releases resources used by the <see cref="ModelOperationDescription"/> class.
+	   /// </summary>
+	   public override void Dispose(){
 
 		}
 

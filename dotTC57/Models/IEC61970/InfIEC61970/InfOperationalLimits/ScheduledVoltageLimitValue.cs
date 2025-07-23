@@ -6,16 +6,17 @@
 //  Original author: kdemaree
 ///////////////////////////////////////////////////////////
 
-namespace TC57CIM.IEC61970.InfIEC61970.InfOperationalLimits {
-	/// <summary>
-	/// A voltage limit value for a scheduled time.
-	/// </summary>
-	public class ScheduledVoltageLimitValue : ScheduledLimitValue {
 
-/// <summary>
-/// The voltage limit value for the scheduled time.
-/// </summary>
-public TC57CIM.IEC61970.Base.Domain.Voltage? value;
+namespace TC57CIM.IEC61970.InfIEC61970.InfOperationalLimits {
+   /// <summary>
+   /// A voltage limit value for a scheduled time.
+   /// </summary>
+   public class ScheduledVoltageLimitValue : ScheduledLimitValue {
+
+	  /// <summary>
+	  /// The voltage limit value for the scheduled time.
+	  /// </summary>
+	  public TC57CIM.IEC61970.Base.Domain.Voltage? value;
 
 	   /// <summary>
 	   /// Initializes a new instance of the <see cref="ScheduledVoltageLimitValue"/> class.

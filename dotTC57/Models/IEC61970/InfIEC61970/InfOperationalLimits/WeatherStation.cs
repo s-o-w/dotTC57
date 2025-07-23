@@ -7,11 +7,12 @@
 ///////////////////////////////////////////////////////////
 
 using TC57CIM.IEC61970.Base.Core;
+
 namespace TC57CIM.IEC61970.InfIEC61970.InfOperationalLimits {
-	/// <summary>
-	/// This represents a source of ambient temperature.
-	/// </summary>
-	public class WeatherStation : PowerSystemResource {
+   /// <summary>
+   /// This represents a source of ambient temperature.
+   /// </summary>
+   public class WeatherStation : PowerSystemResource {
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="WeatherStation"/> class.

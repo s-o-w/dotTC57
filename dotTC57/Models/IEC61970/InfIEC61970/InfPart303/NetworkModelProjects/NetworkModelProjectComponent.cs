@@ -13,21 +13,33 @@ namespace TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelProjects {
 	/// </summary>
 	public class NetworkModelProjectComponent : IdentifiedObject {
 
-		public TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelProjects.NetworkModelProjectDocument m_NetworkModelProjectDocument;
-		/// <summary>
-		/// The parent project of this project.
-		/// </summary>
-		public TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelProjects.NetworkModelProject ContainingProject;
+	   /// <summary>
+	   /// The document associated with this network model project component.
+	   /// </summary>
+	   public TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelProjects.NetworkModelProjectDocument? m_NetworkModelProjectDocument;
+	   /// <summary>
+	   /// The parent project of this project.
+	   /// </summary>
+	   public TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelProjects.NetworkModelProject? ContainingProject;
 
-		public NetworkModelProjectComponent(){
+	   /// <summary>
+	   /// Initializes a new instance of the <see cref="NetworkModelProjectComponent"/> class.
+	   /// </summary>
+	   public NetworkModelProjectComponent(){
 
 		}
 
-		~NetworkModelProjectComponent(){
+	   /// <summary>
+	   /// Finalizes an instance of the <see cref="NetworkModelProjectComponent"/> class.
+	   /// </summary>
+	   ~NetworkModelProjectComponent(){
 
 		}
 
-		public override void Dispose(){
+	   /// <summary>
+	   /// Releases resources used by the <see cref="NetworkModelProjectComponent"/> class.
+	   /// </summary>
+	   public override void Dispose(){
 
 		}
 

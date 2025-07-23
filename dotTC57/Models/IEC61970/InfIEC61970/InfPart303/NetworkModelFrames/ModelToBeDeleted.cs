@@ -13,15 +13,24 @@ namespace TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelFrames {
 	/// </summary>
 	public class ModelToBeDeleted : IdentifiedObject {
 
-		public ModelToBeDeleted(){
+	   /// <summary>
+	   /// Initializes a new instance of the <see cref="ModelToBeDeleted"/> class.
+	   /// </summary>
+	   public ModelToBeDeleted(){
 
 		}
 
-		~ModelToBeDeleted(){
+	   /// <summary>
+	   /// Finalizes an instance of the <see cref="ModelToBeDeleted"/> class.
+	   /// </summary>
+	   ~ModelToBeDeleted(){
 
 		}
 
-		public override void Dispose(){
+	   /// <summary>
+	   /// Releases resources used by the <see cref="ModelToBeDeleted"/> class.
+	   /// </summary>
+	   public override void Dispose(){
 
 		}
 

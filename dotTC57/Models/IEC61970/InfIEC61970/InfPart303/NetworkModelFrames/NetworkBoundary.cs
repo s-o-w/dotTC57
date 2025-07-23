@@ -12,17 +12,29 @@ namespace TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelFrames {
 	/// </summary>
 	public class NetworkBoundary : FrameworkPart {
 
-		public TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelFrames.NetworkFrame m_NetworkFrame;
+	   /// <summary>
+	   /// The network frame associated with this boundary.
+	   /// </summary>
+	   public TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelFrames.NetworkFrame? m_NetworkFrame;
 
-		public NetworkBoundary(){
+	   /// <summary>
+	   /// Initializes a new instance of the <see cref="NetworkBoundary"/> class.
+	   /// </summary>
+	   public NetworkBoundary(){
 
 		}
 
-		~NetworkBoundary(){
+	   /// <summary>
+	   /// Finalizes an instance of the <see cref="NetworkBoundary"/> class.
+	   /// </summary>
+	   ~NetworkBoundary(){
 
 		}
 
-		public override void Dispose(){
+	   /// <summary>
+	   /// Releases resources used by the <see cref="NetworkBoundary"/> class.
+	   /// </summary>
+	   public override void Dispose(){
 
 		}
 

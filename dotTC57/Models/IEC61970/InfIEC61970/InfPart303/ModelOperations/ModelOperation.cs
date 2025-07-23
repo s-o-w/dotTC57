@@ -17,21 +17,33 @@ namespace TC57CIM.IEC61970.InfIEC61970.InfPart303.ModelOperations {
 		/// Sequence number within a operation sequence, lower is first.   Normally starts
 		/// with 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer sequenceNumber;
-		/// <summary>
-		/// The type of the model operation.
-		/// </summary>
-		public TC57CIM.IEC61970.InfIEC61970.InfPart303.ModelOperations.ModelOperationDescription ModelOperationDescription;
+	   /// <summary>
+	   /// Sequence number within an operation sequence, lower is first. Normally starts with 1.
+	   /// </summary>
+	   public TC57CIM.IEC61970.Base.Domain.Integer? sequenceNumber;
+	   /// <summary>
+	   /// The type of the model operation.
+	   /// </summary>
+	   public TC57CIM.IEC61970.InfIEC61970.InfPart303.ModelOperations.ModelOperationDescription? ModelOperationDescription;
 
-		public ModelOperation(){
+	   /// <summary>
+	   /// Initializes a new instance of the <see cref="ModelOperation"/> class.
+	   /// </summary>
+	   public ModelOperation(){
 
 		}
 
-		~ModelOperation(){
+	   /// <summary>
+	   /// Finalizes an instance of the <see cref="ModelOperation"/> class.
+	   /// </summary>
+	   ~ModelOperation(){
 
 		}
 
-		public override void Dispose(){
+	   /// <summary>
+	   /// Releases resources used by the <see cref="ModelOperation"/> class.
+	   /// </summary>
+	   public override void Dispose(){
 
 		}
 

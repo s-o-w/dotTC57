@@ -7,14 +7,12 @@
 ///////////////////////////////////////////////////////////
 
 using TC57CIM.IEC61970.Base.Core;
+
 namespace TC57CIM.IEC61970.InfIEC61970.InfOperationalLimits {
-	/// <summary>
-	/// A limit calculation model used to compute an operational limit based on
-	/// external input such as temperature. These are intended to be shared among
-	/// operational limits with the same calculation form that apply to a piece of
-	/// equipment..
-	/// </summary>
-	public class LimitDependency : IdentifiedObject {
+   /// <summary>
+   /// A limit calculation model used to compute an operational limit based on external input such as temperature. These are intended to be shared among operational limits with the same calculation form that apply to a piece of equipment.
+   /// </summary>
+   public class LimitDependency : IdentifiedObject {
 
 	   /// <summary>
 	   /// Initializes a new instance of the <see cref="LimitDependency"/> class.

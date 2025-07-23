@@ -16,17 +16,29 @@ namespace TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelFrames {
 		/// <summary>
 		/// The models that are part of the assembly descrption.
 		/// </summary>
-		private TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelFrames.ModelPartSpecification ModelSpecification;
+	   /// <summary>
+	   /// The model specification for this assembly description.
+	   /// </summary>
+	   private TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelFrames.ModelPartSpecification? ModelSpecification;
 
-		public AssemblyDescription(){
+	   /// <summary>
+	   /// Initializes a new instance of the <see cref="AssemblyDescription"/> class.
+	   /// </summary>
+	   public AssemblyDescription(){
 
 		}
 
-		~AssemblyDescription(){
+	   /// <summary>
+	   /// Finalizes an instance of the <see cref="AssemblyDescription"/> class.
+	   /// </summary>
+	   ~AssemblyDescription(){
 
 		}
 
-		public override void Dispose(){
+	   /// <summary>
+	   /// Releases resources used by the <see cref="AssemblyDescription"/> class.
+	   /// </summary>
+	   public override void Dispose(){
 
 		}
 

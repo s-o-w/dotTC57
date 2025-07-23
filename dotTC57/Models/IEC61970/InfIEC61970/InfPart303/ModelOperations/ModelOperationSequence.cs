@@ -15,17 +15,29 @@ namespace TC57CIM.IEC61970.InfIEC61970.InfPart303.ModelOperations {
 	/// </summary>
 	public class ModelOperationSequence : IdentifiedObject {
 
-		public TC57CIM.IEC61970.InfIEC61970.InfPart303.ModelOperations.ModelOperation ModelOperation;
+	   /// <summary>
+	   /// The model operation associated with this sequence.
+	   /// </summary>
+	   public TC57CIM.IEC61970.InfIEC61970.InfPart303.ModelOperations.ModelOperation? ModelOperation;
 
-		public ModelOperationSequence(){
+	   /// <summary>
+	   /// Initializes a new instance of the <see cref="ModelOperationSequence"/> class.
+	   /// </summary>
+	   public ModelOperationSequence(){
 
 		}
 
-		~ModelOperationSequence(){
+	   /// <summary>
+	   /// Finalizes an instance of the <see cref="ModelOperationSequence"/> class.
+	   /// </summary>
+	   ~ModelOperationSequence(){
 
 		}
 
-		public override void Dispose(){
+	   /// <summary>
+	   /// Releases resources used by the <see cref="ModelOperationSequence"/> class.
+	   /// </summary>
+	   public override void Dispose(){
 
 		}
 

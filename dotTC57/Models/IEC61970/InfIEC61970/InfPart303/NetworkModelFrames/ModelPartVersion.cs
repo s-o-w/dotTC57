@@ -19,19 +19,37 @@ namespace TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelFrames {
 		/// <summary>
 		/// Model specification of the modelt.
 		/// </summary>
-		private TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelFrames.ModelPartSpecification ModelSpecification;
-		public TC57CIM.IEC61970.InfIEC61970.Part303.GenericDataSet.DataSet m_DataSet;
-		public TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelFrames.CompleteModelToBeDeleted m_CompleteModelToBeDeleted;
+	   /// <summary>
+	   /// The model specification for this model part version.
+	   /// </summary>
+	   private TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelFrames.ModelPartSpecification? ModelSpecification;
+	   /// <summary>
+	   /// The data set associated with this model part version.
+	   /// </summary>
+	   public TC57CIM.IEC61970.InfIEC61970.Part303.GenericDataSet.DataSet? m_DataSet;
+	   /// <summary>
+	   /// The complete model to be deleted, if any, associated with this model part version.
+	   /// </summary>
+	   public TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelFrames.CompleteModelToBeDeleted? m_CompleteModelToBeDeleted;
 
-		public ModelPartVersion(){
+	   /// <summary>
+	   /// Initializes a new instance of the <see cref="ModelPartVersion"/> class.
+	   /// </summary>
+	   public ModelPartVersion(){
 
 		}
 
-		~ModelPartVersion(){
+	   /// <summary>
+	   /// Finalizes an instance of the <see cref="ModelPartVersion"/> class.
+	   /// </summary>
+	   ~ModelPartVersion(){
 
 		}
 
-		public override void Dispose(){
+	   /// <summary>
+	   /// Releases resources used by the <see cref="ModelPartVersion"/> class.
+	   /// </summary>
+	   public override void Dispose(){
 
 		}
 

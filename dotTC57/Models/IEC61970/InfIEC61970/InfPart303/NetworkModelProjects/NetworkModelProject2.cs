@@ -7,17 +7,29 @@
 ///////////////////////////////////////////////////////////
 
 namespace TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelProjects {
-	public class NetworkModelProject2 : NetworkModelProjectComponent2 {
+	   /// <summary>
+	   /// Represents a network model project (version 2) as a component.
+	   /// </summary>
+	   public class NetworkModelProject2 : NetworkModelProjectComponent2 {
 
-		public NetworkModelProject2(){
+	   /// <summary>
+	   /// Initializes a new instance of the <see cref="NetworkModelProject2"/> class.
+	   /// </summary>
+	   public NetworkModelProject2(){
 
 		}
 
-		~NetworkModelProject2(){
+	   /// <summary>
+	   /// Finalizes an instance of the <see cref="NetworkModelProject2"/> class.
+	   /// </summary>
+	   ~NetworkModelProject2(){
 
 		}
 
-		public override void Dispose(){
+	   /// <summary>
+	   /// Releases resources used by the <see cref="NetworkModelProject2"/> class.
+	   /// </summary>
+	   public override void Dispose(){
 
 		}
 

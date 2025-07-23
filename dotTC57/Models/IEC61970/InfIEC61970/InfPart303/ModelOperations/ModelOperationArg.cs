@@ -18,21 +18,33 @@ namespace TC57CIM.IEC61970.InfIEC61970.InfPart303.ModelOperations {
 		/// The sequence number of the argument in an operation.  Argument entries are
 		/// considered in numerical order where the operation requires an ordering.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer sequenceNumber;
-		/// <summary>
-		/// The opeation for the operation argument.
-		/// </summary>
-		public TC57CIM.IEC61970.InfIEC61970.InfPart303.ModelOperations.ModelOperation ModelOperation;
+	   /// <summary>
+	   /// The sequence number of the argument in an operation. Argument entries are considered in numerical order where the operation requires an ordering.
+	   /// </summary>
+	   public TC57CIM.IEC61970.Base.Domain.Integer? sequenceNumber;
+	   /// <summary>
+	   /// The operation for the operation argument.
+	   /// </summary>
+	   public TC57CIM.IEC61970.InfIEC61970.InfPart303.ModelOperations.ModelOperation? ModelOperation;
 
-		public ModelOperationArg(){
+	   /// <summary>
+	   /// Initializes a new instance of the <see cref="ModelOperationArg"/> class.
+	   /// </summary>
+	   public ModelOperationArg(){
 
 		}
 
-		~ModelOperationArg(){
+	   /// <summary>
+	   /// Finalizes an instance of the <see cref="ModelOperationArg"/> class.
+	   /// </summary>
+	   ~ModelOperationArg(){
 
 		}
 
-		public override void Dispose(){
+	   /// <summary>
+	   /// Releases resources used by the <see cref="ModelOperationArg"/> class.
+	   /// </summary>
+	   public override void Dispose(){
 
 		}
 

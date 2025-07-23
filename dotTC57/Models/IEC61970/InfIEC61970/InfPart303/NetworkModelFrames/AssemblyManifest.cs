@@ -13,18 +13,30 @@ namespace TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelFrames {
 	/// </summary>
 	public class AssemblyManifest : IdentifiedObject {
 
-		private TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelFrames.ModelPartVersion m_ModelPartVersion;
-		public TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelFrames.CompleteModelToBeDeleted m_CompleteModelToBeDeleted;
+	   // ...existing code...
+	   /// <summary>
+	   /// The complete model to be deleted, if any, associated with this assembly manifest.
+	   /// </summary>
+	   public TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelFrames.CompleteModelToBeDeleted? m_CompleteModelToBeDeleted;
 
-		public AssemblyManifest(){
+	   /// <summary>
+	   /// Initializes a new instance of the <see cref="AssemblyManifest"/> class.
+	   /// </summary>
+	   public AssemblyManifest(){
 
 		}
 
-		~AssemblyManifest(){
+	   /// <summary>
+	   /// Finalizes an instance of the <see cref="AssemblyManifest"/> class.
+	   /// </summary>
+	   ~AssemblyManifest(){
 
 		}
 
-		public override void Dispose(){
+	   /// <summary>
+	   /// Releases resources used by the <see cref="AssemblyManifest"/> class.
+	   /// </summary>
+	   public override void Dispose(){
 
 		}
 

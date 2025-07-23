@@ -7,17 +7,29 @@
 ///////////////////////////////////////////////////////////
 
 namespace TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelProjects {
-	public class NetworkModelProjectDocument {
+	   /// <summary>
+	   /// Represents a document associated with a network model project.
+	   /// </summary>
+	   public class NetworkModelProjectDocument {
 
-		public NetworkModelProjectDocument(){
+	   /// <summary>
+	   /// Initializes a new instance of the <see cref="NetworkModelProjectDocument"/> class.
+	   /// </summary>
+	   public NetworkModelProjectDocument(){
 
 		}
 
-		~NetworkModelProjectDocument(){
+	   /// <summary>
+	   /// Finalizes an instance of the <see cref="NetworkModelProjectDocument"/> class.
+	   /// </summary>
+	   ~NetworkModelProjectDocument(){
 
 		}
 
-		public virtual void Dispose(){
+	   /// <summary>
+	   /// Releases resources used by the <see cref="NetworkModelProjectDocument"/> class.
+	   /// </summary>
+	   public virtual void Dispose(){
 
 		}
 

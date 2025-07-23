@@ -7,17 +7,29 @@
 ///////////////////////////////////////////////////////////
 
 namespace TC57CIM.IEC61970.InfIEC61970.InfPart303.ModelOperations {
-	public class DatasetArgDescription : ModelOperationArgDescription {
+	   /// <summary>
+	   /// Describes the type of dataset argument for a model operation.
+	   /// </summary>
+	   public class DatasetArgDescription : ModelOperationArgDescription {
 
-		public DatasetArgDescription(){
+	   /// <summary>
+	   /// Initializes a new instance of the <see cref="DatasetArgDescription"/> class.
+	   /// </summary>
+	   public DatasetArgDescription(){
 
 		}
 
-		~DatasetArgDescription(){
+	   /// <summary>
+	   /// Finalizes an instance of the <see cref="DatasetArgDescription"/> class.
+	   /// </summary>
+	   ~DatasetArgDescription(){
 
 		}
 
-		public override void Dispose(){
+	   /// <summary>
+	   /// Releases resources used by the <see cref="DatasetArgDescription"/> class.
+	   /// </summary>
+	   public override void Dispose(){
 
 		}
 

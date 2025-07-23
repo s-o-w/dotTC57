@@ -9,21 +9,30 @@
 namespace TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelProjects {
 	/// <summary>
 	/// Project B is an alternative to project A.  Project A is the primary alternative.
-	/// 
+	///
 	/// Multiple project alternatives should not be selected into a single network
 	/// study case.
 	/// </summary>
 	public class ProjectAlternative : NetworkModelProjectRelationship {
 
-		public ProjectAlternative(){
+	   /// <summary>
+	   /// Initializes a new instance of the <see cref="ProjectAlternative"/> class.
+	   /// </summary>
+	   public ProjectAlternative(){
 
 		}
 
-		~ProjectAlternative(){
+	   /// <summary>
+	   /// Finalizes an instance of the <see cref="ProjectAlternative"/> class.
+	   /// </summary>
+	   ~ProjectAlternative(){
 
 		}
 
-		public override void Dispose(){
+	   /// <summary>
+	   /// Releases resources used by the <see cref="ProjectAlternative"/> class.
+	   /// </summary>
+	   public override void Dispose(){
 
 		}
 

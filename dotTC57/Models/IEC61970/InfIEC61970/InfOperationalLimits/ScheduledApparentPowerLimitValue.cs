@@ -6,16 +6,17 @@
 //  Original author: kdemaree
 ///////////////////////////////////////////////////////////
 
-namespace TC57CIM.IEC61970.InfIEC61970.InfOperationalLimits {
-	/// <summary>
-	/// A time scheduled value for apparent power limit.
-	/// </summary>
-	public class ScheduledApparentPowerLimitValue : ScheduledLimitValue {
 
-/// <summary>
-/// The apparent power limit value for the scheduled time.
-/// </summary>
-public TC57CIM.IEC61970.Base.Domain.ApparentPower? value;
+namespace TC57CIM.IEC61970.InfIEC61970.InfOperationalLimits {
+   /// <summary>
+   /// A time scheduled value for apparent power limit.
+   /// </summary>
+   public class ScheduledApparentPowerLimitValue : ScheduledLimitValue {
+
+	  /// <summary>
+	  /// The apparent power limit value for the scheduled time.
+	  /// </summary>
+	  public TC57CIM.IEC61970.Base.Domain.ApparentPower? value;
 
 	   /// <summary>
 	   /// Initializes a new instance of the <see cref="ScheduledApparentPowerLimitValue"/> class.

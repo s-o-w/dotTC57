@@ -12,15 +12,24 @@ namespace TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelProjects {
 	/// </summary>
 	public class ProjectDependency : NetworkModelProjectRelationship {
 
-		public ProjectDependency(){
+	   /// <summary>
+	   /// Initializes a new instance of the <see cref="ProjectDependency"/> class.
+	   /// </summary>
+	   public ProjectDependency(){
 
 		}
 
-		~ProjectDependency(){
+	   /// <summary>
+	   /// Finalizes an instance of the <see cref="ProjectDependency"/> class.
+	   /// </summary>
+	   ~ProjectDependency(){
 
 		}
 
-		public override void Dispose(){
+	   /// <summary>
+	   /// Releases resources used by the <see cref="ProjectDependency"/> class.
+	   /// </summary>
+	   public override void Dispose(){
 
 		}
 

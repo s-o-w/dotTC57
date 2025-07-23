@@ -12,17 +12,26 @@ namespace TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelFrames {
 	/// </summary>
 	public class NetworkFrame : FrameworkPart {
 
-		private TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelFrames.FrameworkPart FrameworkPart;
+	   // ...existing code...
 
-		public NetworkFrame(){
+	   /// <summary>
+	   /// Initializes a new instance of the <see cref="NetworkFrame"/> class.
+	   /// </summary>
+	   public NetworkFrame(){
 
 		}
 
-		~NetworkFrame(){
+	   /// <summary>
+	   /// Finalizes an instance of the <see cref="NetworkFrame"/> class.
+	   /// </summary>
+	   ~NetworkFrame(){
 
 		}
 
-		public override void Dispose(){
+	   /// <summary>
+	   /// Releases resources used by the <see cref="NetworkFrame"/> class.
+	   /// </summary>
+	   public override void Dispose(){
 
 		}
 

@@ -7,17 +7,29 @@
 ///////////////////////////////////////////////////////////
 
 namespace TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelFrames {
-	public class Operation {
+	   /// <summary>
+	   /// Represents an operation in the network model frame.
+	   /// </summary>
+	   public class Operation {
 
-		public Operation(){
+	   /// <summary>
+	   /// Initializes a new instance of the <see cref="Operation"/> class.
+	   /// </summary>
+	   public Operation(){
 
 		}
 
-		~Operation(){
+	   /// <summary>
+	   /// Finalizes an instance of the <see cref="Operation"/> class.
+	   /// </summary>
+	   ~Operation(){
 
 		}
 
-		public virtual void Dispose(){
+	   /// <summary>
+	   /// Releases resources used by the <see cref="Operation"/> class.
+	   /// </summary>
+	   public virtual void Dispose(){
 
 		}
 

@@ -12,15 +12,24 @@ namespace TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelFrames {
 	/// </summary>
 	public class LoadModelPartVersion {
 
-		public LoadModelPartVersion(){
+	   /// <summary>
+	   /// Initializes a new instance of the <see cref="LoadModelPartVersion"/> class.
+	   /// </summary>
+	   public LoadModelPartVersion(){
 
 		}
 
-		~LoadModelPartVersion(){
+	   /// <summary>
+	   /// Finalizes an instance of the <see cref="LoadModelPartVersion"/> class.
+	   /// </summary>
+	   ~LoadModelPartVersion(){
 
 		}
 
-		public virtual void Dispose(){
+	   /// <summary>
+	   /// Releases resources used by the <see cref="LoadModelPartVersion"/> class.
+	   /// </summary>
+	   public virtual void Dispose(){
 
 		}
 

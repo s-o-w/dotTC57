@@ -13,15 +13,24 @@ namespace TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelFrames {
 	/// </summary>
 	public class ModelAuthority : IdentifiedObject {
 
-		public ModelAuthority(){
+	   /// <summary>
+	   /// Initializes a new instance of the <see cref="ModelAuthority"/> class.
+	   /// </summary>
+	   public ModelAuthority(){
 
 		}
 
-		~ModelAuthority(){
+	   /// <summary>
+	   /// Finalizes an instance of the <see cref="ModelAuthority"/> class.
+	   /// </summary>
+	   ~ModelAuthority(){
 
 		}
 
-		public override void Dispose(){
+	   /// <summary>
+	   /// Releases resources used by the <see cref="ModelAuthority"/> class.
+	   /// </summary>
+	   public override void Dispose(){
 
 		}
 

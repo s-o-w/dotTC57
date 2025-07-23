@@ -16,21 +16,33 @@ namespace TC57CIM.IEC61970.InfIEC61970.InfPart303.ModelOperations {
 		/// The type of role for this dataset role.   Should only reference role types that
 		/// belong to the operation type of the associated operation.
 		/// </summary>
-		public TC57CIM.IEC61970.InfIEC61970.InfPart303.ModelOperations.DatasetArgDescription OperationDatasetArgDescription;
-		/// <summary>
-		/// Dataset referenced by this argument of a model operation..
-		/// </summary>
-		public TC57CIM.IEC61970.InfIEC61970.Part303.GenericDataSet.InstanceSet Dataset;
+	   /// <summary>
+	   /// The type of role for this dataset role. Should only reference role types that belong to the operation type of the associated operation.
+	   /// </summary>
+	   public TC57CIM.IEC61970.InfIEC61970.InfPart303.ModelOperations.DatasetArgDescription? OperationDatasetArgDescription;
+	   /// <summary>
+	   /// Dataset referenced by this argument of a model operation.
+	   /// </summary>
+	   public TC57CIM.IEC61970.InfIEC61970.Part303.GenericDataSet.InstanceSet? Dataset;
 
-		public DatasetArg(){
+	   /// <summary>
+	   /// Initializes a new instance of the <see cref="DatasetArg"/> class.
+	   /// </summary>
+	   public DatasetArg(){
 
 		}
 
-		~DatasetArg(){
+	   /// <summary>
+	   /// Finalizes an instance of the <see cref="DatasetArg"/> class.
+	   /// </summary>
+	   ~DatasetArg(){
 
 		}
 
-		public override void Dispose(){
+	   /// <summary>
+	   /// Releases resources used by the <see cref="DatasetArg"/> class.
+	   /// </summary>
+	   public override void Dispose(){
 
 		}
 
