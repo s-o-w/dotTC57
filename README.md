@@ -1,91 +1,109 @@
 # dotTC57
 
-dotTC57 is a pure .NET/C# library that implements the IEC 61970 and IEC 61968 electrical standards with semantic capabilities. These standards, developed by the IEC TC57 working group, define the Common Information Model (CIM) for power systems.
+dotTC57 is a pure .NET implementation of IEC Technical Committee (TC) 57 standards for power systems management and information exchange. This library provides a comprehensive set of C# models representing the IEC 61970 and IEC 61968 Common Information Model (CIM).
 
 ## Overview
 
-This library provides:
-1. A complete object model representing IEC TC57 electrical standards
-2. Semantic capabilities via OWL ontology support powered by dotNetRDF
-3. Conversion of CIM objects to RDF, RDF/XML, Turtle, and JSON-LD formats
-4. Ontology-based validation and reasoning for electrical models
+This library focuses on providing:
+1. A complete and well-documented object model representing the IEC TC57 electrical standards
+2. Fully-typed C# classes with XML documentation
+3. Models suitable for integration into power system applications
 
-The core model is derived from the UML model available at the [CIM User Group](https://cimug.ucaiug.org/CIM%20Model%20Releases/Forms/AllItems.aspx). You'll need [Sparx Enterprise Architect](https://sparxsystems.com/) to view the original EAP files from that site. You can use a temporary license to generate the base class files for use in your project (which is where I started).
+The core models are derived from the UML model available at the [CIM User Group](https://cimug.ucaiug.org/CIM%20Model%20Releases/Forms/AllItems.aspx). The original EAP files from that site can be viewed with [Sparx Enterprise Architect](https://sparxsystems.com/).
 
-## Getting Started
+## Model Structure
 
-### Installation
-dotnet add package dotTC57
-### Basic Usage
+The library contains models organized according to the IEC standards structure:
+
+### IEC61970 Models
+- **Base**: Core power system resource models, measurements, and domain types
+- **Dynamics**: Dynamic behavior models including:
+  - Excitation systems
+  - Power system stabilizers
+  - Turbine-governors
+  - Synchronous and asynchronous machine dynamics
+- **Generation**: Generation models
+- **Topology**: Network topology models
+- **Wires**: Transmission and distribution equipment models
+
+### IEC61968 Models
+- **AssetInfo**: Information about physical assets including:
+  - Equipment standards (ASTM, DIN, IEC, IEEE, ISO, TAPPI)
+  - Cable and wire specifications
+  - Power transformer specifications
+- **Assets**: Asset models and asset containers
+- **Common**: Common components shared across the model
+- **Customers**: Customer models and agreements
+- **Metering**: Metering components and readings
+- **Operations**: Operational models
+- **Work**: Work management and scheduling
+
+## Usage
+
+These models can be used as the foundation for:
+
 ```csharp
-
-// Register services
-var services = new ServiceCollection();
-services.AddTC57CIMSemanticServices();
-var serviceProvider = services.BuildServiceProvider();
-
-// Get required services
-var ontologyService = serviceProvider.GetRequiredService<IOntologyService>();
-var mappingService = serviceProvider.GetRequiredService<IRdfMappingService>();
-
-// Create a CIM object
+// Create power system components
 var transformer = new PowerTransformer
 {
-    mRID = Guid.NewGuid(),
+    mRID = Guid.NewGuid().ToString(),
     name = "Transformer 1",
     description = "Main power transformer"
 };
 
-// Convert to RDF and export to different formats
-IGraph graph = transformer.ToRdf(mappingService);
-string rdfXml = transformer.ToRdfXml(mappingService);
-string turtle = transformer.ToTurtle(mappingService);
-string jsonLd = transformer.ToJsonLd(mappingService);
+// Link components together
+var terminal = new Terminal
+{
+    mRID = Guid.NewGuid().ToString(),
+    name = "Terminal 1",
+    ConductingEquipment = transformer
+};
 
-// Query the ontology
-var properties = ontologyService.GetPropertiesForClass("http://iec.ch/TC57/CIM#PowerTransformer");
-
-// Validate a relationship
-bool isValid = ontologyService.ValidateRelationship(
-    "http://iec.ch/TC57/CIM#PowerTransformer",
-    "http://iec.ch/TC57/CIM#Terminal",
-    "http://iec.ch/TC57/CIM#PowerTransformer.Terminal");
-
+// Add specifications
+var transformerInfo = new PowerTransformerInfo
+{
+    mRID = Guid.NewGuid().ToString(),
+    name = "100MVA Transformer Spec"
+};
 ```
-## Features
+## Documentation
 
-### CIM Object Model
-- Complete implementation of IEC 61970 and IEC 61968 standards
-- Native .NET types (string, double, etc.) replacing CIM primitive types for better usability
-- Strongly-typed model with full documentation
+The library includes comprehensive XML documentation that can be used to generate API documentation using standard .NET documentation tools like DocFX:
 
-### Semantic Capabilities
-- Built-in OWL ontology support via embedded ontology file
-- RDF conversion with URI mapping and namespace handling
-- Export to multiple RDF serialization formats
-- Ontology-based validation and relationship checking
-- Extension methods for easy object-to-RDF conversion
+```bash
+# Install DocFX
+dotnet tool install -g docfx
 
-### Integration Support
-- Dependency Injection support via `AddTC57CIMSemanticServices()`
-- Compatible with knowledge graph databases and SPARQL endpoints
-- Interoperability with other RDF-based systems
+# Create documentation project
+mkdir -p docs
+cd docs
+docfx init
 
-## Library Structure
+# Configure docfx.json to point to your project
+# Build documentation
+docfx metadata
+docfx build
+docfx serve _site
+```
 
-- **TC57CIM.IEC61970**: Core power system object model
-- **TC57CIM.IEC61968**: Distribution management object model
-- **TC57CIM.Semantic**: RDF mapping and ontology services
-- **TC57CIM.Semantic.Extensions**: Extension methods for CIM-to-RDF conversion
-- **TC57CIM.Semantic.Services**: Interfaces for semantic services
+## Model Implementation Details
+
+- **Complete Implementation**: All classes from the IEC 61970 and IEC 61968 standards are included
+- **Strongly Typed**: Native .NET types used throughout (string, double, int, etc.)
+- **Well Documented**: XML documentation comments on all classes, properties, and enumerations
+- **Namespace Organization**: Clear namespace hierarchy matching the IEC standard structure
 
 ## Future Development
 
-Future versions of this library will expand into IEC 61850 (communication networks and systems for power utility automation), which is also part of the TC57 working group's standards.
+These models provide the foundation for:
+- Integration with data persistence layers
+- Power system analysis applications
+- RDF/semantic web implementations
+- Import/export to industry standard formats
 
 ## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+Contributions to improve the models are welcome! Please feel free to submit a Pull Request.
 
 ## License
 
