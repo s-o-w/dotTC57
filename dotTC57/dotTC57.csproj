@@ -19,10 +19,6 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-	  <EmbeddedResource Include="Resources/cim-owl-ontology.owl" />
-	</ItemGroup>
-
-	<ItemGroup>
 		<PackageReference Include="dotNetRDF" Version="3.0.0" />
 		<!-- In an actual application the dependency injection would happen in the calling/hosting application, not in the library.
 			 If that's the case, then remove this reference and just use the Abstractions one. -->

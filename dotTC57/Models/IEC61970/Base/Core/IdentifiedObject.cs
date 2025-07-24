@@ -5,14 +5,12 @@
 //  Created on:      15-Jun-2024 10:05:04 AM
 ///////////////////////////////////////////////////////////
 
-using TC57CIM.Semantic.Attributes;
 
 namespace TC57CIM.IEC61970.Base.Core {
     /// <summary>
     /// This is a root class to provide common identification for all classes needing
     /// identification and naming attributes.
     /// </summary>
-    [RdfClass("http://iec.ch/TC57/CIM#IdentifiedObject")]
     public class IdentifiedObject {
 
 		/// <summary>
@@ -28,7 +26,6 @@ namespace TC57CIM.IEC61970.Base.Core {
         /// The description is a free human readable text describing or naming the object.
         /// It may be non unique and may not correlate to a naming hierarchy.
         /// </summary>
-        [RdfProperty("http://iec.ch/TC57/CIM#IdentifiedObject.description")]
         public string description;
         /// <summary>
         /// Master resource identifier issued by a model authority. The mRID is unique
@@ -38,13 +35,11 @@ namespace TC57CIM.IEC61970.Base.Core {
         /// For CIMXML data files in RDF syntax conforming to IEC 61970-552, the mRID is
         /// mapped to rdf:ID or rdf:about attributes that identify CIM object elements.
         /// </summary>
-        [RdfProperty("http://iec.ch/TC57/CIM#IdentifiedObject.mRID")]
 		public Guid mRID;
         /// <summary>
         /// The name is any free human readable and possibly non unique text naming the
         /// object.
         /// </summary>
-        [RdfProperty("http://iec.ch/TC57/CIM#IdentifiedObject.name")]
         public string name;
 		/// <summary>
 		/// The diagram objects that are associated with the domain object.
