@@ -1,4 +1,4 @@
-﻿using System.Reflection;
+using System.Reflection;
 using TC57CIM.IEC61970.Base.Core;
 using TC57CIM.Semantic.Attributes;
 using TC57CIM.Semantic.Ontology;
@@ -11,6 +11,9 @@ namespace TC57CIM.Semantic.Mapping
     /// </summary>
     public class CimRdfMapper
     {
+        /// <summary>
+        /// The ontology loader
+        /// </summary>
         private readonly OntologyLoader _ontologyLoader;
 
         /// <summary>
@@ -70,12 +73,23 @@ namespace TC57CIM.Semantic.Mapping
             return graph;
         }
 
+        /// <summary>
+        /// Creates the resource uri using the specified obj
+        /// </summary>
+        /// <param name="obj">The obj</param>
+        /// <returns>The uri</returns>
         private Uri CreateResourceUri(IdentifiedObject obj)
         {
             // Use the mRID as a unique identifier in the URI
             return new Uri($"{CimOntologyNamespaces.CIM}{obj.GetType().Name}_{obj.mRID}");
         }
 
+        /// <summary>
+        /// Adds the type triple using the specified graph
+        /// </summary>
+        /// <param name="graph">The graph</param>
+        /// <param name="objectUri">The object uri</param>
+        /// <param name="obj">The obj</param>
         private void AddTypeTriple(IGraph graph, Uri objectUri, IdentifiedObject obj)
         {
             // Get RDF class attribute if present
@@ -90,6 +104,12 @@ namespace TC57CIM.Semantic.Mapping
             );
         }
 
+        /// <summary>
+        /// Adds the base properties using the specified graph
+        /// </summary>
+        /// <param name="graph">The graph</param>
+        /// <param name="objectUri">The object uri</param>
+        /// <param name="obj">The obj</param>
         private void AddBaseProperties(IGraph graph, Uri objectUri, IdentifiedObject obj)
         {
             var subjectNode = graph.CreateUriNode(objectUri);
@@ -122,6 +142,12 @@ namespace TC57CIM.Semantic.Mapping
             }
         }
 
+        /// <summary>
+        /// Adds the object properties using the specified graph
+        /// </summary>
+        /// <param name="graph">The graph</param>
+        /// <param name="objectUri">The object uri</param>
+        /// <param name="obj">The obj</param>
         private void AddObjectProperties(IGraph graph, Uri objectUri, object obj)
         {
             var subjectNode = graph.CreateUriNode(objectUri);
@@ -162,6 +188,13 @@ namespace TC57CIM.Semantic.Mapping
             }
         }
 
+        /// <summary>
+        /// Adds the property triple using the specified graph
+        /// </summary>
+        /// <param name="graph">The graph</param>
+        /// <param name="subject">The subject</param>
+        /// <param name="predicateUri">The predicate uri</param>
+        /// <param name="value">The value</param>
         private void AddPropertyTriple(IGraph graph, INode subject, Uri predicateUri, object value)
         {
             var predicateNode = graph.CreateUriNode(predicateUri);

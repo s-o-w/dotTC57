@@ -1,4 +1,4 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.DependencyInjection;
 using TC57CIM.IEC61970.Base.Wires;
 using TC57CIM.Semantic.Extensions;
 using TC57CIM.Semantic.Services;

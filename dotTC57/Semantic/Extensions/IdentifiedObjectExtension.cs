@@ -1,4 +1,4 @@
-﻿using TC57CIM.IEC61970.Base.Core;
+using TC57CIM.IEC61970.Base.Core;
 using TC57CIM.Semantic.Services;
 using VDS.RDF;
 

@@ -1,4 +1,4 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.DependencyInjection;
 using TC57CIM.Semantic.Mapping;
 using TC57CIM.Semantic.Ontology;
 using TC57CIM.Semantic.Services;

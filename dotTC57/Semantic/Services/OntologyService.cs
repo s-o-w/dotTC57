@@ -1,4 +1,4 @@
-﻿using TC57CIM.Semantic.Ontology;
+using TC57CIM.Semantic.Ontology;
 using VDS.RDF.Ontology;
 
 namespace TC57CIM.Semantic.Services
@@ -8,6 +8,9 @@ namespace TC57CIM.Semantic.Services
     /// </summary>
     public class OntologyService : IOntologyService
     {
+        /// <summary>
+        /// The ontology loader
+        /// </summary>
         private readonly OntologyLoader _ontologyLoader;
 
         /// <summary>
@@ -79,6 +82,12 @@ namespace TC57CIM.Semantic.Services
             return true;
         }
 
+        /// <summary>
+        /// Ises the class or subclass using the specified cls
+        /// </summary>
+        /// <param name="cls">The cls</param>
+        /// <param name="parent">The parent</param>
+        /// <returns>The bool</returns>
         private bool IsClassOrSubclass(OntologyClass cls, OntologyResource parent)
         {
             if (cls.Resource.ToString().Equals(parent.Resource.ToString(), StringComparison.OrdinalIgnoreCase))

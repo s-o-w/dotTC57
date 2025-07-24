@@ -1,4 +1,4 @@
-﻿namespace TC57CIM.Semantic.Attributes
+namespace TC57CIM.Semantic.Attributes
 {
     /// <summary>
     /// Indicates that a property maps to an RDF property in the ontology

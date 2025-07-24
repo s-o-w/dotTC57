@@ -1,4 +1,4 @@
-﻿using System.Reflection;
+using System.Reflection;
 using VDS.RDF.Ontology;
 
 namespace TC57CIM.Semantic.Ontology
@@ -8,6 +8,9 @@ namespace TC57CIM.Semantic.Ontology
     /// </summary>
     public class OntologyLoader
     {
+        /// <summary>
+        /// The ontology graph
+        /// </summary>
         private readonly OntologyGraph _ontologyGraph;
 
         /// <summary>
@@ -32,7 +35,7 @@ namespace TC57CIM.Semantic.Ontology
             try
             {
                 var assembly = Assembly.GetExecutingAssembly();
-                string resourceName = "TC57CIM.Resources.cim-owl-ontology.owl";
+                string resourceName = "dotTC57.Resources.cim-owl-ontology.owl";
 
                 using (Stream stream = assembly.GetManifestResourceStream(resourceName))
                 {

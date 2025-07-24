@@ -2,8 +2,14 @@ using TC57CIM.Semantic.Services;
 
 namespace dotTC57.Tests.Semantic
 {
+    /// <summary>
+    /// The ontology service tests class
+    /// </summary>
     public class OntologyServiceTests
     {
+        /// <summary>
+        /// Tests that constructor initializes ontology loader
+        /// </summary>
         [Fact]
         public void Constructor_InitializesOntologyLoader()
         {
@@ -11,6 +17,9 @@ namespace dotTC57.Tests.Semantic
             Assert.NotNull(service.OntologyGraph);
         }
 
+        /// <summary>
+        /// Tests that load ontology does not throw
+        /// </summary>
         [Fact]
         public void LoadOntology_DoesNotThrow()
         {
@@ -19,6 +28,9 @@ namespace dotTC57.Tests.Semantic
             service.LoadOntology("nonexistent.owl");
         }
 
+        /// <summary>
+        /// Tests that load ontology from string does not throw
+        /// </summary>
         [Fact]
         public void LoadOntologyFromString_DoesNotThrow()
         {
@@ -27,6 +39,9 @@ namespace dotTC57.Tests.Semantic
             service.LoadOntologyFromString(dummyOntology);
         }
 
+        /// <summary>
+        /// Tests that get class returns null for unknown uri
+        /// </summary>
         [Fact]
         public void GetClass_ReturnsNullForUnknownUri()
         {
@@ -35,6 +50,9 @@ namespace dotTC57.Tests.Semantic
             Assert.Null(result);
         }
 
+        /// <summary>
+        /// Tests that validate relationship returns false for unknown classes
+        /// </summary>
         [Fact]
         public void ValidateRelationship_ReturnsFalseForUnknownClasses()
         {
@@ -43,6 +61,9 @@ namespace dotTC57.Tests.Semantic
             Assert.False(valid);
         }
 
+        /// <summary>
+        /// Tests that get properties for class returns empty for unknown
+        /// </summary>
         [Fact]
         public void GetPropertiesForClass_ReturnsEmptyForUnknownClass()
         {
@@ -51,6 +72,9 @@ namespace dotTC57.Tests.Semantic
             Assert.Empty(props);
         }
 
+        /// <summary>
+        /// Tests that execute query returns null
+        /// </summary>
         [Fact]
         public void ExecuteQuery_ReturnsNull()
         {

@@ -1,4 +1,4 @@
-﻿using System.Text;
+using System.Text;
 using TC57CIM.IEC61970.Base.Core;
 using TC57CIM.Semantic.Mapping;
 using VDS.RDF;
@@ -11,6 +11,9 @@ namespace TC57CIM.Semantic.Services
     /// </summary>
     public class RdfMappingService : IRdfMappingService
     {
+        /// <summary>
+        /// The mapper
+        /// </summary>
         private readonly CimRdfMapper _mapper;
 
         /// <summary>
@@ -76,6 +79,12 @@ namespace TC57CIM.Semantic.Services
             return sb.ToString();
         }
 
+        /// <summary>
+        /// Exports the graph using the specified graph
+        /// </summary>
+        /// <param name="graph">The graph</param>
+        /// <param name="writer">The writer</param>
+        /// <returns>The string</returns>
         private string ExportGraph(IGraph graph, IRdfWriter writer)
         {
             var sb = new StringBuilder();

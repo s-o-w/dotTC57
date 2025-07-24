@@ -1,4 +1,4 @@
-﻿using VDS.RDF.Ontology;
+using VDS.RDF.Ontology;
 
 namespace TC57CIM.Semantic.Services
 {
