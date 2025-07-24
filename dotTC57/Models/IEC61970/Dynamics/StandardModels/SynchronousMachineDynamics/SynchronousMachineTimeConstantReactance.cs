@@ -98,7 +98,7 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.SynchronousMachineDynamics {
 		/// <summary>
 		/// Direct-axis transient reactance (unsaturated) (<i>X'd</i>) (>=
 		/// SynchronousMachineTimeConstantReactance.xDirectSubtrans).  Typical value = 0,5.
-		/// 
+		///
 		/// </summary>
 		public TC57CIM.IEC61970.Base.Domain.PU xDirectTrans;
 		/// <summary>
@@ -127,14 +127,10 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.SynchronousMachineDynamics {
 
 		}
 
-		~SynchronousMachineTimeConstantReactance(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

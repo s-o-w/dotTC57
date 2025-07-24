@@ -11,7 +11,7 @@ namespace TC57CIM.IEC61970.Base.Wires {
 	/// An area of the power system network which is defined for secondary voltage
 	/// control purposes. A voltage control zone consists of a collection of
 	/// substations with a designated bus bar section whose voltage will be controlled.
-	/// 
+	///
 	/// </summary>
 	public class VoltageControlZone : PowerSystemResource {
 
@@ -22,14 +22,10 @@ namespace TC57CIM.IEC61970.Base.Wires {
 
 		}
 
-		~VoltageControlZone(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

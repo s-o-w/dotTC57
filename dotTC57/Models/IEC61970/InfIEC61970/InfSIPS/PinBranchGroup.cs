@@ -31,17 +31,10 @@ namespace TC57CIM.IEC61970.InfIEC61970.InfSIPS {
 
 		}
 
-		/// <summary>
-		/// Finalizes an instance of the <see cref="PinBranchGroup"/> class.
-		/// </summary>
-		~PinBranchGroup(){
-
-		}
-
-		/// <summary>
-		/// Releases resources used by the <see cref="PinBranchGroup"/> class.
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Releases resources used by the <see cref="PinBranchGroup"/> class.
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

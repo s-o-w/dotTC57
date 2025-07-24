@@ -24,17 +24,10 @@ namespace TC57CIM.IEC61970.InfIEC61970.EnergyArea {
 
 		}
 
-		/// <summary>
-		/// Finalizes an instance of the <see cref="ProportionalDistributionComponent"/> class.
-		/// </summary>
-		~ProportionalDistributionComponent(){
-
-		}
-
-		/// <summary>
-		/// Releases resources used by the <see cref="ProportionalDistributionComponent"/> class.
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Releases resources used by the <see cref="ProportionalDistributionComponent"/> class.
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

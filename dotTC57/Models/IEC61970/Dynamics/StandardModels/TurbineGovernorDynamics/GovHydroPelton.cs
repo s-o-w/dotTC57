@@ -56,7 +56,7 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.TurbineGovernorDynamics {
 		public TC57CIM.IEC61970.Base.Domain.Length hn;
 		/// <summary>
 		/// Penstock loss coefficient (due to friction) (<i>Kc</i>).  Typical value = 0,025.
-		/// 
+		///
 		/// </summary>
 		public TC57CIM.IEC61970.Base.Domain.PU kc;
 		/// <summary>
@@ -162,14 +162,10 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.TurbineGovernorDynamics {
 
 		}
 
-		~GovHydroPelton(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

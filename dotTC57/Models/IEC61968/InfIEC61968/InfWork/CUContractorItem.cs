@@ -17,7 +17,7 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfWork {
 		public string activityCode;
 		/// <summary>
 		/// The amount that a given contractor will charge for performing this unit of work.
-		/// 
+		///
 		/// </summary>
 		public TC57CIM.IEC61970.Base.Domain.Money bidAmount;
 		/// <summary>
@@ -36,14 +36,10 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfWork {
 
 		}
 
-		~CUContractorItem(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

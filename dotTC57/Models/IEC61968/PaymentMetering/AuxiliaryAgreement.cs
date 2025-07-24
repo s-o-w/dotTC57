@@ -32,7 +32,7 @@ namespace TC57CIM.IEC61968.PaymentMetering {
 		/// 'AuxiliaryAccount.initialCharge' is recursively added to 'AuxiliaryAccount.
 		/// dueCurrent' at the start of each 'auxCycle'. For example: on a specified date
 		/// and time; hourly; daily; weekly; monthly; 3-monthly; 6-monthly; 12-monthly; etc.
-		/// 
+		///
 		/// </summary>
 		public string auxCycle;
 		/// <summary>
@@ -88,14 +88,10 @@ namespace TC57CIM.IEC61968.PaymentMetering {
 
 		}
 
-		~AuxiliaryAgreement(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

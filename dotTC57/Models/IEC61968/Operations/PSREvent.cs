@@ -10,7 +10,7 @@ namespace TC57CIM.IEC61968.Operations {
 	/// <summary>
 	/// Event recording the change in operational status of a power system resource
 	/// (PSR); may be for an event that has already occurred or for a planned activity.
-	/// 
+	///
 	/// </summary>
 	public class PSREvent : ActivityRecord {
 
@@ -30,14 +30,10 @@ namespace TC57CIM.IEC61968.Operations {
 
 		}
 
-		~PSREvent(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

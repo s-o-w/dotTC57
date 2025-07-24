@@ -22,7 +22,7 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.ExcitationSystemDynamics {
 		public TC57CIM.IEC61970.Base.Domain.Integer blint;
 		/// <summary>
 		/// Minimum exciter current (<i>I</i><i><sub>FMN</sub></i>).  Typical value = -5,2.
-		/// 
+		///
 		/// </summary>
 		public TC57CIM.IEC61970.Base.Domain.PU ifmn;
 		/// <summary>
@@ -88,14 +88,10 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.ExcitationSystemDynamics {
 
 		}
 
-		~ExcANS(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

@@ -63,17 +63,10 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.AsynchronousMachineDynamics {
 
 		}
 
-		/// <summary>
-		/// Destructor for AsynchronousMachineEquivalentCircuit.
-		/// </summary>
-		~AsynchronousMachineEquivalentCircuit(){
-
-		}
-
-		/// <summary>
-		/// Dispose method for AsynchronousMachineEquivalentCircuit.
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Dispose method for AsynchronousMachineEquivalentCircuit.
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

@@ -18,7 +18,7 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// the connection is from the indicated phase to the central ground or neutral
 		/// point.  If the energy source is delta connected, the phase indicates an energy
 		/// source connected from the indicated phase to the next logical non-neutral phase.
-		/// 
+		///
 		/// </summary>
 		public SinglePhaseKind phase;
 		/// <summary>
@@ -33,14 +33,10 @@ namespace TC57CIM.IEC61970.Base.Wires {
 
 		}
 
-		~EnergySourcePhase(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

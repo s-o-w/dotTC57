@@ -119,7 +119,7 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.TurbineGovernorDynamics {
 		public float uc;
 		/// <summary>
 		/// Maximum gate opening velocity (<i>Uo</i>).  Unit = PU / s.  Typical value = 0,1.
-		/// 
+		///
 		/// </summary>
 		public float uo;
 
@@ -130,14 +130,10 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.TurbineGovernorDynamics {
 
 		}
 
-		~GovHydroIEEE2(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

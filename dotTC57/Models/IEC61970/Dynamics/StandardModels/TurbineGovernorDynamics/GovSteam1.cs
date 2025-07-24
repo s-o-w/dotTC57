@@ -158,7 +158,7 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.TurbineGovernorDynamics {
 		public TC57CIM.IEC61970.Base.Domain.Seconds t3;
 		/// <summary>
 		/// Inlet piping/steam bowl time constant (<i>T4</i>) (>= 0).  Typical value = 0,3.
-		/// 
+		///
 		/// </summary>
 		public TC57CIM.IEC61970.Base.Domain.Seconds t4;
 		/// <summary>
@@ -198,14 +198,10 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.TurbineGovernorDynamics {
 
 		}
 
-		~GovSteam1(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

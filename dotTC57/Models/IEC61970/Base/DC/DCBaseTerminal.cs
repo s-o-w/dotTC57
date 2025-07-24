@@ -28,14 +28,10 @@ namespace TC57CIM.IEC61970.Base.DC {
 
 		}
 
-		~DCBaseTerminal(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

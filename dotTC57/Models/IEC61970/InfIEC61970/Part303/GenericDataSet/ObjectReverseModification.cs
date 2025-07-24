@@ -25,16 +25,10 @@ namespace TC57CIM.IEC61970.InfIEC61970.Part303.GenericDataSet {
         public ObjectReverseModification(){
         }
 
-        /// <summary>
-        /// Finalizes an instance of the <see cref="ObjectReverseModification"/> class.
-        /// </summary>
-        ~ObjectReverseModification(){
-        }
-
-        /// <summary>
-        /// Releases unmanaged resources and performs other cleanup operations.
-        /// </summary>
-        public override void Dispose(){
+    /// <summary>
+    /// Releases unmanaged resources and performs other cleanup operations.
+    /// </summary>
+    public override void Dispose(){
         }
 
     }//end ObjectReverseModification

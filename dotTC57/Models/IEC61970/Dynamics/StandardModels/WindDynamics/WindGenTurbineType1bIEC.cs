@@ -9,7 +9,7 @@
 namespace TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics {
 	/// <summary>
 	/// Wind turbine IEC type 1B.
-	/// 
+	///
 	/// Reference: IEC 61400-27-1:2015, 5.5.2.3.
 	/// </summary>
 	public class WindGenTurbineType1bIEC : WindTurbineType1or2IEC {
@@ -26,14 +26,10 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics {
 
 		}
 
-		~WindGenTurbineType1bIEC(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

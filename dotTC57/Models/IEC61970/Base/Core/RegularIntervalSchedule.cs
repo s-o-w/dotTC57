@@ -18,7 +18,7 @@ namespace TC57CIM.IEC61970.Base.Core {
 		public System.DateTime endTime;
 		/// <summary>
 		/// The time between each pair of subsequent regular time points in sequence order.
-		/// 
+		///
 		/// </summary>
 		public TC57CIM.IEC61970.Base.Domain.Seconds timeStep;
 		/// <summary>
@@ -33,14 +33,10 @@ namespace TC57CIM.IEC61970.Base.Core {
 
 		}
 
-		~RegularIntervalSchedule(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

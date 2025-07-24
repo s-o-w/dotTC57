@@ -69,7 +69,7 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// Vector group of the transformer for protective relaying, e.g., Dyn1. For
 		/// unbalanced transformers, this may not be simply determined from the constituent
 		/// winding connections and phase angle displacements.
-		/// 
+		///
 		/// The vectorGroup string consists of the following components in the order listed:
 		/// high voltage winding connection, mid voltage winding connection (for three
 		/// winding transformers), phase displacement clock number from 0 to 11,  low
@@ -83,7 +83,7 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// displacement), YNyn0d5 (three winding transformer wye with neutral high voltage,
 		/// wye with neutral mid voltage and no phase displacement, delta low voltage with
 		/// 150 degrees displacement).
-		/// 
+		///
 		/// Phase displacement is defined as the angular difference between the phasors
 		/// representing the voltages between the neutral point (real or imaginary) and the
 		/// corresponding terminals of two windings, a positive sequence voltage system
@@ -104,14 +104,10 @@ namespace TC57CIM.IEC61970.Base.Wires {
 
 		}
 
-		~PowerTransformer(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

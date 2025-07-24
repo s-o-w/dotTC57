@@ -9,7 +9,7 @@
 namespace TC57CIM.IEC61968.AssetInfo.Assets {
 	/// <summary>
 	/// Standard published by Westinghouse - a WEP (Westinghouse Engineering Procedure).
-	/// 
+	///
 	/// </summary>
 	public class WEPStandard {
 
@@ -29,14 +29,10 @@ namespace TC57CIM.IEC61968.AssetInfo.Assets {
 
 		}
 
-		~WEPStandard(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public virtual void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public virtual void Dispose(){
 
 		}
 

@@ -12,11 +12,11 @@ namespace TC57CIM.IEC61970.Base.Domain {
 	public class KiloActivePower {
 
 		/// <summary>
-		/// The 
+		/// The
 		/// </summary>
 		public static readonly UnitMultiplier multiplier = UnitMultiplier.k;
 		/// <summary>
-		/// The 
+		/// The
 		/// </summary>
 		public static readonly UnitSymbol unit = UnitSymbol.W;
 		/// <summary>
@@ -31,14 +31,10 @@ namespace TC57CIM.IEC61970.Base.Domain {
 
 		}
 
-		~KiloActivePower(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public virtual void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public virtual void Dispose(){
 
 		}
 

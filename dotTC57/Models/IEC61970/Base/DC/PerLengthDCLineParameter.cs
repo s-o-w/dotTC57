@@ -10,7 +10,7 @@ using TC57CIM.IEC61970.Base.Wires;
 namespace TC57CIM.IEC61970.Base.DC {
 	/// <summary>
 	/// Common type for per-length electrical catalogues describing DC line parameters.
-	/// 
+	///
 	/// </summary>
 	public class PerLengthDCLineParameter : PerLengthLineParameter {
 
@@ -39,14 +39,10 @@ namespace TC57CIM.IEC61970.Base.DC {
 
 		}
 
-		~PerLengthDCLineParameter(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

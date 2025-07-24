@@ -30,17 +30,10 @@ namespace TC57CIM.IEC61970.Dynamics.UserDefinedModels {
 
 		}
 
-		/// <summary>
-		/// Destructor for DiscontinuousExcitationControlUserDefined.
-		/// </summary>
-		~DiscontinuousExcitationControlUserDefined(){
-
-		}
-
-		/// <summary>
-		/// Dispose method for DiscontinuousExcitationControlUserDefined.
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Dispose method for DiscontinuousExcitationControlUserDefined.
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

@@ -10,7 +10,7 @@ namespace TC57CIM.IEC61970.Base.Core {
 	/// <summary>
 	/// An electrical connection point (AC or DC) to a piece of conducting equipment.
 	/// Terminals are connected at physical connection points called connectivity nodes.
-	/// 
+	///
 	/// </summary>
 	public class ACDCTerminal : IdentifiedObject {
 
@@ -41,14 +41,10 @@ namespace TC57CIM.IEC61970.Base.Core {
 
 		}
 
-		~ACDCTerminal(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

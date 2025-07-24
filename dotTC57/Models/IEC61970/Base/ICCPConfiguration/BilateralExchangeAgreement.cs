@@ -10,7 +10,7 @@ using TC57CIM.IEC61970.Base.Core;
 namespace TC57CIM.IEC61970.Base.ICCPConfiguration {
 	/// <summary>
 	/// This is the representation of the information exchange agreement between peers.
-	/// 
+	///
 	/// </summary>
 	public class BilateralExchangeAgreement : IdentifiedObject {
 
@@ -26,14 +26,10 @@ namespace TC57CIM.IEC61970.Base.ICCPConfiguration {
 
 		}
 
-		~BilateralExchangeAgreement(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

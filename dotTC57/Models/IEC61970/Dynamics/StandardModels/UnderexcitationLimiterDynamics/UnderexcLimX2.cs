@@ -48,14 +48,10 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.UnderexcitationLimiterDynamic
 
 		}
 
-		~UnderexcLimX2(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

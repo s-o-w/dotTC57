@@ -29,17 +29,10 @@ namespace TC57CIM.IEC61970.InfIEC61970.InfAvailabilityPlans {
 
 		}
 
-		/// <summary>
-		/// Finalizes an instance of the <see cref="UnavailabilityScheduleDependency"/> class.
-		/// </summary>
-		~UnavailabilityScheduleDependency(){
-
-		}
-
-		/// <summary>
-		/// Releases resources used by the <see cref="UnavailabilityScheduleDependency"/> class.
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Releases resources used by the <see cref="UnavailabilityScheduleDependency"/> class.
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

@@ -15,7 +15,7 @@ namespace TC57CIM.IEC61968.Metering {
 		/// <summary>
 		/// Method for the service person to access this usage point location. For example,
 		/// a description of where to obtain a key if the facility is unmanned and secured.
-		/// 
+		///
 		/// </summary>
 		public string accessMethod;
 		/// <summary>
@@ -40,14 +40,10 @@ namespace TC57CIM.IEC61968.Metering {
 
 		}
 
-		~UsagePointLocation(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

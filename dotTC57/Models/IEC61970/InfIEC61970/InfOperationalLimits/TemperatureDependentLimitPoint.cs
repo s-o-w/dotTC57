@@ -32,18 +32,10 @@ namespace TC57CIM.IEC61970.InfIEC61970.InfOperationalLimits {
 		}
 
 
-	   /// <summary>
-	   /// Finalizes an instance of the <see cref="TemperatureDependentLimitPoint"/> class.
-	   /// </summary>
-	   ~TemperatureDependentLimitPoint(){
-
-		}
-
-
-	   /// <summary>
-	   /// Releases resources used by the <see cref="TemperatureDependentLimitPoint"/> class.
-	   /// </summary>
-	   public virtual void Dispose(){
+    /// <summary>
+    /// Releases resources used by the <see cref="TemperatureDependentLimitPoint"/> class.
+    /// </summary>
+    public virtual void Dispose(){
 
 		}
 

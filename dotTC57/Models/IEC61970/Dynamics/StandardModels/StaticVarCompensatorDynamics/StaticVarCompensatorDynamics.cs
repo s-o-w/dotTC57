@@ -25,14 +25,10 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.StaticVarCompensatorDynamics 
 
 		}
 
-		~StaticVarCompensatorDynamics(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

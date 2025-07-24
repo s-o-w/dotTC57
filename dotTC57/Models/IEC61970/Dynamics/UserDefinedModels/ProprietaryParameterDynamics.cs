@@ -104,17 +104,10 @@ namespace TC57CIM.IEC61970.Dynamics.UserDefinedModels {
 
 		}
 
-		/// <summary>
-		/// Destructor for ProprietaryParameterDynamics.
-		/// </summary>
-		~ProprietaryParameterDynamics(){
-
-		}
-
-		/// <summary>
-		/// Dispose method for ProprietaryParameterDynamics.
-		/// </summary>
-		public virtual void Dispose(){
+    /// <summary>
+    /// Dispose method for ProprietaryParameterDynamics.
+    /// </summary>
+    public virtual void Dispose(){
 
 		}
 

@@ -28,17 +28,10 @@ namespace TC57CIM.IEC61970 {
 
 		}
 
-		/// <summary>
-		/// Finalizes an instance of the <see cref="IEC61970CIMVersion"/> class.
-		/// </summary>
-		~IEC61970CIMVersion(){
-
-		}
-
-		/// <summary>
-		/// Releases resources used by the <see cref="IEC61970CIMVersion"/> instance.
-		/// </summary>
-		public virtual void Dispose(){
+    /// <summary>
+    /// Releases resources used by the <see cref="IEC61970CIMVersion"/> instance.
+    /// </summary>
+    public virtual void Dispose(){
 
 		}
 

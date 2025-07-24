@@ -73,19 +73,19 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.LoadDynamics {
 		/// <summary>
 		/// First term voltage coefficient for reactive power
 		/// (<i>K</i><i><sub>q1</sub></i>).  Not used when .staticLoadModelType = constantZ.
-		/// 
+		///
 		/// </summary>
 		public float kq1;
 		/// <summary>
 		/// Second term voltage coefficient for reactive power
 		/// (<i>K</i><i><sub>q2</sub></i>).  Not used when .staticLoadModelType = constantZ.
-		/// 
+		///
 		/// </summary>
 		public float kq2;
 		/// <summary>
 		/// Third term voltage coefficient for reactive power
 		/// (<i>K</i><i><sub>q3</sub></i>).  Not used when .staticLoadModelType = constantZ.
-		/// 
+		///
 		/// </summary>
 		public float kq3;
 		/// <summary>
@@ -97,7 +97,7 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.LoadDynamics {
 		/// <summary>
 		/// Frequency deviation coefficient for reactive power
 		/// (<i>K</i><i><sub>qf</sub></i>).  Not used when .staticLoadModelType = constantZ.
-		/// 
+		///
 		/// </summary>
 		public float kqf;
 		/// <summary>
@@ -116,14 +116,10 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.LoadDynamics {
 
 		}
 
-		~LoadStatic(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

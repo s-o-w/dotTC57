@@ -33,7 +33,7 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.OverexcitationLimiterDynamics
 		public TC57CIM.IEC61970.Base.Domain.PU efddes;
 		/// <summary>
 		/// Rated field voltage (<i>EFD</i><i><sub>RATED</sub></i>).  Typical value = 1,05.
-		/// 
+		///
 		/// </summary>
 		public TC57CIM.IEC61970.Base.Domain.PU efdrated;
 		/// <summary>
@@ -67,14 +67,10 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.OverexcitationLimiterDynamics
 
 		}
 
-		~OverexcLimX1(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

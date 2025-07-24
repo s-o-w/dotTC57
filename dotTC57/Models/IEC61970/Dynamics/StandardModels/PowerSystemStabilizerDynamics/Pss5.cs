@@ -37,7 +37,7 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.PowerSystemStabilizerDynamics
 		public float kf;
 		/// <summary>
 		/// Electric power input gain (<i>K</i><i><sub>PE</sub></i>).  Typical value = 0,3.
-		/// 
+		///
 		/// </summary>
 		public float kpe;
 		/// <summary>
@@ -109,14 +109,10 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.PowerSystemStabilizerDynamics
 
 		}
 
-		~Pss5(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

@@ -24,17 +24,10 @@ namespace TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelFrames {
 
 		}
 
-	   /// <summary>
-	   /// Finalizes an instance of the <see cref="NetworkBoundary"/> class.
-	   /// </summary>
-	   ~NetworkBoundary(){
-
-		}
-
-	   /// <summary>
-	   /// Releases resources used by the <see cref="NetworkBoundary"/> class.
-	   /// </summary>
-	   public override void Dispose(){
+    /// <summary>
+    /// Releases resources used by the <see cref="NetworkBoundary"/> class.
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

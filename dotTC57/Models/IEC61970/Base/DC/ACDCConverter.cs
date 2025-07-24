@@ -104,7 +104,7 @@ namespace TC57CIM.IEC61970.Base.DC {
 		public TC57CIM.IEC61970.Base.Domain.ActivePower targetPpcc;
 		/// <summary>
 		/// Target value for DC voltage magnitude. The attribute shall be a positive value.
-		/// 
+		///
 		/// </summary>
 		public TC57CIM.IEC61970.Base.Domain.Voltage targetUdc;
 		/// <summary>
@@ -137,14 +137,10 @@ namespace TC57CIM.IEC61970.Base.DC {
 
 		}
 
-		~ACDCConverter(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

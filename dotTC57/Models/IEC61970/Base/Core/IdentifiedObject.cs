@@ -38,7 +38,7 @@ namespace TC57CIM.IEC61970.Base.Core {
         /// For CIMXML data files in RDF syntax conforming to IEC 61970-552, the mRID is
         /// mapped to rdf:ID or rdf:about attributes that identify CIM object elements.
         /// </summary>
-        [RdfProperty("http://iec.ch/TC57/CIM#IdentifiedObject.mRID")] 
+        [RdfProperty("http://iec.ch/TC57/CIM#IdentifiedObject.mRID")]
 		public Guid mRID;
         /// <summary>
         /// The name is any free human readable and possibly non unique text naming the
@@ -62,14 +62,10 @@ namespace TC57CIM.IEC61970.Base.Core {
 
 		}
 
-		~IdentifiedObject(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public virtual void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public virtual void Dispose(){
 
 		}
 

@@ -30,14 +30,10 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics {
 
 		}
 
-		~WindTurbineType3or4Dynamics(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

@@ -30,17 +30,10 @@ namespace TC57CIM.IEC61970.InfIEC61970.InfPart303.AlternateModels {
 
 		}
 
-		/// <summary>
-		/// Finalizes an instance of the <see cref="AlternateModel"/> class.
-		/// </summary>
-		~AlternateModel(){
-
-		}
-
-		/// <summary>
-		/// Releases resources used by the <see cref="AlternateModel"/> class.
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Releases resources used by the <see cref="AlternateModel"/> class.
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

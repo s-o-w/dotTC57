@@ -41,7 +41,7 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.TurbineGovernorDynamics {
 		/// false = electrical power (if <i>R-Perm-Gate </i>= 0 and <i>R-Perm-Pe </i>=
 		/// droop) or
 		/// false = gate position (if R<i>-Perm-Gate </i>= droop and <i>R-Perm-Pe </i>= 0).
-		/// 
+		///
 		/// Typical value = false.
 		/// </summary>
 		public bool feedbackSignal;
@@ -300,14 +300,10 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.TurbineGovernorDynamics {
 
 		}
 
-		~GovHydroWEH(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

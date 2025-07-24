@@ -9,7 +9,7 @@
 namespace TC57CIM.IEC61970.Base.Domain {
 	/// <summary>
 	/// Reactance (imaginary part of impedance) per unit of length, at rated frequency.
-	/// 
+	///
 	/// </summary>
 	public class ReactancePerLength {
 
@@ -33,14 +33,10 @@ namespace TC57CIM.IEC61970.Base.Domain {
 
 		}
 
-		~ReactancePerLength(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public virtual void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public virtual void Dispose(){
 
 		}
 

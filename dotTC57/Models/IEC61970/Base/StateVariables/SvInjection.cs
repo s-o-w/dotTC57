@@ -12,7 +12,7 @@ namespace TC57CIM.IEC61970.Base.StateVariables {
 	/// terminal flows. The terminal flow is positive out from the bus (load sign
 	/// convention) and bus injection has positive flow into the bus. SvInjection may
 	/// have the remainder after state estimation or slack after power flow calculation.
-	/// 
+	///
 	/// </summary>
 	public class SvInjection : StateVariable {
 
@@ -43,14 +43,10 @@ namespace TC57CIM.IEC61970.Base.StateVariables {
 
 		}
 
-		~SvInjection(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

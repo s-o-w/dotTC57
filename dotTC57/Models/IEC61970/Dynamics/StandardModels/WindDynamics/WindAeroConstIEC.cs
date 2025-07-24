@@ -17,7 +17,7 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics {
 
 		/// <summary>
 		/// Wind turbine type 1A model with which this wind aerodynamic model is associated.
-		/// 
+		///
 		/// </summary>
 		public TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics.WindGenTurbineType1aIEC WindGenTurbineType1aIEC;
 
@@ -28,14 +28,10 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics {
 
 		}
 
-		~WindAeroConstIEC(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

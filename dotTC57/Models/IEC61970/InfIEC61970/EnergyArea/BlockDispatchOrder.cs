@@ -33,17 +33,10 @@ namespace TC57CIM.IEC61970.InfIEC61970.EnergyArea {
 
 		}
 
-		/// <summary>
-		/// Finalizes an instance of the <see cref="BlockDispatchOrder"/> class.
-		/// </summary>
-		~BlockDispatchOrder(){
-
-		}
-
-		/// <summary>
-		/// Releases resources used by the <see cref="BlockDispatchOrder"/> class.
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Releases resources used by the <see cref="BlockDispatchOrder"/> class.
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

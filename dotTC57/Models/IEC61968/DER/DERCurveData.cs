@@ -36,7 +36,7 @@ namespace TC57CIM.IEC61968.DER {
 		public System.DateTime timeStamp;
 		/// <summary>
 		/// The DER monitorable parameter for which a time dependent curve has been created.
-		/// 
+		///
 		/// </summary>
 		public TC57CIM.IEC61968.DER.DERMonitorableParameter DERMonitorableParameter;
 		/// <summary>
@@ -52,14 +52,10 @@ namespace TC57CIM.IEC61968.DER {
 
 		}
 
-		~DERCurveData(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public virtual void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public virtual void Dispose(){
 
 		}
 

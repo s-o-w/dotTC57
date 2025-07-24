@@ -11,7 +11,7 @@ namespace TC57CIM.IEC61970.Base.LoadModel {
 	/// <summary>
 	/// Models the characteristic response of the load demand due to changes in system
 	/// conditions such as voltage and frequency. It is not related to demand response.
-	/// 
+	///
 	/// If LoadResponseCharacteristic.exponentModel is True, the exponential voltage or
 	/// frequency dependent models are specified and used as to calculate active and
 	/// reactive power components of the load model.
@@ -19,7 +19,7 @@ namespace TC57CIM.IEC61970.Base.LoadModel {
 	/// model are internal to the power flow calculation, hence they use different
 	/// quantities depending on the use case of the data exchange.
 	/// The equations for exponential voltage dependent load model injected power are:
-	/// 
+	///
 	/// pInjection= Pnominal* (Voltage/cim:BaseVoltage.nominalVoltage) ** cim:
 	/// LoadResponseCharacteristic.pVoltageExponent
 	/// qInjection= Qnominal* (Voltage/cim:BaseVoltage.nominalVoltage) ** cim:
@@ -107,14 +107,10 @@ namespace TC57CIM.IEC61970.Base.LoadModel {
 
 		}
 
-		~LoadResponseCharacteristic(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

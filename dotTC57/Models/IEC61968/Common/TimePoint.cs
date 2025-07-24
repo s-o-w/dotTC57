@@ -10,7 +10,7 @@ using TC57CIM.IEC61970.Base.Core;
 namespace TC57CIM.IEC61968.Common {
 	/// <summary>
 	/// A point in time within a sequence of points in time relative to a time schedule.
-	/// 
+	///
 	/// </summary>
 	public class TimePoint : IdentifiedObject {
 
@@ -45,14 +45,10 @@ namespace TC57CIM.IEC61968.Common {
 
 		}
 
-		~TimePoint(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

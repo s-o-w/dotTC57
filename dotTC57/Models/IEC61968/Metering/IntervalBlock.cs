@@ -17,7 +17,7 @@ namespace TC57CIM.IEC61968.Metering {
 	/// mult to
 	/// type
 	/// description
-	/// 
+	///
 	/// 0..*
 	/// PendingCalculation
 	/// 0..1
@@ -25,26 +25,26 @@ namespace TC57CIM.IEC61968.Metering {
 	/// Pending calculation to apply to interval reading values contained by this block
 	/// (after which the resulting reading type is different than the original because
 	/// it reflects the conversion result).
-	/// 
+	///
 	/// 0..*
 	/// IntervalReadings
 	/// 0..*
 	/// IntervalReading
 	/// Interval reading contained in this block.
-	/// 
+	///
 	/// 0..*
 	/// ReadingType
 	/// 0..1
 	/// ReadingType
 	/// Type information for interval reading values contained in this block.
-	/// 
+	///
 	/// 0..*
 	/// MeterReading
 	/// 0..1
 	/// MeterReading
 	/// Meter reading containing this interval block.
-	/// 
-	/// 
+	///
+	///
 	/// IntervalReading
 	/// Data captured at regular intervals of time. Interval data could be captured as
 	/// incremental data, absolute data, or relative data. The source for the data is
@@ -81,14 +81,10 @@ namespace TC57CIM.IEC61968.Metering {
 
 		}
 
-		~IntervalBlock(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public virtual void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public virtual void Dispose(){
 
 		}
 

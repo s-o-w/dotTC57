@@ -30,17 +30,10 @@ namespace TC57CIM.IEC61970.Dynamics.UserDefinedModels {
 
 		}
 
-		/// <summary>
-		/// Destructor for OverexcitationLimiterUserDefined.
-		/// </summary>
-		~OverexcitationLimiterUserDefined(){
-
-		}
-
-		/// <summary>
-		/// Dispose method for OverexcitationLimiterUserDefined.
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Dispose method for OverexcitationLimiterUserDefined.
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

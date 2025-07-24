@@ -27,17 +27,10 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels {
 
 		}
 
-		/// <summary>
-		/// Destructor for DynamicsFunctionBlock.
-		/// </summary>
-		~DynamicsFunctionBlock(){
-
-		}
-
-		/// <summary>
-		/// Dispose method for DynamicsFunctionBlock.
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Dispose method for DynamicsFunctionBlock.
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

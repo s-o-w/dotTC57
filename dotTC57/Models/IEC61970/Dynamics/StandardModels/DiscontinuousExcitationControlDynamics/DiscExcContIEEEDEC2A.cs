@@ -44,17 +44,10 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.DiscontinuousExcitationContro
 
 		}
 
-		/// <summary>
-		/// Destructor for DiscExcContIEEEDEC2A.
-		/// </summary>
-		~DiscExcContIEEEDEC2A(){
-
-		}
-
-		/// <summary>
-		/// Dispose method for DiscExcContIEEEDEC2A.
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Dispose method for DiscExcContIEEEDEC2A.
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

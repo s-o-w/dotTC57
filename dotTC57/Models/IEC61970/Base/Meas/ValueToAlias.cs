@@ -9,7 +9,7 @@ using TC57CIM.IEC61970.Base.Core;
 namespace TC57CIM.IEC61970.Base.Meas {
 	/// <summary>
 	/// Describes the translation of one particular value into a name, e.g. 1 as "Open".
-	/// 
+	///
 	/// </summary>
 	public class ValueToAlias : IdentifiedObject {
 
@@ -25,14 +25,10 @@ namespace TC57CIM.IEC61970.Base.Meas {
 
 		}
 
-		~ValueToAlias(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

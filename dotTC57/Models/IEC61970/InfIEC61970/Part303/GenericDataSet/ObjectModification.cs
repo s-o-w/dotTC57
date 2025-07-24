@@ -18,16 +18,10 @@ namespace TC57CIM.IEC61970.InfIEC61970.Part303.GenericDataSet {
         public ObjectModification(){
         }
 
-        /// <summary>
-        /// Finalizes an instance of the <see cref="ObjectModification"/> class.
-        /// </summary>
-        ~ObjectModification(){
-        }
-
-        /// <summary>
-        /// Releases unmanaged resources and performs other cleanup operations.
-        /// </summary>
-        public override void Dispose(){
+    /// <summary>
+    /// Releases unmanaged resources and performs other cleanup operations.
+    /// </summary>
+    public override void Dispose(){
         }
 
     }//end ObjectModification

@@ -34,17 +34,10 @@ namespace TC57CIM.IEC61970.Dynamics.UserDefinedModels {
 
 		}
 
-		/// <summary>
-		/// Destructor for SVCUserDefined.
-		/// </summary>
-		~SVCUserDefined(){
-
-		}
-
-		/// <summary>
-		/// Dispose method for SVCUserDefined.
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Dispose method for SVCUserDefined.
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

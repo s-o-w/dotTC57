@@ -30,17 +30,10 @@ namespace TC57CIM.IEC61970.Dynamics.UserDefinedModels {
 
 		}
 
-		/// <summary>
-		/// Destructor for PFVArControllerType1UserDefined.
-		/// </summary>
-		~PFVArControllerType1UserDefined(){
-
-		}
-
-		/// <summary>
-		/// Dispose method for PFVArControllerType1UserDefined.
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Dispose method for PFVArControllerType1UserDefined.
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

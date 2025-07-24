@@ -159,7 +159,7 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.ExcitationSystemDynamics {
 		public TC57CIM.IEC61970.Base.Domain.PU vimax;
 		/// <summary>
 		/// Maximum controller output (V<i>rmax</i>) (> ExcREXS.vrmin).  Typical value = 47.
-		/// 
+		///
 		/// </summary>
 		public TC57CIM.IEC61970.Base.Domain.PU vrmax;
 		/// <summary>
@@ -179,14 +179,10 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.ExcitationSystemDynamics {
 
 		}
 
-		~ExcREXS(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

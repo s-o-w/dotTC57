@@ -13,7 +13,7 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfERPSupport {
 	/// represents actual amounts by account within ledger within company or business
 	/// area. Actual amounts may be generated in a source application and then loaded
 	/// to a specific ledger within the enterprise general ledger or budget application.
-	/// 
+	///
 	/// </summary>
 	public class ErpLedger : ErpDocument {
 
@@ -29,14 +29,10 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfERPSupport {
 
 		}
 
-		~ErpLedger(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

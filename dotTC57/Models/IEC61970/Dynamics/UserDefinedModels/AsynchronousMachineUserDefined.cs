@@ -30,17 +30,10 @@ namespace TC57CIM.IEC61970.Dynamics.UserDefinedModels {
 
 		}
 
-		/// <summary>
-		/// Destructor for AsynchronousMachineUserDefined.
-		/// </summary>
-		~AsynchronousMachineUserDefined(){
-
-		}
-
-		/// <summary>
-		/// Dispose method for AsynchronousMachineUserDefined.
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Dispose method for AsynchronousMachineUserDefined.
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

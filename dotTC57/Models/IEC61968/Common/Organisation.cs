@@ -27,7 +27,7 @@ namespace TC57CIM.IEC61968.Common {
 		public TelephoneNumber phone2;
 		/// <summary>
 		/// Postal address, potentially different than 'streetAddress' (e.g., another city).
-		/// 
+		///
 		/// </summary>
 		public StreetAddress postalAddress;
 		/// <summary>
@@ -46,14 +46,10 @@ namespace TC57CIM.IEC61968.Common {
 
 		}
 
-		~Organisation(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

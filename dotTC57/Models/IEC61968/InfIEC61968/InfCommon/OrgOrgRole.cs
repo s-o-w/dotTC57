@@ -10,7 +10,7 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfCommon {
 	/// <summary>
 	/// Roles played between Organisations and other Organisations. This includes role
 	/// ups for ogranisations, cost centers, profit centers, regulatory reporting, etc.
-	/// 
+	///
 	/// Note that the parent and child relationship is indicated by the name on each
 	/// end of the association.
 	/// </summary>
@@ -30,14 +30,10 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfCommon {
 
 		}
 
-		~OrgOrgRole(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

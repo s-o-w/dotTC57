@@ -39,14 +39,10 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfAssetInfo {
 
 		}
 
-		~RecloserInfo(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

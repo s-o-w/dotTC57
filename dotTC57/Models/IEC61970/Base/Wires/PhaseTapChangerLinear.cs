@@ -48,14 +48,10 @@ namespace TC57CIM.IEC61970.Base.Wires {
 
 		}
 
-		~PhaseTapChangerLinear(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

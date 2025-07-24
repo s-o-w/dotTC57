@@ -16,13 +16,13 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// <summary>
 		/// Susceptance per section of the phase if shunt compensator is wye connected.
 		/// Susceptance per section phase to phase if shunt compensator is delta connected.
-		/// 
+		///
 		/// </summary>
 		public TC57CIM.IEC61970.Base.Domain.Susceptance bPerSection;
 		/// <summary>
 		/// Conductance per section for this phase if shunt compensator is wye connected.
 		/// Conductance per section phase to phase if shunt compensator is delta connected.
-		/// 
+		///
 		/// </summary>
 		public TC57CIM.IEC61970.Base.Domain.Conductance gPerSection;
 
@@ -33,14 +33,10 @@ namespace TC57CIM.IEC61970.Base.Wires {
 
 		}
 
-		~LinearShuntCompensatorPhase(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

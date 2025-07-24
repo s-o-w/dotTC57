@@ -30,17 +30,10 @@ namespace TC57CIM.IEC61970.InfIEC61970.InfAvailabilityPlans {
 
 		}
 
-		/// <summary>
-		/// Finalizes an instance of the <see cref="AvailablityPlan"/> class.
-		/// </summary>
-		~AvailablityPlan(){
-
-		}
-
-		/// <summary>
-		/// Releases resources used by the <see cref="AvailablityPlan"/> class.
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Releases resources used by the <see cref="AvailablityPlan"/> class.
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

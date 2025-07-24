@@ -34,17 +34,10 @@ namespace TC57CIM.IEC61970.Dynamics.UserDefinedModels {
 
 		}
 
-		/// <summary>
-		/// Destructor for WindType3or4UserDefined.
-		/// </summary>
-		~WindType3or4UserDefined(){
-
-		}
-
-		/// <summary>
-		/// Dispose method for WindType3or4UserDefined.
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Dispose method for WindType3or4UserDefined.
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

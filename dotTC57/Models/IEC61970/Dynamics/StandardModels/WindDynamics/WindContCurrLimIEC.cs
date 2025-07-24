@@ -53,7 +53,7 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics {
 		/// <summary>
 		/// Wind turbine voltage in the operation point where zero reactive current can be
 		/// delivered (<i>u</i><i><sub>pqumax</sub></i>). It is a type-dependent parameter.
-		/// 
+		///
 		/// </summary>
 		public TC57CIM.IEC61970.Base.Domain.PU upqumax;
 		/// <summary>
@@ -69,14 +69,10 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics {
 
 		}
 
-		~WindContCurrLimIEC(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

@@ -14,7 +14,7 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.TurbineGovernorDynamics {
 
 		/// <summary>
 		/// Minimum value of pressure regulator output (<i>Cpsmn</i>).  Typical value = -1.
-		/// 
+		///
 		/// </summary>
 		public TC57CIM.IEC61970.Base.Domain.PU cpsmn;
 		/// <summary>
@@ -52,7 +52,7 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.TurbineGovernorDynamics {
 		public TC57CIM.IEC61970.Base.Domain.PU kic;
 		/// <summary>
 		/// Integral gain of pressure feedback regulator (<i>Kip</i>).  Typical value = 0,5.
-		/// 
+		///
 		/// </summary>
 		public TC57CIM.IEC61970.Base.Domain.PU kip;
 		/// <summary>
@@ -157,12 +157,12 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.TurbineGovernorDynamics {
 		public TC57CIM.IEC61970.Base.Domain.PU srsmp;
 		/// <summary>
 		/// Maximum regulator gate closing velocity (<i>Svmn</i>).  Typical value = -0,0333.
-		/// 
+		///
 		/// </summary>
 		public float svmn;
 		/// <summary>
 		/// Maximum regulator gate opening velocity (<i>Svmx</i>).  Typical value = 0,0333.
-		/// 
+		///
 		/// </summary>
 		public float svmx;
 		/// <summary>
@@ -206,7 +206,7 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.TurbineGovernorDynamics {
 		public TC57CIM.IEC61970.Base.Domain.Seconds tmp;
 		/// <summary>
 		/// Reheater  time constant of the turbine (<i>Trh</i>) (>= 0).  Typical value = 10.
-		/// 
+		///
 		/// </summary>
 		public TC57CIM.IEC61970.Base.Domain.Seconds trh;
 		/// <summary>
@@ -246,14 +246,10 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.TurbineGovernorDynamics {
 
 		}
 
-		~GovSteamFV4(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

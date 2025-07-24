@@ -32,7 +32,7 @@ namespace TC57CIM.IEC61970.Base.DiagramLayout {
 		/// The offset in the X direction. This is used for defining the offset from centre
 		/// for rendering an icon (the default is that a single point specifies the centre
 		/// of the icon).
-		/// 
+		///
 		/// The offset is in per-unit with 0 indicating there is no offset from the
 		/// horizontal centre of the icon.  -0.5 indicates it is offset by 50% to the left
 		/// and 0.5 indicates an offset of 50% to the right.
@@ -42,7 +42,7 @@ namespace TC57CIM.IEC61970.Base.DiagramLayout {
 		/// The offset in the Y direction. This is used for defining the offset from centre
 		/// for rendering an icon (the default is that a single point specifies the centre
 		/// of the icon).
-		/// 
+		///
 		/// The offset is in per-unit with 0 indicating there is no offset from the
 		/// vertical centre of the icon.  The offset direction is dependent on the
 		/// orientation of the diagram, with -0.5 and 0.5 indicating an offset of +/- 50%
@@ -88,14 +88,10 @@ namespace TC57CIM.IEC61970.Base.DiagramLayout {
 
 		}
 
-		~DiagramObject(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

@@ -10,7 +10,7 @@ namespace TC57CIM.IEC61970.Base.Core {
 	/// A collection of power system resources (within a given substation) including
 	/// conducting equipment, protection relays, measurements, and telemetry.  A bay
 	/// typically represents a physical grouping related to modularization of equipment.
-	/// 
+	///
 	/// </summary>
 	public class Bay : EquipmentContainer {
 
@@ -38,14 +38,10 @@ namespace TC57CIM.IEC61970.Base.Core {
 
 		}
 
-		~Bay(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

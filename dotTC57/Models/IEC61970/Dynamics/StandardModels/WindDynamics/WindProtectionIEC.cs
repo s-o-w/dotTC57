@@ -32,7 +32,7 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics {
 		public TC57CIM.IEC61970.Base.Domain.PU funder;
 		/// <summary>
 		/// Zero crossing measurement mode (<i>Mzc</i>).  It is a type-dependent parameter.
-		/// 
+		///
 		/// true = WT protection system uses zero crossings to detect frequency (1 in the
 		/// IEC model)
 		/// false = WT protection system does not use zero crossings to detect frequency (0
@@ -72,14 +72,10 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics {
 
 		}
 
-		~WindProtectionIEC(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

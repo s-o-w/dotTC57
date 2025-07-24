@@ -8,7 +8,7 @@
 namespace TC57CIM.IEC61968.InfIEC61968.InfWork {
 	/// <summary>
 	/// A design for consideration by customers, potential customers, or internal work.
-	/// 
+	///
 	/// Note that the Version of design is the revision attribute that is inherited
 	/// from Document.
 	/// </summary>
@@ -54,14 +54,10 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfWork {
 
 		}
 
-		~Design(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

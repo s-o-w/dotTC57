@@ -55,7 +55,7 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.TurbineGovernorDynamics {
 		public TC57CIM.IEC61970.Base.Domain.Seconds tm;
 		/// <summary>
 		/// Time constant of fuel valve positioner (<i>Ty</i>) (>= 0).  Typical value = 0,1.
-		/// 
+		///
 		/// </summary>
 		public TC57CIM.IEC61970.Base.Domain.Seconds ty;
 
@@ -66,14 +66,10 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.TurbineGovernorDynamics {
 
 		}
 
-		~GovGAST4(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

@@ -34,17 +34,10 @@ namespace TC57CIM.IEC61970.InfIEC61970.InfPart303.ModelOperations {
 
 		}
 
-	   /// <summary>
-	   /// Finalizes an instance of the <see cref="ModelOperationArg"/> class.
-	   /// </summary>
-	   ~ModelOperationArg(){
-
-		}
-
-	   /// <summary>
-	   /// Releases resources used by the <see cref="ModelOperationArg"/> class.
-	   /// </summary>
-	   public override void Dispose(){
+    /// <summary>
+    /// Releases resources used by the <see cref="ModelOperationArg"/> class.
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

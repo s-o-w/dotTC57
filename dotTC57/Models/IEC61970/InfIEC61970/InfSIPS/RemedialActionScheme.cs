@@ -43,17 +43,10 @@ namespace TC57CIM.IEC61970.InfIEC61970.InfSIPS {
 
 		}
 
-		/// <summary>
-		/// Finalizes an instance of the <see cref="RemedialActionScheme"/> class.
-		/// </summary>
-		~RemedialActionScheme(){
-
-		}
-
-		/// <summary>
-		/// Releases resources used by the <see cref="RemedialActionScheme"/> class.
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Releases resources used by the <see cref="RemedialActionScheme"/> class.
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

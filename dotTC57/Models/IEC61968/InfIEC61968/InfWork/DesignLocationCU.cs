@@ -13,7 +13,7 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfWork {
 
 		/// <summary>
 		/// A code that helps direct accounting (capital, expense, or accounting treatment).
-		/// 
+		///
 		/// </summary>
 		public string cuAccount;
 		/// <summary>
@@ -67,14 +67,10 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfWork {
 
 		}
 
-		~DesignLocationCU(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

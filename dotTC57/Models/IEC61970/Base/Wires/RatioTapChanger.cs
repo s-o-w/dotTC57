@@ -10,7 +10,7 @@ namespace TC57CIM.IEC61970.Base.Wires {
 	/// <summary>
 	/// A tap changer that changes the voltage ratio impacting the voltage magnitude
 	/// but not the phase angle across the transformer.
-	/// 
+	///
 	/// Angle sign convention (general): Positive value indicates a positive phase
 	/// shift from the winding where the tap is located to the other winding (for a two-
 	/// winding transformer).
@@ -41,14 +41,10 @@ namespace TC57CIM.IEC61970.Base.Wires {
 
 		}
 
-		~RatioTapChanger(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

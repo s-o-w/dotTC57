@@ -25,17 +25,10 @@ namespace TC57CIM.IEC61970.InfIEC61970.InfOperationalLimits {
 
 		}
 
-	   /// <summary>
-	   /// Finalizes an instance of the <see cref="TemperatureDependentLimitTable"/> class.
-	   /// </summary>
-	   ~TemperatureDependentLimitTable(){
-
-		}
-
-	   /// <summary>
-	   /// Releases resources used by the <see cref="TemperatureDependentLimitTable"/> class.
-	   /// </summary>
-	   public override void Dispose(){
+    /// <summary>
+    /// Releases resources used by the <see cref="TemperatureDependentLimitTable"/> class.
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

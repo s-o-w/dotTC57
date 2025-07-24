@@ -59,7 +59,7 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.TurbineGovernorDynamics {
 		public TC57CIM.IEC61970.Base.Domain.Seconds t5;
 		/// <summary>
 		/// Delay due to IP-LP turbine, crossover pipes and LP end hoods (<i>T6</i>) (>= 0).
-		/// 
+		///
 		/// </summary>
 		public TC57CIM.IEC61970.Base.Domain.Seconds t6;
 
@@ -70,14 +70,10 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.TurbineGovernorDynamics {
 
 		}
 
-		~GovSteamSGO(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

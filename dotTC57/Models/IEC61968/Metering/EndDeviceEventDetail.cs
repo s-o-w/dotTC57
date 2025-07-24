@@ -29,14 +29,10 @@ namespace TC57CIM.IEC61968.Metering {
 
 		}
 
-		~EndDeviceEventDetail(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public virtual void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public virtual void Dispose(){
 
 		}
 

@@ -27,7 +27,7 @@ namespace TC57CIM.IEC61968.AssetInfo.Assets {
 		/// <summary>
 		/// Date the asset was purchased. Note that even though an asset may have been
 		/// purchased, it may not have been received into inventory at the time of purchase.
-		/// 
+		///
 		/// </summary>
 		public TC57CIM.IEC61970.Base.Domain.Date purchaseDate;
 		/// <summary>
@@ -53,14 +53,10 @@ namespace TC57CIM.IEC61968.AssetInfo.Assets {
 
 		}
 
-		~LifecycleDate(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public virtual void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public virtual void Dispose(){
 
 		}
 

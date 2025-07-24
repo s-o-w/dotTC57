@@ -27,7 +27,7 @@ namespace TC57CIM.IEC61968.Operations {
 		public bool isFreeSequence;
 		/// <summary>
 		/// Order of this activity in the sequence of activities within the switching plan.
-		/// 
+		///
 		/// </summary>
 		public TC57CIM.IEC61970.Base.Domain.Integer sequenceNumber;
 		/// <summary>
@@ -54,14 +54,10 @@ namespace TC57CIM.IEC61968.Operations {
 
 		}
 
-		~SwitchingStep(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public virtual void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public virtual void Dispose(){
 
 		}
 

@@ -16,12 +16,12 @@ namespace TC57CIM.IEC61970.Base.Generation.Production {
 
 		/// <summary>
 		/// Maximum active power limit. This is the maximum (nameplate) limit for the unit.
-		/// 
+		///
 		/// </summary>
 		public TC57CIM.IEC61970.Base.Domain.ActivePower maxP;
 		/// <summary>
 		/// Minimum active power limit. This is the minimum (nameplate) limit for the unit.
-		/// 
+		///
 		/// </summary>
 		public TC57CIM.IEC61970.Base.Domain.ActivePower minP;
 
@@ -32,14 +32,10 @@ namespace TC57CIM.IEC61970.Base.Generation.Production {
 
 		}
 
-		~PowerElectronicsUnit(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

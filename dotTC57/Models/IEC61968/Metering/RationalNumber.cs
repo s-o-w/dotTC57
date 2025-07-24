@@ -28,14 +28,10 @@ namespace TC57CIM.IEC61968.Metering {
 
 		}
 
-		~RationalNumber(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public virtual void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public virtual void Dispose(){
 
 		}
 

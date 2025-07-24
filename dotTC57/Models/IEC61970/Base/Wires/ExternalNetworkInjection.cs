@@ -28,7 +28,7 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// <summary>
 		/// Maximum initial symmetrical short-circuit currents (Ik" max) in A (Ik" =
 		/// Sk"/(SQRT(3) Un)). Used for short circuit data exchange according to IEC 60909.
-		/// 
+		///
 		/// </summary>
 		public TC57CIM.IEC61970.Base.Domain.CurrentFlow maxInitialSymShCCurrent;
 		/// <summary>
@@ -60,7 +60,7 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// <summary>
 		/// Minimum initial symmetrical short-circuit currents (Ik" min) in A (Ik" =
 		/// Sk"/(SQRT(3) Un)). Used for short circuit data exchange according to IEC 60909.
-		/// 
+		///
 		/// </summary>
 		public TC57CIM.IEC61970.Base.Domain.CurrentFlow minInitialSymShCCurrent;
 		/// <summary>
@@ -121,14 +121,10 @@ namespace TC57CIM.IEC61970.Base.Wires {
 
 		}
 
-		~ExternalNetworkInjection(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

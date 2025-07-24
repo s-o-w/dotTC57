@@ -159,17 +159,10 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.ExcitationSystemDynamics {
 
 		}
 
-		/// <summary>
-		/// Destructor for ExcAC2A.
-		/// </summary>
-		~ExcAC2A(){
-
-		}
-
-		/// <summary>
-		/// Dispose method for ExcAC2A.
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Dispose method for ExcAC2A.
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

@@ -50,14 +50,10 @@ namespace TC57CIM.IEC61968.Common {
 
 		}
 
-		~UserAttribute(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public virtual void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public virtual void Dispose(){
 
 		}
 

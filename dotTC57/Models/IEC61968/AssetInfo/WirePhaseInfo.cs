@@ -28,14 +28,10 @@ namespace TC57CIM.IEC61968.AssetInfo {
 
 		}
 
-		~WirePhaseInfo(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public virtual void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public virtual void Dispose(){
 
 		}
 

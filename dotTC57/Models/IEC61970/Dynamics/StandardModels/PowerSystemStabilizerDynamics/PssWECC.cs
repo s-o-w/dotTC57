@@ -95,7 +95,7 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.PowerSystemStabilizerDynamics
 		public TC57CIM.IEC61970.Base.Domain.PU vsmax;
 		/// <summary>
 		/// Minimum output signal (<i>Vsmin</i>) (< PssWECC.vsmax).  Typical value = -0,05.
-		/// 
+		///
 		/// </summary>
 		public TC57CIM.IEC61970.Base.Domain.PU vsmin;
 
@@ -106,14 +106,10 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.PowerSystemStabilizerDynamics
 
 		}
 
-		~PssWECC(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

@@ -39,7 +39,7 @@ namespace TC57CIM.IEC61970.Base.Meas {
 		/// line flow, etc.
 		/// When the measurementType is set to "Specialization", the type of Measurement is
 		/// defined in more detail by the specialized class which inherits from Measurement.
-		/// 
+		///
 		/// </summary>
 		public string measurementType;
 		/// <summary>
@@ -80,14 +80,10 @@ namespace TC57CIM.IEC61970.Base.Meas {
 
 		}
 
-		~Measurement(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

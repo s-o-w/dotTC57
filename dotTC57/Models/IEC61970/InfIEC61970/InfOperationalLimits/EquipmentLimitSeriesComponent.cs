@@ -26,17 +26,10 @@ namespace TC57CIM.IEC61970.InfIEC61970.InfOperationalLimits {
 
 		}
 
-	   /// <summary>
-	   /// Finalizes an instance of the <see cref="EquipmentLimitSeriesComponent"/> class.
-	   /// </summary>
-	   ~EquipmentLimitSeriesComponent(){
-
-		}
-
-	   /// <summary>
-	   /// Releases resources used by the <see cref="EquipmentLimitSeriesComponent"/> class.
-	   /// </summary>
-	   public override void Dispose(){
+    /// <summary>
+    /// Releases resources used by the <see cref="EquipmentLimitSeriesComponent"/> class.
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

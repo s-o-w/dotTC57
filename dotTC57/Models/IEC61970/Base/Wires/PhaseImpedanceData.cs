@@ -61,14 +61,10 @@ namespace TC57CIM.IEC61970.Base.Wires {
 
 		}
 
-		~PhaseImpedanceData(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public virtual void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public virtual void Dispose(){
 
 		}
 

@@ -36,7 +36,7 @@ namespace TC57CIM.IEC61968.Metering {
 		public UsagePointConnectedKind connectionState;
 		/// <summary>
 		/// Is an indication of how the usage point is physically connected or disconnected.
-		/// 
+		///
 		/// </summary>
 		public string disconnectionMethod;
 		/// <summary>
@@ -153,14 +153,10 @@ namespace TC57CIM.IEC61968.Metering {
 
 		}
 
-		~UsagePoint(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

@@ -31,17 +31,10 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.DiscontinuousExcitationContro
 
 		}
 
-		/// <summary>
-		/// Destructor for DiscontinuousExcitationControlDynamics.
-		/// </summary>
-		~DiscontinuousExcitationControlDynamics(){
-
-		}
-
-		/// <summary>
-		/// Dispose method for DiscontinuousExcitationControlDynamics.
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Dispose method for DiscontinuousExcitationControlDynamics.
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

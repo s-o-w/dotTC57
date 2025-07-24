@@ -38,7 +38,7 @@ namespace TC57CIM.IEC61968.PaymentMetering {
 		public TC57CIM.IEC61968.PaymentMetering.Charge Charges;
 		/// <summary>
 		/// All time of use tariff intervals influenced by this consumption tariff interval.
-		/// 
+		///
 		/// </summary>
 		public TC57CIM.IEC61968.PaymentMetering.TimeTariffInterval TouTariffIntervals;
 
@@ -49,14 +49,10 @@ namespace TC57CIM.IEC61968.PaymentMetering {
 
 		}
 
-		~ConsumptionTariffInterval(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public virtual void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public virtual void Dispose(){
 
 		}
 

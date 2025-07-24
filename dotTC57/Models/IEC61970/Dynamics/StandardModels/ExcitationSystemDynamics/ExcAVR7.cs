@@ -50,7 +50,7 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.ExcitationSystemDynamics {
 		public TC57CIM.IEC61970.Base.Domain.PU k5;
 		/// <summary>
 		/// Lead time constant (<i>T</i><i><sub>1</sub></i>) (>= 0).  Typical value = 0,05.
-		/// 
+		///
 		/// </summary>
 		public TC57CIM.IEC61970.Base.Domain.Seconds t1;
 		/// <summary>
@@ -105,14 +105,10 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.ExcitationSystemDynamics {
 
 		}
 
-		~ExcAVR7(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

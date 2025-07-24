@@ -14,7 +14,7 @@ namespace TC57CIM.IEC61970.Base.Meas {
 
 		/// <summary>
 		/// Measurement value may be incorrect due to a reference being out of calibration.
-		/// 
+		///
 		/// </summary>
 		public bool badReference;
 		/// <summary>
@@ -87,14 +87,10 @@ namespace TC57CIM.IEC61970.Base.Meas {
 
 		}
 
-		~Quality61850(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public virtual void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public virtual void Dispose(){
 
 		}
 

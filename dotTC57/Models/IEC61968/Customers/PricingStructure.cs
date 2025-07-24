@@ -13,7 +13,7 @@ namespace TC57CIM.IEC61968.Customers {
 	/// a customer. The reasons for grouping include state, customer classification,
 	/// site characteristics, classification (i.e. fee price structure, deposit price
 	/// structure, electric service price structure, etc.) and accounting requirements.
-	/// 
+	///
 	/// </summary>
 	public class PricingStructure : Document {
 
@@ -70,14 +70,10 @@ namespace TC57CIM.IEC61968.Customers {
 
 		}
 
-		~PricingStructure(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

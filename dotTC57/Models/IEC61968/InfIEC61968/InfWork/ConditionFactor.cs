@@ -14,7 +14,7 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfWork {
 
 		/// <summary>
 		/// The actual value of the condition factor, such as labor flat fee or percentage.
-		/// 
+		///
 		/// </summary>
 		public string cfValue;
 		/// <summary>
@@ -33,14 +33,10 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfWork {
 
 		}
 
-		~ConditionFactor(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

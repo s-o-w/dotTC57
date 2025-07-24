@@ -9,7 +9,7 @@
 namespace TC57CIM.IEC61968.Metering {
 	/// <summary>
 	/// Action/command performed by an end device on a device other than the end device.
-	/// 
+	///
 	/// </summary>
 	public class EndDeviceAction {
 
@@ -37,14 +37,10 @@ namespace TC57CIM.IEC61968.Metering {
 
 		}
 
-		~EndDeviceAction(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public virtual void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public virtual void Dispose(){
 
 		}
 

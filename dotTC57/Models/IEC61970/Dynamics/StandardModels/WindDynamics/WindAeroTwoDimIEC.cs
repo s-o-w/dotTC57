@@ -51,7 +51,7 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics {
 		public TC57CIM.IEC61970.Base.Domain.AngleDegrees thetazero;
 		/// <summary>
 		/// Wind turbine type 3 model with which this wind aerodynamic model is associated.
-		/// 
+		///
 		/// </summary>
 		public TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics.WindTurbineType3IEC WindTurbineType3IEC;
 
@@ -62,14 +62,10 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics {
 
 		}
 
-		~WindAeroTwoDimIEC(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

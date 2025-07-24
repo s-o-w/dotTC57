@@ -25,7 +25,7 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.ExcitationSystemDynamics {
 		public TC57CIM.IEC61970.Base.Domain.PU ka;
 		/// <summary>
 		/// Exciter constant related to self-excited field (<i>Ke</i>).  Typical value = 1.
-		/// 
+		///
 		/// </summary>
 		public TC57CIM.IEC61970.Base.Domain.PU ke;
 		/// <summary>
@@ -57,7 +57,7 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.ExcitationSystemDynamics {
 		public TC57CIM.IEC61970.Base.Domain.Seconds tf;
 		/// <summary>
 		/// Available exciter voltage limiter (<i>Vb1max</i>) (> 0).  Typical value = 11,63.
-		/// 
+		///
 		/// </summary>
 		public TC57CIM.IEC61970.Base.Domain.PU vb1max;
 		/// <summary>
@@ -69,7 +69,7 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.ExcitationSystemDynamics {
 		public bool vblim;
 		/// <summary>
 		/// Available exciter voltage limiter (<i>Vbmax</i>) (> 0).  Typical value = 11,63.
-		/// 
+		///
 		/// </summary>
 		public TC57CIM.IEC61970.Base.Domain.PU vbmax;
 		/// <summary>
@@ -90,14 +90,10 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.ExcitationSystemDynamics {
 
 		}
 
-		~ExcDC3A1(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

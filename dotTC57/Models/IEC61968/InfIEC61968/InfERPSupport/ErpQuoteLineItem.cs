@@ -23,7 +23,7 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfERPSupport {
 		/// <summary>
 		/// Some utilities provide quotes to customer for services, where the customer
 		/// accepts the quote by making a payment. An invoice is required for this to occur.
-		/// 
+		///
 		/// </summary>
 		public TC57CIM.IEC61968.InfIEC61968.InfERPSupport.ErpInvoiceLineItem ErpInvoiceLineItem;
 		/// <summary>
@@ -42,14 +42,10 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfERPSupport {
 
 		}
 
-		~ErpQuoteLineItem(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

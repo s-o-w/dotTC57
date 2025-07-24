@@ -13,7 +13,7 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.ExcitationSystemDynamics {
 	/// regulators.  The maximum output of the regulator, <i>V</i><i><sub>R</sub></i>,
 	/// is a function of terminal voltage, <i>V</i><i><sub>T</sub></i>. The field
 	/// current limiter included in the original model AC6A remains in the 2005 update.
-	/// 
+	///
 	/// Reference: IEEE 421.5-2005, 6.6.
 	/// </summary>
 	public class ExcIEEEAC6A : ExcitationSystemDynamics {
@@ -99,7 +99,7 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.ExcitationSystemDynamics {
 		public TC57CIM.IEC61970.Base.Domain.PU vamax;
 		/// <summary>
 		/// Minimum voltage regulator output (V<sub>AMIN</sub>) (< 0).  Typical value = -75.
-		/// 
+		///
 		/// </summary>
 		public TC57CIM.IEC61970.Base.Domain.PU vamin;
 		/// <summary>
@@ -142,14 +142,10 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.ExcitationSystemDynamics {
 
 		}
 
-		~ExcIEEEAC6A(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

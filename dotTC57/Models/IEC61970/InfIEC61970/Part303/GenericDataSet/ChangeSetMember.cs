@@ -32,16 +32,10 @@ namespace TC57CIM.IEC61970.InfIEC61970.Part303.GenericDataSet {
         public ChangeSetMember(){
         }
 
-        /// <summary>
-        /// Finalizes an instance of the <see cref="ChangeSetMember"/> class.
-        /// </summary>
-        ~ChangeSetMember(){
-        }
-
-        /// <summary>
-        /// Releases unmanaged resources and performs other cleanup operations.
-        /// </summary>
-        public virtual void Dispose(){
+    /// <summary>
+    /// Releases unmanaged resources and performs other cleanup operations.
+    /// </summary>
+    public virtual void Dispose(){
         }
 
     }//end ChangeSetMember

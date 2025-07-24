@@ -17,7 +17,7 @@ namespace TC57CIM.IEC61968.Common {
 		public System.DateTime dateTime;
 		/// <summary>
 		/// Reason code or explanation for why an object went to the current status 'value'.
-		/// 
+		///
 		/// </summary>
 		public string reason;
 		/// <summary>
@@ -38,14 +38,10 @@ namespace TC57CIM.IEC61968.Common {
 
 		}
 
-		~Status(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public virtual void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public virtual void Dispose(){
 
 		}
 

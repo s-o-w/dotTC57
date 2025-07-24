@@ -179,12 +179,12 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.TurbineGovernorDynamics {
 		public TC57CIM.IEC61970.Base.Domain.Seconds tsa;
 		/// <summary>
 		/// Temperature detection lag time constant (<i>Tsb</i>) (>= 0).  Typical value = 5.
-		/// 
+		///
 		/// </summary>
 		public TC57CIM.IEC61970.Base.Domain.Seconds tsb;
 		/// <summary>
 		/// Maximum valve position limit (<i>Vmax</i>) (> GovCT1.vmin).  Typical value = 1.
-		/// 
+		///
 		/// </summary>
 		public TC57CIM.IEC61970.Base.Domain.PU vmax;
 		/// <summary>
@@ -213,14 +213,10 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.TurbineGovernorDynamics {
 
 		}
 
-		~GovCT1(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

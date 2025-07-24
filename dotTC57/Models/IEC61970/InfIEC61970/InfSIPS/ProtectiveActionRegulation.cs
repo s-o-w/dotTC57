@@ -35,17 +35,10 @@ namespace TC57CIM.IEC61970.InfIEC61970.InfSIPS {
 
 		}
 
-		/// <summary>
-		/// Finalizes an instance of the <see cref="ProtectiveActionRegulation"/> class.
-		/// </summary>
-		~ProtectiveActionRegulation(){
-
-		}
-
-		/// <summary>
-		/// Releases resources used by the <see cref="ProtectiveActionRegulation"/> class.
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Releases resources used by the <see cref="ProtectiveActionRegulation"/> class.
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

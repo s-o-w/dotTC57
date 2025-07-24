@@ -28,17 +28,10 @@ namespace TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelFrames {
 
 		}
 
-	   /// <summary>
-	   /// Finalizes an instance of the <see cref="FrameworkPart"/> class.
-	   /// </summary>
-	   ~FrameworkPart(){
-
-		}
-
-	   /// <summary>
-	   /// Releases resources used by the <see cref="FrameworkPart"/> class.
-	   /// </summary>
-	   public override void Dispose(){
+    /// <summary>
+    /// Releases resources used by the <see cref="FrameworkPart"/> class.
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

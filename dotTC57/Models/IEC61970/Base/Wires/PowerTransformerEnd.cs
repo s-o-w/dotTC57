@@ -39,7 +39,7 @@ namespace TC57CIM.IEC61970.Base.Wires {
 
 		/// <summary>
 		/// Magnetizing branch susceptance (B mag).  The value can be positive or negative.
-		/// 
+		///
 		/// </summary>
 		public TC57CIM.IEC61970.Base.Domain.Susceptance b;
 		/// <summary>
@@ -108,14 +108,10 @@ namespace TC57CIM.IEC61970.Base.Wires {
 
 		}
 
-		~PowerTransformerEnd(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

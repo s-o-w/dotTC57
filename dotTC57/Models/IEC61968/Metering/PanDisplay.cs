@@ -9,7 +9,7 @@
 namespace TC57CIM.IEC61968.Metering {
 	/// <summary>
 	/// PAN action/command used to issue the displaying of text messages on PAN devices.
-	/// 
+	///
 	/// </summary>
 	public class PanDisplay : EndDeviceAction {
 
@@ -38,14 +38,10 @@ namespace TC57CIM.IEC61968.Metering {
 
 		}
 
-		~PanDisplay(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

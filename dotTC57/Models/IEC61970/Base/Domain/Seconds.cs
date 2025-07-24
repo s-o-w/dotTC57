@@ -16,7 +16,7 @@ namespace TC57CIM.IEC61970.Base.Domain {
 		/// </summary>
 		public static readonly UnitMultiplier multiplier = UnitMultiplier.none;
 		/// <summary>
-		/// The 
+		/// The
 		/// </summary>
 		public static readonly UnitSymbol unit = UnitSymbol.s;
 		/// <summary>
@@ -31,14 +31,10 @@ namespace TC57CIM.IEC61970.Base.Domain {
 
 		}
 
-		~Seconds(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public virtual void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public virtual void Dispose(){
 
 		}
 

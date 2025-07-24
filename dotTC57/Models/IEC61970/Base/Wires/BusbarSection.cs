@@ -17,7 +17,7 @@ namespace TC57CIM.IEC61970.Base.Wires {
 
 		/// <summary>
 		/// Maximum allowable peak short-circuit current of busbar (Ipmax in IEC 60909-0).
-		/// 
+		///
 		/// Mechanical limit of the busbar in the substation itself. Used for short circuit
 		/// data exchange according to IEC 60909.
 		/// </summary>
@@ -34,14 +34,10 @@ namespace TC57CIM.IEC61970.Base.Wires {
 
 		}
 
-		~BusbarSection(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

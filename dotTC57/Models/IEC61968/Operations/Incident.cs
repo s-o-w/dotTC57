@@ -44,7 +44,7 @@ namespace TC57CIM.IEC61968.Operations {
 		public TC57CIM.IEC61968.Common.Operator Owner;
 		/// <summary>
 		/// All notifications for a customer related to the status change of this incident.
-		/// 
+		///
 		/// </summary>
 		public TC57CIM.IEC61968.Customers.CustomerNotification CustomerNotifications;
 		/// <summary>
@@ -59,14 +59,10 @@ namespace TC57CIM.IEC61968.Operations {
 
 		}
 
-		~Incident(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

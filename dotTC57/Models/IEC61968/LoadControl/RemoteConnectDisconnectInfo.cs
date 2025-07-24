@@ -36,7 +36,7 @@ namespace TC57CIM.IEC61968.LoadControl {
 		public TC57CIM.IEC61970.Base.Domain.RealEnergy energyUsageWarning;
 		/// <summary>
 		/// True if the RCD switch has to be armed before a connect action can be initiated.
-		/// 
+		///
 		/// </summary>
 		public bool isArmConnect;
 		/// <summary>
@@ -76,14 +76,10 @@ namespace TC57CIM.IEC61968.LoadControl {
 
 		}
 
-		~RemoteConnectDisconnectInfo(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public virtual void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public virtual void Dispose(){
 
 		}
 

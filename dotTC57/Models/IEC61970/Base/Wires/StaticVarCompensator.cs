@@ -10,7 +10,7 @@ namespace TC57CIM.IEC61970.Base.Wires {
 	/// A facility for providing variable and controllable shunt reactive power. The
 	/// SVC typically consists of a stepdown transformer, filter, thyristor-controlled
 	/// reactor, and thyristor-switched capacitor arms.
-	/// 
+	///
 	/// The SVC may operate in fixed MVar output mode or in voltage control mode. When
 	/// in voltage control mode, the output of the SVC will be proportional to the
 	/// deviation of voltage at the controlled bus from the voltage setpoint.  The SVC
@@ -50,7 +50,7 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// The reactive power output of the SVC is proportional to the difference between
 		/// the voltage at the regulated bus and the voltage setpoint.  When the regulated
 		/// bus voltage is equal to the voltage setpoint, the reactive power output is zero.
-		/// 
+		///
 		/// </summary>
 		public TC57CIM.IEC61970.Base.Domain.Voltage voltageSetPoint;
 
@@ -61,14 +61,10 @@ namespace TC57CIM.IEC61970.Base.Wires {
 
 		}
 
-		~StaticVarCompensator(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

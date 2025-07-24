@@ -105,17 +105,10 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.ExcitationSystemDynamics {
 
 		}
 
-		/// <summary>
-		/// Destructor for ExcIEEEST4B.
-		/// </summary>
-		~ExcIEEEST4B(){
-
-		}
-
-		/// <summary>
-		/// Dispose method for ExcIEEEST4B.
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Dispose method for ExcIEEEST4B.
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

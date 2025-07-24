@@ -28,7 +28,7 @@ namespace TC57CIM.IEC61970.Base.ICCPConfiguration {
 		/// <summary>
 		/// Specifies the version of the TASE.2 that is needed to access the Bilateral
 		/// Table information via TASE.2.
-		/// 
+		///
 		/// In order for a link to be established, both sides must have the same value.
 		/// </summary>
 		public string tase2version;
@@ -40,14 +40,10 @@ namespace TC57CIM.IEC61970.Base.ICCPConfiguration {
 
 		}
 
-		~TASE2BilateralTable(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

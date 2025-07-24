@@ -10,7 +10,7 @@ using TC57CIM.IEC61970.Base.Core;
 namespace TC57CIM.IEC61968.Metering {
 	/// <summary>
 	/// Instructs an end device (or an end device group) to perform a specified action.
-	/// 
+	///
 	/// </summary>
 	public class EndDeviceControl : IdentifiedObject {
 
@@ -94,14 +94,10 @@ namespace TC57CIM.IEC61968.Metering {
 
 		}
 
-		~EndDeviceControl(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

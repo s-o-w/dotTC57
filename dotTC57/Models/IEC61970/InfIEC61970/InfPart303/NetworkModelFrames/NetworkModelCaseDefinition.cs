@@ -25,17 +25,10 @@ namespace TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelFrames {
 
 		}
 
-	   /// <summary>
-	   /// Finalizes an instance of the <see cref="NetworkModelCaseDefinition"/> class.
-	   /// </summary>
-	   ~NetworkModelCaseDefinition(){
-
-		}
-
-	   /// <summary>
-	   /// Releases resources used by the <see cref="NetworkModelCaseDefinition"/> class.
-	   /// </summary>
-	   public virtual void Dispose(){
+    /// <summary>
+    /// Releases resources used by the <see cref="NetworkModelCaseDefinition"/> class.
+    /// </summary>
+    public virtual void Dispose(){
 
 		}
 

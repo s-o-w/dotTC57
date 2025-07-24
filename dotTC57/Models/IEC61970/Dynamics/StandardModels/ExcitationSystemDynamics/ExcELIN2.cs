@@ -124,13 +124,13 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.ExcitationSystemDynamics {
 		/// <summary>
 		/// Exciter alternator output voltages back of commutating reactance at which
 		/// saturation is defined (<i>Ve</i><i><sub>1</sub></i>) (> 0).  Typical value = 3.
-		/// 
+		///
 		/// </summary>
 		public TC57CIM.IEC61970.Base.Domain.PU ve1;
 		/// <summary>
 		/// Exciter alternator output voltages back of commutating reactance at which
 		/// saturation is defined (<i>Ve</i><i><sub>2</sub></i>) (> 0).  Typical value = 0.
-		/// 
+		///
 		/// </summary>
 		public TC57CIM.IEC61970.Base.Domain.PU ve2;
 		/// <summary>
@@ -145,14 +145,10 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.ExcitationSystemDynamics {
 
 		}
 
-		~ExcELIN2(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

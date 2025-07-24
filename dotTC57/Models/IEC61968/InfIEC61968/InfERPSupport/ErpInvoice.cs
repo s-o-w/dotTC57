@@ -16,7 +16,7 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfERPSupport {
 
 		/// <summary>
 		/// Total amount due on this invoice based on line items and applicable adjustments.
-		/// 
+		///
 		/// </summary>
 		public TC57CIM.IEC61970.Base.Domain.Money amount;
 		/// <summary>
@@ -62,14 +62,10 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfERPSupport {
 
 		}
 
-		~ErpInvoice(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

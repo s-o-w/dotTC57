@@ -28,7 +28,7 @@ namespace TC57CIM.IEC61968.Metering {
 		public string eventOrAction;
 		/// <summary>
 		/// More specific nature of the event, as a further sub-categorisation of 'domain'.
-		/// 
+		///
 		/// </summary>
 		public string subDomain;
 		/// <summary>
@@ -44,14 +44,10 @@ namespace TC57CIM.IEC61968.Metering {
 
 		}
 
-		~EndDeviceEventType(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

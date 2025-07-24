@@ -41,14 +41,10 @@ namespace TC57CIM.IEC61968.Metering {
 
 		}
 
-		~EndDeviceInfo(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

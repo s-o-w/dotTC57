@@ -17,7 +17,7 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfLocations {
 		/// <summary>
 		/// Property related information that describes the Grant's land parcel. For
 		/// example, it may be a deed book number, deed book page number, and parcel number.
-		/// 
+		///
 		/// </summary>
 		public string propertyData;
 
@@ -28,14 +28,10 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfLocations {
 
 		}
 
-		~LocationGrant(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

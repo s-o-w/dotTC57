@@ -16,7 +16,7 @@ namespace TC57CIM.IEC61970.Base.Domain {
 		/// </summary>
 		public UnitMultiplier multiplier;
 		/// <summary>
-		/// The 
+		/// The
 		/// </summary>
 		public static readonly UnitSymbol unit = UnitSymbol.J;
 		/// <summary>
@@ -31,14 +31,10 @@ namespace TC57CIM.IEC61970.Base.Domain {
 
 		}
 
-		~HeatRate(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public virtual void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public virtual void Dispose(){
 
 		}
 

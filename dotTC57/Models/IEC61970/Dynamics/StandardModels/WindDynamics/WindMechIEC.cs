@@ -36,7 +36,7 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics {
 		public TC57CIM.IEC61970.Base.Domain.PU kdrt;
 		/// <summary>
 		/// Wind turbine type 4B model with which this wind mechanical model is associated.
-		/// 
+		///
 		/// </summary>
 		public TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics.WindTurbineType4bIEC WindTurbineType4bIEC;
 		/// <summary>
@@ -56,14 +56,10 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics {
 
 		}
 
-		~WindMechIEC(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

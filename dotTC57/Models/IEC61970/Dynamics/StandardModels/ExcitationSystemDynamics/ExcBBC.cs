@@ -77,17 +77,10 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.ExcitationSystemDynamics {
 
 		}
 
-		/// <summary>
-		/// Destructor for ExcBBC.
-		/// </summary>
-		~ExcBBC(){
-
-		}
-
-		/// <summary>
-		/// Dispose method for ExcBBC.
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Dispose method for ExcBBC.
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

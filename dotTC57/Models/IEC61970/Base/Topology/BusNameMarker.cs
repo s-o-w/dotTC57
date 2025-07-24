@@ -23,7 +23,7 @@ namespace TC57CIM.IEC61970.Base.Topology {
 		/// <summary>
 		/// Priority of bus name marker for use as topology bus name.  Use 0 for do not
 		/// care.  Use 1 for highest priority.  Use 2 as priority is less than 1 and so on.
-		/// 
+		///
 		/// </summary>
 		public TC57CIM.IEC61970.Base.Domain.Integer priority;
 		/// <summary>
@@ -49,14 +49,10 @@ namespace TC57CIM.IEC61970.Base.Topology {
 
 		}
 
-		~BusNameMarker(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

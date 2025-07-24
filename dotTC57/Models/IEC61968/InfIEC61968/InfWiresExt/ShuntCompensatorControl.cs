@@ -29,7 +29,7 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfWiresExt {
 		/// For locally controlled shunt impedances which have a voltage override feature,
 		/// the high voltage override value. If the voltage is above this value, the shunt
 		/// impedance will be turned off regardless of the other local controller settings.
-		/// 
+		///
 		/// </summary>
 		public TC57CIM.IEC61970.Base.Domain.PU highVoltageOverride;
 		/// <summary>
@@ -100,14 +100,10 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfWiresExt {
 
 		}
 
-		~ShuntCompensatorControl(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

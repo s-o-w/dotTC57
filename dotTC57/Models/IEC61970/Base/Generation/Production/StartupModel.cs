@@ -9,7 +9,7 @@ using TC57CIM.IEC61970.Base.Core;
 namespace TC57CIM.IEC61970.Base.Generation.Production {
 	/// <summary>
 	/// Unit start up characteristics depending on how long the unit has been off line.
-	/// 
+	///
 	/// </summary>
 	public class StartupModel : IdentifiedObject {
 
@@ -77,14 +77,10 @@ namespace TC57CIM.IEC61970.Base.Generation.Production {
 
 		}
 
-		~StartupModel(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

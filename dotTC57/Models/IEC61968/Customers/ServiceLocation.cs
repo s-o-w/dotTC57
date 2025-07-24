@@ -39,7 +39,7 @@ namespace TC57CIM.IEC61968.Customers {
 		public TC57CIM.IEC61968.Customers.TroubleTicket TroubleTicket;
 		/// <summary>
 		/// All usage points delivering service (of the same type) to this service location.
-		/// 
+		///
 		/// </summary>
 		public TC57CIM.IEC61968.Metering.UsagePoint UsagePoints;
 		/// <summary>
@@ -54,14 +54,10 @@ namespace TC57CIM.IEC61968.Customers {
 
 		}
 
-		~ServiceLocation(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

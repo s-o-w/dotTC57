@@ -20,14 +20,10 @@ namespace TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelFrames.unused {
 
 		}
 
-		~ModelFrameType(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

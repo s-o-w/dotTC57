@@ -191,7 +191,7 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.TurbineGovernorDynamics {
 		public TC57CIM.IEC61970.Base.Domain.PU rdown;
 		/// <summary>
 		/// Maximum valve opening rate (<i>Ropen</i>).  Unit = PU / s.  Typical value = 99.
-		/// 
+		///
 		/// </summary>
 		public float ropen;
 		/// <summary>
@@ -252,7 +252,7 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.TurbineGovernorDynamics {
 		public TC57CIM.IEC61970.Base.Domain.Seconds tsb;
 		/// <summary>
 		/// Maximum valve position limit (<i>Vmax</i>) (> GovCT2.vmin).  Typical value = 1.
-		/// 
+		///
 		/// </summary>
 		public TC57CIM.IEC61970.Base.Domain.PU vmax;
 		/// <summary>
@@ -281,14 +281,10 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.TurbineGovernorDynamics {
 
 		}
 
-		~GovCT2(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

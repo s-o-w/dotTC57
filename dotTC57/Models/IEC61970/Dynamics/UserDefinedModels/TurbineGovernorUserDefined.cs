@@ -30,17 +30,10 @@ namespace TC57CIM.IEC61970.Dynamics.UserDefinedModels {
 
 		}
 
-		/// <summary>
-		/// Destructor for TurbineGovernorUserDefined.
-		/// </summary>
-		~TurbineGovernorUserDefined(){
-
-		}
-
-		/// <summary>
-		/// Dispose method for TurbineGovernorUserDefined.
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Dispose method for TurbineGovernorUserDefined.
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

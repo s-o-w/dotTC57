@@ -33,14 +33,10 @@ namespace TC57CIM.IEC61970.Base.Core {
 
 		}
 
-		~IrregularTimePoint(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public virtual void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public virtual void Dispose(){
 
 		}
 

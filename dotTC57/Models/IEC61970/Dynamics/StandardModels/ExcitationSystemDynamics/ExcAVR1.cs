@@ -73,17 +73,10 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.ExcitationSystemDynamics {
 
 		}
 
-		/// <summary>
-		/// Destructor for ExcAVR1.
-		/// </summary>
-		~ExcAVR1(){
-
-		}
-
-		/// <summary>
-		/// Dispose method for ExcAVR1.
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Dispose method for ExcAVR1.
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

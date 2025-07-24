@@ -11,7 +11,7 @@ namespace TC57CIM.IEC61970.Base.Wires {
 	/// A transformer phase shifting tap model that controls the phase angle difference
 	/// across the power transformer and potentially the active power flow through the
 	/// power transformer.  This phase tap model may also impact the voltage magnitude.
-	/// 
+	///
 	/// </summary>
 	public class PhaseTapChanger : TapChanger {
 
@@ -22,14 +22,10 @@ namespace TC57CIM.IEC61970.Base.Wires {
 
 		}
 
-		~PhaseTapChanger(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

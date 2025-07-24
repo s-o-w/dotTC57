@@ -8,7 +8,7 @@
 namespace TC57CIM.IEC61970.Base.Domain {
 	/// <summary>
 	/// Capacitive part of reactance (imaginary part of impedance), at rated frequency.
-	/// 
+	///
 	/// </summary>
 	public class Capacitance {
 
@@ -17,7 +17,7 @@ namespace TC57CIM.IEC61970.Base.Domain {
 		/// </summary>
 		public UnitMultiplier multiplier;
 		/// <summary>
-		/// The 
+		/// The
 		/// </summary>
 		public static readonly UnitSymbol unit = UnitSymbol.F;
 		/// <summary>
@@ -32,14 +32,10 @@ namespace TC57CIM.IEC61970.Base.Domain {
 
 		}
 
-		~Capacitance(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public virtual void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public virtual void Dispose(){
 
 		}
 

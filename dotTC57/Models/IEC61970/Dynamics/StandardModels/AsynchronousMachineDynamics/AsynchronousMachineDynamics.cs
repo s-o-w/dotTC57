@@ -34,17 +34,10 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.AsynchronousMachineDynamics {
 
 		}
 
-		/// <summary>
-		/// Destructor for AsynchronousMachineDynamics.
-		/// </summary>
-		~AsynchronousMachineDynamics(){
-
-		}
-
-		/// <summary>
-		/// Dispose method for AsynchronousMachineDynamics.
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Dispose method for AsynchronousMachineDynamics.
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

@@ -9,7 +9,7 @@
 namespace TC57CIM.IEC61968.AssetInfo.Assets {
 	/// <summary>
 	/// Standard published by IEEE (Institute of Electrical and Electronics Engineers).
-	/// 
+	///
 	/// </summary>
 	public class IEEEStandard {
 
@@ -26,14 +26,10 @@ namespace TC57CIM.IEC61968.AssetInfo.Assets {
 
 		}
 
-		~IEEEStandard(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public virtual void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public virtual void Dispose(){
 
 		}
 

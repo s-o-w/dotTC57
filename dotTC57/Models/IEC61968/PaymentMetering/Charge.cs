@@ -11,7 +11,7 @@ namespace TC57CIM.IEC61968.PaymentMetering {
 	/// A charge element associated with other entities such as tariff structures,
 	/// auxiliary agreements or other charge elements. The total charge amount
 	/// applicable to this instance of charge is the sum of fixed and variable portion.
-	/// 
+	///
 	/// </summary>
 	public class Charge : IdentifiedObject {
 
@@ -40,14 +40,10 @@ namespace TC57CIM.IEC61968.PaymentMetering {
 
 		}
 
-		~Charge(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

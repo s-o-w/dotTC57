@@ -29,14 +29,10 @@ namespace TC57CIM.IEC61970.Base.Faults {
 
 		}
 
-		~LineFault(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

@@ -61,17 +61,10 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels {
 
 		}
 
-		/// <summary>
-		/// Destructor for RotatingMachineDynamics.
-		/// </summary>
-		~RotatingMachineDynamics(){
-
-		}
-
-		/// <summary>
-		/// Dispose method for RotatingMachineDynamics.
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Dispose method for RotatingMachineDynamics.
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

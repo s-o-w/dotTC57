@@ -62,7 +62,7 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics {
 		/// <summary>
 		/// Filter time constant for voltage-dependent reactive power
 		/// (<i>T</i><i><sub>uqfilt</sub></i>) (>= 0). It is a project-dependent parameter.
-		/// 
+		///
 		/// </summary>
 		public TC57CIM.IEC61970.Base.Domain.Seconds tuqfilt;
 		/// <summary>
@@ -125,14 +125,10 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics {
 
 		}
 
-		~WindPlantReactiveControlIEC(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

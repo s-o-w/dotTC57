@@ -36,7 +36,7 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// calculated resistance = r(nominal) * (1 + r(from this class)/100).   The
 		/// r(nominal) is defined as the static resistance on the associated power
 		/// transformer end or ends.  This model assumes the star impedance (pi model) form.
-		/// 
+		///
 		/// </summary>
 		public TC57CIM.IEC61970.Base.Domain.PerCent r;
 		/// <summary>
@@ -57,7 +57,7 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// calculated reactance = x(nominal) * (1 + x(from this class)/100).   The
 		/// x(nominal) is defined as the static series reactance on the associated power
 		/// transformer end or ends.  This model assumes the star impedance (pi model) form.
-		/// 
+		///
 		/// </summary>
 		public TC57CIM.IEC61970.Base.Domain.PerCent x;
 
@@ -68,14 +68,10 @@ namespace TC57CIM.IEC61970.Base.Wires {
 
 		}
 
-		~TapChangerTablePoint(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public virtual void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public virtual void Dispose(){
 
 		}
 

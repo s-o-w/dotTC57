@@ -154,7 +154,7 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// Range of generator voltage regulation (PG in IEC 60909-0) used for calculation
 		/// of the impedance correction factor KG defined in IEC 60909-0.
 		/// This attribute is used to describe the operating voltage of the generating unit.
-		/// 
+		///
 		/// </summary>
 		public TC57CIM.IEC61970.Base.Domain.PerCent voltageRegulationRange;
 		/// <summary>
@@ -173,14 +173,10 @@ namespace TC57CIM.IEC61970.Base.Wires {
 
 		}
 
-		~SynchronousMachine(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

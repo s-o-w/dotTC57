@@ -24,12 +24,12 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.ExcitationSystemDynamics {
 		public TC57CIM.IEC61970.Base.Domain.PU efdmin;
 		/// <summary>
 		/// Maximum field voltage output (<i>Emax</i>) (> ExcSK.emin).  Typical value = 20.
-		/// 
+		///
 		/// </summary>
 		public TC57CIM.IEC61970.Base.Domain.PU emax;
 		/// <summary>
 		/// Minimum field voltage output (<i>Emin</i>) (< ExcSK.emax).  Typical value = -20.
-		/// 
+		///
 		/// </summary>
 		public TC57CIM.IEC61970.Base.Domain.PU emin;
 		/// <summary>
@@ -140,7 +140,7 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.ExcitationSystemDynamics {
 		public TC57CIM.IEC61970.Base.Domain.PU urmax;
 		/// <summary>
 		/// Minimum controller output (<i>URmin</i>) (< ExcSK.urmax).  Typical value = -10.
-		/// 
+		///
 		/// </summary>
 		public TC57CIM.IEC61970.Base.Domain.PU urmin;
 		/// <summary>
@@ -165,14 +165,10 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.ExcitationSystemDynamics {
 
 		}
 
-		~ExcSK(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

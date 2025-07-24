@@ -17,7 +17,7 @@ namespace TC57CIM.IEC61970.Base.Domain {
 		/// </summary>
 		public static readonly UnitMultiplier multiplier = UnitMultiplier.none;
 		/// <summary>
-		/// The 
+		/// The
 		/// </summary>
 		public static readonly UnitSymbol unit = UnitSymbol.m;
 		/// <summary>
@@ -32,14 +32,10 @@ namespace TC57CIM.IEC61970.Base.Domain {
 
 		}
 
-		~Displacement(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public virtual void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public virtual void Dispose(){
 
 		}
 

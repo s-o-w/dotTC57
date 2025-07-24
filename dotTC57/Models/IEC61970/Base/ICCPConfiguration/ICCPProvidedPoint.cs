@@ -15,7 +15,7 @@ namespace TC57CIM.IEC61970.Base.ICCPConfiguration {
 
 		/// <summary>
 		/// Provides information regarding the access privileges allowed to the ICCP Point.
-		/// 
+		///
 		/// </summary>
 		public ICCPAccessPrivilegeKind accessPriviledge;
 		/// <summary>
@@ -25,7 +25,7 @@ namespace TC57CIM.IEC61970.Base.ICCPConfiguration {
 		public ICCPQualityKind pointQuality;
 		/// <summary>
 		/// Indicates the ICCP Point type that is to be conveyed.
-		/// 
+		///
 		/// A CIM AccumlatorValue  shall be mapped to an ICCP real.
 		/// A CIM AnalogValue shall be mapped to an ICCP real.
 		/// A CIM DiscreteValue shall be mapped to either an ICCP real, state,
@@ -46,14 +46,10 @@ namespace TC57CIM.IEC61970.Base.ICCPConfiguration {
 
 		}
 
-		~ICCPProvidedPoint(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

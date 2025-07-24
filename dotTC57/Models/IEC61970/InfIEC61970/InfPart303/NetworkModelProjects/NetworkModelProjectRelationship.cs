@@ -31,17 +31,10 @@ namespace TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelProjects {
 
 		}
 
-	   /// <summary>
-	   /// Finalizes an instance of the <see cref="NetworkModelProjectRelationship"/> class.
-	   /// </summary>
-	   ~NetworkModelProjectRelationship(){
-
-		}
-
-	   /// <summary>
-	   /// Releases resources used by the <see cref="NetworkModelProjectRelationship"/> class.
-	   /// </summary>
-	   public override void Dispose(){
+    /// <summary>
+    /// Releases resources used by the <see cref="NetworkModelProjectRelationship"/> class.
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

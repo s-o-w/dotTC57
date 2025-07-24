@@ -9,7 +9,7 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfERPSupport {
 	/// <summary>
 	/// Information that generally describes the Bill of Material Structure and its
 	/// contents for a utility.
-	/// 
+	///
 	/// This is used by ERP systems to transfer Bill of Material information between
 	/// two business applications.
 	/// </summary>
@@ -22,14 +22,10 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfERPSupport {
 
 		}
 
-		~ErpBOM(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

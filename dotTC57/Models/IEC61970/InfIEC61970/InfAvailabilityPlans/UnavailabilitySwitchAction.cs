@@ -35,17 +35,10 @@ namespace TC57CIM.IEC61970.InfIEC61970.InfAvailabilityPlans {
 
 		}
 
-		/// <summary>
-		/// Finalizes an instance of the <see cref="UnavailabilitySwitchAction"/> class.
-		/// </summary>
-		~UnavailabilitySwitchAction(){
-
-		}
-
-		/// <summary>
-		/// Releases resources used by the <see cref="UnavailabilitySwitchAction"/> class.
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Releases resources used by the <see cref="UnavailabilitySwitchAction"/> class.
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

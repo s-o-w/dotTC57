@@ -8,7 +8,7 @@
 namespace TC57CIM.IEC61970.Base.Core {
 	/// <summary>
 	/// The parts of a power system that are physical devices, electronic or mechanical.
-	/// 
+	///
 	/// </summary>
 	public class Equipment : PowerSystemResource {
 
@@ -62,14 +62,10 @@ namespace TC57CIM.IEC61970.Base.Core {
 
 		}
 
-		~Equipment(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

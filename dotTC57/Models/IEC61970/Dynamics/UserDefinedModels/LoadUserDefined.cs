@@ -29,17 +29,10 @@ namespace TC57CIM.IEC61970.Dynamics.UserDefinedModels {
 
 		}
 
-		/// <summary>
-		/// Destructor for LoadUserDefined.
-		/// </summary>
-		~LoadUserDefined(){
-
-		}
-
-		/// <summary>
-		/// Dispose method for LoadUserDefined.
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Dispose method for LoadUserDefined.
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

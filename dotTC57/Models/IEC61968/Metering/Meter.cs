@@ -39,14 +39,10 @@ namespace TC57CIM.IEC61968.Metering {
 
 		}
 
-		~Meter(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

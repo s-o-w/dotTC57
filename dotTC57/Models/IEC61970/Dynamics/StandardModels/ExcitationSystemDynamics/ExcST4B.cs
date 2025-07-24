@@ -76,12 +76,12 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.ExcitationSystemDynamics {
 		public TC57CIM.IEC61970.Base.Domain.PU vbmax;
 		/// <summary>
 		/// Maximum inner loop feedback voltage (<i>Vgmax</i>) (>= 0).  Typical value = 5,8.
-		/// 
+		///
 		/// </summary>
 		public TC57CIM.IEC61970.Base.Domain.PU vgmax;
 		/// <summary>
 		/// Maximum inner loop output (<i>Vmmax</i>) (> ExcST4B.vmmin).  Typical value = 99.
-		/// 
+		///
 		/// </summary>
 		public TC57CIM.IEC61970.Base.Domain.PU vmmax;
 		/// <summary>
@@ -110,14 +110,10 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.ExcitationSystemDynamics {
 
 		}
 
-		~ExcST4B(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

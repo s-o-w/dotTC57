@@ -33,14 +33,10 @@ namespace TC57CIM.IEC61970.Base.SCADA {
 
 		}
 
-		~CommunicationLink(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

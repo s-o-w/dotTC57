@@ -40,17 +40,10 @@ namespace TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelProjects {
 
 		}
 
-	   /// <summary>
-	   /// Finalizes an instance of the <see cref="PowerSystemProjectLifecycleToBeDeleted"/> class.
-	   /// </summary>
-	   ~PowerSystemProjectLifecycleToBeDeleted(){
-
-		}
-
-	   /// <summary>
-	   /// Releases resources used by the <see cref="PowerSystemProjectLifecycleToBeDeleted"/> class.
-	   /// </summary>
-	   public virtual void Dispose(){
+    /// <summary>
+    /// Releases resources used by the <see cref="PowerSystemProjectLifecycleToBeDeleted"/> class.
+    /// </summary>
+    public virtual void Dispose(){
 
 		}
 

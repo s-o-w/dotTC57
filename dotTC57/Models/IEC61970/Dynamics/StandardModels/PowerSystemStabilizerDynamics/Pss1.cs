@@ -23,7 +23,7 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.PowerSystemStabilizerDynamics
 		public float komega;
 		/// <summary>
 		/// Electric power input gain (<i>K</i><i><sub>PE</sub></i>).  Typical value = 0,3.
-		/// 
+		///
 		/// </summary>
 		public float kpe;
 		/// <summary>
@@ -54,7 +54,7 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.PowerSystemStabilizerDynamics
 		public TC57CIM.IEC61970.Base.Domain.Seconds t7;
 		/// <summary>
 		/// Lead/lag time constant (<i>T</i><i><sub>8</sub></i>) (>= 0).  Typical value = 0.
-		/// 
+		///
 		/// </summary>
 		public TC57CIM.IEC61970.Base.Domain.Seconds t8;
 		/// <summary>
@@ -94,14 +94,10 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.PowerSystemStabilizerDynamics
 
 		}
 
-		~Pss1(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

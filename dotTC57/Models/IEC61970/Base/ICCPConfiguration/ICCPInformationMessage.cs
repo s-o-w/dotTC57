@@ -12,7 +12,7 @@ namespace TC57CIM.IEC61970.Base.ICCPConfiguration {
 	/// This class represents the TASE.2 Information Message Object.  The
 	/// IdentifiedObject.name attribute must be non-null.  The value of the attribute
 	/// shall be used as the TASE.2 Information Reference, as specified by 60870-6-503.
-	/// 
+	///
 	/// </summary>
 	public class ICCPInformationMessage : IdentifiedObject {
 
@@ -39,14 +39,10 @@ namespace TC57CIM.IEC61970.Base.ICCPConfiguration {
 
 		}
 
-		~ICCPInformationMessage(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

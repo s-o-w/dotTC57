@@ -44,14 +44,10 @@ namespace TC57CIM.IEC61968.PaymentMetering {
 
 		}
 
-		~Due(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public virtual void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public virtual void Dispose(){
 
 		}
 

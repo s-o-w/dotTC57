@@ -23,7 +23,7 @@ namespace TC57CIM.IEC61968.AssetInfo.Assets {
 		/// tested again before being placed back in service, possibly in a new location.
 		/// Since asset may go through multiple tests during its lifecycle, the date of
 		/// each acceptance test may be recorded in 'Asset.ActivityRecord.status.dateTime'.
-		/// 
+		///
 		/// </summary>
 		public bool success;
 		/// <summary>
@@ -38,14 +38,10 @@ namespace TC57CIM.IEC61968.AssetInfo.Assets {
 
 		}
 
-		~AcceptanceTest(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public virtual void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public virtual void Dispose(){
 
 		}
 

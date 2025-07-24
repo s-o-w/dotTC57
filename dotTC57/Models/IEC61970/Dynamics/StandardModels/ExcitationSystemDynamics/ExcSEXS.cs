@@ -66,17 +66,10 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.ExcitationSystemDynamics {
 
 		}
 
-		/// <summary>
-		/// Destructor for ExcSEXS.
-		/// </summary>
-		~ExcSEXS(){
-
-		}
-
-		/// <summary>
-		/// Dispose method for ExcSEXS.
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Dispose method for ExcSEXS.
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

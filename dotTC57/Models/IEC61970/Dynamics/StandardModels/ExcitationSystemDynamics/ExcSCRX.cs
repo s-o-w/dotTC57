@@ -22,12 +22,12 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.ExcitationSystemDynamics {
 		public bool cswitch;
 		/// <summary>
 		/// Maximum field voltage output (<i>Emax</i>) (> ExcSCRX.emin).  Typical value = 5.
-		/// 
+		///
 		/// </summary>
 		public TC57CIM.IEC61970.Base.Domain.PU emax;
 		/// <summary>
 		/// Minimum field voltage output (<i>Emin</i>) (< ExcSCRX.emax).  Typical value = 0.
-		/// 
+		///
 		/// </summary>
 		public TC57CIM.IEC61970.Base.Domain.PU emin;
 		/// <summary>
@@ -61,14 +61,10 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.ExcitationSystemDynamics {
 
 		}
 
-		~ExcSCRX(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

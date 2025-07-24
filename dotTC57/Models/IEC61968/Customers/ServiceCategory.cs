@@ -32,14 +32,10 @@ namespace TC57CIM.IEC61968.Customers {
 
 		}
 
-		~ServiceCategory(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

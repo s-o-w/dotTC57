@@ -19,17 +19,10 @@ namespace TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelFrames {
 
 		}
 
-	   /// <summary>
-	   /// Finalizes an instance of the <see cref="Operation"/> class.
-	   /// </summary>
-	   ~Operation(){
-
-		}
-
-	   /// <summary>
-	   /// Releases resources used by the <see cref="Operation"/> class.
-	   /// </summary>
-	   public virtual void Dispose(){
+    /// <summary>
+    /// Releases resources used by the <see cref="Operation"/> class.
+    /// </summary>
+    public virtual void Dispose(){
 
 		}
 

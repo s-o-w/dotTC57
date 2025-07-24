@@ -11,7 +11,7 @@ namespace TC57CIM.IEC61968.AssetInfo {
 	/// Wire spacing data that associates multiple wire positions with the line segment,
 	/// and allows to calculate line segment impedances. Number of phases can be
 	/// derived from the number of associated wire positions whose phase is not neutral.
-	/// 
+	///
 	/// </summary>
 	public class WireSpacingInfo : Assets.AssetInfo {
 
@@ -52,14 +52,10 @@ namespace TC57CIM.IEC61968.AssetInfo {
 
 		}
 
-		~WireSpacingInfo(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

@@ -17,7 +17,7 @@ namespace TC57CIM.IEC61970.Base.Domain {
 		/// </summary>
 		public UnitMultiplier multiplier;
 		/// <summary>
-		/// The 
+		/// The
 		/// </summary>
 		public static readonly UnitSymbol unit = UnitSymbol.W;
 		/// <summary>
@@ -32,14 +32,10 @@ namespace TC57CIM.IEC61970.Base.Domain {
 
 		}
 
-		~ActivePower(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public virtual void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public virtual void Dispose(){
 
 		}
 

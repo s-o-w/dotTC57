@@ -21,16 +21,10 @@ namespace TC57CIM.IEC61970.InfIEC61970.Part303.GenericDataSet {
         public Profile(){
         }
 
-        /// <summary>
-        /// Finalizes an instance of the <see cref="Profile"/> class.
-        /// </summary>
-        ~Profile(){
-        }
-
-        /// <summary>
-        /// Releases unmanaged resources and performs other cleanup operations.
-        /// </summary>
-        public override void Dispose(){
+    /// <summary>
+    /// Releases unmanaged resources and performs other cleanup operations.
+    /// </summary>
+    public override void Dispose(){
         }
 
     }//end Profile

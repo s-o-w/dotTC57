@@ -19,7 +19,7 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.PowerSystemStabilizerDynamics
 		public TC57CIM.IEC61970.Base.Domain.Seconds dtc;
 		/// <summary>
 		/// Time step frequency calculation (<i>deltatf</i>) (>= 0).  Typical value = 0,025.
-		/// 
+		///
 		/// </summary>
 		public TC57CIM.IEC61970.Base.Domain.Seconds dtf;
 		/// <summary>
@@ -67,14 +67,10 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.PowerSystemStabilizerDynamics
 
 		}
 
-		~PssPTIST1(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

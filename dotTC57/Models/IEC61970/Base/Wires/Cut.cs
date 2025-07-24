@@ -25,7 +25,7 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// <summary>
 		/// The length to the place where the cut is located starting from side one of the
 		/// cut line segment, i.e. the line segment Terminal with sequenceNumber equal to 1.
-		/// 
+		///
 		/// </summary>
 		public TC57CIM.IEC61970.Base.Domain.Length lengthFromTerminal1;
 		/// <summary>
@@ -40,14 +40,10 @@ namespace TC57CIM.IEC61970.Base.Wires {
 
 		}
 
-		~Cut(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

@@ -29,17 +29,10 @@ namespace TC57CIM.IEC61970.InfIEC61970.Feeder {
 
 		}
 
-		/// <summary>
-		/// Finalizes an instance of the <see cref="Circuit"/> class.
-		/// </summary>
-		~Circuit(){
-
-		}
-
-		/// <summary>
-		/// Releases resources used by the <see cref="Circuit"/> class.
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Releases resources used by the <see cref="Circuit"/> class.
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

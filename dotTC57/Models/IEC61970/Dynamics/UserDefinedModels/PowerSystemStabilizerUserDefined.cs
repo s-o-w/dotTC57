@@ -30,17 +30,10 @@ namespace TC57CIM.IEC61970.Dynamics.UserDefinedModels {
 
 		}
 
-		/// <summary>
-		/// Destructor for PowerSystemStabilizerUserDefined.
-		/// </summary>
-		~PowerSystemStabilizerUserDefined(){
-
-		}
-
-		/// <summary>
-		/// Dispose method for PowerSystemStabilizerUserDefined.
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Dispose method for PowerSystemStabilizerUserDefined.
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

@@ -29,14 +29,10 @@ namespace TC57CIM.IEC61970.Base.Wires {
 
 		}
 
-		~RegulationSchedule(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

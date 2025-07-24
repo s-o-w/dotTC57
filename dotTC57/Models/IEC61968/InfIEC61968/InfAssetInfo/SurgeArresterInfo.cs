@@ -66,14 +66,10 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfAssetInfo {
 
 		}
 
-		~SurgeArresterInfo(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

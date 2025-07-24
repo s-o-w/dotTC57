@@ -20,14 +20,10 @@ namespace TC57CIM.IEC61970.Base.Generation.GenerationTrainingSimulation {
 
 		}
 
-		~CTTempActivePowerCurve(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

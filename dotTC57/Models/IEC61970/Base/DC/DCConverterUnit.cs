@@ -18,7 +18,7 @@ namespace TC57CIM.IEC61970.Base.DC {
 
 		/// <summary>
 		/// The operating mode of an HVDC bipole (bipolar, monopolar metallic return, etc).
-		/// 
+		///
 		/// </summary>
 		public DCConverterOperatingModeKind operationMode;
 
@@ -29,14 +29,10 @@ namespace TC57CIM.IEC61970.Base.DC {
 
 		}
 
-		~DCConverterUnit(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

@@ -28,7 +28,7 @@ namespace TC57CIM.IEC61970.Base.ICCPConfiguration {
 		/// If True the value indicates that the entity represented by the bilateral table
 		/// is capable of issuing requests and responding to request (e.g. bidirectional
 		/// support of ICCP requests).
-		/// 
+		///
 		/// If False, this indicates that a calling entity (e.g. calling = True) will not
 		/// be able to respond to ICCP requests.  If False, and calling=False, this
 		/// indicates that the entity will only respond to ICCP requests and not issue ICCP
@@ -74,7 +74,7 @@ namespace TC57CIM.IEC61970.Base.ICCPConfiguration {
 		public bool supportForDepriciatedBlock8;
 		/// <summary>
 		/// If true, then transport level security as specified by IEC 62351-6 is required.
-		/// 
+		///
 		/// </summary>
 		public bool transportSecurityRequirement;
 
@@ -85,14 +85,10 @@ namespace TC57CIM.IEC61970.Base.ICCPConfiguration {
 
 		}
 
-		~ICCPVirtualControlCentre(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

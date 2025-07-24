@@ -149,7 +149,7 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.UnderexcitationLimiterDynamic
 		public TC57CIM.IEC61970.Base.Domain.Seconds tu1;
 		/// <summary>
 		/// UEL lag time constant (<i>T</i><i><sub>U2</sub></i>) (>= 0).  Typical value = 0.
-		/// 
+		///
 		/// </summary>
 		public TC57CIM.IEC61970.Base.Domain.Seconds tu2;
 		/// <summary>
@@ -159,7 +159,7 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.UnderexcitationLimiterDynamic
 		public TC57CIM.IEC61970.Base.Domain.Seconds tu3;
 		/// <summary>
 		/// UEL lag time constant (<i>T</i><i><sub>U4</sub></i>) (>= 0).  Typical value = 0.
-		/// 
+		///
 		/// </summary>
 		public TC57CIM.IEC61970.Base.Domain.Seconds tu4;
 		/// <summary>
@@ -210,14 +210,10 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.UnderexcitationLimiterDynamic
 
 		}
 
-		~UnderexcLimIEEE2(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 

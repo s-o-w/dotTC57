@@ -25,14 +25,10 @@ namespace TC57CIM.IEC61968.Operations {
 
 		}
 
-		~PlannedOutage(){
-
-		}
-
-		/// <summary>
-		/// Disposes this instance
-		/// </summary>
-		public override void Dispose(){
+    /// <summary>
+    /// Disposes this instance
+    /// </summary>
+    public override void Dispose(){
 
 		}
 
