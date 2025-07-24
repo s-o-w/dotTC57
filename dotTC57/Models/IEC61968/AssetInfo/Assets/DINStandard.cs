@@ -15,7 +15,7 @@ namespace TC57CIM.IEC61968.AssetInfo.Assets {
 		/// <summary>
 		/// Edition of DIN standard.
 		/// </summary>
-		//   public DINStandardEditionKind standardEdition;
+		public DINStandardEditionKind standardEdition;
 		/// <summary>
 		/// DIN standard number.
 		/// </summary>

@@ -15,7 +15,7 @@ namespace TC57CIM.IEC61968.AssetInfo.Assets {
 		/// <summary>
 		/// Edition of TAPPI standard.
 		/// </summary>
-		//public TAPPIStandardEditionKind standardEdition;
+		public TAPPIStandardEditionKind standardEdition;
 		/// <summary>
 		/// TAPPI standard number.
 		/// </summary>

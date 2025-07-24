@@ -15,14 +15,18 @@ namespace TC57CIM.IEC61968.AssetInfo.Assets {
 		/// <summary>
 		/// Edition of ISO standard.
 		/// </summary>
-		//public ISOStandardEditionKind standardEdition;
+		public ISOStandardEditionKind standardEdition;
 		/// <summary>
 		/// ISO standard number.
 		/// </summary>
-		//public ISOStandardKind standardNumber;
+		public ISOStandardKind standardNumber;
 
+		/// <summary>
+		/// Constructor for ISOStandard.
+		/// </summary>
 		public ISOStandard(){
-
+			standardEdition = ISOStandardEditionKind.other;
+			standardNumber = ISOStandardKind.other;
 		}
 
     /// <summary>

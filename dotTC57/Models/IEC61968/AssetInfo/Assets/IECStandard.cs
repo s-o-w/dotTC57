@@ -15,12 +15,15 @@ namespace TC57CIM.IEC61968.AssetInfo.Assets {
 		/// <summary>
 		/// Edition of IEC standard.
 		/// </summary>
-		//public IECStandardEditionKind standardEdition;
+		public IECStandardEditionKind standardEdition;
 		/// <summary>
 		/// IEC standard number.
 		/// </summary>
-		//public IECStandardKind standardNumber;
+		public IECStandardKind standardNumber;
 
+		/// <summary>
+		/// Constructor for IECStandard.
+		/// </summary>
 		public IECStandard(){
 
 		}

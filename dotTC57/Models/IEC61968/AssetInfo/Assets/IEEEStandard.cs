@@ -16,12 +16,15 @@ namespace TC57CIM.IEC61968.AssetInfo.Assets {
 		/// <summary>
 		/// Edition of IEEE standard.
 		/// </summary>
-		//public IEEEStandardEditionKind standardEdition;
+		public IEEEStandardEditionKind standardEdition;
 		/// <summary>
 		/// IEEE standard number.
 		/// </summary>
-		//public IEEEStandardKind standardNumber;
+		public IEEEStandardKind standardNumber;
 
+		/// <summary>
+		/// Constructor for IEEEStandard.
+		/// </summary>
 		public IEEEStandard(){
 
 		}

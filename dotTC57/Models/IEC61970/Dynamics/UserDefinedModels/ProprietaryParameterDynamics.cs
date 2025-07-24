@@ -30,72 +30,72 @@ namespace TC57CIM.IEC61970.Dynamics.UserDefinedModels {
 		/// Integer parameter value.  If this attribute is populated, booleanParameterValue
 		/// and floatParameterValue will not be.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer integerParameterValue;
+		public TC57CIM.IEC61970.Base.Domain.Integer? integerParameterValue;
 		/// <summary>
 		/// Sequence number of the parameter among the set of parameters associated with
 		/// the related proprietary user-defined model.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer parameterNumber;
+		public TC57CIM.IEC61970.Base.Domain.Integer? parameterNumber;
 		/// <summary>
 		/// Proprietary user-defined model with which this parameter is associated.
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.UserDefinedModels.LoadUserDefined LoadUserDefined;
+		public TC57CIM.IEC61970.Dynamics.UserDefinedModels.LoadUserDefined? LoadUserDefined;
 		/// <summary>
 		/// Proprietary user-defined model with which this parameter is associated.
 		/// </summary>
-		//public TC57CIM.IEC61970.Dynamics.UserDefinedModels.VoltageCompensatorUserDefined VoltageCompensatorUserDefined;
+		public TC57CIM.IEC61970.Dynamics.UserDefinedModels.VoltageCompensatorUserDefined? VoltageCompensatorUserDefined;
 		/// <summary>
 		/// Proprietary user-defined model with which this parameter is associated.
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.UserDefinedModels.PFVArControllerType2UserDefined PFVArControllerType2UserDefined;
+		public TC57CIM.IEC61970.Dynamics.UserDefinedModels.PFVArControllerType2UserDefined? PFVArControllerType2UserDefined;
 		/// <summary>
 		/// Proprietary user-defined model with which this parameter is associated.
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.UserDefinedModels.VoltageAdjusterUserDefined VoltageAdjusterUserDefined;
+		public TC57CIM.IEC61970.Dynamics.UserDefinedModels.VoltageAdjusterUserDefined? VoltageAdjusterUserDefined;
 		/// <summary>
 		/// Proprietary user-defined model with which this parameter is associated.
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.UserDefinedModels.PFVArControllerType1UserDefined PFVArControllerType1UserDefined;
+		public TC57CIM.IEC61970.Dynamics.UserDefinedModels.PFVArControllerType1UserDefined? PFVArControllerType1UserDefined;
 		/// <summary>
 		/// Proprietary user-defined model with which this parameter is associated.
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.UserDefinedModels.DiscontinuousExcitationControlUserDefined DiscontinuousExcitationControlUserDefined;
+		public TC57CIM.IEC61970.Dynamics.UserDefinedModels.DiscontinuousExcitationControlUserDefined? DiscontinuousExcitationControlUserDefined;
 		/// <summary>
 		/// Proprietary user-defined model with which this parameter is associated.
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.UserDefinedModels.PowerSystemStabilizerUserDefined PowerSystemStabilizerUserDefined;
+		public TC57CIM.IEC61970.Dynamics.UserDefinedModels.PowerSystemStabilizerUserDefined? PowerSystemStabilizerUserDefined;
 		/// <summary>
 		/// Proprietary user-defined model with which this parameter is associated.
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.UserDefinedModels.UnderexcitationLimiterUserDefined UnderexcitationLimiterUserDefined;
+		public TC57CIM.IEC61970.Dynamics.UserDefinedModels.UnderexcitationLimiterUserDefined? UnderexcitationLimiterUserDefined;
 		/// <summary>
 		/// Proprietary user-defined model with which this parameter is associated.
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.UserDefinedModels.OverexcitationLimiterUserDefined OverexcitationLimiterUserDefined;
+		public TC57CIM.IEC61970.Dynamics.UserDefinedModels.OverexcitationLimiterUserDefined? OverexcitationLimiterUserDefined;
 		/// <summary>
 		/// Proprietary user-defined model with which this parameter is associated.
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.UserDefinedModels.ExcitationSystemUserDefined ExcitationSystemUserDefined;
+		public TC57CIM.IEC61970.Dynamics.UserDefinedModels.ExcitationSystemUserDefined? ExcitationSystemUserDefined;
 		/// <summary>
 		/// Proprietary user-defined model with which this parameter is associated.
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.UserDefinedModels.MechanicalLoadUserDefined MechanicalLoadUserDefined;
+		public TC57CIM.IEC61970.Dynamics.UserDefinedModels.MechanicalLoadUserDefined? MechanicalLoadUserDefined;
 		/// <summary>
 		/// Proprietary user-defined model with which this parameter is associated.
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.UserDefinedModels.TurbineLoadControllerUserDefined TurbineLoadControllerUserDefined;
+		public TC57CIM.IEC61970.Dynamics.UserDefinedModels.TurbineLoadControllerUserDefined? TurbineLoadControllerUserDefined;
 		/// <summary>
 		/// Proprietary user-defined model with which this parameter is associated.
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.UserDefinedModels.TurbineGovernorUserDefined TurbineGovernorUserDefined;
+		public TC57CIM.IEC61970.Dynamics.UserDefinedModels.TurbineGovernorUserDefined? TurbineGovernorUserDefined;
 		/// <summary>
 		/// Proprietary user-defined model with which this parameter is associated.
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.UserDefinedModels.AsynchronousMachineUserDefined AsynchronousMachineUserDefined;
+		public TC57CIM.IEC61970.Dynamics.UserDefinedModels.AsynchronousMachineUserDefined? AsynchronousMachineUserDefined;
 		/// <summary>
 		/// Proprietary user-defined model with which this parameter is associated.
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.UserDefinedModels.SynchronousMachineUserDefined SynchronousMachineUserDefined;
+		public TC57CIM.IEC61970.Dynamics.UserDefinedModels.SynchronousMachineUserDefined? SynchronousMachineUserDefined;
 
 		/// <summary>
 		/// Constructor for ProprietaryParameterDynamics.

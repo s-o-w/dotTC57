@@ -15,12 +15,15 @@ namespace TC57CIM.IEC61968.AssetInfo.Assets {
 		/// <summary>
 		/// Edition of ASTM standard.
 		/// </summary>
-		//public ASTMStandardEditionKind standardEdition;
+		public ASTMStandardEditionKind standardEdition;
 		/// <summary>
 		/// ASTM standard number.
 		/// </summary>
-		//public ASTMStandardKind standardNumber;
+		public ASTMStandardKind standardNumber;
 
+		/// <summary>
+		/// Constructor for ASTMStandard.
+		/// </summary>
 		public ASTMStandard(){
 
 		}
