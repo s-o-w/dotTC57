@@ -1,3 +1,8 @@
 bin/
 obj/
 
+cs8618_filtered.txt
+cs8618_warnings.txt
+FixNonNullableFields.ps1
+RunWarningFixer.bat
+RunWarningFixer.sh
