@@ -15,44 +15,44 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.ExcitationSystemDynamics {
 		/// <summary>
 		/// Exciter output maximum limit (<i>Efdmax</i>) (> ExcCZ.efdmin).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU efdmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? efdmax;
 		/// <summary>
 		/// Exciter output minimum limit (<i>Efdmin</i>) (less than ExcCZ.efdmax).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU efdmin;
+		public TC57CIM.IEC61970.Base.Domain.PU? efdmin;
 		/// <summary>
 		/// Regulator gain (<i>Ka</i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU ka;
+		public TC57CIM.IEC61970.Base.Domain.PU? ka;
 		/// <summary>
 		/// Exciter constant related to self-excited field (<i>Ke</i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU ke;
+		public TC57CIM.IEC61970.Base.Domain.PU? ke;
 		/// <summary>
 		/// Regulator proportional gain (<i>Kp</i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kp;
+		public TC57CIM.IEC61970.Base.Domain.PU? kp;
 		/// <summary>
 		/// Regulator time constant (<i>Ta</i>) (>= 0).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds ta;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? ta;
 		/// <summary>
 		/// Regulator integral time constant (<i>Tc</i>) (>= 0).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tc;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tc;
 		/// <summary>
 		/// Exciter time constant, integration rate associated with exciter control
 		/// (<i>Te</i>) (>= 0).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds te;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? te;
 		/// <summary>
 		/// Voltage regulator maximum limit (<i>Vrmax</i>) (> ExcCZ.vrmin).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vrmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? vrmax;
 		/// <summary>
 		/// Voltage regulator minimum limit (<i>Vrmin</i>) (less than ExcCZ.vrmax).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vrmin;
+		public TC57CIM.IEC61970.Base.Domain.PU? vrmin;
 
 		/// <summary>
 		/// Constructor for ExcCZ.

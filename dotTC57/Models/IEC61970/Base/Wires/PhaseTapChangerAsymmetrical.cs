@@ -24,7 +24,7 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// symmetrical transformer. The attribute can only be multiples of 30 degrees.
 		/// The allowed range is -150 degrees to 150 degrees excluding 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.AngleDegrees windingConnectionAngle;
+		public TC57CIM.IEC61970.Base.Domain.AngleDegrees? windingConnectionAngle;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="PhaseTapChangerAsymmetrical"/> class

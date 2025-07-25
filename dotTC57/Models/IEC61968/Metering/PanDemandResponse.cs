@@ -16,7 +16,7 @@ namespace TC57CIM.IEC61968.Metering {
 		/// <summary>
 		/// Appliance being controlled.
 		/// </summary>
-		public ControlledAppliance appliance;
+		public ControlledAppliance? appliance;
 		/// <summary>
 		/// Used to define a maximum energy usage limit as a percentage of the client
 		/// implementations specific average energy usage. The load adjustment percentage
@@ -30,15 +30,15 @@ namespace TC57CIM.IEC61968.Metering {
 		/// equals a total load shed. A +100% value will limit the energy usage to the
 		/// client implementations specific average energy usage.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PerCent avgLoadAdjustment;
+		public TC57CIM.IEC61970.Base.Domain.PerCent? avgLoadAdjustment;
 		/// <summary>
 		/// Encoding of cancel control.
 		/// </summary>
-		public string cancelControlMode;
+		public string? cancelControlMode;
 		/// <summary>
 		/// Timestamp when a canceling of the event is scheduled to start.
 		/// </summary>
-		public System.DateTime cancelDateTime;
+		public System.DateTime? cancelDateTime;
 		/// <summary>
 		/// If true, a canceling of the event should start immediately.
 		/// </summary>
@@ -52,29 +52,29 @@ namespace TC57CIM.IEC61968.Metering {
 		/// Sequential demand response events are not cumulative. The offset shall be
 		/// applied to the normal setpoint.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Temperature coolingOffset;
+		public TC57CIM.IEC61970.Base.Domain.Temperature? coolingOffset;
 		/// <summary>
 		/// Requested cooling set point. Temperature set point is typically defined and
 		/// calculated based on local temperature.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Temperature coolingSetpoint;
+		public TC57CIM.IEC61970.Base.Domain.Temperature? coolingSetpoint;
 		/// <summary>
 		/// Level of criticality for the action of this control. The action taken by load
 		/// control devices for an event can be solely based on this value, or in
 		/// combination with other load control event fields supported by the device.
 		/// </summary>
-		public string criticalityLevel;
+		public string? criticalityLevel;
 		/// <summary>
 		/// Maximum "on" state duty cycle as a percentage of time. For example, if the
 		/// value is 80, the device would be in an "on" state for 80% of the time for the
 		/// duration of the action.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PerCent dutyCycle;
+		public TC57CIM.IEC61970.Base.Domain.PerCent? dutyCycle;
 		/// <summary>
 		/// Provides a mechanism to direct load control actions to groups of PAN devices.
 		/// It can be used in conjunction with the PAN device types.
 		/// </summary>
-		public string enrollmentGroup;
+		public string? enrollmentGroup;
 		/// <summary>
 		/// Requested offset to apply to the normal heating setpoint at the time of the
 		/// start of the event. It represents a temperature change that will be applied to
@@ -84,12 +84,12 @@ namespace TC57CIM.IEC61968.Metering {
 		/// point. Sequential demand response events are not cumulative. The offset shall
 		/// be applied to the normal setpoint.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Temperature heatingOffset;
+		public TC57CIM.IEC61970.Base.Domain.Temperature? heatingOffset;
 		/// <summary>
 		/// Requested heating set point. Temperature set point is typically defined and
 		/// calculated based on local temperature.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Temperature heatingSetpoint;
+		public TC57CIM.IEC61970.Base.Domain.Temperature? heatingSetpoint;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="PanDemandResponse"/> class

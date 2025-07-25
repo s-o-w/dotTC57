@@ -20,7 +20,7 @@ namespace TC57CIM.IEC61968.AssetMeas {
 		/// <summary>
 		/// Test standard which describes this asset string measurement.
 		/// </summary>
-		public TC57CIM.IEC61968.AssetInfo.Assets.TestStandard TestStandard;
+		public TC57CIM.IEC61968.AssetInfo.Assets.TestStandard? TestStandard;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="AssetStringMeasurement"/> class

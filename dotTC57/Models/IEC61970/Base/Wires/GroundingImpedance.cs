@@ -15,7 +15,7 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// <summary>
 		/// Reactance of device.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Reactance x;
+		public TC57CIM.IEC61970.Base.Domain.Reactance? x;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="GroundingImpedance"/> class

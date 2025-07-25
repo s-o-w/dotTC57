@@ -21,13 +21,13 @@ namespace TC57CIM.IEC61968.Metering {
 		/// <summary>
 		/// (if applicable) Offset to be added as well as multiplication using scalars.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer offset;
+		public TC57CIM.IEC61970.Base.Domain.Integer? offset;
 		/// <summary>
 		/// (if scalar is rational number) When 'IntervalReading.value' is multiplied by
 		/// 'scalarNumerator' and divided by this value, it causes a unit of measure
 		/// conversion to occur, resulting in the 'ReadingType.unit'.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer scalarDenominator;
+		public TC57CIM.IEC61970.Base.Domain.Integer? scalarDenominator;
 		/// <summary>
 		/// (if scalar is floating number) When multiplied with 'IntervalReading.value', it
 		/// causes a unit of measure conversion to occur, according to the 'ReadingType.
@@ -41,11 +41,11 @@ namespace TC57CIM.IEC61968.Metering {
 		/// 'ReadingType.unit'. It is never used in conjunction with 'scalarFloat', only
 		/// with 'scalarDenominator'.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer scalarNumerator;
+		public TC57CIM.IEC61970.Base.Domain.Integer? scalarNumerator;
 		/// <summary>
 		/// Reading type resulting from this pending conversion.
 		/// </summary>
-		public TC57CIM.IEC61968.Metering.ReadingType ReadingType;
+		public TC57CIM.IEC61968.Metering.ReadingType? ReadingType;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="PendingCalculation"/> class

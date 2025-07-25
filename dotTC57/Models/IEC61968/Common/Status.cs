@@ -14,22 +14,22 @@ namespace TC57CIM.IEC61968.Common {
 		/// <summary>
 		/// Date and time for which status 'value' applies.
 		/// </summary>
-		public System.DateTime dateTime;
+		public System.DateTime? dateTime;
 		/// <summary>
 		/// Reason code or explanation for why an object went to the current status 'value'.
 		///
 		/// </summary>
-		public string reason;
+		public string? reason;
 		/// <summary>
 		/// Pertinent information regarding the current 'value', as free form text.
 		/// </summary>
-		public string remark;
+		public string? remark;
 		/// <summary>
 		/// Status value at 'dateTime'; prior status changes may have been kept in
 		/// instances of activity records associated with the object to which this status
 		/// applies.
 		/// </summary>
-		public string value;
+		public string? value;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Status"/> class

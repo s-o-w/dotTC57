@@ -16,7 +16,7 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics {
 		/// <summary>
 		/// Wind plant model with which this wind reactive control is associated.
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics.WindPlantReactiveControlIEC WindPlantReactiveControlIEC;
+		public TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics.WindPlantReactiveControlIEC? WindPlantReactiveControlIEC;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="WindPlantIEC"/> class

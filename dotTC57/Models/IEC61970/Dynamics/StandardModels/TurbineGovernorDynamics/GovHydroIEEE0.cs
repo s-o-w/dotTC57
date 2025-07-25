@@ -21,35 +21,35 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.TurbineGovernorDynamics {
 		/// <summary>
 		/// Governor gain (<i>K)</i>.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU k;
+		public TC57CIM.IEC61970.Base.Domain.PU? k;
 		/// <summary>
 		/// Base for power values (<i>MWbase</i>) (> 0).  Unit = MW.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower mwbase;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? mwbase;
 		/// <summary>
-		/// Gate maximum (<i>Pmax</i>) (> GovHydroIEEE0.pmin).
+		/// Gate maximum (<i>Pmax</i>) (&gt; GovHydroIEEE0.pmin).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU pmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? pmax;
 		/// <summary>
-		/// Gate minimum (<i>Pmin</i>) (< GovHydroIEEE.pmax).
+		/// Gate minimum (<i>Pmin</i>) (&lt; GovHydroIEEE0.pmax).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU pmin;
+		public TC57CIM.IEC61970.Base.Domain.PU? pmin;
 		/// <summary>
 		/// Governor lag time constant (<i>T1</i>) (>= 0).  Typical value = 0,25.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t1;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t1;
 		/// <summary>
 		/// Governor lead time constant (<i>T2)</i> (>= 0).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t2;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t2;
 		/// <summary>
 		/// Gate actuator time constant (<i>T3</i>) (>= 0).  Typical value = 0,1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t3;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t3;
 		/// <summary>
 		/// Water starting time (<i>T4</i>) (>= 0).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t4;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t4;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="GovHydroIEEE0"/> class

@@ -17,15 +17,15 @@ namespace TC57CIM.IEC61968.Metering {
 		/// <summary>
 		/// Reason for this metrology requirement being specified.
 		/// </summary>
-		public ReadingReasonKind reason;
+		public ReadingReasonKind? reason;
 		/// <summary>
 		/// All usage points having this metrology requirement.
 		/// </summary>
-		public TC57CIM.IEC61968.Metering.UsagePoint UsagePoints;
+		public TC57CIM.IEC61968.Metering.UsagePoint? UsagePoints;
 		/// <summary>
 		/// All reading types required to be collected by this metrology requirement.
 		/// </summary>
-		public TC57CIM.IEC61968.Metering.ReadingType ReadingTypes;
+		public TC57CIM.IEC61968.Metering.ReadingType? ReadingTypes;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="MetrologyRequirement"/> class

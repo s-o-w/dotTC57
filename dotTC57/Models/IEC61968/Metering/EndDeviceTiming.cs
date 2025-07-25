@@ -17,7 +17,7 @@ namespace TC57CIM.IEC61968.Metering {
 		/// Duration of the end device control action or the business event that is the
 		/// subject of the end device control.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Minutes duration;
+		public TC57CIM.IEC61970.Base.Domain.Minutes? duration;
 		/// <summary>
 		/// True if 'duration' is indefinite.
 		/// </summary>
@@ -26,7 +26,7 @@ namespace TC57CIM.IEC61968.Metering {
 		/// Start and end time of an interval during which end device control actions are
 		/// to be executed.
 		/// </summary>
-		public DateTimeInterval interval;
+		public DateTimeInterval? interval;
 		/// <summary>
 		/// Kind of randomisation to be applied to the end device control actions to be
 		/// executed.

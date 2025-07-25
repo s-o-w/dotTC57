@@ -14,23 +14,23 @@ namespace TC57CIM.IEC61968.PaymentMetering {
 		/// <summary>
 		/// Name of account holder.
 		/// </summary>
-		public string accountHolderName;
+		public string? accountHolderName;
 		/// <summary>
 		/// The card verification number.
 		/// </summary>
-		public string cvNumber;
+		public string? cvNumber;
 		/// <summary>
 		/// The date when this card expires.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Date expiryDate;
+		public TC57CIM.IEC61970.Base.Domain.Date? expiryDate;
 		/// <summary>
 		/// The primary account number.
 		/// </summary>
-		public string pan;
+		public string? pan;
 		/// <summary>
 		/// Payment tender this card is being used for.
 		/// </summary>
-		public TC57CIM.IEC61968.PaymentMetering.Tender Tender;
+		public TC57CIM.IEC61968.PaymentMetering.Tender? Tender;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Card"/> class

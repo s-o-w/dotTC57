@@ -17,74 +17,74 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.UnderexcitationLimiterDynamic
 		/// <summary>
 		/// UEL centre setting (<i>K</i><i><sub>UC</sub></i>).  Typical value = 1,38.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kuc;
+		public TC57CIM.IEC61970.Base.Domain.PU? kuc;
 		/// <summary>
 		/// UEL excitation system stabilizer gain (<i>K</i><i><sub>UF</sub></i>).  Typical
 		/// value = 3,3.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kuf;
+		public TC57CIM.IEC61970.Base.Domain.PU? kuf;
 		/// <summary>
 		/// UEL integral gain (<i>K</i><i><sub>UI</sub></i>).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kui;
+		public TC57CIM.IEC61970.Base.Domain.PU? kui;
 		/// <summary>
 		/// UEL proportional gain (<i>K</i><i><sub>UL</sub></i>).  Typical value = 100.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kul;
+		public TC57CIM.IEC61970.Base.Domain.PU? kul;
 		/// <summary>
 		/// UEL radius setting (<i>K</i><i><sub>UR</sub></i>).  Typical value = 1,95.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kur;
+		public TC57CIM.IEC61970.Base.Domain.PU? kur;
 		/// <summary>
 		/// UEL lead time constant (<i>T</i><i><sub>U1</sub></i>) (>= 0).  Typical value =
 		/// 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tu1;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tu1;
 		/// <summary>
 		/// UEL lag time constant (<i>T</i><i><sub>U2</sub></i>) (>= 0).  Typical value = 0,
 		/// 05.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tu2;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tu2;
 		/// <summary>
 		/// UEL lead time constant (<i>T</i><i><sub>U3</sub></i>) (>= 0).  Typical value =
 		/// 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tu3;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tu3;
 		/// <summary>
 		/// UEL lag time constant (<i>T</i><i><sub>U4</sub></i>) (>= 0).  Typical value = 0.
 		///
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tu4;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tu4;
 		/// <summary>
 		/// UEL maximum limit for operating point phasor magnitude
 		/// (<i>V</i><i><sub>UCMAX</sub></i>).  Typical value = 5,8.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vucmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? vucmax;
 		/// <summary>
 		/// UEL integrator output maximum limit (<i>V</i><i><sub>UIMAX</sub></i>) (>
 		/// UnderexcLimIEEE1.vuimin).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vuimax;
+		public TC57CIM.IEC61970.Base.Domain.PU? vuimax;
 		/// <summary>
-		/// UEL integrator output minimum limit (<i>V</i><i><sub>UIMIN</sub></i>) (<
+		/// UEL integrator output minimum limit (<i>V</i><i><sub>UIMIN</sub></i>) (&lt;
 		/// UnderexcLimIEEE1.vuimax).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vuimin;
+		public TC57CIM.IEC61970.Base.Domain.PU? vuimin;
 		/// <summary>
-		/// UEL output maximum limit (<i>V</i><i><sub>ULMAX</sub></i>) (> UnderexcLimIEEE1.
-		/// vulmin).  Typical value = 18.
+		/// UEL output maximum limit (<i>V</i><i><sub>ULMAX</sub></i>) (&gt; UnderexcLimIEEE1.vulmin).
+		/// Typical value = 18.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vulmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? vulmax;
 		/// <summary>
-		/// UEL output minimum limit (<i>V</i><i><sub>ULMIN</sub></i>) (< UnderexcLimIEEE1.
-		/// vulmax).  Typical value = -18.
+		/// UEL output minimum limit (<i>V</i><i><sub>ULMIN</sub></i>) (&lt; UnderexcLimIEEE1.vulmax).
+		/// Typical value = -18.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vulmin;
+		public TC57CIM.IEC61970.Base.Domain.PU? vulmin;
 		/// <summary>
 		/// UEL maximum limit for radius phasor magnitude (<i>V</i><i><sub>URMAX</sub></i>).
 		///  Typical value = 5,8.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vurmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? vurmax;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="UnderexcLimIEEE1"/> class

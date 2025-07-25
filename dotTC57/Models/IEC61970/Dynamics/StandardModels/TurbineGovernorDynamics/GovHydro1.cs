@@ -15,59 +15,59 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.TurbineGovernorDynamics {
 		/// <summary>
 		/// Turbine gain (<i>At</i>) (> 0).  Typical value = 1,2.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU at;
+		public TC57CIM.IEC61970.Base.Domain.PU? at;
 		/// <summary>
-		/// Turbine damping factor (<i>Dturb</i>) (>= 0).  Typical value = 0,5.
+		/// Turbine damping factor (<i>Dturb</i>) (&gt;= 0).  Typical value = 0,5.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU dturb;
+		public TC57CIM.IEC61970.Base.Domain.PU? dturb;
 		/// <summary>
-		/// Maximum gate opening (<i>Gmax</i>) (> 0 and > GovHydro.gmin).  Typical value =
+		/// Maximum gate opening (<i>Gmax</i>) (&gt; 0 and &gt; GovHydro.gmin).  Typical value =
 		/// 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU gmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? gmax;
 		/// <summary>
-		/// Minimum gate opening (<i>Gmin</i>) (>= 0 and < GovHydro1.gmax).  Typical value
+		/// Minimum gate opening (<i>Gmin</i>) (&gt;= 0 and &lt; GovHydro1.gmax).  Typical value
 		/// = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU gmin;
+		public TC57CIM.IEC61970.Base.Domain.PU? gmin;
 		/// <summary>
 		/// Turbine nominal head (<i>hdam</i>).  Typical value = 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU hdam;
+		public TC57CIM.IEC61970.Base.Domain.PU? hdam;
 		/// <summary>
-		/// Base for power values (<i>MWbase</i>) (> 0).  Unit = MW.
+		/// Base for power values (<i>MWbase</i>) (&gt; 0).  Unit = MW.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower mwbase;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? mwbase;
 		/// <summary>
-		/// No-load flow at nominal head (<i>qnl</i>) (>= 0).  Typical value = 0,08.
+		/// No-load flow at nominal head (<i>qnl</i>) (&gt;= 0).  Typical value = 0,08.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU qnl;
+		public TC57CIM.IEC61970.Base.Domain.PU? qnl;
 		/// <summary>
-		/// Permanent droop (<i>R</i>) (> 0).  Typical value = 0,04.
+		/// Permanent droop (<i>R</i>) (&gt; 0).  Typical value = 0,04.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU rperm;
+		public TC57CIM.IEC61970.Base.Domain.PU? rperm;
 		/// <summary>
-		/// Temporary droop (<i>r</i>) (> GovHydro1.rperm).  Typical value = 0,3.
+		/// Temporary droop (<i>r</i>) (&gt; GovHydro1.rperm).  Typical value = 0,3.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU rtemp;
+		public TC57CIM.IEC61970.Base.Domain.PU? rtemp;
 		/// <summary>
-		/// Filter time constant (<i>Tf</i>) (> 0).  Typical value = 0,05.
+		/// Filter time constant (<i>Tf</i>) (&gt; 0).  Typical value = 0,05.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tf;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tf;
 		/// <summary>
-		/// Gate servo time constant (<i>Tg</i>) (> 0).  Typical value = 0,5.
+		/// Gate servo time constant (<i>Tg</i>) (&gt; 0).  Typical value = 0,5.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tg;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tg;
 		/// <summary>
-		/// Washout time constant (<i>Tr</i>) (> 0).  Typical value = 5.
+		/// Washout time constant (<i>Tr</i>) (&gt; 0).  Typical value = 5.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tr;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tr;
 		/// <summary>
-		/// Water inertia time constant (<i>Tw</i>) (> 0).  Typical value = 1.
+		/// Water inertia time constant (<i>Tw</i>) (&gt; 0).  Typical value = 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tw;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tw;
 		/// <summary>
-		/// Maximum gate velocity (<i>Vlem</i>) (> 0).  Typical value = 0,2.
+		/// Maximum gate velocity (<i>Vlem</i>) (&gt; 0).  Typical value = 0,2.
 		/// </summary>
 		public float velm;
 

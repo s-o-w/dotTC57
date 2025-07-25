@@ -17,11 +17,11 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// <summary>
 		/// Describes the phases carried by a conducting equipment.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Core.PhaseCode phases;
+		public TC57CIM.IEC61970.Base.Core.PhaseCode? phases;
 		/// <summary>
 		/// Transformer this winding belongs to.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Wires.TransformerTank TransformerTank;
+		public TC57CIM.IEC61970.Base.Wires.TransformerTank? TransformerTank;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="TransformerTankEnd"/> class

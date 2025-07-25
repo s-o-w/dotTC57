@@ -35,15 +35,15 @@ namespace TC57CIM.IEC61970.Base.Generation.Production {
 		/// The rated output active power of the cogeneration plant.
 		/// The attribute shall be a positive value.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower ratedP;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? ratedP;
 		/// <summary>
 		/// A thermal generating unit may be a member of a cogeneration plant.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Generation.Production.ThermalGeneratingUnit ThermalGeneratingUnits;
+		public TC57CIM.IEC61970.Base.Generation.Production.ThermalGeneratingUnit? ThermalGeneratingUnits;
 		/// <summary>
 		/// A cogeneration plant has a steam sendout schedule.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Generation.Production.SteamSendoutSchedule SteamSendoutSchedule;
+		public TC57CIM.IEC61970.Base.Generation.Production.SteamSendoutSchedule? SteamSendoutSchedule;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="CogenerationPlant"/> class

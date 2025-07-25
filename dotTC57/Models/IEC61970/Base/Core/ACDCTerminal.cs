@@ -32,7 +32,7 @@ namespace TC57CIM.IEC61970.Base.Core {
 		/// should follow in increasing order.   The first terminal is the "starting point"
 		/// for a two terminal branch.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer sequenceNumber;
+		public TC57CIM.IEC61970.Base.Domain.Integer? sequenceNumber;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ACDCTerminal"/> class

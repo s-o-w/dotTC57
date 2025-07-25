@@ -24,7 +24,7 @@ namespace TC57CIM.IEC61970.Base.DiagramLayout {
 		/// The drawing order for this layer.  The higher the number, the later the layer
 		/// and the objects within it are rendered.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer drawingOrder;
+		public TC57CIM.IEC61970.Base.Domain.Integer? drawingOrder;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="VisibilityLayer"/> class

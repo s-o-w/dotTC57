@@ -19,17 +19,17 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics {
 		/// Maximum rate of change of frequency (<i>dF</i><i><sub>max</sub></i>). It is a
 		/// type-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU dfimax;
+		public TC57CIM.IEC61970.Base.Domain.PU? dfimax;
 		/// <summary>
 		/// Wind turbine over frequency protection activation threshold
 		/// (<i>f</i><i><sub>over</sub></i>). It is a project-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU fover;
+		public TC57CIM.IEC61970.Base.Domain.PU? fover;
 		/// <summary>
 		/// Wind turbine under frequency protection activation threshold
 		/// (<i>f</i><i><sub>under</sub></i>). It is a project-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU funder;
+		public TC57CIM.IEC61970.Base.Domain.PU? funder;
 		/// <summary>
 		/// Zero crossing measurement mode (<i>Mzc</i>).  It is a type-dependent parameter.
 		///
@@ -43,27 +43,27 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics {
 		/// Time interval of moving average window (<i>TfMA</i>) (>= 0).  It is a type-
 		/// dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tfma;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tfma;
 		/// <summary>
 		/// Wind turbine over voltage protection activation threshold
 		/// (<i>u</i><i><sub>over</sub></i>). It is a project-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU uover;
+		public TC57CIM.IEC61970.Base.Domain.PU? uover;
 		/// <summary>
 		/// Wind turbine under voltage protection activation threshold
 		/// (<i>u</i><i><sub>under</sub></i>). It is a project-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU uunder;
+		public TC57CIM.IEC61970.Base.Domain.PU? uunder;
 		/// <summary>
 		/// Wind generator type 3 or type 4 model with which this wind turbine protection
 		/// model is associated.
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics.WindTurbineType3or4IEC WindTurbineType3or4IEC;
+		public TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics.WindTurbineType3or4IEC? WindTurbineType3or4IEC;
 		/// <summary>
 		/// Wind generator type 1 or type 2 model with which this wind turbine protection
 		/// model is associated.
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics.WindTurbineType1or2IEC WindTurbineType1or2IEC;
+		public TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics.WindTurbineType1or2IEC? WindTurbineType1or2IEC;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="WindProtectionIEC"/> class

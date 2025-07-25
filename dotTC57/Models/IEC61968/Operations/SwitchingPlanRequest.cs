@@ -15,57 +15,54 @@ namespace TC57CIM.IEC61968.Operations {
 	/// </summary>
 	public class SwitchingPlanRequest : Document {
 
-		/// <summary>
-		/// Free-form text to describe the request
-		/// </summary>
-		public string comment;
+
 		/// <summary>
 		/// free-form list of the equipment to be isolated by the switching
 		/// </summary>
-		public string equipmentToBeIsolated;
+		public string? equipmentToBeIsolated;
 		/// <summary>
 		/// The date when the switching to isolate equipment is performed.
 		/// </summary>
-		public DateTimeInterval forwardSwitchingDateTimeInterval;
+		public DateTimeInterval? forwardSwitchingDateTimeInterval;
 		/// <summary>
 		/// free-form list of equipment to be grounded or other actions to be taken in
 		/// order to accomplish the required grounding.
 		/// </summary>
-		public string groundingPoints;
+		public string? groundingPoints;
 		/// <summary>
 		/// free-form description of the area to be isolated by the switching
 		/// </summary>
-		public string isolationArea;
+		public string? isolationArea;
 		/// <summary>
 		/// free-form list of equipment to be operated or other actions to be taken in
 		/// order to accomplish the required isolation.
 		/// </summary>
-		public string isolationPoints;
+		public string? isolationPoints;
 		/// <summary>
 		/// The window of time during which one or more customers will be de-energized
 		/// during execution of the switching plan.
 		/// </summary>
-		public DateTimeInterval outageDateTimeInterval;
+		public DateTimeInterval? outageDateTimeInterval;
 		/// <summary>
 		/// The purpose of this switching plan request.
 		/// </summary>
-		public string purpose;
+		public string? purpose;
 		/// <summary>
 		/// The date when the switching to energize equipment is performed.
 		/// </summary>
-		public DateTimeInterval reverseSwitchingDateTimeInterval;
+		public DateTimeInterval? reverseSwitchingDateTimeInterval;
 		/// <summary>
 		/// The details of this switching plan request.
 		/// </summary>
-		public string switchingRequestDetails;
+		public string? switchingRequestDetails;
 		/// <summary>
 		/// The switching plan for the request.
 		/// </summary>
-		public TC57CIM.IEC61968.Operations.SwitchingPlan SwitchingPlan;
+		public TC57CIM.IEC61968.Operations.SwitchingPlan? SwitchingPlan;
 		/// <summary>
 		/// The organization that requested the switching plan.
 		/// </summary>
-		public TC57CIM.IEC61968.Common.Organisation RequestingOrganization;
+		public TC57CIM.IEC61968.Common.Organisation? RequestingOrganization;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="SwitchingPlanRequest"/> class

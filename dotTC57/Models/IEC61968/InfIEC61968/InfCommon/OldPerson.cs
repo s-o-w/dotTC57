@@ -15,7 +15,7 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfCommon {
 		/// <summary>
 		/// The status
 		/// </summary>
-		public TC57CIM.IEC61968.Common.Status status;
+		public TC57CIM.IEC61968.Common.Status? status;
 		/// <summary>
 		/// Utility-specific classification for this person, according to the utility's
 		/// corporate standards and practices. Examples include employee, contractor, agent,
@@ -26,35 +26,35 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfCommon {
 		/// similar fashion, this field does not indicate the various roles this person may
 		/// fill as part of utility operations.
 		/// </summary>
-		public string type;
+		public string? type;
 		/// <summary>
 		/// The erp personnel
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfERPSupport.ErpPersonnel ErpPersonnel;
+		public TC57CIM.IEC61968.InfIEC61968.InfERPSupport.ErpPersonnel? ErpPersonnel;
 		/// <summary>
 		/// The organisation roles
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfCommon.PersonOrganisationRole OrganisationRoles;
+		public TC57CIM.IEC61968.InfIEC61968.InfCommon.PersonOrganisationRole? OrganisationRoles;
 		/// <summary>
 		/// The skills
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfCommon.Skill Skills;
+		public TC57CIM.IEC61968.InfIEC61968.InfCommon.Skill? Skills;
 		/// <summary>
 		/// The labor items
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfWork.LaborItem LaborItems;
+		public TC57CIM.IEC61968.InfIEC61968.InfWork.LaborItem? LaborItems;
 		/// <summary>
 		/// The erp competency
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfERPSupport.ErpCompetency ErpCompetency;
+		public TC57CIM.IEC61968.InfIEC61968.InfERPSupport.ErpCompetency? ErpCompetency;
 		/// <summary>
 		/// The land property roles
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfCommon.PersonPropertyRole LandPropertyRoles;
+		public TC57CIM.IEC61968.InfIEC61968.InfCommon.PersonPropertyRole? LandPropertyRoles;
 		/// <summary>
 		/// The measurement values
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Meas.MeasurementValue MeasurementValues;
+		public TC57CIM.IEC61970.Base.Meas.MeasurementValue? MeasurementValues;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="OldPerson"/> class

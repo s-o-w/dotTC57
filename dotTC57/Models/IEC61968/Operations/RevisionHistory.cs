@@ -20,15 +20,15 @@ namespace TC57CIM.IEC61968.Operations {
 		/// <summary>
 		/// Person who made the change
 		/// </summary>
-		public string revisionAuthor;
+		public string? revisionAuthor;
 		/// <summary>
 		/// Date and time of the change
 		/// </summary>
-		public System.DateTime revisionDateTime;
+		public System.DateTime? revisionDateTime;
 		/// <summary>
 		/// Reason for making the change
 		/// </summary>
-		public string revisionReason;
+		public string? revisionReason;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="RevisionHistory"/> class

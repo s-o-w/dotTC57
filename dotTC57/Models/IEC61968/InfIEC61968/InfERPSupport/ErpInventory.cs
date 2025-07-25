@@ -19,7 +19,7 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfERPSupport {
 		/// <summary>
 		/// The status
 		/// </summary>
-		public TC57CIM.IEC61968.Common.Status status;
+		public TC57CIM.IEC61968.Common.Status? status;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ErpInventory"/> class

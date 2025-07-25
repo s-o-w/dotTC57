@@ -15,7 +15,7 @@ namespace TC57CIM.IEC61968.AssetMeas {
 		/// <summary>
 		/// Number of units (of calculationIntervalUnit) in the calculation interval.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer calculationIntervalMagnitude;
+		public TC57CIM.IEC61970.Base.Domain.Integer? calculationIntervalMagnitude;
 		/// <summary>
 		/// Unit in which calculation interval is defined.
 		/// </summary>

@@ -19,19 +19,19 @@ namespace TC57CIM.IEC61968.AssetInfo {
 		/// Diameter over the core, including any semi-con screen; should be the insulating
 		/// layer's inside diameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Length diameterOverCore;
+		public TC57CIM.IEC61970.Base.Domain.Length? diameterOverCore;
 		/// <summary>
 		/// Diameter over the insulating layer, excluding outer screen.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Length diameterOverInsulation;
+		public TC57CIM.IEC61970.Base.Domain.Length? diameterOverInsulation;
 		/// <summary>
 		/// Diameter over the outermost jacketing layer.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Length diameterOverJacket;
+		public TC57CIM.IEC61970.Base.Domain.Length? diameterOverJacket;
 		/// <summary>
 		/// Diameter over the outer screen; should be the shield's inside diameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Length diameterOverScreen;
+		public TC57CIM.IEC61970.Base.Domain.Length? diameterOverScreen;
 		/// <summary>
 		/// True if wire strands are extruded in a way to fill the voids in the cable.
 		/// </summary>
@@ -39,7 +39,7 @@ namespace TC57CIM.IEC61968.AssetInfo {
 		/// <summary>
 		/// Maximum nominal design operating temperature.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Temperature nominalTemperature;
+		public TC57CIM.IEC61970.Base.Domain.Temperature? nominalTemperature;
 		/// <summary>
 		/// Kind of outer jacket of this cable.
 		/// </summary>

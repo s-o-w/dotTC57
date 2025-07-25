@@ -15,7 +15,7 @@ namespace TC57CIM.IEC61970.Base.Meas {
 		/// <summary>
 		/// The accumulator value that is reset by the command.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Meas.AccumulatorValue AccumulatorValue;
+		public TC57CIM.IEC61970.Base.Meas.AccumulatorValue? AccumulatorValue;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="AccumulatorReset"/> class

@@ -19,17 +19,17 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics {
 		/// Maximum continuous current at the wind turbine terminals
 		/// (<i>i</i><i><sub>max</sub></i>). It is a type-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU imax;
+		public TC57CIM.IEC61970.Base.Domain.PU? imax;
 		/// <summary>
 		/// Maximum current during voltage dip at the wind turbine terminals
 		/// (<i>i</i><i><sub>maxdip</sub></i>). It is a project-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU imaxdip;
+		public TC57CIM.IEC61970.Base.Domain.PU? imaxdip;
 		/// <summary>
 		/// Partial derivative of reactive current limit (<i>K</i><i><sub>pqu</sub></i>)
 		/// versus voltage. It is a type-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kpqu;
+		public TC57CIM.IEC61970.Base.Domain.PU? kpqu;
 		/// <summary>
 		/// Limitation of type 3 stator current (<i>M</i><i><sub>DFSLim</sub></i>).
 		/// <i>M</i><i><sub>DFSLim</sub></i><sub> </sub>= 1 for wind turbines type 4. It is
@@ -49,18 +49,18 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics {
 		/// Voltage measurement filter time constant (<i>T</i><i><sub>ufiltcl</sub></i>)
 		/// (>= 0). It is a type-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tufiltcl;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tufiltcl;
 		/// <summary>
 		/// Wind turbine voltage in the operation point where zero reactive current can be
 		/// delivered (<i>u</i><i><sub>pqumax</sub></i>). It is a type-dependent parameter.
 		///
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU upqumax;
+		public TC57CIM.IEC61970.Base.Domain.PU? upqumax;
 		/// <summary>
 		/// Wind turbine type 3 or type 4 model with which this wind control current
 		/// limitation model is associated.
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics.WindTurbineType3or4IEC WindTurbineType3or4IEC;
+		public TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics.WindTurbineType3or4IEC? WindTurbineType3or4IEC;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="WindContCurrLimIEC"/> class

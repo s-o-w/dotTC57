@@ -15,11 +15,11 @@ namespace TC57CIM.IEC61970.Base.Domain {
 		/// <summary>
 		/// End date of this interval.
 		/// </summary>
-		public Date end;
+		public Date? end;
 		/// <summary>
 		/// Start date of this interval.
 		/// </summary>
-		public Date start;
+		public Date? start;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="DateInterval"/> class

@@ -14,7 +14,7 @@ namespace TC57CIM.IEC61970.Base.Core {
 		/// <summary>
 		/// Contained equipment.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Core.Equipment Equipments;
+		public TC57CIM.IEC61970.Base.Core.Equipment? Equipments;
 		/// <summary>
 		/// The additonal contained equipment.  The equipment belong to the equipment
 		/// container. The equipment is contained in another equipment container, but also
@@ -23,7 +23,7 @@ namespace TC57CIM.IEC61970.Base.Core {
 		/// or when a switch is included in a secondary substation and also grouped in a
 		/// feeder.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Core.Equipment AdditionalGroupedEquipment;
+		public TC57CIM.IEC61970.Base.Core.Equipment? AdditionalGroupedEquipment;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="EquipmentContainer"/> class

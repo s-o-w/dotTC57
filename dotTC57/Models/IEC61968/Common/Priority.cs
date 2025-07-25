@@ -15,15 +15,15 @@ namespace TC57CIM.IEC61968.Common {
 		/// <summary>
 		/// Justification for 'rank'.
 		/// </summary>
-		public string justification;
+		public string? justification;
 		/// <summary>
 		/// Priority level; lower number means high priority inside the same 'type'.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer rank;
+		public TC57CIM.IEC61970.Base.Domain.Integer? rank;
 		/// <summary>
 		/// Type describing 'rank'; e.g., high, emergency, etc.
 		/// </summary>
-		public string type;
+		public string? type;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Priority"/> class

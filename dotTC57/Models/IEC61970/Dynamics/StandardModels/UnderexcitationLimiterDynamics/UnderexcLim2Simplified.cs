@@ -19,33 +19,33 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.UnderexcitationLimiterDynamic
 		/// Gain Under excitation limiter (<i>K</i><i><sub>UI</sub></i>).  Typical value =
 		/// 0,1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kui;
+		public TC57CIM.IEC61970.Base.Domain.PU? kui;
 		/// <summary>
 		/// Segment P initial point (<i>P</i><i><sub>0</sub></i>).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU p0;
+		public TC57CIM.IEC61970.Base.Domain.PU? p0;
 		/// <summary>
 		/// Segment P end point (<i>P</i><i><sub>1</sub></i>).  Typical value = 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU p1;
+		public TC57CIM.IEC61970.Base.Domain.PU? p1;
 		/// <summary>
 		/// Segment Q initial point (<i>Q</i><i><sub>0</sub></i>).  Typical value = -0,31.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU q0;
+		public TC57CIM.IEC61970.Base.Domain.PU? q0;
 		/// <summary>
 		/// Segment Q end point (<i>Q</i><i><sub>1</sub></i>).  Typical value = -0,1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU q1;
+		public TC57CIM.IEC61970.Base.Domain.PU? q1;
 		/// <summary>
 		/// Maximum error signal (<i>V</i><i><sub>UIMAX</sub></i>) (>
 		/// UnderexcLim2Simplified.vuimin).  Typical value = 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vuimax;
+		public TC57CIM.IEC61970.Base.Domain.PU? vuimax;
 		/// <summary>
-		/// Minimum error signal (<i>V</i><i><sub>UIMIN</sub></i>) (<
+		/// Minimum error signal (<i>V</i><i><sub>UIMIN</sub></i>) (&lt;
 		/// UnderexcLim2Simplified.vuimax).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vuimin;
+		public TC57CIM.IEC61970.Base.Domain.PU? vuimin;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="UnderexcLim2Simplified"/> class

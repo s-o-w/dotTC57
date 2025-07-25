@@ -21,11 +21,11 @@ namespace TC57CIM.IEC61968.Common {
 		/// <summary>
 		/// Date and time reserved for appointment.
 		/// </summary>
-		public DateTimeInterval meetingInterval;
+		public DateTimeInterval? meetingInterval;
 		/// <summary>
 		/// All works for this appointment.
 		/// </summary>
-		public TC57CIM.IEC61968.Work.Work Works;
+		public TC57CIM.IEC61968.Work.Work? Works;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Appointment"/> class

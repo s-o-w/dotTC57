@@ -19,19 +19,19 @@ namespace TC57CIM.IEC61970.Base.Generation.Production {
 		/// <summary>
 		/// Power output - auxiliary power multiplier adjustment factor.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU auxPowerMult;
+		public TC57CIM.IEC61970.Base.Domain.PU? auxPowerMult;
 		/// <summary>
 		/// Power output - auxiliary power offset adjustment factor.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower auxPowerOffset;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? auxPowerOffset;
 		/// <summary>
 		/// Heat input - efficiency multiplier adjustment factor.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU heatInputEff;
+		public TC57CIM.IEC61970.Base.Domain.PU? heatInputEff;
 		/// <summary>
 		/// Heat input - offset adjustment factor.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.HeatRate heatInputOffset;
+		public TC57CIM.IEC61970.Base.Domain.HeatRate? heatInputOffset;
 		/// <summary>
 		/// Flag is set to true when output is expressed in net active power.
 		/// </summary>

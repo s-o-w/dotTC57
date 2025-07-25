@@ -16,56 +16,56 @@ namespace TC57CIM.IEC61968.AssetInfo.Assets {
 		/// <summary>
 		/// Effect of problem.
 		/// </summary>
-		public string effect;
+		public string? effect;
 		/// <summary>
 		/// Failuer mode, for example: Failure to Insulate; Failure to conduct; Failure to
 		/// contain oil; Failure to provide ground plane; Other.
 		/// </summary>
-		public string failureMode;
+		public string? failureMode;
 		/// <summary>
 		/// Cause of problem determined during diagnosis.
 		/// </summary>
-		public string finalCause;
+		public string? finalCause;
 		/// <summary>
 		/// Code for diagnosed probem type.
 		/// </summary>
-		public string finalCode;
+		public string? finalCode;
 		/// <summary>
 		/// Origin of problem determined during diagnosis.
 		/// </summary>
-		public string finalOrigin;
+		public string? finalOrigin;
 		/// <summary>
 		/// Remarks pertaining to findings during problem diagnosis.
 		/// </summary>
-		public string finalRemark;
+		public string? finalRemark;
 		/// <summary>
 		/// Phase(s) diagnosed.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Core.PhaseCode phaseCode;
+		public TC57CIM.IEC61970.Base.Core.PhaseCode? phaseCode;
 		/// <summary>
 		/// Code for problem type determined during preliminary assessment.
 		/// </summary>
-		public string preliminaryCode;
+		public string? preliminaryCode;
 		/// <summary>
 		/// Date and time preliminary assessment of problem was performed.
 		/// </summary>
-		public System.DateTime preliminaryDateTime;
+		public System.DateTime? preliminaryDateTime;
 		/// <summary>
 		/// Remarks pertaining to preliminary assessment of problem.
 		/// </summary>
-		public string preliminaryRemark;
+		public string? preliminaryRemark;
 		/// <summary>
 		/// Root cause of problem determined during diagnosis.
 		/// </summary>
-		public string rootCause;
+		public string? rootCause;
 		/// <summary>
 		/// Root origin of problem determined during diagnosis.
 		/// </summary>
-		public string rootOrigin;
+		public string? rootOrigin;
 		/// <summary>
 		/// Remarks pertaining to root cause findings during problem diagnosis.
 		/// </summary>
-		public string rootRemark;
+		public string? rootRemark;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="DiagnosisDataSet"/> class

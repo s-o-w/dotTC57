@@ -38,23 +38,23 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.AsynchronousMachineDynamics {
 		/// <summary>
 		/// Damper 1 winding resistance.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU rr1;
+		public TC57CIM.IEC61970.Base.Domain.PU? rr1;
 		/// <summary>
 		/// Damper 2 winding resistance.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU rr2;
+		public TC57CIM.IEC61970.Base.Domain.PU? rr2;
 		/// <summary>
 		/// Damper 1 winding leakage reactance.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU xlr1;
+		public TC57CIM.IEC61970.Base.Domain.PU? xlr1;
 		/// <summary>
 		/// Damper 2 winding leakage reactance.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU xlr2;
+		public TC57CIM.IEC61970.Base.Domain.PU? xlr2;
 		/// <summary>
 		/// Magnetizing reactance.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU xm;
+		public TC57CIM.IEC61970.Base.Domain.PU? xm;
 
 		/// <summary>
 		/// Constructor for AsynchronousMachineEquivalentCircuit.

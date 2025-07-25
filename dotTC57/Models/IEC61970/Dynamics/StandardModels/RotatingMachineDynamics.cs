@@ -31,7 +31,7 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels {
 		/// just s. This value is used in the accelerating power reference frame for
 		/// operator training simulator solutions.  Typical value = 3.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds inertia;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? inertia;
 		/// <summary>
 		/// Saturation factor at rated terminal voltage (<i>S1</i>) (>= 0).  Not used by
 		/// simplified model.  Defined by defined by <i>S</i>(<i>E1</i>) in the
@@ -48,11 +48,11 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels {
 		/// <summary>
 		/// Stator leakage reactance (<i>Xl</i>) (>= 0). Typical value = 0,15.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU statorLeakageReactance;
+		public TC57CIM.IEC61970.Base.Domain.PU? statorLeakageReactance;
 		/// <summary>
 		/// Stator (armature) resistance (<i>Rs</i>) (>= 0). Typical value = 0,005.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU statorResistance;
+		public TC57CIM.IEC61970.Base.Domain.PU? statorResistance;
 
 		/// <summary>
 		/// Constructor for RotatingMachineDynamics.

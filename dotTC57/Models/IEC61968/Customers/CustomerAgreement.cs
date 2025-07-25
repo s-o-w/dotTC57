@@ -22,36 +22,36 @@ namespace TC57CIM.IEC61968.Customers {
 		/// <summary>
 		/// Load management code.
 		/// </summary>
-		public string loadMgmt;
+		public string? loadMgmt;
 		/// <summary>
 		/// Final date and time the service will be billed to the previous customer.
 		/// </summary>
-		public System.DateTime shutOffDateTime;
+		public System.DateTime? shutOffDateTime;
 		/// <summary>
 		/// Service category for this agreement.
 		/// </summary>
-		public TC57CIM.IEC61968.Customers.ServiceCategory ServiceCategory;
+		public TC57CIM.IEC61968.Customers.ServiceCategory? ServiceCategory;
 		/// <summary>
 		/// All service delivery points regulated by this customer agreement.
 		/// </summary>
-		public TC57CIM.IEC61968.Metering.UsagePoint UsagePoints;
+		public TC57CIM.IEC61968.Metering.UsagePoint? UsagePoints;
 		/// <summary>
 		/// All pricing structures applicable to this customer agreement.
 		/// </summary>
-		public TC57CIM.IEC61968.Customers.PricingStructure PricingStructures;
+		public TC57CIM.IEC61968.Customers.PricingStructure? PricingStructures;
 		/// <summary>
 		/// All (non-service related) auxiliary agreements that refer to this customer
 		/// agreement.
 		/// </summary>
-		public TC57CIM.IEC61968.PaymentMetering.AuxiliaryAgreement AuxiliaryAgreements;
+		public TC57CIM.IEC61968.PaymentMetering.AuxiliaryAgreement? AuxiliaryAgreements;
 		/// <summary>
 		/// The standard industry code
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfCustomers.StandardIndustryCode StandardIndustryCode;
+		public TC57CIM.IEC61968.InfIEC61968.InfCustomers.StandardIndustryCode? StandardIndustryCode;
 		/// <summary>
 		/// All service locations regulated by this customer agreement.
 		/// </summary>
-		public TC57CIM.IEC61968.Customers.ServiceLocation ServiceLocations;
+		public TC57CIM.IEC61968.Customers.ServiceLocation? ServiceLocations;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="CustomerAgreement"/> class

@@ -11,29 +11,29 @@ namespace TC57CIM.IEC61968.Metering {
 	/// <summary>
 	/// Detailed description for a control produced by an end device. Values in
 	/// attributes allow for creation of recommended codes to be used for identifying
-	/// end device controls as follows: <type>.<domain>.<subDomain>.<eventOrAction>.
+	/// end device controls as follows: type.domain.subDomain.eventOrAction.
 	/// </summary>
 	public class EndDeviceControlType : IdentifiedObject {
 
 		/// <summary>
 		/// High-level nature of the control.
 		/// </summary>
-		public string domain;
+		public string? domain;
 		/// <summary>
 		/// The most specific part of this control type. It is mainly in the form of a verb
 		/// that gives action to the control that just occurred.
 		/// </summary>
-		public string eventOrAction;
+		public string? eventOrAction;
 		/// <summary>
 		/// More specific nature of the control, as a further sub-categorisation of
 		/// 'domain'.
 		/// </summary>
-		public string subDomain;
+		public string? subDomain;
 		/// <summary>
 		/// Type of physical device from which the control was created. A value of zero (0)
 		/// can be used when the source is unknown.
 		/// </summary>
-		public string type;
+		public string? type;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="EndDeviceControlType"/> class

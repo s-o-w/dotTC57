@@ -18,22 +18,22 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics {
 		/// Maximum wind turbine power ramp rate (<i>dp</i><i><sub>maxp4A</sub></i>). It is
 		/// a project-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU dpmaxp4a;
+		public TC57CIM.IEC61970.Base.Domain.PU? dpmaxp4a;
 		/// <summary>
 		/// Time constant in power order lag (<i>T</i><i><sub>pordp4A</sub></i>) (>= 0). It
 		/// is a type-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tpordp4a;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tpordp4a;
 		/// <summary>
 		/// Voltage measurement filter time constant (<i>T</i><i><sub>ufiltp4A</sub></i>)
 		/// (>= 0). It is a type-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tufiltp4a;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tufiltp4a;
 		/// <summary>
 		/// Wind turbine type 4A model with which this wind control P type 4A model is
 		/// associated.
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics.WindTurbineType4aIEC WindTurbineType4aIEC;
+		public TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics.WindTurbineType4aIEC? WindTurbineType4aIEC;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="WindContPType4aIEC"/> class

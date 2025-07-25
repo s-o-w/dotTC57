@@ -24,17 +24,17 @@ namespace TC57CIM.IEC61968.Operations {
 		/// relation with clamp. In the case of placing one or both ends of the jumper at a
 		/// line segment terminal, reference to one or more line segments is sufficient.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Core.ConductingEquipment JumpedEquipments;
+		public TC57CIM.IEC61970.Base.Core.ConductingEquipment? JumpedEquipments;
 		/// <summary>
 		/// The line segment that this jumper action will affect. This is the only way to
 		/// access relationship to clamp in case the jumper needs to connect along the line
 		/// segment.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Wires.ACLineSegment ACLineSegments;
+		public TC57CIM.IEC61970.Base.Wires.ACLineSegment? ACLineSegments;
 		/// <summary>
 		/// Jumper on which this action is taken.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Wires.Jumper Jumper;
+		public TC57CIM.IEC61970.Base.Wires.Jumper? Jumper;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="JumperAction"/> class

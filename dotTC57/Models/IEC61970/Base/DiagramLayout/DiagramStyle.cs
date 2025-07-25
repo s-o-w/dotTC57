@@ -18,7 +18,7 @@ namespace TC57CIM.IEC61970.Base.DiagramLayout {
 		/// <summary>
 		/// A DiagramStyle can be used by many Diagrams.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.DiagramLayout.Diagram Diagram;
+		public TC57CIM.IEC61970.Base.DiagramLayout.Diagram? Diagram;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="DiagramStyle"/> class

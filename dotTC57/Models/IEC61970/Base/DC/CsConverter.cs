@@ -40,46 +40,46 @@ namespace TC57CIM.IEC61970.Base.DC {
 		/// converter�s state variable, result from power flow. The attribute shall be a
 		/// positive value.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.AngleDegrees alpha;
+		public TC57CIM.IEC61970.Base.Domain.AngleDegrees? alpha;
 		/// <summary>
 		/// Extinction angle. It is used to limit the dc voltage at the inverter if needed.
 		/// Typical value between 17 degrees and 20 degrees for an inverter. It is
 		/// converter�s state variable, result from power flow. The attribute shall be a
 		/// positive value.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.AngleDegrees gamma;
+		public TC57CIM.IEC61970.Base.Domain.AngleDegrees? gamma;
 		/// <summary>
 		/// Maximum firing angle. It is converter�s configuration data used in power flow.
 		/// The attribute shall be a positive value.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.AngleDegrees maxAlpha;
+		public TC57CIM.IEC61970.Base.Domain.AngleDegrees? maxAlpha;
 		/// <summary>
 		/// Maximum extinction angle. It is converter�s configuration data used in power
 		/// flow. The attribute shall be a positive value.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.AngleDegrees maxGamma;
+		public TC57CIM.IEC61970.Base.Domain.AngleDegrees? maxGamma;
 		/// <summary>
 		/// The maximum direct current (Id) on the DC side at which the converter should
 		/// operate. It is converter�s configuration data use in power flow. The attribute
 		/// shall be a positive value.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.CurrentFlow maxIdc;
+		public TC57CIM.IEC61970.Base.Domain.CurrentFlow? maxIdc;
 		/// <summary>
 		/// Minimum firing angle. It is converter�s configuration data used in power flow.
 		/// The attribute shall be a positive value.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.AngleDegrees minAlpha;
+		public TC57CIM.IEC61970.Base.Domain.AngleDegrees? minAlpha;
 		/// <summary>
 		/// Minimum extinction angle. It is converter�s configuration data used in power
 		/// flow. The attribute shall be a positive value.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.AngleDegrees minGamma;
+		public TC57CIM.IEC61970.Base.Domain.AngleDegrees? minGamma;
 		/// <summary>
 		/// The minimum direct current (Id) on the DC side at which the converter should
 		/// operate. It is converter�s configuration data used in power flow. The attribute
 		/// shall be a positive value.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.CurrentFlow minIdc;
+		public TC57CIM.IEC61970.Base.Domain.CurrentFlow? minIdc;
 		/// <summary>
 		/// Indicates whether the DC pole is operating as an inverter or as a rectifier. It
 		/// is converter�s control variable used in power flow.
@@ -93,26 +93,26 @@ namespace TC57CIM.IEC61970.Base.DC {
 		/// Rated converter DC current, also called IdN. The attribute shall be a positive
 		/// value. It is converter�s configuration data used in power flow.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.CurrentFlow ratedIdc;
+		public TC57CIM.IEC61970.Base.Domain.CurrentFlow? ratedIdc;
 		/// <summary>
-		/// Target firing angle. It is converter�s control variable used in power flow. It
+		/// Target firing angle. It is converter's control variable used in power flow. It
 		/// is only applicable for rectifier if continuous tap changer control is used.
-		/// Allowed values are within the range minAlpha<=targetAlpha<=maxAlpha. The
+		/// Allowed values are within the range minAlpha less than or equal to targetAlpha less than or equal to maxAlpha. The
 		/// attribute shall be a positive value.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.AngleDegrees targetAlpha;
+		public TC57CIM.IEC61970.Base.Domain.AngleDegrees? targetAlpha;
 		/// <summary>
-		/// Target extinction angle. It is converter�s control variable used in power flow.
+		/// Target extinction angle. It is converter's control variable used in power flow.
 		/// It is only applicable for inverter if continuous tap changer control is used.
-		/// Allowed values are within the range minGamma<=targetGamma<=maxGamma. The
+		/// Allowed values are within the range minGamma less than or equal to targetGamma less than or equal to maxGamma. The
 		/// attribute shall be a positive value.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.AngleDegrees targetGamma;
+		public TC57CIM.IEC61970.Base.Domain.AngleDegrees? targetGamma;
 		/// <summary>
-		/// DC current target value. It is converter�s control variable used in power flow.
+		/// DC current target value. It is converter's control variable used in power flow.
 		/// The attribute shall be a positive value.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.CurrentFlow targetIdc;
+		public TC57CIM.IEC61970.Base.Domain.CurrentFlow? targetIdc;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="CsConverter"/> class

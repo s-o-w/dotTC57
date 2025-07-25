@@ -18,36 +18,36 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics {
 		/// Drive train damping (<i>c</i><i><sub>drt</sub></i><i>)</i>. It is a type-
 		/// dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU cdrt;
+		public TC57CIM.IEC61970.Base.Domain.PU? cdrt;
 		/// <summary>
 		/// Inertia constant of generator (<i>H</i><i><sub>gen</sub></i>) (>= 0). It is a
 		/// type-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds hgen;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? hgen;
 		/// <summary>
 		/// Inertia constant of wind turbine rotor (<i>H</i><i><sub>WTR</sub></i>) (>= 0).
 		/// It is a type-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds hwtr;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? hwtr;
 		/// <summary>
 		/// Drive train stiffness (<i>k</i><i><sub>drt</sub></i>). It is a type-dependent
 		/// parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kdrt;
+		public TC57CIM.IEC61970.Base.Domain.PU? kdrt;
 		/// <summary>
 		/// Wind turbine type 4B model with which this wind mechanical model is associated.
 		///
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics.WindTurbineType4bIEC WindTurbineType4bIEC;
+		public TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics.WindTurbineType4bIEC? WindTurbineType4bIEC;
 		/// <summary>
 		/// Wind turbine type 3 model with which this wind mechanical model is associated.
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics.WindTurbineType3IEC WindTurbineType3IEC;
+		public TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics.WindTurbineType3IEC? WindTurbineType3IEC;
 		/// <summary>
 		/// Wind generator type 1 or type 2 model with which this wind mechanical model is
 		/// associated.
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics.WindTurbineType1or2IEC WindTurbineType1or2IEC;
+		public TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics.WindTurbineType1or2IEC? WindTurbineType1or2IEC;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="WindMechIEC"/> class

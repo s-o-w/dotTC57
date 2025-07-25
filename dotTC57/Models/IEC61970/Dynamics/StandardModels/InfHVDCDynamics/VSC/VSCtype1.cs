@@ -17,7 +17,7 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.InfHVDCDynamics.VSC {
 		/// <summary>
 		/// The cvoltage control
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.StandardModels.InfHVDCDynamics.VSC.DCvoltageControl DCvoltageControl;
+		public TC57CIM.IEC61970.Dynamics.StandardModels.InfHVDCDynamics.VSC.DCvoltageControl? DCvoltageControl;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="VSCtype1"/> class

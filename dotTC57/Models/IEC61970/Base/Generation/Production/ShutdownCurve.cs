@@ -16,11 +16,11 @@ namespace TC57CIM.IEC61970.Base.Generation.Production {
 		/// <summary>
 		/// Fixed shutdown cost.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Money shutdownCost;
+		public TC57CIM.IEC61970.Base.Domain.Money? shutdownCost;
 		/// <summary>
 		/// The date and time of the most recent generating unit shutdown.
 		/// </summary>
-		public System.DateTime shutdownDate;
+		public System.DateTime? shutdownDate;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ShutdownCurve"/> class

@@ -15,45 +15,45 @@ namespace TC57CIM.IEC61968.Work {
 		/// <summary>
 		/// Date and time work task was completed.
 		/// </summary>
-		public System.DateTime completedDateTime;
+		public System.DateTime? completedDateTime;
 		/// <summary>
 		/// Total contractor costs associated with the work task.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Money contractorCost;
+		public TC57CIM.IEC61970.Base.Domain.Money? contractorCost;
 		/// <summary>
 		/// Estimated time of arrival, so that customer or police/fire department can be
 		/// informed when the crew will arrive.
 		/// </summary>
-		public System.DateTime crewETA;
+		public System.DateTime? crewETA;
 		/// <summary>
 		/// Time and Date when the work task will be completed.
 		/// </summary>
-		public System.DateTime estimatedCompletionTime;
+		public System.DateTime? estimatedCompletionTime;
 		/// <summary>
 		/// Instructions for performing this task.
 		/// </summary>
-		public string instruction;
+		public string? instruction;
 		/// <summary>
 		/// Total labor costs associated with the work task.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Money laborCost;
+		public TC57CIM.IEC61970.Base.Domain.Money? laborCost;
 		/// <summary>
 		/// Hours of labor expended under work task.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Hours laborHours;
+		public TC57CIM.IEC61970.Base.Domain.Hours? laborHours;
 		/// <summary>
 		/// Total material costs associated with the work task.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Money materiallCost;
+		public TC57CIM.IEC61970.Base.Domain.Money? materiallCost;
 		/// <summary>
 		/// If specified, override schedule and perform this task in accordance with
 		/// instructions specified here.
 		/// </summary>
-		public string schedOverride;
+		public string? schedOverride;
 		/// <summary>
 		/// Date and time work task was started.
 		/// </summary>
-		public System.DateTime startedDateTime;
+		public System.DateTime? startedDateTime;
 		/// <summary>
 		/// Kind of work.
 		/// </summary>
@@ -61,27 +61,27 @@ namespace TC57CIM.IEC61968.Work {
 		/// <summary>
 		/// Total tool costs associated with the work task.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Money toolCost;
+		public TC57CIM.IEC61970.Base.Domain.Money? toolCost;
 		/// <summary>
 		/// The trouble order that contains the work tasks.
 		/// </summary>
-		public TC57CIM.IEC61968.Operations.TroubleOrder TroubleOrder;
+		public TC57CIM.IEC61968.Operations.TroubleOrder? TroubleOrder;
 		/// <summary>
 		/// All assets on which this non-replacement work task is performed.
 		/// </summary>
-		public TC57CIM.IEC61968.AssetInfo.Assets.Asset Assets;
+		public TC57CIM.IEC61968.AssetInfo.Assets.Asset? Assets;
 		/// <summary>
 		/// The material items that are required to perform the work task.
 		/// </summary>
-		public TC57CIM.IEC61968.Work.MaterialItem MaterialItems;
+		public TC57CIM.IEC61968.Work.MaterialItem? MaterialItems;
 		/// <summary>
 		/// All crews participating in this work task.
 		/// </summary>
-		public TC57CIM.IEC61968.Common.Crew Crews;
+		public TC57CIM.IEC61968.Common.Crew? Crews;
 		/// <summary>
 		/// Old asset replaced by this work task.
 		/// </summary>
-		public TC57CIM.IEC61968.AssetInfo.Assets.Asset OldAsset;
+		public TC57CIM.IEC61968.AssetInfo.Assets.Asset? OldAsset;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="WorkTask"/> class

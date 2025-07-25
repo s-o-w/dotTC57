@@ -16,16 +16,16 @@ namespace TC57CIM.IEC61968.PaymentMetering {
 		/// Amount that was credited to/debited from an account. For example: payment
 		/// received/interest charge on arrears.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Money amount;
+		public TC57CIM.IEC61970.Base.Domain.Money? amount;
 		/// <summary>
 		/// Date and time when the credit/debit transaction was performed.
 		/// </summary>
-		public System.DateTime dateTime;
+		public System.DateTime? dateTime;
 		/// <summary>
 		/// Reason for credit/debit transaction on an account. Example: payment
 		/// received/arrears interest levied.
 		/// </summary>
-		public string reason;
+		public string? reason;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="AccountMovement"/> class

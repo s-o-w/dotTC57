@@ -29,27 +29,27 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// on network configuration and relevant reliability philosophy). It is used for
 		/// calculation of the impedance correction factor KT defined in IEC 60909-0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.CurrentFlow beforeShCircuitHighestOperatingCurrent;
+		public TC57CIM.IEC61970.Base.Domain.CurrentFlow? beforeShCircuitHighestOperatingCurrent;
 		/// <summary>
 		/// The highest operating voltage (Ub in IEC 60909-0) before short circuit. It is
 		/// used for calculation of the impedance correction factor KT defined in IEC 60909-
 		/// 0. This is worst case voltage on the low side winding (3.7.1 of IEC 60909:2001).
 		/// Used to define operating conditions.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Voltage beforeShCircuitHighestOperatingVoltage;
+		public TC57CIM.IEC61970.Base.Domain.Voltage? beforeShCircuitHighestOperatingVoltage;
 		/// <summary>
 		/// The angle of power factor before short circuit (phib in IEC 60909-0). It is
 		/// used for calculation of the impedance correction factor KT defined in IEC 60909-
 		/// 0. This is the worst case power factor. Used to define operating conditions.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.AngleDegrees beforeShortCircuitAnglePf;
+		public TC57CIM.IEC61970.Base.Domain.AngleDegrees? beforeShortCircuitAnglePf;
 		/// <summary>
 		/// The minimum operating voltage (uQmin in IEC 60909-0) at the high voltage side
 		/// (Q side) of the unit transformer of the power station unit. A value well
 		/// established from long-term operating experience of the system. It is used for
 		/// calculation of the impedance correction factor KG defined in IEC 60909-0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Voltage highSideMinOperatingU;
+		public TC57CIM.IEC61970.Base.Domain.Voltage? highSideMinOperatingU;
 		/// <summary>
 		/// Indicates whether the machine is part of a power station unit. Used for short
 		/// circuit data exchange according to IEC 60909.  It has an impact on how the
@@ -91,11 +91,11 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// alphabetical sequence if they are lettered, or in numerical sequence if they
 		/// are numbered: the phasors are assumed to rotate in a counter-clockwise sense.
 		/// </summary>
-		public string vectorGroup;
+		public string? vectorGroup;
 		/// <summary>
 		/// The ends of this power transformer.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Wires.PowerTransformerEnd PowerTransformerEnd;
+		public TC57CIM.IEC61970.Base.Wires.PowerTransformerEnd? PowerTransformerEnd;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="PowerTransformer"/> class

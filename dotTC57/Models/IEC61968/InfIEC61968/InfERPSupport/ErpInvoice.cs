@@ -18,7 +18,7 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfERPSupport {
 		/// Total amount due on this invoice based on line items and applicable adjustments.
 		///
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Money amount;
+		public TC57CIM.IEC61970.Base.Domain.Money? amount;
 		/// <summary>
 		/// Kind of media by which the CustomerBillingInfo was delivered.
 		/// </summary>
@@ -26,7 +26,7 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfERPSupport {
 		/// <summary>
 		/// Calculated date upon which the Invoice amount is due.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Date dueDate;
+		public TC57CIM.IEC61970.Base.Domain.Date? dueDate;
 		/// <summary>
 		/// Kind of invoice (default is 'sales').
 		/// </summary>
@@ -34,7 +34,7 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfERPSupport {
 		/// <summary>
 		/// Date on which the customer billing statement/invoice was printed/mailed.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Date mailedDate;
+		public TC57CIM.IEC61970.Base.Domain.Date? mailedDate;
 		/// <summary>
 		/// True if payment is to be paid by a Customer to accept a particular ErpQuote
 		/// (with associated Design) and have work initiated, at which time an associated
@@ -45,15 +45,15 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfERPSupport {
 		/// <summary>
 		/// Number of an invoice to be reference by this invoice.
 		/// </summary>
-		public string referenceNumber;
+		public string? referenceNumber;
 		/// <summary>
 		/// Date and time when the invoice is issued.
 		/// </summary>
-		public System.DateTime transactionDateTime;
+		public System.DateTime? transactionDateTime;
 		/// <summary>
 		/// Type of invoice transfer.
 		/// </summary>
-		public string transferType;
+		public string? transferType;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ErpInvoice"/> class

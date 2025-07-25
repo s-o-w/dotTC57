@@ -20,55 +20,55 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.PowerSystemStabilizerDynamics
 		/// <summary>
 		/// Main gain (<i>K</i>).  Typical value = 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU k;
+		public TC57CIM.IEC61970.Base.Domain.PU? k;
 		/// <summary>
 		/// Gain 0 (<i>K0</i>).  Typical value = 0,012.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU k0;
+		public TC57CIM.IEC61970.Base.Domain.PU? k0;
 		/// <summary>
 		/// Gain 1 (<i>K1</i>).  Typical value = 0,488.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU k1;
+		public TC57CIM.IEC61970.Base.Domain.PU? k1;
 		/// <summary>
 		/// Gain 2 (<i>K2</i>).  Typical value = 0,064.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU k2;
+		public TC57CIM.IEC61970.Base.Domain.PU? k2;
 		/// <summary>
 		/// Gain 3 (<i>K3</i>).  Typical value = 0,224.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU k3;
+		public TC57CIM.IEC61970.Base.Domain.PU? k3;
 		/// <summary>
 		/// Gain 4 (<i>K4</i>).  Typical value = 0,1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU k4;
+		public TC57CIM.IEC61970.Base.Domain.PU? k4;
 		/// <summary>
 		/// Time constant 1 (<i>T1</i>) (> 0).  Typical value = 0,076.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t1;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t1;
 		/// <summary>
 		/// Time constant 2 (<i>T2</i>) (> 0).  Typical value = 0,086.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t2;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t2;
 		/// <summary>
 		/// Time constant 3 (<i>T3</i>) (> 0).   Typical value = 1,068.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t3;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t3;
 		/// <summary>
 		/// Time constant 4 (<i>T4</i>) (> 0).  Typical value = 1,913.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t4;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t4;
 		/// <summary>
 		/// Input time constant (<i>T</i><i><sub>d</sub></i>) (>= 0).  Typical value = 10.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds td;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? td;
 		/// <summary>
-		/// Output maximum limit (<i>Vsmax</i>) (> PssSH.vsmin).  Typical value = 0,1.
+		/// Output maximum limit (<i>Vsmax</i>) (greater than PssSH.vsmin).  Typical value = 0,1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vsmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? vsmax;
 		/// <summary>
-		/// Output minimum limit (<i>Vsmin</i>) (< PssSH.vsmax).  Typical value = -0,1.
+		/// Output minimum limit (<i>Vsmin</i>) (less than PssSH.vsmax).  Typical value = -0,1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vsmin;
+		public TC57CIM.IEC61970.Base.Domain.PU? vsmin;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="PssSH"/> class

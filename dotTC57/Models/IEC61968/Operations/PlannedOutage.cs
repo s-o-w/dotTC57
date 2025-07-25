@@ -16,7 +16,7 @@ namespace TC57CIM.IEC61968.Operations {
 		/// <summary>
 		/// The reason for the planned outage.
 		/// </summary>
-		public string reason;
+		public string? reason;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="PlannedOutage"/> class

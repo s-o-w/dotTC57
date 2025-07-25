@@ -17,7 +17,7 @@ namespace TC57CIM.IEC61968.AssetInfo.Assets {
 		/// <summary>
 		/// Analytic score contributing to this aggregate score.
 		/// </summary>
-		public TC57CIM.IEC61968.AssetInfo.Assets.AnalyticScore AnalyticScore;
+		public TC57CIM.IEC61968.AssetInfo.Assets.AnalyticScore? AnalyticScore;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="AggregateScore"/> class

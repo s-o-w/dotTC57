@@ -23,12 +23,12 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics {
 		/// Initial pitch angle (<i>theta</i><i><sub>omega0</sub></i>). It is a case-
 		/// dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.AngleDegrees thetaomega;
+		public TC57CIM.IEC61970.Base.Domain.AngleDegrees? thetaomega;
 		/// <summary>
 		/// Wind turbine type 3 model with which this wind aerodynamic model is associated.
 		///
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics.WindTurbineType3IEC WindTurbineType3IEC;
+		public TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics.WindTurbineType3IEC? WindTurbineType3IEC;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="WindAeroOneDimIEC"/> class

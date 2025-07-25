@@ -15,39 +15,39 @@ namespace TC57CIM.IEC61970.Base.Generation.Production {
 		/// <summary>
 		/// Operating and maintenance cost for the thermal unit.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.CostPerHeatUnit oMCost;
+		public TC57CIM.IEC61970.Base.Domain.CostPerHeatUnit? oMCost;
 		/// <summary>
 		/// A thermal generating unit may have a heat rate curve.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Generation.Production.HeatRateCurve HeatRateCurve;
+		public TC57CIM.IEC61970.Base.Generation.Production.HeatRateCurve? HeatRateCurve;
 		/// <summary>
 		/// A thermal generating unit may have one or more fuel allocation schedules.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Generation.Production.FuelAllocationSchedule FuelAllocationSchedules;
+		public TC57CIM.IEC61970.Base.Generation.Production.FuelAllocationSchedule? FuelAllocationSchedules;
 		/// <summary>
 		/// A thermal generating unit may have a startup model.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Generation.Production.StartupModel StartupModel;
+		public TC57CIM.IEC61970.Base.Generation.Production.StartupModel? StartupModel;
 		/// <summary>
 		/// A thermal generating unit may have  one or more emission curves.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Generation.Production.EmissionCurve EmissionCurves;
+		public TC57CIM.IEC61970.Base.Generation.Production.EmissionCurve? EmissionCurves;
 		/// <summary>
 		/// A thermal generating unit may have a shutdown curve.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Generation.Production.ShutdownCurve ShutdownCurve;
+		public TC57CIM.IEC61970.Base.Generation.Production.ShutdownCurve? ShutdownCurve;
 		/// <summary>
 		/// A thermal generating unit may have an incremental heat rate curve.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Generation.Production.IncrementalHeatRateCurve IncrementalHeatRateCurve;
+		public TC57CIM.IEC61970.Base.Generation.Production.IncrementalHeatRateCurve? IncrementalHeatRateCurve;
 		/// <summary>
 		/// A thermal generating unit may have one or more emission allowance accounts.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Generation.Production.EmissionAccount EmmissionAccounts;
+		public TC57CIM.IEC61970.Base.Generation.Production.EmissionAccount? EmmissionAccounts;
 		/// <summary>
 		/// A thermal generating unit may have a heat input curve.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Generation.Production.HeatInputCurve HeatInputCurve;
+		public TC57CIM.IEC61970.Base.Generation.Production.HeatInputCurve? HeatInputCurve;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ThermalGeneratingUnit"/> class

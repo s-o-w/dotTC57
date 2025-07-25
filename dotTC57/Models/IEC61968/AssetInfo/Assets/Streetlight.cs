@@ -14,15 +14,15 @@ namespace TC57CIM.IEC61968.AssetInfo.Assets {
 		/// <summary>
 		/// Length of arm. Note that a new light may be placed on an existing arm.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Length armLength;
+		public TC57CIM.IEC61970.Base.Domain.Length? armLength;
 		/// <summary>
 		/// Lamp kind.
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfAssets.StreetlightLampKind lampKind;
+		public TC57CIM.IEC61968.InfIEC61968.InfAssets.StreetlightLampKind? lampKind;
 		/// <summary>
 		/// Power rating of light.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower lightRating;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? lightRating;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Streetlight"/> class

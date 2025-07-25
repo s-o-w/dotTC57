@@ -18,12 +18,12 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.PowerSystemStabilizerDynamics
 		/// PSS signal conditioning frequency filter constant (<i>A1</i>).  Typical value =
 		/// 0,061.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU a1;
+		public TC57CIM.IEC61970.Base.Domain.PU? a1;
 		/// <summary>
 		/// PSS signal conditioning frequency filter constant (<i>A2</i>).  Typical value =
 		/// 0,0017.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU a2;
+		public TC57CIM.IEC61970.Base.Domain.PU? a2;
 		/// <summary>
 		/// Type of input signal (rotorAngularFrequencyDeviation, generatorElectricalPower,
 		/// or busFrequencyDeviation).  Typical value = rotorAngularFrequencyDeviation.
@@ -32,41 +32,41 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.PowerSystemStabilizerDynamics
 		/// <summary>
 		/// Stabilizer gain (<i>Ks</i>).  Typical value = 5.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU ks;
+		public TC57CIM.IEC61970.Base.Domain.PU? ks;
 		/// <summary>
 		/// Lead/lag time constant (<i>T1</i>) (>= 0).  Typical value = 0,3.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t1;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t1;
 		/// <summary>
 		/// Lead/lag time constant (<i>T2</i>) (>= 0).  Typical value = 0,03.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t2;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t2;
 		/// <summary>
 		/// Lead/lag time constant (<i>T3</i>) (>= 0).  Typical value = 0,3.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t3;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t3;
 		/// <summary>
 		/// Lead/lag time constant (<i>T4</i>) (>= 0).  Typical value = 0,03.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t4;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t4;
 		/// <summary>
 		/// Washout time constant (<i>T5</i>) (>= 0).  Typical value = 10.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t5;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t5;
 		/// <summary>
 		/// Transducer time constant (<i>T6</i>) (>= 0).  Typical value = 0,01.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t6;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t6;
 		/// <summary>
-		/// Maximum stabilizer output (<i>Vrmax</i>) (> PssIEEE1A.vrmin).  Typical value =
+		/// Maximum stabilizer output (<i>Vrmax</i>) (greater than PssIEEE1A.vrmin).  Typical value =
 		/// 0,05.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vrmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? vrmax;
 		/// <summary>
-		/// Minimum stabilizer output (<i>Vrmin</i>) (< PssIEEE1A.vrmax).  Typical value = -
+		/// Minimum stabilizer output (<i>Vrmin</i>) (less than PssIEEE1A.vrmax).  Typical value = -
 		/// 0,05.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vrmin;
+		public TC57CIM.IEC61970.Base.Domain.PU? vrmin;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="PssIEEE1A"/> class

@@ -15,7 +15,7 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.TurbineGovernorDynamics {
 		/// <summary>
 		/// Frequency deadband (<i>DBF</i>).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU dbf;
+		public TC57CIM.IEC61970.Base.Domain.PU? dbf;
 		/// <summary>
 		/// Governor gain (reciprocal of droop) (<i>K</i>).  Typical value = 20.
 		/// </summary>
@@ -24,32 +24,32 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.TurbineGovernorDynamics {
 		/// Fuel flow maximum negative error value (<i>MN</i><i><sub>EF</sub></i>).
 		/// Typical value = -1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU mnef;
+		public TC57CIM.IEC61970.Base.Domain.PU? mnef;
 		/// <summary>
 		/// Fuel flow maximum positive error value (<i>MX</i><i><sub>EF</sub></i>).
 		/// Typical value = 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU mxef;
+		public TC57CIM.IEC61970.Base.Domain.PU? mxef;
 		/// <summary>
 		/// Maximum fuel flow (<i>P</i><i><sub>MAX</sub></i>) (> GovSteam2.pmin).  Typical
 		/// value = 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU pmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? pmax;
 		/// <summary>
-		/// Minimum fuel flow (<i>P</i><i><sub>MIN</sub></i>) (< GovSteam2.pmax).  Typical
+		/// Minimum fuel flow (<i>P</i><i><sub>MIN</sub></i>) (&lt; GovSteam2.pmax).  Typical
 		/// value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU pmin;
+		public TC57CIM.IEC61970.Base.Domain.PU? pmin;
 		/// <summary>
 		/// Governor lag time constant (<i>T</i><i><sub>1</sub></i>) (> 0).  Typical value
 		/// = 0,45.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t1;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t1;
 		/// <summary>
 		/// Governor lead time constant (<i>T</i><i><sub>2</sub></i>) (>= 0).  Typical
 		/// value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t2;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t2;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="GovSteam2"/> class

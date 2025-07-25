@@ -17,11 +17,11 @@ namespace TC57CIM.IEC61970.Base.ControlArea {
 		/// <summary>
 		/// Priority of a measurement usage.   Lower numbers have first priority.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer priority;
+		public TC57CIM.IEC61970.Base.Domain.Integer? priority;
 		/// <summary>
 		/// The specific analog value used as a source.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Meas.AnalogValue AnalogValue;
+		public TC57CIM.IEC61970.Base.Meas.AnalogValue? AnalogValue;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="AltTieMeas"/> class

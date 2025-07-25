@@ -25,42 +25,42 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.ExcitationSystemDynamics {
 		/// Value of <i>Efd </i>at which feedback gain changes
 		/// (<i>E</i><i><sub>FDN</sub></i>) (> 0).  Typical value = 2,36.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU efdn;
+		public TC57CIM.IEC61970.Base.Domain.PU? efdn;
 		/// <summary>
 		/// Voltage regulator gain (<i>K</i><i><sub>A</sub></i>) (> 0).  Typical value = 45,
 		/// 62.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU ka;
+		public TC57CIM.IEC61970.Base.Domain.PU? ka;
 		/// <summary>
 		/// Rectifier loading factor proportional to commutating reactance
 		/// (<i>K</i><i><sub>C</sub></i>) (>= 0).  Typical value = 0,104.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kc;
+		public TC57CIM.IEC61970.Base.Domain.PU? kc;
 		/// <summary>
 		/// Demagnetizing factor, a function of exciter alternator reactances
 		/// (<i>K</i><i><sub>D</sub></i>) (>= 0).  Typical value = 0,499.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kd;
+		public TC57CIM.IEC61970.Base.Domain.PU? kd;
 		/// <summary>
 		/// Exciter constant related to self-excited field (<i>K</i><i><sub>E</sub></i>).
 		/// Typical value = 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU ke;
+		public TC57CIM.IEC61970.Base.Domain.PU? ke;
 		/// <summary>
 		/// Excitation control system stabilizer gains (<i>K</i><i><sub>F</sub></i>) (>= 0).
 		///  Typical value = 0,143.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kf;
+		public TC57CIM.IEC61970.Base.Domain.PU? kf;
 		/// <summary>
 		/// Excitation control system stabilizer gain (<i>K</i><i><sub>N</sub></i>) (>= 0).
 		/// Typical value = 0,05.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kn;
+		public TC57CIM.IEC61970.Base.Domain.PU? kn;
 		/// <summary>
 		/// Constant associated with regulator and alternator field power supply
 		/// (<i>K</i><i><sub>R</sub></i>) (> 0).  Typical value = 3,77.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kr;
+		public TC57CIM.IEC61970.Base.Domain.PU? kr;
 		/// <summary>
 		/// Exciter saturation function value at the corresponding exciter voltage,
 		/// <i>V</i><i><sub>E1</sub></i>, back of commutating reactance
@@ -79,59 +79,59 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.ExcitationSystemDynamics {
 		/// Voltage regulator time constant (<i>T</i><i><sub>A</sub></i>) (> 0).  Typical
 		/// value = 0,013.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds ta;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? ta;
 		/// <summary>
 		/// Voltage regulator time constant (<i>T</i><i><sub>B</sub></i>) (>= 0).  Typical
 		/// value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tb;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tb;
 		/// <summary>
 		/// Voltage regulator time constant (<i>T</i><i><sub>C</sub></i>) (>= 0).  Typical
 		/// value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tc;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tc;
 		/// <summary>
 		/// Exciter time constant, integration rate associated with exciter control
 		/// (<i>T</i><i><sub>E</sub></i>) (> 0).  Typical value = 1,17.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds te;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? te;
 		/// <summary>
 		/// Excitation control system stabilizer time constant
 		/// (<i>T</i><i><sub>F</sub></i>) (> 0).  Typical value = 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tf;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tf;
 		/// <summary>
 		/// Maximum voltage regulator output (<i>V</i><i><sub>AMAX</sub></i>) (> 0).
 		/// Typical value = 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vamax;
+		public TC57CIM.IEC61970.Base.Domain.PU? vamax;
 		/// <summary>
 		/// Minimum voltage regulator output (<i>V</i><i><sub>AMIN</sub></i>) (less than 0).
 		/// Typical value = -0,95.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vamin;
+		public TC57CIM.IEC61970.Base.Domain.PU? vamin;
 		/// <summary>
 		/// Exciter alternator output voltages back of commutating reactance at which
 		/// saturation is defined (<i>V</i><i><sub>E1</sub></i>) (> 0).  Typical value = 6,
 		/// 24.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU ve1;
+		public TC57CIM.IEC61970.Base.Domain.PU? ve1;
 		/// <summary>
 		/// Exciter alternator output voltages back of commutating reactance at which
 		/// saturation is defined (<i>V</i><i><sub>E2</sub></i>) (> 0).  Typical value = 4,
 		/// 68.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU ve2;
+		public TC57CIM.IEC61970.Base.Domain.PU? ve2;
 		/// <summary>
 		/// Minimum exciter voltage output (<i>V</i><i><sub>EMIN</sub></i>) (less than or equal to 0).
 		/// Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vemin;
+		public TC57CIM.IEC61970.Base.Domain.PU? vemin;
 		/// <summary>
 		/// Exciter field current limit reference (<i>V</i><i><sub>FEMAX</sub></i>) (>= 0).
 		/// Typical value = 16.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vfemax;
+		public TC57CIM.IEC61970.Base.Domain.PU? vfemax;
 
 		/// <summary>
 		/// Constructor for ExcIEEEAC3A.

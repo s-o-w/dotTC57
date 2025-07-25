@@ -14,18 +14,15 @@ namespace TC57CIM.IEC61968.Operations {
 	/// </summary>
 	public class SwitchingOrder : Document {
 
-		/// <summary>
-		/// Free-form comment associated with the switching order.
-		/// </summary>
-		public string comment;
+
 		/// <summary>
 		/// The planned start and end time for the switching order.
 		/// </summary>
-		public DateTimeInterval plannedExecutionInterval;
+		public DateTimeInterval? plannedExecutionInterval;
 		/// <summary>
 		/// The switching plan that is defined in the switching order.
 		/// </summary>
-		public TC57CIM.IEC61968.Operations.SwitchingPlan SwitchingPlan;
+		public TC57CIM.IEC61968.Operations.SwitchingPlan? SwitchingPlan;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="SwitchingOrder"/> class

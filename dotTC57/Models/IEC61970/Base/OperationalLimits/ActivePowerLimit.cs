@@ -16,11 +16,11 @@ namespace TC57CIM.IEC61970.Base.OperationalLimits {
 		/// The normal value of active power limit. The attribute shall be a positive value
 		/// or zero.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower normalValue;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? normalValue;
 		/// <summary>
 		/// Value of active power limit. The attribute shall be a positive value or zero.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower value;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? value;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ActivePowerLimit"/> class

@@ -15,11 +15,11 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfAssets {
 		/// <summary>
 		/// Date and time this reconditioning (or a major overhaul) has been performed.
 		/// </summary>
-		public System.DateTime dateTime;
+		public System.DateTime? dateTime;
 		/// <summary>
 		/// The transformer observations
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfAssets.TransformerObservation TransformerObservations;
+		public TC57CIM.IEC61968.InfIEC61968.InfAssets.TransformerObservation? TransformerObservations;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Reconditioning"/> class

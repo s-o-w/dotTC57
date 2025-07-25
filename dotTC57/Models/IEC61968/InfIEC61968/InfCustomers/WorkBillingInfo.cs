@@ -17,11 +17,11 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfCustomers {
 		/// <summary>
 		/// Estimated cost for work.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Money costEstimate;
+		public TC57CIM.IEC61970.Base.Domain.Money? costEstimate;
 		/// <summary>
 		/// Amount of price on deposit.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Money deposit;
+		public TC57CIM.IEC61970.Base.Domain.Money? deposit;
 		/// <summary>
 		/// Discount from standard price.
 		/// </summary>
@@ -29,27 +29,27 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfCustomers {
 		/// <summary>
 		/// Date and time by which payment for bill is expected from client.
 		/// </summary>
-		public System.DateTime dueDateTime;
+		public System.DateTime? dueDateTime;
 		/// <summary>
 		/// Date and time bill was issued to client.
 		/// </summary>
-		public System.DateTime issueDateTime;
+		public System.DateTime? issueDateTime;
 		/// <summary>
 		/// Date payment was received from client.
 		/// </summary>
-		public System.DateTime receivedDateTime;
+		public System.DateTime? receivedDateTime;
 		/// <summary>
 		/// Amount of bill.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Money workPrice;
+		public TC57CIM.IEC61970.Base.Domain.Money? workPrice;
 		/// <summary>
 		/// The erp line items
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfERPSupport.ErpInvoiceLineItem ErpLineItems;
+		public TC57CIM.IEC61968.InfIEC61968.InfERPSupport.ErpInvoiceLineItem? ErpLineItems;
 		/// <summary>
 		/// The works
 		/// </summary>
-		public TC57CIM.IEC61968.Work.Work Works;
+		public TC57CIM.IEC61968.Work.Work? Works;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="WorkBillingInfo"/> class

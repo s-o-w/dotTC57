@@ -22,7 +22,7 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.PowerSystemStabilizerDynamics
 		/// <summary>
 		/// Stabilizer output deadband (<i>DEADBAND</i>).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU deadband;
+		public TC57CIM.IEC61970.Base.Domain.PU? deadband;
 		/// <summary>
 		/// Selector for frequency/shaft speed input (<i>isFreq</i>).
 		/// true = speed (same meaning as InputSignaKind.rotorSpeed)
@@ -47,40 +47,40 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.PowerSystemStabilizerDynamics
 		/// <summary>
 		/// Minimum power PSS enabling (<i>Pmin</i>).  Typical value = 0,25.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU pmin;
+		public TC57CIM.IEC61970.Base.Domain.PU? pmin;
 		/// <summary>
 		/// Lead/lag time constant (<i>T</i><i><sub>L1</sub></i>) (>= 0).  Typical value =
 		/// 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tl1;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tl1;
 		/// <summary>
 		/// Lead/lag time constant (<i>T</i><i><sub>L2</sub></i>) (>= 0).  If = 0, both
 		/// blocks are bypassed.  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tl2;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tl2;
 		/// <summary>
 		/// Lead/lag time constant (<i>T</i><i><sub>L3</sub></i>) (>= 0).  Typical value =
 		/// 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tl3;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tl3;
 		/// <summary>
 		/// Lead/lag time constant (T<sub>L4</sub>) (>= 0).  If = 0, both blocks are
 		/// bypassed.  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tl4;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tl4;
 		/// <summary>
 		/// Electric power filter time constant (<i>T</i><i><sub>PE</sub></i>) (>= 0).
 		/// Typical value = 0,05.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tpe;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tpe;
 		/// <summary>
 		/// First washout (<i>T</i><i><sub>W1</sub></i>) (>= 0).  Typical value = 3,5.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tw1;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tw1;
 		/// <summary>
 		/// Second washout (<i>T</i><i><sub>W2</sub></i>) (>= 0).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tw2;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tw2;
 		/// <summary>
 		/// <font color="#0f0f0f">Signal selector (<i>V</i><i><sub>adAtt</sub></i>).
 		/// </font>
@@ -95,12 +95,12 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.PowerSystemStabilizerDynamics
 		/// Stabilizer output maximum limit (<i>V</i><i><sub>SMN</sub></i>).  Typical value
 		/// = -0,1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vsmn;
+		public TC57CIM.IEC61970.Base.Domain.PU? vsmn;
 		/// <summary>
 		/// Stabilizer output minimum limit (<i>V</i><i><sub>SMX</sub></i>).  Typical value
 		/// = 0,1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vsmx;
+		public TC57CIM.IEC61970.Base.Domain.PU? vsmx;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Pss5"/> class

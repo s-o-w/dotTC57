@@ -14,11 +14,11 @@ namespace TC57CIM.IEC61970.Base.Core {
 		/// <summary>
 		/// The lines within the sub-geographical region.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Wires.Line Lines;
+		public TC57CIM.IEC61970.Base.Wires.Line? Lines;
 		/// <summary>
 		/// The substations in this sub-geographical region.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Core.Substation Substations;
+		public TC57CIM.IEC61970.Base.Core.Substation? Substations;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="SubGeographicalRegion"/> class

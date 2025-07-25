@@ -21,11 +21,11 @@ namespace TC57CIM.IEC61970.Base.Meas {
 		/// <summary>
 		/// The ValueToAlias mappings included in the set.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Meas.ValueToAlias Values;
+		public TC57CIM.IEC61970.Base.Meas.ValueToAlias? Values;
 		/// <summary>
 		/// The Measurements using the set for translation.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Meas.Discrete Discretes;
+		public TC57CIM.IEC61970.Base.Meas.Discrete? Discretes;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ValueAliasSet"/> class

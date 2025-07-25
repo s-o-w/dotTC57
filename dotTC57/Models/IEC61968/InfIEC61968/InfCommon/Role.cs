@@ -16,11 +16,11 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfCommon {
 		/// <summary>
 		/// The status
 		/// </summary>
-		public TC57CIM.IEC61968.Common.Status status;
+		public TC57CIM.IEC61968.Common.Status? status;
 		/// <summary>
 		/// Type of role.
 		/// </summary>
-		public string type;
+		public string? type;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Role"/> class

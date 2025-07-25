@@ -14,7 +14,7 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfAssetInfo {
 		/// <summary>
 		/// Phase trip rating.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.CurrentFlow phaseTrip;
+		public TC57CIM.IEC61970.Base.Domain.CurrentFlow? phaseTrip;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="BreakerInfo"/> class

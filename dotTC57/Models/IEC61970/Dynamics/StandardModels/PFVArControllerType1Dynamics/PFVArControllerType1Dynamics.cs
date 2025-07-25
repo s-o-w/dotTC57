@@ -18,11 +18,11 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.PFVArControllerType1Dynamics 
 		/// Excitation system model with which this power actor or VAr controller type 1
 		/// model is associated.
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.StandardModels.ExcitationSystemDynamics.ExcitationSystemDynamics ExcitationSystemDynamics;
+		public TC57CIM.IEC61970.Dynamics.StandardModels.ExcitationSystemDynamics.ExcitationSystemDynamics? ExcitationSystemDynamics;
 		/// <summary>
 		/// Remote input signal used by this power factor or VAr controller type 1 model.
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.StandardInterconnections.RemoteInputSignal RemoteInputSignal;
+		public TC57CIM.IEC61970.Dynamics.StandardInterconnections.RemoteInputSignal? RemoteInputSignal;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="PFVArControllerType1Dynamics"/> class

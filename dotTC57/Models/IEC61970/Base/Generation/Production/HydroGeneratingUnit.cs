@@ -15,7 +15,7 @@ namespace TC57CIM.IEC61970.Base.Generation.Production {
 		/// <summary>
 		/// The height water drops from the reservoir mid-point to the turbine.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Length dropHeight;
+		public TC57CIM.IEC61970.Base.Domain.Length? dropHeight;
 		/// <summary>
 		/// Energy conversion capability for generating.
 		/// </summary>
@@ -23,23 +23,23 @@ namespace TC57CIM.IEC61970.Base.Generation.Production {
 		/// <summary>
 		/// The equivalent cost of water that drives the hydro turbine.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.CostPerVolume hydroUnitWaterCost;
+		public TC57CIM.IEC61970.Base.Domain.CostPerVolume? hydroUnitWaterCost;
 		/// <summary>
 		/// Type of turbine.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Generation.GenerationTrainingSimulation.HydroTurbineKind turbineType;
+		public TC57CIM.IEC61970.Base.Generation.GenerationTrainingSimulation.HydroTurbineKind? turbineType;
 		/// <summary>
 		/// A hydro generating unit has a tailbay loss curve.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Generation.Production.TailbayLossCurve TailbayLossCurve;
+		public TC57CIM.IEC61970.Base.Generation.Production.TailbayLossCurve? TailbayLossCurve;
 		/// <summary>
 		/// A hydro generating unit has an efficiency curve.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Generation.Production.HydroGeneratingEfficiencyCurve HydroGeneratingEfficiencyCurves;
+		public TC57CIM.IEC61970.Base.Generation.Production.HydroGeneratingEfficiencyCurve? HydroGeneratingEfficiencyCurves;
 		/// <summary>
 		/// A hydro generating unit has a penstock loss curve.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Generation.Production.PenstockLossCurve PenstockLossCurve;
+		public TC57CIM.IEC61970.Base.Generation.Production.PenstockLossCurve? PenstockLossCurve;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="HydroGeneratingUnit"/> class

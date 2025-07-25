@@ -14,7 +14,7 @@ namespace TC57CIM.IEC61968.Work {
 		/// <summary>
 		/// (if applicable) Date the tool was last calibrated.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Date lastCalibrationDate;
+		public TC57CIM.IEC61970.Base.Domain.Date? lastCalibrationDate;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Tool"/> class

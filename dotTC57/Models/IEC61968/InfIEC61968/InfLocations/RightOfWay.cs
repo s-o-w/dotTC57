@@ -19,11 +19,11 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfLocations {
 		/// Property related information that describes the ROW's land parcel. For example,
 		/// it may be a deed book number, deed book page number, and parcel number.
 		/// </summary>
-		public string propertyData;
+		public string? propertyData;
 		/// <summary>
 		/// All land properties this right of way applies to.
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfLocations.LandProperty LandProperties;
+		public TC57CIM.IEC61968.InfIEC61968.InfLocations.LandProperty? LandProperties;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="RightOfWay"/> class

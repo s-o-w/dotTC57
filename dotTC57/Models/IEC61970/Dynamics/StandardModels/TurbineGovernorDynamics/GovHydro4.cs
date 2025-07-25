@@ -17,37 +17,37 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.TurbineGovernorDynamics {
 		/// <summary>
 		/// Turbine gain (<i>At</i>).  Typical value = 1,2.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU at;
+		public TC57CIM.IEC61970.Base.Domain.PU? at;
 		/// <summary>
 		/// Kaplan blade servo point 0 (<i>Bgv0</i>) (= 0 for simple, = 0 for
 		/// Francis/Pelton).  Typical value for Kaplan = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU bgv0;
+		public TC57CIM.IEC61970.Base.Domain.PU? bgv0;
 		/// <summary>
 		/// Kaplan blade servo point 1 (<i>Bgv1</i>) (= 0 for simple, = 0 for
 		/// Francis/Pelton).  Typical value for Kaplan = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU bgv1;
+		public TC57CIM.IEC61970.Base.Domain.PU? bgv1;
 		/// <summary>
 		/// Kaplan blade servo point 2 (<i>Bgv2</i>) (= 0 for simple, = 0 for
 		/// Francis/Pelton).  Typical value for Kaplan = 0,1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU bgv2;
+		public TC57CIM.IEC61970.Base.Domain.PU? bgv2;
 		/// <summary>
 		/// Kaplan blade servo point 3 (<i>Bgv3</i>) (= 0 for simple, = 0 for
 		/// Francis/Pelton).  Typical value for Kaplan = 0,667.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU bgv3;
+		public TC57CIM.IEC61970.Base.Domain.PU? bgv3;
 		/// <summary>
 		/// Kaplan blade servo point 4 (<i>Bgv4</i>) (= 0 for simple, = 0 for
 		/// Francis/Pelton).  Typical value for Kaplan = 0,9.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU bgv4;
+		public TC57CIM.IEC61970.Base.Domain.PU? bgv4;
 		/// <summary>
 		/// Kaplan blade servo point 5 (<i>Bgv5</i>) (= 0 for simple, = 0 for
 		/// Francis/Pelton).  Typical value for Kaplan = 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU bgv5;
+		public TC57CIM.IEC61970.Base.Domain.PU? bgv5;
 		/// <summary>
 		/// Maximum blade adjustment factor (<i>Bmax</i>)  (= 0 for simple, = 0 for
 		/// Francis/Pelton).  Typical value for Kaplan = 1,1276.
@@ -56,70 +56,68 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.TurbineGovernorDynamics {
 		/// <summary>
 		/// Intentional deadband width (<i>db1</i>).  Unit = Hz.  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Frequency db1;
+		public TC57CIM.IEC61970.Base.Domain.Frequency? db1;
 		/// <summary>
 		/// Unintentional dead-band (<i>db2</i>).  Unit = MW.  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower db2;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? db2;
 		/// <summary>
 		/// Turbine damping factor (<i>Dturb</i>).  Unit = delta P (PU of <i>MWbase</i>) /
 		/// delta speed (PU).  Typical value for simple = 0,5, Francis/Pelton = 1,1, Kaplan
 		/// = 1,1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU dturb;
+		public TC57CIM.IEC61970.Base.Domain.PU? dturb;
 		/// <summary>
 		/// Intentional db hysteresis (<i>eps</i>).  Unit = Hz.  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Frequency eps;
+		public TC57CIM.IEC61970.Base.Domain.Frequency? eps;
 		/// <summary>
-		/// Maximum gate opening, PU of <i>MWbase</i> (<i>Gmax</i>) (> GovHydro4.gmin).
+		/// Maximum gate opening, PU of <i>MWbase</i> (<i>Gmax</i>) (greater than GovHydro4.gmin).
 		/// Typical value = 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU gmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? gmax;
 		/// <summary>
-		/// Minimum gate opening, PU of <i>MWbase</i> (<i>Gmin</i>) (< GovHydro4.gmax).
+		/// Minimum gate opening, PU of <i>MWbase</i> (<i>Gmin</i>) (less than GovHydro4.gmax).
 		/// Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU gmin;
+		public TC57CIM.IEC61970.Base.Domain.PU? gmin;
 		/// <summary>
-		/// Nonlinear gain point 0, PU gv (<i>Gv0</i>) (= 0 for simple).  Typical for
-		/// Francis/Pelton = 0,1, Kaplan = 0,1.
+		/// Nonlinear gain point 0, PU gv (<i>Gv0</i>) (equals 0 for simple).  Typical for
+		/// Francis/Pelton equals 0,1, Kaplan equals 0,1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU gv0;
+		public TC57CIM.IEC61970.Base.Domain.PU? gv0;
 		/// <summary>
-		/// Nonlinear gain point 1, PU gv (<i>Gv1</i>) (= 0 for simple, > GovHydro4.gv0 for
-		/// Francis/Pelton and Kaplan). Typical value for Francis/Pelton = 0,4, Kaplan = 0,
-		/// 4.
+		/// Nonlinear gain point 1, PU gv (<i>Gv1</i>) (equals 0 for simple, greater than GovHydro4.gv0 for
+		/// Francis/Pelton and Kaplan). Typical value for Francis/Pelton equals 0,4, Kaplan equals 0,4.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU gv1;
+		public TC57CIM.IEC61970.Base.Domain.PU? gv1;
 		/// <summary>
-		/// Nonlinear gain point 2, PU gv (<i>Gv2</i>) (= 0 for simple, > GovHydro4.gv1 for
-		/// Francis/Pelton and Kaplan). Typical value for Francis/Pelton = 0,5, Kaplan = 0,
-		/// 5.
+		/// Nonlinear gain point 2, PU gv (<i>Gv2</i>) (equals 0 for simple, greater than GovHydro4.gv1 for
+		/// Francis/Pelton and Kaplan). Typical value for Francis/Pelton equals 0,5, Kaplan equals 0,5.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU gv2;
+		public TC57CIM.IEC61970.Base.Domain.PU? gv2;
 		/// <summary>
-		/// Nonlinear gain point 3, PU gv (<i>Gv3</i>)  (= 0 for simple, > GovHydro4.gv2
-		/// for Francis/Pelton and Kaplan). Typical value for Francis/Pelton = 0,7, Kaplan
-		/// = 0,7.
+		/// Nonlinear gain point 3, PU gv (<i>Gv3</i>)  (equals 0 for simple, greater than GovHydro4.gv2
+		/// for Francis/Pelton and Kaplan). Typical value for Francis/Pelton equals 0,7, Kaplan
+		/// equals 0,7.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU gv3;
+		public TC57CIM.IEC61970.Base.Domain.PU? gv3;
 		/// <summary>
-		/// Nonlinear gain point 4, PU gv (<i>Gv4</i>)  (= 0 for simple, > GovHydro4.gv3
-		/// for Francis/Pelton and Kaplan). Typical value for  Francis/Pelton = 0,8, Kaplan
-		/// = 0,8.
+		/// Nonlinear gain point 4, PU gv (<i>Gv4</i>)  (equals 0 for simple, greater than GovHydro4.gv3
+		/// for Francis/Pelton and Kaplan). Typical value for Francis/Pelton equals 0,8, Kaplan
+		/// equals 0,8.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU gv4;
+		public TC57CIM.IEC61970.Base.Domain.PU? gv4;
 		/// <summary>
-		/// Nonlinear gain point 5, PU gv (<i>Gv5</i>)  (= 0 for simple, < 1 and >
+		/// Nonlinear gain point 5, PU gv (<i>Gv5</i>)  (equals 0 for simple, less than 1 and greater than
 		/// GovHydro4.gv4 for Francis/Pelton and Kaplan). Typical value for Francis/Pelton
-		/// = 0,9, Kaplan = 0,9.
+		/// equals 0,9, Kaplan equals 0,9.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU gv5;
+		public TC57CIM.IEC61970.Base.Domain.PU? gv5;
 		/// <summary>
 		/// Head available at dam (<i>hdam</i>).  Typical value = 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU hdam;
+		public TC57CIM.IEC61970.Base.Domain.PU? hdam;
 		/// <summary>
 		/// The kind of model being represented (simple, Francis/Pelton or Kaplan).
 		/// </summary>
@@ -127,70 +125,70 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.TurbineGovernorDynamics {
 		/// <summary>
 		/// Base for power values (<i>MWbase</i>) (> 0).  Unit = MW.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower mwbase;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? mwbase;
 		/// <summary>
 		/// Nonlinear gain point 0, PU power (<i>Pgv0</i>) (= 0 for simple).  Typical value
 		/// = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU pgv0;
+		public TC57CIM.IEC61970.Base.Domain.PU? pgv0;
 		/// <summary>
 		/// Nonlinear gain point 1, PU power (<i>Pgv1</i>) (= 0 for simple).
 		/// Typical value for Francis/Pelton = 0,42, Kaplan = 0,35.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU pgv1;
+		public TC57CIM.IEC61970.Base.Domain.PU? pgv1;
 		/// <summary>
 		/// Nonlinear gain point 2, PU power (<i>Pgv2</i>) (= 0 for simple).
 		/// Typical value for Francis/Pelton = 0,56, Kaplan = 0,468.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU pgv2;
+		public TC57CIM.IEC61970.Base.Domain.PU? pgv2;
 		/// <summary>
 		/// Nonlinear gain point 3, PU power (<i>Pgv3</i>) (= 0 for simple).
 		/// Typical value for Francis/Pelton = 0,8, Kaplan = 0,796.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU pgv3;
+		public TC57CIM.IEC61970.Base.Domain.PU? pgv3;
 		/// <summary>
 		/// Nonlinear gain point 4, PU power (<i>Pgv4</i>) (= 0 for simple).
 		/// Typical value for Francis/Pelton = 0,9, Kaplan = 0,917.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU pgv4;
+		public TC57CIM.IEC61970.Base.Domain.PU? pgv4;
 		/// <summary>
 		/// Nonlinear gain point 5, PU power (<i>Pgv5</i>) (= 0 for simple).
 		/// Typical value for Francis/Pelton = 0,97, Kaplan = 0,99.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU pgv5;
+		public TC57CIM.IEC61970.Base.Domain.PU? pgv5;
 		/// <summary>
 		/// No-load flow at nominal head (<i>Qnl</i>).
 		/// Typical value for simple = 0,08, Francis/Pelton = 0, Kaplan = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU qnl;
+		public TC57CIM.IEC61970.Base.Domain.PU? qnl;
 		/// <summary>
 		/// Permanent droop (<i>Rperm</i>) (>= 0).  Typical value = 0,05.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds rperm;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? rperm;
 		/// <summary>
 		/// Temporary droop (<i>Rtemp</i>) (>= 0).  Typical value = 0,3.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds rtemp;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? rtemp;
 		/// <summary>
 		/// Blade servo time constant (<i>Tblade</i>) (>= 0).  Typical value = 100.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tblade;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tblade;
 		/// <summary>
 		/// Gate servo time constant (<i>Tg</i>) (> 0).  Typical value = 0,5.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tg;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tg;
 		/// <summary>
 		/// Pilot servo time constant (<i>Tp</i>) (>= 0).  Typical value = 0,1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tp;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tp;
 		/// <summary>
 		/// Dashpot time constant (<i>Tr</i>) (>= 0).  Typical value = 5.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tr;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tr;
 		/// <summary>
 		/// Water inertia time constant (<i>Tw</i>) (> 0).  Typical value = 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tw;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tw;
 		/// <summary>
 		/// Max gate closing velocity (<i>Uc</i>).  Typical value = 0,2.
 		/// </summary>

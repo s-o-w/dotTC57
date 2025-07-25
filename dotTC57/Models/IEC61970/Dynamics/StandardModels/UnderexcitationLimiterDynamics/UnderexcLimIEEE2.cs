@@ -30,178 +30,178 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.UnderexcitationLimiterDynamic
 		/// Gain associated with optional integrator feedback input signal to UEL
 		/// (<i>K</i><i><sub>FB</sub></i>).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kfb;
+		public TC57CIM.IEC61970.Base.Domain.PU? kfb;
 		/// <summary>
 		/// UEL excitation system stabilizer gain (<i>K</i><i><sub>UF</sub></i>).  Typical
 		/// value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kuf;
+		public TC57CIM.IEC61970.Base.Domain.PU? kuf;
 		/// <summary>
 		/// UEL integral gain (<i>K</i><i><sub>UI</sub></i>).  Typical value = 0,5.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kui;
+		public TC57CIM.IEC61970.Base.Domain.PU? kui;
 		/// <summary>
 		/// UEL proportional gain (<i>K</i><i><sub>UL</sub></i>).  Typical value = 0,8.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kul;
+		public TC57CIM.IEC61970.Base.Domain.PU? kul;
 		/// <summary>
 		/// Real power values for endpoints (<i>P</i><i><sub>0</sub></i>).  Typical value =
 		/// 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU p0;
+		public TC57CIM.IEC61970.Base.Domain.PU? p0;
 		/// <summary>
 		/// Real power values for endpoints (<i>P</i><i><sub>1</sub></i>).  Typical value =
 		/// 0,3.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU p1;
+		public TC57CIM.IEC61970.Base.Domain.PU? p1;
 		/// <summary>
 		/// Real power values for endpoints (<i>P</i><i><sub>10</sub></i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU p10;
+		public TC57CIM.IEC61970.Base.Domain.PU? p10;
 		/// <summary>
 		/// Real power values for endpoints (<i>P</i><i><sub>2</sub></i>).  Typical value =
 		/// 0,6.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU p2;
+		public TC57CIM.IEC61970.Base.Domain.PU? p2;
 		/// <summary>
 		/// Real power values for endpoints (<i>P</i><i><sub>3</sub></i>).  Typical value =
 		/// 0,9.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU p3;
+		public TC57CIM.IEC61970.Base.Domain.PU? p3;
 		/// <summary>
 		/// Real power values for endpoints (<i>P</i><i><sub>4</sub></i>).  Typical value =
 		/// 1,02.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU p4;
+		public TC57CIM.IEC61970.Base.Domain.PU? p4;
 		/// <summary>
 		/// Real power values for endpoints (<i>P</i><i><sub>5</sub></i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU p5;
+		public TC57CIM.IEC61970.Base.Domain.PU? p5;
 		/// <summary>
 		/// Real power values for endpoints (<i>P</i><i><sub>6</sub></i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU p6;
+		public TC57CIM.IEC61970.Base.Domain.PU? p6;
 		/// <summary>
 		/// Real power values for endpoints (<i>P</i><i><sub>7</sub></i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU p7;
+		public TC57CIM.IEC61970.Base.Domain.PU? p7;
 		/// <summary>
 		/// Real power values for endpoints (<i>P</i><i><sub>8</sub></i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU p8;
+		public TC57CIM.IEC61970.Base.Domain.PU? p8;
 		/// <summary>
 		/// Real power values for endpoints (<i>P</i><i><sub>9</sub></i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU p9;
+		public TC57CIM.IEC61970.Base.Domain.PU? p9;
 		/// <summary>
 		/// Reactive power values for endpoints (<i>Q</i><i><sub>0</sub></i>).  Typical
 		/// value = -0,31.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU q0;
+		public TC57CIM.IEC61970.Base.Domain.PU? q0;
 		/// <summary>
 		/// Reactive power values for endpoints (<i>Q</i><i><sub>1</sub></i>).  Typical
 		/// value = -0,31.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU q1;
+		public TC57CIM.IEC61970.Base.Domain.PU? q1;
 		/// <summary>
 		/// Reactive power values for endpoints (<i>Q</i><i><sub>10</sub></i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU q10;
+		public TC57CIM.IEC61970.Base.Domain.PU? q10;
 		/// <summary>
 		/// Reactive power values for endpoints (<i>Q</i><i><sub>2</sub></i>).  Typical
 		/// value = -0,28.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU q2;
+		public TC57CIM.IEC61970.Base.Domain.PU? q2;
 		/// <summary>
 		/// Reactive power values for endpoints (<i>Q</i><i><sub>3</sub></i>).  Typical
 		/// value = -0,21.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU q3;
+		public TC57CIM.IEC61970.Base.Domain.PU? q3;
 		/// <summary>
 		/// Reactive power values for endpoints (<i>Q</i><i><sub>4</sub></i>).  Typical
 		/// value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU q4;
+		public TC57CIM.IEC61970.Base.Domain.PU? q4;
 		/// <summary>
 		/// Reactive power values for endpoints (<i>Q</i><i><sub>5</sub></i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU q5;
+		public TC57CIM.IEC61970.Base.Domain.PU? q5;
 		/// <summary>
 		/// Reactive power values for endpoints (<i>Q</i><i><sub>6</sub></i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU q6;
+		public TC57CIM.IEC61970.Base.Domain.PU? q6;
 		/// <summary>
 		/// Reactive power values for endpoints (<i>Q</i><i><sub>7</sub></i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU q7;
+		public TC57CIM.IEC61970.Base.Domain.PU? q7;
 		/// <summary>
 		/// Reactive power values for endpoints (<i>Q</i><i><sub>8</sub></i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU q8;
+		public TC57CIM.IEC61970.Base.Domain.PU? q8;
 		/// <summary>
 		/// Reactive power values for endpoints (<i>Q</i><i><sub>9</sub></i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU q9;
+		public TC57CIM.IEC61970.Base.Domain.PU? q9;
 		/// <summary>
 		/// UEL lead time constant (<i>T</i><i><sub>U1</sub></i>) (>= 0).  Typical value =
 		/// 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tu1;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tu1;
 		/// <summary>
 		/// UEL lag time constant (<i>T</i><i><sub>U2</sub></i>) (>= 0).  Typical value = 0.
 		///
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tu2;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tu2;
 		/// <summary>
 		/// UEL lead time constant (<i>T</i><i><sub>U3</sub></i>) (>= 0).  Typical value =
 		/// 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tu3;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tu3;
 		/// <summary>
 		/// UEL lag time constant (<i>T</i><i><sub>U4</sub></i>) (>= 0).  Typical value = 0.
 		///
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tu4;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tu4;
 		/// <summary>
 		/// Time constant associated with optional integrator feedback input signal to UEL
 		/// (<i>T</i><i><sub>UL</sub></i>) (>= 0).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tul;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tul;
 		/// <summary>
 		/// Real power filter time constant (<i>T</i><i><sub>UP</sub></i>) (>= 0).  Typical
 		/// value = 5.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tup;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tup;
 		/// <summary>
 		/// Reactive power filter time constant (<i>T</i><i><sub>UQ</sub></i>) (>= 0).
 		/// Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tuq;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tuq;
 		/// <summary>
 		/// Voltage filter time constant (<i>T</i><i><sub>UV</sub></i>) (>= 0).  Typical
 		/// value = 5.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tuv;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tuv;
 		/// <summary>
 		/// UEL integrator output maximum limit (<i>V</i><i><sub>UIMAX</sub></i>) (>
 		/// UnderexcLimIEEE2.vuimin).  Typical value = 0,25.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vuimax;
+		public TC57CIM.IEC61970.Base.Domain.PU? vuimax;
 		/// <summary>
-		/// UEL integrator output minimum limit (<i>V</i><i><sub>UIMIN</sub></i>) (<
+		/// UEL integrator output minimum limit (<i>V</i><i><sub>UIMIN</sub></i>) (&lt;
 		/// UnderexcLimIEEE2.vuimax).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vuimin;
+		public TC57CIM.IEC61970.Base.Domain.PU? vuimin;
 		/// <summary>
 		/// UEL output maximum limit (<i>V</i><i><sub>ULMAX</sub></i>) (> UnderexcLimIEEE2.
 		/// vulmin).  Typical value = 0,25.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vulmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? vulmax;
 		/// <summary>
-		/// UEL output minimum limit (<i>V</i><i><sub>ULMIN</sub></i>) (< UnderexcLimIEEE2.
-		/// vulmax).  Typical value = 0.
+		/// UEL output minimum limit (<i>V</i><i><sub>ULMIN</sub></i>) (&lt; UnderexcLimIEEE2.vulmax).
+		/// Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vulmin;
+		public TC57CIM.IEC61970.Base.Domain.PU? vulmin;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="UnderexcLimIEEE2"/> class

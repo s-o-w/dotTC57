@@ -19,28 +19,28 @@ namespace TC57CIM.IEC61968.Operations {
 		/// <summary>
 		/// The date and time the outage plan was approved
 		/// </summary>
-		public System.DateTime approvedDateTime;
+		public System.DateTime? approvedDateTime;
 		/// <summary>
 		/// Date and Time the planned outage was canceled.
 		/// </summary>
-		public System.DateTime cancelledDateTime;
+		public System.DateTime? cancelledDateTime;
 		/// <summary>
 		/// planned start and end time of the planned outage.
 		/// </summary>
-		public DateTimeInterval plannedPeriod;
+		public DateTimeInterval? plannedPeriod;
 		/// <summary>
 		/// Purpose of  this outage plan, such as whether it is to replace equipment or
 		/// perform maintenance or repairs or to reconfigure network topology.
 		/// </summary>
-		public string purpose;
+		public string? purpose;
 		/// <summary>
 		/// The outage order that will address the outage plan.
 		/// </summary>
-		public TC57CIM.IEC61968.Operations.OutageOrder OutageOrder;
+		public TC57CIM.IEC61968.Operations.OutageOrder? OutageOrder;
 		/// <summary>
 		/// The outage resulting from the execution of the outage plan.
 		/// </summary>
-		public TC57CIM.IEC61968.Operations.PlannedOutage PlannedOutage;
+		public TC57CIM.IEC61968.Operations.PlannedOutage? PlannedOutage;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="OutagePlan"/> class

@@ -15,12 +15,12 @@ namespace TC57CIM.IEC61968.Metering {
 		/// Communication ID number (e.g. serial number, IP address, telephone number, etc.
 		/// ) of the AMR module which serves this meter.
 		/// </summary>
-		public string amrAddress;
+		public string? amrAddress;
 		/// <summary>
 		/// Communication ID number (e.g. port number, serial number, data collector ID,
 		/// etc.) of the parent device associated to this AMR module.
 		/// </summary>
-		public string amrRouter;
+		public string? amrRouter;
 		/// <summary>
 		/// Kind of communication direction.
 		/// </summary>

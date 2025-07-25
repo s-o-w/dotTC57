@@ -16,11 +16,11 @@ namespace TC57CIM.IEC61968.PaymentMetering {
 		/// <summary>
 		/// Electronic address.
 		/// </summary>
-		public TC57CIM.IEC61968.Common.ElectronicAddress electronicAddress;
+		public TC57CIM.IEC61968.Common.ElectronicAddress? electronicAddress;
 		/// <summary>
 		/// All shifts operated by this cashier.
 		/// </summary>
-		public TC57CIM.IEC61968.PaymentMetering.CashierShift CashierShifts;
+		public TC57CIM.IEC61968.PaymentMetering.CashierShift? CashierShifts;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Cashier"/> class

@@ -25,19 +25,19 @@ namespace TC57CIM.IEC61968.Operations {
 		/// <summary>
 		/// Interval during which this restriction is applied.
 		/// </summary>
-		public DateTimeInterval activePeriod;
+		public DateTimeInterval? activePeriod;
 		/// <summary>
 		/// Restricted (new) value; includes unit of measure and potentially multiplier.
 		/// </summary>
-		public FloatQuantity restrictedValue;
+		public FloatQuantity? restrictedValue;
 		/// <summary>
 		/// Asset model to which this restriction applies.
 		/// </summary>
-		public TC57CIM.IEC61968.AssetInfo.Assets.ProductAssetModel ProductAssetModel;
+		public TC57CIM.IEC61968.AssetInfo.Assets.ProductAssetModel? ProductAssetModel;
 		/// <summary>
 		/// All equipments to which this restriction applies.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Core.Equipment Equipments;
+		public TC57CIM.IEC61970.Base.Core.Equipment? Equipments;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="OperationalRestriction"/> class

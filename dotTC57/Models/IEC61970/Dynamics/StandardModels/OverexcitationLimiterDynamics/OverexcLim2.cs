@@ -20,22 +20,22 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.OverexcitationLimiterDynamics
 		/// Limit value of rated field current (<i>I</i><i><sub>FDLIM</sub></i>).  Typical
 		/// value = 1,05.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU ifdlim;
+		public TC57CIM.IEC61970.Base.Domain.PU? ifdlim;
 		/// <summary>
 		/// Gain Over excitation limiter (<i>K</i><i><sub>OI</sub></i>).  Typical value = 0,
 		/// 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU koi;
+		public TC57CIM.IEC61970.Base.Domain.PU? koi;
 		/// <summary>
-		/// Maximum error signal (<i>V</i><i><sub>OIMAX</sub></i>) (> OverexcLim2.voimin).
+		/// Maximum error signal (<i>V</i><i><sub>OIMAX</sub></i>) (greater than OverexcLim2.voimin).
 		/// Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU voimax;
+		public TC57CIM.IEC61970.Base.Domain.PU? voimax;
 		/// <summary>
-		/// Minimum error signal (<i>V</i><i><sub>OIMIN</sub></i>) (< OverexcLim2.voimax).
+		/// Minimum error signal (<i>V</i><i><sub>OIMIN</sub></i>) (less than OverexcLim2.voimax).
 		/// Typical value = -9999.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU voimin;
+		public TC57CIM.IEC61970.Base.Domain.PU? voimin;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="OverexcLim2"/> class

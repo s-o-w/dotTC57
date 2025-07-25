@@ -21,12 +21,12 @@ namespace TC57CIM.IEC61970.Base.Core {
 		/// CIM relases. It is however recommended to replace aliasName with the Name class
 		/// as aliasName is planned for retirement at a future time.
 		/// </summary>
-		public string aliasName;
+		public string? aliasName;
         /// <summary>
         /// The description is a free human readable text describing or naming the object.
         /// It may be non unique and may not correlate to a naming hierarchy.
         /// </summary>
-        public string description;
+        public string? description;
         /// <summary>
         /// Master resource identifier issued by a model authority. The mRID is unique
         /// within an exchange context. Global uniqueness is easily achieved by using a
@@ -35,20 +35,20 @@ namespace TC57CIM.IEC61970.Base.Core {
         /// For CIMXML data files in RDF syntax conforming to IEC 61970-552, the mRID is
         /// mapped to rdf:ID or rdf:about attributes that identify CIM object elements.
         /// </summary>
-		public Guid mRID;
+		public Guid? mRID;
         /// <summary>
         /// The name is any free human readable and possibly non unique text naming the
         /// object.
         /// </summary>
-        public string name;
+        public string? name;
 		/// <summary>
 		/// The diagram objects that are associated with the domain object.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.DiagramLayout.DiagramObject DiagramObjects;
+		public TC57CIM.IEC61970.Base.DiagramLayout.DiagramObject? DiagramObjects;
 		/// <summary>
 		/// Dataset containing the data objects.
 		/// </summary>
-		public TC57CIM.IEC61970.InfIEC61970.Part303.GenericDataSet.InstanceSet InstanceSet;
+		public TC57CIM.IEC61970.InfIEC61970.Part303.GenericDataSet.InstanceSet? InstanceSet;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="IdentifiedObject"/> class

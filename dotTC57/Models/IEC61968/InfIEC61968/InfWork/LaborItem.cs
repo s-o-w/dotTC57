@@ -14,28 +14,28 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfWork {
 		/// <summary>
 		/// Activity code identifies a specific and distinguishable unit of work.
 		/// </summary>
-		public string activityCode;
+		public string? activityCode;
 		/// <summary>
 		/// Total cost for labor. Note that this may not be able to be derived from labor
 		/// rate and time charged.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Money cost;
+		public TC57CIM.IEC61970.Base.Domain.Money? cost;
 		/// <summary>
 		/// Time required to perform work.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Hours laborDuration;
+		public TC57CIM.IEC61970.Base.Domain.Hours? laborDuration;
 		/// <summary>
 		/// The labor rate applied for work.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.CostRate laborRate;
+		public TC57CIM.IEC61970.Base.Domain.CostRate? laborRate;
 		/// <summary>
 		/// The status
 		/// </summary>
-		public TC57CIM.IEC61968.Common.Status status;
+		public TC57CIM.IEC61968.Common.Status? status;
 		/// <summary>
 		/// The work cost detail
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfWork.WorkCostDetail WorkCostDetail;
+		public TC57CIM.IEC61968.InfIEC61968.InfWork.WorkCostDetail? WorkCostDetail;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="LaborItem"/> class

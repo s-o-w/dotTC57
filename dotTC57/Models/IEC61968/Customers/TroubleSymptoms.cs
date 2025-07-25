@@ -22,7 +22,7 @@ namespace TC57CIM.IEC61968.Customers {
 		/// The extent of the problem being reported that does not fit any of the
 		/// enumeration values.
 		/// </summary>
-		public string troubleSymptomsExtentOther;
+		public string? troubleSymptomsExtentOther;
 		/// <summary>
 		/// The problem with lights being reported.
 		/// </summary>
@@ -31,7 +31,7 @@ namespace TC57CIM.IEC61968.Customers {
 		/// The problem with lights being reported that does not fit any of the enumeration
 		/// values
 		/// </summary>
-		public string troubleSymptomsLightOther;
+		public string? troubleSymptomsLightOther;
 		/// <summary>
 		/// The problem with pole being reported.
 		/// </summary>
@@ -40,7 +40,7 @@ namespace TC57CIM.IEC61968.Customers {
 		/// The problem with pole being reported that does not fit any of the enumeration
 		/// values
 		/// </summary>
-		public string troubleSymptomsPoleOther;
+		public string? troubleSymptomsPoleOther;
 		/// <summary>
 		/// The problem with transformer being reported.
 		/// </summary>
@@ -49,12 +49,12 @@ namespace TC57CIM.IEC61968.Customers {
 		/// The problem with transformer being reported that does not fit any of the
 		/// enumeration values
 		/// </summary>
-		public string troubleSymptomsTransformerOther;
+		public string? troubleSymptomsTransformerOther;
 		/// <summary>
 		/// The problem with tree being reported that does not fit any of the enumeration
 		/// values
 		/// </summary>
-		public string troubleSymptomsTreeOther;
+		public string? troubleSymptomsTreeOther;
 		/// <summary>
 		/// The problem with wire being reported.
 		/// </summary>
@@ -63,11 +63,11 @@ namespace TC57CIM.IEC61968.Customers {
 		/// The problem with wire being reported that does not fit any of the enumeration
 		/// values
 		/// </summary>
-		public string troubleSymptomsWireOther;
+		public string? troubleSymptomsWireOther;
 		/// <summary>
 		/// The trouble ticket
 		/// </summary>
-		public TC57CIM.IEC61968.Customers.TroubleTicket TroubleTicket;
+		public TC57CIM.IEC61968.Customers.TroubleTicket? TroubleTicket;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="TroubleSymptoms"/> class

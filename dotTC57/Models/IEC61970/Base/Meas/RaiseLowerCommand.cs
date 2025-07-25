@@ -16,7 +16,7 @@ namespace TC57CIM.IEC61970.Base.Meas {
 		/// <summary>
 		/// The ValueAliasSet used for translation of a Control value to a name.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Meas.ValueAliasSet ValueAliasSet;
+		public TC57CIM.IEC61970.Base.Meas.ValueAliasSet? ValueAliasSet;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="RaiseLowerCommand"/> class

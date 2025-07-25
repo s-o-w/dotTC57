@@ -16,18 +16,15 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfAssets {
 		/// True if vault is ventilating.
 		/// </summary>
 		public bool hasVentilation;
-		/// <summary>
-		/// True if vault is ventilating.
-		/// </summary>
-		public UndergroundStructureKind kind;
+
 		/// <summary>
 		/// Primary material of underground structure.
 		/// </summary>
-		public string material;
+		public string? material;
 		/// <summary>
 		/// Date sealing warranty expires.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Date sealingWarrantyExpiresDate;
+		public TC57CIM.IEC61970.Base.Domain.Date? sealingWarrantyExpiresDate;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="UndergroundStructure"/> class

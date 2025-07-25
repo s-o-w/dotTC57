@@ -23,25 +23,25 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// Capacitive reactance at maximum capacitive reactive power.  Shall always be
 		/// positive.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Reactance capacitiveRating;
+		public TC57CIM.IEC61970.Base.Domain.Reactance? capacitiveRating;
 		/// <summary>
 		/// Inductive reactance at maximum inductive reactive power.  Shall always be
 		/// negative.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Reactance inductiveRating;
+		public TC57CIM.IEC61970.Base.Domain.Reactance? inductiveRating;
 		/// <summary>
 		/// Reactive power injection. Load sign convention is used, i.e. positive sign
 		/// means flow out from a node.
 		/// Starting value for a steady state solution.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ReactivePower q;
+		public TC57CIM.IEC61970.Base.Domain.ReactivePower? q;
 		/// <summary>
 		/// The characteristics slope of an SVC defines how the reactive power output
 		/// changes in proportion to the difference between the regulated bus voltage and
 		/// the voltage setpoint.
 		/// The attribute shall be a positive value or zero.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.VoltagePerReactivePower slope;
+		public TC57CIM.IEC61970.Base.Domain.VoltagePerReactivePower? slope;
 		/// <summary>
 		/// SVC control mode.
 		/// </summary>
@@ -52,7 +52,7 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// bus voltage is equal to the voltage setpoint, the reactive power output is zero.
 		///
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Voltage voltageSetPoint;
+		public TC57CIM.IEC61970.Base.Domain.Voltage? voltageSetPoint;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="StaticVarCompensator"/> class

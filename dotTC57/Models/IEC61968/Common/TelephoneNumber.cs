@@ -15,35 +15,35 @@ namespace TC57CIM.IEC61968.Common {
 		/// <summary>
 		/// (if applicable) Area or region code.
 		/// </summary>
-		public string areaCode;
+		public string? areaCode;
 		/// <summary>
 		/// City code.
 		/// </summary>
-		public string cityCode;
+		public string? cityCode;
 		/// <summary>
 		/// Country code.
 		/// </summary>
-		public string countryCode;
+		public string? countryCode;
 		/// <summary>
 		/// (if applicable) Dial out code, for instance to call outside an enterprise.
 		/// </summary>
-		public string dialOut;
+		public string? dialOut;
 		/// <summary>
 		/// (if applicable) Extension for this telephone number.
 		/// </summary>
-		public string extension;
+		public string? extension;
 		/// <summary>
 		/// (if applicable) Prefix used when calling an international number.
 		/// </summary>
-		public string internationalPrefix;
+		public string? internationalPrefix;
 		/// <summary>
 		/// Phone number according to International Telecommunication Union (ITU) E.164.
 		/// </summary>
-		public string ituPhone;
+		public string? ituPhone;
 		/// <summary>
 		/// Main (local) part of this telephone number.
 		/// </summary>
-		public string localNumber;
+		public string? localNumber;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="TelephoneNumber"/> class

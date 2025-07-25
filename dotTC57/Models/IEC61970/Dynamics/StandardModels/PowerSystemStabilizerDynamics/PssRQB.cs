@@ -33,27 +33,27 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.PowerSystemStabilizerDynamics
 		/// <summary>
 		/// Speed deadband (<i>SIBV</i>). Typical value = 0,006.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU sibv;
+		public TC57CIM.IEC61970.Base.Domain.PU? sibv;
 		/// <summary>
 		/// Lead lag time constant (<i>T4F</i>) (>= 0). Typical value = 0,045.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t4f;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t4f;
 		/// <summary>
 		/// Input time constant (<i>T4M</i>) (>= 0). Typical value = 5.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t4m;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t4m;
 		/// <summary>
 		/// Speed time constant (<i>T4MOM</i>) (>= 0). Typical value = 1,27.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t4mom;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t4mom;
 		/// <summary>
 		/// Speed delay (<i>TOMD</i>) (>= 0). Typical value = 0,02.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tomd;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tomd;
 		/// <summary>
 		/// Speed time constant (<i>TOMSL</i>) (>= 0). Typical value = 0,04.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tomsl;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tomsl;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="PssRQB"/> class

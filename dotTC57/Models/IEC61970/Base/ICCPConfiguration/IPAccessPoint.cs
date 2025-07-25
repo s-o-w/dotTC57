@@ -18,7 +18,7 @@ namespace TC57CIM.IEC61970.Base.ICCPConfiguration {
 		/// Is the dotted decimal IP Address resolve the IP address. The format is
 		/// controlled by the value of the addressType.
 		/// </summary>
-		public string address;
+		public string? address;
 		/// <summary>
 		/// IP address type.
 		/// </summary>
@@ -27,11 +27,11 @@ namespace TC57CIM.IEC61970.Base.ICCPConfiguration {
 		/// Is the dotted decimal IPAddress of the first hop router.  Format is controlled
 		/// by the addressType.
 		/// </summary>
-		public string gateway;
+		public string? gateway;
 		/// <summary>
 		/// This is the IP subnet mask which controls the local vs non-local routing.
 		/// </summary>
-		public string subnet;
+		public string? subnet;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="IPAccessPoint"/> class

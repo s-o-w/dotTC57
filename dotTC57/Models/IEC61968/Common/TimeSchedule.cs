@@ -28,26 +28,26 @@ namespace TC57CIM.IEC61968.Common {
 		/// 17 min, 22 min, 27 min, 32 min, 37 min, 42 min, 47 min, 52 min, and 57 min past
 		/// each hour.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds offset;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? offset;
 		/// <summary>
 		/// Interval at which the scheduled action repeats (e.g., first Monday of every
 		/// month, last day of the month, etc.).
 		/// </summary>
-		public string recurrencePattern;
+		public string? recurrencePattern;
 		/// <summary>
 		/// Duration between time points, from the beginning of one period to the beginning
 		/// of the next period. Note that a device like a meter may have multiple interval
 		/// periods (e.g., 1 min, 5 min, 15 min, 30 min, or 60 min).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds recurrencePeriod;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? recurrencePeriod;
 		/// <summary>
 		/// Schedule date and time interval.
 		/// </summary>
-		public DateTimeInterval scheduleInterval;
+		public DateTimeInterval? scheduleInterval;
 		/// <summary>
 		/// Sequence of time points belonging to this time schedule.
 		/// </summary>
-		public TC57CIM.IEC61968.Common.TimePoint TimePoints;
+		public TC57CIM.IEC61968.Common.TimePoint? TimePoints;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="TimeSchedule"/> class

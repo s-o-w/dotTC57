@@ -16,7 +16,7 @@ namespace TC57CIM.IEC61968.Metering {
 		/// A sequential value representing the relative position within a given time
 		/// interval.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer position;
+		public TC57CIM.IEC61970.Base.Domain.Integer? position;
 		/// <summary>
 		/// Reason for this reading being taken.
 		/// </summary>
@@ -28,11 +28,11 @@ namespace TC57CIM.IEC61968.Metering {
 		/// <summary>
 		/// All meter readings (sets of values) containing this reading value.
 		/// </summary>
-		public TC57CIM.IEC61968.Metering.MeterReading MeterReadings;
+		public TC57CIM.IEC61968.Metering.MeterReading? MeterReadings;
 		/// <summary>
 		/// Type information for this reading value.
 		/// </summary>
-		public TC57CIM.IEC61968.Metering.ReadingType ReadingType;
+		public TC57CIM.IEC61968.Metering.ReadingType? ReadingType;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Reading"/> class

@@ -17,7 +17,7 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.TurbineLoadControllerDynamics
 		/// <summary>
 		/// Turbine-governor controlled by this turbine load controller.
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.StandardModels.TurbineGovernorDynamics.TurbineGovernorDynamics TurbineGovernorDynamics;
+		public TC57CIM.IEC61970.Dynamics.StandardModels.TurbineGovernorDynamics.TurbineGovernorDynamics? TurbineGovernorDynamics;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="TurbineLoadControllerDynamics"/> class

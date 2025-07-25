@@ -21,11 +21,11 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// Number designation for this wire segment phase. Each wire segment phase within
 		/// a wire segment should have a unique sequence number.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer sequenceNumber;
+		public TC57CIM.IEC61970.Base.Domain.Integer? sequenceNumber;
 		/// <summary>
 		/// The wire segment to which the phase belongs.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Wires.WireSegment WireSegment;
+		public TC57CIM.IEC61970.Base.Wires.WireSegment? WireSegment;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="WireSegmentPhase"/> class

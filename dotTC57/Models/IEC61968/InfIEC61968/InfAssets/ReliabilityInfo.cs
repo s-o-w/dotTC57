@@ -16,19 +16,19 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfAssets {
 		/// <summary>
 		/// Momentary failure rate (temporary failures/kft-year).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PerCent momFailureRate;
+		public TC57CIM.IEC61970.Base.Domain.PerCent? momFailureRate;
 		/// <summary>
 		/// Mean time to repair (MTTR - hours).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Hours mTTR;
+		public TC57CIM.IEC61970.Base.Domain.Hours? mTTR;
 		/// <summary>
 		/// The assets
 		/// </summary>
-		public TC57CIM.IEC61968.AssetInfo.Assets.Asset Assets;
+		public TC57CIM.IEC61968.AssetInfo.Assets.Asset? Assets;
 		/// <summary>
 		/// The specification
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfAssets.Specification Specification;
+		public TC57CIM.IEC61968.InfIEC61968.InfAssets.Specification? Specification;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ReliabilityInfo"/> class

@@ -17,13 +17,13 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// flow out from a node.
 		/// Starting value for a steady state solution.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower p;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? p;
 		/// <summary>
 		/// Reactive power injection. Load sign convention is used, i.e. positive sign
 		/// means flow out from a node.
 		/// Starting value for a steady state solution.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ReactivePower q;
+		public TC57CIM.IEC61970.Base.Domain.ReactivePower? q;
 		/// <summary>
 		/// Power factor (nameplate data). It is primarily used for short circuit data
 		/// exchange according to IEC 60909. The attribute cannot be a negative value.
@@ -33,19 +33,19 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// Nameplate apparent power rating for the unit.
 		/// The attribute shall have a positive value.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ApparentPower ratedS;
+		public TC57CIM.IEC61970.Base.Domain.ApparentPower? ratedS;
 		/// <summary>
 		/// Rated voltage (nameplate data, Ur in IEC 60909-0). It is primarily used for
 		/// short circuit data exchange according to IEC 60909.
 		/// The attribute shall be a positive value.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Voltage ratedU;
+		public TC57CIM.IEC61970.Base.Domain.Voltage? ratedU;
 		/// <summary>
 		/// The synchronous machine drives the turbine which moves the water from a low
 		/// elevation to a higher elevation. The direction of machine rotation for pumping
 		/// may or may not be the same as for generating.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Generation.Production.HydroPump HydroPump;
+		public TC57CIM.IEC61970.Base.Generation.Production.HydroPump? HydroPump;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="RotatingMachine"/> class

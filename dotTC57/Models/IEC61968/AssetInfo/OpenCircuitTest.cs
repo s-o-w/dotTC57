@@ -18,34 +18,34 @@ namespace TC57CIM.IEC61968.AssetInfo {
 		/// <summary>
 		/// Tap step number for the energised end of the test pair.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer energisedEndStep;
+		public TC57CIM.IEC61970.Base.Domain.Integer? energisedEndStep;
 		/// <summary>
 		/// Voltage applied to the winding (end) during test.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Voltage energisedEndVoltage;
+		public TC57CIM.IEC61970.Base.Domain.Voltage? energisedEndVoltage;
 		/// <summary>
 		/// Tap step number for the open end of the test pair.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer openEndStep;
+		public TC57CIM.IEC61970.Base.Domain.Integer? openEndStep;
 		/// <summary>
 		/// Voltage measured at the open-circuited end, with the energised end set to rated
 		/// voltage and all other ends open.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Voltage openEndVoltage;
+		public TC57CIM.IEC61970.Base.Domain.Voltage? openEndVoltage;
 		/// <summary>
 		/// Phase shift measured at the open end with the energised end set to rated
 		/// voltage and all other ends open.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.AngleDegrees phaseShift;
+		public TC57CIM.IEC61970.Base.Domain.AngleDegrees? phaseShift;
 		/// <summary>
 		/// Transformer end that current is applied to in this open-circuit test.
 		/// </summary>
-		public TC57CIM.IEC61968.AssetInfo.TransformerEndInfo EnergisedEnd;
+		public TC57CIM.IEC61968.AssetInfo.TransformerEndInfo? EnergisedEnd;
 		/// <summary>
 		/// Transformer end measured for induced voltage and angle in this open-circuit
 		/// test.
 		/// </summary>
-		public TC57CIM.IEC61968.AssetInfo.TransformerEndInfo OpenEnd;
+		public TC57CIM.IEC61968.AssetInfo.TransformerEndInfo? OpenEnd;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="OpenCircuitTest"/> class

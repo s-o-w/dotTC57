@@ -15,88 +15,88 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.ExcitationSystemDynamics {
 		/// <summary>
 		/// Lead coefficient (<i>A</i><i><sub>1</sub></i>).  Typical value = 0,5.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU a1;
+		public TC57CIM.IEC61970.Base.Domain.PU? a1;
 		/// <summary>
 		/// Lag coefficient (<i>A</i><i><sub>2</sub></i>).  Typical value = 0,5.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU a2;
+		public TC57CIM.IEC61970.Base.Domain.PU? a2;
 		/// <summary>
 		/// Lead coefficient (<i>A</i><i><sub>3</sub></i>).  Typical value = 0,5.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU a3;
+		public TC57CIM.IEC61970.Base.Domain.PU? a3;
 		/// <summary>
 		/// Lag coefficient (<i>A</i><i><sub>4</sub></i>).  Typical value = 0,5.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU a4;
+		public TC57CIM.IEC61970.Base.Domain.PU? a4;
 		/// <summary>
 		/// Lead coefficient (<i>A</i><i><sub>5</sub></i>).  Typical value = 0,5.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU a5;
+		public TC57CIM.IEC61970.Base.Domain.PU? a5;
 		/// <summary>
 		/// Lag coefficient (<i>A</i><i><sub>6</sub></i>).  Typical value = 0,5.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU a6;
+		public TC57CIM.IEC61970.Base.Domain.PU? a6;
 		/// <summary>
 		/// Gain (<i>K</i><i><sub>1</sub></i>).  Typical value = 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU k1;
+		public TC57CIM.IEC61970.Base.Domain.PU? k1;
 		/// <summary>
 		/// Gain (<i>K</i><i><sub>3</sub></i>).  Typical value = 3.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU k3;
+		public TC57CIM.IEC61970.Base.Domain.PU? k3;
 		/// <summary>
 		/// Gain (<i>K</i><i><sub>5</sub></i>).  Typical value = 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU k5;
+		public TC57CIM.IEC61970.Base.Domain.PU? k5;
 		/// <summary>
-		/// Lead time constant (<i>T</i><i><sub>1</sub></i>) (>= 0).  Typical value = 0,05.
+		/// Lead time constant (<i>T</i><i><sub>1</sub></i>) (greater than or equal to 0).  Typical value = 0,05.
 		///
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t1;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t1;
 		/// <summary>
-		/// Lag time constant (<i>T</i><i><sub>2</sub></i>) (>= 0).  Typical value = 0,1.
+		/// Lag time constant (<i>T</i><i><sub>2</sub></i>) (greater than or equal to 0).  Typical value = 0,1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t2;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t2;
 		/// <summary>
-		/// Lead time constant (<i>T</i><i><sub>3</sub></i>) (>= 0).  Typical value = 0,1.
+		/// Lead time constant (<i>T</i><i><sub>3</sub></i>) (greater than or equal to 0).  Typical value = 0,1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t3;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t3;
 		/// <summary>
-		/// Lag time constant (<i>T</i><i><sub>4</sub></i>) (>= 0).  Typical value = 0,1.
+		/// Lag time constant (<i>T</i><i><sub>4</sub></i>) (greater than or equal to 0).  Typical value = 0,1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t4;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t4;
 		/// <summary>
-		/// Lead time constant (<i>T</i><i><sub>5</sub></i>) (>= 0).  Typical value = 0,1.
+		/// Lead time constant (<i>T</i><i><sub>5</sub></i>) (greater than or equal to 0).  Typical value = 0,1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t5;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t5;
 		/// <summary>
-		/// Lag time constant (<i>T</i><i><sub>6</sub></i>) (>= 0).  Typical value = 0,1.
+		/// Lag time constant (<i>T</i><i><sub>6</sub></i>) (greater than or equal to 0).  Typical value = 0,1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t6;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t6;
 		/// <summary>
-		/// Lead-lag maximum limit (<i>Vmax1</i>) (> ExcAVR7.vmin1).  Typical value = 5.
+		/// Lead-lag maximum limit (<i>Vmax1</i>) (greater than ExcAVR7.vmin1).  Typical value = 5.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vmax1;
+		public TC57CIM.IEC61970.Base.Domain.PU? vmax1;
 		/// <summary>
-		/// Lead-lag maximum limit (<i>Vmax3</i>) (> ExcAVR7.vmin3).  Typical value = 5.
+		/// Lead-lag maximum limit (<i>Vmax3</i>) (greater than ExcAVR7.vmin3).  Typical value = 5.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vmax3;
+		public TC57CIM.IEC61970.Base.Domain.PU? vmax3;
 		/// <summary>
-		/// Lead-lag maximum limit (<i>Vmax5</i>) (> ExcAVR7.vmin5).  Typical value = 5.
+		/// Lead-lag maximum limit (<i>Vmax5</i>) (greater than ExcAVR7.vmin5).  Typical value = 5.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vmax5;
+		public TC57CIM.IEC61970.Base.Domain.PU? vmax5;
 		/// <summary>
-		/// Lead-lag minimum limit (<i>Vmin1</i>) (< ExcAVR7.vmax1).  Typical value = -5.
+		/// Lead-lag minimum limit (<i>Vmin1</i>) (&lt; ExcAVR7.vmax1).  Typical value = -5.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vmin1;
+		public TC57CIM.IEC61970.Base.Domain.PU? vmin1;
 		/// <summary>
-		/// Lead-lag minimum limit (<i>Vmin3</i>) (< ExcAVR7.vmax3).  Typical value = -5.
+		/// Lead-lag minimum limit (<i>Vmin3</i>) (&lt; ExcAVR7.vmax3).  Typical value = -5.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vmin3;
+		public TC57CIM.IEC61970.Base.Domain.PU? vmin3;
 		/// <summary>
-		/// Lead-lag minimum limit (<i>Vmin5</i>) (< ExcAVR7.vmax5).  Typical value = -2.
+		/// Lead-lag minimum limit (<i>Vmin5</i>) (&lt; ExcAVR7.vmax5).  Typical value = -2.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vmin5;
+		public TC57CIM.IEC61970.Base.Domain.PU? vmin5;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ExcAVR7"/> class

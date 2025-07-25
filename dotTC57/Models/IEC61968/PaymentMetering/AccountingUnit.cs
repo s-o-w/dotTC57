@@ -15,15 +15,15 @@ namespace TC57CIM.IEC61968.PaymentMetering {
 		/// <summary>
 		/// Unit of service.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.RealEnergy energyUnit;
+		public TC57CIM.IEC61970.Base.Domain.RealEnergy? energyUnit;
 		/// <summary>
 		/// Unit of currency.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Currency monetaryUnit;
+		public TC57CIM.IEC61970.Base.Domain.Currency? monetaryUnit;
 		/// <summary>
 		/// Multiplier for the 'energyUnit' or 'monetaryUnit'.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.UnitMultiplier multiplier;
+		public TC57CIM.IEC61970.Base.Domain.UnitMultiplier? multiplier;
 		/// <summary>
 		/// Value expressed in applicable units.
 		/// </summary>

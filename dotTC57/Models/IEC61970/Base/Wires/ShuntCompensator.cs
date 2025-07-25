@@ -19,7 +19,7 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// change in voltage to when the capacitor is allowed to change state. This
 		/// filters out temporary changes in voltage.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds aVRDelay;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? aVRDelay;
 		/// <summary>
 		/// Used for Yn and Zn connections. True if the neutral is solidly grounded.
 		/// </summary>
@@ -27,18 +27,18 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// <summary>
 		/// The maximum number of sections that may be switched in.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer maximumSections;
+		public TC57CIM.IEC61970.Base.Domain.Integer? maximumSections;
 		/// <summary>
 		/// The voltage at which the nominal reactive power may be calculated. This should
 		/// normally be within 10% of the voltage at which the capacitor is connected to
 		/// the network.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Voltage nomU;
+		public TC57CIM.IEC61970.Base.Domain.Voltage? nomU;
 		/// <summary>
 		/// The normal number of sections switched in. The value shall be between zero and
 		/// ShuntCompensator.maximumSections.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer normalSections;
+		public TC57CIM.IEC61970.Base.Domain.Integer? normalSections;
 		/// <summary>
 		/// The type of phase connection, such as wye or delta.
 		/// </summary>
@@ -62,24 +62,24 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// <summary>
 		/// The switch on count since the capacitor count was last reset or initialized.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer switchOnCount;
+		public TC57CIM.IEC61970.Base.Domain.Integer? switchOnCount;
 		/// <summary>
 		/// The date and time when the capacitor bank was last switched on.
 		/// </summary>
-		public System.DateTime switchOnDate;
+		public System.DateTime? switchOnDate;
 		/// <summary>
 		/// Voltage sensitivity required for the device to regulate the bus voltage, in
 		/// voltage/reactive power.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.VoltagePerReactivePower voltageSensitivity;
+		public TC57CIM.IEC61970.Base.Domain.VoltagePerReactivePower? voltageSensitivity;
 		/// <summary>
 		/// The individual phases models for the shunt compensator.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Wires.ShuntCompensatorPhase ShuntCompensatorPhase;
+		public TC57CIM.IEC61970.Base.Wires.ShuntCompensatorPhase? ShuntCompensatorPhase;
 		/// <summary>
 		/// The shunt compensator action that is performed on the shunt compensator
 		/// </summary>
-		public TC57CIM.IEC61968.Operations.ShuntCompensatorAction ShuntCompensatorAction;
+		public TC57CIM.IEC61968.Operations.ShuntCompensatorAction? ShuntCompensatorAction;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ShuntCompensator"/> class

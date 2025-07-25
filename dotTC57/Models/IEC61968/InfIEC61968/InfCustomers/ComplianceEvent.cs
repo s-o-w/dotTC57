@@ -20,7 +20,7 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfCustomers {
 		/// <summary>
 		/// The deadline for compliance.
 		/// </summary>
-		public System.DateTime deadline;
+		public System.DateTime? deadline;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ComplianceEvent"/> class

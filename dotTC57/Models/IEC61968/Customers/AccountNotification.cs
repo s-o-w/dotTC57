@@ -16,20 +16,20 @@ namespace TC57CIM.IEC61968.Customers {
 		/// Notifications for move-in, move-out, delinquencies, planned outage, demand
 		/// response programs, time of use, etc.
 		/// </summary>
-		public string customerNotificationType;
+		public string? customerNotificationType;
 		/// <summary>
 		/// method of notification such as phone call, email, letter, door hanger, text
 		/// message, etc.
 		/// </summary>
-		public string methodType;
+		public string? methodType;
 		/// <summary>
 		/// Free form text characterizing the notification.
 		/// </summary>
-		public string note;
+		public string? note;
 		/// <summary>
 		/// Time of notification - this is the time the notification was sent.
 		/// </summary>
-		public System.DateTime time;
+		public System.DateTime? time;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="AccountNotification"/> class

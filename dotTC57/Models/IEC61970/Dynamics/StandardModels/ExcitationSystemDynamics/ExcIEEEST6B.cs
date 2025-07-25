@@ -20,42 +20,42 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.ExcitationSystemDynamics {
 		/// Exciter output current limit reference (<i>I</i><i><sub>LR</sub></i>) (> 0).
 		/// Typical value = 4,164.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU ilr;
+		public TC57CIM.IEC61970.Base.Domain.PU? ilr;
 		/// <summary>
 		/// Exciter output current limit adjustment (<i>K</i><i><sub>CI</sub></i>) (> 0).
 		/// Typical value = 1,0577.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kci;
+		public TC57CIM.IEC61970.Base.Domain.PU? kci;
 		/// <summary>
 		/// Pre-control gain constant of the inner loop field regulator
 		/// (<i>K</i><i><sub>FF</sub></i>). Typical value = 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kff;
+		public TC57CIM.IEC61970.Base.Domain.PU? kff;
 		/// <summary>
 		/// Feedback gain constant of the inner loop field regulator
 		/// (<i>K</i><i><sub>G</sub></i>) (>= 0).  Typical value = 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kg;
+		public TC57CIM.IEC61970.Base.Domain.PU? kg;
 		/// <summary>
 		/// Voltage regulator integral gain (<i>K</i><i><sub>IA</sub></i>) (> 0).  Typical
 		/// value = 45,094.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kia;
+		public TC57CIM.IEC61970.Base.Domain.PU? kia;
 		/// <summary>
 		/// Exciter output current limiter gain (<i>K</i><i><sub>LR</sub></i>) (> 0).
 		/// Typical value = 17,33.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU klr;
+		public TC57CIM.IEC61970.Base.Domain.PU? klr;
 		/// <summary>
 		/// Forward gain constant of the inner loop field regulator
 		/// (<i>K</i><i><sub>M</sub></i>).  Typical value = 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU km;
+		public TC57CIM.IEC61970.Base.Domain.PU? km;
 		/// <summary>
 		/// Voltage regulator proportional gain (<u>K</u><u><sub>PA</sub></u>) (> 0).
 		/// Typical value = 18,038.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kpa;
+		public TC57CIM.IEC61970.Base.Domain.PU? kpa;
 		/// <summary>
 		/// OEL input selector (<i>OELin</i>). Typical value = noOELinput.
 		/// </summary>
@@ -64,27 +64,27 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.ExcitationSystemDynamics {
 		/// Feedback time constant of inner loop field voltage regulator
 		/// (<i>T</i><i><sub>G</sub></i>) (>= 0). Typical value = 0,02.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tg;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tg;
 		/// <summary>
 		/// Maximum voltage regulator output (V<i><sub>AMAX</sub></i>) (> 0).  Typical
 		/// value = 4,81.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vamax;
+		public TC57CIM.IEC61970.Base.Domain.PU? vamax;
 		/// <summary>
-		/// Minimum voltage regulator output (<i>V</i><i><sub>AMIN</sub></i>) (< 0).
+		/// Minimum voltage regulator output (<i>V</i><i><sub>AMIN</sub></i>) (less than 0).
 		/// Typical value = -3,85.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vamin;
+		public TC57CIM.IEC61970.Base.Domain.PU? vamin;
 		/// <summary>
 		/// Maximum voltage regulator output (<i>V</i><i><sub>RMAX</sub></i>) (> 0).
 		/// Typical value = 4,81.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vrmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? vrmax;
 		/// <summary>
-		/// Minimum voltage regulator output (<i>V</i><i><sub>RMIN</sub></i>) (< 0).
+		/// Minimum voltage regulator output (<i>V</i><i><sub>RMIN</sub></i>) (less than 0).
 		/// Typical value = -3,85.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vrmin;
+		public TC57CIM.IEC61970.Base.Domain.PU? vrmin;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ExcIEEEST6B"/> class

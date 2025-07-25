@@ -16,11 +16,11 @@ namespace TC57CIM.IEC61968.Metering {
 		/// <summary>
 		/// Name.
 		/// </summary>
-		public string name;
+		public string? name;
 		/// <summary>
 		/// Value, including unit information.
 		/// </summary>
-		public StringQuantity value;
+		public StringQuantity? value;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="EndDeviceEventDetail"/> class

@@ -16,17 +16,17 @@ namespace TC57CIM.IEC61970.Base.DC {
 		/// Angle between VsConverter.uv and ACDCConverter.uc. It is converter�s state
 		/// variable used in power flow. The attribute shall be a positive value or zero.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.AngleDegrees delta;
+		public TC57CIM.IEC61970.Base.Domain.AngleDegrees? delta;
 		/// <summary>
 		/// Droop constant. The pu value is obtained as D [kV/MW] x Sb / Ubdc. The
 		/// attribute shall be a positive value.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU droop;
+		public TC57CIM.IEC61970.Base.Domain.PU? droop;
 		/// <summary>
 		/// Compensation constant. Used to compensate for voltage drop when controlling
 		/// voltage at a distant bus. The attribute shall be a positive value.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Resistance droopCompensation;
+		public TC57CIM.IEC61970.Base.Domain.Resistance? droopCompensation;
 		/// <summary>
 		/// The maximum quotient between the AC converter voltage (Uc) and DC voltage (Ud).
 		/// A factor typically less than 1. It is converter�s configuration data used in
@@ -36,7 +36,7 @@ namespace TC57CIM.IEC61970.Base.DC {
 		/// <summary>
 		/// The maximum current through a valve. It is converter�s configuration data.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.CurrentFlow maxValveCurrent;
+		public TC57CIM.IEC61970.Base.Domain.CurrentFlow? maxValveCurrent;
 		/// <summary>
 		/// Kind of control of real power and/or DC voltage.
 		/// </summary>
@@ -49,12 +49,12 @@ namespace TC57CIM.IEC61970.Base.DC {
 		/// Reactive power sharing factor among parallel converters on Uac control. The
 		/// attribute shall be a positive value or zero.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PerCent qShare;
+		public TC57CIM.IEC61970.Base.Domain.PerCent? qShare;
 		/// <summary>
 		/// Phase target at AC side, at point of common coupling. The attribute shall be a
 		/// positive value.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.AngleDegrees targetPhasePcc;
+		public TC57CIM.IEC61970.Base.Domain.AngleDegrees? targetPhasePcc;
 		/// <summary>
 		/// Power factor target at the AC side, at point of common coupling. The attribute
 		/// shall be a positive value.
@@ -68,22 +68,22 @@ namespace TC57CIM.IEC61970.Base.DC {
 		/// Reactive power injection target in AC grid, at point of common coupling.  Load
 		/// sign convention is used, i.e. positive sign means flow out from a node.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ReactivePower targetQpcc;
+		public TC57CIM.IEC61970.Base.Domain.ReactivePower? targetQpcc;
 		/// <summary>
 		/// Voltage target in AC grid, at point of common coupling. The attribute shall be
 		/// a positive value.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Voltage targetUpcc;
+		public TC57CIM.IEC61970.Base.Domain.Voltage? targetUpcc;
 		/// <summary>
 		/// Line-to-line voltage on the valve side of the converter transformer. It is
 		/// converter�s state variable, result from power flow. The attribute shall be a
 		/// positive value.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Voltage uv;
+		public TC57CIM.IEC61970.Base.Domain.Voltage? uv;
 		/// <summary>
 		/// Capability curve of this converter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.DC.VsCapabilityCurve CapabilityCurve;
+		public TC57CIM.IEC61970.Base.DC.VsCapabilityCurve? CapabilityCurve;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="VsConverter"/> class

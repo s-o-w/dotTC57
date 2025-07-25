@@ -22,73 +22,73 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.PowerSystemStabilizerDynamics
 		/// <summary>
 		/// Notch filter parameter (<i>A1</i>).  Typical value = 0,359.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU a1;
+		public TC57CIM.IEC61970.Base.Domain.PU? a1;
 		/// <summary>
 		/// Notch filter parameter (<i>A2</i>).  Typical value = 0,586.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU a2;
+		public TC57CIM.IEC61970.Base.Domain.PU? a2;
 		/// <summary>
 		/// Notch filter parameter (<i>A3</i>).  Typical value = 0,429.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU a3;
+		public TC57CIM.IEC61970.Base.Domain.PU? a3;
 		/// <summary>
 		/// Notch filter parameter (<i>A4</i>).  Typical value = 0,564.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU a4;
+		public TC57CIM.IEC61970.Base.Domain.PU? a4;
 		/// <summary>
 		/// Notch filter parameter (<i>A5</i>).  Typical value = 0,001.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU a5;
+		public TC57CIM.IEC61970.Base.Domain.PU? a5;
 		/// <summary>
 		/// Notch filter parameter (<i>A6</i>).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU a6;
+		public TC57CIM.IEC61970.Base.Domain.PU? a6;
 		/// <summary>
 		/// Notch filter parameter (<i>A7</i>).  Typical value = 0,031.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU a7;
+		public TC57CIM.IEC61970.Base.Domain.PU? a7;
 		/// <summary>
 		/// Notch filter parameter (<i>A8</i>).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU a8;
+		public TC57CIM.IEC61970.Base.Domain.PU? a8;
 		/// <summary>
 		/// Gain on signal # 1 (<i>Ks1</i>).  Typical value = -0,602.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU ks1;
+		public TC57CIM.IEC61970.Base.Domain.PU? ks1;
 		/// <summary>
 		/// Gain on signal # 2 (<i>Ks2</i>).  Typical value = 30,12.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU ks2;
+		public TC57CIM.IEC61970.Base.Domain.PU? ks2;
 		/// <summary>
 		/// Transducer time constant (<i>T1</i>) (>= 0).  Typical value = 0,012.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t1;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t1;
 		/// <summary>
 		/// Transducer time constant (<i>T2</i>) (>= 0).  Typical value = 0,012.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t2;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t2;
 		/// <summary>
 		/// Washout time constant (<i>Tw1</i>) (>= 0).  Typical value = 0,3.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tw1;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tw1;
 		/// <summary>
 		/// Washout time constant (<i>Tw2</i>) (>= 0).  Typical value = 0,3.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tw2;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tw2;
 		/// <summary>
 		/// Washout time constant (<i>Tw3</i>) (>= 0).  Typical value = 0,6.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tw3;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tw3;
 		/// <summary>
-		/// Stabilizer output maximum limit (<i>Vstmax</i>) (> PssIEEE3B.vstmin).  Typical
+		/// Stabilizer output maximum limit (<i>Vstmax</i>) (greater than PssIEEE3B.vstmin).  Typical
 		/// value = 0,1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vstmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? vstmax;
 		/// <summary>
-		/// Stabilizer output minimum limit (<i>Vstmin</i>) (< PssIEEE3B.vstmax).  Typical
+		/// Stabilizer output minimum limit (<i>Vstmin</i>) (less than PssIEEE3B.vstmax).  Typical
 		/// value = -0,1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vstmin;
+		public TC57CIM.IEC61970.Base.Domain.PU? vstmin;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="PssIEEE3B"/> class

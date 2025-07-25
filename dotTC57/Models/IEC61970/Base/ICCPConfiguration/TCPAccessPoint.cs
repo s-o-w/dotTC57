@@ -17,7 +17,7 @@ namespace TC57CIM.IEC61970.Base.ICCPConfiguration {
 		/// Indicates the default interval at which TCP will check if the TCP connection is
 		/// still valid.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer keepAliveTime;
+		public TC57CIM.IEC61970.Base.Domain.Integer? keepAliveTime;
 		/// <summary>
 		/// This value is only needed to be specified for called nodes (e.g. those that
 		/// respond to a TCP.Open request).
@@ -31,7 +31,7 @@ namespace TC57CIM.IEC61970.Base.ICCPConfiguration {
 		/// for non-TLS protected exchanges. The value shall be 3782 for TLS transported
 		/// ICCP and 61850 exchanges.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer port;
+		public TC57CIM.IEC61970.Base.Domain.Integer? port;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="TCPAccessPoint"/> class

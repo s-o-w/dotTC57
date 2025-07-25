@@ -19,21 +19,21 @@ namespace TC57CIM.IEC61968.Metering {
 		/// (used only when there are detailed auditing requirements) Date and time at
 		/// which the reading was first delivered to the metering system.
 		/// </summary>
-		public System.DateTime reportedDateTime;
+		public System.DateTime? reportedDateTime;
 		/// <summary>
 		/// System that originally supplied the reading (e.g., customer, AMI system,
 		/// handheld reading system, another enterprise system, etc.).
 		/// </summary>
-		public string source;
+		public string? source;
 		/// <summary>
 		/// Start and end of the period for those readings whose type has a time attribute
 		/// such as 'billing', seasonal' or 'forTheSpecifiedPeriod'.
 		/// </summary>
-		public DateTimeInterval timePeriod;
+		public DateTimeInterval? timePeriod;
 		/// <summary>
 		/// Value of this reading.
 		/// </summary>
-		public string value;
+		public string? value;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="BaseReading"/> class

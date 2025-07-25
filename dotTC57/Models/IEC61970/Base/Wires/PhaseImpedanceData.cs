@@ -20,13 +20,13 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// <summary>
 		/// Susceptance matrix element value, per length of unit.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.SusceptancePerLength b;
+		public TC57CIM.IEC61970.Base.Domain.SusceptancePerLength? b;
 		/// <summary>
 		/// The matrix element's column number, in the range 1 to row. Only the lower
 		/// triangle needs to be stored. This column number matches ACLineSegmentPhase.
 		/// sequenceNumber.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer column;
+		public TC57CIM.IEC61970.Base.Domain.Integer? column;
 		/// <summary>
 		/// Refer to the class description.
 		/// </summary>
@@ -34,17 +34,17 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// <summary>
 		/// Conductance matrix element value, per length of unit.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ConductancePerLength g;
+		public TC57CIM.IEC61970.Base.Domain.ConductancePerLength? g;
 		/// <summary>
 		/// Resistance matrix element value, per length of unit.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ResistancePerLength r;
+		public TC57CIM.IEC61970.Base.Domain.ResistancePerLength? r;
 		/// <summary>
 		/// The matrix element�s row number, in the range 1 to PerLengthPhaseImpedance.
 		/// conductorCount. Only the lower triangle needs to be stored. This row number
 		/// matches ACLineSegmentPhase.sequenceNumber.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer row;
+		public TC57CIM.IEC61970.Base.Domain.Integer? row;
 		/// <summary>
 		/// Refer to the class description.
 		/// </summary>
@@ -52,7 +52,7 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// <summary>
 		/// Reactance matrix element value, per length of unit.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ReactancePerLength x;
+		public TC57CIM.IEC61970.Base.Domain.ReactancePerLength? x;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="PhaseImpedanceData"/> class

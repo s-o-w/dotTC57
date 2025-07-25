@@ -16,11 +16,11 @@ namespace TC57CIM.IEC61970.Base.DC {
 		/// <summary>
 		/// Inductance of the device.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Inductance inductance;
+		public TC57CIM.IEC61970.Base.Domain.Inductance? inductance;
 		/// <summary>
 		/// Resistance of the DC device.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Resistance resistance;
+		public TC57CIM.IEC61970.Base.Domain.Resistance? resistance;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="DCSeriesDevice"/> class

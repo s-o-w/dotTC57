@@ -22,7 +22,7 @@ namespace TC57CIM.IEC61970.Base.ICCPConfiguration {
 		/// <summary>
 		/// Agreement to information provider.
 		/// </summary>
-		private TC57CIM.IEC61970.Base.ICCPConfiguration.BilateralExchangeAgreement ProviderBilateralExchange;
+		public TC57CIM.IEC61970.Base.ICCPConfiguration.BilateralExchangeAgreement? ProviderBilateralExchange;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="BilateralExchangeActor"/> class

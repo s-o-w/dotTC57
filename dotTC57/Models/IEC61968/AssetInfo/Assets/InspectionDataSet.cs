@@ -14,7 +14,7 @@ namespace TC57CIM.IEC61968.AssetInfo.Assets {
 		/// <summary>
 		/// Description of the conditions of the location where the asset resides.
 		/// </summary>
-		public string locationCondition;
+		public string? locationCondition;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="InspectionDataSet"/> class

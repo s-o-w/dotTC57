@@ -15,7 +15,7 @@ namespace TC57CIM.IEC61968.Metering {
 		/// <summary>
 		/// Inherent capabilities of the device (i.e., the functions it supports).
 		/// </summary>
-		public EndDeviceCapability capability;
+		public EndDeviceCapability? capability;
 		/// <summary>
 		/// If true, this is a solid state end device (as opposed to a mechanical or
 		/// electromechanical device).
@@ -24,15 +24,15 @@ namespace TC57CIM.IEC61968.Metering {
 		/// <summary>
 		/// Number of potential phases the end device supports, typically 0, 1 or 3.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer phaseCount;
+		public TC57CIM.IEC61970.Base.Domain.Integer? phaseCount;
 		/// <summary>
 		/// Rated current.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.CurrentFlow ratedCurrent;
+		public TC57CIM.IEC61970.Base.Domain.CurrentFlow? ratedCurrent;
 		/// <summary>
 		/// Rated voltage.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Voltage ratedVoltage;
+		public TC57CIM.IEC61970.Base.Domain.Voltage? ratedVoltage;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="EndDeviceInfo"/> class

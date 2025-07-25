@@ -16,28 +16,28 @@ namespace TC57CIM.IEC61968.Common {
 		/// <summary>
 		/// Electronic address.
 		/// </summary>
-		public ElectronicAddress electronicAddress;
+		public ElectronicAddress? electronicAddress;
 		/// <summary>
 		/// Phone number.
 		/// </summary>
-		public TelephoneNumber phone1;
+		public TelephoneNumber? phone1;
 		/// <summary>
 		/// Additional phone number.
 		/// </summary>
-		public TelephoneNumber phone2;
+		public TelephoneNumber? phone2;
 		/// <summary>
 		/// Postal address, potentially different than 'streetAddress' (e.g., another city).
 		///
 		/// </summary>
-		public StreetAddress postalAddress;
+		public StreetAddress? postalAddress;
 		/// <summary>
 		/// Street address.
 		/// </summary>
-		public StreetAddress streetAddress;
+		public StreetAddress? streetAddress;
 		/// <summary>
 		/// Parent organisation of this organisation.
 		/// </summary>
-		public TC57CIM.IEC61968.Common.ParentOrganization ParentOrganisation;
+		public TC57CIM.IEC61968.Common.ParentOrganization? ParentOrganisation;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Organisation"/> class

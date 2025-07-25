@@ -20,15 +20,15 @@ namespace TC57CIM.IEC61970.Base.Core {
 		/// for naming purposes.   Should be consistent with the other associations for
 		/// energizing terminal specification and the feeder energization specification.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Core.Substation NamingSecondarySubstation;
+		public TC57CIM.IEC61970.Base.Core.Substation? NamingSecondarySubstation;
 		/// <summary>
 		/// The normal head terminal or terminals of the feeder.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Core.Terminal NormalHeadTerminal;
+		public TC57CIM.IEC61970.Base.Core.Terminal? NormalHeadTerminal;
 		/// <summary>
 		/// The substations that are normally energized by the feeder.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Core.Substation NormalEnergizedSubstation;
+		public TC57CIM.IEC61970.Base.Core.Substation? NormalEnergizedSubstation;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Feeder"/> class

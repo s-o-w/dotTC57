@@ -16,11 +16,11 @@ namespace TC57CIM.IEC61968.Common {
 		/// <summary>
 		/// The type of person reporting the trouble
 		/// </summary>
-		public string troubleReporterType;
+		public string? troubleReporterType;
 		/// <summary>
 		/// The trouble ticket
 		/// </summary>
-		public TC57CIM.IEC61968.Customers.TroubleTicket TroubleTicket;
+		public TC57CIM.IEC61968.Customers.TroubleTicket? TroubleTicket;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="TroubleReporter"/> class

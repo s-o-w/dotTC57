@@ -16,15 +16,15 @@ namespace TC57CIM.IEC61968.Common {
 		/// <summary>
 		/// Share of this ownership.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PerCent share;
+		public TC57CIM.IEC61970.Base.Domain.PerCent? share;
 		/// <summary>
 		/// Asset owner that is subject in this ownership.
 		/// </summary>
-		public TC57CIM.IEC61968.AssetInfo.Assets.AssetOwner AssetOwner;
+		public TC57CIM.IEC61968.AssetInfo.Assets.AssetOwner? AssetOwner;
 		/// <summary>
 		/// Asset that is object of this ownership.
 		/// </summary>
-		public TC57CIM.IEC61968.AssetInfo.Assets.Asset Asset;
+		public TC57CIM.IEC61968.AssetInfo.Assets.Asset? Asset;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Ownership"/> class

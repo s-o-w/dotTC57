@@ -34,41 +34,41 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.ExcitationSystemDynamics {
 		/// <summary>
 		/// Integrator limiter (<i>LSAT</i>).  Typical value = 5,73.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU lsat;
+		public TC57CIM.IEC61970.Base.Domain.PU? lsat;
 		/// <summary>
 		/// Setpoint (<i>LUS</i>).  Typical value = 0,12.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU lus;
+		public TC57CIM.IEC61970.Base.Domain.PU? lus;
 		/// <summary>
 		/// Voltage input time constant (<i>MESU</i>) (>= 0).  Typical value = 0,02.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds mesu;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? mesu;
 		/// <summary>
 		/// Input time constant (<i>T4M</i>) (>= 0).  Typical value = 5.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t4m;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t4m;
 		/// <summary>
 		/// Lead lag time constant (<i>TC</i>) (>= 0).  Typical value = 0,02.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tc;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tc;
 		/// <summary>
 		/// Lead lag time constant (<i>TE</i>) (>= 0).  Typical value = 0,22.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds te;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? te;
 		/// <summary>
 		/// Exciter time constant (<i>TF</i>) (>= 0).  Typical value = 0,01.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tf;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tf;
 		/// <summary>
-		/// Maximum voltage reference limit (<i>UCMAX</i>) (> ExcRQB.ucmin).  Typical value
+		/// Maximum voltage reference limit (<i>UCMAX</i>) (&gt; ExcRQB.ucmin).  Typical value
 		/// = 1,1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU ucmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? ucmax;
 		/// <summary>
-		/// Minimum voltage reference limit (<i>UCMIN</i>) (< ExcRQB.ucmax).  Typical value
+		/// Minimum voltage reference limit (<i>UCMIN</i>) (&lt; ExcRQB.ucmax).  Typical value
 		/// = 0,9.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU ucmin;
+		public TC57CIM.IEC61970.Base.Domain.PU? ucmin;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ExcRQB"/> class

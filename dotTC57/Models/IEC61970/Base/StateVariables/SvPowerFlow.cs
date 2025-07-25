@@ -17,25 +17,25 @@ namespace TC57CIM.IEC61970.Base.StateVariables {
 		/// The active power flow. Load sign convention is used, i.e. positive sign means
 		/// flow out from a TopologicalNode (bus) into the conducting equipment.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower p;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? p;
 		/// <summary>
 		/// The individual phase of the flow.   If unspecified, then assumed to be balanced
 		/// among phases.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Wires.SinglePhaseKind phase;
+		public TC57CIM.IEC61970.Base.Wires.SinglePhaseKind? phase;
 		/// <summary>
 		/// The reactive power flow. Load sign convention is used, i.e. positive sign means
 		/// flow out from a TopologicalNode (bus) into the conducting equipment.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ReactivePower q;
+		public TC57CIM.IEC61970.Base.Domain.ReactivePower? q;
 		/// <summary>
 		/// The terminal associated with the power flow state variable.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Core.Terminal Terminal;
+		public TC57CIM.IEC61970.Base.Core.Terminal? Terminal;
 		/// <summary>
 		/// The energygroup
 		/// </summary>
-		public TC57CIM.IEC61970.InfIEC61970.EnergyArea.EnergyGroup m_EnergyGroup;
+		public TC57CIM.IEC61970.InfIEC61970.EnergyArea.EnergyGroup? m_EnergyGroup;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="SvPowerFlow"/> class

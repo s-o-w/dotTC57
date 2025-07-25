@@ -107,7 +107,7 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.LoadDynamics {
 		/// <summary>
 		/// Aggregate load to which this aggregate static load belongs.
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.StandardModels.LoadDynamics.LoadAggregate LoadAggregate;
+		public TC57CIM.IEC61970.Dynamics.StandardModels.LoadDynamics.LoadAggregate? LoadAggregate;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="LoadStatic"/> class

@@ -21,19 +21,19 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.ExcitationSystemDynamics {
 		/// </summary>
 		public bool cswitch;
 		/// <summary>
-		/// Maximum field voltage output (<i>Emax</i>) (> ExcSCRX.emin).  Typical value = 5.
+		/// Maximum field voltage output (<i>Emax</i>) (&gt; ExcSCRX.emin).  Typical value = 5.
 		///
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU emax;
+		public TC57CIM.IEC61970.Base.Domain.PU? emax;
 		/// <summary>
-		/// Minimum field voltage output (<i>Emin</i>) (< ExcSCRX.emax).  Typical value = 0.
+		/// Minimum field voltage output (<i>Emin</i>) (&lt; ExcSCRX.emax).  Typical value = 0.
 		///
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU emin;
+		public TC57CIM.IEC61970.Base.Domain.PU? emin;
 		/// <summary>
 		/// Gain (<i>K</i>) (> 0).  Typical value = 200.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU k;
+		public TC57CIM.IEC61970.Base.Domain.PU? k;
 		/// <summary>
 		/// Ratio of field discharge resistance to field winding resistance ([<i>rc /
 		/// rfd]</i>).  Typical value = 0.
@@ -48,11 +48,11 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.ExcitationSystemDynamics {
 		/// Denominator time constant of lag-lead block (<i>Tb</i>) (>= 0).  Typical value
 		/// = 10.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tb;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tb;
 		/// <summary>
 		/// Time constant of gain block (<i>Te</i>) (> 0).  Typical value = 0,02.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds te;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? te;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ExcSCRX"/> class

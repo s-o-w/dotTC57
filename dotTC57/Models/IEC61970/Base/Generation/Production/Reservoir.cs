@@ -17,7 +17,7 @@ namespace TC57CIM.IEC61970.Base.Generation.Production {
 		/// Storage volume between the full supply level and the normal minimum operating
 		/// level.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Volume activeStorageCapacity;
+		public TC57CIM.IEC61970.Base.Domain.Volume? activeStorageCapacity;
 		/// <summary>
 		/// The reservoir's energy storage rating in energy for given head conditions.
 		/// </summary>
@@ -26,23 +26,23 @@ namespace TC57CIM.IEC61970.Base.Generation.Production {
 		/// Full supply level, above which water will spill. This can be the spillway crest
 		/// level or the top of closed gates.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.WaterLevel fullSupplyLevel;
+		public TC57CIM.IEC61970.Base.Domain.WaterLevel? fullSupplyLevel;
 		/// <summary>
 		/// Total capacity of reservoir.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Volume grossCapacity;
+		public TC57CIM.IEC61970.Base.Domain.Volume? grossCapacity;
 		/// <summary>
 		/// Normal minimum operating level below which the penstocks will draw air.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.WaterLevel normalMinOperateLevel;
+		public TC57CIM.IEC61970.Base.Domain.WaterLevel? normalMinOperateLevel;
 		/// <summary>
 		/// River outlet works for riparian right releases or other purposes.
 		/// </summary>
-		public string riverOutletWorks;
+		public string? riverOutletWorks;
 		/// <summary>
 		/// The spillway water travel delay to the next downstream reservoir.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds spillTravelDelay;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? spillTravelDelay;
 		/// <summary>
 		/// The flow capacity of the spillway in cubic meters per second.
 		/// </summary>
@@ -50,31 +50,31 @@ namespace TC57CIM.IEC61970.Base.Generation.Production {
 		/// <summary>
 		/// The length of the spillway crest.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Length spillwayCrestLength;
+		public TC57CIM.IEC61970.Base.Domain.Length? spillwayCrestLength;
 		/// <summary>
 		/// Spillway crest level above which water will spill.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.WaterLevel spillwayCrestLevel;
+		public TC57CIM.IEC61970.Base.Domain.WaterLevel? spillwayCrestLevel;
 		/// <summary>
 		/// Type of spillway gate, including parameters.
 		/// </summary>
-		public string spillWayGateType;
+		public string? spillWayGateType;
 		/// <summary>
 		/// A reservoir may spill into a downstream reservoir.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Generation.Production.Reservoir SpillsIntoReservoirs;
+		public TC57CIM.IEC61970.Base.Generation.Production.Reservoir? SpillsIntoReservoirs;
 		/// <summary>
 		/// A reservoir may have a level versus volume relationship.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Generation.Production.LevelVsVolumeCurve LevelVsVolumeCurves;
+		public TC57CIM.IEC61970.Base.Generation.Production.LevelVsVolumeCurve? LevelVsVolumeCurves;
 		/// <summary>
 		/// A reservoir may have a "natural" inflow forecast.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Generation.Production.InflowForecast InflowForecasts;
+		public TC57CIM.IEC61970.Base.Generation.Production.InflowForecast? InflowForecasts;
 		/// <summary>
 		/// A reservoir may have a water level target schedule.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Generation.Production.TargetLevelSchedule TargetLevelSchedule;
+		public TC57CIM.IEC61970.Base.Generation.Production.TargetLevelSchedule? TargetLevelSchedule;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Reservoir"/> class

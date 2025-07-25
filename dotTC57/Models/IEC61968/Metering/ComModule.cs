@@ -22,7 +22,7 @@ namespace TC57CIM.IEC61968.Metering {
 		/// <summary>
 		/// Automated meter reading (AMR) system communicating with this com module.
 		/// </summary>
-		public string amrSystem;
+		public string? amrSystem;
 		/// <summary>
 		/// If true, autonomous daylight saving time (DST) function is supported.
 		/// </summary>
@@ -30,11 +30,11 @@ namespace TC57CIM.IEC61968.Metering {
 		/// <summary>
 		/// Time zone offset relative to GMT for the location of this com module.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Minutes timeZoneOffset;
+		public TC57CIM.IEC61970.Base.Domain.Minutes? timeZoneOffset;
 		/// <summary>
 		/// All functions this communication module performs.
 		/// </summary>
-		public TC57CIM.IEC61968.Metering.ComFunction ComFunctions;
+		public TC57CIM.IEC61968.Metering.ComFunction? ComFunctions;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ComModule"/> class

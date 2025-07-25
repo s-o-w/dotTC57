@@ -22,12 +22,12 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics {
 		/// Current PI controller integration time constant (<i>T</i><i><sub>Ic</sub></i>)
 		/// (>= 0). It is a type-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tic;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tic;
 		/// <summary>
 		/// Wind turbine type 4 model with which this wind generator type 3A model is
 		/// associated.
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics.WindTurbineType4IEC WindTurbineType4IEC;
+		public TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics.WindTurbineType4IEC? WindTurbineType4IEC;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="WindGenType3aIEC"/> class

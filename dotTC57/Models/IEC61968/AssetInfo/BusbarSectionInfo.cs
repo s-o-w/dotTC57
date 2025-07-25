@@ -15,11 +15,11 @@ namespace TC57CIM.IEC61968.AssetInfo {
 		/// <summary>
 		/// Rated current.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.CurrentFlow ratedCurrent;
+		public TC57CIM.IEC61970.Base.Domain.CurrentFlow? ratedCurrent;
 		/// <summary>
 		/// Rated voltage.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Voltage ratedVoltage;
+		public TC57CIM.IEC61970.Base.Domain.Voltage? ratedVoltage;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="BusbarSectionInfo"/> class

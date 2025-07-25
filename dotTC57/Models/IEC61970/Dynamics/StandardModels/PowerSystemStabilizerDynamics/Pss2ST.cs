@@ -29,67 +29,67 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.PowerSystemStabilizerDynamics
 		/// <summary>
 		/// Gain (<i>K</i><i><sub>1</sub></i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU k1;
+		public TC57CIM.IEC61970.Base.Domain.PU? k1;
 		/// <summary>
 		/// Gain (<i>K</i><i><sub>2</sub></i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU k2;
+		public TC57CIM.IEC61970.Base.Domain.PU? k2;
 		/// <summary>
-		/// Limiter (<i>L</i><i><sub>SMAX</sub></i>) (> Pss2ST.lsmin).
+		/// Limiter (<i>L</i><i><sub>SMAX</sub></i>) (greater than Pss2ST.lsmin).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU lsmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? lsmax;
 		/// <summary>
-		/// Limiter (<i>L</i><i><sub>SMIN</sub></i>) (< Pss2ST.lsmax).
+		/// Limiter (<i>L</i><i><sub>SMIN</sub></i>) (less than Pss2ST.lsmax).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU lsmin;
+		public TC57CIM.IEC61970.Base.Domain.PU? lsmin;
 		/// <summary>
 		/// Time constant (<i>T</i><i><sub>1</sub></i>) (>= 0).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t1;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t1;
 		/// <summary>
 		/// Time constant (<i>T</i><i><sub>10</sub></i>) (>= 0).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t10;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t10;
 		/// <summary>
 		/// Time constant (<i>T</i><i><sub>2</sub></i>) (>= 0).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t2;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t2;
 		/// <summary>
 		/// Time constant (<i>T</i><i><sub>3</sub></i>) (>= 0).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t3;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t3;
 		/// <summary>
 		/// Time constant (<i>T</i><i><sub>4</sub></i>) (>= 0).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t4;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t4;
 		/// <summary>
 		/// Time constant (<i>T</i><i><sub>5</sub></i>) (>= 0).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t5;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t5;
 		/// <summary>
 		/// Time constant (<i>T</i><i><sub>6</sub></i>) (>= 0).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t6;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t6;
 		/// <summary>
 		/// Time constant (<i>T</i><i><sub>7</sub></i>) (>= 0).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t7;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t7;
 		/// <summary>
 		/// Time constant (<i>T</i><i><sub>8</sub></i>) (>= 0).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t8;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t8;
 		/// <summary>
 		/// Time constant (<i>T</i><i><sub>9</sub></i>) (>= 0).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t9;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t9;
 		/// <summary>
 		/// Cutoff limiter (<i>V</i><i><sub>CL</sub></i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vcl;
+		public TC57CIM.IEC61970.Base.Domain.PU? vcl;
 		/// <summary>
 		/// Cutoff limiter (<i>V</i><i><sub>CU</sub></i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vcu;
+		public TC57CIM.IEC61970.Base.Domain.PU? vcu;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Pss2ST"/> class

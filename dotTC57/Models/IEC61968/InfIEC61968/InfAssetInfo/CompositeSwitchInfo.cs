@@ -19,12 +19,12 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfAssetInfo {
 		/// <summary>
 		/// Initial operating mode, with the following values: Automatic, Manual.
 		/// </summary>
-		public string initOpMode;
+		public string? initOpMode;
 		/// <summary>
 		/// Breaking capacity, or short circuit rating, is the maximum rated current which
 		/// the device can safely interrupt at the rated voltage.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.CurrentFlow interruptingRating;
+		public TC57CIM.IEC61970.Base.Domain.CurrentFlow? interruptingRating;
 		/// <summary>
 		/// Kind of composite switch.
 		/// </summary>
@@ -32,15 +32,15 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfAssetInfo {
 		/// <summary>
 		/// Phases carried, if applicable.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Core.PhaseCode phaseCode;
+		public TC57CIM.IEC61970.Base.Core.PhaseCode? phaseCode;
 		/// <summary>
 		/// Supported number of phases, typically 0, 1 or 3.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer phaseCount;
+		public TC57CIM.IEC61970.Base.Domain.Integer? phaseCount;
 		/// <summary>
 		/// Rated voltage.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Voltage ratedVoltage;
+		public TC57CIM.IEC61970.Base.Domain.Voltage? ratedVoltage;
 		/// <summary>
 		/// True if device is capable of being operated by remote control.
 		/// </summary>
@@ -48,7 +48,7 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfAssetInfo {
 		/// <summary>
 		/// Number of switch states represented by the composite switch.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer switchStateCount;
+		public TC57CIM.IEC61970.Base.Domain.Integer? switchStateCount;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="CompositeSwitchInfo"/> class

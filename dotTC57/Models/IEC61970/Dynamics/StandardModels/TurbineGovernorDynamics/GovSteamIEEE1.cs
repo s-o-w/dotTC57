@@ -19,7 +19,7 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.TurbineGovernorDynamics {
 		/// <summary>
 		/// Governor gain (reciprocal of droop) (<i>K</i>) (> 0).  Typical value = 25.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU k;
+		public TC57CIM.IEC61970.Base.Domain.PU? k;
 		/// <summary>
 		/// Fraction of HP shaft power after first boiler pass (<i>K1</i>).  Typical value
 		/// = 0,2.
@@ -63,48 +63,48 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.TurbineGovernorDynamics {
 		/// <summary>
 		/// Base for power values (<i>MWbase</i>) (> 0)<i>. </i>Unit = MW.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower mwbase;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? mwbase;
 		/// <summary>
 		/// Maximum valve opening (<i>Pmax</i>) (> GovSteamIEEE1.pmin).  Typical value = 1.
 		///
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU pmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? pmax;
 		/// <summary>
-		/// Minimum valve opening (<i>Pmin</i>) (>= 0 and < GovSteamIEEE1.pmax).  Typical
+		/// Minimum valve opening (<i>Pmin</i>) (>= 0 and &lt; GovSteamIEEE1.pmax).  Typical
 		/// value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU pmin;
+		public TC57CIM.IEC61970.Base.Domain.PU? pmin;
 		/// <summary>
 		/// Governor lag time constant (<i>T1</i>) (>= 0).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t1;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t1;
 		/// <summary>
 		/// Governor lead time constant (<i>T2</i>) (>= 0).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t2;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t2;
 		/// <summary>
 		/// Valve positioner time constant (<i>T3</i>) (> 0).  Typical value = 0,1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t3;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t3;
 		/// <summary>
 		/// Inlet piping/steam bowl time constant (<i>T4</i>) (>= 0).  Typical value = 0,3.
 		///
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t4;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t4;
 		/// <summary>
 		/// Time constant of second boiler pass (<i>T5</i>) (>= 0).  Typical value = 5.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t5;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t5;
 		/// <summary>
 		/// Time constant of third boiler pass (<i>T6</i>) (>= 0).  Typical value = 0,5.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t6;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t6;
 		/// <summary>
 		/// Time constant of fourth boiler pass (<i>T7</i>) (>= 0).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t7;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t7;
 		/// <summary>
-		/// Maximum valve closing velocity (<i>Uc</i>) (< 0).  Unit = PU / s.  Typical
+		/// Maximum valve closing velocity (<i>Uc</i>) (&lt; 0).  Unit = PU / s.  Typical
 		/// value = -10.
 		/// </summary>
 		public float uc;

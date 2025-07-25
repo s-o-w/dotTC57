@@ -15,7 +15,7 @@ namespace TC57CIM.IEC61970.Base.Core {
 		/// <summary>
 		/// Container of this connectivity node.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Core.ConnectivityNodeContainer ConnectivityNodeContainer;
+		public TC57CIM.IEC61970.Base.Core.ConnectivityNodeContainer? ConnectivityNodeContainer;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ConnectivityNode"/> class

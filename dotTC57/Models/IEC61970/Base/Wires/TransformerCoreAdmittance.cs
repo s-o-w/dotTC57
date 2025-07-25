@@ -18,23 +18,23 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// Magnetizing branch susceptance (B mag).  The value can be positive or negative.
 		///
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Susceptance b;
+		public TC57CIM.IEC61970.Base.Domain.Susceptance? b;
 		/// <summary>
 		/// Zero sequence magnetizing branch susceptance.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Susceptance b0;
+		public TC57CIM.IEC61970.Base.Domain.Susceptance? b0;
 		/// <summary>
 		/// Magnetizing branch conductance (G mag).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Conductance g;
+		public TC57CIM.IEC61970.Base.Domain.Conductance? g;
 		/// <summary>
 		/// Zero sequence magnetizing branch conductance.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Conductance g0;
+		public TC57CIM.IEC61970.Base.Domain.Conductance? g0;
 		/// <summary>
 		/// All transformer ends having this core admittance.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Wires.TransformerEnd TransformerEnd;
+		public TC57CIM.IEC61970.Base.Wires.TransformerEnd? TransformerEnd;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="TransformerCoreAdmittance"/> class

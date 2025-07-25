@@ -15,47 +15,47 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.PowerSystemStabilizerDynamics
 		/// <summary>
 		/// Gain (<i>Kx</i>).  Typical value = 2,7.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kx;
+		public TC57CIM.IEC61970.Base.Domain.PU? kx;
 		/// <summary>
 		/// Time constant (<i>Ta</i>) (>= 0).  Typical value = 0,37.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds ta;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? ta;
 		/// <summary>
 		/// Time constant (<i>Tb</i>) (>= 0).  Typical value = 0,37.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tb;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tb;
 		/// <summary>
 		/// Time constant (<i>Tc</i>) (>= 0).  Typical value = 0,035.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tc;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tc;
 		/// <summary>
 		/// Time constant (<i>Td</i>) (>= 0).  Typical value = 0,0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds td;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? td;
 		/// <summary>
 		/// Time constant (<i>Te</i>) (>= 0).  Typical value = 0,0169.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds te;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? te;
 		/// <summary>
 		/// Time constant (<i>Tt</i>) (>= 0).  Typical value = 0,18.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tt;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tt;
 		/// <summary>
 		/// Reset time constant (<i>Tx1</i>) (>= 0).  Typical value = 0,035.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tx1;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tx1;
 		/// <summary>
 		/// Time constant (<i>Tx2</i>) (>= 0).  Typical value = 5,0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tx2;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tx2;
 		/// <summary>
-		/// Limiter (<i>Vsmax</i>) (> PssSB4.vsmin).  Typical value = 0,062.
+		/// Limiter (<i>Vsmax</i>) (greater than PssSB4.vsmin).  Typical value = 0,062.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vsmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? vsmax;
 		/// <summary>
-		/// Limiter (<i>Vsmin</i>) (< PssSB4.vsmax).  Typical value = -0,062.
+		/// Limiter (<i>Vsmin</i>) (less than PssSB4.vsmax).  Typical value = -0,062.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vsmin;
+		public TC57CIM.IEC61970.Base.Domain.PU? vsmin;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="PssSB4"/> class

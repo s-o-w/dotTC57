@@ -15,19 +15,19 @@ namespace TC57CIM.IEC61970.Base.Faults {
 		/// <summary>
 		/// The resistance of the fault between phases and ground.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Resistance rGround;
+		public TC57CIM.IEC61970.Base.Domain.Resistance? rGround;
 		/// <summary>
 		/// The resistance of the fault between phases.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Resistance rLineToLine;
+		public TC57CIM.IEC61970.Base.Domain.Resistance? rLineToLine;
 		/// <summary>
 		/// The reactance of the fault between phases and ground.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Reactance xGround;
+		public TC57CIM.IEC61970.Base.Domain.Reactance? xGround;
 		/// <summary>
 		/// The reactance of the fault between phases.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Reactance xLineToLine;
+		public TC57CIM.IEC61970.Base.Domain.Reactance? xLineToLine;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="FaultImpedance"/> class

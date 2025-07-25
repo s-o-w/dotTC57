@@ -15,15 +15,15 @@ namespace TC57CIM.IEC61970.Base.LoadModel {
 		/// <summary>
 		/// Date season ends.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.MonthDay endDate;
+		public TC57CIM.IEC61970.Base.Domain.MonthDay? endDate;
 		/// <summary>
 		/// Date season starts.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.MonthDay startDate;
+		public TC57CIM.IEC61970.Base.Domain.MonthDay? startDate;
 		/// <summary>
 		/// Schedules that use this Season.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.LoadModel.SeasonDayTypeSchedule SeasonDayTypeSchedules;
+		public TC57CIM.IEC61970.Base.LoadModel.SeasonDayTypeSchedule? SeasonDayTypeSchedules;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Season"/> class

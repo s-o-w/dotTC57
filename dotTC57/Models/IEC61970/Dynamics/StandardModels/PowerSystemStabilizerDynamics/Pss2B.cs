@@ -20,137 +20,137 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.PowerSystemStabilizerDynamics
 		/// <summary>
 		/// Stabilizer gain (<i>Ks1</i>).  Typical value = 12.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU ks1;
+		public TC57CIM.IEC61970.Base.Domain.PU? ks1;
 		/// <summary>
 		/// Gain on signal #2 (<i>Ks2</i>).  Typical value = 0,2.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU ks2;
+		public TC57CIM.IEC61970.Base.Domain.PU? ks2;
 		/// <summary>
 		/// Gain on signal #2 input before ramp-tracking filter (<i>Ks3</i>).  Typical
 		/// value = 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU ks3;
+		public TC57CIM.IEC61970.Base.Domain.PU? ks3;
 		/// <summary>
 		/// Gain on signal #2 input after ramp-tracking filter (<i>Ks4</i>).  Typical value
 		/// = 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU ks4;
+		public TC57CIM.IEC61970.Base.Domain.PU? ks4;
 		/// <summary>
 		/// Denominator order of ramp tracking filter (<i>m</i>).  Typical value = 5.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer m;
+		public TC57CIM.IEC61970.Base.Domain.Integer? m;
 		/// <summary>
 		/// Order of ramp tracking filter (<i>n</i>).  Typical value = 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer n;
+		public TC57CIM.IEC61970.Base.Domain.Integer? n;
 		/// <summary>
 		/// Lead/lag time constant (<i>T</i><i><sub>1</sub></i>) (>= 0).  Typical value = 0,
 		/// 12.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t1;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t1;
 		/// <summary>
 		/// Lead/lag time constant (<i>T</i><i><sub>10</sub></i>) (>= 0).  Typical value =
 		/// 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t10;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t10;
 		/// <summary>
 		/// Lead/lag time constant (<i>T</i><i><sub>11</sub></i>) (>= 0).  Typical value =
 		/// 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t11;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t11;
 		/// <summary>
 		/// Lead/lag time constant (<i>T</i><i><sub>2</sub></i>) (>= 0).  Typical value = 0,
 		/// 02.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t2;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t2;
 		/// <summary>
 		/// Lead/lag time constant (<i>T</i><i><sub>3</sub></i>) (>= 0).  Typical value = 0,
 		/// 3.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t3;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t3;
 		/// <summary>
 		/// Lead/lag time constant (<i>T</i><i><sub>4</sub></i>) (>= 0).  Typical value = 0,
 		/// 02.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t4;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t4;
 		/// <summary>
 		/// Time constant on signal #1 (<i>T</i><i><sub>6</sub></i>) (>= 0).  Typical value
 		/// = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t6;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t6;
 		/// <summary>
 		/// Time constant on signal #2 (<i>T</i><i><sub>7</sub></i>) (>= 0).  Typical value
 		/// = 2.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t7;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t7;
 		/// <summary>
 		/// Lead of ramp tracking filter (<i>T</i><i><sub>8</sub></i>) (>= 0).  Typical
 		/// value = 0,2.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t8;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t8;
 		/// <summary>
 		/// Lag of ramp tracking filter (<i>T</i><i><sub>9</sub></i>) (>= 0).  Typical
 		/// value = 0,1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t9;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t9;
 		/// <summary>
 		/// Lead constant (<i>T</i><i><sub>a</sub></i>) (>= 0).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds ta;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? ta;
 		/// <summary>
 		/// Lag time constant (<i>T</i><i><sub>b</sub></i>) (>= 0).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tb;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tb;
 		/// <summary>
 		/// First washout on signal #1 (<i>T</i><i><sub>w1</sub></i>) (>= 0).  Typical
 		/// value = 2.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tw1;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tw1;
 		/// <summary>
 		/// Second washout on signal #1 (<i>T</i><i><sub>w2</sub></i>) (>= 0).  Typical
 		/// value = 2.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tw2;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tw2;
 		/// <summary>
 		/// First washout on signal #2 (<i>T</i><i><sub>w3</sub></i>) (>= 0).  Typical
 		/// value = 2.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tw3;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tw3;
 		/// <summary>
 		/// Second washout on signal #2 (<i>T</i><i><sub>w4</sub></i>) (>= 0).  Typical
 		/// value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tw4;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tw4;
 		/// <summary>
-		/// Input signal #1 maximum limit (<i>Vsi1max</i>) (> Pss2B.vsi1min).  Typical
+		/// Input signal #1 maximum limit (<i>Vsi1max</i>) (greater than Pss2B.vsi1min).  Typical
 		/// value = 2.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vsi1max;
+		public TC57CIM.IEC61970.Base.Domain.PU? vsi1max;
 		/// <summary>
-		/// Input signal #1 minimum limit (<i>Vsi1min</i>) (< Pss2B.vsi1max).  Typical
+		/// Input signal #1 minimum limit (<i>Vsi1min</i>) (less than Pss2B.vsi1max).  Typical
 		/// value = -2.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vsi1min;
+		public TC57CIM.IEC61970.Base.Domain.PU? vsi1min;
 		/// <summary>
-		/// Input signal #2 maximum limit (<i>Vsi2max</i>) (> Pss2B.vsi2min).  Typical
+		/// Input signal #2 maximum limit (<i>Vsi2max</i>) (greater than Pss2B.vsi2min).  Typical
 		/// value = 2.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vsi2max;
+		public TC57CIM.IEC61970.Base.Domain.PU? vsi2max;
 		/// <summary>
-		/// Input signal #2 minimum limit (<i>Vsi2min</i>) (< Pss2B.vsi2max).  Typical
+		/// Input signal #2 minimum limit (<i>Vsi2min</i>) (less than Pss2B.vsi2max).  Typical
 		/// value = -2.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vsi2min;
+		public TC57CIM.IEC61970.Base.Domain.PU? vsi2min;
 		/// <summary>
-		/// Stabilizer output maximum limit (<i>Vstmax</i>) (> Pss2B.vstmin).  Typical
+		/// Stabilizer output maximum limit (<i>Vstmax</i>) (greater than Pss2B.vstmin).  Typical
 		/// value = 0,1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vstmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? vstmax;
 		/// <summary>
-		/// Stabilizer output minimum limit (<i>Vstmin</i>) (< Pss2B.vstmax).  Typical
+		/// Stabilizer output minimum limit (<i>Vstmin</i>) (less than Pss2B.vstmax).  Typical
 		/// value = -0,1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vstmin;
+		public TC57CIM.IEC61970.Base.Domain.PU? vstmin;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Pss2B"/> class

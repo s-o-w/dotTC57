@@ -16,21 +16,21 @@ namespace TC57CIM.IEC61968.AssetInfo {
 		/// Factory measured capacitance, measured between the power factor tap and the
 		/// bushing conductor.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Capacitance c1Capacitance;
+		public TC57CIM.IEC61970.Base.Domain.Capacitance? c1Capacitance;
 		/// <summary>
 		/// Factory measured insulation power factor, measured between the power factor tap
 		/// and the bushing conductor.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PerCent c1PowerFactor;
+		public TC57CIM.IEC61970.Base.Domain.PerCent? c1PowerFactor;
 		/// <summary>
 		/// Factory measured capacitance measured between the power factor tap and ground.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Capacitance c2Capacitance;
+		public TC57CIM.IEC61970.Base.Domain.Capacitance? c2Capacitance;
 		/// <summary>
 		/// Factory measured insulation power factor, measured between the power factor tap
 		/// and ground.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PerCent c2PowerFactor;
+		public TC57CIM.IEC61970.Base.Domain.PerCent? c2PowerFactor;
 		/// <summary>
 		/// Kind of insulation.
 		/// </summary>
@@ -38,20 +38,20 @@ namespace TC57CIM.IEC61968.AssetInfo {
 		/// <summary>
 		/// Rated current for bushing as installed.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.CurrentFlow ratedCurrent;
+		public TC57CIM.IEC61970.Base.Domain.CurrentFlow? ratedCurrent;
 		/// <summary>
 		/// Rated impulse withstand voltage, also known as BIL (Basic Impulse Level).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Voltage ratedImpulseWithstandVoltage;
+		public TC57CIM.IEC61970.Base.Domain.Voltage? ratedImpulseWithstandVoltage;
 		/// <summary>
 		/// Rated line-to-ground voltage. Also referred to as Uy on bushing nameplate.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Voltage ratedLineToGroundVoltage;
+		public TC57CIM.IEC61970.Base.Domain.Voltage? ratedLineToGroundVoltage;
 		/// <summary>
 		/// Rated voltage. Can be referred to as Um, system voltage or class on bushing
 		/// nameplate.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Voltage ratedVoltage;
+		public TC57CIM.IEC61970.Base.Domain.Voltage? ratedVoltage;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="BushingInfo"/> class

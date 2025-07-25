@@ -15,15 +15,15 @@ namespace TC57CIM.IEC61968.Metering {
 		/// <summary>
 		/// Old meter replaced by this work task.
 		/// </summary>
-		public TC57CIM.IEC61968.Metering.Meter OldMeter;
+		public TC57CIM.IEC61968.Metering.Meter? OldMeter;
 		/// <summary>
 		/// Usage point to which this meter service work task applies.
 		/// </summary>
-		public TC57CIM.IEC61968.Metering.UsagePoint UsagePoint;
+		public TC57CIM.IEC61968.Metering.UsagePoint? UsagePoint;
 		/// <summary>
 		/// Meter on which this non-replacement work task is performed.
 		/// </summary>
-		public TC57CIM.IEC61968.Metering.Meter Meter;
+		public TC57CIM.IEC61968.Metering.Meter? Meter;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="MeterWorkTask"/> class

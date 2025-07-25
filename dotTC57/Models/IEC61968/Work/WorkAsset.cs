@@ -16,7 +16,7 @@ namespace TC57CIM.IEC61968.Work {
 		/// <summary>
 		/// Crew using this work asset.
 		/// </summary>
-		public TC57CIM.IEC61968.Common.Crew Crew;
+		public TC57CIM.IEC61968.Common.Crew? Crew;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="WorkAsset"/> class

@@ -15,24 +15,24 @@ namespace TC57CIM.IEC61968.Common {
 		/// <summary>
 		/// Town code.
 		/// </summary>
-		public string code;
+		public string? code;
 		/// <summary>
 		/// Name of the country.
 		/// </summary>
-		public string country;
+		public string? country;
 		/// <summary>
 		/// Town name.
 		/// </summary>
-		public string name;
+		public string? name;
 		/// <summary>
 		/// Town section. For example, it is common for there to be 36 sections per
 		/// township.
 		/// </summary>
-		public string section;
+		public string? section;
 		/// <summary>
 		/// Name of the state or province.
 		/// </summary>
-		public string stateOrProvince;
+		public string? stateOrProvince;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="TownDetail"/> class

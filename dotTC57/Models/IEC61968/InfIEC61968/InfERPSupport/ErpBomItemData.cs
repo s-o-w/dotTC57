@@ -14,11 +14,11 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfERPSupport {
 		/// <summary>
 		/// The design location
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfWork.DesignLocation DesignLocation;
+		public TC57CIM.IEC61968.InfIEC61968.InfWork.DesignLocation? DesignLocation;
 		/// <summary>
 		/// The erp bom
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfERPSupport.ErpBOM ErpBOM;
+		public TC57CIM.IEC61968.InfIEC61968.InfERPSupport.ErpBOM? ErpBOM;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ErpBomItemData"/> class

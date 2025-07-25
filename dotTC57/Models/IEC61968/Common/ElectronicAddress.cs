@@ -14,36 +14,36 @@ namespace TC57CIM.IEC61968.Common {
 		/// <summary>
 		/// Primary email address.
 		/// </summary>
-		public string email1;
+		public string? email1;
 		/// <summary>
 		/// Alternate email address.
 		/// </summary>
-		public string email2;
+		public string? email2;
 		/// <summary>
 		/// Address on local area network.
 		/// </summary>
-		public string lan;
+		public string? lan;
 		/// <summary>
 		/// MAC (Media Access Control) address.
 		/// </summary>
-		public string mac;
+		public string? mac;
 		/// <summary>
 		/// Password needed to log in.
 		/// </summary>
-		public string password;
+		public string? password;
 		/// <summary>
 		/// Radio address.
 		/// </summary>
-		public string radio;
+		public string? radio;
 		/// <summary>
 		/// User ID needed to log in, which can be for an individual person, an
 		/// organisation, a location, etc.
 		/// </summary>
-		public string userID;
+		public string? userID;
 		/// <summary>
 		/// World wide web address.
 		/// </summary>
-		public string web;
+		public string? web;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ElectronicAddress"/> class

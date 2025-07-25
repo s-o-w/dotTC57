@@ -17,11 +17,11 @@ namespace TC57CIM.IEC61968.Operations {
 		/// <summary>
 		/// Asset on which this tag has been placed.
 		/// </summary>
-		public TC57CIM.IEC61968.AssetInfo.Assets.Asset Asset;
+		public TC57CIM.IEC61968.AssetInfo.Assets.Asset? Asset;
 		/// <summary>
 		/// Power system resource on which this tag has been placed.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Core.PowerSystemResource PowerSystemResource;
+		public TC57CIM.IEC61970.Base.Core.PowerSystemResource? PowerSystemResource;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="OperationalTag"/> class

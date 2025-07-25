@@ -22,11 +22,11 @@ namespace TC57CIM.IEC61968.AssetInfo.Assets {
 		/// The volume of the medium specified for this application. Note that the actual
 		/// volume is a type of measurement associated witht the asset.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Volume volumeSpec;
+		public TC57CIM.IEC61970.Base.Domain.Volume? volumeSpec;
 		/// <summary>
 		/// Medium with which this asset is filled.
 		/// </summary>
-		public TC57CIM.IEC61968.AssetInfo.Assets.Asset Asset;
+		public TC57CIM.IEC61968.AssetInfo.Assets.Asset? Asset;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Medium"/> class

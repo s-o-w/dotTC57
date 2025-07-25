@@ -18,19 +18,19 @@ namespace TC57CIM.IEC61970.Base.DC {
 		/// Capacitance per unit of length of the DC line segment; significant for cables
 		/// only.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.CapacitancePerLength capacitance;
+		public TC57CIM.IEC61970.Base.Domain.CapacitancePerLength? capacitance;
 		/// <summary>
 		/// Inductance per unit of length of the DC line segment.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.InductancePerLength inductance;
+		public TC57CIM.IEC61970.Base.Domain.InductancePerLength? inductance;
 		/// <summary>
 		/// Resistance per length of the DC line segment.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ResistancePerLength resistance;
+		public TC57CIM.IEC61970.Base.Domain.ResistancePerLength? resistance;
 		/// <summary>
 		/// All line segments described by this set of per-length parameters.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.DC.DCLineSegment DCLineSegments;
+		public TC57CIM.IEC61970.Base.DC.DCLineSegment? DCLineSegments;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="PerLengthDCLineParameter"/> class

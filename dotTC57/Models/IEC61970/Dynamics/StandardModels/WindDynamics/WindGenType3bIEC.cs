@@ -24,12 +24,12 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics {
 		/// Current generation time constant (<i>T</i><i><sub>g</sub></i>) (>= 0). It is a
 		/// type-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tg;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tg;
 		/// <summary>
 		/// Time constant for crowbar washout filter (<i>T</i><i><sub>wo</sub></i>) (>= 0).
 		/// It is a case-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds two;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? two;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="WindGenType3bIEC"/> class

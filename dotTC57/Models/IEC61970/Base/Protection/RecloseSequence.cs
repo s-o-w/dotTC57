@@ -16,12 +16,12 @@ namespace TC57CIM.IEC61970.Base.Protection {
 		/// <summary>
 		/// Indicates the time lapse before the reclose step will execute a reclose.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds recloseDelay;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? recloseDelay;
 		/// <summary>
 		/// Indicates the ordinal position of the reclose step relative to other steps in
 		/// the sequence.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer recloseStep;
+		public TC57CIM.IEC61970.Base.Domain.Integer? recloseStep;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="RecloseSequence"/> class

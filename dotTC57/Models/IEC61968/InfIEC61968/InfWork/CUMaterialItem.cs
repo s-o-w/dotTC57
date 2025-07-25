@@ -15,25 +15,25 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfWork {
 		/// <summary>
 		/// Code for material.
 		/// </summary>
-		public string corporateCode;
+		public string? corporateCode;
 		/// <summary>
 		/// Quantity of the TypeMaterial for this CU, used to determine estimated costs
 		/// based on a per unit cost or a cost per unit length specified in the
 		/// TypeMaterial.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.IntegerQuantity quantity;
+		public TC57CIM.IEC61970.Base.Domain.IntegerQuantity? quantity;
 		/// <summary>
 		/// The status
 		/// </summary>
-		public TC57CIM.IEC61968.Common.Status status;
+		public TC57CIM.IEC61968.Common.Status? status;
 		/// <summary>
 		/// The type material
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfWork.TypeMaterial TypeMaterial;
+		public TC57CIM.IEC61968.InfIEC61968.InfWork.TypeMaterial? TypeMaterial;
 		/// <summary>
 		/// The compatible units
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfWork.CompatibleUnit CompatibleUnits;
+		public TC57CIM.IEC61968.InfIEC61968.InfWork.CompatibleUnit? CompatibleUnits;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="CUMaterialItem"/> class

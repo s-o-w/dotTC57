@@ -20,7 +20,7 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// <summary>
 		/// Nominal resistance of device.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Resistance r;
+		public TC57CIM.IEC61970.Base.Domain.Resistance? r;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="EarthFaultCompensator"/> class

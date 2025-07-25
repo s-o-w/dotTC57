@@ -19,7 +19,7 @@ namespace TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelFrames {
 	   /// <summary>
 	   /// The model specification for this assembly description.
 	   /// </summary>
-	   private TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelFrames.ModelPartSpecification? ModelSpecification;
+	   public TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelFrames.ModelPartSpecification? ModelSpecification;
 
 	   /// <summary>
 	   /// Initializes a new instance of the <see cref="AssemblyDescription"/> class.

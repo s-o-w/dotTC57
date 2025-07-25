@@ -15,19 +15,19 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// <summary>
 		/// Zero sequence shunt (charging) susceptance per section.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Susceptance b0PerSection;
+		public TC57CIM.IEC61970.Base.Domain.Susceptance? b0PerSection;
 		/// <summary>
 		/// Positive sequence shunt (charging) susceptance per section.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Susceptance bPerSection;
+		public TC57CIM.IEC61970.Base.Domain.Susceptance? bPerSection;
 		/// <summary>
 		/// Zero sequence shunt (charging) conductance per section.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Conductance g0PerSection;
+		public TC57CIM.IEC61970.Base.Domain.Conductance? g0PerSection;
 		/// <summary>
 		/// Positive sequence shunt (charging) conductance per section.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Conductance gPerSection;
+		public TC57CIM.IEC61970.Base.Domain.Conductance? gPerSection;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="LinearShuntCompensator"/> class

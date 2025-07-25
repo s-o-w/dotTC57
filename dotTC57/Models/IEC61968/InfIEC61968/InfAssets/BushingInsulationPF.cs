@@ -17,7 +17,7 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfAssets {
 		/// <summary>
 		/// The status
 		/// </summary>
-		public TC57CIM.IEC61968.Common.Status status;
+		public TC57CIM.IEC61968.Common.Status? status;
 		/// <summary>
 		/// Kind of test for this bushing.
 		/// </summary>
@@ -25,7 +25,7 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfAssets {
 		/// <summary>
 		/// The transformer observation
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfAssets.TransformerObservation TransformerObservation;
+		public TC57CIM.IEC61968.InfIEC61968.InfAssets.TransformerObservation? TransformerObservation;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="BushingInsulationPF"/> class

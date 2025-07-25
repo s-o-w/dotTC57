@@ -23,12 +23,12 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.VoltageAdjusterDynamics {
 		/// Time that adjuster pulses are off (<i>T</i><i><sub>AOFF</sub></i>) (>= 0).
 		/// Typical value = 0,5.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds taoff;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? taoff;
 		/// <summary>
 		/// Time that adjuster pulses are on (<i>T</i><i><sub>AON</sub></i>) (>= 0).
 		/// Typical value = 0,1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds taon;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? taon;
 		/// <summary>
 		/// Set high to provide a continuous raise or lower
 		/// (<i>V</i><i><sub>ADJF</sub></i>).
@@ -38,12 +38,12 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.VoltageAdjusterDynamics {
 		/// Maximum output of the adjuster (<i>V</i><i><sub>ADJMAX</sub></i>) (> VAdjIEEE.
 		/// vadjmin).  Typical value = 1,1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vadjmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? vadjmax;
 		/// <summary>
-		/// Minimum output of the adjuster (<i>V</i><i><sub>ADJMIN</sub></i>) (< VAdjIEEE.
-		/// vadjmax).  Typical value = 0,9.
+		/// Minimum output of the adjuster (<i>V</i><i><sub>ADJMIN</sub></i>) (&lt; VAdjIEEE.vadjmax).
+		/// Typical value = 0,9.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vadjmin;
+		public TC57CIM.IEC61970.Base.Domain.PU? vadjmin;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="VAdjIEEE"/> class

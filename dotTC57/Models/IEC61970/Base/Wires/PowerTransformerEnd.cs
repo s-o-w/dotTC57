@@ -41,11 +41,11 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// Magnetizing branch susceptance (B mag).  The value can be positive or negative.
 		///
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Susceptance b;
+		public TC57CIM.IEC61970.Base.Domain.Susceptance? b;
 		/// <summary>
 		/// Zero sequence magnetizing branch susceptance.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Susceptance b0;
+		public TC57CIM.IEC61970.Base.Domain.Susceptance? b0;
 		/// <summary>
 		/// Kind of connection.
 		/// </summary>
@@ -53,11 +53,11 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// <summary>
 		/// Magnetizing branch conductance.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Conductance g;
+		public TC57CIM.IEC61970.Base.Domain.Conductance? g;
 		/// <summary>
 		/// Zero sequence magnetizing branch conductance (star-model).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Conductance g0;
+		public TC57CIM.IEC61970.Base.Domain.Conductance? g0;
 		/// <summary>
 		/// Terminal voltage phase angle displacement where 360 degrees are represented
 		/// with clock hours. The valid values are 0 to 11. For example, for the secondary
@@ -67,23 +67,23 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// to be zero.  Note the transformer end number is not assumed to be the same as
 		/// the terminal sequence number.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer phaseAngleClock;
+		public TC57CIM.IEC61970.Base.Domain.Integer? phaseAngleClock;
 		/// <summary>
 		/// Resistance (star-model) of the transformer end.
 		/// The attribute shall be equal to or greater than zero for non-equivalent
 		/// transformers.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Resistance r;
+		public TC57CIM.IEC61970.Base.Domain.Resistance? r;
 		/// <summary>
 		/// Zero sequence series resistance (star-model) of the transformer end.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Resistance r0;
+		public TC57CIM.IEC61970.Base.Domain.Resistance? r0;
 		/// <summary>
 		/// Normal apparent power rating.
 		/// The attribute shall be a positive value. For a two-winding transformer the
 		/// values for the high and low voltage sides shall be identical.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ApparentPower ratedS;
+		public TC57CIM.IEC61970.Base.Domain.ApparentPower? ratedS;
 		/// <summary>
 		/// Rated voltage: phase-phase for three-phase windings, and either phase-phase or
 		/// phase-neutral for single-phase windings.
@@ -91,15 +91,15 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// that is greater than or equal to ratedU for the lower voltage sides.
 		/// The attribute shall be a positive value.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Voltage ratedU;
+		public TC57CIM.IEC61970.Base.Domain.Voltage? ratedU;
 		/// <summary>
 		/// Positive sequence series reactance (star-model) of the transformer end.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Reactance x;
+		public TC57CIM.IEC61970.Base.Domain.Reactance? x;
 		/// <summary>
 		/// Zero sequence series reactance of the transformer end.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Reactance x0;
+		public TC57CIM.IEC61970.Base.Domain.Reactance? x0;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="PowerTransformerEnd"/> class

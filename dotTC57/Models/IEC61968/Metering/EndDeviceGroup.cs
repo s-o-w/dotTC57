@@ -19,35 +19,35 @@ namespace TC57CIM.IEC61968.Metering {
 		/// <summary>
 		/// Current status information relevant to a group.
 		/// </summary>
-		public TC57CIM.IEC61968.Common.Status status;
+		public TC57CIM.IEC61968.Common.Status? status;
 		/// <summary>
 		/// Type of this group.
 		/// </summary>
-		public string type;
+		public string? type;
 		/// <summary>
 		/// version of this group
 		/// </summary>
-		public TC57CIM.IEC61968.Common.Version version;
+		public TC57CIM.IEC61968.Common.Version? version;
 		/// <summary>
 		/// An individual dispatch for a DER Group.
 		/// </summary>
-		public TC57CIM.IEC61968.DER.DERGroupDispatch DERGroupDispatch;
+		public TC57CIM.IEC61968.DER.DERGroupDispatch? DERGroupDispatch;
 		/// <summary>
 		/// All end device controls sending commands to this end device group.
 		/// </summary>
-		public TC57CIM.IEC61968.Metering.EndDeviceControl EndDeviceControls;
+		public TC57CIM.IEC61968.Metering.EndDeviceControl? EndDeviceControls;
 		/// <summary>
 		/// The DER monitorable parameters associated with a DER Group.
 		/// </summary>
-		public TC57CIM.IEC61968.DER.DERMonitorableParameter DERMonitorableParameter;
+		public TC57CIM.IEC61968.DER.DERMonitorableParameter? DERMonitorableParameter;
 		/// <summary>
 		/// The DER functions that are applied to the DER Group.
 		/// </summary>
-		public TC57CIM.IEC61968.DER.DERFunction DERFunction;
+		public TC57CIM.IEC61968.DER.DERFunction? DERFunction;
 		/// <summary>
 		/// All end devices this end device group refers to.
 		/// </summary>
-		public TC57CIM.IEC61968.Metering.EndDevice EndDevices;
+		public TC57CIM.IEC61968.Metering.EndDevice? EndDevices;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="EndDeviceGroup"/> class

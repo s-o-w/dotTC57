@@ -21,7 +21,7 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics {
 		/// </summary>
 		public float dthetamax;
 		/// <summary>
-		/// Maximum pitch negative ramp rate (<i>dtheta</i><i><sub>min</sub></i><i>)</i> (<
+		/// Maximum pitch negative ramp rate (<i>dtheta</i><i><sub>min</sub></i><i>)</i> (&lt;
 		/// WindContPitchAngleIEC.dthetamax). It is a type-dependent parameter. Unit =
 		/// degrees / s.
 		/// </summary>
@@ -30,45 +30,45 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics {
 		/// Power PI controller integration gain (<i>K</i><i><sub>Ic</sub></i>). It is a
 		/// type-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kic;
+		public TC57CIM.IEC61970.Base.Domain.PU? kic;
 		/// <summary>
 		/// Speed PI controller integration gain (<i>K</i><i><sub>Iomega</sub></i>). It is
 		/// a type-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kiomega;
+		public TC57CIM.IEC61970.Base.Domain.PU? kiomega;
 		/// <summary>
 		/// Power PI controller proportional gain (<i>K</i><i><sub>Pc</sub></i>). It is a
 		/// type-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kpc;
+		public TC57CIM.IEC61970.Base.Domain.PU? kpc;
 		/// <summary>
 		/// Speed PI controller proportional gain (<i>K</i><i><sub>Pomega</sub></i>). It is
 		/// a type-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kpomega;
+		public TC57CIM.IEC61970.Base.Domain.PU? kpomega;
 		/// <summary>
 		/// Pitch cross coupling gain (<i>K</i><i><sub>PX</sub></i>). It is a type-
 		/// dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kpx;
+		public TC57CIM.IEC61970.Base.Domain.PU? kpx;
 		/// <summary>
 		/// Maximum pitch angle (<i>theta</i><i><sub>max</sub></i>) (>
 		/// WindContPitchAngleIEC.thetamin). It is a type-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.AngleDegrees thetamax;
+		public TC57CIM.IEC61970.Base.Domain.AngleDegrees? thetamax;
 		/// <summary>
-		/// Minimum pitch angle (<i>theta</i><i><sub>min</sub></i>) (<
+		/// Minimum pitch angle (<i>theta</i><i><sub>min</sub></i>) (&lt;
 		/// WindContPitchAngleIEC.thetamax). It is a type-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.AngleDegrees thetamin;
+		public TC57CIM.IEC61970.Base.Domain.AngleDegrees? thetamin;
 		/// <summary>
 		/// Pitch time constant (<i>ttheta</i>) (>= 0). It is a type-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds ttheta;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? ttheta;
 		/// <summary>
 		/// Wind turbine type 3 model with which this pitch control model is associated.
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics.WindTurbineType3IEC WindTurbineType3IEC;
+		public TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics.WindTurbineType3IEC? WindTurbineType3IEC;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="WindContPitchAngleIEC"/> class

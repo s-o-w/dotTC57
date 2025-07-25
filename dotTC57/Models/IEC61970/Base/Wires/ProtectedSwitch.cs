@@ -16,11 +16,11 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// The maximum fault current a breaking device can break safely under prescribed
 		/// conditions of use.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.CurrentFlow breakingCapacity;
+		public TC57CIM.IEC61970.Base.Domain.CurrentFlow? breakingCapacity;
 		/// <summary>
 		/// A breaker may have zero or more automatic reclosures after a trip occurs.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Protection.RecloseSequence RecloseSequences;
+		public TC57CIM.IEC61970.Base.Protection.RecloseSequence? RecloseSequences;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ProtectedSwitch"/> class

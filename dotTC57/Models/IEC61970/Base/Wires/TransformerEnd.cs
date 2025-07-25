@@ -20,7 +20,7 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// <summary>
 		/// Core shunt magnetizing susceptance in the saturation region.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PerCent bmagSat;
+		public TC57CIM.IEC61970.Base.Domain.PerCent? bmagSat;
 		/// <summary>
 		/// Number for this transformer end, corresponding to the end's order in the power
 		/// transformer vector group or phase angle clock number.  Highest voltage winding
@@ -28,7 +28,7 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// subsequent end number.   Note the transformer end number need not match the
 		/// terminal sequence number.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer endNumber;
+		public TC57CIM.IEC61970.Base.Domain.Integer? endNumber;
 		/// <summary>
 		/// (for Yn and Zn connections) True if the neutral is solidly grounded.
 		/// </summary>
@@ -37,43 +37,43 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// The reference voltage at which the magnetizing saturation measurements were
 		/// made.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Voltage magBaseU;
+		public TC57CIM.IEC61970.Base.Domain.Voltage? magBaseU;
 		/// <summary>
 		/// Core magnetizing saturation curve knee flux level.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PerCent magSatFlux;
+		public TC57CIM.IEC61970.Base.Domain.PerCent? magSatFlux;
 		/// <summary>
 		/// (for Yn and Zn connections) Resistance part of neutral impedance where
 		/// 'grounded' is true.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Resistance rground;
+		public TC57CIM.IEC61970.Base.Domain.Resistance? rground;
 		/// <summary>
 		/// (for Yn and Zn connections) Reactive part of neutral impedance where 'grounded'
 		/// is true.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Reactance xground;
+		public TC57CIM.IEC61970.Base.Domain.Reactance? xground;
 		/// <summary>
 		/// Phase tap changer associated with this transformer end.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Wires.PhaseTapChanger PhaseTapChanger;
+		public TC57CIM.IEC61970.Base.Wires.PhaseTapChanger? PhaseTapChanger;
 		/// <summary>
 		/// (accurate for 2- or 3-winding transformers only) Pi-model impedances of this
 		/// transformer end. By convention, for a two winding transformer, the full values
 		/// of the transformer should be entered on the high voltage end (endNumber=1).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Wires.TransformerStarImpedance StarImpedance;
+		public TC57CIM.IEC61970.Base.Wires.TransformerStarImpedance? StarImpedance;
 		/// <summary>
 		/// Ratio tap changer associated with this transformer end.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Wires.RatioTapChanger RatioTapChanger;
+		public TC57CIM.IEC61970.Base.Wires.RatioTapChanger? RatioTapChanger;
 		/// <summary>
 		/// Base voltage of the transformer end.  This is essential for PU calculation.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Core.BaseVoltage BaseVoltage;
+		public TC57CIM.IEC61970.Base.Core.BaseVoltage? BaseVoltage;
 		/// <summary>
 		/// Terminal of the power transformer to which this transformer end belongs.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Core.Terminal Terminal;
+		public TC57CIM.IEC61970.Base.Core.Terminal? Terminal;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="TransformerEnd"/> class

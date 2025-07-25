@@ -17,15 +17,15 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfCommon {
 		/// <summary>
 		/// The status
 		/// </summary>
-		public TC57CIM.IEC61968.Common.Status status;
+		public TC57CIM.IEC61968.Common.Status? status;
 		/// <summary>
 		/// Classification by utility's work mangement standards and practices.
 		/// </summary>
-		public string type;
+		public string? type;
 		/// <summary>
 		/// The erp persons
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfCommon.OldPerson ErpPersons;
+		public TC57CIM.IEC61968.InfIEC61968.InfCommon.OldPerson? ErpPersons;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Craft"/> class

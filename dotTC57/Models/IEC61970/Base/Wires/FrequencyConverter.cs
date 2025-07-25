@@ -16,27 +16,27 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// <summary>
 		/// Frequency on the AC side.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Frequency frequency;
+		public TC57CIM.IEC61970.Base.Domain.Frequency? frequency;
 		/// <summary>
 		/// The maximum active power on the DC side at which the frequency converter should
 		/// operate.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower maxP;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? maxP;
 		/// <summary>
 		/// The maximum voltage on the DC side at which the frequency converter should
 		/// operate.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Voltage maxU;
+		public TC57CIM.IEC61970.Base.Domain.Voltage? maxU;
 		/// <summary>
 		/// The minimum active power on the DC side at which the frequency converter should
 		/// operate.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower minP;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? minP;
 		/// <summary>
 		/// The minimum voltage on the DC side at which the frequency converter should
 		/// operate.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Voltage minU;
+		public TC57CIM.IEC61970.Base.Domain.Voltage? minU;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="FrequencyConverter"/> class

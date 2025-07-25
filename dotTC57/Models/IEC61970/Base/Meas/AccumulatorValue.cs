@@ -14,7 +14,7 @@ namespace TC57CIM.IEC61970.Base.Meas {
 		/// <summary>
 		/// The value to supervise. The value is positive.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer value;
+		public TC57CIM.IEC61970.Base.Domain.Integer? value;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="AccumulatorValue"/> class

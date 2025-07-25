@@ -21,7 +21,7 @@ namespace TC57CIM.IEC61968.Operations {
 		/// <summary>
 		/// Power system resource that generated this event.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Core.PowerSystemResource PowerSystemResource;
+		public TC57CIM.IEC61970.Base.Core.PowerSystemResource? PowerSystemResource;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="PSREvent"/> class

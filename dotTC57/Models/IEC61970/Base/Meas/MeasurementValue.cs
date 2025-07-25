@@ -17,19 +17,19 @@ namespace TC57CIM.IEC61970.Base.Meas {
 		/// The limit, expressed as a percentage of the sensor maximum, that errors will
 		/// not exceed when the sensor is used under  reference conditions.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PerCent sensorAccuracy;
+		public TC57CIM.IEC61970.Base.Domain.PerCent? sensorAccuracy;
 		/// <summary>
 		/// The time when the value was last updated.
 		/// </summary>
-		public System.DateTime timeStamp;
+		public System.DateTime? timeStamp;
 		/// <summary>
 		/// Link to the physical telemetered point associated with this measurement.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.SCADA.RemoteSource RemoteSource;
+		public TC57CIM.IEC61970.Base.SCADA.RemoteSource? RemoteSource;
 		/// <summary>
 		/// A MeasurementValue has a MeasurementValueQuality associated with it.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Meas.MeasurementValueQuality MeasurementValueQuality;
+		public TC57CIM.IEC61970.Base.Meas.MeasurementValueQuality? MeasurementValueQuality;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="MeasurementValue"/> class

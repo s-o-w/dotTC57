@@ -17,11 +17,11 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// Number of phase, neutral, and other wires retained. Constrains the number of
 		/// matrix elements and the phase codes that can be used with this matrix.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer conductorCount;
+		public TC57CIM.IEC61970.Base.Domain.Integer? conductorCount;
 		/// <summary>
 		/// All data that belong to this conductor phase impedance.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Wires.PhaseImpedanceData PhaseImpedanceData;
+		public TC57CIM.IEC61970.Base.Wires.PhaseImpedanceData? PhaseImpedanceData;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="PerLengthPhaseImpedance"/> class

@@ -21,52 +21,52 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.ExcitationSystemDynamics {
 		/// Maximum field voltage (<i>E</i><i><sub>FDMax</sub></i>) (>= 0).  Typical value
 		/// = 99.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU efdmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? efdmax;
 		/// <summary>
 		/// Voltage regulator gain (<i>K</i><i><sub>A</sub></i>) (> 0).  Typical value =
 		/// 120.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU ka;
+		public TC57CIM.IEC61970.Base.Domain.PU? ka;
 		/// <summary>
 		/// Rectifier loading factor proportional to commutating reactance
 		/// (<i>K</i><i><sub>C</sub></i>) (>= 0). Typical value = 1,82.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kc;
+		public TC57CIM.IEC61970.Base.Domain.PU? kc;
 		/// <summary>
 		/// Exciter constant related to self-excited field (<i>K</i><i><sub>E</sub></i>).
 		/// Typical value = 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU ke;
+		public TC57CIM.IEC61970.Base.Domain.PU? ke;
 		/// <summary>
 		/// Excitation control system stabilizer gains (<i>K</i><i><sub>F</sub></i>) (>= 0).
 		///  Typical value = 0,05.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kf;
+		public TC57CIM.IEC61970.Base.Domain.PU? kf;
 		/// <summary>
 		/// Potential circuit gain coefficient (<i>K</i><i><sub>I</sub></i>) (>= 0).
 		/// Typical value = 8.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU ki;
+		public TC57CIM.IEC61970.Base.Domain.PU? ki;
 		/// <summary>
 		/// Potential circuit gain coefficient (<i>K</i><i><sub>P</sub></i>) (>= 0).
 		/// Typical value = 4,88.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kp;
+		public TC57CIM.IEC61970.Base.Domain.PU? kp;
 		/// <summary>
 		/// Voltage regulator time constant (<i>T</i><i><sub>A</sub></i>) (> 0).  Typical
 		/// value = 0,15.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds ta;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? ta;
 		/// <summary>
 		/// Exciter time constant, integration rate associated with exciter control
 		/// (<i>T</i><i><sub>E</sub></i>) (> 0).  Typical value = 0,5.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds te;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? te;
 		/// <summary>
 		/// Excitation control system stabilizer time constant
 		/// (<i>T</i><i><sub>F</sub></i>) (>= 0).  Typical value = 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tf;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tf;
 		/// <summary>
 		/// UEL input (<i>UELin</i>).
 		/// true = HV gate
@@ -78,12 +78,12 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.ExcitationSystemDynamics {
 		/// Maximum voltage regulator outputs (<i>V</i><i><sub>RMAX</sub></i>) (> 0).
 		/// Typical value = 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vrmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? vrmax;
 		/// <summary>
-		/// Minimum voltage regulator outputs (<i>V</i><i><sub>RMIN</sub></i>) (<= 0).
+		/// Minimum voltage regulator outputs (<i>V</i><i><sub>RMIN</sub></i>) (less than or equal to 0).
 		/// Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vrmin;
+		public TC57CIM.IEC61970.Base.Domain.PU? vrmin;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ExcIEEEST2A"/> class

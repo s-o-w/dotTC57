@@ -19,7 +19,7 @@ namespace TC57CIM.IEC61968.Metering {
 		/// combination with 'numerator'=1 to represent interharmonic 1/2. Finally, value 1
 		/// indicates the harmonic of the order specified with 'numerator'.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer denominator;
+		public TC57CIM.IEC61970.Base.Domain.Integer? denominator;
 		/// <summary>
 		/// Interharmonic numerator. Value 0 means not applicable. Value 1 is used in
 		/// combination with 'denominator'=2 to represent interharmonic 1/2, and with
@@ -27,7 +27,7 @@ namespace TC57CIM.IEC61968.Metering {
 		/// than 1 indicate the harmonic of that order (e.g., 'numerator'=5 is the fifth
 		/// harmonic).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer numerator;
+		public TC57CIM.IEC61970.Base.Domain.Integer? numerator;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ReadingInterharmonic"/> class

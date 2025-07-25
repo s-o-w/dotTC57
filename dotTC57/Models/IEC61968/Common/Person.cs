@@ -16,44 +16,44 @@ namespace TC57CIM.IEC61968.Common {
 		/// <summary>
 		/// Electronic address.
 		/// </summary>
-		public ElectronicAddress electronicAddress;
+		public ElectronicAddress? electronicAddress;
 		/// <summary>
 		/// Person's first name.
 		/// </summary>
-		public string firstName;
+		public string? firstName;
 		/// <summary>
 		/// Landline phone number.
 		/// </summary>
-		public TelephoneNumber landlinePhone;
+		public TelephoneNumber? landlinePhone;
 		/// <summary>
 		/// Person's last (family, sir) name.
 		/// </summary>
-		public string lastName;
+		public string? lastName;
 		/// <summary>
 		/// Middle name(s) or initial(s).
 		/// </summary>
-		public string mName;
+		public string? mName;
 		/// <summary>
 		/// Mobile phone number.
 		/// </summary>
-		public TelephoneNumber mobilePhone;
+		public TelephoneNumber? mobilePhone;
 		/// <summary>
 		/// A prefix or title for the person's name, such as Miss, Mister, Doctor, etc.
 		/// </summary>
-		public string prefix;
+		public string? prefix;
 		/// <summary>
 		/// Special service needs for the person (contact) are described; examples include
 		/// life support, etc.
 		/// </summary>
-		public string specialNeed;
+		public string? specialNeed;
 		/// <summary>
 		/// A suffix for the person's name, such as II, III, etc.
 		/// </summary>
-		public string suffix;
+		public string? suffix;
 		/// <summary>
 		/// All roles of this person.
 		/// </summary>
-		public TC57CIM.IEC61968.Common.PersonRole Roles;
+		public TC57CIM.IEC61968.Common.PersonRole? Roles;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Person"/> class

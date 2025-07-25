@@ -16,7 +16,7 @@ namespace TC57CIM.IEC61970.Base.Generation.Production {
 		/// <summary>
 		/// The startup ramp rate in gross for a unit that is on hot standby.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePowerChangeRate hotStandbyRamp;
+		public TC57CIM.IEC61970.Base.Domain.ActivePowerChangeRate? hotStandbyRamp;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="StartRampCurve"/> class

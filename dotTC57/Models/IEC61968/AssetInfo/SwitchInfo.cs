@@ -9,7 +9,6 @@
 using TC57CIM.IEC61970.Base.Domain;
 namespace TC57CIM.IEC61968.AssetInfo {
 	/// <summary>
-	/// <was Switch data.>
 	/// Switch datasheet information.
 	/// </summary>
 	public class SwitchInfo : Assets.AssetInfo {
@@ -18,11 +17,11 @@ namespace TC57CIM.IEC61968.AssetInfo {
 		/// The maximum fault current a breaking device can break safely under prescribed
 		/// conditions of use.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.CurrentFlow breakingCapacity;
+		public TC57CIM.IEC61970.Base.Domain.CurrentFlow? breakingCapacity;
 		/// <summary>
 		/// Weight of gas in each tank of SF6 dead tank breaker.
 		/// </summary>
-		public Mass gasWeightPerTank;
+		public Mass? gasWeightPerTank;
 		/// <summary>
 		/// If true, it is a single phase switch.
 		/// </summary>
@@ -35,35 +34,35 @@ namespace TC57CIM.IEC61968.AssetInfo {
 		/// <summary>
 		/// Gas or air pressure at or below which a low pressure alarm is generated.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Pressure lowPressureAlarm;
+		public TC57CIM.IEC61970.Base.Domain.Pressure? lowPressureAlarm;
 		/// <summary>
 		/// Gas or air pressure below which the breaker will not open.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Pressure lowPressureLockOut;
+		public TC57CIM.IEC61970.Base.Domain.Pressure? lowPressureLockOut;
 		/// <summary>
 		/// Volume of oil in each tank of bulk oil breaker.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Volume oilVolumePerTank;
+		public TC57CIM.IEC61970.Base.Domain.Volume? oilVolumePerTank;
 		/// <summary>
 		/// Rated current.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.CurrentFlow ratedCurrent;
+		public TC57CIM.IEC61970.Base.Domain.CurrentFlow? ratedCurrent;
 		/// <summary>
 		/// Frequency for which switch is rated.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Frequency ratedFrequency;
+		public TC57CIM.IEC61970.Base.Domain.Frequency? ratedFrequency;
 		/// <summary>
 		/// Rated impulse withstand voltage, also known as BIL (Basic Impulse Level).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Voltage ratedImpulseWithstandVoltage;
+		public TC57CIM.IEC61970.Base.Domain.Voltage? ratedImpulseWithstandVoltage;
 		/// <summary>
 		/// Switch rated interrupting time in seconds.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds ratedInterruptingTime;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? ratedInterruptingTime;
 		/// <summary>
 		/// Rated voltage.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Voltage ratedVoltage;
+		public TC57CIM.IEC61970.Base.Domain.Voltage? ratedVoltage;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="SwitchInfo"/> class

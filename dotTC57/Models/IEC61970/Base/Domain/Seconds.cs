@@ -22,7 +22,7 @@ namespace TC57CIM.IEC61970.Base.Domain {
 		/// <summary>
 		/// Time, in seconds
 		/// </summary>
-		public Float value;
+		public Float? value;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Seconds"/> class

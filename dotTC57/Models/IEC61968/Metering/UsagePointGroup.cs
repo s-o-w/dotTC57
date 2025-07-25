@@ -19,11 +19,11 @@ namespace TC57CIM.IEC61968.Metering {
 		/// <summary>
 		/// Type of this group.
 		/// </summary>
-		public string type;
+		public string? type;
 		/// <summary>
 		/// All usage points in this group.
 		/// </summary>
-		public TC57CIM.IEC61968.Metering.UsagePoint UsagePoints;
+		public TC57CIM.IEC61968.Metering.UsagePoint? UsagePoints;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="UsagePointGroup"/> class

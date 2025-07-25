@@ -22,26 +22,26 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.OverexcitationLimiterDynamics
 		/// <summary>
 		/// OEL pickup/drop-out hysteresis (<i>HYST</i>).  Typical value = 0,03.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU hyst;
+		public TC57CIM.IEC61970.Base.Domain.PU? hyst;
 		/// <summary>
 		/// OEL timed field current limit (<i>I</i><i><sub>FDLIM</sub></i>).  Typical value
 		/// = 1,05.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU ifdlim;
+		public TC57CIM.IEC61970.Base.Domain.PU? ifdlim;
 		/// <summary>
 		/// OEL instantaneous field current limit (<i>I</i><i><sub>FDMAX</sub></i>).
 		/// Typical value = 1,5.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU ifdmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? ifdmax;
 		/// <summary>
 		/// OEL timed field current limiter pickup level (<i>I</i><i><sub>TFPU</sub></i>).
 		/// Typical value = 1,05.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU itfpu;
+		public TC57CIM.IEC61970.Base.Domain.PU? itfpu;
 		/// <summary>
 		/// OEL cooldown gain (<i>K</i><i><sub>CD</sub></i>).  Typical value = 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kcd;
+		public TC57CIM.IEC61970.Base.Domain.PU? kcd;
 		/// <summary>
 		/// OEL ramped limit rate (<i>K</i><i><sub>RAMP</sub></i>).  Unit = PU / s.
 		/// Typical value = 10.

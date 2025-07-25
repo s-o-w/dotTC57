@@ -15,31 +15,31 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfWork {
 		/// <summary>
 		/// Answer to question.
 		/// </summary>
-		public string answer;
+		public string? answer;
 		/// <summary>
 		/// The date and time the quesiton was answered.
 		/// </summary>
-		public System.DateTime answerDateTime;
+		public System.DateTime? answerDateTime;
 		/// <summary>
 		/// Remarks to qualify the answer.
 		/// </summary>
-		public string answerRemark;
+		public string? answerRemark;
 		/// <summary>
 		/// The question code. If blank, refer to questionText.
 		/// </summary>
-		public string questionCode;
+		public string? questionCode;
 		/// <summary>
 		/// Remarks to qualify the question in this situation.
 		/// </summary>
-		public string questionRemark;
+		public string? questionRemark;
 		/// <summary>
 		/// For non-coded questions, the question is provided here.
 		/// </summary>
-		public string questionText;
+		public string? questionText;
 		/// <summary>
 		/// The type of the question.
 		/// </summary>
-		public string questionType;
+		public string? questionType;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="InfoQuestion"/> class

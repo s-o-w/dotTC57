@@ -15,49 +15,49 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.TurbineGovernorDynamics {
 		/// <summary>
 		/// Droop (<i>b</i><i><sub>p</sub></i>).  Typical value = 0,05.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU bp;
+		public TC57CIM.IEC61970.Base.Domain.PU? bp;
 		/// <summary>
 		/// Compressor gain (<i>Ktm</i>).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU ktm;
+		public TC57CIM.IEC61970.Base.Domain.PU? ktm;
 		/// <summary>
 		/// Fuel flow maximum negative error value (<i>MNef</i>).  Typical value = -0,05.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU mnef;
+		public TC57CIM.IEC61970.Base.Domain.PU? mnef;
 		/// <summary>
 		/// Fuel flow maximum positive error value (<i>MXef</i>).  Typical value = 0,05.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU mxef;
+		public TC57CIM.IEC61970.Base.Domain.PU? mxef;
 		/// <summary>
 		/// Minimum valve opening (<i>RYMN</i>).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU rymn;
+		public TC57CIM.IEC61970.Base.Domain.PU? rymn;
 		/// <summary>
 		/// Maximum valve opening (<i>RYMX</i>).  Typical value = 1,1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU rymx;
+		public TC57CIM.IEC61970.Base.Domain.PU? rymx;
 		/// <summary>
 		/// Maximum gate opening velocity (<i>TA</i>) (>= 0).  Typical value = 3.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds ta;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? ta;
 		/// <summary>
 		/// Maximum gate closing velocity (<i>TC</i>) (>= 0).  Typical value = 0,5.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tc;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tc;
 		/// <summary>
 		/// Fuel control time constant (<i>Tcm</i>) (>= 0).  Typical value = 0,1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tcm;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tcm;
 		/// <summary>
 		/// Compressor discharge volume time constant (<i>Tm</i>) (>= 0).  Typical value =
 		/// 0,2.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tm;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tm;
 		/// <summary>
 		/// Time constant of fuel valve positioner (<i>Ty</i>) (>= 0).  Typical value = 0,1.
 		///
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds ty;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? ty;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="GovGAST4"/> class

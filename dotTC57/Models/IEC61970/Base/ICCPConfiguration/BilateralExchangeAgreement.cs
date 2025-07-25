@@ -17,7 +17,7 @@ namespace TC57CIM.IEC61970.Base.ICCPConfiguration {
 		/// <summary>
 		/// Subscriber of information from a remote peer.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.ICCPConfiguration.BilateralExchangeActor Consumer;
+		public TC57CIM.IEC61970.Base.ICCPConfiguration.BilateralExchangeActor? Consumer;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="BilateralExchangeAgreement"/> class

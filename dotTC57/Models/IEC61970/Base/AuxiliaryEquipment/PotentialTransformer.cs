@@ -18,7 +18,7 @@ namespace TC57CIM.IEC61970.Base.AuxiliaryEquipment {
 		/// <summary>
 		/// PT accuracy classification.
 		/// </summary>
-		public string accuracyClass;
+		public string? accuracyClass;
 		/// <summary>
 		/// Nominal ratio between the primary and secondary voltage.
 		/// </summary>
@@ -26,7 +26,7 @@ namespace TC57CIM.IEC61970.Base.AuxiliaryEquipment {
 		/// <summary>
 		/// Potential transformer (PT) classification covering burden.
 		/// </summary>
-		public string ptClass;
+		public string? ptClass;
 		/// <summary>
 		/// Potential transformer construction type.
 		/// </summary>

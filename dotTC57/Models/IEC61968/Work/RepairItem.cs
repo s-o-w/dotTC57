@@ -25,7 +25,7 @@ namespace TC57CIM.IEC61968.Work {
 		/// <summary>
 		/// Repair work task under which breaker item of this type is repaired.
 		/// </summary>
-		public TC57CIM.IEC61968.Work.RepairWorkTask RepairWorkTask;
+		public TC57CIM.IEC61968.Work.RepairWorkTask? RepairWorkTask;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="RepairItem"/> class

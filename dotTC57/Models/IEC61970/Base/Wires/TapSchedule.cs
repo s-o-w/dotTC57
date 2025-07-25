@@ -16,7 +16,7 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// <summary>
 		/// A TapSchedule is associated with a TapChanger.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Wires.TapChanger TapChanger;
+		public TC57CIM.IEC61970.Base.Wires.TapChanger? TapChanger;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="TapSchedule"/> class

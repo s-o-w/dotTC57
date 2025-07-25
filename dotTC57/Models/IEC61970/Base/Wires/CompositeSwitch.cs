@@ -24,11 +24,11 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// An alphanumeric code that can be used as a reference to extra information such
 		/// as the description of the interlocking scheme if any.
 		/// </summary>
-		public string compositeSwitchType;
+		public string? compositeSwitchType;
 		/// <summary>
 		/// Switches contained in this Composite switch.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Wires.Switch Switches;
+		public TC57CIM.IEC61970.Base.Wires.Switch? Switches;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="CompositeSwitch"/> class

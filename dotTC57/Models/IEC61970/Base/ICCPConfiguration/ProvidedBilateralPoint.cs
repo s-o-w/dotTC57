@@ -17,7 +17,7 @@ namespace TC57CIM.IEC61970.Base.ICCPConfiguration {
 		/// <summary>
 		/// Remote peer that will receive ICCP information in a Bilateral table.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.ICCPConfiguration.BilateralExchangeActor BilateralExchangeActor;
+		public TC57CIM.IEC61970.Base.ICCPConfiguration.BilateralExchangeActor? BilateralExchangeActor;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ProvidedBilateralPoint"/> class

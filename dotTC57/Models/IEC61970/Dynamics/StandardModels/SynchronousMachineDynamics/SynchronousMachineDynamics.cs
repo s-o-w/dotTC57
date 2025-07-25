@@ -34,13 +34,13 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.SynchronousMachineDynamics {
 		/// <summary>
 		/// Synchronous machine to which synchronous machine dynamics model applies.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Wires.SynchronousMachine SynchronousMachine;
+		public TC57CIM.IEC61970.Base.Wires.SynchronousMachine? SynchronousMachine;
 		/// <summary>
 		/// Turbine-governor model associated with this synchronous machine model.
 		/// Multiplicity of greater than one is intended to support hydro units that have
 		/// multiple turbines on one generator.
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.StandardModels.TurbineGovernorDynamics.TurbineGovernorDynamics TurbineGovernorDynamics;
+		public TC57CIM.IEC61970.Dynamics.StandardModels.TurbineGovernorDynamics.TurbineGovernorDynamics? TurbineGovernorDynamics;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="SynchronousMachineDynamics"/> class

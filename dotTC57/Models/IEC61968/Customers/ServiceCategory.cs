@@ -19,11 +19,11 @@ namespace TC57CIM.IEC61968.Customers {
 		/// <summary>
 		/// All configuration events created for this service category.
 		/// </summary>
-		public TC57CIM.IEC61968.Common.ConfigurationEvent ConfigurationEvents;
+		public TC57CIM.IEC61968.Common.ConfigurationEvent? ConfigurationEvents;
 		/// <summary>
 		/// All pricing structures applicable to this service category.
 		/// </summary>
-		public TC57CIM.IEC61968.Customers.PricingStructure PricingStructures;
+		public TC57CIM.IEC61968.Customers.PricingStructure? PricingStructures;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ServiceCategory"/> class

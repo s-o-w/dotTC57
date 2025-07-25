@@ -40,7 +40,7 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// material and construction.
 		/// The attribute shall be a positive value.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.CurrentFlow ratedCurrent;
+		public TC57CIM.IEC61970.Base.Domain.CurrentFlow? ratedCurrent;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="SwitchPhase"/> class

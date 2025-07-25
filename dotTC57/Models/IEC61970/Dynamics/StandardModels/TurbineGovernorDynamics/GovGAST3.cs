@@ -19,16 +19,16 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.TurbineGovernorDynamics {
 		/// <summary>
 		/// Droop (<i>bp</i>).  Typical value = 0,05.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU bp;
+		public TC57CIM.IEC61970.Base.Domain.PU? bp;
 		/// <summary>
 		/// Exhaust temperature variation due to fuel flow increasing from 0 to 1 PU
 		/// (<i>deltaTc</i>).  Typical value = 390.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Temperature dtc;
+		public TC57CIM.IEC61970.Base.Domain.Temperature? dtc;
 		/// <summary>
 		/// Minimum fuel flow (<i>Ka</i>).  Typical value = 0,23.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU ka;
+		public TC57CIM.IEC61970.Base.Domain.PU? ka;
 		/// <summary>
 		/// Fuel system feedback (<i>K</i><i><sub>AC</sub></i>).  Typical value = 0.
 		/// </summary>
@@ -50,59 +50,59 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.TurbineGovernorDynamics {
 		/// <summary>
 		/// Fuel flow maximum negative error value (<i>MNef</i>).  Typical value = -0,05.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU mnef;
+		public TC57CIM.IEC61970.Base.Domain.PU? mnef;
 		/// <summary>
 		/// Fuel flow maximum positive error value (<i>MXef</i>).  Typical value = 0,05.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU mxef;
+		public TC57CIM.IEC61970.Base.Domain.PU? mxef;
 		/// <summary>
 		/// Minimum fuel flow (<i>RCMN</i>).  Typical value = -0,1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU rcmn;
+		public TC57CIM.IEC61970.Base.Domain.PU? rcmn;
 		/// <summary>
 		/// Maximum fuel flow (<i>RCMX</i>).  Typical value = 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU rcmx;
+		public TC57CIM.IEC61970.Base.Domain.PU? rcmx;
 		/// <summary>
 		/// Fuel control time constant (<i>Tac</i>) (>= 0).  Typical value = 0,1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tac;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tac;
 		/// <summary>
 		/// Compressor discharge volume time constant (<i>Tc</i>) (>= 0).  Typical value =
 		/// 0,2.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tc;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tc;
 		/// <summary>
 		/// Temperature controller derivative gain (<i>Td</i>) (>= 0).  Typical value = 3,3.
 		///
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds td;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? td;
 		/// <summary>
 		/// Turbine rated exhaust temperature correspondent to Pm=1 PU (<i>Tfen</i>).
 		/// Typical value = 540.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Temperature tfen;
+		public TC57CIM.IEC61970.Base.Domain.Temperature? tfen;
 		/// <summary>
 		/// Time constant of speed governor (<i>Tg</i>) (>= 0).  Typical value = 0,05.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tg;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tg;
 		/// <summary>
 		/// Time constant of radiation shield (<i>Tsi</i>) (>= 0).  Typical value = 15.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tsi;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tsi;
 		/// <summary>
 		/// Temperature controller integration rate (<i>Tt</i>).  Typical value = 250.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Temperature tt;
+		public TC57CIM.IEC61970.Base.Domain.Temperature? tt;
 		/// <summary>
 		/// Time constant of thermocouple (<i>Ttc</i>) (>= 0).  Typical value = 2,5.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds ttc;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? ttc;
 		/// <summary>
 		/// Time constant of fuel valve positioner (<i>Ty</i>) (>= 0).  Typical value = 0,2.
 		///
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds ty;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? ty;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="GovGAST3"/> class

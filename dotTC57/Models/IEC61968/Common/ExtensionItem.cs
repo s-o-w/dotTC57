@@ -15,15 +15,15 @@ namespace TC57CIM.IEC61968.Common {
 		/// <summary>
 		/// the name of the extension
 		/// </summary>
-		public string extName;
+		public string? extName;
 		/// <summary>
 		/// The type of the extension
 		/// </summary>
-		public string extType;
+		public string? extType;
 		/// <summary>
 		/// the value of the extension
 		/// </summary>
-		public string extValue;
+		public string? extValue;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ExtensionItem"/> class

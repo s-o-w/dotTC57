@@ -22,7 +22,7 @@ namespace TC57CIM.IEC61970.Base.Domain {
 		/// <summary>
 		/// Value of this quantity.
 		/// </summary>
-		public Integer value;
+		public Integer? value;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="IntegerQuantity"/> class

@@ -18,16 +18,16 @@ namespace TC57CIM.IEC61970.Base.Core {
 		/// operating participant) associated with this share. The total percentage
 		/// ownership for a power system resource should add to 100%.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PerCent percentage;
+		public TC57CIM.IEC61970.Base.Domain.PerCent? percentage;
 		/// <summary>
 		/// The operating participant having this share with the associated power system
 		/// resource.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Core.OperatingParticipant OperatingParticipant;
+		public TC57CIM.IEC61970.Base.Core.OperatingParticipant? OperatingParticipant;
 		/// <summary>
 		/// The power system resource to which the share applies.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Core.PowerSystemResource PowerSystemResource;
+		public TC57CIM.IEC61970.Base.Core.PowerSystemResource? PowerSystemResource;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="OperatingShare"/> class

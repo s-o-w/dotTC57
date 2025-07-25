@@ -16,15 +16,15 @@ namespace TC57CIM.IEC61968.AssetInfo.Assets {
 		/// <summary>
 		/// Date asset was most recently put in use.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Date inUseDate;
+		public TC57CIM.IEC61970.Base.Domain.Date? inUseDate;
 		/// <summary>
 		/// Date of most recent asset transition to not ready for use state.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Date notReadyForUseDate;
+		public TC57CIM.IEC61970.Base.Domain.Date? notReadyForUseDate;
 		/// <summary>
 		/// Date of most recent asset transition to ready for use state.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Date readyForUseDate;
+		public TC57CIM.IEC61970.Base.Domain.Date? readyForUseDate;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="InUseDate"/> class

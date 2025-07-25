@@ -17,7 +17,7 @@ namespace TC57CIM.IEC61970.Base.Generation.Production {
 		/// <summary>
 		/// The emission content per quantity of fuel burned.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Emission emissionContent;
+		public TC57CIM.IEC61970.Base.Domain.Emission? emissionContent;
 		/// <summary>
 		/// The type of emission, which also gives the production rate measurement unit.
 		/// The y1AxisUnits of the curve contains the unit of measure (e.g. kg) and the

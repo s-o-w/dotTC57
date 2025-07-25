@@ -16,20 +16,20 @@ namespace TC57CIM.IEC61970.InfIEC61970.Part303.GenericDataSet {
         /// A free human readable text describing or naming the object.
         /// May be non-unique and not necessarily correlate to a naming hierarchy.
         /// </summary>
-        public string description;
+        public string? description;
         /// <summary>
         /// Master resource identifier issued by a model authority.
         /// The mRID is unique within an exchange context and it is recommended to be a UUID (RFC 4122).
         /// </summary>
-        public string mRID;
+        public string? mRID;
         /// <summary>
         /// Any free human readable text naming the object. May be non-unique.
         /// </summary>
-        public string name;
+        public string? name;
         /// <summary>
         /// The profile that describes the contents of the dataset and its governing rules.
         /// </summary>
-        public Profile Profile;
+        public Profile? Profile;
 
         /// <summary>
         /// Initializes a new instance of the <see cref="DataSet"/> class.

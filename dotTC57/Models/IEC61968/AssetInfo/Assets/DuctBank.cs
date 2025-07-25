@@ -18,7 +18,7 @@ namespace TC57CIM.IEC61968.AssetInfo.Assets {
 		/// (ConductorAsset) and an ACLineSegment to understand which circuits are in which
 		/// ducts.
 		/// </summary>
-		public System.Int32 circuitCount;
+		public System.Int32? circuitCount;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="DuctBank"/> class

@@ -16,19 +16,19 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.ExcitationSystemDynamics {
 		/// <summary>
 		/// High-value gate feedback gain (<i>Kh</i>) (>= 0).  Typical value = 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kh;
+		public TC57CIM.IEC61970.Base.Domain.PU? kh;
 		/// <summary>
 		/// Voltage regulator integral gain (<i>Kia</i>) (>= 0).  Typical value = 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kia;
+		public TC57CIM.IEC61970.Base.Domain.PU? kia;
 		/// <summary>
 		/// Low-value gate feedback gain (<i>Kl</i>) (>= 0).  Typical value = 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kl;
+		public TC57CIM.IEC61970.Base.Domain.PU? kl;
 		/// <summary>
 		/// Voltage regulator proportional gain (<i>Kpa</i>) (> 0).  Typical value = 40.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kpa;
+		public TC57CIM.IEC61970.Base.Domain.PU? kpa;
 		/// <summary>
 		/// OEL input selector (<i>OELin</i>). Typical value = noOELinput.
 		/// </summary>
@@ -36,29 +36,29 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.ExcitationSystemDynamics {
 		/// <summary>
 		/// Regulator lag time constant (<i>Tb</i>) (>= 0).  Typical value = 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tb;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tb;
 		/// <summary>
 		/// Regulator lead time constant (<i>Tc</i>) (>= 0).  Typical value = 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tc;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tc;
 		/// <summary>
 		/// Excitation control system stabilizer time constant (<i>Tf</i>) (>= 0).  Typical
 		/// value = 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tf;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tf;
 		/// <summary>
 		/// Feedback time constant of inner loop field voltage regulator (<i>Tg</i>) (>= 0).
 		///  Typical value = 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tg;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tg;
 		/// <summary>
 		/// Feedback time constant (<i>Tia</i>) (>= 0).  Typical value = 3.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tia;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tia;
 		/// <summary>
 		/// Rectifier firing time constant (<i>Ts</i>) (>= 0).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds ts;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? ts;
 		/// <summary>
 		/// UEL input selector (<i>UELin</i>). Typical value = noUELinput.
 		/// </summary>
@@ -67,20 +67,20 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.ExcitationSystemDynamics {
 		/// Maximum voltage reference signal (<i>Vmax</i>) (> 0 and > ExcST7B.vmin)).
 		/// Typical value = 1,1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? vmax;
 		/// <summary>
 		/// Minimum voltage reference signal (<i>Vmin</i>) (greater than 0 and less than ExcST7B.vmax).
 		/// Typical value = 0,9.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vmin;
+		public TC57CIM.IEC61970.Base.Domain.PU? vmin;
 		/// <summary>
 		/// Maximum voltage regulator output (<i>Vrmax</i>) (> 0).  Typical value = 5.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vrmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? vrmax;
 		/// <summary>
 		/// Minimum voltage regulator output (<i>Vrmin</i>) (less than 0).  Typical value = -4,5.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vrmin;
+		public TC57CIM.IEC61970.Base.Domain.PU? vrmin;
 
 		/// <summary>
 		/// Constructor for ExcST7B.

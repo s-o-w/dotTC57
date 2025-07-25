@@ -22,15 +22,15 @@ namespace TC57CIM.IEC61968.Metering {
 		/// Cost unit for the alternate cost delivered field. One example is kg of CO2 per
 		/// unit of measure.
 		/// </summary>
-		public string alternateCostUnit;
+		public string? alternateCostUnit;
 		/// <summary>
 		/// Current time as determined by a PAN device.
 		/// </summary>
-		public System.DateTime currentTimeDate;
+		public System.DateTime? currentTimeDate;
 		/// <summary>
 		/// Price of the commodity measured in base unit of currency per 'unitOfMeasure'.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Money generationPrice;
+		public TC57CIM.IEC61970.Base.Domain.Money? generationPrice;
 		/// <summary>
 		/// Ratio of 'generationPrice' to the "normal" price chosen by the commodity
 		/// provider.
@@ -39,7 +39,7 @@ namespace TC57CIM.IEC61968.Metering {
 		/// <summary>
 		/// Price of the commodity measured in base unit of currency per 'unitOfMeasure'.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Money price;
+		public TC57CIM.IEC61970.Base.Domain.Money? price;
 		/// <summary>
 		/// Ratio of 'price' to the "normal" price chosen by the commodity provider.
 		/// </summary>
@@ -47,27 +47,27 @@ namespace TC57CIM.IEC61968.Metering {
 		/// <summary>
 		/// Pricing tier as chosen by the commodity provider.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer priceTier;
+		public TC57CIM.IEC61970.Base.Domain.Integer? priceTier;
 		/// <summary>
 		/// Maximum number of price tiers available.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer priceTierCount;
+		public TC57CIM.IEC61970.Base.Domain.Integer? priceTierCount;
 		/// <summary>
 		/// Label for price tier.
 		/// </summary>
-		public string priceTierLabel;
+		public string? priceTierLabel;
 		/// <summary>
 		/// Label of the current billing rate specified by commodity provider.
 		/// </summary>
-		public string rateLabel;
+		public string? rateLabel;
 		/// <summary>
 		/// Register tier accumulating usage information.
 		/// </summary>
-		public string registerTier;
+		public string? registerTier;
 		/// <summary>
 		/// Defines commodity as well as its base unit of measure.
 		/// </summary>
-		public string unitOfMeasure;
+		public string? unitOfMeasure;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="PanPricingDetail"/> class

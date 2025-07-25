@@ -16,11 +16,11 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.ExcitationSystemDynamics {
 		/// <summary>
 		/// Field voltage value 1 (<i>E</i><i><sub>1</sub></i>).  Typical value = 4.18.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU e1;
+		public TC57CIM.IEC61970.Base.Domain.PU? e1;
 		/// <summary>
 		/// Field voltage value 2 (<i>E</i><i><sub>2</sub></i>).  Typical value = 3,14.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU e2;
+		public TC57CIM.IEC61970.Base.Domain.PU? e2;
 		/// <summary>
 		/// AVR gain (<i>K</i><i><sub>A</sub></i>).  Typical value = 500.
 		/// </summary>
@@ -42,29 +42,29 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.ExcitationSystemDynamics {
 		/// <summary>
 		/// AVR time constant (<i>T</i><i><sub>A</sub></i>) (>= 0).  Typical value = 0,2.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds ta;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? ta;
 		/// <summary>
 		/// AVR time constant (<i>T</i><i><sub>B</sub></i>) (>= 0).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tb;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tb;
 		/// <summary>
 		/// Exciter time constant (<i>T</i><i><sub>E</sub></i>) (>= 0).  Typical value = 1.
 		///
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds te;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? te;
 		/// <summary>
 		/// Rate feedback time constant (<i>T</i><i><sub>F</sub></i>) (>= 0).  Typical
 		/// value = 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tf;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tf;
 		/// <summary>
 		/// Minimum AVR output (<i>V</i><i><sub>RMN</sub></i>).  Typical value = -6.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vrmn;
+		public TC57CIM.IEC61970.Base.Domain.PU? vrmn;
 		/// <summary>
 		/// Maximum AVR output (<i>V</i><i><sub>RMX</sub></i>).  Typical value = 7.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vrmx;
+		public TC57CIM.IEC61970.Base.Domain.PU? vrmx;
 
 		/// <summary>
 		/// Constructor for ExcAVR1.

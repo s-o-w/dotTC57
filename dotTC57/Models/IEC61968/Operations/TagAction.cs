@@ -19,7 +19,7 @@ namespace TC57CIM.IEC61968.Operations {
 		/// <summary>
 		/// Tag associated with this tag action.
 		/// </summary>
-		public TC57CIM.IEC61968.Operations.OperationalTag OperationalTag;
+		public TC57CIM.IEC61968.Operations.OperationalTag? OperationalTag;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="TagAction"/> class

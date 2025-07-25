@@ -36,26 +36,26 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.AsynchronousMachineDynamics {
 		/// Transient rotor time constant (<i>T'o</i>) (>
 		/// AsynchronousMachineTimeConstantReactance.tppo).  Typical value = 5.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tpo;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tpo;
 		/// <summary>
 		/// Subtransient rotor time constant (<i>T''o</i>) (> 0).  Typical value = 0,03.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tppo;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tppo;
 		/// <summary>
 		/// Transient reactance (unsaturated) (<i>X'</i>) (>=
 		/// AsynchronousMachineTimeConstantReactance.xpp).  Typical value = 0,5.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU xp;
+		public TC57CIM.IEC61970.Base.Domain.PU? xp;
 		/// <summary>
 		/// Subtransient reactance (unsaturated) (<i>X''</i>) (> RotatingMachineDynamics.
 		/// statorLeakageReactance).  Typical value = 0,2.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU xpp;
+		public TC57CIM.IEC61970.Base.Domain.PU? xpp;
 		/// <summary>
 		/// Synchronous reactance (<i>Xs</i>) (>= AsynchronousMachineTimeConstantReactance.
 		/// xp).  Typical value = 1,8.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU xs;
+		public TC57CIM.IEC61970.Base.Domain.PU? xs;
 
 		/// <summary>
 		/// Constructor for AsynchronousMachineTimeConstantReactance.

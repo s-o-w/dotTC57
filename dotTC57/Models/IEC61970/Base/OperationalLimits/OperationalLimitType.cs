@@ -21,7 +21,7 @@ namespace TC57CIM.IEC61970.Base.OperationalLimits {
 		/// isInfiniteDuration is set to false, hence it shall not be exchanged when
 		/// isInfiniteDuration is set to true.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds acceptableDuration;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? acceptableDuration;
 		/// <summary>
 		/// The direction of the limit.
 		/// </summary>

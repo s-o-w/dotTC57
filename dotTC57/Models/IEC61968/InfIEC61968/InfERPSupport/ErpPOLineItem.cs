@@ -15,7 +15,7 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfERPSupport {
 		/// <summary>
 		/// The erp purchase order
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfERPSupport.ErpPurchaseOrder ErpPurchaseOrder;
+		public TC57CIM.IEC61968.InfIEC61968.InfERPSupport.ErpPurchaseOrder? ErpPurchaseOrder;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ErpPOLineItem"/> class

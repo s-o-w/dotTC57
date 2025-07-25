@@ -21,19 +21,19 @@ namespace TC57CIM.IEC61968.Metering {
 		/// <summary>
 		/// Date and time interval of the data items contained within this meter reading.
 		/// </summary>
-		public DateTimeInterval valuesInterval;
+		public DateTimeInterval? valuesInterval;
 		/// <summary>
 		/// (could be deprecated in the future) Customer agreement for this meter reading.
 		/// </summary>
-		public TC57CIM.IEC61968.Customers.CustomerAgreement CustomerAgreement;
+		public TC57CIM.IEC61968.Customers.CustomerAgreement? CustomerAgreement;
 		/// <summary>
 		/// All end device events associated with this set of measured values.
 		/// </summary>
-		public TC57CIM.IEC61968.Metering.EndDeviceEvent EndDeviceEvents;
+		public TC57CIM.IEC61968.Metering.EndDeviceEvent? EndDeviceEvents;
 		/// <summary>
 		/// Usage point from which this meter reading (set of values) has been obtained.
 		/// </summary>
-		public TC57CIM.IEC61968.Metering.UsagePoint UsagePoint;
+		public TC57CIM.IEC61968.Metering.UsagePoint? UsagePoint;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="MeterReading"/> class

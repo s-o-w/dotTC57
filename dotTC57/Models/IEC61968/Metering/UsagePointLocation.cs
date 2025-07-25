@@ -17,21 +17,21 @@ namespace TC57CIM.IEC61968.Metering {
 		/// a description of where to obtain a key if the facility is unmanned and secured.
 		///
 		/// </summary>
-		public string accessMethod;
+		public string? accessMethod;
 		/// <summary>
 		/// Remarks about this location.
 		/// </summary>
-		public string remark;
+		public string? remark;
 		/// <summary>
 		/// Problems previously encountered when visiting or performing work at this
 		/// location. Examples include: bad dog, violent customer, verbally abusive
 		/// occupant, obstructions, safety hazards, etc.
 		/// </summary>
-		public string siteAccessProblem;
+		public string? siteAccessProblem;
 		/// <summary>
 		/// All usage points at this location.
 		/// </summary>
-		public TC57CIM.IEC61968.Metering.UsagePoint UsagePoints;
+		public TC57CIM.IEC61968.Metering.UsagePoint? UsagePoints;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="UsagePointLocation"/> class

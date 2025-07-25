@@ -19,39 +19,39 @@ namespace TC57CIM.IEC61970.Base.Core {
 		/// <summary>
 		/// Multiplier for X-axis.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.UnitMultiplier xMultiplier;
+		public TC57CIM.IEC61970.Base.Domain.UnitMultiplier? xMultiplier;
 		/// <summary>
 		/// The X-axis units of measure.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.UnitSymbol xUnit;
+		public TC57CIM.IEC61970.Base.Domain.UnitSymbol? xUnit;
 		/// <summary>
 		/// Multiplier for Y1-axis.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.UnitMultiplier y1Multiplier;
+		public TC57CIM.IEC61970.Base.Domain.UnitMultiplier? y1Multiplier;
 		/// <summary>
 		/// The Y1-axis units of measure.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.UnitSymbol y1Unit;
+		public TC57CIM.IEC61970.Base.Domain.UnitSymbol? y1Unit;
 		/// <summary>
 		/// Multiplier for Y2-axis.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.UnitMultiplier y2Multiplier;
+		public TC57CIM.IEC61970.Base.Domain.UnitMultiplier? y2Multiplier;
 		/// <summary>
 		/// The Y2-axis units of measure.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.UnitSymbol y2Unit;
+		public TC57CIM.IEC61970.Base.Domain.UnitSymbol? y2Unit;
 		/// <summary>
 		/// Multiplier for Y3-axis.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.UnitMultiplier y3Multiplier;
+		public TC57CIM.IEC61970.Base.Domain.UnitMultiplier? y3Multiplier;
 		/// <summary>
 		/// The Y3-axis units of measure.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.UnitSymbol y3Unit;
+		public TC57CIM.IEC61970.Base.Domain.UnitSymbol? y3Unit;
 		/// <summary>
 		/// The point data values that define this curve.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Core.CurveData CurveDatas;
+		public TC57CIM.IEC61970.Base.Core.CurveData? CurveDatas;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Curve"/> class

@@ -11,7 +11,7 @@ namespace TC57CIM.IEC61968.Metering {
 	/// <summary>
 	/// Detailed description for an event produced by an end device. Values in
 	/// attributes allow for creation of recommended codes to be used for identifying
-	/// end device events as follows: <type>.<domain>.<subDomain>.<eventOrAction>.
+	/// end device events as follows: type.domain.subDomain.eventOrAction.
 	/// </summary>
 	public class EndDeviceEventType : IdentifiedObject {
 
@@ -20,22 +20,22 @@ namespace TC57CIM.IEC61968.Metering {
 		/// of domain codes, a system can more easily run reports based on the types of
 		/// events that have occurred or been received.
 		/// </summary>
-		public string domain;
+		public string? domain;
 		/// <summary>
 		/// The most specific part of this event type. It is mainly in the form of a verb
 		/// that gives action to the event that just occurred.
 		/// </summary>
-		public string eventOrAction;
+		public string? eventOrAction;
 		/// <summary>
 		/// More specific nature of the event, as a further sub-categorisation of 'domain'.
 		///
 		/// </summary>
-		public string subDomain;
+		public string? subDomain;
 		/// <summary>
 		/// Type of physical device from which the event was created. A value of zero (0)
 		/// can be used when the source is unknown.
 		/// </summary>
-		public string type;
+		public string? type;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="EndDeviceEventType"/> class

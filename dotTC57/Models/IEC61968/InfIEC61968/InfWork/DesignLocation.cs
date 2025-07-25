@@ -15,31 +15,31 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfWork {
 		/// <summary>
 		/// The legth of the span from the previous pole to this pole.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Length spanLength;
+		public TC57CIM.IEC61970.Base.Domain.Length? spanLength;
 		/// <summary>
 		/// The status
 		/// </summary>
-		public TC57CIM.IEC61968.Common.Status status;
+		public TC57CIM.IEC61968.Common.Status? status;
 		/// <summary>
 		/// The condition factors
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfWork.ConditionFactor ConditionFactors;
+		public TC57CIM.IEC61968.InfIEC61968.InfWork.ConditionFactor? ConditionFactors;
 		/// <summary>
 		/// The designs
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfWork.Design Designs;
+		public TC57CIM.IEC61968.InfIEC61968.InfWork.Design? Designs;
 		/// <summary>
 		/// The design location us
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfWork.DesignLocationCU DesignLocationCUs;
+		public TC57CIM.IEC61968.InfIEC61968.InfWork.DesignLocationCU? DesignLocationCUs;
 		/// <summary>
 		/// The work locations
 		/// </summary>
-		public TC57CIM.IEC61968.Work.WorkLocation WorkLocations;
+		public TC57CIM.IEC61968.Work.WorkLocation? WorkLocations;
 		/// <summary>
 		/// The misc cost items
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfWork.MiscCostItem MiscCostItems;
+		public TC57CIM.IEC61968.InfIEC61968.InfWork.MiscCostItem? MiscCostItems;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="DesignLocation"/> class

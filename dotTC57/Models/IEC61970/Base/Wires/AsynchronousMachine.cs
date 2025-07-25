@@ -28,7 +28,7 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// Indicator for converter drive motors. Used for short circuit data exchange
 		/// according to IEC 60909.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PerCent efficiency;
+		public TC57CIM.IEC61970.Base.Domain.PerCent? efficiency;
 		/// <summary>
 		/// Ratio of locked-rotor current to the rated current of the motor (Ia/Ir). Used
 		/// for short circuit data exchange according to IEC 60909.
@@ -37,21 +37,21 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// <summary>
 		/// Nameplate data indicates if the machine is 50 Hz or 60 Hz.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Frequency nominalFrequency;
+		public TC57CIM.IEC61970.Base.Domain.Frequency? nominalFrequency;
 		/// <summary>
 		/// Nameplate data.  Depends on the slip and number of pole pairs.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.RotationSpeed nominalSpeed;
+		public TC57CIM.IEC61970.Base.Domain.RotationSpeed? nominalSpeed;
 		/// <summary>
 		/// Number of pole pairs of stator. Used for short circuit data exchange according
 		/// to IEC 60909.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer polePairNumber;
+		public TC57CIM.IEC61970.Base.Domain.Integer? polePairNumber;
 		/// <summary>
 		/// Rated mechanical power (Pr in IEC 60909-0). Used for short circuit data
 		/// exchange according to IEC 60909.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower ratedMechanicalPower;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? ratedMechanicalPower;
 		/// <summary>
 		/// Indicates for converter drive motors if the power can be reversible. Used for
 		/// short circuit data exchange according to IEC 60909.
@@ -60,11 +60,11 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// <summary>
 		/// Damper 1 winding resistance.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Resistance rr1;
+		public TC57CIM.IEC61970.Base.Domain.Resistance? rr1;
 		/// <summary>
 		/// Damper 2 winding resistance.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Resistance rr2;
+		public TC57CIM.IEC61970.Base.Domain.Resistance? rr2;
 		/// <summary>
 		/// Locked rotor ratio (R/X). Used for short circuit data exchange according to IEC
 		/// 60909.
@@ -73,35 +73,35 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// <summary>
 		/// Transient rotor time constant (greater than tppo).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tpo;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tpo;
 		/// <summary>
 		/// Sub-transient rotor time constant (greater than 0).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tppo;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tppo;
 		/// <summary>
 		/// Damper 1 winding leakage reactance.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Reactance xlr1;
+		public TC57CIM.IEC61970.Base.Domain.Reactance? xlr1;
 		/// <summary>
 		/// Damper 2 winding leakage reactance.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Reactance xlr2;
+		public TC57CIM.IEC61970.Base.Domain.Reactance? xlr2;
 		/// <summary>
 		/// Magnetizing reactance.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Reactance xm;
+		public TC57CIM.IEC61970.Base.Domain.Reactance? xm;
 		/// <summary>
 		/// Transient reactance (unsaturated) (greater than or equal to xpp).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Reactance xp;
+		public TC57CIM.IEC61970.Base.Domain.Reactance? xp;
 		/// <summary>
 		/// Sub-transient reactance (unsaturated).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Reactance xpp;
+		public TC57CIM.IEC61970.Base.Domain.Reactance? xpp;
 		/// <summary>
 		/// Synchronous reactance (greater than xp).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Reactance xs;
+		public TC57CIM.IEC61970.Base.Domain.Reactance? xs;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="AsynchronousMachine"/> class

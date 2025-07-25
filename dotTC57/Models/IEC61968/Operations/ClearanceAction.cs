@@ -19,7 +19,7 @@ namespace TC57CIM.IEC61968.Operations {
 		/// <summary>
 		/// Clearance associated with this clearance action.
 		/// </summary>
-		public TC57CIM.IEC61968.Operations.ClearanceDocument Clearance;
+		public TC57CIM.IEC61968.Operations.ClearanceDocument? Clearance;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ClearanceAction"/> class

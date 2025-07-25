@@ -14,12 +14,12 @@ namespace TC57CIM.IEC61968.Work {
 		/// <summary>
 		/// Date and time the last odometer reading was recorded.
 		/// </summary>
-		public System.DateTime odometerReadDateTime;
+		public System.DateTime? odometerReadDateTime;
 		/// <summary>
 		/// Odometer reading of this vehicle as of the 'odometerReadingDateTime'. Refer to
 		/// associated ActivityRecords for earlier readings.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Length odometerReading;
+		public TC57CIM.IEC61970.Base.Domain.Length? odometerReading;
 		/// <summary>
 		/// Kind of usage of the vehicle.
 		/// </summary>

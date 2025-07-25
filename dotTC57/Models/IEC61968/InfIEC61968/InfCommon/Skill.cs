@@ -17,11 +17,11 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfCommon {
 		/// <summary>
 		/// Interval between the certification and its expiry.
 		/// </summary>
-		public DateTimeInterval certificationPeriod;
+		public DateTimeInterval? certificationPeriod;
 		/// <summary>
 		/// Date and time the skill became effective.
 		/// </summary>
-		public System.DateTime effectiveDateTime;
+		public System.DateTime? effectiveDateTime;
 		/// <summary>
 		/// Level of skill for a Craft.
 		/// </summary>
@@ -29,11 +29,11 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfCommon {
 		/// <summary>
 		/// The qualification requirements
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfWork.QualificationRequirement QualificationRequirements;
+		public TC57CIM.IEC61968.InfIEC61968.InfWork.QualificationRequirement? QualificationRequirements;
 		/// <summary>
 		/// The crafts
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfCommon.Craft Crafts;
+		public TC57CIM.IEC61968.InfIEC61968.InfCommon.Craft? Crafts;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Skill"/> class

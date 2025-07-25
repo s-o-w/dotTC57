@@ -15,16 +15,16 @@ namespace TC57CIM.IEC61970.Base.Core {
 		/// The time for the last time point.  The value can be a time of day, not a
 		/// specific date.
 		/// </summary>
-		public System.DateTime endTime;
+		public System.DateTime? endTime;
 		/// <summary>
 		/// The time between each pair of subsequent regular time points in sequence order.
 		///
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds timeStep;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? timeStep;
 		/// <summary>
 		/// The regular interval time point data values that define this schedule.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Core.RegularTimePoint TimePoints;
+		public TC57CIM.IEC61970.Base.Core.RegularTimePoint? TimePoints;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="RegularIntervalSchedule"/> class

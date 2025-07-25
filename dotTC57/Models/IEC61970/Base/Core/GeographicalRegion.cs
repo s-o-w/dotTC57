@@ -14,7 +14,7 @@ namespace TC57CIM.IEC61970.Base.Core {
 		/// <summary>
 		/// All sub-geographical regions within this geographical region.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Core.SubGeographicalRegion Regions;
+		public TC57CIM.IEC61970.Base.Core.SubGeographicalRegion? Regions;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="GeographicalRegion"/> class

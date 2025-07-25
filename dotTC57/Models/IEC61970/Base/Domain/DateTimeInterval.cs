@@ -17,12 +17,12 @@ namespace TC57CIM.IEC61970.Base.Domain {
 		/// End date and time of this interval.  The end date and time where the interval
 		/// is defined up to, but excluded.
 		/// </summary>
-		public DateTime end;
+		public DateTime? end;
 		/// <summary>
 		/// Start date and time of this interval.  The start date and time is included in
 		/// the defined interval.
 		/// </summary>
-		public DateTime start;
+		public DateTime? start;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="DateTimeInterval"/> class

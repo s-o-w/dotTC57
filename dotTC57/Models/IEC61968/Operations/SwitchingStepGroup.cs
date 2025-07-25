@@ -17,7 +17,7 @@ namespace TC57CIM.IEC61968.Operations {
 		/// <summary>
 		/// Descriptive information concerning the switching step group.
 		/// </summary>
-		public string description;
+		public string? description;
 		/// <summary>
 		/// If true, the sequence number serves for presentation purposes only, and the
 		/// activity itself may be executed at any time.
@@ -26,12 +26,12 @@ namespace TC57CIM.IEC61968.Operations {
 		/// <summary>
 		/// Describes the overall purpose of the steps in this switching step group.
 		/// </summary>
-		public string purpose;
+		public string? purpose;
 		/// <summary>
 		/// Order of this activity in the sequence of activities within the switching plan.
 		///
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer sequenceNumber;
+		public TC57CIM.IEC61970.Base.Domain.Integer? sequenceNumber;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="SwitchingStepGroup"/> class

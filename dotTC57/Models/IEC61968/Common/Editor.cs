@@ -15,7 +15,7 @@ namespace TC57CIM.IEC61968.Common {
 		/// <summary>
 		/// All documents for this editor.
 		/// </summary>
-		public TC57CIM.IEC61968.Common.Document Documents;
+		public TC57CIM.IEC61968.Common.Document? Documents;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Editor"/> class

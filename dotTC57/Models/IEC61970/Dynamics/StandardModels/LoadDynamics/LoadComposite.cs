@@ -57,7 +57,7 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.LoadDynamics {
 		/// <summary>
 		/// Inertia constant (<i>H</i>) (>= 0).  Typical value = 2,5.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds h;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? h;
 		/// <summary>
 		/// Loading factor (<i>L</i><i><sub>fac</sub></i>). The ratio of initial <i>P</i>
 		/// to motor MVA base.  Typical value = 0,8.
@@ -65,7 +65,7 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.LoadDynamics {
 		public float lfac;
 		/// <summary>
 		/// Fraction of constant-power load to be represented by this motor model
-		/// (<i>P</i><i><sub>FRAC</sub></i>) (>= 0,0 and <= 1,0).  Typical value = 0,5.
+		/// (<i>P</i><i><sub>FRAC</sub></i>) (greater than or equal to 0,0 and less than or equal to 1,0).  Typical value = 0,5.
 		/// </summary>
 		public float pfrac;
 

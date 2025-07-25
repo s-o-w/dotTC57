@@ -30,74 +30,73 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.PowerSystemStabilizerDynamics
 		/// <summary>
 		/// Input signal 1 gain (<i>K</i><i><sub>1</sub></i>).  Typical value = 1,13.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU k1;
+		public TC57CIM.IEC61970.Base.Domain.PU? k1;
 		/// <summary>
 		/// Input signal 2 gain (<i>K</i><i><sub>2</sub></i>).  Typical value = 0,0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU k2;
+		public TC57CIM.IEC61970.Base.Domain.PU? k2;
 		/// <summary>
 		/// Input signal 1 transducer time constant (<i>T</i><i><sub>1</sub></i>) (>= 0).
 		/// Typical value = 0,037.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t1;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t1;
 		/// <summary>
 		/// Lag time constant (<i>T</i><i><sub>10</sub></i>) (>= 0).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t10;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t10;
 		/// <summary>
 		/// Input signal 2 transducer time constant (<i>T</i><i><sub>2</sub></i>) (>= 0).
 		/// Typical value = 0,0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t2;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t2;
 		/// <summary>
 		/// Stabilizer washout time constant (<i>T</i><i><sub>3</sub></i>) (>= 0).  Typical
 		/// value = 9,5.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t3;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t3;
 		/// <summary>
 		/// Stabilizer washout time lag constant (<i>T</i><i><sub>4</sub></i>) (>= 0).
 		/// Typical value = 9,5.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t4;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t4;
 		/// <summary>
 		/// Lead time constant (<i>T</i><i><sub>5</sub></i>) (>= 0).  Typical value = 1,7.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t5;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t5;
 		/// <summary>
 		/// Lag time constant (<i>T</i><i><sub>6</sub></i>) (>= 0).  Typical value = 1,5.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t6;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t6;
 		/// <summary>
 		/// Lead time constant (<i>T</i><i><sub>7</sub></i>) (>= 0).  Typical value = 1,7.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t7;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t7;
 		/// <summary>
 		/// Lag time constant (<i>T</i><i><sub>8</sub></i>) (>= 0).  Typical value = 1,5.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t8;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t8;
 		/// <summary>
 		/// Lead time constant (<i>T</i><i><sub>9</sub></i>) (>= 0).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t9;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t9;
 		/// <summary>
 		/// Minimum value for voltage compensator output (<i>V</i><i><sub>CL</sub></i>).
 		/// Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vcl;
+		public TC57CIM.IEC61970.Base.Domain.PU? vcl;
 		/// <summary>
 		/// Maximum value for voltage compensator output (<i>V</i><i><sub>CU</sub></i>).
 		/// Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vcu;
+		public TC57CIM.IEC61970.Base.Domain.PU? vcu;
 		/// <summary>
-		/// Maximum output signal (<i>Vsmax</i>) (> PssWECC.vsmin). Typical value = 0,05.
+		/// Maximum output signal (<i>Vsmax</i>) (greater than PssWECC.vsmin). Typical value = 0,05.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vsmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? vsmax;
 		/// <summary>
-		/// Minimum output signal (<i>Vsmin</i>) (< PssWECC.vsmax).  Typical value = -0,05.
-		///
+		/// Minimum output signal (<i>Vsmin</i>) (less than PssWECC.vsmax). Typical value = -0,05.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vsmin;
+		public TC57CIM.IEC61970.Base.Domain.PU? vsmin;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="PssWECC"/> class

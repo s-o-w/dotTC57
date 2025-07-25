@@ -15,32 +15,32 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfWork {
 		/// <summary>
 		/// Capability performance factor.
 		/// </summary>
-		public string performanceFactor;
+		public string? performanceFactor;
 		/// <summary>
 		/// The status
 		/// </summary>
-		public TC57CIM.IEC61968.Common.Status status;
+		public TC57CIM.IEC61968.Common.Status? status;
 		/// <summary>
 		/// Classification by utility's work management standards and practices.
 		/// </summary>
-		public string type;
+		public string? type;
 		/// <summary>
 		/// Date and time interval for which this capability is valid (when it became
 		/// effective and when it expires).
 		/// </summary>
-		public DateTimeInterval validityInterval;
+		public DateTimeInterval? validityInterval;
 		/// <summary>
 		/// The work tasks
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfWork.OldWorkTask WorkTasks;
+		public TC57CIM.IEC61968.InfIEC61968.InfWork.OldWorkTask? WorkTasks;
 		/// <summary>
 		/// The crafts
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfCommon.Craft Crafts;
+		public TC57CIM.IEC61968.InfIEC61968.InfCommon.Craft? Crafts;
 		/// <summary>
 		/// The crew
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfCommon.OldCrew Crew;
+		public TC57CIM.IEC61968.InfIEC61968.InfCommon.OldCrew? Crew;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Capability"/> class

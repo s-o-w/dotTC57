@@ -10,10 +10,10 @@ namespace TC57CIM.IEC61968.Metering {
 	/// <summary>
 	/// Detailed description for a type of a reading value. Values in attributes allow
 	/// for the creation of recommended codes to be used for identifying reading value
-	/// types as follows: <macroPeriod>.<aggregate>.<measuringPeriod>.<accumulation>.
-	/// <flowDirection>.<commodity>.<measurementKind>.<interharmonic.numerator>.
-	/// <interharmonic.denominator>.<argument.numerator>.<argument.denominator>.<tou>.
-	/// <cpp>.<consumptionTier>.<phases>.<multiplier>.<unit>.<currency>.
+	/// types as follows: macroPeriod.aggregate.measuringPeriod.accumulation.
+	/// flowDirection.commodity.measurementKind.interharmonic.numerator.
+	/// interharmonic.denominator.argument.numerator.argument.denominator.tou.
+	/// cpp.consumptionTier.phases.multiplier.unit.currency.
 	/// </summary>
 	public class ReadingType : IdentifiedObject {
 
@@ -37,7 +37,7 @@ namespace TC57CIM.IEC61968.Metering {
 		/// 'denominator'=1).
 		/// Value 0 in 'numerator' and 'denominator' means not applicable.
 		/// </summary>
-		public RationalNumber argument;
+		public RationalNumber? argument;
 		/// <summary>
 		/// Commodity being measured.
 		/// </summary>
@@ -57,17 +57,17 @@ namespace TC57CIM.IEC61968.Metering {
 		/// consumption accumulator is reset, and usage within the 'consumptionTier'=1
 		/// restarts.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer consumptionTier;
+		public TC57CIM.IEC61970.Base.Domain.Integer? consumptionTier;
 		/// <summary>
 		/// Critical peak period (CPP) bucket the reading value is attributed to. Value 0
 		/// means not applicable. Even though CPP is usually considered a specialised form
 		/// of time of use 'tou', this attribute is defined explicitly for flexibility.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer cpp;
+		public TC57CIM.IEC61970.Base.Domain.Integer? cpp;
 		/// <summary>
 		/// Metering-specific currency.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Currency currency;
+		public TC57CIM.IEC61970.Base.Domain.Currency? currency;
 		/// <summary>
 		/// Flow direction for a reading where the direction of flow of the commodity is
 		/// important (for electricity measurements this includes current, energy, power,
@@ -78,7 +78,7 @@ namespace TC57CIM.IEC61968.Metering {
 		/// Indication of a "harmonic" or "interharmonic" basis for the measurement. Value
 		/// 0 in 'numerator' and 'denominator' means not applicable.
 		/// </summary>
-		public ReadingInterharmonic interharmonic;
+		public ReadingInterharmonic? interharmonic;
 		/// <summary>
 		/// Time period of interest that reflects how the reading is viewed or captured
 		/// over a long period of time.
@@ -114,24 +114,24 @@ namespace TC57CIM.IEC61968.Metering {
 		/// <summary>
 		/// Metering-specific multiplier.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.UnitMultiplier multiplier;
+		public TC57CIM.IEC61970.Base.Domain.UnitMultiplier? multiplier;
 		/// <summary>
 		/// Metering-specific phase code.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Core.PhaseCode phases;
+		public TC57CIM.IEC61970.Base.Core.PhaseCode? phases;
 		/// <summary>
 		/// Time of use (TOU) bucket the reading value is attributed to. Value 0 means not
 		/// applicable.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer tou;
+		public TC57CIM.IEC61970.Base.Domain.Integer? tou;
 		/// <summary>
 		/// Metering-specific unit.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.UnitSymbol unit;
+		public TC57CIM.IEC61970.Base.Domain.UnitSymbol? unit;
 		/// <summary>
 		/// Channel reporting/collecting register values with this type information.
 		/// </summary>
-		public TC57CIM.IEC61968.Metering.Channel Channel;
+		public TC57CIM.IEC61968.Metering.Channel? Channel;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ReadingType"/> class

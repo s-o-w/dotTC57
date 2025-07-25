@@ -18,19 +18,19 @@ namespace TC57CIM.IEC61968.Common {
 		/// <summary>
 		/// date of this version
 		/// </summary>
-		public System.DateTime date;
+		public System.DateTime? date;
 		/// <summary>
 		/// major release level for this version
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer major;
+		public TC57CIM.IEC61970.Base.Domain.Integer? major;
 		/// <summary>
 		/// minor release level for this version
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer minor;
+		public TC57CIM.IEC61970.Base.Domain.Integer? minor;
 		/// <summary>
 		/// revision level for this version
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer revision;
+		public TC57CIM.IEC61970.Base.Domain.Integer? revision;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Version"/> class

@@ -17,11 +17,11 @@ namespace TC57CIM.IEC61968.Operations {
 		/// Type of operational updated rating, e.g. a derate, a rerate or a return to
 		/// normal.
 		/// </summary>
-		public string changeType;
+		public string? changeType;
 		/// <summary>
 		/// Planned equipment outage with this updated rating.
 		/// </summary>
-		public TC57CIM.IEC61968.Operations.PlannedOutage PlannedOutage;
+		public TC57CIM.IEC61968.Operations.PlannedOutage? PlannedOutage;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="OperationalUpdatedRating"/> class

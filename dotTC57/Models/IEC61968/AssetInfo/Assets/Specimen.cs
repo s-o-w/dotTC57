@@ -16,27 +16,27 @@ namespace TC57CIM.IEC61968.AssetInfo.Assets {
 		/// <summary>
 		/// Operating ambient temperature (in �C).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Temperature ambientTemperatureAtSampling;
+		public TC57CIM.IEC61970.Base.Domain.Temperature? ambientTemperatureAtSampling;
 		/// <summary>
 		/// Operating ambient humidity (in percent).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PerCent humidityAtSampling;
+		public TC57CIM.IEC61970.Base.Domain.PerCent? humidityAtSampling;
 		/// <summary>
 		/// Identifier of specimen used in inspection or test.
 		/// </summary>
-		public string specimenID;
+		public string? specimenID;
 		/// <summary>
 		/// Date and time sample specimen taken.
 		/// </summary>
-		public System.DateTime specimenSampleDateTime;
+		public System.DateTime? specimenSampleDateTime;
 		/// <summary>
 		/// Date and time the specimen was received by the lab.
 		/// </summary>
-		public System.DateTime specimenToLabDateTime;
+		public System.DateTime? specimenToLabDateTime;
 		/// <summary>
 		/// Test sampler taker who gathered this specimen.
 		/// </summary>
-		public TC57CIM.IEC61968.AssetInfo.Assets.AssetTestSampleTaker AssetTestSampleTaker;
+		public TC57CIM.IEC61968.AssetInfo.Assets.AssetTestSampleTaker? AssetTestSampleTaker;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Specimen"/> class

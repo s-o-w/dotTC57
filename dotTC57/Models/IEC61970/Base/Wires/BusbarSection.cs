@@ -21,11 +21,11 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// Mechanical limit of the busbar in the substation itself. Used for short circuit
 		/// data exchange according to IEC 60909.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.CurrentFlow ipMax;
+		public TC57CIM.IEC61970.Base.Domain.CurrentFlow? ipMax;
 		/// <summary>
 		/// A VoltageControlZone is controlled by a designated BusbarSection.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Wires.VoltageControlZone VoltageControlZone;
+		public TC57CIM.IEC61970.Base.Wires.VoltageControlZone? VoltageControlZone;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="BusbarSection"/> class

@@ -18,7 +18,7 @@ namespace TC57CIM.IEC61970.Base.Meas {
 		/// represents BreakerOpen, BreakerClose, GeneratorVoltageSetPoint, GeneratorRaise,
 		/// GeneratorLower, etc.
 		/// </summary>
-		public string controlType;
+		public string? controlType;
 		/// <summary>
 		/// Indicates that a client is currently sending control commands that has not
 		/// completed.
@@ -27,15 +27,15 @@ namespace TC57CIM.IEC61970.Base.Meas {
 		/// <summary>
 		/// The last time a control output was sent.
 		/// </summary>
-		public System.DateTime timeStamp;
+		public System.DateTime? timeStamp;
 		/// <summary>
 		/// The unit multiplier of the controlled quantity.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.UnitMultiplier unitMultiplier;
+		public TC57CIM.IEC61970.Base.Domain.UnitMultiplier? unitMultiplier;
 		/// <summary>
 		/// The unit of measure of the controlled quantity.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.UnitSymbol unitSymbol;
+		public TC57CIM.IEC61970.Base.Domain.UnitSymbol? unitSymbol;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Control"/> class

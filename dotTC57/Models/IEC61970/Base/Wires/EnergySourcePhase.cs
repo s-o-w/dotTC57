@@ -24,7 +24,7 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// <summary>
 		/// The energy sourceto which the phase belongs.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Wires.EnergySource EnergySource;
+		public TC57CIM.IEC61970.Base.Wires.EnergySource? EnergySource;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="EnergySourcePhase"/> class

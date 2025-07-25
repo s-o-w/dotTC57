@@ -23,7 +23,7 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfERPSupport {
 		/// <summary>
 		/// Bank ABA.
 		/// </summary>
-		public string bankABA;
+		public string? bankABA;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ErpBankAccount"/> class

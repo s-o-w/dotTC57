@@ -15,53 +15,53 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.TurbineGovernorDynamics {
 		/// <summary>
 		/// One / PU regulation (<i>K1</i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU k1;
+		public TC57CIM.IEC61970.Base.Domain.PU? k1;
 		/// <summary>
 		/// Fraction (<i>K2</i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU k2;
+		public TC57CIM.IEC61970.Base.Domain.PU? k2;
 		/// <summary>
 		/// Fraction (<i>K3</i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU k3;
+		public TC57CIM.IEC61970.Base.Domain.PU? k3;
 		/// <summary>
 		/// Base for power values (<i>MWbase</i>) (> 0).  Unit = MW.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower mwbase;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? mwbase;
 		/// <summary>
 		/// Upper power limit (<i>Pmax</i>) (> GovSteamSGO.pmin).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU pmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? pmax;
 		/// <summary>
-		/// Lower power limit (<i>Pmin</i>) (>= 0 and < GovSteamSGO.pmax).
+		/// Lower power limit (<i>Pmin</i>) (>= 0 and &lt; GovSteamSGO.pmax).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds pmin;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? pmin;
 		/// <summary>
 		/// Controller lag (<i>T1</i>) (>= 0).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t1;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t1;
 		/// <summary>
 		/// Controller lead compensation (<i>T2</i>) (>= 0).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t2;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t2;
 		/// <summary>
 		/// Governor lag (<i>T3</i>) (> 0).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t3;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t3;
 		/// <summary>
 		/// Delay due to steam inlet volumes associated with steam chest and inlet piping
 		/// (<i>T4</i>) (>= 0).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t4;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t4;
 		/// <summary>
 		/// Reheater delay including hot and cold leads (<i>T5</i>) (>= 0).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t5;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t5;
 		/// <summary>
 		/// Delay due to IP-LP turbine, crossover pipes and LP end hoods (<i>T6</i>) (>= 0).
 		///
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t6;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t6;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="GovSteamSGO"/> class

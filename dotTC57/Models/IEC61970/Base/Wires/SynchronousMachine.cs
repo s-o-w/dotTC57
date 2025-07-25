@@ -17,21 +17,21 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// Time delay required when switching from Automatic Voltage Regulation (AVR) to
 		/// Manual for a lagging MVAr violation.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds aVRToManualLag;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? aVRToManualLag;
 		/// <summary>
 		/// Time delay required when switching from Automatic Voltage Regulation (AVR) to
 		/// Manual for a leading MVAr violation.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds aVRToManualLead;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? aVRToManualLead;
 		/// <summary>
 		/// Default base reactive power value. This value represents the initial reactive
 		/// power that can be used by any application function.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ReactivePower baseQ;
+		public TC57CIM.IEC61970.Base.Domain.ReactivePower? baseQ;
 		/// <summary>
 		/// Active power consumed when in condenser mode operation.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower condenserP;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? condenserP;
 		/// <summary>
 		/// Temperature or pressure of coolant medium.
 		/// </summary>
@@ -49,47 +49,46 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// Generator star point earthing resistance (Re). Used for short circuit data
 		/// exchange according to IEC 60909.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Resistance earthingStarPointR;
+		public TC57CIM.IEC61970.Base.Domain.Resistance? earthingStarPointR;
 		/// <summary>
 		/// Generator star point earthing reactance (Xe). Used for short circuit data
 		/// exchange according to IEC 60909.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Reactance earthingStarPointX;
+		public TC57CIM.IEC61970.Base.Domain.Reactance? earthingStarPointX;
 		/// <summary>
 		/// Steady-state short-circuit current (in A for the profile) of generator with
 		/// compound excitation during 3-phase short circuit.
-		/// - Ikk=0: Generator with no compound excitation.
-		/// - Ikk<>0: Generator with compound excitation.
+		/// - Ikk equals 0: Generator with no compound excitation.
+		/// - Ikk not equal to 0: Generator with compound excitation.
 		/// Ikk is used to calculate the minimum steady-state short-circuit current for
 		/// generators with compound excitation.
 		/// (4.6.1.2 in IEC 60909-0:2001).
-		/// Used only for single fed short circuit on a generator. (4.3.4.2. in IEC 60909-0:
-		/// 2001).
+		/// Used only for single fed short circuit on a generator. (4.3.4.2. in IEC 60909-0:2001).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.CurrentFlow ikk;
+		public TC57CIM.IEC61970.Base.Domain.CurrentFlow? ikk;
 		/// <summary>
 		/// Time delay required when switching from Manual to Automatic Voltage Regulation.
 		/// This value is used in the accelerating power reference frame for powerflow
 		/// solutions.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds manualToAVR;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? manualToAVR;
 		/// <summary>
 		/// Maximum reactive power limit. This is the maximum (nameplate) limit for the
 		/// unit.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ReactivePower maxQ;
+		public TC57CIM.IEC61970.Base.Domain.ReactivePower? maxQ;
 		/// <summary>
 		/// Maximum voltage limit for the unit.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Voltage maxU;
+		public TC57CIM.IEC61970.Base.Domain.Voltage? maxU;
 		/// <summary>
 		/// Minimum reactive power limit for the unit.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ReactivePower minQ;
+		public TC57CIM.IEC61970.Base.Domain.ReactivePower? minQ;
 		/// <summary>
 		/// Minimum voltage  limit for the unit.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Voltage minU;
+		public TC57CIM.IEC61970.Base.Domain.Voltage? minU;
 		/// <summary>
 		/// Factor to calculate the breaking current (Section 4.5.2.1 in IEC 60909-0).
 		/// Used only for single fed short circuit on a generator (Section 4.3.4.2. in IEC
@@ -105,42 +104,42 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// attribute is used as a participation factor not necessarily summing up to 100%
 		/// for the participating devices in the control.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PerCent qPercent;
+		public TC57CIM.IEC61970.Base.Domain.PerCent? qPercent;
 		/// <summary>
 		/// Equivalent resistance (RG) of generator. RG is considered for the calculation
 		/// of all currents, except for the calculation of the peak current ip. Used for
 		/// short circuit data exchange according to IEC 60909.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Resistance r;
+		public TC57CIM.IEC61970.Base.Domain.Resistance? r;
 		/// <summary>
 		/// Zero sequence resistance of the synchronous machine.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Resistance r0;
+		public TC57CIM.IEC61970.Base.Domain.Resistance? r0;
 		/// <summary>
 		/// Negative sequence resistance.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Resistance r2;
+		public TC57CIM.IEC61970.Base.Domain.Resistance? r2;
 		/// <summary>
 		/// Priority of unit for use as powerflow voltage phase angle reference bus
 		/// selection. 0 = don t care (default) 1 = highest priority. 2 is less than 1 and
 		/// so on.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer referencePriority;
+		public TC57CIM.IEC61970.Base.Domain.Integer? referencePriority;
 		/// <summary>
 		/// Direct-axis subtransient reactance saturated, also known as Xd"sat.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU satDirectSubtransX;
+		public TC57CIM.IEC61970.Base.Domain.PU? satDirectSubtransX;
 		/// <summary>
 		/// Direct-axes saturated synchronous reactance (xdsat); reciprocal of short-
 		/// circuit ration. Used for short circuit data exchange, only for single fed short
 		/// circuit on a generator. (4.3.4.2. in IEC 60909-0:2001).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU satDirectSyncX;
+		public TC57CIM.IEC61970.Base.Domain.PU? satDirectSyncX;
 		/// <summary>
 		/// Saturated Direct-axis transient reactance. The attribute is primarily used for
 		/// short circuit calculations according to ANSI.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU satDirectTransX;
+		public TC57CIM.IEC61970.Base.Domain.PU? satDirectTransX;
 		/// <summary>
 		/// Type of rotor, used by short circuit applications, only for single fed short
 		/// circuit according to IEC 60909.
@@ -156,15 +155,15 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// This attribute is used to describe the operating voltage of the generating unit.
 		///
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PerCent voltageRegulationRange;
+		public TC57CIM.IEC61970.Base.Domain.PerCent? voltageRegulationRange;
 		/// <summary>
 		/// Zero sequence reactance of the synchronous machine.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Reactance x0;
+		public TC57CIM.IEC61970.Base.Domain.Reactance? x0;
 		/// <summary>
 		/// Negative sequence reactance.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Reactance x2;
+		public TC57CIM.IEC61970.Base.Domain.Reactance? x2;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="SynchronousMachine"/> class

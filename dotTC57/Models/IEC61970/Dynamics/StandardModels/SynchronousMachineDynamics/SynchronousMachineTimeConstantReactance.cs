@@ -60,32 +60,32 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.SynchronousMachineDynamics {
 		/// <summary>
 		/// Damping time constant for �Canay� reactance (>= 0).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tc;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tc;
 		/// <summary>
 		/// Direct-axis transient rotor time constant (<i>T'do</i>) (>
 		/// SynchronousMachineTimeConstantReactance.tppdo).  Typical value = 5.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tpdo;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tpdo;
 		/// <summary>
 		/// Direct-axis subtransient rotor time constant (<i>T''do</i>) (> 0).  Typical
 		/// value = 0,03.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tppdo;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tppdo;
 		/// <summary>
 		/// Quadrature-axis subtransient rotor time constant (<i>T''qo</i>) (> 0). Typical
 		/// value = 0,03.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tppqo;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tppqo;
 		/// <summary>
 		/// Quadrature-axis transient rotor time constant (<i>T'qo</i>) (>
 		/// SynchronousMachineTimeConstantReactance.tppqo). Typical value = 0,5.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tpqo;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tpqo;
 		/// <summary>
 		/// Direct-axis subtransient reactance (unsaturated) (<i>X''d</i>) (>
 		/// RotatingMachineDynamics.statorLeakageReactance).  Typical value = 0,2.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU xDirectSubtrans;
+		public TC57CIM.IEC61970.Base.Domain.PU? xDirectSubtrans;
 		/// <summary>
 		/// Direct-axis synchronous reactance (<i>Xd</i>) (>=
 		/// SynchronousMachineTimeConstantReactance.xDirectTrans). The quotient of a
@@ -94,18 +94,18 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.SynchronousMachineDynamics {
 		/// the AC component of this current, the machine running at rated speed.  Typical
 		/// value = 1,8.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU xDirectSync;
+		public TC57CIM.IEC61970.Base.Domain.PU? xDirectSync;
 		/// <summary>
 		/// Direct-axis transient reactance (unsaturated) (<i>X'd</i>) (>=
 		/// SynchronousMachineTimeConstantReactance.xDirectSubtrans).  Typical value = 0,5.
 		///
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU xDirectTrans;
+		public TC57CIM.IEC61970.Base.Domain.PU? xDirectTrans;
 		/// <summary>
 		/// Quadrature-axis subtransient reactance (<i>X''q</i>) (> RotatingMachineDynamics.
 		/// statorLeakageReactance).  Typical value = 0,2.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU xQuadSubtrans;
+		public TC57CIM.IEC61970.Base.Domain.PU? xQuadSubtrans;
 		/// <summary>
 		/// Quadrature-axis synchronous reactance (<i>Xq</i>) (>=
 		/// SynchronousMachineTimeConstantReactance.xQuadTrans).
@@ -113,12 +113,12 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.SynchronousMachineDynamics {
 		/// axis component of armature current, to this component of current, under steady
 		/// state conditions and at rated frequency.  Typical value = 1,6.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU xQuadSync;
+		public TC57CIM.IEC61970.Base.Domain.PU? xQuadSync;
 		/// <summary>
 		/// Quadrature-axis transient reactance (<i>X'q</i>) (>=
 		/// SynchronousMachineTimeConstantReactance.xQuadSubtrans).  Typical value = 0,3.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU xQuadTrans;
+		public TC57CIM.IEC61970.Base.Domain.PU? xQuadTrans;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="SynchronousMachineTimeConstantReactance"/> class

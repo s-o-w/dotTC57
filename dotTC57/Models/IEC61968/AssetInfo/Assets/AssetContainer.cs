@@ -15,7 +15,7 @@ namespace TC57CIM.IEC61968.AssetInfo.Assets {
 		/// <summary>
 		/// All seals applied to this asset container.
 		/// </summary>
-		public TC57CIM.IEC61968.AssetInfo.Assets.Seal Seals;
+		public TC57CIM.IEC61968.AssetInfo.Assets.Seal? Seals;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="AssetContainer"/> class

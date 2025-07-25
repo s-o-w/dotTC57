@@ -17,7 +17,7 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics {
 		/// <summary>
 		/// Pitch control power model associated with this wind turbine type 1B model.
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics.WindPitchContPowerIEC WindPitchContPowerIEC;
+		public TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics.WindPitchContPowerIEC? WindPitchContPowerIEC;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="WindGenTurbineType1bIEC"/> class

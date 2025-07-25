@@ -16,19 +16,19 @@ namespace TC57CIM.IEC61968.Common {
 		/// <summary>
 		/// The field dispatch step that has the field dispatch history.
 		/// </summary>
-		public TC57CIM.IEC61968.Common.FieldDispatchStep FieldDispatchStep;
+		public TC57CIM.IEC61968.Common.FieldDispatchStep? FieldDispatchStep;
 		/// <summary>
 		/// The crew that has this field dispatch history.
 		/// </summary>
-		public TC57CIM.IEC61968.Common.Crew Crew;
+		public TC57CIM.IEC61968.Common.Crew? Crew;
 		/// <summary>
 		/// The planned outage that has the field dispatch history.
 		/// </summary>
-		public TC57CIM.IEC61968.Operations.PlannedOutage PlannedOutage;
+		public TC57CIM.IEC61968.Operations.PlannedOutage? PlannedOutage;
 		/// <summary>
 		/// The unplanned outage that has the field dispatch history.
 		/// </summary>
-		public TC57CIM.IEC61968.Operations.UnplannedOutage UnplannedOutage;
+		public TC57CIM.IEC61968.Operations.UnplannedOutage? UnplannedOutage;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="FieldDispatchHistory"/> class

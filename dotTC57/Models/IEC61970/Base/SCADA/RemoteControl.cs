@@ -27,7 +27,7 @@ namespace TC57CIM.IEC61970.Base.SCADA {
 		/// <summary>
 		/// The Control for the RemoteControl point.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Meas.Control Control;
+		public TC57CIM.IEC61970.Base.Meas.Control? Control;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="RemoteControl"/> class

@@ -14,11 +14,11 @@ namespace TC57CIM.IEC61970.Base.Meas {
 		/// <summary>
 		/// The value to supervise.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer value;
+		public TC57CIM.IEC61970.Base.Domain.Integer? value;
 		/// <summary>
 		/// The Control variable associated with the MeasurementValue.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Meas.Command Command;
+		public TC57CIM.IEC61970.Base.Meas.Command? Command;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="DiscreteValue"/> class

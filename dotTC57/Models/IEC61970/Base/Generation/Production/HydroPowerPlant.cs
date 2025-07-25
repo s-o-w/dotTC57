@@ -17,12 +17,12 @@ namespace TC57CIM.IEC61970.Base.Generation.Production {
 		/// <summary>
 		/// Water travel delay from tailbay to next downstream hydro power station.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds dischargeTravelDelay;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? dischargeTravelDelay;
 		/// <summary>
 		/// The hydro plant's generating rating active power for rated head conditions.
 		/// The attribute shall be a positive value.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower genRatedP;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? genRatedP;
 		/// <summary>
 		/// The type of hydro power plant water storage.
 		/// </summary>
@@ -30,49 +30,49 @@ namespace TC57CIM.IEC61970.Base.Generation.Production {
 		/// <summary>
 		/// Type and configuration of hydro plant penstock(s).
 		/// </summary>
-		public string penstockType;
+		public string? penstockType;
 		/// <summary>
 		/// Total plant discharge capacity.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.VolumeFlowRate plantDischargeCapacity;
+		public TC57CIM.IEC61970.Base.Domain.VolumeFlowRate? plantDischargeCapacity;
 		/// <summary>
 		/// The plant's rated gross head.
 		/// The attribute shall be a positive value.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Length plantRatedHead;
+		public TC57CIM.IEC61970.Base.Domain.Length? plantRatedHead;
 		/// <summary>
 		/// The hydro plant's pumping rating active power for rated head conditions.
 		/// The attribute shall be a positive value.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower pumpRatedP;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? pumpRatedP;
 		/// <summary>
 		/// A code describing the type (or absence) of surge tank that is associated with
 		/// the hydro power plant.
 		/// </summary>
-		public string surgeTankCode;
+		public string? surgeTankCode;
 		/// <summary>
 		/// The level at which the surge tank spills.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.WaterLevel surgeTankCrestLevel;
+		public TC57CIM.IEC61970.Base.Domain.WaterLevel? surgeTankCrestLevel;
 		/// <summary>
 		/// The hydro pump may be a member of a pumped storage plant or a pump for
 		/// distributing water.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Generation.Production.HydroPump HydroPumps;
+		public TC57CIM.IEC61970.Base.Generation.Production.HydroPump? HydroPumps;
 		/// <summary>
 		/// Generators discharge water to or pumps are supplied water from a downstream
 		/// reservoir.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Generation.Production.Reservoir Reservoir;
+		public TC57CIM.IEC61970.Base.Generation.Production.Reservoir? Reservoir;
 		/// <summary>
 		/// Generators are supplied water from or pumps discharge water to an upstream
 		/// reservoir.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Generation.Production.Reservoir GenSourcePumpDischargeReservoir;
+		public TC57CIM.IEC61970.Base.Generation.Production.Reservoir? GenSourcePumpDischargeReservoir;
 		/// <summary>
 		/// The hydro generating unit belongs to a hydro power plant.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Generation.Production.HydroGeneratingUnit HydroGeneratingUnits;
+		public TC57CIM.IEC61970.Base.Generation.Production.HydroGeneratingUnit? HydroGeneratingUnits;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="HydroPowerPlant"/> class

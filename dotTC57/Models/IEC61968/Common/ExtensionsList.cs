@@ -15,7 +15,7 @@ namespace TC57CIM.IEC61968.Common {
 		/// <summary>
 		/// a compound type that defines the extension name, type and value
 		/// </summary>
-		public ExtensionItem extensionsItem;
+		public ExtensionItem? extensionsItem;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ExtensionsList"/> class

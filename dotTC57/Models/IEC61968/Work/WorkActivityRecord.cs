@@ -16,7 +16,7 @@ namespace TC57CIM.IEC61968.Work {
 		/// Estimated percentage of completion of this individual work task or overall work
 		/// order.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PerCent percentComplete;
+		public TC57CIM.IEC61970.Base.Domain.PerCent? percentComplete;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="WorkActivityRecord"/> class

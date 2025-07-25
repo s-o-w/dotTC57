@@ -18,12 +18,12 @@ namespace TC57CIM.IEC61968.Common {
 		/// Date this agreement was consummated among associated persons and/or
 		/// organisations.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Date signDate;
+		public TC57CIM.IEC61970.Base.Domain.Date? signDate;
 		/// <summary>
 		/// Date and time interval this agreement is valid (from going into effect to
 		/// termination).
 		/// </summary>
-		public DateTimeInterval validityInterval;
+		public DateTimeInterval? validityInterval;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Agreement"/> class

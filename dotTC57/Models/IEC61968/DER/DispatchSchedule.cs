@@ -17,25 +17,25 @@ namespace TC57CIM.IEC61968.DER {
 		/// A value set by the system, function, algorithm or person creating a prediction
 		/// as to how accurate the prediction is.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PerCent confidence;
+		public TC57CIM.IEC61970.Base.Domain.PerCent? confidence;
 		/// <summary>
 		/// Used to specify whether the values over an interval are constant
 		/// (constantYValue) or linearly interpolated (straightLineYValues)
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Core.CurveStyle curveStyleKind;
+		public TC57CIM.IEC61970.Base.Core.CurveStyle? curveStyleKind;
 		/// <summary>
 		/// Used to specify the number of intervals when requesting a forecast or a
 		/// dispatch.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer numberOfIntervals;
+		public TC57CIM.IEC61970.Base.Domain.Integer? numberOfIntervals;
 		/// <summary>
 		/// The start time of the first interval in the dispatch schedule
 		/// </summary>
-		public System.DateTime startTime;
+		public System.DateTime? startTime;
 		/// <summary>
 		/// The length of time for each interval in the dispatch schedule.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer timeIntervalDuration;
+		public TC57CIM.IEC61970.Base.Domain.Integer? timeIntervalDuration;
 		/// <summary>
 		/// The unit of measure for the time axis of the dispatch schedule.
 		/// </summary>
@@ -43,7 +43,7 @@ namespace TC57CIM.IEC61968.DER {
 		/// <summary>
 		/// The DER monitorable parameter included in the DER dispatch schedule.
 		/// </summary>
-		public TC57CIM.IEC61968.DER.DERMonitorableParameter DERMonitorableParameter;
+		public TC57CIM.IEC61968.DER.DERMonitorableParameter? DERMonitorableParameter;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="DispatchSchedule"/> class

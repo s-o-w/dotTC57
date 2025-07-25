@@ -17,13 +17,13 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfCommon {
 		/// Bank identifier code as defined in ISO 9362; for use in countries wher IBAN is
 		/// not yet in operation.
 		/// </summary>
-		public string bic;
+		public string? bic;
 		/// <summary>
 		/// International bank account number defined in ISO 13616; for countries where
 		/// IBAN is not in operation, the existing BIC or SWIFT codes may be used instead
 		/// (see ISO 9362).
 		/// </summary>
-		public string iban;
+		public string? iban;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Bank"/> class

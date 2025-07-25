@@ -17,7 +17,7 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.HVDCDynamics {
 		/// Current source converter to which current source converter dynamics model
 		/// applies.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.DC.CsConverter CSConverter;
+		public TC57CIM.IEC61970.Base.DC.CsConverter? CSConverter;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="CSCDynamics"/> class

@@ -22,15 +22,15 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// the line segment, i.e. the line segment terminal with sequence number equal to
 		/// 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Length lengthFromTerminal1;
+		public TC57CIM.IEC61970.Base.Domain.Length? lengthFromTerminal1;
 		/// <summary>
 		/// Action taken with this jumper.
 		/// </summary>
-		public TC57CIM.IEC61968.Operations.JumperAction JumperAction;
+		public TC57CIM.IEC61968.Operations.JumperAction? JumperAction;
 		/// <summary>
 		/// The clamp action that is performed on the clamp
 		/// </summary>
-		public TC57CIM.IEC61968.Operations.ClampAction ClampAction;
+		public TC57CIM.IEC61968.Operations.ClampAction? ClampAction;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Clamp"/> class

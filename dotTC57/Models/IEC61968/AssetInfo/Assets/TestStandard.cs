@@ -23,62 +23,62 @@ namespace TC57CIM.IEC61968.AssetInfo.Assets {
 		/// Which ASTM standard used to determine analog value result. Applies only if ASTM
 		/// standard used.
 		/// </summary>
-		public ASTMStandard testStandardASTM;
+		public ASTMStandard? testStandardASTM;
 		/// <summary>
 		/// Which CIGRE standard used to determine analog value result. Applies only if
 		/// CIGRE standard used.
 		/// </summary>
-		public CIGREStandard testStandardCIGRE;
+		public CIGREStandard? testStandardCIGRE;
 		/// <summary>
 		/// Which DIN standard used to determine analog value result. Applies only if DIN
 		/// standard used.
 		/// </summary>
-		public DINStandard testStandardDIN;
+		public DINStandard? testStandardDIN;
 		/// <summary>
 		/// Which Doble standard used to determine analog value result. Applies only if
 		/// Doble standard used.
 		/// </summary>
-		public DobleStandard testStandardDoble;
+		public DobleStandard? testStandardDoble;
 		/// <summary>
 		/// Which EPA standard used to determine analog value result. Applies only if EPA
 		/// standard used.
 		/// </summary>
-		public EPAStandard testStandardEPA;
+		public EPAStandard? testStandardEPA;
 		/// <summary>
 		/// Which IEC standard used to determine analog value result. Applies only if IEC
 		/// standard used.
 		/// </summary>
-		public IECStandard testStandardIEC;
+		public IECStandard? testStandardIEC;
 		/// <summary>
 		/// Which IEEE standard used to determine analog value result. Applies only if IEEE
 		/// standard used.
 		/// </summary>
-		public IEEEStandard testStandardIEEE;
+		public IEEEStandard? testStandardIEEE;
 		/// <summary>
 		/// Which ISO standard used to determine analog value result. Applies only if ISO
 		/// standard used.
 		/// </summary>
-		public ISOStandard testStandardISO;
+		public ISOStandard? testStandardISO;
 		/// <summary>
 		/// Which Laborelec standard used to determine analog value result. Applies only if
 		/// Laborelec standard used.
 		/// </summary>
-		public LaborelecStandard testStandardLaborelec;
+		public LaborelecStandard? testStandardLaborelec;
 		/// <summary>
 		/// Which TAPPI standard used to determine analog value result. Applies only if
 		/// TAPPI standard used.
 		/// </summary>
-		public TAPPIStandard testStandardTAPPI;
+		public TAPPIStandard? testStandardTAPPI;
 		/// <summary>
 		/// Which UK Ministry of Defence standard used to determine analog value result.
 		/// Applies only if UK Ministry of Defence standard used.
 		/// </summary>
-		public UKMinistryOfDefenceStandard testStandardUKMinistryOfDefence;
+		public UKMinistryOfDefenceStandard? testStandardUKMinistryOfDefence;
 		/// <summary>
 		/// Which WEP standard used to determine analog value result. Applies only if WEP
 		/// standard used.
 		/// </summary>
-		public WEPStandard testStandardWEP;
+		public WEPStandard? testStandardWEP;
 		/// <summary>
 		/// Identification of variant of test method or standard if one is specified by the
 		/// standard.

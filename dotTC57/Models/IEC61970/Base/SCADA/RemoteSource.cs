@@ -19,7 +19,7 @@ namespace TC57CIM.IEC61970.Base.SCADA {
 		/// <summary>
 		/// The time interval between scans.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds scanInterval;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? scanInterval;
 		/// <summary>
 		/// The maximum value the telemetry item can return.
 		/// </summary>

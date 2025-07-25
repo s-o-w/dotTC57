@@ -18,11 +18,11 @@ namespace TC57CIM.IEC61968.AssetInfo {
 		/// Base power at which the tests are conducted, usually equal to the rateds of one
 		/// of the involved transformer ends.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ApparentPower basePower;
+		public TC57CIM.IEC61970.Base.Domain.ApparentPower? basePower;
 		/// <summary>
 		/// Temperature at which the test is conducted.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Temperature temperature;
+		public TC57CIM.IEC61970.Base.Domain.Temperature? temperature;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="TransformerTest"/> class

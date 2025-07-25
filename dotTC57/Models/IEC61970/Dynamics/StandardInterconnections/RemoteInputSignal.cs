@@ -21,7 +21,7 @@ namespace TC57CIM.IEC61970.Dynamics.StandardInterconnections {
 		/// <summary>
 		/// Remote terminal with which this input signal is associated.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Core.Terminal Terminal;
+		public TC57CIM.IEC61970.Base.Core.Terminal? Terminal;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="RemoteInputSignal"/> class

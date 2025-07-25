@@ -14,15 +14,15 @@ namespace TC57CIM.IEC61968.PaymentMetering {
 		/// <summary>
 		/// Details of the account holder and bank.
 		/// </summary>
-		public BankAccountDetail bankAccountDetail;
+		public BankAccountDetail? bankAccountDetail;
 		/// <summary>
 		/// Cheque reference number as printed on the cheque.
 		/// </summary>
-		public string chequeNumber;
+		public string? chequeNumber;
 		/// <summary>
 		/// Date when cheque becomes valid.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Date date;
+		public TC57CIM.IEC61970.Base.Domain.Date? date;
 		/// <summary>
 		/// Kind of cheque.
 		/// </summary>
@@ -30,11 +30,11 @@ namespace TC57CIM.IEC61968.PaymentMetering {
 		/// <summary>
 		/// The magnetic ink character recognition number printed on the cheque.
 		/// </summary>
-		public string micrNumber;
+		public string? micrNumber;
 		/// <summary>
 		/// Payment tender the cheque is being used for.
 		/// </summary>
-		public TC57CIM.IEC61968.PaymentMetering.Tender Tender;
+		public TC57CIM.IEC61968.PaymentMetering.Tender? Tender;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Cheque"/> class

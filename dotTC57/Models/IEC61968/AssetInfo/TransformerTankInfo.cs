@@ -14,11 +14,11 @@ namespace TC57CIM.IEC61968.AssetInfo {
 		/// <summary>
 		/// Data for all the ends described by this transformer tank data.
 		/// </summary>
-		public TC57CIM.IEC61968.AssetInfo.TransformerEndInfo TransformerEndInfos;
+		public TC57CIM.IEC61968.AssetInfo.TransformerEndInfo? TransformerEndInfos;
 		/// <summary>
 		/// Power transformer data that this tank description is part of.
 		/// </summary>
-		public TC57CIM.IEC61968.AssetInfo.PowerTransformerInfo PowerTransformerInfo;
+		public TC57CIM.IEC61968.AssetInfo.PowerTransformerInfo? PowerTransformerInfo;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="TransformerTankInfo"/> class

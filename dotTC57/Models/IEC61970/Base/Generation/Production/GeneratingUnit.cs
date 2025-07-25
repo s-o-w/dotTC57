@@ -20,44 +20,44 @@ namespace TC57CIM.IEC61970.Base.Generation.Production {
 		/// The planned unused capacity (spinning reserve) which can be used to support
 		/// emergency load.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower allocSpinResP;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? allocSpinResP;
 		/// <summary>
 		/// The planned unused capacity which can be used to support automatic control
 		/// overruns.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower autoCntrlMarginP;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? autoCntrlMarginP;
 		/// <summary>
 		/// For dispatchable units, this value represents the economic active power
 		/// basepoint, for units that are not dispatchable, this value represents the fixed
 		/// generation value. The value shall be between the operating low and high limits.
 		///
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower baseP;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? baseP;
 		/// <summary>
 		/// Unit control error deadband. When a unit's desired active power change is less
 		/// than this deadband, then no control pulses will be sent to the unit.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower controlDeadband;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? controlDeadband;
 		/// <summary>
 		/// Pulse high limit which is the largest control pulse that the unit can respond
 		/// to.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds controlPulseHigh;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? controlPulseHigh;
 		/// <summary>
 		/// Pulse low limit which is the smallest control pulse that the unit can respond
 		/// to.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds controlPulseLow;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? controlPulseLow;
 		/// <summary>
 		/// Unit response rate which specifies the active power change for a control pulse
 		/// of one second in the most responsive loading level of the unit.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePowerChangeRate controlResponseRate;
+		public TC57CIM.IEC61970.Base.Domain.ActivePowerChangeRate? controlResponseRate;
 		/// <summary>
 		/// The efficiency of the unit in converting mechanical energy, from the prime
 		/// mover, into electrical energy.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PerCent efficiency;
+		public TC57CIM.IEC61970.Base.Domain.PerCent? efficiency;
 		/// <summary>
 		/// The unit control mode.
 		/// </summary>
@@ -70,7 +70,7 @@ namespace TC57CIM.IEC61970.Base.Generation.Production {
 		/// <summary>
 		/// Governor motor position limit.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU governorMPL;
+		public TC57CIM.IEC61970.Base.Domain.PU? governorMPL;
 		/// <summary>
 		/// Governor Speed Changer Droop.   This is the change in generator power output
 		/// divided by the change in frequency normalized by the nominal power of the
@@ -78,16 +78,16 @@ namespace TC57CIM.IEC61970.Base.Generation.Production {
 		/// positive value of speed change droop provides additional generator output upon
 		/// a drop in frequency.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PerCent governorSCD;
+		public TC57CIM.IEC61970.Base.Domain.PerCent? governorSCD;
 		/// <summary>
 		/// High limit for secondary (AGC) control.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower highControlLimit;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? highControlLimit;
 		/// <summary>
 		/// Default initial active power  which is used to store a powerflow result for the
 		/// initial active power for this unit in this network configuration.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower initialP;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? initialP;
 		/// <summary>
 		/// Generating unit long term economic participation factor.
 		/// </summary>
@@ -95,45 +95,45 @@ namespace TC57CIM.IEC61970.Base.Generation.Production {
 		/// <summary>
 		/// Low limit for secondary (AGC) control.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower lowControlLimit;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? lowControlLimit;
 		/// <summary>
 		/// The normal maximum rate the generating unit active power output can be lowered
 		/// by control actions.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePowerChangeRate lowerRampRate;
+		public TC57CIM.IEC61970.Base.Domain.ActivePowerChangeRate? lowerRampRate;
 		/// <summary>
 		/// Maximum high economic active power limit, that should not exceed the maximum
 		/// operating active power limit.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower maxEconomicP;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? maxEconomicP;
 		/// <summary>
 		/// Maximum allowable spinning reserve. Spinning reserve will never be considered
 		/// greater than this value regardless of the current operating point.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower maximumAllowableSpinningReserve;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? maximumAllowableSpinningReserve;
 		/// <summary>
 		/// This is the maximum operating active power limit the dispatcher can enter for
 		/// this unit.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower maxOperatingP;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? maxOperatingP;
 		/// <summary>
 		/// Low economic active power limit that shall be greater than or equal to the
 		/// minimum operating active power limit.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower minEconomicP;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? minEconomicP;
 		/// <summary>
 		/// Minimum time interval between unit shutdown and startup.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds minimumOffTime;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? minimumOffTime;
 		/// <summary>
 		/// This is the minimum operating active power limit the dispatcher can enter for
 		/// this unit.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower minOperatingP;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? minOperatingP;
 		/// <summary>
 		/// Detail level of the generator model data.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Classification modelDetail;
+		public TC57CIM.IEC61970.Base.Domain.Classification? modelDetail;
 		/// <summary>
 		/// The nominal power of the generating unit.  Used to give precise meaning to
 		/// percentage based attributes such as the governor speed change droop
@@ -141,7 +141,7 @@ namespace TC57CIM.IEC61970.Base.Generation.Production {
 		/// The attribute shall be a positive value equal to or less than RotatingMachine.
 		/// ratedS.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower nominalP;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? nominalP;
 		/// <summary>
 		/// Generating unit economic participation factor.  The sum of the participation
 		/// factors across generating units does not have to sum to one.  It is used for
@@ -159,25 +159,25 @@ namespace TC57CIM.IEC61970.Base.Generation.Production {
 		/// The normal maximum rate the generating unit active power output can be raised
 		/// by control actions.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePowerChangeRate raiseRampRate;
+		public TC57CIM.IEC61970.Base.Domain.ActivePowerChangeRate? raiseRampRate;
 		/// <summary>
 		/// The unit's gross rated maximum capacity (book value).
 		/// The attribute shall be a positive value.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower ratedGrossMaxP;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? ratedGrossMaxP;
 		/// <summary>
 		/// The gross rated minimum generation level which the unit can safely operate at
 		/// while delivering power to the transmission grid.
 		/// The attribute shall be a positive value.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower ratedGrossMinP;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? ratedGrossMinP;
 		/// <summary>
 		/// The net rated maximum capacity determined by subtracting the auxiliary power
 		/// used to operate the internal plant machinery from the rated gross maximum
 		/// capacity.
 		/// The attribute shall be a positive value.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower ratedNetMaxP;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? ratedNetMaxP;
 		/// <summary>
 		/// Generating unit short term economic participation factor.
 		/// </summary>
@@ -185,12 +185,12 @@ namespace TC57CIM.IEC61970.Base.Generation.Production {
 		/// <summary>
 		/// The initial startup cost incurred for each start of the GeneratingUnit.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Money startupCost;
+		public TC57CIM.IEC61970.Base.Domain.Money? startupCost;
 		/// <summary>
 		/// Time it takes to get the unit on-line, from the time that the prime mover
 		/// mechanical power is applied.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds startupTime;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? startupTime;
 		/// <summary>
 		/// Generating unit economic participation factor.
 		/// </summary>
@@ -198,31 +198,31 @@ namespace TC57CIM.IEC61970.Base.Generation.Production {
 		/// <summary>
 		/// The efficiency of the unit in converting the fuel into electrical energy.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PerCent totalEfficiency;
+		public TC57CIM.IEC61970.Base.Domain.PerCent? totalEfficiency;
 		/// <summary>
 		/// The variable cost component of production per unit of ActivePower.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Money variableCost;
+		public TC57CIM.IEC61970.Base.Domain.Money? variableCost;
 		/// <summary>
 		/// A generating unit may have an operating schedule, indicating the planned
 		/// operation of the unit.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Generation.Production.GenUnitOpSchedule GenUnitOpSchedule;
+		public TC57CIM.IEC61970.Base.Generation.Production.GenUnitOpSchedule? GenUnitOpSchedule;
 		/// <summary>
 		/// A generating unit may have a gross active power to net active power curve,
 		/// describing the losses and auxiliary power requirements of the unit.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Generation.Production.GrossToNetActivePowerCurve GrossToNetActivePowerCurves;
+		public TC57CIM.IEC61970.Base.Generation.Production.GrossToNetActivePowerCurve? GrossToNetActivePowerCurves;
 		/// <summary>
 		/// A generating unit may have one or more cost curves, depending upon fuel mixture
 		/// and fuel cost.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Generation.Production.GenUnitOpCostCurve GenUnitOpCostCurves;
+		public TC57CIM.IEC61970.Base.Generation.Production.GenUnitOpCostCurve? GenUnitOpCostCurves;
 		/// <summary>
 		/// A synchronous machine may operate as a generator and as such becomes a member
 		/// of a generating unit.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Wires.RotatingMachine RotatingMachine;
+		public TC57CIM.IEC61970.Base.Wires.RotatingMachine? RotatingMachine;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="GeneratingUnit"/> class

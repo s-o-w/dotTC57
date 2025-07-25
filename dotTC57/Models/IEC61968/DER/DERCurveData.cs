@@ -17,7 +17,7 @@ namespace TC57CIM.IEC61968.DER {
 		/// <summary>
 		/// The sequence number of a time interval defined by the DispatchSchedule.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer intervalNumber;
+		public TC57CIM.IEC61970.Base.Domain.Integer? intervalNumber;
 		/// <summary>
 		/// The maximum value of the DERMonitorableParameter during the time interval.
 		/// </summary>
@@ -33,17 +33,17 @@ namespace TC57CIM.IEC61968.DER {
 		/// <summary>
 		/// The start time of the interval
 		/// </summary>
-		public System.DateTime timeStamp;
+		public System.DateTime? timeStamp;
 		/// <summary>
 		/// The DER monitorable parameter for which a time dependent curve has been created.
 		///
 		/// </summary>
-		public TC57CIM.IEC61968.DER.DERMonitorableParameter DERMonitorableParameter;
+		public TC57CIM.IEC61968.DER.DERMonitorableParameter? DERMonitorableParameter;
 		/// <summary>
 		/// The schedule used for dispatching or forecasting the values of DER monitorable
 		/// parameters over time.
 		/// </summary>
-		public TC57CIM.IEC61968.DER.DispatchSchedule DispatchSchedule;
+		public TC57CIM.IEC61968.DER.DispatchSchedule? DispatchSchedule;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="DERCurveData"/> class

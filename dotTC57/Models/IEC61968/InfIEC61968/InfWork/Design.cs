@@ -17,7 +17,7 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfWork {
 		/// <summary>
 		/// Estimated cost (not price) of design.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Money costEstimate;
+		public TC57CIM.IEC61970.Base.Domain.Money? costEstimate;
 		/// <summary>
 		/// Kind of this design.
 		/// </summary>
@@ -25,27 +25,27 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfWork {
 		/// <summary>
 		/// Price to customer for implementing design.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Money price;
+		public TC57CIM.IEC61970.Base.Domain.Money? price;
 		/// <summary>
 		/// The erp bo ms
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfERPSupport.ErpBOM ErpBOMs;
+		public TC57CIM.IEC61968.InfIEC61968.InfERPSupport.ErpBOM? ErpBOMs;
 		/// <summary>
 		/// The work cost details
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfWork.WorkCostDetail WorkCostDetails;
+		public TC57CIM.IEC61968.InfIEC61968.InfWork.WorkCostDetail? WorkCostDetails;
 		/// <summary>
 		/// The work tasks
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfWork.OldWorkTask WorkTasks;
+		public TC57CIM.IEC61968.InfIEC61968.InfWork.OldWorkTask? WorkTasks;
 		/// <summary>
 		/// The work
 		/// </summary>
-		public TC57CIM.IEC61968.Work.Work Work;
+		public TC57CIM.IEC61968.Work.Work? Work;
 		/// <summary>
 		/// The condition factors
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfWork.ConditionFactor ConditionFactors;
+		public TC57CIM.IEC61968.InfIEC61968.InfWork.ConditionFactor? ConditionFactors;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Design"/> class

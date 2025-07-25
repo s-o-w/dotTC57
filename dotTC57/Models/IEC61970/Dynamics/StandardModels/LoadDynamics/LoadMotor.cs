@@ -41,9 +41,9 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.LoadDynamics {
 		/// </summary>
 		public float d;
 		/// <summary>
-		/// Inertia constant (<i>H</i>) (>= 0).  Typical value = 0,4.
+		/// Inertia constant (<i>H</i>) (greater than or equal to 0).  Typical value = 0,4.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds h;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? h;
 		/// <summary>
 		/// Loading factor (<i>Lfac</i>). The ratio of initial <i>P</i> to motor MVA base.
 		/// Typical value = 0,8.
@@ -52,48 +52,48 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.LoadDynamics {
 		/// <summary>
 		/// Transient reactance (<i>Lp</i>).  Typical value = 0,15.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU lp;
+		public TC57CIM.IEC61970.Base.Domain.PU? lp;
 		/// <summary>
 		/// Subtransient reactance (<i>Lpp</i>).  Typical value = 0,15.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU lpp;
+		public TC57CIM.IEC61970.Base.Domain.PU? lpp;
 		/// <summary>
 		/// Synchronous reactance (<i>Ls</i>).  Typical value = 3,2.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU ls;
+		public TC57CIM.IEC61970.Base.Domain.PU? ls;
 		/// <summary>
 		/// Fraction of constant-power load to be represented by this motor model
-		/// (<i>Pfrac</i>) (>= 0,0 and <= 1,0).  Typical value = 0,3.
+		/// (<i>Pfrac</i>) (greater than or equal to 0,0 and less than or equal to 1,0).  Typical value = 0,3.
 		/// </summary>
 		public float pfrac;
 		/// <summary>
 		/// Stator resistance (<i>Ra</i>).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU ra;
+		public TC57CIM.IEC61970.Base.Domain.PU? ra;
 		/// <summary>
-		/// Circuit breaker operating time (<i>Tbkr</i>) (>= 0).  Typical value = 0,08.
+		/// Circuit breaker operating time (<i>Tbkr</i>) (greater than or equal to 0).  Typical value = 0,08.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tbkr;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tbkr;
 		/// <summary>
-		/// Transient rotor time constant (<i>Tpo</i>) (>= 0).  Typical value = 1.
+		/// Transient rotor time constant (<i>Tpo</i>) (greater than or equal to 0).  Typical value = 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tpo;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tpo;
 		/// <summary>
-		/// Subtransient rotor time constant (<i>Tppo</i>) (>= 0).  Typical value = 0,02.
+		/// Subtransient rotor time constant (<i>Tppo</i>) (greater than or equal to 0).  Typical value = 0,02.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tppo;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tppo;
 		/// <summary>
-		/// Voltage trip pickup time (<i>Tv</i>) (>= 0).  Typical value = 0,1.
+		/// Voltage trip pickup time (<i>Tv</i>) (greater than or equal to 0).  Typical value = 0,1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tv;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tv;
 		/// <summary>
 		/// Voltage threshold for tripping (<i>Vt</i>).  Typical value = 0,7.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vt;
+		public TC57CIM.IEC61970.Base.Domain.PU? vt;
 		/// <summary>
 		/// Aggregate load to which this aggregate motor (dynamic) load belongs.
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.StandardModels.LoadDynamics.LoadAggregate LoadAggregate;
+		public TC57CIM.IEC61970.Dynamics.StandardModels.LoadDynamics.LoadAggregate? LoadAggregate;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="LoadMotor"/> class

@@ -25,7 +25,7 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.AsynchronousMachineDynamics {
 		/// Asynchronous machine to which this asynchronous machine dynamics model applies.
 		///
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Wires.AsynchronousMachine AsynchronousMachine;
+		public TC57CIM.IEC61970.Base.Wires.AsynchronousMachine? AsynchronousMachine;
 
 		/// <summary>
 		/// Constructor for AsynchronousMachineDynamics.

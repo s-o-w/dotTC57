@@ -17,11 +17,11 @@ namespace TC57CIM.IEC61968.DER {
 		/// <summary>
 		/// The timestamp for when the DER Group forecast was created
 		/// </summary>
-		public System.DateTime predictionCreationDate;
+		public System.DateTime? predictionCreationDate;
 		/// <summary>
 		/// The DER Group for which forecasts are made.
 		/// </summary>
-		public TC57CIM.IEC61968.Metering.EndDeviceGroup EndDeviceGroup;
+		public TC57CIM.IEC61968.Metering.EndDeviceGroup? EndDeviceGroup;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="DERGroupForecast"/> class

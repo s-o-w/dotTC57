@@ -18,28 +18,28 @@ namespace TC57CIM.IEC61968.AssetInfo {
 		/// <summary>
 		/// Voltage applied to the winding (end) during test.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Voltage energisedEndVoltage;
+		public TC57CIM.IEC61970.Base.Domain.Voltage? energisedEndVoltage;
 		/// <summary>
 		/// Exciting current measured from a positive-sequence or single-phase excitation
 		/// test.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PerCent excitingCurrent;
+		public TC57CIM.IEC61970.Base.Domain.PerCent? excitingCurrent;
 		/// <summary>
 		/// Exciting current measured from a zero-sequence open-circuit excitation test.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PerCent excitingCurrentZero;
+		public TC57CIM.IEC61970.Base.Domain.PerCent? excitingCurrentZero;
 		/// <summary>
 		/// Losses measured from a positive-sequence or single-phase excitation test.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.KiloActivePower loss;
+		public TC57CIM.IEC61970.Base.Domain.KiloActivePower? loss;
 		/// <summary>
 		/// Losses measured from a zero-sequence excitation test.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.KiloActivePower lossZero;
+		public TC57CIM.IEC61970.Base.Domain.KiloActivePower? lossZero;
 		/// <summary>
 		/// Transformer end that current is applied to in this no-load test.
 		/// </summary>
-		public TC57CIM.IEC61968.AssetInfo.TransformerEndInfo EnergisedEnd;
+		public TC57CIM.IEC61968.AssetInfo.TransformerEndInfo? EnergisedEnd;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="NoLoadTest"/> class

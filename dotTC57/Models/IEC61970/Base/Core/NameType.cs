@@ -25,15 +25,15 @@ namespace TC57CIM.IEC61970.Base.Core {
 		/// <summary>
 		/// Description of the name type.
 		/// </summary>
-		public string description;
+		public string? description;
 		/// <summary>
 		/// Name of the name type.
 		/// </summary>
-		public string name;
+		public string? name;
 		/// <summary>
 		/// Authority responsible for managing names of this type.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Core.NameTypeAuthority NameTypeAuthority;
+		public TC57CIM.IEC61970.Base.Core.NameTypeAuthority? NameTypeAuthority;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="NameType"/> class

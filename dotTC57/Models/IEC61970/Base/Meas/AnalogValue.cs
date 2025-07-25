@@ -18,7 +18,7 @@ namespace TC57CIM.IEC61970.Base.Meas {
 		/// <summary>
 		/// The Control variable associated with the MeasurementValue.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Meas.AnalogControl AnalogControl;
+		public TC57CIM.IEC61970.Base.Meas.AnalogControl? AnalogControl;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="AnalogValue"/> class

@@ -16,58 +16,58 @@ namespace TC57CIM.IEC61968.Common {
 		/// First line of a free form address or some additional address information (for
 		/// example a mail stop).
 		/// </summary>
-		public string addressGeneral;
+		public string? addressGeneral;
 		/// <summary>
 		/// (if applicable) Second line of a free form address.
 		/// </summary>
-		public string addressGeneral2;
+		public string? addressGeneral2;
 		/// <summary>
 		/// (if applicable) Third line of a free form address.
 		/// </summary>
-		public string addressGeneral3;
+		public string? addressGeneral3;
 		/// <summary>
 		/// (if applicable) In certain cases the physical location of the place of interest
 		/// does not have a direct point of entry from the street, but may be located
 		/// inside a larger structure such as a building, complex, office block, apartment,
 		/// etc.
 		/// </summary>
-		public string buildingName;
+		public string? buildingName;
 		/// <summary>
 		/// (if applicable) Utilities often make use of external reference systems, such as
 		/// those of the town-planner's department or surveyor general's mapping system,
 		/// that allocate global reference codes to streets.
 		/// </summary>
-		public string code;
+		public string? code;
 		/// <summary>
 		/// The identification by name or number, expressed as text, of the floor in the
 		/// building as part of this address.
 		/// </summary>
-		public string floorIdentification;
+		public string? floorIdentification;
 		/// <summary>
 		/// Name of the street.
 		/// </summary>
-		public string name;
+		public string? name;
 		/// <summary>
 		/// Designator of the specific location on the street.
 		/// </summary>
-		public string number;
+		public string? number;
 		/// <summary>
 		/// Prefix to the street name. For example: North, South, East, West.
 		/// </summary>
-		public string prefix;
+		public string? prefix;
 		/// <summary>
 		/// Suffix to the street name. For example: North, South, East, West.
 		/// </summary>
-		public string suffix;
+		public string? suffix;
 		/// <summary>
 		/// Number of the apartment or suite.
 		/// </summary>
-		public string suiteNumber;
+		public string? suiteNumber;
 		/// <summary>
 		/// Type of street. Examples include: street, circle, boulevard, avenue, road,
 		/// drive, etc.
 		/// </summary>
-		public string type;
+		public string? type;
 		/// <summary>
 		/// True if this street is within the legal geographical boundaries of the
 		/// specified town (default).

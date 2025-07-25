@@ -20,19 +20,19 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// <summary>
 		/// Resistance of the transformer end.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Resistance r;
+		public TC57CIM.IEC61970.Base.Domain.Resistance? r;
 		/// <summary>
 		/// Zero sequence series resistance of the transformer end.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Resistance r0;
+		public TC57CIM.IEC61970.Base.Domain.Resistance? r0;
 		/// <summary>
 		/// Positive sequence series reactance of the transformer end.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Reactance x;
+		public TC57CIM.IEC61970.Base.Domain.Reactance? x;
 		/// <summary>
 		/// Zero sequence series reactance of the transformer end.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Reactance x0;
+		public TC57CIM.IEC61970.Base.Domain.Reactance? x0;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="TransformerStarImpedance"/> class

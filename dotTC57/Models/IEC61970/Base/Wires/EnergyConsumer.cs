@@ -17,7 +17,7 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// <summary>
 		/// Number of individual customers represented by this demand.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer customerCount;
+		public TC57CIM.IEC61970.Base.Domain.Integer? customerCount;
 		/// <summary>
 		/// Used for Yn and Zn connections. True if the neutral is solidly grounded.
 		/// </summary>
@@ -28,19 +28,19 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// For voltage dependent loads the value is at rated voltage.
 		/// Starting value for a steady state solution.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower p;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? p;
 		/// <summary>
 		/// Active power of the load that is a fixed quantity and does not vary as load
 		/// group value varies. Load sign convention is used, i.e. positive sign means flow
 		/// out from a node.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower pfixed;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? pfixed;
 		/// <summary>
 		/// Fixed active power as a percentage of load group fixed active power. Used to
 		/// represent the time-varying components.  Load sign convention is used, i.e.
 		/// positive sign means flow out from a node.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PerCent pfixedPct;
+		public TC57CIM.IEC61970.Base.Domain.PerCent? pfixedPct;
 		/// <summary>
 		/// The type of phase connection, such as wye or delta.
 		/// </summary>
@@ -51,32 +51,32 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// For voltage dependent loads the value is at rated voltage.
 		/// Starting value for a steady state solution.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ReactivePower q;
+		public TC57CIM.IEC61970.Base.Domain.ReactivePower? q;
 		/// <summary>
 		/// Reactive power of the load that is a fixed quantity and does not vary as load
 		/// group value varies. Load sign convention is used, i.e. positive sign means flow
 		/// out from a node.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ReactivePower qfixed;
+		public TC57CIM.IEC61970.Base.Domain.ReactivePower? qfixed;
 		/// <summary>
 		/// Fixed reactive power as a percentage of load group fixed reactive power. Used
 		/// to represent the time-varying components.  Load sign convention is used, i.e.
 		/// positive sign means flow out from a node.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PerCent qfixedPct;
+		public TC57CIM.IEC61970.Base.Domain.PerCent? qfixedPct;
 		/// <summary>
 		/// The load response characteristic of this load.  If missing, this load is
 		/// assumed to be constant power.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.LoadModel.LoadResponseCharacteristic LoadResponse;
+		public TC57CIM.IEC61970.Base.LoadModel.LoadResponseCharacteristic? LoadResponse;
 		/// <summary>
 		/// The individual phase models for this energy consumer.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Wires.EnergyConsumerPhase EnergyConsumerPhase;
+		public TC57CIM.IEC61970.Base.Wires.EnergyConsumerPhase? EnergyConsumerPhase;
 		/// <summary>
 		/// The energy consumer action that is performed on the energy consumer
 		/// </summary>
-		public TC57CIM.IEC61968.Operations.EnergyConsumerAction EnergyConsumerAction;
+		public TC57CIM.IEC61968.Operations.EnergyConsumerAction? EnergyConsumerAction;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="EnergyConsumer"/> class

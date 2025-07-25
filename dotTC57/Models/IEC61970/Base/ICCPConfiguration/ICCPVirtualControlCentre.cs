@@ -39,13 +39,13 @@ namespace TC57CIM.IEC61970.Base.ICCPConfiguration {
 		/// Specifies the fastest update interval that can be provided for integrity
 		/// information and Transfer Set creation. The value is in seconds.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer minimumUpdateInterval;
+		public TC57CIM.IEC61970.Base.Domain.Integer? minimumUpdateInterval;
 		/// <summary>
 		/// Specifies the ICC scope name that the remote can use to access the information
 		/// in the Bilateral Table if the information is not VCC scoped.  This value may
 		/// not be null.
 		/// </summary>
-		public string nameOfLocalICC;
+		public string? nameOfLocalICC;
 		/// <summary>
 		/// Per IEC 60870-6-702:  If true indicates support for basic services.  Must
 		/// always be true.

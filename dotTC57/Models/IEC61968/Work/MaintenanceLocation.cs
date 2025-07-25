@@ -16,21 +16,21 @@ namespace TC57CIM.IEC61968.Work {
 		/// (if applicable) Name, identifier, or description of the block in which work is
 		/// to occur.
 		/// </summary>
-		public string block;
+		public string? block;
 		/// <summary>
 		/// (if applicable) Name, identifier, or description of the lot in which work is to
 		/// occur.
 		/// </summary>
-		public string lot;
+		public string? lot;
 		/// <summary>
 		/// The names of streets at the nearest intersection to work area.
 		/// </summary>
-		public string nearestIntersection;
+		public string? nearestIntersection;
 		/// <summary>
 		/// (if applicable) Name, identifier, or description of the subdivision in which
 		/// work is to occur.
 		/// </summary>
-		public string subdivision;
+		public string? subdivision;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="MaintenanceLocation"/> class

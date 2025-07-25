@@ -16,7 +16,7 @@ namespace TC57CIM.IEC61968.AssetInfo.Assets {
 		/// Date and time the asset was last tested using the 'type' of test and yielding
 		/// the current status in 'success' attribute.
 		/// </summary>
-		public System.DateTime dateTime;
+		public System.DateTime? dateTime;
 		/// <summary>
 		/// True if asset has passed acceptance test and may be placed in or is in service.
 		/// It is set to false if asset is removed from service and is required to be
@@ -29,7 +29,7 @@ namespace TC57CIM.IEC61968.AssetInfo.Assets {
 		/// <summary>
 		/// Type of test or group of tests that was conducted on 'dateTime'.
 		/// </summary>
-		public string type;
+		public string? type;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="AcceptanceTest"/> class

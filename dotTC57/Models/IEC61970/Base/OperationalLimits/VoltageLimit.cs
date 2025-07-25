@@ -19,13 +19,13 @@ namespace TC57CIM.IEC61970.Base.OperationalLimits {
 		/// the properties of the operational limit type. The attribute shall be a positive
 		/// value or zero.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Voltage normalValue;
+		public TC57CIM.IEC61970.Base.Domain.Voltage? normalValue;
 		/// <summary>
 		/// Limit on voltage. High or low limit nature of the limit depends upon the
 		/// properties of the operational limit type. The attribute shall be a positive
 		/// value or zero.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Voltage value;
+		public TC57CIM.IEC61970.Base.Domain.Voltage? value;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="VoltageLimit"/> class

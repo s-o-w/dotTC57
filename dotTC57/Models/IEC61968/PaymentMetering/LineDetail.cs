@@ -15,20 +15,20 @@ namespace TC57CIM.IEC61968.PaymentMetering {
 		/// <summary>
 		/// Amount for this line item.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Money amount;
+		public TC57CIM.IEC61970.Base.Domain.Money? amount;
 		/// <summary>
 		/// Date and time when this line was created in the application process.
 		/// </summary>
-		public System.DateTime dateTime;
+		public System.DateTime? dateTime;
 		/// <summary>
 		/// Free format note relevant to this line.
 		/// </summary>
-		public string note;
+		public string? note;
 		/// <summary>
 		/// Totalised monetary value of all errors due to process rounding or truncating
 		/// that is not reflected in 'amount'.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Money rounding;
+		public TC57CIM.IEC61970.Base.Domain.Money? rounding;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="LineDetail"/> class

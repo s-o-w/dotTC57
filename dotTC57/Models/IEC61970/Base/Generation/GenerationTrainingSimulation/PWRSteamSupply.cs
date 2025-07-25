@@ -14,83 +14,83 @@ namespace TC57CIM.IEC61970.Base.Generation.GenerationTrainingSimulation {
 		/// <summary>
 		/// Cold leg feedback lag time constant.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU coldLegFBLagTC;
+		public TC57CIM.IEC61970.Base.Domain.PU? coldLegFBLagTC;
 		/// <summary>
 		/// Cold leg feedback lead time constant.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU coldLegFBLeadTC1;
+		public TC57CIM.IEC61970.Base.Domain.PU? coldLegFBLeadTC1;
 		/// <summary>
 		/// Cold leg feedback lead time constant.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU coldLegFBLeadTC2;
+		public TC57CIM.IEC61970.Base.Domain.PU? coldLegFBLeadTC2;
 		/// <summary>
 		/// Cold leg feedback gain 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU coldLegFG1;
+		public TC57CIM.IEC61970.Base.Domain.PU? coldLegFG1;
 		/// <summary>
 		/// Cold leg feedback gain 2.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU coldLegFG2;
+		public TC57CIM.IEC61970.Base.Domain.PU? coldLegFG2;
 		/// <summary>
 		/// Cold leg lag time constant.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU coldLegLagTC;
+		public TC57CIM.IEC61970.Base.Domain.PU? coldLegLagTC;
 		/// <summary>
 		/// Core heat transfer lag time constant.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU coreHTLagTC1;
+		public TC57CIM.IEC61970.Base.Domain.PU? coreHTLagTC1;
 		/// <summary>
 		/// Core heat transfer lag time constant.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU coreHTLagTC2;
+		public TC57CIM.IEC61970.Base.Domain.PU? coreHTLagTC2;
 		/// <summary>
 		/// Core neutronics effective time constant.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU coreNeutronicsEffTC;
+		public TC57CIM.IEC61970.Base.Domain.PU? coreNeutronicsEffTC;
 		/// <summary>
 		/// Core neutronics and heat transfer.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU coreNeutronicsHT;
+		public TC57CIM.IEC61970.Base.Domain.PU? coreNeutronicsHT;
 		/// <summary>
 		/// Feedback factor.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU feedbackFactor;
+		public TC57CIM.IEC61970.Base.Domain.PU? feedbackFactor;
 		/// <summary>
 		/// Hot leg lag time constant.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU hotLegLagTC;
+		public TC57CIM.IEC61970.Base.Domain.PU? hotLegLagTC;
 		/// <summary>
 		/// Hot leg steam gain.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU hotLegSteamGain;
+		public TC57CIM.IEC61970.Base.Domain.PU? hotLegSteamGain;
 		/// <summary>
 		/// Hot leg to cold leg gain.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU hotLegToColdLegGain;
+		public TC57CIM.IEC61970.Base.Domain.PU? hotLegToColdLegGain;
 		/// <summary>
 		/// Pressure control gain.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU pressureCG;
+		public TC57CIM.IEC61970.Base.Domain.PU? pressureCG;
 		/// <summary>
 		/// Steam flow feedback gain.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU steamFlowFG;
+		public TC57CIM.IEC61970.Base.Domain.PU? steamFlowFG;
 		/// <summary>
 		/// Steam pressure drop lag time constant.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU steamPressureDropLagTC;
+		public TC57CIM.IEC61970.Base.Domain.PU? steamPressureDropLagTC;
 		/// <summary>
 		/// Steam pressure feedback gain.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU steamPressureFG;
+		public TC57CIM.IEC61970.Base.Domain.PU? steamPressureFG;
 		/// <summary>
 		/// Throttle pressure factor.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU throttlePressureFactor;
+		public TC57CIM.IEC61970.Base.Domain.PU? throttlePressureFactor;
 		/// <summary>
 		/// Throttle pressure setpoint.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU throttlePressureSP;
+		public TC57CIM.IEC61970.Base.Domain.PU? throttlePressureSP;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="PWRSteamSupply"/> class

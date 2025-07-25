@@ -17,7 +17,7 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.ExcitationSystemDynamics {
 		/// Synchronous machine model with which this excitation system model is associated.
 		///
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.StandardModels.SynchronousMachineDynamics.SynchronousMachineDynamics SynchronousMachineDynamics;
+		public TC57CIM.IEC61970.Dynamics.StandardModels.SynchronousMachineDynamics.SynchronousMachineDynamics? SynchronousMachineDynamics;
 
 		/// <summary>
 		/// Constructor for ExcitationSystemDynamics.

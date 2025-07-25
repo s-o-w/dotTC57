@@ -15,7 +15,7 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.InfHVDCDynamics.CSC {
 		/// <summary>
 		/// The csctype1
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.StandardModels.InfHVDCDynamics.CSC.CSCtype1 m_CSCtype1;
+		public TC57CIM.IEC61970.Dynamics.StandardModels.InfHVDCDynamics.CSC.CSCtype1? m_CSCtype1;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="IdcInverterControl"/> class

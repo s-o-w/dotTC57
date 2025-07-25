@@ -24,7 +24,7 @@ namespace TC57CIM.IEC61970.InfIEC61970.Part303.GenericDataSet {
         /// The date when the complete CIM canonical model is published and made available for use.
         /// After publication the major version and namespace are updated.
         /// </summary>
-        public TC57CIM.IEC61970.Base.Domain.Date published;
+        public TC57CIM.IEC61970.Base.Domain.Date? published;
 
         /// <summary>
         /// Initializes a new instance of the <see cref="GenericDataSetVersion"/> class.

@@ -19,7 +19,7 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfLocations {
 		/// example, it may be a deed book number, deed book page number, and parcel number.
 		///
 		/// </summary>
-		public string propertyData;
+		public string? propertyData;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="LocationGrant"/> class

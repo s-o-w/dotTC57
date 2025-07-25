@@ -22,11 +22,11 @@ namespace TC57CIM.IEC61968.AssetInfo.Assets {
 		/// <summary>
 		/// All power system resources with this datasheet information.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Core.PowerSystemResource PowerSystemResources;
+		public TC57CIM.IEC61970.Base.Core.PowerSystemResource? PowerSystemResources;
 		/// <summary>
 		/// Asset information (nameplate) for this catalog asset type.
 		/// </summary>
-		public TC57CIM.IEC61968.AssetInfo.Assets.CatalogAssetType CatalogAssetType;
+		public TC57CIM.IEC61968.AssetInfo.Assets.CatalogAssetType? CatalogAssetType;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="AssetInfo"/> class

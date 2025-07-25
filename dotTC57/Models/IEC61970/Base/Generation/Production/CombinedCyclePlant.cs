@@ -17,11 +17,11 @@ namespace TC57CIM.IEC61970.Base.Generation.Production {
 		/// <summary>
 		/// The combined cycle plant's active power output rating.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower combCyclePlantRating;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? combCyclePlantRating;
 		/// <summary>
 		/// A thermal generating unit may be a member of a combined cycle plant.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Generation.Production.ThermalGeneratingUnit ThermalGeneratingUnits;
+		public TC57CIM.IEC61970.Base.Generation.Production.ThermalGeneratingUnit? ThermalGeneratingUnits;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="CombinedCyclePlant"/> class

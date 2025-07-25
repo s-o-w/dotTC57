@@ -22,44 +22,44 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.ExcitationSystemDynamics {
 		/// <summary>
 		/// Voltage regulator gain (<i>Ka</i>) (> 0).  Typical value = 300.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU ka;
+		public TC57CIM.IEC61970.Base.Domain.PU? ka;
 		/// <summary>
 		/// Exciter constant related to self-excited field (<i>Ke</i>).  Typical value = 1.
 		///
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU ke;
+		public TC57CIM.IEC61970.Base.Domain.PU? ke;
 		/// <summary>
 		/// Excitation control system stabilizer gain (<i>Kf</i>) (>= 0).  Typical value =
 		/// 0,1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kf;
+		public TC57CIM.IEC61970.Base.Domain.PU? kf;
 		/// <summary>
 		/// Potential circuit gain coefficient (<i>Ki</i>) (>= 0).  Typical value = 4,83.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU ki;
+		public TC57CIM.IEC61970.Base.Domain.PU? ki;
 		/// <summary>
 		/// Potential circuit gain coefficient (<i>Kp</i>) (>= 0).  Typical value = 4,37.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kp;
+		public TC57CIM.IEC61970.Base.Domain.PU? kp;
 		/// <summary>
 		/// Voltage regulator time constant (<i>Ta</i>) (> 0).  Typical value = 0,01.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds ta;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? ta;
 		/// <summary>
 		/// Exciter time constant, integration rate associated with exciter control
 		/// (<i>Te</i>) (> 0).  Typical value = 1,83.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds te;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? te;
 		/// <summary>
 		/// Excitation control system stabilizer time constant (<i>Tf</i>) (>= 0).  Typical
 		/// value = 0,675.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tf;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tf;
 		/// <summary>
 		/// Available exciter voltage limiter (<i>Vb1max</i>) (> 0).  Typical value = 11,63.
 		///
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vb1max;
+		public TC57CIM.IEC61970.Base.Domain.PU? vb1max;
 		/// <summary>
 		/// Vb limiter indicator.
 		/// true = exciter <i>Vbmax</i> limiter is active
@@ -71,17 +71,17 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.ExcitationSystemDynamics {
 		/// Available exciter voltage limiter (<i>Vbmax</i>) (> 0).  Typical value = 11,63.
 		///
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vbmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? vbmax;
 		/// <summary>
-		/// Maximum voltage regulator output (<i>Vrmax</i>) (> ExcDC3A1.vrmin).  Typical
+		/// Maximum voltage regulator output (<i>Vrmax</i>) (&gt; ExcDC3A1.vrmin).  Typical
 		/// value = 5.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vrmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? vrmax;
 		/// <summary>
-		/// Minimum voltage regulator output (<i>Vrmin</i>) (< 0 and < ExcDC3A1.vrmax).
+		/// Minimum voltage regulator output (<i>Vrmin</i>) (&lt; 0 and &lt; ExcDC3A1.vrmax).
 		/// Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vrmin;
+		public TC57CIM.IEC61970.Base.Domain.PU? vrmin;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ExcDC3A1"/> class

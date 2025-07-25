@@ -17,24 +17,24 @@ namespace TC57CIM.IEC61970.Base.AuxiliaryEquipment {
 		/// <summary>
 		/// CT accuracy classification.
 		/// </summary>
-		public string accuracyClass;
+		public string? accuracyClass;
 		/// <summary>
 		/// Percent of rated current for which the CT remains accurate within specified
 		/// limits.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PerCent accuracyLimit;
+		public TC57CIM.IEC61970.Base.Domain.PerCent? accuracyLimit;
 		/// <summary>
 		/// Power burden of the CT core.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower coreBurden;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? coreBurden;
 		/// <summary>
 		/// CT classification; i.e. class 10P.
 		/// </summary>
-		public string ctClass;
+		public string? ctClass;
 		/// <summary>
 		/// Intended usage of the CT; i.e. metering, protection.
 		/// </summary>
-		public string usage;
+		public string? usage;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="CurrentTransformer"/> class

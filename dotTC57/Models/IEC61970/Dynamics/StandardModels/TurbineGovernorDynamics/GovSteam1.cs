@@ -16,43 +16,43 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.TurbineGovernorDynamics {
 		/// <summary>
 		/// Intentional deadband width (<i>db1</i>).  Unit = Hz.  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Frequency db1;
+		public TC57CIM.IEC61970.Base.Domain.Frequency? db1;
 		/// <summary>
 		/// Unintentional deadband (<i>db2</i>).  Unit = MW.  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower db2;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? db2;
 		/// <summary>
 		/// Intentional db hysteresis (<i>eps</i>).  Unit = Hz.  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Frequency eps;
+		public TC57CIM.IEC61970.Base.Domain.Frequency? eps;
 		/// <summary>
 		/// Nonlinear gain valve position point 1 (<i>GV1</i>).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU gv1;
+		public TC57CIM.IEC61970.Base.Domain.PU? gv1;
 		/// <summary>
 		/// Nonlinear gain valve position point 2 (<i>GV2</i>).  Typical value = 0,4.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU gv2;
+		public TC57CIM.IEC61970.Base.Domain.PU? gv2;
 		/// <summary>
 		/// Nonlinear gain valve position point 3 (<i>GV3</i>).  Typical value = 0,5.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU gv3;
+		public TC57CIM.IEC61970.Base.Domain.PU? gv3;
 		/// <summary>
 		/// Nonlinear gain valve position point 4 (<i>GV4</i>).  Typical value = 0,6.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU gv4;
+		public TC57CIM.IEC61970.Base.Domain.PU? gv4;
 		/// <summary>
 		/// Nonlinear gain valve position point 5 (<i>GV5</i>).  Typical value = 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU gv5;
+		public TC57CIM.IEC61970.Base.Domain.PU? gv5;
 		/// <summary>
 		/// Nonlinear gain valve position point 6 (<i>GV6</i>).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU gv6;
+		public TC57CIM.IEC61970.Base.Domain.PU? gv6;
 		/// <summary>
 		/// Governor gain (reciprocal of droop) (<i>K</i>) (> 0).  Typical value = 25.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU k;
+		public TC57CIM.IEC61970.Base.Domain.PU? k;
 		/// <summary>
 		/// Fraction of HP shaft power after first boiler pass (<i>K1</i>).  Typical value
 		/// = 0,2.
@@ -96,40 +96,40 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.TurbineGovernorDynamics {
 		/// <summary>
 		/// Base for power values (<i>MWbase</i>) (> 0).  Unit = MW.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower mwbase;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? mwbase;
 		/// <summary>
 		/// Nonlinear gain power value point 1 (<i>Pgv1</i>).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU pgv1;
+		public TC57CIM.IEC61970.Base.Domain.PU? pgv1;
 		/// <summary>
 		/// Nonlinear gain power value point 2 (<i>Pgv2</i>).  Typical value = 0,75.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU pgv2;
+		public TC57CIM.IEC61970.Base.Domain.PU? pgv2;
 		/// <summary>
 		/// Nonlinear gain power value point 3 (<i>Pgv3</i>).  Typical value = 0,91.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU pgv3;
+		public TC57CIM.IEC61970.Base.Domain.PU? pgv3;
 		/// <summary>
 		/// Nonlinear gain power value point 4 (<i>Pgv4</i>).  Typical value = 0,98.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU pgv4;
+		public TC57CIM.IEC61970.Base.Domain.PU? pgv4;
 		/// <summary>
 		/// Nonlinear gain power value point 5 (<i>Pgv5</i>).  Typical value = 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU pgv5;
+		public TC57CIM.IEC61970.Base.Domain.PU? pgv5;
 		/// <summary>
 		/// Nonlinear gain power value point 6 (<i>Pgv6</i>).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU pgv6;
+		public TC57CIM.IEC61970.Base.Domain.PU? pgv6;
 		/// <summary>
 		/// Maximum valve opening (<i>Pmax</i>) (> GovSteam1.pmin).  Typical value = 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU pmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? pmax;
 		/// <summary>
-		/// Minimum valve opening (<i>Pmin</i>) (>= 0 and < GovSteam1.pmax).  Typical value
+		/// Minimum valve opening (<i>Pmin</i>) (>= 0 and &lt; GovSteam1.pmax).  Typical value
 		/// = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU pmin;
+		public TC57CIM.IEC61970.Base.Domain.PU? pmin;
 		/// <summary>
 		/// Intentional deadband indicator.
 		/// true = intentional deadband is applied
@@ -147,34 +147,34 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.TurbineGovernorDynamics {
 		/// <summary>
 		/// Governor lag time constant (<i>T1</i>) (>= 0).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t1;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t1;
 		/// <summary>
 		/// Governor lead time constant (<i>T2</i>) (>= 0).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t2;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t2;
 		/// <summary>
 		/// Valve positioner time constant (<i>T3) </i>(> 0).  Typical value = 0,1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t3;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t3;
 		/// <summary>
 		/// Inlet piping/steam bowl time constant (<i>T4</i>) (>= 0).  Typical value = 0,3.
 		///
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t4;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t4;
 		/// <summary>
 		/// Time constant of second boiler pass (<i>T5</i>) (>= 0).  Typical value = 5.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t5;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t5;
 		/// <summary>
 		/// Time constant of third boiler pass (<i>T6</i>) (>= 0).  Typical value = 0,5.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t6;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t6;
 		/// <summary>
 		/// Time constant of fourth boiler pass (<i>T7</i>) (>= 0).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t7;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t7;
 		/// <summary>
-		/// Maximum valve closing velocity (<i>Uc</i>) (< 0).  Unit = PU / s.  Typical
+		/// Maximum valve closing velocity (<i>Uc</i>) (&lt; 0).  Unit = PU / s.  Typical
 		/// value = -10.
 		/// </summary>
 		public float uc;

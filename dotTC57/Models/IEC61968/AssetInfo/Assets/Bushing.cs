@@ -14,11 +14,11 @@ namespace TC57CIM.IEC61968.AssetInfo.Assets {
 		/// <summary>
 		/// Terminal to which this bushing is attached.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Core.Terminal Terminal;
+		public TC57CIM.IEC61970.Base.Core.Terminal? Terminal;
 		/// <summary>
 		/// The bushing insulation fs
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfAssets.BushingInsulationPF BushingInsulationPFs;
+		public TC57CIM.IEC61968.InfIEC61968.InfAssets.BushingInsulationPF? BushingInsulationPFs;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Bushing"/> class

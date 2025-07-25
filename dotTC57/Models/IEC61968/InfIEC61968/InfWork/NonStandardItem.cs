@@ -16,7 +16,7 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfWork {
 		/// <summary>
 		/// The projected cost for this item.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Money amount;
+		public TC57CIM.IEC61970.Base.Domain.Money? amount;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="NonStandardItem"/> class

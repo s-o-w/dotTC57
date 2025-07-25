@@ -20,12 +20,12 @@ namespace TC57CIM.IEC61970.Base.Generation.Production {
 		/// Full energy storage capacity of the battery. The attribute shall be a positive
 		/// value.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.RealEnergy ratedE;
+		public TC57CIM.IEC61970.Base.Domain.RealEnergy? ratedE;
 		/// <summary>
 		/// Amount of energy currently stored. The attribute shall be a positive value or
 		/// zero and lower than BatteryUnit.ratedE.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.RealEnergy storedE;
+		public TC57CIM.IEC61970.Base.Domain.RealEnergy? storedE;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="BatteryUnit"/> class

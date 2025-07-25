@@ -17,12 +17,12 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.DiscontinuousExcitationContro
 		/// Excitation system model with which this discontinuous excitation control model
 		/// is associated.
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.StandardModels.ExcitationSystemDynamics.ExcitationSystemDynamics ExcitationSystemDynamics;
+		public TC57CIM.IEC61970.Dynamics.StandardModels.ExcitationSystemDynamics.ExcitationSystemDynamics? ExcitationSystemDynamics;
 		/// <summary>
 		/// Remote input signal used by this discontinuous excitation control system model.
 		///
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.StandardInterconnections.RemoteInputSignal RemoteInputSignal;
+		public TC57CIM.IEC61970.Dynamics.StandardInterconnections.RemoteInputSignal? RemoteInputSignal;
 
 		/// <summary>
 		/// Constructor for DiscontinuousExcitationControlDynamics.

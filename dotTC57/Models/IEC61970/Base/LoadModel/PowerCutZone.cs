@@ -15,15 +15,15 @@ namespace TC57CIM.IEC61970.Base.LoadModel {
 		/// <summary>
 		/// First level (amount) of load to cut as a percentage of total zone load.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PerCent cutLevel1;
+		public TC57CIM.IEC61970.Base.Domain.PerCent? cutLevel1;
 		/// <summary>
 		/// Second level (amount) of load to cut as a percentage of total zone load.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PerCent cutLevel2;
+		public TC57CIM.IEC61970.Base.Domain.PerCent? cutLevel2;
 		/// <summary>
 		/// Energy consumer is assigned to the power cut zone.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Wires.EnergyConsumer EnergyConsumers;
+		public TC57CIM.IEC61970.Base.Wires.EnergyConsumer? EnergyConsumers;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="PowerCutZone"/> class

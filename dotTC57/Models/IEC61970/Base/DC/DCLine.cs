@@ -15,7 +15,7 @@ namespace TC57CIM.IEC61970.Base.DC {
 		/// <summary>
 		/// The SubGeographicalRegion containing the DC line.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Core.SubGeographicalRegion Region;
+		public TC57CIM.IEC61970.Base.Core.SubGeographicalRegion? Region;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="DCLine"/> class

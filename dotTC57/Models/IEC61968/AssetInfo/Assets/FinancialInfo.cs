@@ -17,53 +17,53 @@ namespace TC57CIM.IEC61968.AssetInfo.Assets {
 		/// <summary>
 		/// The account to which this actual material item is charged.
 		/// </summary>
-		public string account;
+		public string? account;
 		/// <summary>
 		/// The actual purchase cost of this particular asset.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Money actualPurchaseCost;
+		public TC57CIM.IEC61970.Base.Domain.Money? actualPurchaseCost;
 		/// <summary>
 		/// Description of the cost.
 		/// </summary>
-		public string costDescription;
+		public string? costDescription;
 		/// <summary>
 		/// Type of cost to which this Material Item belongs.
 		/// </summary>
-		public string costType;
+		public string? costType;
 		/// <summary>
 		/// Value of asset as of 'valueDateTime'.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Money financialValue;
+		public TC57CIM.IEC61970.Base.Domain.Money? financialValue;
 		/// <summary>
 		/// Date and time asset's financial value was put in plant for regulatory
 		/// accounting purposes (e.g., for rate base calculations). This is sometime
 		/// referred to as the "in-service date".
 		/// </summary>
-		public System.DateTime plantTransferDateTime;
+		public System.DateTime? plantTransferDateTime;
 		/// <summary>
 		/// Date and time asset was purchased.
 		/// </summary>
-		public System.DateTime purchaseDateTime;
+		public System.DateTime? purchaseDateTime;
 		/// <summary>
 		/// Purchase order identifier.
 		/// </summary>
-		public string purchaseOrderNumber;
+		public string? purchaseOrderNumber;
 		/// <summary>
 		/// The quantity of the asset if per unit length, for example conductor.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.IntegerQuantity quantity;
+		public TC57CIM.IEC61970.Base.Domain.IntegerQuantity? quantity;
 		/// <summary>
 		/// Date and time at which the financial value was last established.
 		/// </summary>
-		public System.DateTime valueDateTime;
+		public System.DateTime? valueDateTime;
 		/// <summary>
 		/// Date and time warranty on asset expires.
 		/// </summary>
-		public System.DateTime warrantyEndDateTime;
+		public System.DateTime? warrantyEndDateTime;
 		/// <summary>
 		/// The asset to which this financial information relates.
 		/// </summary>
-		public TC57CIM.IEC61968.AssetInfo.Assets.Asset Asset;
+		public TC57CIM.IEC61968.AssetInfo.Assets.Asset? Asset;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="FinancialInfo"/> class

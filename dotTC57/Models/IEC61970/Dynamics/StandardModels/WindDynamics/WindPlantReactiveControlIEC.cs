@@ -20,13 +20,13 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics {
 		/// (<i>dx</i><i><sub>refmax</sub></i>) (> WindPlantReactiveControlIEC.dxrefmin).
 		/// It is a project-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU dxrefmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? dxrefmax;
 		/// <summary>
 		/// Maximum negative ramp rate for wind turbine reactive power/voltage reference
-		/// (<i>dx</i><i><sub>refmin</sub></i>) (< WindPlantReactiveControlIEC.dxrefmax).
+		/// (<i>dx</i><i><sub>refmin</sub></i>) (&lt; WindPlantReactiveControlIEC.dxrefmax).
 		/// It is a project-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU dxrefmin;
+		public TC57CIM.IEC61970.Base.Domain.PU? dxrefmin;
 		/// <summary>
 		/// Plant Q controller integral gain (<i>K</i><i><sub>IWPx</sub></i>). It is a
 		/// project-dependent parameter.
@@ -37,13 +37,13 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics {
 		/// (<i>K</i><i><sub>IWPxmax</sub></i>) (> WindPlantReactiveControlIEC.kiwpxmin).
 		/// It is a project-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kiwpxmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? kiwpxmax;
 		/// <summary>
 		/// Minimum reactive power/voltage reference from integration
-		/// (<i>K</i><i><sub>IWPxmin</sub></i>) (< WindPlantReactiveControlIEC.kiwpxmax).
+		/// (<i>K</i><i><sub>IWPxmin</sub></i>) (&lt; WindPlantReactiveControlIEC.kiwpxmax).
 		/// It is a project-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kiwpxmin;
+		public TC57CIM.IEC61970.Base.Domain.PU? kiwpxmin;
 		/// <summary>
 		/// Plant Q controller proportional gain (<i>K</i><i><sub>PWPx</sub></i>). It is a
 		/// project-dependent parameter.
@@ -53,51 +53,51 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics {
 		/// Reactive power reference gain (<i>K</i><i><sub>WPqref</sub></i>). It is a
 		/// project-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kwpqref;
+		public TC57CIM.IEC61970.Base.Domain.PU? kwpqref;
 		/// <summary>
 		/// Plant voltage control droop (<i>K</i><i><sub>WPqu</sub></i>). It is a project-
 		/// dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kwpqu;
+		public TC57CIM.IEC61970.Base.Domain.PU? kwpqu;
 		/// <summary>
 		/// Filter time constant for voltage-dependent reactive power
 		/// (<i>T</i><i><sub>uqfilt</sub></i>) (>= 0). It is a project-dependent parameter.
 		///
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tuqfilt;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tuqfilt;
 		/// <summary>
 		/// Filter time constant for active power measurement
 		/// (<i>T</i><i><sub>WPpfiltq</sub></i>) (>= 0). It is a project-dependent
 		/// parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds twppfiltq;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? twppfiltq;
 		/// <summary>
 		/// Filter time constant for reactive power measurement
 		/// (<i>T</i><i><sub>WPqfiltq</sub></i>) (>= 0). It is a project-dependent
 		/// parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds twpqfiltq;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? twpqfiltq;
 		/// <summary>
 		/// Filter time constant for voltage measurement
 		/// (<i>T</i><i><sub>WPufiltq</sub></i>) (>= 0). It is a project-dependent
 		/// parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds twpufiltq;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? twpufiltq;
 		/// <summary>
 		/// Lead time constant in reference value transfer function
 		/// (<i>T</i><i><sub>xft</sub></i>) (>= 0). It is a project-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds txft;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? txft;
 		/// <summary>
 		/// Lag time constant in reference value transfer function
 		/// (<i>T</i><i><sub>xfv</sub></i>) (>= 0). It is a project-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds txfv;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? txfv;
 		/// <summary>
 		/// Voltage threshold for UVRT detection in Q control
 		/// (<i>u</i><i><sub>WPqdip</sub></i>). It is a project-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU uwpqdip;
+		public TC57CIM.IEC61970.Base.Domain.PU? uwpqdip;
 		/// <summary>
 		/// Reactive power/voltage controller mode (<i>M</i><i><sub>WPqmode</sub></i>). It
 		/// is a case-dependent parameter.
@@ -109,14 +109,14 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics {
 		/// (<i>x</i><i><sub>refmax</sub></i>) (> WindPlantReactiveControlIEC.xrefmin). It
 		/// is a case-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU xrefmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? xrefmax;
 		/// <summary>
 		/// Minimum <i>x</i><i><sub>WTref</sub></i> (<i>q</i><i><sub>WTref</sub></i> or
 		/// delta <i>u</i><i><sub>WTref</sub></i>) request from the plant controller
-		/// (<i>x</i><i><sub>refmin</sub></i>) (< WindPlantReactiveControlIEC.xrefmax). It
+		/// (<i>x</i><i><sub>refmin</sub></i>) (&lt; WindPlantReactiveControlIEC.xrefmax). It
 		/// is a project-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU xrefmin;
+		public TC57CIM.IEC61970.Base.Domain.PU? xrefmin;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="WindPlantReactiveControlIEC"/> class

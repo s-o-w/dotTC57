@@ -19,7 +19,7 @@ namespace TC57CIM.IEC61970.Base.Generation.GenerationTrainingSimulation {
 		/// <summary>
 		/// Steam turbines may have steam supplied by a steam supply.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Generation.GenerationTrainingSimulation.SteamTurbine SteamTurbines;
+		public TC57CIM.IEC61970.Base.Generation.GenerationTrainingSimulation.SteamTurbine? SteamTurbines;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="SteamSupply"/> class

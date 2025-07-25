@@ -24,14 +24,14 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// symmetrical or asymmetrical models or a tap step table lookup if those are
 		/// available.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.AngleDegrees stepPhaseShiftIncrement;
+		public TC57CIM.IEC61970.Base.Domain.AngleDegrees? stepPhaseShiftIncrement;
 		/// <summary>
 		/// The reactance depends on the tap position according to a "u" shaped curve. The
 		/// maximum reactance (xMax) appears at the low and high tap positions. Depending
 		/// on the �u� curve the attribute can be either higher or lower than
 		/// PowerTransformerEnd.x.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Reactance xMax;
+		public TC57CIM.IEC61970.Base.Domain.Reactance? xMax;
 		/// <summary>
 		/// The reactance depends on the tap position according to a "u" shaped curve. The
 		/// minimum reactance (xMin) appears at the mid tap position.  PowerTransformerEnd.
@@ -39,7 +39,7 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// PhaseTapChangerNonLinear.xMin. In case of inconsistency, PowerTransformerEnd.x
 		/// shall be used.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Reactance xMin;
+		public TC57CIM.IEC61970.Base.Domain.Reactance? xMin;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="PhaseTapChangerLinear"/> class

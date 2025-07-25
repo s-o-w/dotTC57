@@ -18,11 +18,11 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfAssets {
 		/// <summary>
 		/// The asset property curves
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfAssets.AssetPropertyCurve AssetPropertyCurves;
+		public TC57CIM.IEC61968.InfIEC61968.InfAssets.AssetPropertyCurve? AssetPropertyCurves;
 		/// <summary>
 		/// The mediums
 		/// </summary>
-		public TC57CIM.IEC61968.AssetInfo.Assets.Medium Mediums;
+		public TC57CIM.IEC61968.AssetInfo.Assets.Medium? Mediums;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Specification"/> class

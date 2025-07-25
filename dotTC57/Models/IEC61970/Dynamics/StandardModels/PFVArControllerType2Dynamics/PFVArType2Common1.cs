@@ -27,22 +27,22 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.PFVArControllerType2Dynamics 
 		/// <summary>
 		/// Reset gain (<i>Ki</i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU ki;
+		public TC57CIM.IEC61970.Base.Domain.PU? ki;
 		/// <summary>
 		/// Proportional gain (<i>Kp</i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kp;
+		public TC57CIM.IEC61970.Base.Domain.PU? kp;
 		/// <summary>
 		/// Output limit (<i>max</i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU max;
+		public TC57CIM.IEC61970.Base.Domain.PU? max;
 		/// <summary>
 		/// Reference value of reactive power or power factor (<i>Ref</i>).
 		/// The reference value is initialised by this model. This initialisation can
 		/// override the value exchanged by this attribute to represent a plant operator's
 		/// change of the reference setting.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU refValue;
+		public TC57CIM.IEC61970.Base.Domain.PU? refValue;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="PFVArType2Common1"/> class

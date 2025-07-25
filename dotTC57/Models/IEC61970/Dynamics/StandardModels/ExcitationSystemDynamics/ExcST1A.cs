@@ -16,79 +16,79 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.ExcitationSystemDynamics {
 		/// <summary>
 		/// Exciter output current limit reference (<i>Ilr</i>).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU ilr;
+		public TC57CIM.IEC61970.Base.Domain.PU? ilr;
 		/// <summary>
 		/// Voltage regulator gain (<i>Ka</i>) (> 0).  Typical value = 190.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU ka;
+		public TC57CIM.IEC61970.Base.Domain.PU? ka;
 		/// <summary>
 		/// Rectifier loading factor proportional to commutating reactance (<i>Kc</i>) (>=
 		/// 0). Typical value = 0,05.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kc;
+		public TC57CIM.IEC61970.Base.Domain.PU? kc;
 		/// <summary>
 		/// Excitation control system stabilizer gains (<i>Kf</i>) (>= 0).  Typical value =
 		/// 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kf;
+		public TC57CIM.IEC61970.Base.Domain.PU? kf;
 		/// <summary>
 		/// Exciter output current limiter gain (<i>Klr</i>).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU klr;
+		public TC57CIM.IEC61970.Base.Domain.PU? klr;
 		/// <summary>
 		/// Voltage regulator time constant (<i>Ta</i>) (>= 0).  Typical value = 0,02.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds ta;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? ta;
 		/// <summary>
 		/// Voltage regulator time constant (<i>Tb</i>) (>= 0).  Typical value = 10.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tb;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tb;
 		/// <summary>
 		/// Voltage regulator time constant (<i>Tb1</i>) (>= 0).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tb1;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tb1;
 		/// <summary>
 		/// Voltage regulator time constant (<i>Tc</i>) (>= 0).  Typical value = 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tc;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tc;
 		/// <summary>
 		/// Voltage regulator time constant (<i>Tc1</i>) (>= 0).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tc1;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tc1;
 		/// <summary>
 		/// Excitation control system stabilizer time constant (<i>Tf</i>) (>= 0).  Typical
 		/// value = 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tf;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tf;
 		/// <summary>
 		/// Maximum voltage regulator output (<i>Vamax</i>) (> 0).  Typical value = 999.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vamax;
+		public TC57CIM.IEC61970.Base.Domain.PU? vamax;
 		/// <summary>
 		/// Minimum voltage regulator output (<i>Vamin</i>) (less than 0).  Typical value = -999.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vamin;
+		public TC57CIM.IEC61970.Base.Domain.PU? vamin;
 		/// <summary>
 		/// Maximum voltage regulator input limit (<i>Vimax</i>) (> 0).  Typical value =
 		/// 999.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vimax;
+		public TC57CIM.IEC61970.Base.Domain.PU? vimax;
 		/// <summary>
 		/// Minimum voltage regulator input limit (<i>Vimin</i>) (less than 0).  Typical value = -999.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vimin;
+		public TC57CIM.IEC61970.Base.Domain.PU? vimin;
 		/// <summary>
 		/// Maximum voltage regulator outputs (<i>Vrmax</i>) (> 0) .  Typical value = 7,8.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vrmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? vrmax;
 		/// <summary>
 		/// Minimum voltage regulator outputs (<i>Vrmin</i>) (less than 0).  Typical value = -6,7.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vrmin;
+		public TC57CIM.IEC61970.Base.Domain.PU? vrmin;
 		/// <summary>
 		/// Excitation xfmr effective reactance (<i>Xe</i>).  Typical value = 0,04.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU xe;
+		public TC57CIM.IEC61970.Base.Domain.PU? xe;
 
 		/// <summary>
 		/// Constructor for ExcST1A.

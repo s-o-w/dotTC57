@@ -14,31 +14,31 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfERPSupport {
 		/// <summary>
 		/// The code
 		/// </summary>
-		public string code;
+		public string? code;
 		/// <summary>
 		/// Cost of material.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Money cost;
+		public TC57CIM.IEC61970.Base.Domain.Money? cost;
 		/// <summary>
 		/// The delivery date
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Date deliveryDate;
+		public TC57CIM.IEC61970.Base.Domain.Date? deliveryDate;
 		/// <summary>
 		/// Quantity of item requisitioned.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer quantity;
+		public TC57CIM.IEC61970.Base.Domain.Integer? quantity;
 		/// <summary>
 		/// The status
 		/// </summary>
-		public TC57CIM.IEC61968.Common.Status status;
+		public TC57CIM.IEC61968.Common.Status? status;
 		/// <summary>
 		/// The erp requisition
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfERPSupport.ErpRequisition ErpRequisition;
+		public TC57CIM.IEC61968.InfIEC61968.InfERPSupport.ErpRequisition? ErpRequisition;
 		/// <summary>
 		/// The erp po line item
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfERPSupport.ErpPOLineItem ErpPOLineItem;
+		public TC57CIM.IEC61968.InfIEC61968.InfERPSupport.ErpPOLineItem? ErpPOLineItem;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ErpReqLineItem"/> class

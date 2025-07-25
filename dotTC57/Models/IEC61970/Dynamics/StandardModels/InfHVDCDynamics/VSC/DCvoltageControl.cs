@@ -15,19 +15,19 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.InfHVDCDynamics.VSC {
 		/// <summary>
 		/// Integral gain of the DC voltage regulator (Kivdc).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kivdc;
+		public TC57CIM.IEC61970.Base.Domain.PU? kivdc;
 		/// <summary>
 		/// Proportional gain of the DC voltage regulator (Kpvdc).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kpvdc;
+		public TC57CIM.IEC61970.Base.Domain.PU? kpvdc;
 		/// <summary>
 		/// Maximum DC voltage (Vdcmax).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vdcmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? vdcmax;
 		/// <summary>
 		/// Minimum DC voltage (Vdcmin).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vdcmin;
+		public TC57CIM.IEC61970.Base.Domain.PU? vdcmin;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="DCvoltageControl"/> class

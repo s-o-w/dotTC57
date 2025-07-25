@@ -17,7 +17,7 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// <summary>
 		/// Segment length for calculating line section capabilities.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Length length;
+		public TC57CIM.IEC61970.Base.Domain.Length? length;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Conductor"/> class

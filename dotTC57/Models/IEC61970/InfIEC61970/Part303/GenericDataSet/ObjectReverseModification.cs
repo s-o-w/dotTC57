@@ -17,7 +17,7 @@ namespace TC57CIM.IEC61970.InfIEC61970.Part303.GenericDataSet {
         /// Normally the association is specified, but in the case of a proxy object where
         /// the association is removed, it might not reference any data object.
         /// </summary>
-        public ObjectModification ObjectModification;
+        public ObjectModification? ObjectModification;
 
         /// <summary>
         /// Initializes a new instance of the <see cref="ObjectReverseModification"/> class.

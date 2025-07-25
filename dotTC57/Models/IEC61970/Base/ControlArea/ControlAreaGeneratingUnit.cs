@@ -19,12 +19,12 @@ namespace TC57CIM.IEC61970.Base.ControlArea {
 		/// <summary>
 		/// The link to prioritized measurements for this GeneratingUnit.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.ControlArea.AltGeneratingUnitMeas AltGeneratingUnitMeas;
+		public TC57CIM.IEC61970.Base.ControlArea.AltGeneratingUnitMeas? AltGeneratingUnitMeas;
 		/// <summary>
 		/// The generating unit specified for this control area.  Note that a control area
 		/// should include a GeneratingUnit only once.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Generation.Production.GeneratingUnit GeneratingUnit;
+		public TC57CIM.IEC61970.Base.Generation.Production.GeneratingUnit? GeneratingUnit;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ControlAreaGeneratingUnit"/> class

@@ -16,20 +16,20 @@ namespace TC57CIM.IEC61970.Base.DC {
 		/// <summary>
 		/// Capacitance of the DC line segment. Significant for cables only.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Capacitance capacitance;
+		public TC57CIM.IEC61970.Base.Domain.Capacitance? capacitance;
 		/// <summary>
 		/// Inductance of the DC line segment. Negligible compared with DCSeriesDevice used
 		/// for smoothing.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Inductance inductance;
+		public TC57CIM.IEC61970.Base.Domain.Inductance? inductance;
 		/// <summary>
 		/// Segment length for calculating line section capabilities.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Length length;
+		public TC57CIM.IEC61970.Base.Domain.Length? length;
 		/// <summary>
 		/// Resistance of the DC line segment.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Resistance resistance;
+		public TC57CIM.IEC61970.Base.Domain.Resistance? resistance;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="DCLineSegment"/> class

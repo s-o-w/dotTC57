@@ -35,45 +35,45 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.ExcitationSystemDynamics {
 		/// <summary>
 		/// AVR time constant (<i>T</i><i><sub>1</sub></i>) (>= 0).  Typical value = 4,8.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t1;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t1;
 		/// <summary>
 		/// Exciter current feedback time constant (<i>T</i><i><sub>1IF</sub></i>) (>= 0).
 		/// Typical value = 60.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t1if;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t1if;
 		/// <summary>
 		/// AVR time constant (<i>T</i><i><sub>2</sub></i>) (>= 0).  Typical value = 1,5.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t2;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t2;
 		/// <summary>
 		/// AVR time constant (<i>T</i><i><sub>3</sub></i>) (>= 0).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t3;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t3;
 		/// <summary>
 		/// AVR time constant (<i>T</i><i><sub>4</sub></i>) (>= 0).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t4;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t4;
 		/// <summary>
 		/// Exciter current feedback time constant (<i>T</i><i><sub>IF</sub></i>) (>= 0).
 		/// Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tif;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tif;
 		/// <summary>
 		/// Minimum exciter output (<i>V</i><i><sub>FMN</sub></i>).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vfmn;
+		public TC57CIM.IEC61970.Base.Domain.PU? vfmn;
 		/// <summary>
 		/// Maximum exciter output (<i>V</i><i><sub>FMX</sub></i>).  Typical value = 5.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vfmx;
+		public TC57CIM.IEC61970.Base.Domain.PU? vfmx;
 		/// <summary>
 		/// Minimum AVR output (<i>V</i><i><sub>RMN</sub></i>).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vrmn;
+		public TC57CIM.IEC61970.Base.Domain.PU? vrmn;
 		/// <summary>
 		/// Maximum AVR output (<i>V</i><i><sub>RMX</sub></i>).  Typical value = 5.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vrmx;
+		public TC57CIM.IEC61970.Base.Domain.PU? vrmx;
 
 		/// <summary>
 		/// Constructor for ExcAVR4.

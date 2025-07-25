@@ -16,11 +16,11 @@ namespace TC57CIM.IEC61968.AssetInfo {
 		/// Percentage of the tape shield width that overlaps in each wrap, typically 10%
 		/// to 25%.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PerCent tapeLap;
+		public TC57CIM.IEC61970.Base.Domain.PerCent? tapeLap;
 		/// <summary>
 		/// Thickness of the tape shield, before wrapping.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Length tapeThickness;
+		public TC57CIM.IEC61970.Base.Domain.Length? tapeThickness;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="TapeShieldCableInfo"/> class

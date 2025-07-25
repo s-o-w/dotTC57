@@ -19,36 +19,36 @@ namespace TC57CIM.IEC61968.Customers {
 		/// Cycle day on which the associated customer account will normally be billed,
 		/// used to determine when to produce the billing.
 		/// </summary>
-		public string billingCycle;
+		public string? billingCycle;
 		/// <summary>
 		/// Budget bill code.
 		/// </summary>
-		public string budgetBill;
+		public string? budgetBill;
 		/// <summary>
 		/// The last amount that will be billed to the customer prior to shut off of the
 		/// account.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Money lastBillAmount;
+		public TC57CIM.IEC61970.Base.Domain.Money? lastBillAmount;
 		/// <summary>
 		/// All payment transactions for this customer account.
 		/// </summary>
-		public TC57CIM.IEC61968.PaymentMetering.Transaction PaymentTransactions;
+		public TC57CIM.IEC61968.PaymentMetering.Transaction? PaymentTransactions;
 		/// <summary>
 		/// All agreements for this customer account.
 		/// </summary>
-		public TC57CIM.IEC61968.Customers.CustomerAgreement CustomerAgreements;
+		public TC57CIM.IEC61968.Customers.CustomerAgreement? CustomerAgreements;
 		/// <summary>
 		/// The work billing infos
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfCustomers.WorkBillingInfo WorkBillingInfos;
+		public TC57CIM.IEC61968.InfIEC61968.InfCustomers.WorkBillingInfo? WorkBillingInfos;
 		/// <summary>
 		/// The erp invoicees
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfERPSupport.ErpInvoice ErpInvoicees;
+		public TC57CIM.IEC61968.InfIEC61968.InfERPSupport.ErpInvoice? ErpInvoicees;
 		/// <summary>
 		/// The notification for the customer account.
 		/// </summary>
-		public TC57CIM.IEC61968.Customers.AccountNotification AccountNotification;
+		public TC57CIM.IEC61968.Customers.AccountNotification? AccountNotification;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="CustomerAccount"/> class

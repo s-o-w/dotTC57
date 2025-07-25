@@ -15,11 +15,11 @@ namespace TC57CIM.IEC61968.Operations {
 		/// <summary>
 		/// freeform description of the condition to be verified
 		/// </summary>
-		public string verificationCondition;
+		public string? verificationCondition;
 		/// <summary>
 		/// The power system resource that the verification action is performed on
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Core.PowerSystemResource PowerSystemResource;
+		public TC57CIM.IEC61970.Base.Core.PowerSystemResource? PowerSystemResource;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="VerificationAction"/> class

@@ -20,7 +20,7 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfERPSupport {
 		/// <summary>
 		/// The erp journal entries
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfERPSupport.ErpJournalEntry ErpJournalEntries;
+		public TC57CIM.IEC61968.InfIEC61968.InfERPSupport.ErpJournalEntry? ErpJournalEntries;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ErpJournal"/> class

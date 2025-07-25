@@ -14,11 +14,11 @@ namespace TC57CIM.IEC61970.Base.Equivalents {
 		/// <summary>
 		/// Positive sequence shunt susceptance.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Susceptance b;
+		public TC57CIM.IEC61970.Base.Domain.Susceptance? b;
 		/// <summary>
 		/// Positive sequence shunt conductance.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Conductance g;
+		public TC57CIM.IEC61970.Base.Domain.Conductance? g;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="EquivalentShunt"/> class

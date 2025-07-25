@@ -16,11 +16,11 @@ namespace TC57CIM.IEC61970.Base.OperationalLimits {
 		/// The normal apparent power limit. The attribute shall be a positive value or
 		/// zero.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ApparentPower normalValue;
+		public TC57CIM.IEC61970.Base.Domain.ApparentPower? normalValue;
 		/// <summary>
 		/// The apparent power limit. The attribute shall be a positive value or zero.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ApparentPower value;
+		public TC57CIM.IEC61970.Base.Domain.ApparentPower? value;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ApparentPowerLimit"/> class

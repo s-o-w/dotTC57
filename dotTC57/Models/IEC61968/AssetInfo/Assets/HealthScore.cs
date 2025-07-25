@@ -15,7 +15,7 @@ namespace TC57CIM.IEC61968.AssetInfo.Assets {
 		/// <summary>
 		/// Risk score with which this health score is associated.
 		/// </summary>
-		public TC57CIM.IEC61968.AssetInfo.Assets.RiskScore AssetRiskScore;
+		public TC57CIM.IEC61968.AssetInfo.Assets.RiskScore? AssetRiskScore;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="HealthScore"/> class

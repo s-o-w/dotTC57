@@ -15,11 +15,11 @@ namespace TC57CIM.IEC61968.Metering {
 		/// <summary>
 		/// Unique identifier for the commodity provider.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer providerID;
+		public TC57CIM.IEC61970.Base.Domain.Integer? providerID;
 		/// <summary>
 		/// All pricing details issued by this PAN pricing command/action.
 		/// </summary>
-		public TC57CIM.IEC61968.Metering.PanPricingDetail PanPricingDetails;
+		public TC57CIM.IEC61968.Metering.PanPricingDetail? PanPricingDetails;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="PanPricing"/> class

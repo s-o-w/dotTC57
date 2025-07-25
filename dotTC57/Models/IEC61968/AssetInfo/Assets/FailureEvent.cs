@@ -22,7 +22,7 @@ namespace TC57CIM.IEC61968.AssetInfo.Assets {
 		/// <summary>
 		/// Code for asset failure.
 		/// </summary>
-		public string corporateCode;
+		public string? corporateCode;
 		/// <summary>
 		/// Classification of failure.
 		/// </summary>
@@ -30,7 +30,7 @@ namespace TC57CIM.IEC61968.AssetInfo.Assets {
 		/// <summary>
 		/// Time and date of asset failure.
 		/// </summary>
-		public System.DateTime failureDateTime;
+		public System.DateTime? failureDateTime;
 		/// <summary>
 		/// How the asset failure was isolated from the system.
 		/// </summary>
@@ -44,15 +44,15 @@ namespace TC57CIM.IEC61968.AssetInfo.Assets {
 		/// options include: Cap Discharge-Thumping, Bridge Method, Visual Inspection,
 		/// Other.
 		/// </summary>
-		public string faultLocatingMethod;
+		public string? faultLocatingMethod;
 		/// <summary>
 		/// Failure location on an object.
 		/// </summary>
-		public string location;
+		public string? location;
 		/// <summary>
 		/// Root cause of asset failure.
 		/// </summary>
-		public string rootCause;
+		public string? rootCause;
 		/// <summary>
 		/// Reason for transformer failure.
 		/// </summary>

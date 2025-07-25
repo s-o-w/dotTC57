@@ -16,7 +16,7 @@ namespace TC57CIM.IEC61968.Customers {
 		/// Method for the service person to access this service location. For example, a
 		/// description of where to obtain a key if the facility is unmanned and secured.
 		/// </summary>
-		public string accessMethod;
+		public string? accessMethod;
 		/// <summary>
 		/// True if inspection is needed of facilities at this service location. This could
 		/// be requested by a customer, due to suspected tampering, environmental concerns
@@ -28,24 +28,24 @@ namespace TC57CIM.IEC61968.Customers {
 		/// location. Examples include: bad dog, violent customer, verbally abusive
 		/// occupant, obstructions, safety hazards, etc.
 		/// </summary>
-		public string siteAccessProblem;
+		public string? siteAccessProblem;
 		/// <summary>
 		/// All assets that exist at the service location
 		/// </summary>
-		public TC57CIM.IEC61968.AssetInfo.Assets.Asset Asset;
+		public TC57CIM.IEC61968.AssetInfo.Assets.Asset? Asset;
 		/// <summary>
 		/// The ticket called in by the customer that describes the trouble
 		/// </summary>
-		public TC57CIM.IEC61968.Customers.TroubleTicket TroubleTicket;
+		public TC57CIM.IEC61968.Customers.TroubleTicket? TroubleTicket;
 		/// <summary>
 		/// All usage points delivering service (of the same type) to this service location.
 		///
 		/// </summary>
-		public TC57CIM.IEC61968.Metering.UsagePoint UsagePoints;
+		public TC57CIM.IEC61968.Metering.UsagePoint? UsagePoints;
 		/// <summary>
 		/// All end devices that measure the service delivered to this service location.
 		/// </summary>
-		public TC57CIM.IEC61968.Metering.EndDevice EndDevices;
+		public TC57CIM.IEC61968.Metering.EndDevice? EndDevices;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ServiceLocation"/> class

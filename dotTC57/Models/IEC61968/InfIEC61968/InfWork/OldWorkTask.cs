@@ -15,27 +15,27 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfWork {
 		/// <summary>
 		/// The contractor items
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfWork.ContractorItem ContractorItems;
+		public TC57CIM.IEC61968.InfIEC61968.InfWork.ContractorItem? ContractorItems;
 		/// <summary>
 		/// The qualification requirements
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfWork.QualificationRequirement QualificationRequirements;
+		public TC57CIM.IEC61968.InfIEC61968.InfWork.QualificationRequirement? QualificationRequirements;
 		/// <summary>
 		/// The usages
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfWork.Usage Usages;
+		public TC57CIM.IEC61968.InfIEC61968.InfWork.Usage? Usages;
 		/// <summary>
 		/// The misc cost items
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfWork.MiscCostItem MiscCostItems;
+		public TC57CIM.IEC61968.InfIEC61968.InfWork.MiscCostItem? MiscCostItems;
 		/// <summary>
 		/// The overhead cost
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfWork.OverheadCost OverheadCost;
+		public TC57CIM.IEC61968.InfIEC61968.InfWork.OverheadCost? OverheadCost;
 		/// <summary>
 		/// The labor items
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfWork.LaborItem LaborItems;
+		public TC57CIM.IEC61968.InfIEC61968.InfWork.LaborItem? LaborItems;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="OldWorkTask"/> class

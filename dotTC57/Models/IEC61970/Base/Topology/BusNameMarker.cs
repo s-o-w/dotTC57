@@ -25,22 +25,22 @@ namespace TC57CIM.IEC61970.Base.Topology {
 		/// care.  Use 1 for highest priority.  Use 2 as priority is less than 1 and so on.
 		///
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer priority;
+		public TC57CIM.IEC61970.Base.Domain.Integer? priority;
 		/// <summary>
 		/// The reporting group to which this bus name marker belongs.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Core.ReportingGroup ReportingGroup;
+		public TC57CIM.IEC61970.Base.Core.ReportingGroup? ReportingGroup;
 		/// <summary>
 		/// The terminals associated with this bus name marker.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Core.ACDCTerminal Terminal;
+		public TC57CIM.IEC61970.Base.Core.ACDCTerminal? Terminal;
 		/// <summary>
 		/// A user defined topological node that was originally defined in a planning model
 		/// not yet having topology described by ConnectivityNodes. Once ConnectivityNodes
 		/// has been created they may linked to user defined ToplogicalNdes using
 		/// BusNameMarkers.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Topology.TopologicalNode TopologicalNode;
+		public TC57CIM.IEC61970.Base.Topology.TopologicalNode? TopologicalNode;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="BusNameMarker"/> class

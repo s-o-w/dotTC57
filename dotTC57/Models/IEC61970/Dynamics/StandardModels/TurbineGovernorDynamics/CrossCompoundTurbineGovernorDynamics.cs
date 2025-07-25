@@ -18,12 +18,12 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.TurbineGovernorDynamics {
 		/// Low-pressure synchronous machine with which this cross-compound turbine
 		/// governor is associated.
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.StandardModels.SynchronousMachineDynamics.SynchronousMachineDynamics LowPressureSynchronousMachineDynamics;
+		public TC57CIM.IEC61970.Dynamics.StandardModels.SynchronousMachineDynamics.SynchronousMachineDynamics? LowPressureSynchronousMachineDynamics;
 		/// <summary>
 		/// High-pressure synchronous machine with which this cross-compound turbine
 		/// governor is associated.
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.StandardModels.SynchronousMachineDynamics.SynchronousMachineDynamics HighPressureSynchronousMachineDynamics;
+		public TC57CIM.IEC61970.Dynamics.StandardModels.SynchronousMachineDynamics.SynchronousMachineDynamics? HighPressureSynchronousMachineDynamics;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="CrossCompoundTurbineGovernorDynamics"/> class

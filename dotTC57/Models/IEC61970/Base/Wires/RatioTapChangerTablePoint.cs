@@ -15,7 +15,7 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// <summary>
 		/// Table of this point.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Wires.RatioTapChangerTable RatioTapChangerTable;
+		public TC57CIM.IEC61970.Base.Wires.RatioTapChangerTable? RatioTapChangerTable;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="RatioTapChangerTablePoint"/> class

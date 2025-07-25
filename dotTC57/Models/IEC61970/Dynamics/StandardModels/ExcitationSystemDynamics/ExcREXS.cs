@@ -18,11 +18,11 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.ExcitationSystemDynamics {
 		/// <summary>
 		/// Field voltage value 1 (<i>E</i><i><sub>1</sub></i>).  Typical value = 3.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU e1;
+		public TC57CIM.IEC61970.Base.Domain.PU? e1;
 		/// <summary>
 		/// Field voltage value 2 (<i>E</i><i><sub>2</sub></i>).  Typical value = 4.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU e2;
+		public TC57CIM.IEC61970.Base.Domain.PU? e2;
 		/// <summary>
 		/// Rate feedback signal flag (<i>fbf</i>). Typical value = fieldCurrent.
 		/// </summary>
@@ -30,147 +30,147 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.ExcitationSystemDynamics {
 		/// <summary>
 		/// Limit type flag (<i>Flimf</i>).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU flimf;
+		public TC57CIM.IEC61970.Base.Domain.PU? flimf;
 		/// <summary>
 		/// Rectifier regulation factor (<i>Kc</i>).  Typical value = 0,05.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kc;
+		public TC57CIM.IEC61970.Base.Domain.PU? kc;
 		/// <summary>
 		/// Exciter regulation factor (<i>Kd</i>).  Typical value = 2.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kd;
+		public TC57CIM.IEC61970.Base.Domain.PU? kd;
 		/// <summary>
 		/// Exciter field proportional constant (<i>Ke</i>).  Typical value = 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU ke;
+		public TC57CIM.IEC61970.Base.Domain.PU? ke;
 		/// <summary>
 		/// Field voltage feedback gain (<i>Kefd</i>).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kefd;
+		public TC57CIM.IEC61970.Base.Domain.PU? kefd;
 		/// <summary>
 		/// Rate feedback gain (<i>Kf</i>) (>= 0).  Typical value = 0,05.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds kf;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? kf;
 		/// <summary>
 		/// Field voltage controller feedback gain (<i>Kh</i>).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kh;
+		public TC57CIM.IEC61970.Base.Domain.PU? kh;
 		/// <summary>
 		/// Field current regulator integral gain (<i>Kii</i>).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kii;
+		public TC57CIM.IEC61970.Base.Domain.PU? kii;
 		/// <summary>
 		/// Field current regulator proportional gain (<i>Kip</i>).  Typical value = 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kip;
+		public TC57CIM.IEC61970.Base.Domain.PU? kip;
 		/// <summary>
 		/// Coefficient to allow different usage of the model-speed coefficient (<i>Ks</i>).
 		///  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU ks;
+		public TC57CIM.IEC61970.Base.Domain.PU? ks;
 		/// <summary>
 		/// Voltage regulator integral gain (<i>Kvi</i>).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kvi;
+		public TC57CIM.IEC61970.Base.Domain.PU? kvi;
 		/// <summary>
 		/// Voltage regulator proportional gain (<i>Kvp</i>).  Typical value = 2800.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kvp;
+		public TC57CIM.IEC61970.Base.Domain.PU? kvp;
 		/// <summary>
 		/// V/Hz limiter gain (<i>Kvphz</i>).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kvphz;
+		public TC57CIM.IEC61970.Base.Domain.PU? kvphz;
 		/// <summary>
 		/// Pickup speed of V/Hz limiter (<i>Nvphz</i>).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU nvphz;
+		public TC57CIM.IEC61970.Base.Domain.PU? nvphz;
 		/// <summary>
 		/// Saturation factor at <i>E</i><i><sub>1</sub></i><i>
 		/// </i>(<i>Se</i><i><sub>1</sub></i>).  Typical value = 0,0001.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU se1;
+		public TC57CIM.IEC61970.Base.Domain.PU? se1;
 		/// <summary>
 		/// Saturation factor at <i>E</i><i><sub>2</sub></i> (<i>Se</i><i><sub>2</sub></i>).
 		///  Typical value = 0,001.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU se2;
+		public TC57CIM.IEC61970.Base.Domain.PU? se2;
 		/// <summary>
 		/// Voltage regulator time constant (<i>Ta</i>) (>= 0).  If = 0, block is bypassed.
 		/// Typical value = 0,01.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds ta;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? ta;
 		/// <summary>
 		/// Lag time constant (<i>Tb1</i>) (>= 0).  If = 0, block is bypassed.  Typical
 		/// value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tb1;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tb1;
 		/// <summary>
 		/// Lag time constant (<i>Tb2</i>) (>= 0).  If = 0, block is bypassed.  Typical
 		/// value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tb2;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tb2;
 		/// <summary>
 		/// Lead time constant (<i>Tc1</i>) (>= 0).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tc1;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tc1;
 		/// <summary>
 		/// Lead time constant (<i>Tc2</i>) (>= 0).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tc2;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tc2;
 		/// <summary>
 		/// Exciter field time constant (<i>Te</i>) (> 0).  Typical value = 1,2.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds te;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? te;
 		/// <summary>
 		/// Rate feedback time constant (<i>Tf</i>) (>= 0).  If = 0, the feedback path is
 		/// not used.  Typical value = 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tf;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tf;
 		/// <summary>
 		/// Feedback lead time constant (<i>Tf1</i>) (>= 0).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tf1;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tf1;
 		/// <summary>
 		/// Feedback lag time constant (<i>Tf2</i>) (>= 0).  If = 0, block is bypassed.
 		/// Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tf2;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tf2;
 		/// <summary>
 		/// Field current bridge time constant (<i>Tp</i>) (>= 0).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tp;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tp;
 		/// <summary>
 		/// Maximum compounding voltage (<i>Vcmax</i>).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vcmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? vcmax;
 		/// <summary>
-		/// Maximum exciter field current (<i>Vfmax</i>) (> ExcREXS.vfmin).  Typical value
+		/// Maximum exciter field current (<i>Vfmax</i>) (&gt; ExcREXS.vfmin).  Typical value
 		/// = 47.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vfmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? vfmax;
 		/// <summary>
-		/// Minimum exciter field current (<i>Vfmin</i>) (< ExcREXS.vfmax).  Typical value
+		/// Minimum exciter field current (<i>Vfmin</i>) (&lt; ExcREXS.vfmax).  Typical value
 		/// = -20.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vfmin;
+		public TC57CIM.IEC61970.Base.Domain.PU? vfmin;
 		/// <summary>
 		/// Voltage regulator input limit (<i>Vimax</i>).  Typical value = 0,1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vimax;
+		public TC57CIM.IEC61970.Base.Domain.PU? vimax;
 		/// <summary>
-		/// Maximum controller output (V<i>rmax</i>) (> ExcREXS.vrmin).  Typical value = 47.
+		/// Maximum controller output (V<i>rmax</i>) (&gt; ExcREXS.vrmin).  Typical value = 47.
 		///
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vrmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? vrmax;
 		/// <summary>
-		/// Minimum controller output (<i>Vrmin</i>) (< ExcREXS.vrmax).  Typical value = -
+		/// Minimum controller output (<i>Vrmin</i>) (&lt; ExcREXS.vrmax).  Typical value = -
 		/// 20.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vrmin;
+		public TC57CIM.IEC61970.Base.Domain.PU? vrmin;
 		/// <summary>
 		/// Exciter compounding reactance (<i>Xc</i>).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU xc;
+		public TC57CIM.IEC61970.Base.Domain.PU? xc;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ExcREXS"/> class

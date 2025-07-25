@@ -27,11 +27,11 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// cut line segment, i.e. the line segment Terminal with sequenceNumber equal to 1.
 		///
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Length lengthFromTerminal1;
+		public TC57CIM.IEC61970.Base.Domain.Length? lengthFromTerminal1;
 		/// <summary>
 		/// The line segment to which the cut is applied.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Wires.ACLineSegment ACLineSegment;
+		public TC57CIM.IEC61970.Base.Wires.ACLineSegment? ACLineSegment;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Cut"/> class

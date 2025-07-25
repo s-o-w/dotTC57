@@ -21,7 +21,7 @@ namespace TC57CIM.IEC61970.Base.ICCPConfiguration {
 		/// receiver of the Information Message. It further identifies the Information
 		/// Message.
 		/// </summary>
-		public string localReference;
+		public string? localReference;
 		/// <summary>
 		/// Indicates if the Point is global scoped (e.g. VCC) or accessible only to the
 		/// Bilateral table peer (e.g. ICC).
@@ -30,7 +30,7 @@ namespace TC57CIM.IEC61970.Base.ICCPConfiguration {
 		/// <summary>
 		/// Bilateral table agreement that includes the informational message.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.ICCPConfiguration.TASE2BilateralTable TASE2BilateralTable;
+		public TC57CIM.IEC61970.Base.ICCPConfiguration.TASE2BilateralTable? TASE2BilateralTable;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ICCPInformationMessage"/> class

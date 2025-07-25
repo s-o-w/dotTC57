@@ -18,7 +18,7 @@ namespace TC57CIM.IEC61968.PaymentMetering {
 		/// <summary>
 		/// Local description for where this point of sale is physically located.
 		/// </summary>
-		public string location;
+		public string? location;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="PointOfSale"/> class

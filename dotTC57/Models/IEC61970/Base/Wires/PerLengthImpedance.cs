@@ -15,7 +15,7 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// <summary>
 		/// All line segments described by this per-length impedance.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Wires.ACLineSegment ACLineSegments;
+		public TC57CIM.IEC61970.Base.Wires.ACLineSegment? ACLineSegments;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="PerLengthImpedance"/> class

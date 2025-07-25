@@ -16,7 +16,7 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfCommon {
 		/// Identifiers of the person held by an organisation, such as a government agency
 		/// (federal, state, province, city, county), financial institutions, etc.
 		/// </summary>
-		public string clientID;
+		public string? clientID;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="PersonOrganisationRole"/> class

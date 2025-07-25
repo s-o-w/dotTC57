@@ -24,47 +24,47 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.ExcitationSystemDynamics {
 		/// Voltage regulator gain (<i>K</i><i><sub>A</sub></i>) (> 0).  Typical value =
 		/// 200.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU ka;
+		public TC57CIM.IEC61970.Base.Domain.PU? ka;
 		/// <summary>
 		/// Rectifier loading factor proportional to commutating reactance
 		/// (<i>K</i><i><sub>C</sub></i>) (>= 0).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kc;
+		public TC57CIM.IEC61970.Base.Domain.PU? kc;
 		/// <summary>
 		/// Voltage regulator time constant (<i>T</i><i><sub>A</sub></i>) (> 0).  Typical
 		/// value = 0,015.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds ta;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? ta;
 		/// <summary>
 		/// Voltage regulator time constant (<i>T</i><i><sub>B</sub></i>) (>= 0).  Typical
 		/// value = 10.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tb;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tb;
 		/// <summary>
 		/// Voltage regulator time constant (<i>T</i><i><sub>C</sub></i>) (>= 0).  Typical
 		/// value = 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tc;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tc;
 		/// <summary>
-		/// Maximum voltage regulator input limit (<i>V</i><i><sub>IMAX</sub></i>) (> 0).
+		/// Maximum voltage regulator input limit (<i>V</i><i><sub>IMAX</sub></i>) (greater than 0).
 		/// Typical value = 10.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vimax;
+		public TC57CIM.IEC61970.Base.Domain.PU? vimax;
 		/// <summary>
-		/// Minimum voltage regulator input limit (<i>V</i><i><sub>IMIN</sub></i>) (< 0).
+		/// Minimum voltage regulator input limit (<i>V</i><i><sub>IMIN</sub></i>) (less than 0).
 		/// Typical value = -10.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vimin;
+		public TC57CIM.IEC61970.Base.Domain.PU? vimin;
 		/// <summary>
-		/// Maximum voltage regulator output (<i>V</i><i><sub>RMAX</sub></i>) (> 0).
+		/// Maximum voltage regulator output (<i>V</i><i><sub>RMAX</sub></i>) (greater than 0).
 		/// Typical value = 5,64.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vrmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? vrmax;
 		/// <summary>
-		/// Minimum voltage regulator output (<i>V</i><i><sub>RMIN</sub></i>) (< 0).
+		/// Minimum voltage regulator output (<i>V</i><i><sub>RMIN</sub></i>) (less than 0).
 		/// Typical value = -4,53.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vrmin;
+		public TC57CIM.IEC61970.Base.Domain.PU? vrmin;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ExcIEEEAC4A"/> class

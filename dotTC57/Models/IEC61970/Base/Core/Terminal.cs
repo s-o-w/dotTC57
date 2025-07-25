@@ -26,17 +26,17 @@ namespace TC57CIM.IEC61970.Base.Core {
 		/// <summary>
 		/// The connectivity node to which this terminal connects with zero impedance.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Core.ConnectivityNode ConnectivityNode;
+		public TC57CIM.IEC61970.Base.Core.ConnectivityNode? ConnectivityNode;
 		/// <summary>
 		/// The conducting equipment of the terminal.  Conducting equipment have  terminals
 		/// that may be connected to other conducting equipment terminals via connectivity
 		/// nodes or topological nodes.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Core.ConductingEquipment ConductingEquipment;
+		public TC57CIM.IEC61970.Base.Core.ConductingEquipment? ConductingEquipment;
 		/// <summary>
 		/// The controls regulating this terminal.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Wires.RegulatingControl RegulatingControl;
+		public TC57CIM.IEC61970.Base.Wires.RegulatingControl? RegulatingControl;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Terminal"/> class

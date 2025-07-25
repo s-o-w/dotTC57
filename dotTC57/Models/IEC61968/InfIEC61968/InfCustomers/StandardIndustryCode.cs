@@ -23,7 +23,7 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfCustomers {
 		/// Standard alphanumeric code assigned to a particular product/service within an
 		/// industry.
 		/// </summary>
-		public string code;
+		public string? code;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="StandardIndustryCode"/> class

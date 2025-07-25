@@ -20,7 +20,7 @@ namespace TC57CIM.IEC61970.Base.OperationalLimits {
 		/// <summary>
 		/// The terminal to be summed.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Core.Terminal Terminal;
+		public TC57CIM.IEC61970.Base.Core.Terminal? Terminal;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="BranchGroupTerminal"/> class

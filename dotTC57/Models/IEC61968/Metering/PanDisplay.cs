@@ -21,11 +21,11 @@ namespace TC57CIM.IEC61968.Metering {
 		/// <summary>
 		/// Priority associated with the text message to be displayed.
 		/// </summary>
-		public string priority;
+		public string? priority;
 		/// <summary>
 		/// Text to be displayed by a PAN device.
 		/// </summary>
-		public string textMessage;
+		public string? textMessage;
 		/// <summary>
 		/// Transmission mode to be used for this PAN display control.
 		/// </summary>

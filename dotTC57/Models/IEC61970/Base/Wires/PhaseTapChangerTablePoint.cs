@@ -17,11 +17,11 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// variation from the Terminal at the  PowerTransformerEnd,  where the TapChanger
 		/// is located, into the transformer.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.AngleDegrees angle;
+		public TC57CIM.IEC61970.Base.Domain.AngleDegrees? angle;
 		/// <summary>
 		/// The table of this point.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Wires.PhaseTapChangerTable PhaseTapChangerTable;
+		public TC57CIM.IEC61970.Base.Wires.PhaseTapChangerTable? PhaseTapChangerTable;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="PhaseTapChangerTablePoint"/> class

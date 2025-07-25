@@ -17,11 +17,11 @@ namespace TC57CIM.IEC61970.Base.Generation.Production {
 		/// High target level limit, above which the reservoir operation will be penalized.
 		///
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.WaterLevel highLevelLimit;
+		public TC57CIM.IEC61970.Base.Domain.WaterLevel? highLevelLimit;
 		/// <summary>
 		/// Low target level limit, below which the reservoir operation will be penalized.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.WaterLevel lowLevelLimit;
+		public TC57CIM.IEC61970.Base.Domain.WaterLevel? lowLevelLimit;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="TargetLevelSchedule"/> class

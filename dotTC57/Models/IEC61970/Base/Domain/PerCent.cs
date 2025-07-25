@@ -23,7 +23,7 @@ namespace TC57CIM.IEC61970.Base.Domain {
 		/// <summary>
 		/// Normally 0 to 100 on a defined base.
 		/// </summary>
-		public Float value;
+		public Float? value;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="PerCent"/> class

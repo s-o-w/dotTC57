@@ -16,7 +16,7 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// <summary>
 		/// The energycomponent
 		/// </summary>
-		public TC57CIM.IEC61970.InfIEC61970.EnergyArea.EnergyComponent m_EnergyComponent;
+		public TC57CIM.IEC61970.InfIEC61970.EnergyArea.EnergyComponent? m_EnergyComponent;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="EnergyConnection"/> class

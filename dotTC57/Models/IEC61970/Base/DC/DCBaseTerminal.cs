@@ -19,7 +19,7 @@ namespace TC57CIM.IEC61970.Base.DC {
 		/// <summary>
 		/// See association end Terminal.TopologicalNode.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.DC.DCTopologicalNode DCTopologicalNode;
+		public TC57CIM.IEC61970.Base.DC.DCTopologicalNode? DCTopologicalNode;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="DCBaseTerminal"/> class

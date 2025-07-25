@@ -23,47 +23,47 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.ExcitationSystemDynamics {
 		/// <summary>
 		/// Voltage regulator gain (<i>Ka</i>) (> 0).  Typical value = 210.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU ka;
+		public TC57CIM.IEC61970.Base.Domain.PU? ka;
 		/// <summary>
 		/// Excitation control system stabilizer gain (<i>Kf</i>) (> 0).  Typical value 0,
 		/// 01.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kf;
+		public TC57CIM.IEC61970.Base.Domain.PU? kf;
 		/// <summary>
 		/// <i>rc</i> / <i>rfd</i> (<i>R</i>) (>= 0).
 		/// 0 means exciter has negative current capability
 		/// > 0 means exciter does not have negative current capability.
 		/// Typical value = 5.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU r;
+		public TC57CIM.IEC61970.Base.Domain.PU? r;
 		/// <summary>
 		/// Voltage regulator time constant (<i>Ta</i>) (> 0).  Typical value = 0,02.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds ta;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? ta;
 		/// <summary>
 		/// Excitation control system stabilizer time constant (<i>Tf1</i>) (> 0). Typical
 		/// value = 1,0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tf1;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tf1;
 		/// <summary>
 		/// Excitation control system stabilizer time constant (<i>Tf2</i>) (> 0). Typical
 		/// value = 0,1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tf2;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tf2;
 		/// <summary>
 		/// Time constant (<i>Tr</i>) (>= 0). Typical value = 0,02.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tr;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tr;
 		/// <summary>
-		/// Maximum voltage regulator ouput (<i>Vrmax</i>) (> ExcNI.vrmin). Typical value =
+		/// Maximum voltage regulator ouput (<i>Vrmax</i>) (greater than ExcNI.vrmin). Typical value =
 		/// 5,0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vrmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? vrmax;
 		/// <summary>
-		/// Minimum voltage regulator ouput (<i>Vrmin</i>) (< ExcNI.vrmax). Typical value =
+		/// Minimum voltage regulator ouput (<i>Vrmin</i>) (less than ExcNI.vrmax). Typical value =
 		/// -2,0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vrmin;
+		public TC57CIM.IEC61970.Base.Domain.PU? vrmin;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ExcNI"/> class

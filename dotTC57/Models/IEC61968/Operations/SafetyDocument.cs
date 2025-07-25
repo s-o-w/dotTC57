@@ -17,11 +17,11 @@ namespace TC57CIM.IEC61968.Operations {
 		/// <summary>
 		/// Date and time this safety document has been issued.
 		/// </summary>
-		public System.DateTime issuedDateTime;
+		public System.DateTime? issuedDateTime;
 		/// <summary>
 		/// Date and time this safety document has been released.
 		/// </summary>
-		public System.DateTime releasedDateTime;
+		public System.DateTime? releasedDateTime;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="SafetyDocument"/> class

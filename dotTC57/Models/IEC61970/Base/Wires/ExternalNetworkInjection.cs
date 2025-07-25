@@ -18,7 +18,7 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// change in frequency and negated.  A positive value of the power frequency bias
 		/// provides additional power injection upon a drop in frequency.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePowerPerFrequency governorSCD;
+		public TC57CIM.IEC61970.Base.Domain.ActivePowerPerFrequency? governorSCD;
 		/// <summary>
 		/// Indicates whether initial symmetrical short-circuit current and power have been
 		/// calculated according to IEC (Ik").  Used only if short circuit calculations are
@@ -30,16 +30,16 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// Sk"/(SQRT(3) Un)). Used for short circuit data exchange according to IEC 60909.
 		///
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.CurrentFlow maxInitialSymShCCurrent;
+		public TC57CIM.IEC61970.Base.Domain.CurrentFlow? maxInitialSymShCCurrent;
 		/// <summary>
 		/// Maximum active power of the injection.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower maxP;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? maxP;
 		/// <summary>
 		/// Maximum reactive power limit. It is used for modelling of infeed for load flow
 		/// exchange and not for short circuit modelling.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ReactivePower maxQ;
+		public TC57CIM.IEC61970.Base.Domain.ReactivePower? maxQ;
 		/// <summary>
 		/// Maximum ratio of zero sequence resistance of Network Feeder to its zero
 		/// sequence reactance (R(0)/X(0) max). Used for short circuit data exchange
@@ -62,16 +62,16 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// Sk"/(SQRT(3) Un)). Used for short circuit data exchange according to IEC 60909.
 		///
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.CurrentFlow minInitialSymShCCurrent;
+		public TC57CIM.IEC61970.Base.Domain.CurrentFlow? minInitialSymShCCurrent;
 		/// <summary>
 		/// Minimum active power of the injection.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower minP;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? minP;
 		/// <summary>
 		/// Minimum reactive power limit. It is used for modelling of infeed for load flow
 		/// exchange and not for short circuit modelling.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ReactivePower minQ;
+		public TC57CIM.IEC61970.Base.Domain.ReactivePower? minQ;
 		/// <summary>
 		/// Indicates whether initial symmetrical short-circuit current and power have been
 		/// calculated according to IEC (Ik"). Used for short circuit data exchange
@@ -94,25 +94,25 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// flow out from a node.
 		/// Starting value for steady state solutions.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower p;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? p;
 		/// <summary>
 		/// Reactive power injection. Load sign convention is used, i.e. positive sign
 		/// means flow out from a node.
 		/// Starting value for steady state solutions.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ReactivePower q;
+		public TC57CIM.IEC61970.Base.Domain.ReactivePower? q;
 		/// <summary>
 		/// Priority of unit for use as powerflow voltage phase angle reference bus
 		/// selection. 0 = don t care (default) 1 = highest priority. 2 is less than 1 and
 		/// so on.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer referencePriority;
+		public TC57CIM.IEC61970.Base.Domain.Integer? referencePriority;
 		/// <summary>
 		/// Voltage factor in pu, which was used to calculate short-circuit current Ik" and
 		/// power Sk".  Used only if short circuit calculations are done according to
 		/// superposition method.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU voltageFactor;
+		public TC57CIM.IEC61970.Base.Domain.PU? voltageFactor;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ExternalNetworkInjection"/> class

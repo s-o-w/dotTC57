@@ -15,7 +15,7 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfERPSupport {
 		/// <summary>
 		/// The erp time entries
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfERPSupport.ErpTimeEntry ErpTimeEntries;
+		public TC57CIM.IEC61968.InfIEC61968.InfERPSupport.ErpTimeEntry? ErpTimeEntries;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ErpTimeSheet"/> class

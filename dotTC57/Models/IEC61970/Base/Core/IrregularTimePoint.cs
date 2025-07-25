@@ -14,7 +14,7 @@ namespace TC57CIM.IEC61970.Base.Core {
 		/// <summary>
 		/// The time is relative to the schedule starting time.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds time;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? time;
 		/// <summary>
 		/// The first value at the time. The meaning of the value is defined by the derived
 		/// type of the associated schedule.

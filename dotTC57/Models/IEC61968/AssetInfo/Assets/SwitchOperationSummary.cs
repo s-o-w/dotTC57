@@ -18,31 +18,31 @@ namespace TC57CIM.IEC61968.AssetInfo.Assets {
 		/// <summary>
 		/// Total breaker fault operations to date.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer lifetimeFaultOperations;
+		public TC57CIM.IEC61970.Base.Domain.Integer? lifetimeFaultOperations;
 		/// <summary>
 		/// Total motor starts to date.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer lifetimeMotorStarts;
+		public TC57CIM.IEC61970.Base.Domain.Integer? lifetimeMotorStarts;
 		/// <summary>
 		/// Total breaker operations to date (including fault and non-fault).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer lifetimeTotalOperations;
+		public TC57CIM.IEC61970.Base.Domain.Integer? lifetimeTotalOperations;
 		/// <summary>
 		/// Date of most recent breaker fault operation.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Date mostRecentFaultOperationDate;
+		public TC57CIM.IEC61970.Base.Domain.Date? mostRecentFaultOperationDate;
 		/// <summary>
 		/// Date of most recent motor start.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Date mostRecentMotorStartDate;
+		public TC57CIM.IEC61970.Base.Domain.Date? mostRecentMotorStartDate;
 		/// <summary>
 		/// Date of most recent breaker operation (fault or non-fault).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Date mostRecentOperationDate;
+		public TC57CIM.IEC61970.Base.Domain.Date? mostRecentOperationDate;
 		/// <summary>
 		/// Breaker asset to which this operation information applies.
 		/// </summary>
-		public TC57CIM.IEC61968.AssetInfo.Assets.Asset Breaker;
+		public TC57CIM.IEC61968.AssetInfo.Assets.Asset? Breaker;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="SwitchOperationSummary"/> class

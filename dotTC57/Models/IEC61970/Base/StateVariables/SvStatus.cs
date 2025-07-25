@@ -23,11 +23,11 @@ namespace TC57CIM.IEC61970.Base.StateVariables {
 		/// The individual phase status.    If the attribute is unspecified, then three
 		/// phase model is assumed.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Wires.SinglePhaseKind phase;
+		public TC57CIM.IEC61970.Base.Wires.SinglePhaseKind? phase;
 		/// <summary>
 		/// The conducting equipment associated with the status state variable.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Core.ConductingEquipment ConductingEquipment;
+		public TC57CIM.IEC61970.Base.Core.ConductingEquipment? ConductingEquipment;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="SvStatus"/> class

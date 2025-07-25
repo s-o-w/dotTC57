@@ -20,15 +20,15 @@ namespace TC57CIM.IEC61968.Operations {
 		/// <summary>
 		/// estimated time the outage will be restored
 		/// </summary>
-		public System.DateTime ert;
+		public System.DateTime? ert;
 		/// <summary>
 		/// defines the source that provided the ERT value.
 		/// </summary>
-		public string ertSource;
+		public string? ertSource;
 		/// <summary>
 		/// The outage associated with the estimated time the power will be restored.
 		/// </summary>
-		public TC57CIM.IEC61968.Operations.Outage Outage;
+		public TC57CIM.IEC61968.Operations.Outage? Outage;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="EstimatedRestorationTime"/> class

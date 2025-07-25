@@ -25,7 +25,7 @@ namespace TC57CIM.IEC61968.Common {
 		/// A profile should limit this code to a set of allowed URNs agreed to by all
 		/// sending and receiving parties.
 		/// </summary>
-		public string crsUrn;
+		public string? crsUrn;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="CoordinateSystem"/> class

@@ -15,28 +15,28 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfWork {
 		/// <summary>
 		/// Estimated total cost for perfoming CU.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Money estCost;
+		public TC57CIM.IEC61970.Base.Domain.Money? estCost;
 		/// <summary>
 		/// The quantity, unit of measure, and multiplier at the CU level that applies to
 		/// the materials.
 		/// </summary>
-		public string quantity;
+		public string? quantity;
 		/// <summary>
 		/// The generic asset model
 		/// </summary>
-		public TC57CIM.IEC61968.AssetInfo.Assets.CatalogAssetType GenericAssetModel;
+		public TC57CIM.IEC61968.AssetInfo.Assets.CatalogAssetType? GenericAssetModel;
 		/// <summary>
 		/// The cu group
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfWork.CUGroup CUGroup;
+		public TC57CIM.IEC61968.InfIEC61968.InfWork.CUGroup? CUGroup;
 		/// <summary>
 		/// The procedures
 		/// </summary>
-		public TC57CIM.IEC61968.AssetInfo.Assets.Procedure Procedures;
+		public TC57CIM.IEC61968.AssetInfo.Assets.Procedure? Procedures;
 		/// <summary>
 		/// The design location us
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfWork.DesignLocationCU DesignLocationCUs;
+		public TC57CIM.IEC61968.InfIEC61968.InfWork.DesignLocationCU? DesignLocationCUs;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="CompatibleUnit"/> class

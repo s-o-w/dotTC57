@@ -21,11 +21,11 @@ namespace TC57CIM.IEC61968.Operations {
 		/// access relationship to clamp in case the ground needs to be placed along the
 		/// line segment.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Wires.ACLineSegment AlongACLineSegment;
+		public TC57CIM.IEC61970.Base.Wires.ACLineSegment? AlongACLineSegment;
 		/// <summary>
 		/// Ground on which this action is taken.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Wires.Ground Ground;
+		public TC57CIM.IEC61970.Base.Wires.Ground? Ground;
 		/// <summary>
 		/// Equipment being grounded with this operation. In case of placing a ground
 		/// anywhere along a line segment, you must use the clamp (to get the distance from
@@ -33,7 +33,7 @@ namespace TC57CIM.IEC61968.Operations {
 		/// cases (including placing the ground at a line segment terminal), reference to
 		/// one or more conducting equipment is sufficient.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Core.ConductingEquipment GroundedEquipment;
+		public TC57CIM.IEC61970.Base.Core.ConductingEquipment? GroundedEquipment;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="GroundAction"/> class

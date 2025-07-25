@@ -16,20 +16,20 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfWork {
 		/// Type of assignement intended to be worked on this shift, for example, temporary,
 		/// standard, etc.
 		/// </summary>
-		public string assignmentType;
+		public string? assignmentType;
 		/// <summary>
 		/// Number of cycles for a temporary shift.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer cycleCount;
+		public TC57CIM.IEC61970.Base.Domain.Integer? cycleCount;
 		/// <summary>
 		/// The status
 		/// </summary>
-		public TC57CIM.IEC61968.Common.Status status;
+		public TC57CIM.IEC61968.Common.Status? status;
 		/// <summary>
 		/// Date and time interval for which this shift pattern is valid (when it became
 		/// effective and when it expires).
 		/// </summary>
-		public DateTimeInterval validityInterval;
+		public DateTimeInterval? validityInterval;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ShiftPattern"/> class

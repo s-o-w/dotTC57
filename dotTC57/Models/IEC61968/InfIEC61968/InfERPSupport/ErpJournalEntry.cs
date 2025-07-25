@@ -15,27 +15,27 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfERPSupport {
 		/// <summary>
 		/// Account identifier for this entry.
 		/// </summary>
-		public string accountID;
+		public string? accountID;
 		/// <summary>
 		/// The amount of the debit or credit for this account.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Money amount;
+		public TC57CIM.IEC61970.Base.Domain.Money? amount;
 		/// <summary>
 		/// Date and time this entry is to be posted to the ledger.
 		/// </summary>
-		public System.DateTime postingDateTime;
+		public System.DateTime? postingDateTime;
 		/// <summary>
 		/// The identifer of the source for this entry.
 		/// </summary>
-		public string sourceID;
+		public string? sourceID;
 		/// <summary>
 		/// The status
 		/// </summary>
-		public TC57CIM.IEC61968.Common.Status status;
+		public TC57CIM.IEC61968.Common.Status? status;
 		/// <summary>
 		/// Date and time journal entry was recorded.
 		/// </summary>
-		public System.DateTime transactionDateTime;
+		public System.DateTime? transactionDateTime;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ErpJournalEntry"/> class

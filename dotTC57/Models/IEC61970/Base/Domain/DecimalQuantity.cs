@@ -27,7 +27,7 @@ namespace TC57CIM.IEC61970.Base.Domain {
 		/// <summary>
 		/// Value of this quantity.
 		/// </summary>
-		public Decimal value;
+		public Decimal? value;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="DecimalQuantity"/> class

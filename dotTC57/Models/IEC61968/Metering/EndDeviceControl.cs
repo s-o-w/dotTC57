@@ -19,7 +19,7 @@ namespace TC57CIM.IEC61968.Metering {
 		/// is not defined on DemandResponseProgram as it is not its inherent property (it
 		/// serves to control it).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer drProgramLevel;
+		public TC57CIM.IEC61970.Base.Domain.Integer? drProgramLevel;
 		/// <summary>
 		/// Whether a demand response program request is mandatory. Note: Attribute is not
 		/// defined on DemandResponseProgram as it is not its inherent property (it serves
@@ -29,7 +29,7 @@ namespace TC57CIM.IEC61968.Metering {
 		/// <summary>
 		/// Unique identifier of the business entity originating an end device control.
 		/// </summary>
-		public string issuerID;
+		public string? issuerID;
 		/// <summary>
 		/// Identifier assigned by the initiator (e.g. retail electric provider) of an end
 		/// device control action to uniquely identify the demand response event, text
@@ -37,7 +37,7 @@ namespace TC57CIM.IEC61968.Metering {
 		/// event or text message request or to identify the originating event or text
 		/// message in a consequential end device event.
 		/// </summary>
-		public string issuerTrackingID;
+		public string? issuerTrackingID;
 		/// <summary>
 		/// (if applicable) Price signal used as parameter for this end device control.
 		/// </summary>
@@ -46,46 +46,46 @@ namespace TC57CIM.IEC61968.Metering {
 		/// Timing for the control actions performed on the device identified in the end
 		/// device control.
 		/// </summary>
-		public EndDeviceTiming primaryDeviceTiming;
+		public EndDeviceTiming? primaryDeviceTiming;
 		/// <summary>
 		/// Reason for the control action that allows to determine how to continue
 		/// processing. For example, disconnect meter command may require different
 		/// processing by the receiving system if it has been issued for a network-related
 		/// reason (protection) or for a payment-related reason.
 		/// </summary>
-		public string reason;
+		public string? reason;
 		/// <summary>
 		/// (if control has scheduled duration) Date and time interval the control has been
 		/// scheduled to execute within.
 		/// </summary>
-		public DateTimeInterval scheduledInterval;
+		public DateTimeInterval? scheduledInterval;
 		/// <summary>
 		/// Timing for the control actions performed by devices that are responding to
 		/// event related information sent to the primary device indicated in the end
 		/// device control.  For example, load control actions performed by a PAN device in
 		/// response to demand response event information sent to a PAN gateway server.
 		/// </summary>
-		public EndDeviceTiming secondaryDeviceTiming;
+		public EndDeviceTiming? secondaryDeviceTiming;
 		/// <summary>
 		/// End device action issued by this end device control.
 		/// </summary>
-		public TC57CIM.IEC61968.Metering.EndDeviceAction EndDeviceAction;
+		public TC57CIM.IEC61968.Metering.EndDeviceAction? EndDeviceAction;
 		/// <summary>
 		/// All end devices receiving commands from this end device control.
 		/// </summary>
-		public TC57CIM.IEC61968.Metering.EndDevice EndDevices;
+		public TC57CIM.IEC61968.Metering.EndDevice? EndDevices;
 		/// <summary>
 		/// All usage points receiving commands from this end device control.
 		/// </summary>
-		public TC57CIM.IEC61968.Metering.UsagePoint UsagePoints;
+		public TC57CIM.IEC61968.Metering.UsagePoint? UsagePoints;
 		/// <summary>
 		/// All usage point groups receiving commands from this end device control.
 		/// </summary>
-		public TC57CIM.IEC61968.Metering.UsagePointGroup UsagePointGroups;
+		public TC57CIM.IEC61968.Metering.UsagePointGroup? UsagePointGroups;
 		/// <summary>
 		/// Type of this end device control.
 		/// </summary>
-		public TC57CIM.IEC61968.Metering.EndDeviceControlType EndDeviceControlType;
+		public TC57CIM.IEC61968.Metering.EndDeviceControlType? EndDeviceControlType;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="EndDeviceControl"/> class

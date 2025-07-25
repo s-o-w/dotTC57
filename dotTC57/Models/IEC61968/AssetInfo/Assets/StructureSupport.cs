@@ -14,31 +14,28 @@ namespace TC57CIM.IEC61968.AssetInfo.Assets {
 		/// <summary>
 		/// (if anchor) Kind of anchor.
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfAssets.AnchorKind anchorKind;
+		public TC57CIM.IEC61968.InfIEC61968.InfAssets.AnchorKind? anchorKind;
 		/// <summary>
 		/// (if anchor) Number of rods used.
 		/// </summary>
-		public System.Int32 anchorRodCount;
+		public System.Int32? anchorRodCount;
 		/// <summary>
 		/// (if anchor) Length of rod used.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Length anchorRodLength;
+		public TC57CIM.IEC61970.Base.Domain.Length? anchorRodLength;
 		/// <summary>
 		/// Direction of this support structure.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.AngleDegrees direction;
-		/// <summary>
-		/// Kind of structure support.
-		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfAssets.StructureSupportKind kind;
+		public TC57CIM.IEC61970.Base.Domain.AngleDegrees? direction;
+
 		/// <summary>
 		/// Length of this support structure.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Length length;
+		public TC57CIM.IEC61970.Base.Domain.Length? length;
 		/// <summary>
 		/// Size of this support structure.
 		/// </summary>
-		public System.String size;
+		public System.String? size;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="StructureSupport"/> class

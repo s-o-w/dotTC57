@@ -18,16 +18,16 @@ namespace TC57CIM.IEC61970.Base.DC {
 		/// DC base terminals interconnected with zero impedance at a this DC connectivity
 		/// node.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.DC.DCBaseTerminal DCTerminals;
+		public TC57CIM.IEC61970.Base.DC.DCBaseTerminal? DCTerminals;
 		/// <summary>
 		/// The DC topological node to which this DC connectivity node is assigned.  May
 		/// depend on the current state of switches in the network.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.DC.DCTopologicalNode DCTopologicalNode;
+		public TC57CIM.IEC61970.Base.DC.DCTopologicalNode? DCTopologicalNode;
 		/// <summary>
 		/// The DC container for the DC nodes.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.DC.DCEquipmentContainer DCEquipmentContainer;
+		public TC57CIM.IEC61970.Base.DC.DCEquipmentContainer? DCEquipmentContainer;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="DCNode"/> class

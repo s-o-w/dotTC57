@@ -15,7 +15,7 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfWork {
 		/// A code that helps direct accounting (capital, expense, or accounting treatment).
 		///
 		/// </summary>
-		public string cuAccount;
+		public string? cuAccount;
 		/// <summary>
 		/// A code that instructs the crew what action to perform.
 		/// </summary>
@@ -23,21 +23,21 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfWork {
 		/// <summary>
 		/// The quantity of the CU being assigned to this location.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.IntegerQuantity cuQuantity;
+		public TC57CIM.IEC61970.Base.Domain.IntegerQuantity? cuQuantity;
 		/// <summary>
 		/// As the same CU can be used for different purposes and accounting purposes,
 		/// usage must be specified. Examples include: distribution, transmission,
 		/// substation.
 		/// </summary>
-		public string cuUsage;
+		public string? cuUsage;
 		/// <summary>
 		/// Year when a CU that represents an asset is removed.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Date removalDate;
+		public TC57CIM.IEC61970.Base.Domain.Date? removalDate;
 		/// <summary>
 		/// The status
 		/// </summary>
-		public TC57CIM.IEC61968.Common.Status status;
+		public TC57CIM.IEC61968.Common.Status? status;
 		/// <summary>
 		/// True if associated electrical equipment is intended to be energized while work
 		/// is being performed.
@@ -46,19 +46,19 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfWork {
 		/// <summary>
 		/// The cu groups
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfWork.CUGroup CUGroups;
+		public TC57CIM.IEC61968.InfIEC61968.InfWork.CUGroup? CUGroups;
 		/// <summary>
 		/// The designs
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfWork.Design Designs;
+		public TC57CIM.IEC61968.InfIEC61968.InfWork.Design? Designs;
 		/// <summary>
 		/// The condition factors
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfWork.ConditionFactor ConditionFactors;
+		public TC57CIM.IEC61968.InfIEC61968.InfWork.ConditionFactor? ConditionFactors;
 		/// <summary>
 		/// The work tasks
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfWork.OldWorkTask WorkTasks;
+		public TC57CIM.IEC61968.InfIEC61968.InfWork.OldWorkTask? WorkTasks;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="DesignLocationCU"/> class

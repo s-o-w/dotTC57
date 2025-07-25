@@ -19,13 +19,13 @@ namespace TC57CIM.IEC61970.Base.Topology {
 		/// <summary>
 		/// A topological node belongs to a topological island.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Topology.TopologicalNode TopologicalNodes;
+		public TC57CIM.IEC61970.Base.Topology.TopologicalNode? TopologicalNodes;
 		/// <summary>
 		/// The angle reference for the island.   Normally there is one TopologicalNode
 		/// that is selected as the angle reference for each island.   Other reference
 		/// schemes exist, so the association is typically optional.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Topology.TopologicalNode AngleRefTopologicalNode;
+		public TC57CIM.IEC61970.Base.Topology.TopologicalNode? AngleRefTopologicalNode;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="TopologicalIsland"/> class

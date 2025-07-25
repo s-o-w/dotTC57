@@ -25,12 +25,12 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.ExcitationSystemDynamics {
 		/// Exciter voltage at which exciter saturation is defined
 		/// (<i>E</i><i><sub>FD1</sub></i>) (> 0).  Typical value = 3,375.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU efd1;
+		public TC57CIM.IEC61970.Base.Domain.PU? efd1;
 		/// <summary>
 		/// Exciter voltage at which exciter saturation is defined
 		/// (<i>E</i><i><sub>FD2</sub></i>) (> 0).  Typical value = 3,15.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU efd2;
+		public TC57CIM.IEC61970.Base.Domain.PU? efd2;
 		/// <summary>
 		/// (<i>exclim</i>).  IEEE standard is ambiguous about lower limit on exciter
 		/// output.
@@ -43,12 +43,12 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.ExcitationSystemDynamics {
 		/// Exciter constant related to self-excited field (<i>K</i><i><sub>E</sub></i>).
 		/// Typical value = 0,05.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU ke;
+		public TC57CIM.IEC61970.Base.Domain.PU? ke;
 		/// <summary>
 		/// Fast raise/lower contact setting (<i>K</i><i><sub>V</sub></i>) (> 0).  Typical
 		/// value = 0,05.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kv;
+		public TC57CIM.IEC61970.Base.Domain.PU? kv;
 		/// <summary>
 		/// Exciter saturation function value at the corresponding exciter voltage,
 		/// <i>E</i><i><sub>FD1</sub></i>
@@ -67,22 +67,22 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.ExcitationSystemDynamics {
 		/// Exciter time constant, integration rate associated with exciter control
 		/// (<i>T</i><i><sub>E</sub></i>) (> 0).  Typical value = 0,5.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds te;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? te;
 		/// <summary>
 		/// Rheostat travel time (<i>T</i><i><sub>RH</sub></i>) (> 0).  Typical value = 20.
 		///
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds trh;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? trh;
 		/// <summary>
-		/// Maximum voltage regulator output (<i>V</i><i><sub>RMAX</sub></i>) (> 0).
+		/// Maximum voltage regulator output (<i>V</i><i><sub>RMAX</sub></i>) (greater than 0).
 		/// Typical value = 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vrmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? vrmax;
 		/// <summary>
-		/// Minimum voltage regulator output (<i>V</i><i><sub>RMIN</sub></i>) (<= 0).
+		/// Minimum voltage regulator output (<i>V</i><i><sub>RMIN</sub></i>) (less than or equal to 0).
 		/// Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vrmin;
+		public TC57CIM.IEC61970.Base.Domain.PU? vrmin;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ExcIEEEDC3A"/> class

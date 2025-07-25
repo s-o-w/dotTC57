@@ -18,19 +18,19 @@ namespace TC57CIM.IEC61970.Base.Core {
 		/// The controller outputs used to actually govern a regulating device, e.g. the
 		/// magnetization of a synchronous machine or capacitor bank breaker actuator.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Meas.Control Controls;
+		public TC57CIM.IEC61970.Base.Meas.Control? Controls;
 		/// <summary>
 		/// The measurements associated with this power system resource.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Meas.Measurement Measurements;
+		public TC57CIM.IEC61970.Base.Meas.Measurement? Measurements;
 		/// <summary>
 		/// Custom classification for this power system resource.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Core.PSRType PSRType;
+		public TC57CIM.IEC61970.Base.Core.PSRType? PSRType;
 		/// <summary>
 		/// All configuration events created for this Power System resource.
 		/// </summary>
-		public TC57CIM.IEC61968.Common.ConfigurationEvent ConfigurationEvent;
+		public TC57CIM.IEC61968.Common.ConfigurationEvent? ConfigurationEvent;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="PowerSystemResource"/> class

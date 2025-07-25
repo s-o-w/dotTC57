@@ -21,27 +21,27 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.ExcitationSystemDynamics {
 		/// Exciter output current limit reference (<i>I</i><i><sub>LR</sub></i><i>)</i>.
 		/// Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU ilr;
+		public TC57CIM.IEC61970.Base.Domain.PU? ilr;
 		/// <summary>
 		/// Voltage regulator gain (<i>K</i><i><sub>A</sub></i>) (> 0).  Typical value =
 		/// 190.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU ka;
+		public TC57CIM.IEC61970.Base.Domain.PU? ka;
 		/// <summary>
 		/// Rectifier loading factor proportional to commutating reactance
 		/// (<i>K</i><i><sub>C</sub></i>) (>= 0). Typical value = 0,08.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kc;
+		public TC57CIM.IEC61970.Base.Domain.PU? kc;
 		/// <summary>
 		/// Excitation control system stabilizer gains (<i>K</i><i><sub>F</sub></i>) (>= 0).
 		///  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kf;
+		public TC57CIM.IEC61970.Base.Domain.PU? kf;
 		/// <summary>
 		/// Exciter output current limiter gain (<i>K</i><i><sub>LR</sub></i>).  Typical
 		/// value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU klr;
+		public TC57CIM.IEC61970.Base.Domain.PU? klr;
 		/// <summary>
 		/// Selector of the Power System Stabilizer (PSS) input (<i>PSSin</i>).
 		/// true = PSS input (<i>Vs</i>) added to error signal
@@ -53,67 +53,67 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.ExcitationSystemDynamics {
 		/// Voltage regulator time constant (<i>T</i><i><sub>A</sub></i>) (>= 0).  Typical
 		/// value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds ta;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? ta;
 		/// <summary>
 		/// Voltage regulator time constant (<i>T</i><i><sub>B</sub></i>) (>= 0).  Typical
 		/// value = 10.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tb;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tb;
 		/// <summary>
 		/// Voltage regulator time constant (<i>T</i><i><sub>B1</sub></i>) (>= 0).  Typical
 		/// value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tb1;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tb1;
 		/// <summary>
 		/// Voltage regulator time constant (<i>T</i><i><sub>C</sub></i>) (>= 0).  Typical
 		/// value = 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tc;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tc;
 		/// <summary>
 		/// Voltage regulator time constant (<i>T</i><i><sub>C1</sub></i>) (>= 0).  Typical
 		/// value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tc1;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tc1;
 		/// <summary>
 		/// Excitation control system stabilizer time constant
 		/// (<i>T</i><i><sub>F</sub></i>) (>= 0).  Typical value = 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tf;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tf;
 		/// <summary>
 		/// Selector of the connection of the UEL input (<i>UELin</i>).  Typical value =
 		/// ignoreUELsignal.
 		/// </summary>
 		public ExcIEEEST1AUELselectorKind uelin;
 		/// <summary>
-		/// Maximum voltage regulator output (<i>V</i><i><sub>AMAX</sub></i>) (> 0).
+		/// Maximum voltage regulator output (<i>V</i><i><sub>AMAX</sub></i>) (greater than 0).
 		/// Typical value = 14,5.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vamax;
+		public TC57CIM.IEC61970.Base.Domain.PU? vamax;
 		/// <summary>
-		/// Minimum voltage regulator output (<i>V</i><i><sub>AMIN</sub></i>) (< 0).
+		/// Minimum voltage regulator output (<i>V</i><i><sub>AMIN</sub></i>) (less than 0).
 		/// Typical value = -14,5.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vamin;
+		public TC57CIM.IEC61970.Base.Domain.PU? vamin;
 		/// <summary>
-		/// Maximum voltage regulator input limit (<i>V</i><i><sub>IMAX</sub></i>) (> 0).
+		/// Maximum voltage regulator input limit (<i>V</i><i><sub>IMAX</sub></i>) (greater than 0).
 		/// Typical value = 999.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vimax;
+		public TC57CIM.IEC61970.Base.Domain.PU? vimax;
 		/// <summary>
-		/// Minimum voltage regulator input limit (<i>V</i><i><sub>IMIN</sub></i>) (< 0).
+		/// Minimum voltage regulator input limit (<i>V</i><i><sub>IMIN</sub></i>) (less than 0).
 		/// Typical value = -999.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vimin;
+		public TC57CIM.IEC61970.Base.Domain.PU? vimin;
 		/// <summary>
 		/// Maximum voltage regulator outputs (<i>V</i><i><sub>RMAX</sub></i>) (> 0).
 		/// Typical value = 7,8.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vrmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? vrmax;
 		/// <summary>
-		/// Minimum voltage regulator outputs (<i>V</i><i><sub>RMIN</sub></i>) (< 0).
+		/// Minimum voltage regulator outputs (<i>V</i><i><sub>RMIN</sub></i>) (less than 0).
 		/// Typical value = -6,7.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vrmin;
+		public TC57CIM.IEC61970.Base.Domain.PU? vrmin;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ExcIEEEST1A"/> class

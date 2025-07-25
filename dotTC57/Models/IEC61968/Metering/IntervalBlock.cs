@@ -58,21 +58,21 @@ namespace TC57CIM.IEC61968.Metering {
 		/// <summary>
 		/// Meter reading containing this interval block.
 		/// </summary>
-		public TC57CIM.IEC61968.Metering.MeterReading MeterReading;
+		public TC57CIM.IEC61968.Metering.MeterReading? MeterReading;
 		/// <summary>
 		/// Interval reading contained in this block.
 		/// </summary>
-		public TC57CIM.IEC61968.Metering.IntervalReading IntervalReadings;
+		public TC57CIM.IEC61968.Metering.IntervalReading? IntervalReadings;
 		/// <summary>
 		/// Type information for interval reading values contained in this block.
 		/// </summary>
-		public TC57CIM.IEC61968.Metering.ReadingType ReadingType;
+		public TC57CIM.IEC61968.Metering.ReadingType? ReadingType;
 		/// <summary>
 		/// Pending calculation to apply to interval reading values contained by this block
 		/// (after which the resulting reading type is different than the original because
 		/// it reflects the conversion result).
 		/// </summary>
-		public TC57CIM.IEC61968.Metering.PendingCalculation PendingCalculation;
+		public TC57CIM.IEC61968.Metering.PendingCalculation? PendingCalculation;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="IntervalBlock"/> class

@@ -26,7 +26,7 @@ namespace TC57CIM.IEC61968.PaymentMetering {
 		/// The interest per annum to be charged prorata on 'AuxiliaryAccount.dueArrears'
 		/// at the end of each 'payCycle'.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PerCent arrearsInterest;
+		public TC57CIM.IEC61970.Base.Domain.PerCent? arrearsInterest;
 		/// <summary>
 		/// The frequency for automatically recurring auxiliary charges, where
 		/// 'AuxiliaryAccount.initialCharge' is recursively added to 'AuxiliaryAccount.
@@ -34,52 +34,52 @@ namespace TC57CIM.IEC61968.PaymentMetering {
 		/// and time; hourly; daily; weekly; monthly; 3-monthly; 6-monthly; 12-monthly; etc.
 		///
 		/// </summary>
-		public string auxCycle;
+		public string? auxCycle;
 		/// <summary>
 		/// The coded priority indicating the priority that this auxiliary agreement has
 		/// above other auxiliary agreements (associated with the same customer agreement)
 		/// when it comes to competing for settlement from a payment transaction or token
 		/// purchase.
 		/// </summary>
-		public string auxPriorityCode;
+		public string? auxPriorityCode;
 		/// <summary>
 		/// The fixed amount that has to be collected from each vending transaction towards
 		/// settlement of this auxiliary agreement. Note that there may be multiple tokens
 		/// vended per vending transaction, but this is not relevant.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Money fixedAmount;
+		public TC57CIM.IEC61970.Base.Domain.Money? fixedAmount;
 		/// <summary>
 		/// The minimum amount that has to be paid at any transaction towards settling this
 		/// auxiliary agreement or reducing the balance.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Money minAmount;
+		public TC57CIM.IEC61970.Base.Domain.Money? minAmount;
 		/// <summary>
 		/// The contractually expected payment frequency (by the customer). Examples are:
 		/// ad-hoc; on specified date; hourly, daily, weekly, monthly. etc.
 		/// </summary>
-		public string payCycle;
+		public string? payCycle;
 		/// <summary>
 		/// Sub-classification of the inherited 'type' for this AuxiliaryAgreement.
 		/// </summary>
-		public string subType;
+		public string? subType;
 		/// <summary>
 		/// The percentage of the transaction amount that has to be collected from each
 		/// vending transaction towards settlement of this auxiliary agreement when
 		/// payments are not in arrears. Note that there may be multiple tokens vended per
 		/// vending transaction, but this is not relevant.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PerCent vendPortion;
+		public TC57CIM.IEC61970.Base.Domain.PerCent? vendPortion;
 		/// <summary>
 		/// The percentage of the transaction amount that has to be collected from each
 		/// vending transaction towards settlement of this auxiliary agreement when
 		/// payments are in arrears. Note that there may be multiple tokens vended per
 		/// vending transaction, but this is not relevant.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PerCent vendPortionArrear;
+		public TC57CIM.IEC61970.Base.Domain.PerCent? vendPortionArrear;
 		/// <summary>
 		/// All auxiliary accounts regulated by this agreement.
 		/// </summary>
-		public TC57CIM.IEC61968.PaymentMetering.AuxiliaryAccount AuxiliaryAccounts;
+		public TC57CIM.IEC61968.PaymentMetering.AuxiliaryAccount? AuxiliaryAccounts;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="AuxiliaryAgreement"/> class

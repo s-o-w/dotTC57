@@ -20,16 +20,16 @@ namespace TC57CIM.IEC61968.Common {
 		/// <summary>
 		/// The date and time at which the dispatch status occurred.
 		/// </summary>
-		public System.DateTime occurredDateTime;
+		public System.DateTime? occurredDateTime;
 		/// <summary>
 		/// freeform comments related to the dispatch to perform field work.
 		/// </summary>
-		public string remarks;
+		public string? remarks;
 		/// <summary>
 		/// The sequence number of the field dispatch step within the field dispatch
 		/// history.  Begins with 1 and increments up.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer sequenceNumber;
+		public TC57CIM.IEC61970.Base.Domain.Integer? sequenceNumber;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="FieldDispatchStep"/> class

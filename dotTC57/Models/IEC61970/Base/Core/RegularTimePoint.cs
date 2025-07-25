@@ -20,7 +20,7 @@ namespace TC57CIM.IEC61970.Base.Core {
 		/// adding the associated schedules start time. To specify values for the start
 		/// time, use sequence number 0.  The sequence number cannot be negative.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer sequenceNumber;
+		public TC57CIM.IEC61970.Base.Domain.Integer? sequenceNumber;
 		/// <summary>
 		/// The first value at the time. The meaning of the value is defined by the derived
 		/// type of the associated schedule.

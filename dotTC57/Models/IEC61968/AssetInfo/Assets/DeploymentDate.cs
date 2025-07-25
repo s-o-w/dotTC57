@@ -17,23 +17,23 @@ namespace TC57CIM.IEC61968.AssetInfo.Assets {
 		/// <summary>
 		/// Date and time asset most recently put in service.
 		/// </summary>
-		public System.DateTime inServiceDate;
+		public System.DateTime? inServiceDate;
 		/// <summary>
 		/// Date and time asset most recently installed.
 		/// </summary>
-		public System.DateTime installedDate;
+		public System.DateTime? installedDate;
 		/// <summary>
 		/// Date and time of asset deployment transition to not yet installed.
 		/// </summary>
-		public System.DateTime notYetInstalledDate;
+		public System.DateTime? notYetInstalledDate;
 		/// <summary>
 		/// Date and time asset most recently taken out of service.
 		/// </summary>
-		public System.DateTime outOfServiceDate;
+		public System.DateTime? outOfServiceDate;
 		/// <summary>
 		/// Date and time asset most recently removed.
 		/// </summary>
-		public System.DateTime removedDate;
+		public System.DateTime? removedDate;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="DeploymentDate"/> class

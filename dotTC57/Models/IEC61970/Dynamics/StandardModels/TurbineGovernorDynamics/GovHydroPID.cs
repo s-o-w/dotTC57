@@ -16,48 +16,48 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.TurbineGovernorDynamics {
 		/// Turbine numerator multiplier (<i>Aturb</i>) (see parameter detail 3).  Typical
 		/// value -1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU aturb;
+		public TC57CIM.IEC61970.Base.Domain.PU? aturb;
 		/// <summary>
 		/// Turbine denominator multiplier (<i>Bturb</i>) (see parameter detail 3).
 		/// Typical value = 0,5.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU bturb;
+		public TC57CIM.IEC61970.Base.Domain.PU? bturb;
 		/// <summary>
 		/// Intentional dead-band width (<i>db1</i>).  Unit = Hz.  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Frequency db1;
+		public TC57CIM.IEC61970.Base.Domain.Frequency? db1;
 		/// <summary>
 		/// Unintentional dead-band (<i>db2</i>).  Unit = MW.  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower db2;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? db2;
 		/// <summary>
 		/// Intentional db hysteresis (<i>eps</i>).  Unit = Hz.  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Frequency eps;
+		public TC57CIM.IEC61970.Base.Domain.Frequency? eps;
 		/// <summary>
 		/// Nonlinear gain point 1, PU gv (<i>Gv1</i>).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU gv1;
+		public TC57CIM.IEC61970.Base.Domain.PU? gv1;
 		/// <summary>
 		/// Nonlinear gain point 2, PU gv (<i>Gv2</i>).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU gv2;
+		public TC57CIM.IEC61970.Base.Domain.PU? gv2;
 		/// <summary>
 		/// Nonlinear gain point 3, PU gv (<i>Gv3</i>).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU gv3;
+		public TC57CIM.IEC61970.Base.Domain.PU? gv3;
 		/// <summary>
 		/// Nonlinear gain point 4, PU gv (<i>Gv4</i>).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU gv4;
+		public TC57CIM.IEC61970.Base.Domain.PU? gv4;
 		/// <summary>
 		/// Nonlinear gain point 5, PU gv (<i>Gv5</i>).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU gv5;
+		public TC57CIM.IEC61970.Base.Domain.PU? gv5;
 		/// <summary>
 		/// Nonlinear gain point 6, PU gv (<i>Gv6</i>).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU gv6;
+		public TC57CIM.IEC61970.Base.Domain.PU? gv6;
 		/// <summary>
 		/// Input signal switch (<i>Flag</i>).
 		/// true = <i>Pe</i> input is used
@@ -71,85 +71,85 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.TurbineGovernorDynamics {
 		/// <summary>
 		/// Derivative gain (<i>Kd</i>).  Typical value = 1,11.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kd;
+		public TC57CIM.IEC61970.Base.Domain.PU? kd;
 		/// <summary>
 		/// Gate servo gain (<i>Kg</i>).  Typical value = 2,5.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kg;
+		public TC57CIM.IEC61970.Base.Domain.PU? kg;
 		/// <summary>
 		/// Integral gain (<i>Ki</i>).  Typical value = 0,36.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU ki;
+		public TC57CIM.IEC61970.Base.Domain.PU? ki;
 		/// <summary>
 		/// Proportional gain (<i>Kp</i>).  Typical value = 0,1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kp;
+		public TC57CIM.IEC61970.Base.Domain.PU? kp;
 		/// <summary>
 		/// Base for power values (<i>MWbase</i>) (> 0).  Unit = MW.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower mwbase;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? mwbase;
 		/// <summary>
 		/// Nonlinear gain point 1, PU power (<i>Pgv1</i>).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU pgv1;
+		public TC57CIM.IEC61970.Base.Domain.PU? pgv1;
 		/// <summary>
 		/// Nonlinear gain point 2, PU power (<i>Pgv2</i>).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU pgv2;
+		public TC57CIM.IEC61970.Base.Domain.PU? pgv2;
 		/// <summary>
 		/// Nonlinear gain point 3, PU power (<i>Pgv3</i>).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU pgv3;
+		public TC57CIM.IEC61970.Base.Domain.PU? pgv3;
 		/// <summary>
 		/// Nonlinear gain point 4, PU power (<i>Pgv4</i>).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU pgv4;
+		public TC57CIM.IEC61970.Base.Domain.PU? pgv4;
 		/// <summary>
 		/// Nonlinear gain point 5, PU power (<i>Pgv5</i>).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU pgv5;
+		public TC57CIM.IEC61970.Base.Domain.PU? pgv5;
 		/// <summary>
 		/// Nonlinear gain point 6, PU power (<i>Pgv6</i>).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU pgv6;
+		public TC57CIM.IEC61970.Base.Domain.PU? pgv6;
 		/// <summary>
 		/// Maximum gate opening, PU of MWbase (<i>Pmax</i>) (> GovHydroPID.pmin).  Typical
 		/// value = 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU pmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? pmax;
 		/// <summary>
-		/// Minimum gate opening, PU of MWbase (<i>Pmin</i>) (< GovHydroPID.pmax).  Typical
+		/// Minimum gate opening, PU of MWbase (<i>Pmin</i>) (&lt; GovHydroPID.pmax).  Typical
 		/// value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU pmin;
+		public TC57CIM.IEC61970.Base.Domain.PU? pmin;
 		/// <summary>
 		/// Steady state droop (<i>R</i>).  Typical value = 0,05.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU r;
+		public TC57CIM.IEC61970.Base.Domain.PU? r;
 		/// <summary>
 		/// Input filter time constant (<i>Td</i>) (>= 0).  If = 0, block is bypassed.
 		/// Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds td;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? td;
 		/// <summary>
 		/// Washout time constant (<i>Tf</i>) (>= 0).  Typical value = 0,1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tf;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tf;
 		/// <summary>
 		/// Gate servo time constant (<i>Tp</i>) (>= 0).  If = 0, block is bypassed.
 		/// Typical value = 0,35.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tp;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tp;
 		/// <summary>
 		/// Power feedback time constant (<i>Tt</i>) (>= 0).  If = 0, block is bypassed.
 		/// Typical value = 0,02.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tt;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tt;
 		/// <summary>
 		/// Turbine time constant (<i>Tturb</i>) (>= 0). See Parameter detail 3.  Typical
 		/// value = 0,8.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tturb;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tturb;
 		/// <summary>
 		/// Maximum gate closing velocity (<i>Velcl</i>).  Unit = PU / s.  Typical value = -
 		/// 0,14.

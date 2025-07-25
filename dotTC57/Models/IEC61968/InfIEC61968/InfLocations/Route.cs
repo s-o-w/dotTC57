@@ -15,15 +15,15 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfLocations {
 		/// <summary>
 		/// The status
 		/// </summary>
-		public TC57CIM.IEC61968.Common.Status status;
+		public TC57CIM.IEC61968.Common.Status? status;
 		/// <summary>
 		/// Classification by utility's work management standards and practices.
 		/// </summary>
-		public string type;
+		public string? type;
 		/// <summary>
 		/// The locations
 		/// </summary>
-		public TC57CIM.IEC61968.Common.Location Locations;
+		public TC57CIM.IEC61968.Common.Location? Locations;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Route"/> class

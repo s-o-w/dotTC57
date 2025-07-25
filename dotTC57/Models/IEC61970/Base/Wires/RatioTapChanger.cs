@@ -23,7 +23,7 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// When the increment is negative, the voltage decreases when the tap step
 		/// increases.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PerCent stepVoltageIncrement;
+		public TC57CIM.IEC61970.Base.Domain.PerCent? stepVoltageIncrement;
 		/// <summary>
 		/// Specifies the regulation control mode (voltage or reactive) of the
 		/// RatioTapChanger.
@@ -32,7 +32,7 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// <summary>
 		/// The tap ratio table for this ratio  tap changer.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Wires.RatioTapChangerTable RatioTapChangerTable;
+		public TC57CIM.IEC61970.Base.Wires.RatioTapChangerTable? RatioTapChangerTable;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="RatioTapChanger"/> class

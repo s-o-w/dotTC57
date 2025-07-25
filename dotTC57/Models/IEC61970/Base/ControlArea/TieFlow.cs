@@ -25,11 +25,11 @@ namespace TC57CIM.IEC61970.Base.ControlArea {
 		/// <summary>
 		/// The primary and alternate tie flow measurements associated with the tie flow.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.ControlArea.AltTieMeas AltTieMeas;
+		public TC57CIM.IEC61970.Base.ControlArea.AltTieMeas? AltTieMeas;
 		/// <summary>
 		/// The terminal to which this tie flow belongs.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Core.Terminal Terminal;
+		public TC57CIM.IEC61970.Base.Core.Terminal? Terminal;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="TieFlow"/> class

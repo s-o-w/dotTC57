@@ -15,23 +15,23 @@ namespace TC57CIM.IEC61970.Base.Core {
 		/// The time for the first time point.  The value can be a time of day, not a
 		/// specific date.
 		/// </summary>
-		public System.DateTime startTime;
+		public System.DateTime? startTime;
 		/// <summary>
 		/// Multiplier for value1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.UnitMultiplier value1Multiplier;
+		public TC57CIM.IEC61970.Base.Domain.UnitMultiplier? value1Multiplier;
 		/// <summary>
 		/// Value1 units of measure.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.UnitSymbol value1Unit;
+		public TC57CIM.IEC61970.Base.Domain.UnitSymbol? value1Unit;
 		/// <summary>
 		/// Multiplier for value2.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.UnitMultiplier value2Multiplier;
+		public TC57CIM.IEC61970.Base.Domain.UnitMultiplier? value2Multiplier;
 		/// <summary>
 		/// Value2 units of measure.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.UnitSymbol value2Unit;
+		public TC57CIM.IEC61970.Base.Domain.UnitSymbol? value2Unit;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="BasicIntervalSchedule"/> class

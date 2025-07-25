@@ -20,11 +20,11 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.TurbineGovernorDynamics {
 		/// Exhaust temperature parameter (<i>Af1</i>).  Unit = PU temperature.  Based on
 		/// temperature in degrees C.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU af1;
+		public TC57CIM.IEC61970.Base.Domain.PU? af1;
 		/// <summary>
 		/// Coefficient equal to 0,5(1-speed) (<i>Af2</i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU af2;
+		public TC57CIM.IEC61970.Base.Domain.PU? af2;
 		/// <summary>
 		/// Valve positioner (<i>B</i>).
 		/// </summary>
@@ -34,12 +34,12 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.TurbineGovernorDynamics {
 		/// sensitivity coefficient) is 0,55 to 0,65 x <i>Tr</i>.  Unit = PU temperature.
 		/// Based on temperature in degrees C.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU bf1;
+		public TC57CIM.IEC61970.Base.Domain.PU? bf1;
 		/// <summary>
 		/// Turbine torque coefficient K<sub>hhv</sub> (depends on heating value of fuel
 		/// stream in combustion chamber) (<i>Bf2</i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU bf2;
+		public TC57CIM.IEC61970.Base.Domain.PU? bf2;
 		/// <summary>
 		/// Valve positioner (<i>C</i>).
 		/// </summary>
@@ -48,107 +48,107 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.TurbineGovernorDynamics {
 		/// Coefficient defining fuel flow where power output is 0% (<i>Cf2</i>).
 		/// Synchronous but no output.  Typically 0,23 x K<sub>hhv</sub> (23% fuel flow).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU cf2;
+		public TC57CIM.IEC61970.Base.Domain.PU? cf2;
 		/// <summary>
 		/// Combustion reaction time delay (<i>Ecr</i>) (>= 0).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds ecr;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? ecr;
 		/// <summary>
 		/// Turbine and exhaust delay (<i>Etd</i>) (>= 0).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds etd;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? etd;
 		/// <summary>
 		/// Ratio of fuel adjustment (<i>K3</i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU k3;
+		public TC57CIM.IEC61970.Base.Domain.PU? k3;
 		/// <summary>
 		/// Gain of radiation shield (<i>K4</i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU k4;
+		public TC57CIM.IEC61970.Base.Domain.PU? k4;
 		/// <summary>
 		/// Gain of radiation shield (<i>K5</i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU k5;
+		public TC57CIM.IEC61970.Base.Domain.PU? k5;
 		/// <summary>
 		/// Minimum fuel flow (<i>K6</i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU k6;
+		public TC57CIM.IEC61970.Base.Domain.PU? k6;
 		/// <summary>
 		/// Fuel system feedback (<i>Kf</i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kf;
+		public TC57CIM.IEC61970.Base.Domain.PU? kf;
 		/// <summary>
 		/// Base for power values (<i>MWbase</i>) (> 0).  Unit = MW.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower mwbase;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? mwbase;
 		/// <summary>
 		/// Fuel control time constant (<i>T</i>) (>= 0).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t;
 		/// <summary>
 		/// Radiation shield time constant (<i>T3</i>) (>= 0).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t3;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t3;
 		/// <summary>
 		/// Thermocouple time constant (<i>T4</i>) (>= 0).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t4;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t4;
 		/// <summary>
 		/// Temperature control time constant (<i>T5</i>) (>= 0).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t5;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t5;
 		/// <summary>
 		/// Temperature control (<i>Tc</i>).  Unit = �F or �C depending on parameters
 		/// <i>Af1</i> and <i>Bf1</i>.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Temperature tc;
+		public TC57CIM.IEC61970.Base.Domain.Temperature? tc;
 		/// <summary>
 		/// Compressor discharge time constant (<i>Tcd</i>) (>= 0).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tcd;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tcd;
 		/// <summary>
 		/// Fuel system time constant (<i>Tf</i>) (>= 0).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tf;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tf;
 		/// <summary>
-		/// Maximum turbine limit (<i>Tmax</i>) (> GovGAST2.tmin).
+		/// Maximum turbine limit (<i>Tmax</i>) (greater than tmin).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU tmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? tmax;
 		/// <summary>
-		/// Minimum turbine limit (<i>Tmin</i>) (< GovGAST2.tmax).
+		/// Minimum turbine limit (<i>Tmin</i>) (less than tmax).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU tmin;
+		public TC57CIM.IEC61970.Base.Domain.PU? tmin;
 		/// <summary>
 		/// Rated temperature (<i>Tr</i>).  Unit = �C depending on parameters<i> Af1
 		/// </i>and <i>Bf1</i>.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Temperature tr;
+		public TC57CIM.IEC61970.Base.Domain.Temperature? tr;
 		/// <summary>
 		/// Turbine rating (<i>Trate</i>).  Unit = MW.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower trate;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? trate;
 		/// <summary>
 		/// Temperature controller integration rate (<i>Tt</i>) (>= 0).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tt;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tt;
 		/// <summary>
 		/// Governor gain (1/droop) on turbine rating (<i>W</i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU w;
+		public TC57CIM.IEC61970.Base.Domain.PU? w;
 		/// <summary>
 		/// Governor lead time constant (<i>X</i>) (>= 0).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds x;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? x;
 		/// <summary>
 		/// Governor lag time constant (<i>Y</i>) (> 0).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds y;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? y;
 		/// <summary>
 		/// Governor mode (<i>Z</i>).
 		/// 1 = droop
 		/// 0 = isochronous.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer z;
+		public TC57CIM.IEC61970.Base.Domain.Integer? z;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="GovGAST2"/> class

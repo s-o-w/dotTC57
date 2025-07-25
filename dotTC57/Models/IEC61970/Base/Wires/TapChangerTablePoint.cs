@@ -20,7 +20,7 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// associated power transformer end or ends.  This model assumes the star
 		/// impedance (pi model) form.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PerCent b;
+		public TC57CIM.IEC61970.Base.Domain.PerCent? b;
 		/// <summary>
 		/// The magnetizing branch conductance deviation as a percentage of nominal value.
 		/// The actual conductance is calculated as follows:
@@ -29,7 +29,7 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// associated power transformer end or ends.  This model assumes the star
 		/// impedance (pi model) form.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PerCent g;
+		public TC57CIM.IEC61970.Base.Domain.PerCent? g;
 		/// <summary>
 		/// The resistance deviation as a percentage of nominal value. The actual reactance
 		/// is calculated as follows:
@@ -38,7 +38,7 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// transformer end or ends.  This model assumes the star impedance (pi model) form.
 		///
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PerCent r;
+		public TC57CIM.IEC61970.Base.Domain.PerCent? r;
 		/// <summary>
 		/// The voltage at the tap step divided by rated voltage of the transformer end
 		/// having the tap changer. Hence this is a value close to one.
@@ -50,7 +50,7 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// <summary>
 		/// The tap step.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer step;
+		public TC57CIM.IEC61970.Base.Domain.Integer? step;
 		/// <summary>
 		/// The series reactance deviation as a percentage of nominal value. The actual
 		/// reactance is calculated as follows:
@@ -59,7 +59,7 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// transformer end or ends.  This model assumes the star impedance (pi model) form.
 		///
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PerCent x;
+		public TC57CIM.IEC61970.Base.Domain.PerCent? x;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="TapChangerTablePoint"/> class

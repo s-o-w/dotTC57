@@ -23,7 +23,7 @@ namespace TC57CIM.IEC61968.AssetInfo.Assets {
 		/// bushings and those relationships may be any combination of the FixedContact and
 		/// MovingContact associations.
 		/// </summary>
-		public TC57CIM.IEC61968.AssetInfo.Assets.Bushing Bushing;
+		public TC57CIM.IEC61968.AssetInfo.Assets.Bushing? Bushing;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="InterrupterUnit"/> class

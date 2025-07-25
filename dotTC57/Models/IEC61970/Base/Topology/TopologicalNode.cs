@@ -24,31 +24,31 @@ namespace TC57CIM.IEC61970.Base.Topology {
 		/// TopologicalNode (bus).
 		/// Starting value for a steady state solution.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower pInjection;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? pInjection;
 		/// <summary>
 		/// The reactive power injected into the bus at this location in addition to
 		/// injections from equipment. Positive sign means injection into the
 		/// TopologicalNode (bus).
 		/// Starting value for a steady state solution.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ReactivePower qInjection;
+		public TC57CIM.IEC61970.Base.Domain.ReactivePower? qInjection;
 		/// <summary>
 		/// The reporting group to which the topological node belongs.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Core.ReportingGroup ReportingGroup;
+		public TC57CIM.IEC61970.Base.Core.ReportingGroup? ReportingGroup;
 		/// <summary>
 		/// The connectivity node container to which the topological node belongs.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Core.ConnectivityNodeContainer ConnectivityNodeContainer;
+		public TC57CIM.IEC61970.Base.Core.ConnectivityNodeContainer? ConnectivityNodeContainer;
 		/// <summary>
 		/// The connectivity nodes combine together to form this topological node.  May
 		/// depend on the current state of switches in the network.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Core.ConnectivityNode ConnectivityNodes;
+		public TC57CIM.IEC61970.Base.Core.ConnectivityNode? ConnectivityNodes;
 		/// <summary>
 		/// The base voltage of the topological node.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Core.BaseVoltage BaseVoltage;
+		public TC57CIM.IEC61970.Base.Core.BaseVoltage? BaseVoltage;
 		/// <summary>
 		/// The terminals associated with the topological node.   This can be used as an
 		/// alternative to the connectivity node path to terminal, thus making it
@@ -56,7 +56,7 @@ namespace TC57CIM.IEC61970.Base.Topology {
 		/// connectivity nodes are in the model, this association would probably not be
 		/// used as an input specification.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Core.Terminal Terminal;
+		public TC57CIM.IEC61970.Base.Core.Terminal? Terminal;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="TopologicalNode"/> class

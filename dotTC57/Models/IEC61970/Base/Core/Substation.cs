@@ -16,19 +16,19 @@ namespace TC57CIM.IEC61970.Base.Core {
 		/// <summary>
 		/// The voltage levels within this substation.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Core.VoltageLevel VoltageLevels;
+		public TC57CIM.IEC61970.Base.Core.VoltageLevel? VoltageLevels;
 		/// <summary>
 		/// Bays contained in the substation.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Core.Bay Bays;
+		public TC57CIM.IEC61970.Base.Core.Bay? Bays;
 		/// <summary>
 		/// The DC converter unit belonging of the substation.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.DC.DCConverterUnit DCConverterUnit;
+		public TC57CIM.IEC61970.Base.DC.DCConverterUnit? DCConverterUnit;
 		/// <summary>
 		/// The normal energized feeders of the substation. Also used for naming purposes.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Core.Feeder NormalEnergizedFeeder;
+		public TC57CIM.IEC61970.Base.Core.Feeder? NormalEnergizedFeeder;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Substation"/> class

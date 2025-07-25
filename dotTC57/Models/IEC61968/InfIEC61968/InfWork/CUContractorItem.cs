@@ -14,20 +14,20 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfWork {
 		/// <summary>
 		/// Activity code identifies a specific and distinguishable unit of work.
 		/// </summary>
-		public string activityCode;
+		public string? activityCode;
 		/// <summary>
 		/// The amount that a given contractor will charge for performing this unit of work.
 		///
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Money bidAmount;
+		public TC57CIM.IEC61970.Base.Domain.Money? bidAmount;
 		/// <summary>
 		/// The status
 		/// </summary>
-		public TC57CIM.IEC61968.Common.Status status;
+		public TC57CIM.IEC61968.Common.Status? status;
 		/// <summary>
 		/// The compatible units
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfWork.CompatibleUnit CompatibleUnits;
+		public TC57CIM.IEC61968.InfIEC61968.InfWork.CompatibleUnit? CompatibleUnits;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="CUContractorItem"/> class

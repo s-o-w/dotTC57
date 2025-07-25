@@ -20,7 +20,7 @@ namespace TC57CIM.IEC61970.Base.DC {
 		/// <summary>
 		/// The DC topological nodes in a DC topological island.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.DC.DCTopologicalNode DCTopologicalNodes;
+		public TC57CIM.IEC61970.Base.DC.DCTopologicalNode? DCTopologicalNodes;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="DCTopologicalIsland"/> class

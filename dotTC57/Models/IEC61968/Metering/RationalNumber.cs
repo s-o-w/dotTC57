@@ -15,11 +15,11 @@ namespace TC57CIM.IEC61968.Metering {
 		/// <summary>
 		/// Denominator. Value 1 indicates the number is a simple integer.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer denominator;
+		public TC57CIM.IEC61970.Base.Domain.Integer? denominator;
 		/// <summary>
 		/// Numerator.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer numerator;
+		public TC57CIM.IEC61970.Base.Domain.Integer? numerator;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="RationalNumber"/> class

@@ -14,31 +14,31 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfWork {
 		/// <summary>
 		/// Activity code identifies a specific and distinguishable unit of work.
 		/// </summary>
-		public string activityCode;
+		public string? activityCode;
 		/// <summary>
 		/// Estimated time to perform work.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Hours laborDuration;
+		public TC57CIM.IEC61970.Base.Domain.Hours? laborDuration;
 		/// <summary>
 		/// The labor rate applied for work.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.CostRate laborRate;
+		public TC57CIM.IEC61970.Base.Domain.CostRate? laborRate;
 		/// <summary>
 		/// The status
 		/// </summary>
-		public TC57CIM.IEC61968.Common.Status status;
+		public TC57CIM.IEC61968.Common.Status? status;
 		/// <summary>
 		/// The compatible units
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfWork.CompatibleUnit CompatibleUnits;
+		public TC57CIM.IEC61968.InfIEC61968.InfWork.CompatibleUnit? CompatibleUnits;
 		/// <summary>
 		/// The qualification requirements
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfWork.QualificationRequirement QualificationRequirements;
+		public TC57CIM.IEC61968.InfIEC61968.InfWork.QualificationRequirement? QualificationRequirements;
 		/// <summary>
 		/// The cu labor code
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfWork.CULaborCode CULaborCode;
+		public TC57CIM.IEC61968.InfIEC61968.InfWork.CULaborCode? CULaborCode;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="CULaborItem"/> class

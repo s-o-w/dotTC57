@@ -15,11 +15,11 @@ namespace TC57CIM.IEC61970.Base.DC {
 		/// <summary>
 		/// Inductance to ground.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Inductance inductance;
+		public TC57CIM.IEC61970.Base.Domain.Inductance? inductance;
 		/// <summary>
 		/// Resistance to ground.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Resistance r;
+		public TC57CIM.IEC61970.Base.Domain.Resistance? r;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="DCGround"/> class

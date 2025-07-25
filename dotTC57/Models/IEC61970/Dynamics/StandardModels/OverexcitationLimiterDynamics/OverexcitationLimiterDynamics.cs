@@ -18,7 +18,7 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.OverexcitationLimiterDynamics
 		/// Excitation system model with which this overexcitation limiter model is
 		/// associated.
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.StandardModels.ExcitationSystemDynamics.ExcitationSystemDynamics ExcitationSystemDynamics;
+		public TC57CIM.IEC61970.Dynamics.StandardModels.ExcitationSystemDynamics.ExcitationSystemDynamics? ExcitationSystemDynamics;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="OverexcitationLimiterDynamics"/> class

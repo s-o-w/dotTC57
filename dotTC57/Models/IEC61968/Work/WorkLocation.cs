@@ -15,7 +15,7 @@ namespace TC57CIM.IEC61968.Work {
 		/// <summary>
 		/// The one call request
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfWork.OneCallRequest OneCallRequest;
+		public TC57CIM.IEC61968.InfIEC61968.InfWork.OneCallRequest? OneCallRequest;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="WorkLocation"/> class

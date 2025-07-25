@@ -18,7 +18,7 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfERPSupport {
 		/// <summary>
 		/// Payment terms (e.g., net 30).
 		/// </summary>
-		public string termsPayment;
+		public string? termsPayment;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ErpPayment"/> class

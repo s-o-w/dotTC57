@@ -16,81 +16,81 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.ExcitationSystemDynamics {
 		/// <summary>
 		/// Saturation parameter (<i>E</i><i><sub>1</sub></i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU e1;
+		public TC57CIM.IEC61970.Base.Domain.PU? e1;
 		/// <summary>
 		/// Saturation parameter (<i>E</i><i><sub>2</sub></i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU e2;
+		public TC57CIM.IEC61970.Base.Domain.PU? e2;
 		/// <summary>
 		/// Gain (<i>K</i><i><sub>A</sub></i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU ka;
+		public TC57CIM.IEC61970.Base.Domain.PU? ka;
 		/// <summary>
 		/// Gain (<i>K</i><i><sub>C</sub></i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kc;
+		public TC57CIM.IEC61970.Base.Domain.PU? kc;
 		/// <summary>
 		/// Gain (<i>K</i><i><sub>D</sub></i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kd;
+		public TC57CIM.IEC61970.Base.Domain.PU? kd;
 		/// <summary>
 		/// Gain (<i>K</i><i><sub>E</sub></i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU ke;
+		public TC57CIM.IEC61970.Base.Domain.PU? ke;
 		/// <summary>
 		/// Gain (<i>K</i><i><sub>F</sub></i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kf;
+		public TC57CIM.IEC61970.Base.Domain.PU? kf;
 		/// <summary>
 		/// Saturation parameter
 		/// (<i>S</i><i><sub>E</sub></i><i>[E</i><i><sub>1</sub></i><i>]</i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU see1;
+		public TC57CIM.IEC61970.Base.Domain.PU? see1;
 		/// <summary>
 		/// Saturation parameter
 		/// (<i>S</i><i><sub>E</sub></i><i>[E</i><i><sub>2</sub></i><i>]</i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU see2;
+		public TC57CIM.IEC61970.Base.Domain.PU? see2;
 		/// <summary>
 		/// Time constant (<i>T</i><i><sub>1</sub></i>) (>= 0).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t1;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t1;
 		/// <summary>
 		/// Time constant (<i>T</i><i><sub>2</sub></i>) (>= 0).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t2;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t2;
 		/// <summary>
 		/// Time constant (<i>T</i><i><sub>3</sub></i>) (>= 0).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t3;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t3;
 		/// <summary>
 		/// Time constant (<i>T</i><i><sub>4</sub></i>) (>= 0).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t4;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t4;
 		/// <summary>
 		/// Time constant (<i>T</i><i><sub>5</sub></i>) (>= 0).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t5;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t5;
 		/// <summary>
 		/// Time constant (<i>T</i><i><sub>6</sub></i>) (>= 0).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t6;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t6;
 		/// <summary>
 		/// Time constant (<i>T</i><i><sub>E</sub></i>) (>= 0).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds te;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? te;
 		/// <summary>
 		/// Time constant (<i>T</i><i><sub>F</sub></i>) (>= 0).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tf;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tf;
 		/// <summary>
-		/// Limiter (<i>V</i><i><sub>RMAX</sub></i>) (> ExcOEX3T.vrmin).
+		/// Limiter (<i>V</i><i><sub>RMAX</sub></i>) (greater than vrmin).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vrmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? vrmax;
 		/// <summary>
-		/// Limiter (<i>V</i><i><sub>RMIN</sub></i>) (< ExcOEX3T.vrmax).
+		/// Limiter (<i>V</i><i><sub>RMIN</sub></i>) (less than vrmax).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vrmin;
+		public TC57CIM.IEC61970.Base.Domain.PU? vrmin;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ExcOEX3T"/> class

@@ -14,19 +14,19 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfWork {
 		/// <summary>
 		/// Overhead code.
 		/// </summary>
-		public string code;
+		public string? code;
 		/// <summary>
 		/// The overhead cost to be applied.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Money cost;
+		public TC57CIM.IEC61970.Base.Domain.Money? cost;
 		/// <summary>
 		/// The status
 		/// </summary>
-		public TC57CIM.IEC61968.Common.Status status;
+		public TC57CIM.IEC61968.Common.Status? status;
 		/// <summary>
 		/// The work cost details
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfWork.WorkCostDetail WorkCostDetails;
+		public TC57CIM.IEC61968.InfIEC61968.InfWork.WorkCostDetail? WorkCostDetails;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="OverheadCost"/> class

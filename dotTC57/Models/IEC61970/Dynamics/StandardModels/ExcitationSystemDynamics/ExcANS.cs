@@ -19,16 +19,16 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.ExcitationSystemDynamics {
 		/// 1 = proportional integral regulator.
 		/// Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer blint;
+		public TC57CIM.IEC61970.Base.Domain.Integer? blint;
 		/// <summary>
 		/// Minimum exciter current (<i>I</i><i><sub>FMN</sub></i>).  Typical value = -5,2.
 		///
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU ifmn;
+		public TC57CIM.IEC61970.Base.Domain.PU? ifmn;
 		/// <summary>
 		/// Maximum exciter current (<i>I</i><i><sub>FMX</sub></i>).  Typical value = 6,5.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU ifmx;
+		public TC57CIM.IEC61970.Base.Domain.PU? ifmx;
 		/// <summary>
 		/// Exciter gain (<i>K</i><i><sub>2</sub></i>).  Typical value = 20.
 		/// </summary>
@@ -47,39 +47,39 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.ExcitationSystemDynamics {
 		/// 1 = closed loop control.
 		/// Typical value = 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer krvecc;
+		public TC57CIM.IEC61970.Base.Domain.Integer? krvecc;
 		/// <summary>
 		/// Rate feedback signal flag (<i>K</i><i><sub>VFIF</sub></i>).
 		/// 0 = output voltage of the exciter
 		/// 1 = exciter field current.
 		/// Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer kvfif;
+		public TC57CIM.IEC61970.Base.Domain.Integer? kvfif;
 		/// <summary>
 		/// Time constant (<i>T</i><i><sub>1</sub></i>) (>= 0).  Typical value = 20.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t1;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t1;
 		/// <summary>
 		/// Time constant (<i>T</i><i><sub>2</sub></i>) (>= 0).  Typical value = 0,05.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t2;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t2;
 		/// <summary>
 		/// Time constant (<i>T</i><i><sub>3</sub></i>) (>= 0).  Typical value = 1,6.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t3;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t3;
 		/// <summary>
 		/// Exciter time constant (<i>T</i><i><sub>B</sub></i>) (>= 0).  Typical value = 0,
 		/// 04.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tb;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tb;
 		/// <summary>
 		/// Minimum AVR output (<i>V</i><i><sub>RMN</sub></i>).  Typical value = -5,2.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vrmn;
+		public TC57CIM.IEC61970.Base.Domain.PU? vrmn;
 		/// <summary>
 		/// Maximum AVR output (<i>V</i><i><sub>RMX</sub></i>).  Typical value = 6,5.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vrmx;
+		public TC57CIM.IEC61970.Base.Domain.PU? vrmx;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ExcANS"/> class

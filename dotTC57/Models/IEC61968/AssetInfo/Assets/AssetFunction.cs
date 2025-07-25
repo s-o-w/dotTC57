@@ -15,23 +15,23 @@ namespace TC57CIM.IEC61968.AssetInfo.Assets {
 		/// <summary>
 		/// Configuration specified for this function.
 		/// </summary>
-		public string configID;
+		public string? configID;
 		/// <summary>
 		/// Firmware version.
 		/// </summary>
-		public string firmwareID;
+		public string? firmwareID;
 		/// <summary>
 		/// Hardware version.
 		/// </summary>
-		public string hardwareID;
+		public string? hardwareID;
 		/// <summary>
 		/// Password needed to access this function.
 		/// </summary>
-		public string password;
+		public string? password;
 		/// <summary>
 		/// Name of program.
 		/// </summary>
-		public string programID;
+		public string? programID;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="AssetFunction"/> class

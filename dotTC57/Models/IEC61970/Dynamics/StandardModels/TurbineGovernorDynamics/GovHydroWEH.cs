@@ -19,22 +19,22 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.TurbineGovernorDynamics {
 		/// <summary>
 		/// Speed deadband (<i>db</i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU db;
+		public TC57CIM.IEC61970.Base.Domain.PU? db;
 		/// <summary>
 		/// Value to allow the integral controller to advance beyond the gate limits
 		/// (<i>Dicn</i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU dicn;
+		public TC57CIM.IEC61970.Base.Domain.PU? dicn;
 		/// <summary>
 		/// Value to allow the pilot valve controller to advance beyond the gate limits
 		/// (<i>Dpv</i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU dpv;
+		public TC57CIM.IEC61970.Base.Domain.PU? dpv;
 		/// <summary>
 		/// Turbine damping factor (<i>Dturb</i>).  Unit = delta P (PU of <i>MWbase</i>) /
 		/// delta speed (PU).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU dturb;
+		public TC57CIM.IEC61970.Base.Domain.PU? dturb;
 		/// <summary>
 		/// Feedback signal selection (<i>Sw</i>).
 		/// true = PID output (if <i>R-Perm-Gate </i>= droop and <i>R-Perm-Pe </i>= 0)
@@ -50,213 +50,213 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.TurbineGovernorDynamics {
 		/// representing water flow through the turbine as a function of gate position to
 		/// produce steady state flow.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU fl1;
+		public TC57CIM.IEC61970.Base.Domain.PU? fl1;
 		/// <summary>
 		/// Flowgate 2 (<i>Fl2</i>).  Flow value for gate position point 2 for lookup table
 		/// representing water flow through the turbine as a function of gate position to
 		/// produce steady state flow.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU fl2;
+		public TC57CIM.IEC61970.Base.Domain.PU? fl2;
 		/// <summary>
 		/// Flowgate 3 (<i>Fl3</i>).  Flow value for gate position point 3 for lookup table
 		/// representing water flow through the turbine as a function of gate position to
 		/// produce steady state flow.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU fl3;
+		public TC57CIM.IEC61970.Base.Domain.PU? fl3;
 		/// <summary>
 		/// Flowgate 4 (<i>Fl4</i>).  Flow value for gate position point 4 for lookup table
 		/// representing water flow through the turbine as a function of gate position to
 		/// produce steady state flow.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU fl4;
+		public TC57CIM.IEC61970.Base.Domain.PU? fl4;
 		/// <summary>
 		/// Flowgate 5 (<i>Fl5</i>).  Flow value for gate position point 5 for lookup table
 		/// representing water flow through the turbine as a function of gate position to
 		/// produce steady state flow.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU fl5;
+		public TC57CIM.IEC61970.Base.Domain.PU? fl5;
 		/// <summary>
 		/// Flow P1 (<i>Fp1</i>).  Turbine flow value for point 1 for lookup table
 		/// representing PU mechanical power on machine MVA rating as a function of turbine
 		/// flow.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU fp1;
+		public TC57CIM.IEC61970.Base.Domain.PU? fp1;
 		/// <summary>
 		/// Flow P10 (<i>Fp10</i>).  Turbine flow value for point 10 for lookup table
 		/// representing PU mechanical power on machine MVA rating as a function of turbine
 		/// flow.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU fp10;
+		public TC57CIM.IEC61970.Base.Domain.PU? fp10;
 		/// <summary>
 		/// Flow P2 (<i>Fp2</i>).  Turbine flow value for point 2 for lookup table
 		/// representing PU mechanical power on machine MVA rating as a function of turbine
 		/// flow.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU fp2;
+		public TC57CIM.IEC61970.Base.Domain.PU? fp2;
 		/// <summary>
 		/// Flow P3 (<i>Fp3</i>).  Turbine flow value for point 3 for lookup table
 		/// representing PU mechanical power on machine MVA rating as a function of turbine
 		/// flow.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU fp3;
+		public TC57CIM.IEC61970.Base.Domain.PU? fp3;
 		/// <summary>
 		/// Flow P4 (<i>Fp4</i>).  Turbine flow value for point 4 for lookup table
 		/// representing PU mechanical power on machine MVA rating as a function of turbine
 		/// flow.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU fp4;
+		public TC57CIM.IEC61970.Base.Domain.PU? fp4;
 		/// <summary>
 		/// Flow P5 (<i>Fp5</i>).  Turbine flow value for point 5 for lookup table
 		/// representing PU mechanical power on machine MVA rating as a function of turbine
 		/// flow.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU fp5;
+		public TC57CIM.IEC61970.Base.Domain.PU? fp5;
 		/// <summary>
 		/// Flow P6 (<i>Fp6</i>).  Turbine flow value for point 6 for lookup table
 		/// representing PU mechanical power on machine MVA rating as a function of turbine
 		/// flow.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU fp6;
+		public TC57CIM.IEC61970.Base.Domain.PU? fp6;
 		/// <summary>
 		/// Flow P7 (<i>Fp7</i>).  Turbine flow value for point 7 for lookup table
 		/// representing PU mechanical power on machine MVA rating as a function of turbine
 		/// flow.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU fp7;
+		public TC57CIM.IEC61970.Base.Domain.PU? fp7;
 		/// <summary>
 		/// Flow P8 (<i>Fp8</i>).  Turbine flow value for point 8 for lookup table
 		/// representing PU mechanical power on machine MVA rating as a function of turbine
 		/// flow.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU fp8;
+		public TC57CIM.IEC61970.Base.Domain.PU? fp8;
 		/// <summary>
 		/// Flow P9 (<i>Fp9</i>).  Turbine flow value for point 9 for lookup table
 		/// representing PU mechanical power on machine MVA rating as a function of turbine
 		/// flow.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU fp9;
+		public TC57CIM.IEC61970.Base.Domain.PU? fp9;
 		/// <summary>
 		/// Maximum gate position (<i>Gmax</i>) (> GovHydroWEH.gmin).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU gmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? gmax;
 		/// <summary>
-		/// Minimum gate position (<i>Gmin</i>) (< GovHydroWEH.gmax).
+		/// Minimum gate position (<i>Gmin</i>) (&lt; GovHydroWEH.gmax).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU gmin;
+		public TC57CIM.IEC61970.Base.Domain.PU? gmin;
 		/// <summary>
 		/// Maximum gate closing rate (<i>Gtmxcl</i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU gtmxcl;
+		public TC57CIM.IEC61970.Base.Domain.PU? gtmxcl;
 		/// <summary>
 		/// Maximum gate opening rate (<i>Gtmxop</i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU gtmxop;
+		public TC57CIM.IEC61970.Base.Domain.PU? gtmxop;
 		/// <summary>
 		/// Gate 1 (<i>Gv1</i>).  Gate Position value for point 1 for lookup table
 		/// representing water flow through the turbine as a function of gate position to
 		/// produce steady state flow.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU gv1;
+		public TC57CIM.IEC61970.Base.Domain.PU? gv1;
 		/// <summary>
 		/// Gate 2 (<i>Gv2</i>).  Gate Position value for point 2 for lookup table
 		/// representing water flow through the turbine as a function of gate position to
 		/// produce steady state flow.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU gv2;
+		public TC57CIM.IEC61970.Base.Domain.PU? gv2;
 		/// <summary>
 		/// Gate 3 (<i>Gv3</i>).  Gate Position value for point 3 for lookup table
 		/// representing water flow through the turbine as a function of gate position to
 		/// produce steady state flow.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU gv3;
+		public TC57CIM.IEC61970.Base.Domain.PU? gv3;
 		/// <summary>
 		/// Gate 4 (<i>Gv4</i>).  Gate Position value for point 4 for lookup table
 		/// representing water flow through the turbine as a function of gate position to
 		/// produce steady state flow.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU gv4;
+		public TC57CIM.IEC61970.Base.Domain.PU? gv4;
 		/// <summary>
 		/// Gate 5 (<i>Gv5</i>).  Gate Position value for point 5 for lookup table
 		/// representing water flow through the turbine as a function of gate position to
 		/// produce steady state flow.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU gv5;
+		public TC57CIM.IEC61970.Base.Domain.PU? gv5;
 		/// <summary>
 		/// Derivative controller derivative gain (<i>Kd</i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kd;
+		public TC57CIM.IEC61970.Base.Domain.PU? kd;
 		/// <summary>
 		/// Derivative controller Integral gain (<i>Ki</i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU ki;
+		public TC57CIM.IEC61970.Base.Domain.PU? ki;
 		/// <summary>
 		/// Derivative control gain (<i>Kp</i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kp;
+		public TC57CIM.IEC61970.Base.Domain.PU? kp;
 		/// <summary>
 		/// Base for power values (<i>MWbase</i>) (> 0).  Unit = MW.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower mwbase;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? mwbase;
 		/// <summary>
 		/// Pmss flow P1 (<i>Pmss1</i>).  Mechanical power output for turbine flow point 1
 		/// for lookup table representing PU mechanical power on machine MVA rating as a
 		/// function of turbine flow.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU pmss1;
+		public TC57CIM.IEC61970.Base.Domain.PU? pmss1;
 		/// <summary>
 		/// Pmss flow P10 (<i>Pmss10</i>).  Mechanical power output for turbine flow point
 		/// 10 for lookup table representing PU mechanical power on machine MVA rating as a
 		/// function of turbine flow.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU pmss10;
+		public TC57CIM.IEC61970.Base.Domain.PU? pmss10;
 		/// <summary>
 		/// Pmss flow P2 (<i>Pmss2</i>).  Mechanical power output for turbine flow point 2
 		/// for lookup table representing PU mechanical power on machine MVA rating as a
 		/// function of turbine flow.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU pmss2;
+		public TC57CIM.IEC61970.Base.Domain.PU? pmss2;
 		/// <summary>
 		/// Pmss flow P3 (<i>Pmss3</i>).  Mechanical power output for turbine flow point 3
 		/// for lookup table representing PU mechanical power on machine MVA rating as a
 		/// function of turbine flow.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU pmss3;
+		public TC57CIM.IEC61970.Base.Domain.PU? pmss3;
 		/// <summary>
 		/// Pmss flow P4 (<i>Pmss4</i>).  Mechanical power output for turbine flow point 4
 		/// for lookup table representing PU mechanical power on machine MVA rating as a
 		/// function of turbine flow.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU pmss4;
+		public TC57CIM.IEC61970.Base.Domain.PU? pmss4;
 		/// <summary>
 		/// Pmss flow P5 (<i>Pmss5</i>).  Mechanical power output for turbine flow point 5
 		/// for lookup table representing PU mechanical power on machine MVA rating as a
 		/// function of turbine flow.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU pmss5;
+		public TC57CIM.IEC61970.Base.Domain.PU? pmss5;
 		/// <summary>
 		/// Pmss flow P6 (<i>Pmss6</i>).  Mechanical power output for turbine flow point 6
 		/// for lookup table representing PU mechanical power on machine MVA rating as a
 		/// function of turbine flow.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU pmss6;
+		public TC57CIM.IEC61970.Base.Domain.PU? pmss6;
 		/// <summary>
 		/// Pmss flow P7 (<i>Pmss7</i>).  Mechanical power output for turbine flow point 7
 		/// for lookup table representing PU mechanical power on machine MVA rating as a
 		/// function of turbine flow.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU pmss7;
+		public TC57CIM.IEC61970.Base.Domain.PU? pmss7;
 		/// <summary>
 		/// Pmss flow P8 (<i>Pmss8</i>).  Mechanical power output for turbine flow point 8
 		/// for lookup table representing PU mechanical power on machine MVA rating as a
 		/// function of turbine flow.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU pmss8;
+		public TC57CIM.IEC61970.Base.Domain.PU? pmss8;
 		/// <summary>
 		/// Pmss flow P9 (<i>Pmss9</i>).  Mechanical power output for turbine flow point 9
 		/// for lookup table representing PU mechanical power on machine MVA rating as a
 		/// function of turbine flow.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU pmss9;
+		public TC57CIM.IEC61970.Base.Domain.PU? pmss9;
 		/// <summary>
 		/// Permanent droop for governor output feedback (<i>R-Perm-Gate</i>).
 		/// </summary>
@@ -270,28 +270,28 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.TurbineGovernorDynamics {
 		/// characteristic beyond a breakdown frequency to avoid amplification of high-
 		/// frequency noise.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds td;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? td;
 		/// <summary>
 		/// Distributive valve time lag time constant (<i>Tdv</i>) (>= 0).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tdv;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tdv;
 		/// <summary>
 		/// Value to allow the distribution valve controller to advance beyond the gate
 		/// movement rate limit (<i>Tg</i>) (>= 0).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tg;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tg;
 		/// <summary>
 		/// Pilot valve time lag time constant (<i>Tp</i>) (>= 0).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tp;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tp;
 		/// <summary>
 		/// Electrical power droop time constant (<i>Tpe</i>) (>= 0).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tpe;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tpe;
 		/// <summary>
 		/// Water inertia time constant (<i>Tw</i>) (> 0).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tw;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tw;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="GovHydroWEH"/> class

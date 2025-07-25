@@ -41,7 +41,7 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.TurbineGovernorDynamics {
 		/// applications, it is recommended that this value be set to zero.  Typical value
 		/// = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU db;
+		public TC57CIM.IEC61970.Base.Domain.PU? db;
 		/// <summary>
 		/// Speed sensitivity coefficient (<i>Dm</i>).  <i>Dm</i> can represent either the
 		/// variation of the engine power with the shaft speed or the variation of maximum
@@ -53,65 +53,65 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.TurbineGovernorDynamics {
 		/// to fall with falling shaft speed. This is characteristic of single-shaft
 		/// industrial turbines due to exhaust temperature limits.  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU dm;
+		public TC57CIM.IEC61970.Base.Domain.PU? dm;
 		/// <summary>
 		/// Acceleration limiter gain (<i>Ka</i>).  Typical value = 10.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU ka;
+		public TC57CIM.IEC61970.Base.Domain.PU? ka;
 		/// <summary>
 		/// Governor derivative gain (<i>Kdgov</i>).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kdgov;
+		public TC57CIM.IEC61970.Base.Domain.PU? kdgov;
 		/// <summary>
 		/// Governor integral gain (<i>Kigov</i>).  Typical value = 2.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kigov;
+		public TC57CIM.IEC61970.Base.Domain.PU? kigov;
 		/// <summary>
 		/// Load limiter integral gain for PI controller (<i>Kiload</i>).  Typical value =
 		/// 0,67.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kiload;
+		public TC57CIM.IEC61970.Base.Domain.PU? kiload;
 		/// <summary>
 		/// Power controller (reset) gain (<i>Kimw</i>).  The default value of 0,01
 		/// corresponds to a reset time of 100 s.  A value of 0,001 corresponds to a
 		/// relatively slow-acting load controller.  Typical value = 0,01.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kimw;
+		public TC57CIM.IEC61970.Base.Domain.PU? kimw;
 		/// <summary>
 		/// Governor proportional gain (<i>Kpgov</i>).  Typical value = 10.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kpgov;
+		public TC57CIM.IEC61970.Base.Domain.PU? kpgov;
 		/// <summary>
 		/// Load limiter proportional gain for PI controller (<i>Kpload</i>).  Typical
 		/// value = 2.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kpload;
+		public TC57CIM.IEC61970.Base.Domain.PU? kpload;
 		/// <summary>
 		/// Turbine gain (<i>Kturb</i>) (> 0).  Typical value = 1,5.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kturb;
+		public TC57CIM.IEC61970.Base.Domain.PU? kturb;
 		/// <summary>
 		/// Load limiter reference value (<i>Ldref</i>).  Typical value = 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU ldref;
+		public TC57CIM.IEC61970.Base.Domain.PU? ldref;
 		/// <summary>
-		/// Maximum value for speed error signal (<i>maxerr</i>) (> GovCT1.minerr).
+		/// Maximum value for speed error signal (<i>maxerr</i>) (greater than GovCT1.minerr).
 		/// Typical value = 0,05.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU maxerr;
+		public TC57CIM.IEC61970.Base.Domain.PU? maxerr;
 		/// <summary>
-		/// Minimum value for speed error signal (<i>minerr</i>) (< GovCT1.maxerr).
+		/// Minimum value for speed error signal (<i>minerr</i>) (less than GovCT1.maxerr).
 		/// Typical value = -0,05.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU minerr;
+		public TC57CIM.IEC61970.Base.Domain.PU? minerr;
 		/// <summary>
 		/// Base for power values (<i>MWbase</i>) (> 0).  Unit = MW.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower mwbase;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? mwbase;
 		/// <summary>
 		/// Permanent droop (<i>R</i>).  Typical value = 0,04.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU r;
+		public TC57CIM.IEC61970.Base.Domain.PU? r;
 		/// <summary>
 		/// Minimum valve closing rate (<i>Rclose</i>).  Unit = PU / s.  Typical value = -0,
 		/// 1.
@@ -120,7 +120,7 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.TurbineGovernorDynamics {
 		/// <summary>
 		/// Maximum rate of load limit decrease (<i>Rdown</i>).  Typical value = -99.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU rdown;
+		public TC57CIM.IEC61970.Base.Domain.PU? rdown;
 		/// <summary>
 		/// Maximum valve opening rate (<i>Ropen</i>).  Unit = PU / s.  Typical value = 0.
 		/// 10.
@@ -133,28 +133,28 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.TurbineGovernorDynamics {
 		/// <summary>
 		/// Maximum rate of load limit increase (<i>Rup</i>).  Typical value = 99.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU rup;
+		public TC57CIM.IEC61970.Base.Domain.PU? rup;
 		/// <summary>
 		/// Acceleration limiter time constant (<i>Ta</i>) (> 0).  Typical value = 0,1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds ta;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? ta;
 		/// <summary>
 		/// Actuator time constant (<i>Tact</i>) (>= 0).  Typical value = 0,5.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tact;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tact;
 		/// <summary>
 		/// Turbine lag time constant (<i>Tb</i>) (> 0).  Typical value = 0,5.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tb;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tb;
 		/// <summary>
 		/// Turbine lead time constant (<i>Tc</i>) (>= 0).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tc;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tc;
 		/// <summary>
 		/// Governor derivative controller time constant (<i>Tdgov</i>) (>= 0).  Typical
 		/// value = 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tdgov;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tdgov;
 		/// <summary>
 		/// Transport time delay for diesel engine used in representing diesel engines
 		/// where there is a small but measurable transport delay between a change in fuel
@@ -162,40 +162,39 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.TurbineGovernorDynamics {
 		/// should be zero in all but special cases where this transport delay is of
 		/// particular concern.  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds teng;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? teng;
 		/// <summary>
 		/// Load-limiter time constant (<i>Tfload</i>) (> 0).  Typical value = 3.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tfload;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tfload;
 		/// <summary>
 		/// Electrical power transducer time constant (<i>Tpelec</i>) (> 0).  Typical value
 		/// = 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tpelec;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tpelec;
 		/// <summary>
 		/// Temperature detection lead time constant (<i>Tsa</i>) (>= 0).  Typical value =
 		/// 4.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tsa;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tsa;
 		/// <summary>
 		/// Temperature detection lag time constant (<i>Tsb</i>) (>= 0).  Typical value = 5.
 		///
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tsb;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tsb;
 		/// <summary>
-		/// Maximum valve position limit (<i>Vmax</i>) (> GovCT1.vmin).  Typical value = 1.
-		///
+		/// Maximum valve position limit (<i>Vmax</i>) (greater than GovCT1.vmin).  Typical value = 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? vmax;
 		/// <summary>
-		/// Minimum valve position limit (<i>Vmin</i>) (< GovCT1.vmax).  Typical value = 0,
+		/// Minimum valve position limit (<i>Vmin</i>) (less than GovCT1.vmax).  Typical value = 0,
 		/// 15.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vmin;
+		public TC57CIM.IEC61970.Base.Domain.PU? vmin;
 		/// <summary>
 		/// No load fuel flow (<i>Wfnl</i>).  Typical value = 0,2.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU wfnl;
+		public TC57CIM.IEC61970.Base.Domain.PU? wfnl;
 		/// <summary>
 		/// Switch for fuel source characteristic to recognize that fuel flow, for a given
 		/// fuel valve stroke, can be proportional to engine speed (<i>Wfspd</i>).

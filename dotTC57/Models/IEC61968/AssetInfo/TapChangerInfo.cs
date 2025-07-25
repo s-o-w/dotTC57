@@ -16,11 +16,11 @@ namespace TC57CIM.IEC61968.AssetInfo {
 		/// nominal wave, typically 1.2 X 50 microsecond. This is a measure of the ability
 		/// of the insulation to withstand very high voltage surges.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Voltage bil;
+		public TC57CIM.IEC61970.Base.Domain.Voltage? bil;
 		/// <summary>
 		/// Built-in current transformer primary rating.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.CurrentFlow ctRating;
+		public TC57CIM.IEC61970.Base.Domain.CurrentFlow? ctRating;
 		/// <summary>
 		/// Built-in current transducer ratio.
 		/// </summary>
@@ -28,11 +28,11 @@ namespace TC57CIM.IEC61968.AssetInfo {
 		/// <summary>
 		/// Frequency at which the ratings apply.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Frequency frequency;
+		public TC57CIM.IEC61970.Base.Domain.Frequency? frequency;
 		/// <summary>
 		/// Highest possible tap step position, advance from neutral.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer highStep;
+		public TC57CIM.IEC61970.Base.Domain.Integer? highStep;
 		/// <summary>
 		/// Whether this tap changer has under load tap changing capabilities.
 		/// </summary>
@@ -40,15 +40,15 @@ namespace TC57CIM.IEC61968.AssetInfo {
 		/// <summary>
 		/// Lowest possible tap step position, retard from neutral.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer lowStep;
+		public TC57CIM.IEC61970.Base.Domain.Integer? lowStep;
 		/// <summary>
 		/// The neutral tap step position for the winding.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer neutralStep;
+		public TC57CIM.IEC61970.Base.Domain.Integer? neutralStep;
 		/// <summary>
 		/// Voltage at which the winding operates at the neutral tap setting.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Voltage neutralU;
+		public TC57CIM.IEC61970.Base.Domain.Voltage? neutralU;
 		/// <summary>
 		/// Built-in voltage transducer ratio.
 		/// </summary>
@@ -56,23 +56,23 @@ namespace TC57CIM.IEC61968.AssetInfo {
 		/// <summary>
 		/// Rated apparent power.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ApparentPower ratedApparentPower;
+		public TC57CIM.IEC61970.Base.Domain.ApparentPower? ratedApparentPower;
 		/// <summary>
 		/// Rated current.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.CurrentFlow ratedCurrent;
+		public TC57CIM.IEC61970.Base.Domain.CurrentFlow? ratedCurrent;
 		/// <summary>
 		/// Rated voltage.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Voltage ratedVoltage;
+		public TC57CIM.IEC61970.Base.Domain.Voltage? ratedVoltage;
 		/// <summary>
 		/// Phase shift per step position.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.AngleDegrees stepPhaseIncrement;
+		public TC57CIM.IEC61970.Base.Domain.AngleDegrees? stepPhaseIncrement;
 		/// <summary>
 		/// Tap step increment, in per cent of rated voltage, per step position.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PerCent stepVoltageIncrement;
+		public TC57CIM.IEC61970.Base.Domain.PerCent? stepVoltageIncrement;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="TapChangerInfo"/> class

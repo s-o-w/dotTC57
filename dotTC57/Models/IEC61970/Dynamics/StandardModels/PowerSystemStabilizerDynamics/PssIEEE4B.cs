@@ -47,75 +47,75 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.PowerSystemStabilizerDynamics
 		/// <summary>
 		/// High band gain (<i>K</i><i><sub>H</sub></i>).  Typical value = 120.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kh;
+		public TC57CIM.IEC61970.Base.Domain.PU? kh;
 		/// <summary>
 		/// High band differential filter gain (<i>K</i><i><sub>H1</sub></i>).  Typical
 		/// value = 66.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kh1;
+		public TC57CIM.IEC61970.Base.Domain.PU? kh1;
 		/// <summary>
 		/// High band first lead-lag blocks coefficient (<i>K</i><i><sub>H11</sub></i>).
 		/// Typical value = 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kh11;
+		public TC57CIM.IEC61970.Base.Domain.PU? kh11;
 		/// <summary>
 		/// High band first lead-lag blocks coefficient (<i>K</i><i><sub>H17</sub></i>).
 		/// Typical value = 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kh17;
+		public TC57CIM.IEC61970.Base.Domain.PU? kh17;
 		/// <summary>
 		/// High band differential filter gain (<i>K</i><i><sub>H2</sub></i>).  Typical
 		/// value = 66.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kh2;
+		public TC57CIM.IEC61970.Base.Domain.PU? kh2;
 		/// <summary>
 		/// Intermediate band gain (<i>K</i><i><sub>I</sub></i>).  Typical value = 30.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU ki;
+		public TC57CIM.IEC61970.Base.Domain.PU? ki;
 		/// <summary>
 		/// Intermediate band differential filter gain (<i>K</i><i><sub>I1</sub></i>).
 		/// Typical value = 66.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU ki1;
+		public TC57CIM.IEC61970.Base.Domain.PU? ki1;
 		/// <summary>
 		/// Intermediate band first lead-lag blocks coefficient
 		/// (<i>K</i><i><sub>I11</sub></i>).  Typical value = 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU ki11;
+		public TC57CIM.IEC61970.Base.Domain.PU? ki11;
 		/// <summary>
 		/// Intermediate band first lead-lag blocks coefficient
 		/// (<i>K</i><i><sub>I17</sub></i>).  Typical value = 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU ki17;
+		public TC57CIM.IEC61970.Base.Domain.PU? ki17;
 		/// <summary>
 		/// Intermediate band differential filter gain (<i>K</i><i><sub>I2</sub></i>).
 		/// Typical value = 66.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU ki2;
+		public TC57CIM.IEC61970.Base.Domain.PU? ki2;
 		/// <summary>
 		/// Low band gain (<i>K</i><i><sub>L</sub></i>).  Typical value = 7.5.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kl;
+		public TC57CIM.IEC61970.Base.Domain.PU? kl;
 		/// <summary>
 		/// Low band differential filter gain (<i>K</i><i><sub>L1</sub></i>).  Typical
 		/// value = 66.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kl1;
+		public TC57CIM.IEC61970.Base.Domain.PU? kl1;
 		/// <summary>
 		/// Low band first lead-lag blocks coefficient (<i>K</i><i><sub>L11</sub></i>).
 		/// Typical value = 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kl11;
+		public TC57CIM.IEC61970.Base.Domain.PU? kl11;
 		/// <summary>
 		/// Low band first lead-lag blocks coefficient (<i>K</i><i><sub>L17</sub></i>).
 		/// Typical value = 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kl17;
+		public TC57CIM.IEC61970.Base.Domain.PU? kl17;
 		/// <summary>
 		/// Low band differential filter gain (<i>K</i><i><sub>L2</sub></i>).  Typical
 		/// value = 66.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kl2;
+		public TC57CIM.IEC61970.Base.Domain.PU? kl2;
 		/// <summary>
 		/// Notch filter 1 (high-frequency band): filter frequency
 		/// (<i>omega</i><i><sub>ni</sub></i>).
@@ -140,222 +140,222 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.PowerSystemStabilizerDynamics
 		/// High band time constant (<i>T</i><i><sub>H1</sub></i>) (>= 0).  Typical value =
 		/// 0,01513.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds th1;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? th1;
 		/// <summary>
 		/// High band time constant (<i>T</i><i><sub>H10</sub></i>) (>= 0).  Typical value
 		/// = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds th10;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? th10;
 		/// <summary>
 		/// High band time constant (<i>T</i><i><sub>H11</sub></i>) (>= 0).  Typical value
 		/// = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds th11;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? th11;
 		/// <summary>
 		/// High band time constant (<i>T</i><i><sub>H12</sub></i>) (>= 0).  Typical value
 		/// = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds th12;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? th12;
 		/// <summary>
 		/// High band time constant (<i>T</i><i><sub>H2</sub></i>) (>= 0).  Typical value =
 		/// 0,01816.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds th2;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? th2;
 		/// <summary>
 		/// High band time constant (<i>T</i><i><sub>H3</sub></i>) (>= 0).  Typical value =
 		/// 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds th3;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? th3;
 		/// <summary>
 		/// High band time constant (<i>T</i><i><sub>H4</sub></i>) (>= 0).  Typical value =
 		/// 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds th4;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? th4;
 		/// <summary>
 		/// High band time constant (<i>T</i><i><sub>H5</sub></i>) (>= 0).  Typical value =
 		/// 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds th5;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? th5;
 		/// <summary>
 		/// High band time constant (<i>T</i><i><sub>H6</sub></i>) (>= 0).  Typical value =
 		/// 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds th6;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? th6;
 		/// <summary>
 		/// High band time constant (<i>T</i><i><sub>H7</sub></i>) (>= 0).  Typical value =
 		/// 0,01816.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds th7;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? th7;
 		/// <summary>
 		/// High band time constant (<i>T</i><i><sub>H8</sub></i>) (>= 0).  Typical value =
 		/// 0,02179.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds th8;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? th8;
 		/// <summary>
 		/// High band time constant (<i>T</i><i><sub>H9</sub></i>) (>= 0).  Typical value =
 		/// 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds th9;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? th9;
 		/// <summary>
 		/// Intermediate band time constant (<i>T</i><i><sub>I1</sub></i>) (>= 0).  Typical
 		/// value = 0,173.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds ti1;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? ti1;
 		/// <summary>
 		/// Intermediate band time constant (<i>T</i><i><sub>I10</sub></i>) (>= 0).
 		/// Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds ti10;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? ti10;
 		/// <summary>
 		/// Intermediate band time constant (<i>T</i><i><sub>I11</sub></i>) (>= 0).
 		/// Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds ti11;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? ti11;
 		/// <summary>
 		/// Intermediate band time constant (<i>T</i><i><sub>I12</sub></i>) (>= 0).
 		/// Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds ti12;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? ti12;
 		/// <summary>
 		/// Intermediate band time constant (<i>T</i><i><sub>I2</sub></i>) (>= 0).  Typical
 		/// value = 0,2075.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds ti2;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? ti2;
 		/// <summary>
 		/// Intermediate band time constant (<i>T</i><i><sub>I3</sub></i>) (>= 0).  Typical
 		/// value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds ti3;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? ti3;
 		/// <summary>
 		/// Intermediate band time constant (<i>T</i><i><sub>I4</sub></i>) (>= 0).  Typical
 		/// value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds ti4;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? ti4;
 		/// <summary>
 		/// Intermediate band time constant (<i>T</i><i><sub>I5</sub></i>) (>= 0).  Typical
 		/// value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds ti5;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? ti5;
 		/// <summary>
 		/// Intermediate band time constant (<i>T</i><i><sub>I6</sub></i>) (>= 0).  Typical
 		/// value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds ti6;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? ti6;
 		/// <summary>
 		/// Intermediate band time constant (<i>T</i><i><sub>I7</sub></i>) (>= 0).  Typical
 		/// value = 0,2075.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds ti7;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? ti7;
 		/// <summary>
 		/// Intermediate band time constant (<i>T</i><i><sub>I8</sub></i>) (>= 0).  Typical
 		/// value = 0,2491.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds ti8;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? ti8;
 		/// <summary>
 		/// Intermediate band time constant (<i>T</i><i><sub>I9</sub></i>) (>= 0).  Typical
 		/// value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds ti9;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? ti9;
 		/// <summary>
 		/// Low band time constant (<i>T</i><i><sub>L1</sub></i>) (>= 0).  Typical value =
 		/// 1,73.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tl1;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tl1;
 		/// <summary>
 		/// Low band time constant (<i>T</i><i><sub>L10</sub></i>) (>= 0).  Typical value =
 		/// 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tl10;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tl10;
 		/// <summary>
 		/// Low band time constant (<i>T</i><i><sub>L11</sub></i>) (>= 0).  Typical value =
 		/// 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tl11;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tl11;
 		/// <summary>
 		/// Low band time constant (<i>T</i><i><sub>L12</sub></i>) (>= 0).  Typical value =
 		/// 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tl12;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tl12;
 		/// <summary>
 		/// Low band time constant (<i>T</i><i><sub>L2</sub></i>) (>= 0).  Typical value =
 		/// 2,075.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tl2;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tl2;
 		/// <summary>
 		/// Low band time constant (<i>T</i><i><sub>L3</sub></i>) (>= 0).  Typical value =
 		/// 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tl3;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tl3;
 		/// <summary>
 		/// Low band time constant (<i>T</i><i><sub>L4</sub></i>) (>= 0).  Typical value =
 		/// 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tl4;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tl4;
 		/// <summary>
 		/// Low band time constant (<i>T</i><i><sub>L5</sub></i>) (>= 0).  Typical value =
 		/// 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tl5;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tl5;
 		/// <summary>
 		/// Low band time constant (<i>T</i><i><sub>L6</sub></i>) (>= 0).  Typical value =
 		/// 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tl6;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tl6;
 		/// <summary>
 		/// Low band time constant (<i>T</i><i><sub>L7</sub></i>) (>= 0).  Typical value =
 		/// 2,075.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tl7;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tl7;
 		/// <summary>
 		/// Low band time constant (<i>T</i><i><sub>L8</sub></i>) (>= 0).  Typical value =
 		/// 2,491.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tl8;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tl8;
 		/// <summary>
 		/// Low band time constant (<i>T</i><i><sub>L9</sub></i>) (>= 0).  Typical value =
 		/// 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tl9;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tl9;
 		/// <summary>
-		/// High band output maximum limit (<i>V</i><i><sub>Hmax</sub></i>) (> PssIEEE4B.
+		/// High band output maximum limit (<i>V</i><i><sub>Hmax</sub></i>) (greater than PssIEEE4B.
 		/// vhmin).  Typical value = 0,6.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vhmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? vhmax;
 		/// <summary>
-		/// High band output minimum limit (<i>V</i><i><sub>Hmin</sub></i>) (< PssIEEE4V.
+		/// High band output minimum limit (<i>V</i><i><sub>Hmin</sub></i>) (less than PssIEEE4B.
 		/// vhmax).  Typical value = -0,6.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vhmin;
+		public TC57CIM.IEC61970.Base.Domain.PU? vhmin;
 		/// <summary>
-		/// Intermediate band output maximum limit (<i>V</i><i><sub>Imax</sub></i>) (>
+		/// Intermediate band output maximum limit (<i>V</i><i><sub>Imax</sub></i>) (greater than
 		/// PssIEEE4B.vimin).  Typical value = 0,6.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vimax;
+		public TC57CIM.IEC61970.Base.Domain.PU? vimax;
 		/// <summary>
-		/// Intermediate band output minimum limit (<i>V</i><i><sub>Imin</sub></i>) (<
+		/// Intermediate band output minimum limit (<i>V</i><i><sub>Imin</sub></i>) (less than
 		/// PssIEEE4B.vimax).  Typical value = -0,6.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vimin;
+		public TC57CIM.IEC61970.Base.Domain.PU? vimin;
 		/// <summary>
-		/// Low band output maximum limit (<i>V</i><i><sub>Lmax</sub></i>) (> PssIEEE4B.
+		/// Low band output maximum limit (<i>V</i><i><sub>Lmax</sub></i>) (greater than PssIEEE4B.
 		/// vlmin).  Typical value = 0,075.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vlmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? vlmax;
 		/// <summary>
-		/// Low band output minimum limit (<i>V</i><i><sub>Lmin</sub></i>) (< PssIEEE4B.
+		/// Low band output minimum limit (<i>V</i><i><sub>Lmin</sub></i>) (less than PssIEEE4B.
 		/// vlmax).  Typical value = -0,075.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vlmin;
+		public TC57CIM.IEC61970.Base.Domain.PU? vlmin;
 		/// <summary>
-		/// PSS output maximum limit (<i>V</i><i><sub>STmax</sub></i>) (> PssIEEE4B.vstmin).
+		/// PSS output maximum limit (<i>V</i><i><sub>STmax</sub></i>) (greater than PssIEEE4B.vstmin).
 		///  Typical value = 0,15.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vstmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? vstmax;
 		/// <summary>
-		/// PSS output minimum limit (<i>V</i><i><sub>STmin</sub></i>) (< PssIEEE4B.vstmax).
+		/// PSS output minimum limit (<i>V</i><i><sub>STmin</sub></i>) (less than PssIEEE4B.vstmax).
 		///  Typical value = -0,15.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vstmin;
+		public TC57CIM.IEC61970.Base.Domain.PU? vstmin;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="PssIEEE4B"/> class

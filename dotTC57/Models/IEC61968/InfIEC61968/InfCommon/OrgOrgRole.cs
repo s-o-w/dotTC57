@@ -21,7 +21,7 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfCommon {
 		/// government agency (federal, state, province, city, county), financial
 		/// institution (Dun and Bradstreet), etc.
 		/// </summary>
-		public string clientID;
+		public string? clientID;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="OrgOrgRole"/> class

@@ -19,32 +19,32 @@ namespace TC57CIM.IEC61968.AssetInfo.Assets {
 		/// Ignored if asset is (1) not currently installed (e.g., stored in a depot) or
 		/// (2) not intended to be installed (e.g., vehicle, tool).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Date installationDate;
+		public TC57CIM.IEC61970.Base.Domain.Date? installationDate;
 		/// <summary>
 		/// Date the asset was manufactured.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Date manufacturedDate;
+		public TC57CIM.IEC61970.Base.Domain.Date? manufacturedDate;
 		/// <summary>
 		/// Date the asset was purchased. Note that even though an asset may have been
 		/// purchased, it may not have been received into inventory at the time of purchase.
 		///
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Date purchaseDate;
+		public TC57CIM.IEC61970.Base.Domain.Date? purchaseDate;
 		/// <summary>
 		/// Date the asset was received and first placed into inventory.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Date receivedDate;
+		public TC57CIM.IEC61970.Base.Domain.Date? receivedDate;
 		/// <summary>
 		/// Date when the asset was last removed from service. Ignored if (1) not intended
 		/// to be in service, or (2) currently in service.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Date removalDate;
+		public TC57CIM.IEC61970.Base.Domain.Date? removalDate;
 		/// <summary>
 		/// Date the asset is permanently retired from service and may be scheduled for
 		/// disposal. Ignored if asset is (1) currently in service, or (2) permanently
 		/// removed from service.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Date retiredDate;
+		public TC57CIM.IEC61970.Base.Domain.Date? retiredDate;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="LifecycleDate"/> class

@@ -19,7 +19,7 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfWork {
 		/// <summary>
 		/// Period between the assignment becoming effective and its expiration.
 		/// </summary>
-		public DateTimeInterval effectivePeriod;
+		public DateTimeInterval? effectivePeriod;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Assignment"/> class

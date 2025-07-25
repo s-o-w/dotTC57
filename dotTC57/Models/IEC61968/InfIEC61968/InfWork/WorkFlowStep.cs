@@ -15,19 +15,19 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfWork {
 		/// Used to define dependencies of each work flow step, which is for the instance
 		/// of WorkTask associated with a given instance of WorkFlow.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer sequenceNumber;
+		public TC57CIM.IEC61970.Base.Domain.Integer? sequenceNumber;
 		/// <summary>
 		/// The status
 		/// </summary>
-		public TC57CIM.IEC61968.Common.Status status;
+		public TC57CIM.IEC61968.Common.Status? status;
 		/// <summary>
 		/// The work
 		/// </summary>
-		public TC57CIM.IEC61968.Work.Work Work;
+		public TC57CIM.IEC61968.Work.Work? Work;
 		/// <summary>
 		/// The work tasks
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfWork.OldWorkTask WorkTasks;
+		public TC57CIM.IEC61968.InfIEC61968.InfWork.OldWorkTask? WorkTasks;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="WorkFlowStep"/> class

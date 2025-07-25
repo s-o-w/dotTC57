@@ -19,7 +19,7 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics {
 		/// Wind turbine type 1A model with which this wind aerodynamic model is associated.
 		///
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics.WindGenTurbineType1aIEC WindGenTurbineType1aIEC;
+		public TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics.WindGenTurbineType1aIEC? WindGenTurbineType1aIEC;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="WindAeroConstIEC"/> class

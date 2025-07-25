@@ -18,20 +18,20 @@ namespace TC57CIM.IEC61970.Base.ICCPConfiguration {
 		/// Specifies the version of the Bilateral Table configuration that is being
 		/// exchanged.
 		/// </summary>
-		public string bilateralTableID;
+		public string? bilateralTableID;
 		/// <summary>
 		/// The Version attribute identifies a unique version of the Bilateral Table. If
 		/// any changes are made to a Bilateral Table, then a new unique value for this
 		/// attribute shall be generated.
 		/// </summary>
-		public string bilateralTableVersion;
+		public string? bilateralTableVersion;
 		/// <summary>
 		/// Specifies the version of the TASE.2 that is needed to access the Bilateral
 		/// Table information via TASE.2.
 		///
 		/// In order for a link to be established, both sides must have the same value.
 		/// </summary>
-		public string tase2version;
+		public string? tase2version;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="TASE2BilateralTable"/> class

@@ -22,7 +22,7 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfAssetInfo {
 		/// <summary>
 		/// Weight of core and coils in transformer.
 		/// </summary>
-		public Mass coreCoilsWeight;
+		public Mass? coreCoilsWeight;
 		/// <summary>
 		/// Core kind of this transformer product.
 		/// </summary>
@@ -34,7 +34,7 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfAssetInfo {
 		/// <summary>
 		/// Basic insulation level of neutral.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Voltage neutralBIL;
+		public TC57CIM.IEC61970.Base.Domain.Voltage? neutralBIL;
 		/// <summary>
 		/// Kind of oil preservation system.
 		/// </summary>

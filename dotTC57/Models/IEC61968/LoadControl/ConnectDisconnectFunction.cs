@@ -17,7 +17,7 @@ namespace TC57CIM.IEC61968.LoadControl {
 		/// Running cumulative count of connect or disconnect events, for the lifetime of
 		/// this function or until the value is cleared.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer eventCount;
+		public TC57CIM.IEC61970.Base.Domain.Integer? eventCount;
 		/// <summary>
 		/// True if this function is in the connected state.
 		/// </summary>
@@ -55,11 +55,11 @@ namespace TC57CIM.IEC61968.LoadControl {
 		/// <summary>
 		/// Information on remote connect disconnect switch.
 		/// </summary>
-		public RemoteConnectDisconnectInfo rcdInfo;
+		public RemoteConnectDisconnectInfo? rcdInfo;
 		/// <summary>
 		/// The switches
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Wires.Switch Switches;
+		public TC57CIM.IEC61970.Base.Wires.Switch? Switches;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ConnectDisconnectFunction"/> class

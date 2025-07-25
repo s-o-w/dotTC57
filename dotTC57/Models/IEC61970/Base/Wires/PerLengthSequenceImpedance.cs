@@ -17,35 +17,35 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// <summary>
 		/// Zero sequence shunt (charging) susceptance, per unit of length.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.SusceptancePerLength b0ch;
+		public TC57CIM.IEC61970.Base.Domain.SusceptancePerLength? b0ch;
 		/// <summary>
 		/// Positive sequence shunt (charging) susceptance, per unit of length.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.SusceptancePerLength bch;
+		public TC57CIM.IEC61970.Base.Domain.SusceptancePerLength? bch;
 		/// <summary>
 		/// Zero sequence shunt (charging) conductance, per unit of length.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ConductancePerLength g0ch;
+		public TC57CIM.IEC61970.Base.Domain.ConductancePerLength? g0ch;
 		/// <summary>
 		/// Positive sequence shunt (charging) conductance, per unit of length.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ConductancePerLength gch;
+		public TC57CIM.IEC61970.Base.Domain.ConductancePerLength? gch;
 		/// <summary>
 		/// Positive sequence series resistance, per unit of length.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ResistancePerLength r;
+		public TC57CIM.IEC61970.Base.Domain.ResistancePerLength? r;
 		/// <summary>
 		/// Zero sequence series resistance, per unit of length.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ResistancePerLength r0;
+		public TC57CIM.IEC61970.Base.Domain.ResistancePerLength? r0;
 		/// <summary>
 		/// Positive sequence series reactance, per unit of length.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ReactancePerLength x;
+		public TC57CIM.IEC61970.Base.Domain.ReactancePerLength? x;
 		/// <summary>
 		/// Zero sequence series reactance, per unit of length.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ReactancePerLength x0;
+		public TC57CIM.IEC61970.Base.Domain.ReactancePerLength? x0;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="PerLengthSequenceImpedance"/> class

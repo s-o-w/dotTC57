@@ -16,15 +16,15 @@ namespace TC57CIM.IEC61968.Common {
 		/// <summary>
 		/// Status of this crew.
 		/// </summary>
-		public Status status;
+		public Status? status;
 		/// <summary>
 		/// Type of this crew.
 		/// </summary>
-		public TC57CIM.IEC61968.Common.CrewType CrewType;
+		public TC57CIM.IEC61968.Common.CrewType? CrewType;
 		/// <summary>
 		/// All members of this crew.
 		/// </summary>
-		public TC57CIM.IEC61968.Common.CrewMember CrewMembers;
+		public TC57CIM.IEC61968.Common.CrewMember? CrewMembers;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Crew"/> class

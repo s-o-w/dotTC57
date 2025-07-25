@@ -15,7 +15,7 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfWork {
 		/// <summary>
 		/// External reference to regulation, if applicable.
 		/// </summary>
-		public string referenceNumber;
+		public string? referenceNumber;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Regulation"/> class

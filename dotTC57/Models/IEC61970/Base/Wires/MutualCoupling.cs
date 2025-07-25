@@ -16,52 +16,52 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// Zero sequence mutual coupling shunt (charging) susceptance, uniformly
 		/// distributed, of the entire line section.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Susceptance b0ch;
+		public TC57CIM.IEC61970.Base.Domain.Susceptance? b0ch;
 		/// <summary>
 		/// Distance to the start of the coupled region from the first line's terminal
 		/// having sequence number equal to 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Length distance11;
+		public TC57CIM.IEC61970.Base.Domain.Length? distance11;
 		/// <summary>
 		/// Distance to the end of the coupled region from the first line's terminal with
 		/// sequence number equal to 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Length distance12;
+		public TC57CIM.IEC61970.Base.Domain.Length? distance12;
 		/// <summary>
 		/// Distance to the start of coupled region from the second line's terminal with
 		/// sequence number equal to 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Length distance21;
+		public TC57CIM.IEC61970.Base.Domain.Length? distance21;
 		/// <summary>
 		/// Distance to the end of coupled region from the second line's terminal with
 		/// sequence number equal to 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Length distance22;
+		public TC57CIM.IEC61970.Base.Domain.Length? distance22;
 		/// <summary>
 		/// Zero sequence mutual coupling shunt (charging) conductance, uniformly
 		/// distributed, of the entire line section.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Conductance g0ch;
+		public TC57CIM.IEC61970.Base.Domain.Conductance? g0ch;
 		/// <summary>
 		/// Zero sequence branch-to-branch mutual impedance coupling, resistance.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Resistance r0;
+		public TC57CIM.IEC61970.Base.Domain.Resistance? r0;
 		/// <summary>
 		/// Zero sequence branch-to-branch mutual impedance coupling, reactance.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Reactance x0;
+		public TC57CIM.IEC61970.Base.Domain.Reactance? x0;
 		/// <summary>
 		/// The starting terminal for the calculation of distances along the first branch
 		/// of the mutual coupling.  Normally MutualCoupling would only be used for
 		/// terminals of AC line segments.  The first and second terminals of a mutual
 		/// coupling should point to different AC line segments.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Core.Terminal First_Terminal;
+		public TC57CIM.IEC61970.Base.Core.Terminal? First_Terminal;
 		/// <summary>
 		/// The starting terminal for the calculation of distances along the second branch
 		/// of the mutual coupling.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Core.Terminal Second_Terminal;
+		public TC57CIM.IEC61970.Base.Core.Terminal? Second_Terminal;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="MutualCoupling"/> class

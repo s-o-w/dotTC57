@@ -16,7 +16,7 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfWork {
 		/// The actual value of the condition factor, such as labor flat fee or percentage.
 		///
 		/// </summary>
-		public string cfValue;
+		public string? cfValue;
 		/// <summary>
 		/// Kind of this condition factor.
 		/// </summary>
@@ -24,7 +24,7 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfWork {
 		/// <summary>
 		/// The status
 		/// </summary>
-		public TC57CIM.IEC61968.Common.Status status;
+		public TC57CIM.IEC61968.Common.Status? status;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ConditionFactor"/> class

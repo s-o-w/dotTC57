@@ -16,16 +16,16 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.ExcitationSystemDynamics {
 		/// <summary>
 		/// Gain (<i>Ka</i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU ka;
+		public TC57CIM.IEC61970.Base.Domain.PU? ka;
 		/// <summary>
 		/// Effective output resistance (<i>Rex</i>). <i>Rex</i> represents the effective
 		/// output resistance seen by the excitation system.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU rex;
+		public TC57CIM.IEC61970.Base.Domain.PU? rex;
 		/// <summary>
 		/// Time constant (<i>Ta</i>) (>= 0).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds ta;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? ta;
 
 		/// <summary>
 		/// Constructor for ExcAVR5.

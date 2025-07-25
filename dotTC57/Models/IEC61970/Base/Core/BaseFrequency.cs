@@ -19,7 +19,7 @@ namespace TC57CIM.IEC61970.Base.Core {
 		/// <summary>
 		/// The base frequency.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Frequency frequency;
+		public TC57CIM.IEC61970.Base.Domain.Frequency? frequency;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="BaseFrequency"/> class

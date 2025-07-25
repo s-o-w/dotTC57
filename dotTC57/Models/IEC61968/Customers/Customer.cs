@@ -19,24 +19,24 @@ namespace TC57CIM.IEC61968.Customers {
 		/// <summary>
 		/// Locale designating language to use in communications with this customer.
 		/// </summary>
-		public string locale;
+		public string? locale;
 		/// <summary>
 		/// Priority of the customer.
 		/// </summary>
-		public TC57CIM.IEC61968.Common.Priority priority;
+		public TC57CIM.IEC61968.Common.Priority? priority;
 		/// <summary>
 		/// (if applicable) Public utilities commission (PUC) identification number.
 		/// </summary>
-		public string pucNumber;
+		public string? pucNumber;
 		/// <summary>
 		/// True if customer organisation has special service needs such as life support,
 		/// hospitals, etc.
 		/// </summary>
-		public string specialNeed;
+		public string? specialNeed;
 		/// <summary>
 		/// Status of this customer.
 		/// </summary>
-		public TC57CIM.IEC61968.Common.Status status;
+		public TC57CIM.IEC61968.Common.Status? status;
 		/// <summary>
 		/// (deprecated) (use 'priority' instead) True if this is an important customer.
 		/// Importance is for matters different than those in 'specialNeed' attribute.
@@ -45,36 +45,36 @@ namespace TC57CIM.IEC61968.Customers {
 		/// <summary>
 		/// All the works performed for this customer.
 		/// </summary>
-		public TC57CIM.IEC61968.Work.Work Works;
+		public TC57CIM.IEC61968.Work.Work? Works;
 		/// <summary>
 		/// The erp persons
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfCommon.OldPerson ErpPersons;
+		public TC57CIM.IEC61968.InfIEC61968.InfCommon.OldPerson? ErpPersons;
 		/// <summary>
 		/// All agreements of this customer.
 		/// </summary>
-		public TC57CIM.IEC61968.Customers.CustomerAgreement CustomerAgreements;
+		public TC57CIM.IEC61968.Customers.CustomerAgreement? CustomerAgreements;
 		/// <summary>
 		/// All accounts of this customer.
 		/// </summary>
-		public TC57CIM.IEC61968.Customers.CustomerAccount CustomerAccounts;
+		public TC57CIM.IEC61968.Customers.CustomerAccount? CustomerAccounts;
 		/// <summary>
 		/// The outage plan that identifies the customers that are affected.
 		/// </summary>
-		public TC57CIM.IEC61968.Operations.OutagePlan OutagePlan;
+		public TC57CIM.IEC61968.Operations.OutagePlan? OutagePlan;
 		/// <summary>
 		/// The person representing the customer
 		/// </summary>
-		public TC57CIM.IEC61968.Common.Person Person;
+		public TC57CIM.IEC61968.Common.Person? Person;
 		/// <summary>
 		/// All customers related to the primary customer.  This may support customer
 		/// hierarchies. (this can be used to support some form of customer containment)
 		/// </summary>
-		public TC57CIM.IEC61968.Customers.Customer Customers;
+		public TC57CIM.IEC61968.Customers.Customer? Customers;
 		/// <summary>
 		/// All end devices of this customer.
 		/// </summary>
-		public TC57CIM.IEC61968.Metering.EndDevice EndDevices;
+		public TC57CIM.IEC61968.Metering.EndDevice? EndDevices;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Customer"/> class

@@ -14,11 +14,11 @@ namespace TC57CIM.IEC61970.Base.Generation.GenerationTrainingSimulation {
 		/// <summary>
 		/// High power limit.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU highPowerLimit;
+		public TC57CIM.IEC61970.Base.Domain.PU? highPowerLimit;
 		/// <summary>
 		/// In-core thermal time constant.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds inCoreThermalTC;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? inCoreThermalTC;
 		/// <summary>
 		/// Integral gain.
 		/// </summary>
@@ -26,15 +26,15 @@ namespace TC57CIM.IEC61970.Base.Generation.GenerationTrainingSimulation {
 		/// <summary>
 		/// Initial lower limit.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU lowerLimit;
+		public TC57CIM.IEC61970.Base.Domain.PU? lowerLimit;
 		/// <summary>
 		/// Low power limit.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU lowPowerLimit;
+		public TC57CIM.IEC61970.Base.Domain.PU? lowPowerLimit;
 		/// <summary>
 		/// Pressure limit.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU pressureLimit;
+		public TC57CIM.IEC61970.Base.Domain.PU? pressureLimit;
 		/// <summary>
 		/// Pressure setpoint gain adjuster.
 		/// </summary>
@@ -42,11 +42,11 @@ namespace TC57CIM.IEC61970.Base.Generation.GenerationTrainingSimulation {
 		/// <summary>
 		/// Pressure setpoint time constant.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds pressureSetpointTC1;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? pressureSetpointTC1;
 		/// <summary>
 		/// Pressure setpoint time constant.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds pressureSetpointTC2;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? pressureSetpointTC2;
 		/// <summary>
 		/// Proportional gain.
 		/// </summary>
@@ -55,46 +55,46 @@ namespace TC57CIM.IEC61970.Base.Generation.GenerationTrainingSimulation {
 		/// Coefficient for modelling the effect of off-nominal frequency and voltage on
 		/// recirculation and core flow, which affects the BWR power output.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU rfAux1;
+		public TC57CIM.IEC61970.Base.Domain.PU? rfAux1;
 		/// <summary>
 		/// Coefficient for modelling the effect of off-nominal frequency and voltage on
 		/// recirculation and core flow, which affects the BWR power output.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU rfAux2;
+		public TC57CIM.IEC61970.Base.Domain.PU? rfAux2;
 		/// <summary>
 		/// Coefficient for modelling the effect of off-nominal frequency and voltage on
 		/// recirculation and core flow, which affects the BWR power output.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU rfAux3;
+		public TC57CIM.IEC61970.Base.Domain.PU? rfAux3;
 		/// <summary>
 		/// Coefficient for modelling the effect of off-nominal frequency and voltage on
 		/// recirculation and core flow, which affects the BWR power output.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU rfAux4;
+		public TC57CIM.IEC61970.Base.Domain.PU? rfAux4;
 		/// <summary>
 		/// Coefficient for modelling the effect of off-nominal frequency and voltage on
 		/// recirculation and core flow, which affects the BWR power output.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU rfAux5;
+		public TC57CIM.IEC61970.Base.Domain.PU? rfAux5;
 		/// <summary>
 		/// Coefficient for modelling the effect of off-nominal frequency and voltage on
 		/// recirculation and core flow, which affects the BWR power output.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU rfAux6;
+		public TC57CIM.IEC61970.Base.Domain.PU? rfAux6;
 		/// <summary>
 		/// Coefficient for modelling the effect of off-nominal frequency and voltage on
 		/// recirculation and core flow, which affects the BWR power output.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU rfAux7;
+		public TC57CIM.IEC61970.Base.Domain.PU? rfAux7;
 		/// <summary>
 		/// Coefficient for modelling the effect of off-nominal frequency and voltage on
 		/// recirculation and core flow, which affects the BWR power output.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU rfAux8;
+		public TC57CIM.IEC61970.Base.Domain.PU? rfAux8;
 		/// <summary>
 		/// Rod pattern.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU rodPattern;
+		public TC57CIM.IEC61970.Base.Domain.PU? rodPattern;
 		/// <summary>
 		/// Constant associated with rod pattern.
 		/// </summary>
@@ -102,7 +102,7 @@ namespace TC57CIM.IEC61970.Base.Generation.GenerationTrainingSimulation {
 		/// <summary>
 		/// Initial upper limit.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU upperLimit;
+		public TC57CIM.IEC61970.Base.Domain.PU? upperLimit;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="BWRSteamSupply"/> class

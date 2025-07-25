@@ -66,7 +66,7 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// <summary>
 		/// Phase voltage controlling this regulator, measured at regulator location.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Core.PhaseCode monitoredPhase;
+		public TC57CIM.IEC61970.Base.Core.PhaseCode? monitoredPhase;
 		/// <summary>
 		/// This is a deadband used with discrete control to avoid excessive update of
 		/// controls like tap changers and shunt compensator banks while regulating.  The
@@ -86,7 +86,7 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// <summary>
 		/// Specify the multiplier for used for the targetValue.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.UnitMultiplier targetValueUnitMultiplier;
+		public TC57CIM.IEC61970.Base.Domain.UnitMultiplier? targetValueUnitMultiplier;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="RegulatingControl"/> class

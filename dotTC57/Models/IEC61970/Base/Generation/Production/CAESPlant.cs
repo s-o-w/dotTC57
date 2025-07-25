@@ -15,21 +15,21 @@ namespace TC57CIM.IEC61970.Base.Generation.Production {
 		/// <summary>
 		/// The rated energy storage capacity. The attribute shall be a positive value.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.RealEnergy energyStorageCapacity;
+		public TC57CIM.IEC61970.Base.Domain.RealEnergy? energyStorageCapacity;
 		/// <summary>
 		/// The CAES plant's gross rated generating capacity. The attribute shall be a
 		/// positive value.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower ratedCapacityP;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? ratedCapacityP;
 		/// <summary>
 		/// A thermal generating unit may be a member of a compressed air energy storage
 		/// plant.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Generation.Production.ThermalGeneratingUnit ThermalGeneratingUnit;
+		public TC57CIM.IEC61970.Base.Generation.Production.ThermalGeneratingUnit? ThermalGeneratingUnit;
 		/// <summary>
 		/// An air compressor may be a member of a compressed air energy storage plant.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Generation.Production.AirCompressor AirCompressor;
+		public TC57CIM.IEC61970.Base.Generation.Production.AirCompressor? AirCompressor;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="CAESPlant"/> class

@@ -20,7 +20,7 @@ namespace TC57CIM.IEC61968.AssetInfo.Assets {
 		/// <summary>
 		/// Information on acceptance test.
 		/// </summary>
-		public AcceptanceTest acceptanceTest;
+		public AcceptanceTest? acceptanceTest;
 		/// <summary>
 		/// True if asset is considered critical for some reason (for example, a pole with
 		/// critical attachments).
@@ -29,23 +29,23 @@ namespace TC57CIM.IEC61968.AssetInfo.Assets {
 		/// <summary>
 		/// Electronic address.
 		/// </summary>
-		public TC57CIM.IEC61968.Common.ElectronicAddress electronicAddress;
+		public TC57CIM.IEC61968.Common.ElectronicAddress? electronicAddress;
 		/// <summary>
 		/// Condition of asset at last baseline. Examples include new, rebuilt, overhaul
 		/// required, other. Refer to inspection data for information on the most current
 		/// condition of the asset.
 		/// </summary>
-		public string initialCondition;
+		public string? initialCondition;
 		/// <summary>
 		/// Percentage of initial life expectancy that has been lost as of the last life
 		/// expectancy baseline. Represents
 		/// (initial life expectancy - current life expectancy) / initial life expectancy.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PerCent initialLossOfLife;
+		public TC57CIM.IEC61970.Base.Domain.PerCent? initialLossOfLife;
 		/// <summary>
 		/// In use dates for this asset.
 		/// </summary>
-		public InUseDate inUseDate;
+		public InUseDate? inUseDate;
 		/// <summary>
 		/// Indication of whether asset is currently deployed (in use), ready to be put
 		/// into use or not available for use.
@@ -57,10 +57,9 @@ namespace TC57CIM.IEC61968.AssetInfo.Assets {
 		/// </summary>
 		public AssetKind kind;
 		/// <summary>
-		/// <was lifecycle>
 		/// Lifecycle dates for this asset.
 		/// </summary>
-		public LifecycleDate lifecycleDate;
+		public LifecycleDate? lifecycleDate;
 		/// <summary>
 		/// Current lifecycle state of asset.
 		/// </summary>
@@ -69,16 +68,16 @@ namespace TC57CIM.IEC61968.AssetInfo.Assets {
 		/// Lot number for this asset. Even for the same model and version number, many
 		/// assets are manufactured in lots.
 		/// </summary>
-		public string lotNumber;
+		public string? lotNumber;
 		/// <summary>
 		/// Position of asset or asset component. May often be in relation to other assets
 		/// or components.
 		/// </summary>
-		public string position;
+		public string? position;
 		/// <summary>
 		/// Purchase price of asset.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Money purchasePrice;
+		public TC57CIM.IEC61970.Base.Domain.Money? purchasePrice;
 		/// <summary>
 		/// Reason asset retired.
 		/// </summary>
@@ -86,83 +85,83 @@ namespace TC57CIM.IEC61968.AssetInfo.Assets {
 		/// <summary>
 		/// Serial number of this asset.
 		/// </summary>
-		public string serialNumber;
+		public string? serialNumber;
 		/// <summary>
 		/// Status of this asset.
 		/// </summary>
-		public TC57CIM.IEC61968.Common.Status status;
+		public TC57CIM.IEC61968.Common.Status? status;
 		/// <summary>
 		/// Utility-specific classification of Asset and its subtypes, according to their
 		/// corporate standards, practices, and existing IT systems (e.g., for management
 		/// of assets, maintenance, work, outage, customers, etc.).
 		/// </summary>
-		public string type;
+		public string? type;
 		/// <summary>
 		/// Uniquely tracked commodity (UTC) number.
 		/// </summary>
-		public string utcNumber;
+		public string? utcNumber;
 		/// <summary>
 		/// Location of this asset.
 		/// </summary>
-		public TC57CIM.IEC61968.Common.Location Location;
+		public TC57CIM.IEC61968.Common.Location? Location;
 		/// <summary>
 		/// Measurement related to this asset.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Meas.Measurement Measurements;
+		public TC57CIM.IEC61970.Base.Meas.Measurement? Measurements;
 		/// <summary>
 		/// Data applicable to this asset.
 		/// </summary>
-		public TC57CIM.IEC61968.AssetInfo.Assets.AssetInfo AssetInfo;
+		public TC57CIM.IEC61968.AssetInfo.Assets.AssetInfo? AssetInfo;
 		/// <summary>
 		/// The reconditionings
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfAssets.Reconditioning Reconditionings;
+		public TC57CIM.IEC61968.InfIEC61968.InfAssets.Reconditioning? Reconditionings;
 		/// <summary>
 		/// The model of this asset.
 		/// </summary>
-		public TC57CIM.IEC61968.AssetInfo.Assets.ProductAssetModel ProductAssetModel;
+		public TC57CIM.IEC61968.AssetInfo.Assets.ProductAssetModel? ProductAssetModel;
 		/// <summary>
 		/// This asset's deployment.
 		/// </summary>
-		public TC57CIM.IEC61968.AssetInfo.Assets.AssetDeployment AssetDeployment;
+		public TC57CIM.IEC61968.AssetInfo.Assets.AssetDeployment? AssetDeployment;
 		/// <summary>
 		/// The erp rec delivery items
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfERPSupport.ErpRecDelvLineItem ErpRecDeliveryItems;
+		public TC57CIM.IEC61968.InfIEC61968.InfERPSupport.ErpRecDelvLineItem? ErpRecDeliveryItems;
 		/// <summary>
 		/// All configuration events created for this asset.
 		/// </summary>
-		public TC57CIM.IEC61968.Common.ConfigurationEvent ConfigurationEvents;
+		public TC57CIM.IEC61968.Common.ConfigurationEvent? ConfigurationEvents;
 		/// <summary>
 		/// The asset property curves
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfAssets.AssetPropertyCurve AssetPropertyCurves;
+		public TC57CIM.IEC61968.InfIEC61968.InfAssets.AssetPropertyCurve? AssetPropertyCurves;
 		/// <summary>
 		/// Container of this asset.
 		/// </summary>
-		public TC57CIM.IEC61968.AssetInfo.Assets.AssetContainer AssetContainer;
+		public TC57CIM.IEC61968.AssetInfo.Assets.AssetContainer? AssetContainer;
 		/// <summary>
 		/// All power system resources used to electrically model this asset. For example,
 		/// transformer asset is electrically modelled with a transformer and its windings
 		/// and tap changer.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Core.PowerSystemResource PowerSystemResources;
+		public TC57CIM.IEC61970.Base.Core.PowerSystemResource? PowerSystemResources;
 		/// <summary>
 		/// Function performed by this asset.
 		/// </summary>
-		public TC57CIM.IEC61968.AssetInfo.Assets.AssetFunction AssetFunction;
+		public TC57CIM.IEC61968.AssetInfo.Assets.AssetFunction? AssetFunction;
 		/// <summary>
 		/// All activity records created for this asset.
 		/// </summary>
-		public TC57CIM.IEC61968.Common.ActivityRecord ActivityRecords;
+		public TC57CIM.IEC61968.Common.ActivityRecord? ActivityRecords;
 		/// <summary>
 		/// All roles an organisation plays for this asset.
 		/// </summary>
-		public TC57CIM.IEC61968.AssetInfo.Assets.AssetOrganisationRole OrganisationRoles;
+		public TC57CIM.IEC61968.AssetInfo.Assets.AssetOrganisationRole? OrganisationRoles;
 		/// <summary>
 		/// The erp inventory
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfERPSupport.ErpInventory ErpInventory;
+		public TC57CIM.IEC61968.InfIEC61968.InfERPSupport.ErpInventory? ErpInventory;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Asset"/> class

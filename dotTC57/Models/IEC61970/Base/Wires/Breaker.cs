@@ -17,7 +17,7 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// <summary>
 		/// The transition time from open to close.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds inTransitTime;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? inTransitTime;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Breaker"/> class

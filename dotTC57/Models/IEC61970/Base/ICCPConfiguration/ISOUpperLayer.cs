@@ -16,16 +16,16 @@ namespace TC57CIM.IEC61970.Base.ICCPConfiguration {
 		/// <summary>
 		/// Is part of the Application Entity addressing as specified by ISO Addressing.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer aeInvoke;
+		public TC57CIM.IEC61970.Base.Domain.Integer? aeInvoke;
 		/// <summary>
 		/// Is the AE qualifier and represents further application level addressing
 		/// information.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer aeQual;
+		public TC57CIM.IEC61970.Base.Domain.Integer? aeQual;
 		/// <summary>
 		/// Is a further application level OSI addressing parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer apInvoke;
+		public TC57CIM.IEC61970.Base.Domain.Integer? apInvoke;
 		/// <summary>
 		/// Is a sequence of integer strings separated by ".".  The value, in conjunction
 		/// with other application addressing attributes (e.g. other APs) are used to
@@ -33,19 +33,19 @@ namespace TC57CIM.IEC61970.Base.ICCPConfiguration {
 		/// reference model.  The sequence, and its values, represent a namespace whose
 		/// values are governed by ISO/IEC 7498-3.
 		/// </summary>
-		public string apTitle;
+		public string? apTitle;
 		/// <summary>
 		/// Is the addressing selector for OSI presentation addressing.
 		/// </summary>
-		public string osiPsel;
+		public string? osiPsel;
 		/// <summary>
 		/// Is the OSI session layer addressing information.
 		/// </summary>
-		public string osiSsel;
+		public string? osiSsel;
 		/// <summary>
 		/// Is the OSI Transport Layer addressing information.
 		/// </summary>
-		public string osiTsel;
+		public string? osiTsel;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ISOUpperLayer"/> class

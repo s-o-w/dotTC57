@@ -23,14 +23,14 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// When the increment is negative, the voltage decreases when the tap step
 		/// increases.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PerCent voltageStepIncrement;
+		public TC57CIM.IEC61970.Base.Domain.PerCent? voltageStepIncrement;
 		/// <summary>
 		/// The reactance depends on the tap position according to a "u" shaped curve. The
 		/// maximum reactance (xMax) appears at the low and high tap positions. Depending
 		/// on the �u� curve the attribute can be either higher or lower than
 		/// PowerTransformerEnd.x.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Reactance xMax;
+		public TC57CIM.IEC61970.Base.Domain.Reactance? xMax;
 		/// <summary>
 		/// The reactance depend on the tap position according to a "u" shaped curve. The
 		/// minimum reactance (xMin) appear at the mid tap position.   PowerTransformerEnd.
@@ -38,7 +38,7 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// PhaseTapChangerNonLinear.xMin. In case of inconsistency, PowerTransformerEnd.x
 		/// shall be used.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Reactance xMin;
+		public TC57CIM.IEC61970.Base.Domain.Reactance? xMin;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="PhaseTapChangerNonLinear"/> class

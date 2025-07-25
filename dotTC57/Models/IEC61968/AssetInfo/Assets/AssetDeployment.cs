@@ -21,7 +21,7 @@ namespace TC57CIM.IEC61968.AssetInfo.Assets {
 		/// <summary>
 		/// Dates of asset deployment.
 		/// </summary>
-		public DeploymentDate deploymentDate;
+		public DeploymentDate? deploymentDate;
 		/// <summary>
 		/// Current deployment state of asset.
 		/// </summary>
@@ -34,7 +34,7 @@ namespace TC57CIM.IEC61968.AssetInfo.Assets {
 		/// <summary>
 		/// Likelihood of asset failure on a scale of 1(low) to 100 (high).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer likelihoodOfFailure;
+		public TC57CIM.IEC61970.Base.Domain.Integer? likelihoodOfFailure;
 		/// <summary>
 		/// Type of network role transformer is playing in this deployment (applies to
 		/// transformer assets only).
@@ -43,7 +43,7 @@ namespace TC57CIM.IEC61968.AssetInfo.Assets {
 		/// <summary>
 		/// Base voltage of this network asset deployment.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Core.BaseVoltage BaseVoltage;
+		public TC57CIM.IEC61970.Base.Core.BaseVoltage? BaseVoltage;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="AssetDeployment"/> class

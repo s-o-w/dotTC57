@@ -18,23 +18,23 @@ namespace TC57CIM.IEC61968.PaymentMetering {
 		/// electronic financial transactions, as defined in ISO/IEC 7812-1 and ISO/IEC
 		/// 7812-2.
 		/// </summary>
-		public string issuerIdentificationNumber;
+		public string? issuerIdentificationNumber;
 		/// <summary>
 		/// Kind of supplier.
 		/// </summary>
-		public SupplierKind kind;
+		public SupplierKind? kind;
 		/// <summary>
 		/// All customer agreements of this service supplier.
 		/// </summary>
-		public TC57CIM.IEC61968.Customers.CustomerAgreement CustomerAgreements;
+		public TC57CIM.IEC61968.Customers.CustomerAgreement? CustomerAgreements;
 		/// <summary>
 		/// All usage points this service supplier utilises to deliver a service.
 		/// </summary>
-		public TC57CIM.IEC61968.Metering.UsagePoint UsagePoints;
+		public TC57CIM.IEC61968.Metering.UsagePoint? UsagePoints;
 		/// <summary>
 		/// All BackAccounts this ServiceSupplier owns.
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfCommon.BankAccount BankAccounts;
+		public TC57CIM.IEC61968.InfIEC61968.InfCommon.BankAccount? BankAccounts;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ServiceSupplier"/> class

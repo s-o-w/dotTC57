@@ -14,15 +14,15 @@ namespace TC57CIM.IEC61970.Base.Generation.GenerationTrainingSimulation {
 		/// <summary>
 		/// Crossover time constant.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds crossoverTC;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? crossoverTC;
 		/// <summary>
 		/// First reheater time constant.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds reheater1TC;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? reheater1TC;
 		/// <summary>
 		/// Second reheater time constant.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds reheater2TC;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? reheater2TC;
 		/// <summary>
 		/// Fraction of power from shaft 1 high pressure turbine output.
 		/// </summary>
@@ -58,7 +58,7 @@ namespace TC57CIM.IEC61970.Base.Generation.GenerationTrainingSimulation {
 		/// <summary>
 		/// Steam chest time constant.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds steamChestTC;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? steamChestTC;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="SteamTurbine"/> class

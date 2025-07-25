@@ -15,19 +15,14 @@ namespace TC57CIM.IEC61968.Customers {
 	public class TroubleTicket : Document {
 
 		/// <summary>
-		/// Free-form comment associated with the trouble call for example, "customer
-		/// reported a large flash", etc.
-		/// </summary>
-		public string comment;
-		/// <summary>
 		/// Date and time the trouble has been reported.
 		/// </summary>
-		public System.DateTime dateTimeOfReport;
+		public System.DateTime? dateTimeOfReport;
 		/// <summary>
 		/// Indicates whether the first responder such as police, fire department etc.has
 		/// been notified and whether they are on site or en route.
 		/// </summary>
-		public string firstResponderStatus;
+		public string? firstResponderStatus;
 		/// <summary>
 		/// Set to true if the outage report indicated that other neighbors are also out of
 		/// power.
@@ -36,31 +31,31 @@ namespace TC57CIM.IEC61968.Customers {
 		/// <summary>
 		/// Indicates how the customer reported trouble.
 		/// </summary>
-		public Tariff.TroubleReportingKind reportingKind;
+		public Tariff.TroubleReportingKind? reportingKind;
 		/// <summary>
 		/// Date and time this trouble ticket has been resolved.
 		/// </summary>
-		public System.DateTime resolvedDateTime;
+		public System.DateTime? resolvedDateTime;
 		/// <summary>
 		/// Trouble code (e.g., power down, flickering lights, partial power, etc).
 		/// </summary>
-		public string troubleCode;
+		public string? troubleCode;
 		/// <summary>
 		/// Incident reported in this trouble ticket
 		/// </summary>
-		public TC57CIM.IEC61968.Operations.Incident Incident;
+		public TC57CIM.IEC61968.Operations.Incident? Incident;
 		/// <summary>
 		/// The location
 		/// </summary>
-		public TC57CIM.IEC61968.Common.Location Location;
+		public TC57CIM.IEC61968.Common.Location? Location;
 		/// <summary>
 		/// Customer for whom this trouble ticket is relevant.
 		/// </summary>
-		public TC57CIM.IEC61968.Customers.Customer Customer;
+		public TC57CIM.IEC61968.Customers.Customer? Customer;
 		/// <summary>
 		/// All hazards reported with this trouble ticket.
 		/// </summary>
-		public TC57CIM.IEC61968.Customers.IncidentHazard IncidentHazard;
+		public TC57CIM.IEC61968.Customers.IncidentHazard? IncidentHazard;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="TroubleTicket"/> class

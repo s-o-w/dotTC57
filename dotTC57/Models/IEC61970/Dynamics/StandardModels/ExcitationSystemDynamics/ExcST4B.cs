@@ -17,36 +17,36 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.ExcitationSystemDynamics {
 		/// Rectifier loading factor proportional to commutating reactance (<i>Kc</i>) (>=
 		/// 0). Typical value = 0,113.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kc;
+		public TC57CIM.IEC61970.Base.Domain.PU? kc;
 		/// <summary>
 		/// Feedback gain constant of the inner loop field regulator (<i>Kg</i>) (>= 0).
 		/// Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kg;
+		public TC57CIM.IEC61970.Base.Domain.PU? kg;
 		/// <summary>
 		/// Potential circuit gain coefficient (<i>Ki</i>) (>= 0).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU ki;
+		public TC57CIM.IEC61970.Base.Domain.PU? ki;
 		/// <summary>
 		/// Voltage regulator integral gain output (<i>Kim</i>).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kim;
+		public TC57CIM.IEC61970.Base.Domain.PU? kim;
 		/// <summary>
 		/// Voltage regulator integral gain (<i>Kir</i>).  Typical value = 10,75.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kir;
+		public TC57CIM.IEC61970.Base.Domain.PU? kir;
 		/// <summary>
 		/// Potential circuit gain coefficient (<i>Kp</i>) (> 0).  Typical value = 9,3.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kp;
+		public TC57CIM.IEC61970.Base.Domain.PU? kp;
 		/// <summary>
 		/// Voltage regulator proportional gain output (<i>Kpm</i>).  Typical value = 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kpm;
+		public TC57CIM.IEC61970.Base.Domain.PU? kpm;
 		/// <summary>
 		/// Voltage regulator proportional gain (<i>Kpr</i>).  Typical value = 10,75.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kpr;
+		public TC57CIM.IEC61970.Base.Domain.PU? kpr;
 		/// <summary>
 		/// Selector (<i>LVGate</i>).
 		/// true = <i>LVGate</i> is part of the block diagram
@@ -57,12 +57,12 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.ExcitationSystemDynamics {
 		/// <summary>
 		/// Voltage regulator time constant (<i>Ta</i>) (>= 0).  Typical value = 0,02.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds ta;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? ta;
 		/// <summary>
 		/// Potential circuit phase angle (<i>theta</i><i><sub>p</sub></i>).  Typical value
 		/// = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.AngleDegrees thetap;
+		public TC57CIM.IEC61970.Base.Domain.AngleDegrees? thetap;
 		/// <summary>
 		/// Selector (<i>UEL</i>).
 		/// true = <i>UEL</i> is part of block diagram
@@ -73,35 +73,33 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.ExcitationSystemDynamics {
 		/// <summary>
 		/// Maximum excitation voltage (<i>Vbmax</i>) (> 0).  Typical value = 11,63.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vbmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? vbmax;
 		/// <summary>
 		/// Maximum inner loop feedback voltage (<i>Vgmax</i>) (>= 0).  Typical value = 5,8.
 		///
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vgmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? vgmax;
 		/// <summary>
-		/// Maximum inner loop output (<i>Vmmax</i>) (> ExcST4B.vmmin).  Typical value = 99.
-		///
+		/// Maximum inner loop output (<i>Vmmax</i>) (greater than ExcST4B.vmmin).  Typical value = 99.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vmmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? vmmax;
 		/// <summary>
-		/// Minimum inner loop output (<i>Vmmin</i>) (< ExcST4B.vmmax).  Typical value = -
-		/// 99.
+		/// Minimum inner loop output (<i>Vmmin</i>) (less than ExcST4B.vmmax).  Typical value = -99.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vmmin;
+		public TC57CIM.IEC61970.Base.Domain.PU? vmmin;
 		/// <summary>
-		/// Maximum voltage regulator output (<i>Vrmax</i>) (> 0).  Typical value = 1.
+		/// Maximum voltage regulator output (<i>Vrmax</i>) (greater than 0).  Typical value = 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vrmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? vrmax;
 		/// <summary>
-		/// Minimum voltage regulator output (<i>Vrmin</i>) (< 0).  Typical value = -0,87.
+		/// Minimum voltage regulator output (<i>Vrmin</i>) (less than 0).  Typical value = -0,87.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vrmin;
+		public TC57CIM.IEC61970.Base.Domain.PU? vrmin;
 		/// <summary>
-		/// Reactance associated with potential source (<i>Xl</i>) (>= 0).  Typical value =
+		/// Reactance associated with potential source (<i>Xl</i>) (greater than or equal to 0).  Typical value =
 		/// 0,124.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU xl;
+		public TC57CIM.IEC61970.Base.Domain.PU? xl;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ExcST4B"/> class

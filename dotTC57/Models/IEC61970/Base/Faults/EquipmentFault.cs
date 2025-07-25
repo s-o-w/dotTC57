@@ -16,7 +16,7 @@ namespace TC57CIM.IEC61970.Base.Faults {
 		/// <summary>
 		/// The terminal connecting to the bus to which the fault is applied.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Core.Terminal Terminal;
+		public TC57CIM.IEC61970.Base.Core.Terminal? Terminal;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="EquipmentFault"/> class

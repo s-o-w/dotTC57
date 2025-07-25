@@ -23,7 +23,7 @@ namespace TC57CIM.IEC61970.Base.Domain {
 		/// <summary>
 		/// Value of this quantity.
 		/// </summary>
-		public String value;
+		public String? value;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="StringQuantity"/> class

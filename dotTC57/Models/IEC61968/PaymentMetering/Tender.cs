@@ -22,12 +22,12 @@ namespace TC57CIM.IEC61968.PaymentMetering {
 		/// <summary>
 		/// Amount tendered by customer.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Money amount;
+		public TC57CIM.IEC61970.Base.Domain.Money? amount;
 		/// <summary>
 		/// Difference between amount tendered by customer and the amount charged by point
 		/// of sale.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Money change;
+		public TC57CIM.IEC61970.Base.Domain.Money? change;
 		/// <summary>
 		/// Kind of tender from customer.
 		/// </summary>
@@ -35,7 +35,7 @@ namespace TC57CIM.IEC61968.PaymentMetering {
 		/// <summary>
 		/// Receipt that recorded this receiving of a payment in the form of tenders.
 		/// </summary>
-		public TC57CIM.IEC61968.PaymentMetering.Receipt Receipt;
+		public TC57CIM.IEC61968.PaymentMetering.Receipt? Receipt;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Tender"/> class

@@ -18,7 +18,7 @@ namespace TC57CIM.IEC61970.Base.Core {
 		/// equipment that operates on discrete values (integer), the values given in float
 		/// will be rounded.
 		/// </summary>
-		public TC57CIM.IEC61970.InfIEC61970.InfSIPS.ProtectiveActionAdjustment ProtectiveActionAdjustment;
+		public TC57CIM.IEC61970.InfIEC61970.InfSIPS.ProtectiveActionAdjustment? ProtectiveActionAdjustment;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ConductingEquipment"/> class

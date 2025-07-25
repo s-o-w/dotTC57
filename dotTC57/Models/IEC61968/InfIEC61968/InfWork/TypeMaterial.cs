@@ -24,17 +24,17 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfWork {
 		/// <summary>
 		/// The type of cost to which this Material Item belongs.
 		/// </summary>
-		public string costType;
+		public string? costType;
 		/// <summary>
 		/// The estimated unit cost of this type of material, either for a unit cost or
 		/// cost per unit length. Cost is for material or asset only and does not include
 		/// labor to install/construct or configure it.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Money estUnitCost;
+		public TC57CIM.IEC61970.Base.Domain.Money? estUnitCost;
 		/// <summary>
 		/// The value, unit of measure, and multiplier for the quantity.
 		/// </summary>
-		public string quantity;
+		public string? quantity;
 		/// <summary>
 		/// True if item is a stock item (default).
 		/// </summary>
@@ -42,11 +42,11 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfWork {
 		/// <summary>
 		/// The material items
 		/// </summary>
-		public TC57CIM.IEC61968.Work.MaterialItem MaterialItems;
+		public TC57CIM.IEC61968.Work.MaterialItem? MaterialItems;
 		/// <summary>
 		/// The erp req line items
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfERPSupport.ErpReqLineItem ErpReqLineItems;
+		public TC57CIM.IEC61968.InfIEC61968.InfERPSupport.ErpReqLineItem? ErpReqLineItems;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="TypeMaterial"/> class

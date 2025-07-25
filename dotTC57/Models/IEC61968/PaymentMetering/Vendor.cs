@@ -19,7 +19,7 @@ namespace TC57CIM.IEC61968.PaymentMetering {
 		/// <summary>
 		/// All vendor shifts opened and owned by this vendor.
 		/// </summary>
-		public TC57CIM.IEC61968.PaymentMetering.VendorShift VendorShifts;
+		public TC57CIM.IEC61968.PaymentMetering.VendorShift? VendorShifts;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Vendor"/> class

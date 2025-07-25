@@ -16,35 +16,35 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.TurbineGovernorDynamics {
 		/// Frequency deadband (<i>f</i><i><sub>cut</sub></i>) (>= 0).  Typical value = 0,
 		/// 002.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU fcut;
+		public TC57CIM.IEC61970.Base.Domain.PU? fcut;
 		/// <summary>
 		/// Gain (<i>K2</i>).  Typical value = 0,75.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU k2;
+		public TC57CIM.IEC61970.Base.Domain.PU? k2;
 		/// <summary>
 		/// Gain (<i>K3</i>).  Typical value = 0,5.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU k3;
+		public TC57CIM.IEC61970.Base.Domain.PU? k3;
 		/// <summary>
 		/// Gain (<i>Kd</i>).  Typical value = 1,0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kd;
+		public TC57CIM.IEC61970.Base.Domain.PU? kd;
 		/// <summary>
 		/// Gain (<i>Kg</i>).  Typical value = 1,0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kg;
+		public TC57CIM.IEC61970.Base.Domain.PU? kg;
 		/// <summary>
 		/// Gain (<i>Kls</i>) (> 0).  Typical value = 0,1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kls;
+		public TC57CIM.IEC61970.Base.Domain.PU? kls;
 		/// <summary>
 		/// Gain (<i>Kp</i>).  Typical value = 1,0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kp;
+		public TC57CIM.IEC61970.Base.Domain.PU? kp;
 		/// <summary>
 		/// Gain (<i>Ks</i>).  Typical value = 21,0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU ks;
+		public TC57CIM.IEC61970.Base.Domain.PU? ks;
 		/// <summary>
 		/// Electric power input selection (Peflag).
 		/// true = electric power input
@@ -55,35 +55,35 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.TurbineGovernorDynamics {
 		/// <summary>
 		/// High power limit (<i>Pmax</i>) (> GovSteamBB.pmin).  Typical value = 1,0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU pmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? pmax;
 		/// <summary>
-		/// Low power limit (<i>Pmin</i>) (< GovSteamBB.pmax).  Typical value = 0.
+		/// Low power limit (<i>Pmin</i>) (&lt; GovSteamBB.pmax).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU pmin;
+		public TC57CIM.IEC61970.Base.Domain.PU? pmin;
 		/// <summary>
 		/// Time constant (<i>T1</i>).  Typical value = 0,05.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t1;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t1;
 		/// <summary>
 		/// Time constant (<i>T4</i>).  Typical value = 0,15.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t4;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t4;
 		/// <summary>
 		/// Time constant (<i>T5</i>).  Typical value = 12,0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t5;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t5;
 		/// <summary>
 		/// Time constant (<i>T6</i>).  Typical value = 0,75.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t6;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t6;
 		/// <summary>
 		/// Time constant (<i>Td</i>) (> 0).  Typical value = 1,0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds td;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? td;
 		/// <summary>
 		/// Time constant (<i>Tn</i>) (> 0).  Typical value = 1,0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tn;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tn;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="GovSteamBB"/> class

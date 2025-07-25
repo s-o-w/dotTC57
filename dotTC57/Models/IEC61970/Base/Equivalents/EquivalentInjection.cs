@@ -16,53 +16,53 @@ namespace TC57CIM.IEC61970.Base.Equivalents {
 		/// <summary>
 		/// Maximum active power of the injection.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower maxP;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? maxP;
 		/// <summary>
 		/// Maximum reactive power of the injection.  Used for modelling of infeed for load
 		/// flow exchange. Not used for short circuit modelling.  If maxQ and minQ are not
 		/// used ReactiveCapabilityCurve can be used.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ReactivePower maxQ;
+		public TC57CIM.IEC61970.Base.Domain.ReactivePower? maxQ;
 		/// <summary>
 		/// Minimum active power of the injection.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower minP;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? minP;
 		/// <summary>
 		/// Minimum reactive power of the injection.  Used for modelling of infeed for load
 		/// flow exchange. Not used for short circuit modelling.  If maxQ and minQ are not
 		/// used ReactiveCapabilityCurve can be used.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ReactivePower minQ;
+		public TC57CIM.IEC61970.Base.Domain.ReactivePower? minQ;
 		/// <summary>
 		/// Equivalent active power injection. Load sign convention is used, i.e. positive
 		/// sign means flow out from a node.
 		/// Starting value for steady state solutions.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower p;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? p;
 		/// <summary>
 		/// Equivalent reactive power injection. Load sign convention is used, i.e.
 		/// positive sign means flow out from a node.
 		/// Starting value for steady state solutions.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ReactivePower q;
+		public TC57CIM.IEC61970.Base.Domain.ReactivePower? q;
 		/// <summary>
 		/// Positive sequence resistance. Used to represent Extended-Ward (IEC 60909).
 		/// Usage : Extended-Ward is a result of network reduction prior to the data
 		/// exchange.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Resistance r;
+		public TC57CIM.IEC61970.Base.Domain.Resistance? r;
 		/// <summary>
 		/// Zero sequence resistance. Used to represent Extended-Ward (IEC 60909).
 		/// Usage : Extended-Ward is a result of network reduction prior to the data
 		/// exchange.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Resistance r0;
+		public TC57CIM.IEC61970.Base.Domain.Resistance? r0;
 		/// <summary>
 		/// Negative sequence resistance. Used to represent Extended-Ward (IEC 60909).
 		/// Usage : Extended-Ward is a result of network reduction prior to the data
 		/// exchange.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Resistance r2;
+		public TC57CIM.IEC61970.Base.Domain.Resistance? r2;
 		/// <summary>
 		/// Specifies whether or not the EquivalentInjection has the capability to regulate
 		/// the local voltage. If true the EquivalentInjection can regulate. If false the
@@ -79,25 +79,25 @@ namespace TC57CIM.IEC61970.Base.Equivalents {
 		/// The target voltage for voltage regulation. The attribute shall be a positive
 		/// value.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Voltage regulationTarget;
+		public TC57CIM.IEC61970.Base.Domain.Voltage? regulationTarget;
 		/// <summary>
 		/// Positive sequence reactance. Used to represent Extended-Ward (IEC 60909).
 		/// Usage : Extended-Ward is a result of network reduction prior to the data
 		/// exchange.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Reactance x;
+		public TC57CIM.IEC61970.Base.Domain.Reactance? x;
 		/// <summary>
 		/// Zero sequence reactance. Used to represent Extended-Ward (IEC 60909).
 		/// Usage : Extended-Ward is a result of network reduction prior to the data
 		/// exchange.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Reactance x0;
+		public TC57CIM.IEC61970.Base.Domain.Reactance? x0;
 		/// <summary>
 		/// Negative sequence reactance. Used to represent Extended-Ward (IEC 60909).
 		/// Usage : Extended-Ward is a result of network reduction prior to the data
 		/// exchange.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Reactance x2;
+		public TC57CIM.IEC61970.Base.Domain.Reactance? x2;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="EquivalentInjection"/> class

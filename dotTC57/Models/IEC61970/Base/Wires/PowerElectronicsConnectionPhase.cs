@@ -17,7 +17,7 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// Active power injection. Load sign convention is used, i.e. positive sign means
 		/// flow into the equipment from the network.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower p;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? p;
 		/// <summary>
 		/// Phase of this energy producer component.   If the energy producer is wye
 		/// connected, the connection is from the indicated phase to the central ground or
@@ -30,7 +30,7 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// Reactive power injection. Load sign convention is used, i.e. positive sign
 		/// means flow into the equipment from the network.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ReactivePower q;
+		public TC57CIM.IEC61970.Base.Domain.ReactivePower? q;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="PowerElectronicsConnectionPhase"/> class

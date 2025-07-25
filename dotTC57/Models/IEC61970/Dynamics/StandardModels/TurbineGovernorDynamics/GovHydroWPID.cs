@@ -19,93 +19,93 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.TurbineGovernorDynamics {
 		/// <summary>
 		/// Turbine damping factor (<i>D</i>).  Unit = delta P / delta speed.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU d;
+		public TC57CIM.IEC61970.Base.Domain.PU? d;
 		/// <summary>
 		/// Gate opening limit maximum (<i>Gatmax</i>) (> GovHydroWPID.gatmin).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU gatmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? gatmax;
 		/// <summary>
-		/// Gate opening limit minimum (<i>Gatmin</i>) (< GovHydroWPID.gatmax).
+		/// Gate opening limit minimum (<i>Gatmin</i>) (&lt; GovHydroWPID.gatmax).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU gatmin;
+		public TC57CIM.IEC61970.Base.Domain.PU? gatmin;
 		/// <summary>
 		/// Gate position 1 (<i>Gv1</i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU gv1;
+		public TC57CIM.IEC61970.Base.Domain.PU? gv1;
 		/// <summary>
 		/// Gate position 2 (<i>Gv2</i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU gv2;
+		public TC57CIM.IEC61970.Base.Domain.PU? gv2;
 		/// <summary>
 		/// Gate position 3 (<i>Gv3</i>) (= 1,0).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU gv3;
+		public TC57CIM.IEC61970.Base.Domain.PU? gv3;
 		/// <summary>
 		/// Derivative gain (<i>Kd</i>).  Typical value = 1,11.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kd;
+		public TC57CIM.IEC61970.Base.Domain.PU? kd;
 		/// <summary>
 		/// Reset gain (<i>Ki</i>).  Typical value = 0,36.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU ki;
+		public TC57CIM.IEC61970.Base.Domain.PU? ki;
 		/// <summary>
 		/// Proportional gain (<i>Kp</i>).  Typical value = 0,1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kp;
+		public TC57CIM.IEC61970.Base.Domain.PU? kp;
 		/// <summary>
 		/// Base for power values  (<i>MWbase</i>) (> 0).  Unit = MW.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower mwbase;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? mwbase;
 		/// <summary>
 		/// Output at <i>Gv1</i> PU of <i>MWbase</i> (<i>Pgv1</i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU pgv1;
+		public TC57CIM.IEC61970.Base.Domain.PU? pgv1;
 		/// <summary>
 		/// Output at <i>Gv2</i> PU of <i>MWbase</i> (<i>Pgv2</i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU pgv2;
+		public TC57CIM.IEC61970.Base.Domain.PU? pgv2;
 		/// <summary>
 		/// Output at <i>Gv3</i> PU of <i>MWbase</i> (<i>Pgv3</i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU pgv3;
+		public TC57CIM.IEC61970.Base.Domain.PU? pgv3;
 		/// <summary>
 		/// Maximum power output (<i>Pmax</i>) (> GovHydroWPID.pmin).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU pmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? pmax;
 		/// <summary>
-		/// Minimum power output (<i>Pmin</i>) (< GovHydroWPID.pmax).
+		/// Minimum power output (<i>Pmin</i>) (&lt; GovHydroWPID.pmax).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU pmin;
+		public TC57CIM.IEC61970.Base.Domain.PU? pmin;
 		/// <summary>
 		/// Permanent drop (<i>Reg</i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU reg;
+		public TC57CIM.IEC61970.Base.Domain.PU? reg;
 		/// <summary>
 		/// Controller time constant (<i>Ta</i>) (>= 0).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds ta;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? ta;
 		/// <summary>
 		/// Gate servo time constant (<i>Tb</i>) (>= 0).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tb;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tb;
 		/// <summary>
 		/// Speed detector time constant (<i>Treg</i>) (>= 0).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds treg;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? treg;
 		/// <summary>
 		/// Water inertia time constant (<i>Tw</i>) (>= 0).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tw;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tw;
 		/// <summary>
 		/// Maximum gate opening velocity (<i>Velmax</i>) (> GovHydroWPID.velmin).  Unit =
 		/// PU / s.  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU velmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? velmax;
 		/// <summary>
-		/// Maximum gate closing velocity (<i>Velmin</i>) (< GovHydroWPID.velmax).  Unit =
+		/// Maximum gate closing velocity (<i>Velmin</i>) (&lt; GovHydroWPID.velmax).  Unit =
 		/// PU / s.  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU velmin;
+		public TC57CIM.IEC61970.Base.Domain.PU? velmin;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="GovHydroWPID"/> class

@@ -22,11 +22,11 @@ namespace TC57CIM.IEC61968.DER {
 		/// Kind of flow direction for reading/measured  values proper to some commodities
 		/// such as, for example, energy, power, demand.
 		/// </summary>
-		public TC57CIM.IEC61968.Metering.FlowDirectionKind flowDirection;
+		public TC57CIM.IEC61968.Metering.FlowDirectionKind? flowDirection;
 		/// <summary>
 		/// The UnitMultiplier that is applied to the DERMonitorableParameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.UnitMultiplier yMultiplier;
+		public TC57CIM.IEC61970.Base.Domain.UnitMultiplier? yMultiplier;
 		/// <summary>
 		/// The DERUnitSymbol that is applied to the DERMonitorableParameter
 		/// </summary>

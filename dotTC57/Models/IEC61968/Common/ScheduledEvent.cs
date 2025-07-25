@@ -17,19 +17,19 @@ namespace TC57CIM.IEC61968.Common {
 		/// <summary>
 		/// Duration of the scheduled event, for example, the time to ramp between values.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds duration;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? duration;
 		/// <summary>
 		/// Current status information relevant to a scheduled event
 		/// </summary>
-		public Status status;
+		public Status? status;
 		/// <summary>
 		/// Type of scheduled event.
 		/// </summary>
-		public string type;
+		public string? type;
 		/// <summary>
 		/// Assets associated with the scheduled event.
 		/// </summary>
-		public TC57CIM.IEC61968.AssetInfo.Assets.Asset Assets;
+		public TC57CIM.IEC61968.AssetInfo.Assets.Asset? Assets;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ScheduledEvent"/> class

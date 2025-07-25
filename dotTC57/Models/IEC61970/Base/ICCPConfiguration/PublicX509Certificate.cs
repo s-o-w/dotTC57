@@ -17,19 +17,19 @@ namespace TC57CIM.IEC61970.Base.ICCPConfiguration {
 		/// <summary>
 		/// Represents the CA that issued the certificate.  Defined to be per X.509.
 		/// </summary>
-		public string issuerName;
+		public string? issuerName;
 		/// <summary>
 		/// Is the serial number of the certificate per X.509 definition.
 		/// </summary>
-		public string serialNumber;
+		public string? serialNumber;
 		/// <summary>
 		/// The association allows a certificate to be bound for use by TLS.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.ICCPConfiguration.TCPAccessPoint TCPAccessPoint;
+		public TC57CIM.IEC61970.Base.ICCPConfiguration.TCPAccessPoint? TCPAccessPoint;
 		/// <summary>
 		/// Application layer used with the certificate for mutual authentication.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.ICCPConfiguration.ISOUpperLayer ISOUpperLayer;
+		public TC57CIM.IEC61970.Base.ICCPConfiguration.ISOUpperLayer? ISOUpperLayer;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="PublicX509Certificate"/> class

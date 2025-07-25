@@ -20,7 +20,7 @@ namespace TC57CIM.IEC61968.AssetInfo.Assets {
 		/// <summary>
 		/// Oil sample temperature.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Temperature oilSampleTemperature;
+		public TC57CIM.IEC61970.Base.Domain.Temperature? oilSampleTemperature;
 		/// <summary>
 		/// Source of oil temperature.
 		/// </summary>

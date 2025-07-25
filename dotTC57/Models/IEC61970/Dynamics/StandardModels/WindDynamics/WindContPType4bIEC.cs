@@ -18,27 +18,27 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics {
 		/// Maximum wind turbine power ramp rate (<i>dp</i><i><sub>maxp4B</sub></i>). It is
 		/// a project-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU dpmaxp4b;
+		public TC57CIM.IEC61970.Base.Domain.PU? dpmaxp4b;
 		/// <summary>
 		/// Time constant in aerodynamic power response (<i>T</i><i><sub>paero</sub></i>)
 		/// (>= 0). It is a type-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tpaero;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tpaero;
 		/// <summary>
 		/// Time constant in power order lag (<i>T</i><i><sub>pordp4B</sub></i>) (>= 0). It
 		/// is a type-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tpordp4b;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tpordp4b;
 		/// <summary>
 		/// Voltage measurement filter time constant (<i>T</i><i><sub>ufiltp4B</sub></i>)
 		/// (>= 0). It is a type-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tufiltp4b;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tufiltp4b;
 		/// <summary>
 		/// Wind turbine type 4B model with which this wind control P type 4B model is
 		/// associated.
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics.WindTurbineType4bIEC WindTurbineType4bIEC;
+		public TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics.WindTurbineType4bIEC? WindTurbineType4bIEC;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="WindContPType4bIEC"/> class

@@ -15,12 +15,12 @@ namespace TC57CIM.IEC61970.Base.Generation.GenerationTrainingSimulation {
 		/// Off nominal frequency effect on auxiliary real power. Per unit active power
 		/// variation versus per unit frequency variation.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU auxPowerVersusFrequency;
+		public TC57CIM.IEC61970.Base.Domain.PU? auxPowerVersusFrequency;
 		/// <summary>
 		/// Off nominal voltage effect on auxiliary real power. Per unit active power
 		/// variation versus per unit voltage variation.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU auxPowerVersusVoltage;
+		public TC57CIM.IEC61970.Base.Domain.PU? auxPowerVersusVoltage;
 		/// <summary>
 		/// The control mode of the boiler.
 		/// </summary>
@@ -44,7 +44,7 @@ namespace TC57CIM.IEC61970.Base.Generation.GenerationTrainingSimulation {
 		/// <summary>
 		/// Pressure error deadband.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU controlPED;
+		public TC57CIM.IEC61970.Base.Domain.PU? controlPED;
 		/// <summary>
 		/// Time constant.
 		/// </summary>
@@ -60,19 +60,19 @@ namespace TC57CIM.IEC61970.Base.Generation.GenerationTrainingSimulation {
 		/// <summary>
 		/// Feedwater time constant ratio.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds feedWaterTC;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? feedWaterTC;
 		/// <summary>
 		/// Fuel demand limit.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU fuelDemandLimit;
+		public TC57CIM.IEC61970.Base.Domain.PU? fuelDemandLimit;
 		/// <summary>
 		/// Fuel delay.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds fuelSupplyDelay;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? fuelSupplyDelay;
 		/// <summary>
 		/// Fuel supply time constant.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds fuelSupplyTC;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? fuelSupplyTC;
 		/// <summary>
 		/// Active power maximum error rate limit.
 		/// </summary>
@@ -80,7 +80,7 @@ namespace TC57CIM.IEC61970.Base.Generation.GenerationTrainingSimulation {
 		/// <summary>
 		/// Mechanical power sensor lag.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds mechPowerSensorLag;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? mechPowerSensorLag;
 		/// <summary>
 		/// Active power minimum error rate limit.
 		/// </summary>
@@ -100,7 +100,7 @@ namespace TC57CIM.IEC61970.Base.Generation.GenerationTrainingSimulation {
 		/// <summary>
 		/// Pressure feedback indicator.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer pressureFeedback;
+		public TC57CIM.IEC61970.Base.Domain.Integer? pressureFeedback;
 		/// <summary>
 		/// Drum/primary superheater capacity.
 		/// </summary>
@@ -116,7 +116,7 @@ namespace TC57CIM.IEC61970.Base.Generation.GenerationTrainingSimulation {
 		/// <summary>
 		/// Throttle pressure setpoint.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU throttlePressureSP;
+		public TC57CIM.IEC61970.Base.Domain.PU? throttlePressureSP;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="FossilSteamSupply"/> class

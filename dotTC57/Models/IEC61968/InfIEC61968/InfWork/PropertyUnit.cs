@@ -15,7 +15,7 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfWork {
 		/// A code that identifies appropriate type of property accounts such as
 		/// distribution, streetlgihts, communications.
 		/// </summary>
-		public string accountingUsage;
+		public string? accountingUsage;
 		/// <summary>
 		/// Activity code identifies a specific and distinguishable work action.
 		/// </summary>
@@ -24,19 +24,19 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfWork {
 		/// Used for property record accounting. For example, in the USA, this would be a
 		/// FERC account.
 		/// </summary>
-		public string propertyAccount;
+		public string? propertyAccount;
 		/// <summary>
 		/// The status
 		/// </summary>
-		public TC57CIM.IEC61968.Common.Status status;
+		public TC57CIM.IEC61968.Common.Status? status;
 		/// <summary>
 		/// The compatible units
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfWork.CompatibleUnit CompatibleUnits;
+		public TC57CIM.IEC61968.InfIEC61968.InfWork.CompatibleUnit? CompatibleUnits;
 		/// <summary>
 		/// The cu material items
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfWork.CUMaterialItem CUMaterialItems;
+		public TC57CIM.IEC61968.InfIEC61968.InfWork.CUMaterialItem? CUMaterialItems;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="PropertyUnit"/> class

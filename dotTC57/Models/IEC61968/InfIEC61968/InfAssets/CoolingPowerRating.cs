@@ -38,15 +38,15 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfAssets {
 		/// <summary>
 		/// The power rating associated with type of cooling specified for this stage.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ApparentPower powerRating;
+		public TC57CIM.IEC61970.Base.Domain.ApparentPower? powerRating;
 		/// <summary>
 		/// Stage of cooling and associated power rating.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer stage;
+		public TC57CIM.IEC61970.Base.Domain.Integer? stage;
 		/// <summary>
 		/// The reconditionings
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfAssets.Reconditioning Reconditionings;
+		public TC57CIM.IEC61968.InfIEC61968.InfAssets.Reconditioning? Reconditionings;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="CoolingPowerRating"/> class

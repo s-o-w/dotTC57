@@ -17,7 +17,7 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// <summary>
 		/// The phase tap changers to which this phase tap table applies.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Wires.PhaseTapChangerTabular PhaseTapChangerTabular;
+		public TC57CIM.IEC61970.Base.Wires.PhaseTapChangerTabular? PhaseTapChangerTabular;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="PhaseTapChangerTable"/> class

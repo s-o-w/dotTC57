@@ -15,17 +15,17 @@ namespace TC57CIM.IEC61968.AssetInfo {
 		/// <summary>
 		/// (if there is a different core material) Radius of the central core.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Length coreRadius;
+		public TC57CIM.IEC61970.Base.Domain.Length? coreRadius;
 		/// <summary>
 		/// (if used) Number of strands in the steel core.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer coreStrandCount;
+		public TC57CIM.IEC61970.Base.Domain.Integer? coreStrandCount;
 		/// <summary>
 		/// Geometric mean radius. If we replace the conductor by a thin walled tube of
 		/// radius GMR, then its reactance is identical to the reactance of the actual
 		/// conductor.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Length gmr;
+		public TC57CIM.IEC61970.Base.Domain.Length? gmr;
 		/// <summary>
 		/// True if conductor is insulated.
 		/// </summary>
@@ -37,7 +37,7 @@ namespace TC57CIM.IEC61968.AssetInfo {
 		/// <summary>
 		/// (if insulated conductor) Thickness of the insulation.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Length insulationThickness;
+		public TC57CIM.IEC61970.Base.Domain.Length? insulationThickness;
 		/// <summary>
 		/// Conductor material.
 		/// </summary>
@@ -45,39 +45,39 @@ namespace TC57CIM.IEC61968.AssetInfo {
 		/// <summary>
 		/// AC resistance per unit length of the conductor at 25 �C.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ResistancePerLength rAC25;
+		public TC57CIM.IEC61970.Base.Domain.ResistancePerLength? rAC25;
 		/// <summary>
 		/// AC resistance per unit length of the conductor at 50 �C.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ResistancePerLength rAC50;
+		public TC57CIM.IEC61970.Base.Domain.ResistancePerLength? rAC50;
 		/// <summary>
 		/// AC resistance per unit length of the conductor at 75 �C.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ResistancePerLength rAC75;
+		public TC57CIM.IEC61970.Base.Domain.ResistancePerLength? rAC75;
 		/// <summary>
 		/// Outside radius of the wire.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Length radius;
+		public TC57CIM.IEC61970.Base.Domain.Length? radius;
 		/// <summary>
 		/// Current carrying capacity of the wire under stated thermal conditions.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.CurrentFlow ratedCurrent;
+		public TC57CIM.IEC61970.Base.Domain.CurrentFlow? ratedCurrent;
 		/// <summary>
 		/// DC resistance per unit length of the conductor at 20 �C.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ResistancePerLength rDC20;
+		public TC57CIM.IEC61970.Base.Domain.ResistancePerLength? rDC20;
 		/// <summary>
 		/// Describes the wire gauge or cross section (e.g., 4/0, #2, 336.5).
 		/// </summary>
-		public string sizeDescription;
+		public string? sizeDescription;
 		/// <summary>
 		/// Number of strands in the conductor.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer strandCount;
+		public TC57CIM.IEC61970.Base.Domain.Integer? strandCount;
 		/// <summary>
 		/// Wire phase information associated with this wire information.
 		/// </summary>
-		public TC57CIM.IEC61968.AssetInfo.WirePhaseInfo WirePhaseInfo;
+		public TC57CIM.IEC61968.AssetInfo.WirePhaseInfo? WirePhaseInfo;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="WireInfo"/> class

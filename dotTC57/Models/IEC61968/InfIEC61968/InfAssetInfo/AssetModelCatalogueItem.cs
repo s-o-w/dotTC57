@@ -21,19 +21,19 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfAssetInfo {
 		/// or cost per unit length. Cost is for material or asset only and does not
 		/// include labor to install/construct or configure it.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Money unitCost;
+		public TC57CIM.IEC61970.Base.Domain.Money? unitCost;
 		/// <summary>
 		/// The asset model catalogue
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfAssetInfo.AssetModelCatalogue AssetModelCatalogue;
+		public TC57CIM.IEC61968.InfIEC61968.InfAssetInfo.AssetModelCatalogue? AssetModelCatalogue;
 		/// <summary>
 		/// The erp po line items
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfERPSupport.ErpPOLineItem ErpPOLineItems;
+		public TC57CIM.IEC61968.InfIEC61968.InfERPSupport.ErpPOLineItem? ErpPOLineItems;
 		/// <summary>
 		/// The erp quote line items
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfERPSupport.ErpQuoteLineItem ErpQuoteLineItems;
+		public TC57CIM.IEC61968.InfIEC61968.InfERPSupport.ErpQuoteLineItem? ErpQuoteLineItems;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="AssetModelCatalogueItem"/> class

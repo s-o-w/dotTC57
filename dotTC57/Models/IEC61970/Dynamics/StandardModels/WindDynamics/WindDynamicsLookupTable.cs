@@ -29,52 +29,52 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics {
 		/// Sequence numbers of the pairs of the input (<i>x</i>) and the output (<i>y</i>)
 		/// of the lookup table function.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer sequence;
+		public TC57CIM.IEC61970.Base.Domain.Integer? sequence;
 		/// <summary>
 		/// The frequency and active power wind plant control model with which this wind
 		/// dynamics lookup table is associated.
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics.WindPlantFreqPcontrolIEC WindPlantFreqPcontrolIEC;
+		public TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics.WindPlantFreqPcontrolIEC? WindPlantFreqPcontrolIEC;
 		/// <summary>
 		/// The voltage and reactive power wind plant control model with which this wind
 		/// dynamics lookup table is associated.
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics.WindPlantReactiveControlIEC WindPlantReactiveControlIEC;
+		public TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics.WindPlantReactiveControlIEC? WindPlantReactiveControlIEC;
 		/// <summary>
 		/// The grid protection model with which this wind dynamics lookup table is
 		/// associated.
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics.WindProtectionIEC WindProtectionIEC;
+		public TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics.WindProtectionIEC? WindProtectionIEC;
 		/// <summary>
 		/// The QP and QU limitation model with which this wind dynamics lookup table is
 		/// associated.
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics.WindContQPQULimIEC WindContQPQULimIEC;
+		public TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics.WindContQPQULimIEC? WindContQPQULimIEC;
 		/// <summary>
 		/// The current control limitation model with which this wind dynamics lookup table
 		/// is associated.
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics.WindContCurrLimIEC WindContCurrLimIEC;
+		public TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics.WindContCurrLimIEC? WindContCurrLimIEC;
 		/// <summary>
 		/// The P control type 3 model with which this wind dynamics lookup table is
 		/// associated.
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics.WindContPType3IEC WindContPType3IEC;
+		public TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics.WindContPType3IEC? WindContPType3IEC;
 		/// <summary>
 		/// The rotor resistance control model with which this wind dynamics lookup table
 		/// is associated.
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics.WindContRotorRIEC WindContRotorRIEC;
+		public TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics.WindContRotorRIEC? WindContRotorRIEC;
 		/// <summary>
 		/// The pitch control power model with which this wind dynamics lookup table is
 		/// associated.
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics.WindPitchContPowerIEC WindPitchContPowerIEC;
+		public TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics.WindPitchContPowerIEC? WindPitchContPowerIEC;
 		/// <summary>
 		/// The generator type 3B model with which this wind dynamics lookup table is
 		/// associated.
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics.WindGenType3bIEC WindGenType3bIEC;
+		public TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics.WindGenType3bIEC? WindGenType3bIEC;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="WindDynamicsLookupTable"/> class

@@ -15,7 +15,7 @@ namespace TC57CIM.IEC61970.Base.Core {
 		/// <summary>
 		/// Power system resources which belong to this reporting group.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Core.PowerSystemResource PowerSystemResource;
+		public TC57CIM.IEC61970.Base.Core.PowerSystemResource? PowerSystemResource;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ReportingGroup"/> class

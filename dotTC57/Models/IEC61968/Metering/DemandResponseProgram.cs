@@ -20,24 +20,24 @@ namespace TC57CIM.IEC61968.Metering {
 		/// BIP (base interruptible program). Note that possible types change a lot and it
 		/// would be impossible to enumerate them all.
 		/// </summary>
-		public string type;
+		public string? type;
 		/// <summary>
 		/// Interval within which the program is valid.
 		/// </summary>
-		public DateTimeInterval validityInterval;
+		public DateTimeInterval? validityInterval;
 		/// <summary>
 		/// All groups of end devices enrolled in this demand response program.
 		/// </summary>
-		public TC57CIM.IEC61968.Metering.EndDeviceGroup EndDeviceGroups;
+		public TC57CIM.IEC61968.Metering.EndDeviceGroup? EndDeviceGroups;
 		/// <summary>
 		/// All usage point groups enrolled in this demand response program.
 		/// </summary>
-		public TC57CIM.IEC61968.Metering.UsagePointGroup UsagePointGroups;
+		public TC57CIM.IEC61968.Metering.UsagePointGroup? UsagePointGroups;
 		/// <summary>
 		/// All customer agreements through which the customer is enrolled in this demand
 		/// response program.
 		/// </summary>
-		public TC57CIM.IEC61968.Customers.CustomerAgreement CustomerAgreements;
+		public TC57CIM.IEC61968.Customers.CustomerAgreement? CustomerAgreements;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="DemandResponseProgram"/> class

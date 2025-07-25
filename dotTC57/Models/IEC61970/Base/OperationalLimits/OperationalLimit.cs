@@ -25,12 +25,12 @@ namespace TC57CIM.IEC61970.Base.OperationalLimits {
 		/// <summary>
 		/// The limit type associated with this limit.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.OperationalLimits.OperationalLimitType OperationalLimitType;
+		public TC57CIM.IEC61970.Base.OperationalLimits.OperationalLimitType? OperationalLimitType;
 		/// <summary>
 		/// The limit dependency models which are used to calculate this limit.   If no
 		/// limit dependencies are specified then the native limit value is used.
 		/// </summary>
-		public TC57CIM.IEC61970.InfIEC61970.InfOperationalLimits.LimitDependency LimitDependencyModel;
+		public TC57CIM.IEC61970.InfIEC61970.InfOperationalLimits.LimitDependency? LimitDependencyModel;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="OperationalLimit"/> class

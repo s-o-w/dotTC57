@@ -19,11 +19,11 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.DiscontinuousExcitationContro
 		/// <summary>
 		/// Reset time delay (<i>T</i><i><sub>DR</sub></i>) (>= 0).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tdr;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tdr;
 		/// <summary>
 		/// Terminal undervoltage comparison level (<i>V</i><i><sub>TMIN</sub></i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vtmin;
+		public TC57CIM.IEC61970.Base.Domain.PU? vtmin;
 
 		/// <summary>
 		/// Constructor for DiscExcContIEEEDEC3A.

@@ -15,19 +15,19 @@ namespace TC57CIM.IEC61968.Work {
 		/// <summary>
 		/// Name of building where location is.
 		/// </summary>
-		public string buildingName;
+		public string? buildingName;
 		/// <summary>
 		/// Number of building where location is.
 		/// </summary>
-		public string buildingNumber;
+		public string? buildingNumber;
 		/// <summary>
 		/// Floor of location.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer floor;
+		public TC57CIM.IEC61970.Base.Domain.Integer? floor;
 		/// <summary>
 		/// Room number of location.
 		/// </summary>
-		public string roomNumber;
+		public string? roomNumber;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="InternalLocation"/> class

@@ -41,7 +41,7 @@ namespace TC57CIM.IEC61970.Base.Meas {
 		/// defined in more detail by the specialized class which inherits from Measurement.
 		///
 		/// </summary>
-		public string measurementType;
+		public string? measurementType;
 		/// <summary>
 		/// Indicates to which phases the measurement applies and avoids the need to use
 		/// 'measurementType' to also encode phase information (which would explode the
@@ -51,27 +51,27 @@ namespace TC57CIM.IEC61970.Base.Meas {
 		/// changed due to jumpers or other reasons.
 		/// If the attribute is missing three phases (ABC) shall be assumed.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Core.PhaseCode phases;
+		public TC57CIM.IEC61970.Base.Core.PhaseCode? phases;
 		/// <summary>
 		/// The unit multiplier of the measured quantity.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.UnitMultiplier unitMultiplier;
+		public TC57CIM.IEC61970.Base.Domain.UnitMultiplier? unitMultiplier;
 		/// <summary>
 		/// The unit of measure of the measured quantity.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.UnitSymbol unitSymbol;
+		public TC57CIM.IEC61970.Base.Domain.UnitSymbol? unitSymbol;
 		/// <summary>
 		/// One or more measurements may be associated with a terminal in the network.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Core.ACDCTerminal Terminal;
+		public TC57CIM.IEC61970.Base.Core.ACDCTerminal? Terminal;
 		/// <summary>
 		/// The protective action adjustment
 		/// </summary>
-		public TC57CIM.IEC61970.InfIEC61970.InfSIPS.ProtectiveActionAdjustment ProtectiveActionAdjustment;
+		public TC57CIM.IEC61970.InfIEC61970.InfSIPS.ProtectiveActionAdjustment? ProtectiveActionAdjustment;
 		/// <summary>
 		/// Calculation method hierarchy which applies to this analog.
 		/// </summary>
-		public TC57CIM.IEC61968.AssetMeas.CalculationMethodHierarchy CalculationMethodHierarchy;
+		public TC57CIM.IEC61968.AssetMeas.CalculationMethodHierarchy? CalculationMethodHierarchy;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Measurement"/> class

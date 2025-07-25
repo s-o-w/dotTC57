@@ -17,23 +17,23 @@ namespace TC57CIM.IEC61968.Common {
 		/// Estimated date and time for activity execution (with earliest possibility of
 		/// activity initiation and latest possibility of activity completion).
 		/// </summary>
-		public DateTimeInterval estimatedWindow;
+		public DateTimeInterval? estimatedWindow;
 		/// <summary>
 		/// Requested date and time interval for activity execution.
 		/// </summary>
-		public DateTimeInterval requestedWindow;
+		public DateTimeInterval? requestedWindow;
 		/// <summary>
 		/// Current status information relevant to the data for a scheduled event
 		/// </summary>
-		public Status status;
+		public Status? status;
 		/// <summary>
 		/// All scheduled events with this specification.
 		/// </summary>
-		public TC57CIM.IEC61968.Common.ScheduledEvent ScheduledEvents;
+		public TC57CIM.IEC61968.Common.ScheduledEvent? ScheduledEvents;
 		/// <summary>
 		/// The inspection data set
 		/// </summary>
-		public TC57CIM.IEC61968.AssetInfo.Assets.InspectionDataSet InspectionDataSet;
+		public TC57CIM.IEC61968.AssetInfo.Assets.InspectionDataSet? InspectionDataSet;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ScheduledEventData"/> class

@@ -27,11 +27,11 @@ namespace TC57CIM.IEC61968.Metering {
 		/// Automated meter reading (AMR) or other communication system responsible for
 		/// communications to this end device.
 		/// </summary>
-		public string amrSystem;
+		public string? amrSystem;
 		/// <summary>
 		/// Installation code.
 		/// </summary>
-		public string installCode;
+		public string? installCode;
 		/// <summary>
 		/// If true, this is a premises area network (PAN) device.
 		/// </summary>
@@ -49,15 +49,15 @@ namespace TC57CIM.IEC61968.Metering {
 		/// <summary>
 		/// Time zone offset relative to GMT for the location of this end device.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Minutes timeZoneOffset;
+		public TC57CIM.IEC61970.Base.Domain.Minutes? timeZoneOffset;
 		/// <summary>
 		/// End device data.
 		/// </summary>
-		public TC57CIM.IEC61968.Metering.EndDeviceInfo EndDeviceInfo;
+		public TC57CIM.IEC61968.Metering.EndDeviceInfo? EndDeviceInfo;
 		/// <summary>
 		/// All end device functions this end device performs.
 		/// </summary>
-		public TC57CIM.IEC61968.Metering.EndDeviceFunction EndDeviceFunctions;
+		public TC57CIM.IEC61968.Metering.EndDeviceFunction? EndDeviceFunctions;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="EndDevice"/> class

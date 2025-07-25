@@ -17,15 +17,15 @@ namespace TC57CIM.IEC61968.AssetInfo.Assets {
 		/// <summary>
 		/// Recommendation for action.
 		/// </summary>
-		public string actionRecommendation;
+		public string? actionRecommendation;
 		/// <summary>
 		/// Time horizon for action.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Duration actionTimeline;
+		public TC57CIM.IEC61970.Base.Domain.Duration? actionTimeline;
 		/// <summary>
 		/// The date and time when the event is effective.
 		/// </summary>
-		public System.DateTime effectiveDateTime;
+		public System.DateTime? effectiveDateTime;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="AssetHealthEvent"/> class

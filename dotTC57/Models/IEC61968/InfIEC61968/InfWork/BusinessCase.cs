@@ -16,15 +16,15 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfWork {
 		/// A codified representation of the business case (i.e., codes for highway
 		/// relocation, replace substation transformers, etc.).
 		/// </summary>
-		public string corporateCode;
+		public string? corporateCode;
 		/// <summary>
 		/// The projects
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfWork.Project Projects;
+		public TC57CIM.IEC61968.InfIEC61968.InfWork.Project? Projects;
 		/// <summary>
 		/// The works
 		/// </summary>
-		public TC57CIM.IEC61968.Work.Work Works;
+		public TC57CIM.IEC61968.Work.Work? Works;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="BusinessCase"/> class

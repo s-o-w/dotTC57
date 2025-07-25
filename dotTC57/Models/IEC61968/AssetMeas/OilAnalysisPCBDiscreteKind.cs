@@ -13,7 +13,7 @@ namespace TC57CIM.IEC61968.AssetMeas {
 	public enum OilAnalysisPCBDiscreteKind : int {
 
 		/// <summary>
-		/// Possible values:  <blank>, <50, >50.
+		/// Possible values: blank, less than 50, greater than 50.
 		/// </summary>
 		testKitPCB
 

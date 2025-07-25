@@ -18,17 +18,17 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics {
 		/// Power measurement filter time constant for Q capacity
 		/// (<i>T</i><i><sub>pfiltql</sub></i>) (>= 0). It is a type-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tpfiltql;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tpfiltql;
 		/// <summary>
 		/// Voltage measurement filter time constant for Q capacity
 		/// (<i>T</i><i><sub>ufiltql</sub></i>) (>= 0). It is a type-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tufiltql;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tufiltql;
 		/// <summary>
 		/// Wind generator type 3 or type 4 model with which this QP and QU limitation
 		/// model is associated.
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics.WindTurbineType3or4IEC WindTurbineType3or4IEC;
+		public TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics.WindTurbineType3or4IEC? WindTurbineType3or4IEC;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="WindContQPQULimIEC"/> class

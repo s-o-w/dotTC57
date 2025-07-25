@@ -16,11 +16,11 @@ namespace TC57CIM.IEC61968.Work {
 		/// <summary>
 		/// Kind of work.
 		/// </summary>
-		public TC57CIM.IEC61968.Customers.ServiceRequestKind kind;
+		public TC57CIM.IEC61968.Customers.ServiceRequestKind? kind;
 		/// <summary>
 		/// Priority of work.
 		/// </summary>
-		public TC57CIM.IEC61968.Common.Priority priority;
+		public TC57CIM.IEC61968.Common.Priority? priority;
 		/// <summary>
 		/// Kind of work status.
 		/// </summary>
@@ -28,15 +28,15 @@ namespace TC57CIM.IEC61968.Work {
 		/// <summary>
 		/// All time schedules for this work or work task.
 		/// </summary>
-		public TC57CIM.IEC61968.Work.WorkTimeSchedule TimeSchedules;
+		public TC57CIM.IEC61968.Work.WorkTimeSchedule? TimeSchedules;
 		/// <summary>
 		/// Location for this work/task.
 		/// </summary>
-		public TC57CIM.IEC61968.Work.WorkLocation WorkLocation;
+		public TC57CIM.IEC61968.Work.WorkLocation? WorkLocation;
 		/// <summary>
 		/// All activity records for this work or work task.
 		/// </summary>
-		public TC57CIM.IEC61968.Work.WorkActivityRecord WorkActivityRecords;
+		public TC57CIM.IEC61968.Work.WorkActivityRecord? WorkActivityRecords;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="BaseWork"/> class

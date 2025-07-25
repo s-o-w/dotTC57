@@ -15,7 +15,7 @@ namespace TC57CIM.IEC61968.Operations {
 		/// <summary>
 		/// The power system resource that the generic action is performed on
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Core.PowerSystemResource PowerSystemResource;
+		public TC57CIM.IEC61970.Base.Core.PowerSystemResource? PowerSystemResource;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="GenericAction"/> class

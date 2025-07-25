@@ -18,24 +18,24 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.DiscontinuousExcitationContro
 		/// <summary>
 		/// Discontinuous controller time constant (<i>T</i><i><sub>D1</sub></i>) (>= 0).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds td1;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? td1;
 		/// <summary>
 		/// Discontinuous controller washout time constant (<i>T</i><i><sub>D2</sub></i>)
 		/// (>= 0).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds td2;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? td2;
 		/// <summary>
 		/// Limiter (<i>V</i><i><sub>DMAX</sub></i>) (greater than DiscExcContIEEEDEC2A.vdmin).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vdmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? vdmax;
 		/// <summary>
 		/// Limiter (<i>V</i><i><sub>DMIN</sub></i>) (less than DiscExcContIEEEDEC2A.vdmax).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vdmin;
+		public TC57CIM.IEC61970.Base.Domain.PU? vdmin;
 		/// <summary>
 		/// Discontinuous controller input reference (<i>V</i><i><sub>K</sub></i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vk;
+		public TC57CIM.IEC61970.Base.Domain.PU? vk;
 
 		/// <summary>
 		/// Constructor for DiscExcContIEEEDEC2A.

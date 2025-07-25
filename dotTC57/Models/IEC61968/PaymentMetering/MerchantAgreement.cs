@@ -18,7 +18,7 @@ namespace TC57CIM.IEC61968.PaymentMetering {
 		/// <summary>
 		/// All merchant accounts instantiated as a result of this merchant agreement.
 		/// </summary>
-		public TC57CIM.IEC61968.PaymentMetering.MerchantAccount MerchantAccounts;
+		public TC57CIM.IEC61968.PaymentMetering.MerchantAccount? MerchantAccounts;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="MerchantAgreement"/> class

@@ -21,7 +21,7 @@ namespace TC57CIM.IEC61970.Base.StateVariables {
 		/// <summary>
 		/// The tap changer associated with the tap step state.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Wires.TapChanger TapChanger;
+		public TC57CIM.IEC61970.Base.Wires.TapChanger? TapChanger;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="SvTapStep"/> class

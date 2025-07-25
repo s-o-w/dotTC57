@@ -23,7 +23,7 @@ namespace TC57CIM.IEC61970.Base.Domain {
 		/// <summary>
 		/// The value
 		/// </summary>
-		public Float value;
+		public Float? value;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="CapacitancePerLength"/> class

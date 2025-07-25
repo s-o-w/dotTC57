@@ -16,35 +16,35 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.PowerSystemStabilizerDynamics
 		/// <summary>
 		/// Notch filter parameter (<i>A</i><i><sub>1</sub></i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU a1;
+		public TC57CIM.IEC61970.Base.Domain.PU? a1;
 		/// <summary>
 		/// Notch filter parameter (<i>A</i><i><sub>2</sub></i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU a2;
+		public TC57CIM.IEC61970.Base.Domain.PU? a2;
 		/// <summary>
 		/// Notch filter parameter (<i>A</i><i><sub>3</sub></i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU a3;
+		public TC57CIM.IEC61970.Base.Domain.PU? a3;
 		/// <summary>
 		/// Notch filter parameter (<i>A</i><i><sub>4</sub></i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU a4;
+		public TC57CIM.IEC61970.Base.Domain.PU? a4;
 		/// <summary>
 		/// Notch filter parameter (<i>A</i><i><sub>5</sub></i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU a5;
+		public TC57CIM.IEC61970.Base.Domain.PU? a5;
 		/// <summary>
 		/// Notch filter parameter (<i>A</i><i><sub>6</sub></i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU a6;
+		public TC57CIM.IEC61970.Base.Domain.PU? a6;
 		/// <summary>
 		/// Notch filter parameter (<i>A</i><i><sub>7</sub></i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU a7;
+		public TC57CIM.IEC61970.Base.Domain.PU? a7;
 		/// <summary>
 		/// Notch filter parameter (<i>A</i><i><sub>8</sub></i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU a8;
+		public TC57CIM.IEC61970.Base.Domain.PU? a8;
 		/// <summary>
 		/// Type of input signal (rotorAngularFrequencyDeviation, busFrequencyDeviation,
 		/// generatorElectricalPower, generatorAcceleratingPower, busVoltage, or
@@ -60,51 +60,51 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.PowerSystemStabilizerDynamics
 		/// <summary>
 		/// Stabilizer gain (<i>K</i><i><sub>s</sub></i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU ks;
+		public TC57CIM.IEC61970.Base.Domain.PU? ks;
 		/// <summary>
 		/// Lead/lag time constant (<i>T</i><i><sub>1</sub></i>) (>= 0).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t1;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t1;
 		/// <summary>
 		/// Lead/lag time constant (<i>T</i><i><sub>2</sub></i>) (>= 0).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t2;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t2;
 		/// <summary>
 		/// Lead/lag time constant (<i>T</i><i><sub>3</sub></i>) (>= 0).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t3;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t3;
 		/// <summary>
 		/// Lead/lag time constant (<i>T</i><i><sub>4</sub></i>) (>= 0).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t4;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t4;
 		/// <summary>
 		/// Washout time constant (<i>T</i><i><sub>5</sub></i>) (>= 0).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t5;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t5;
 		/// <summary>
 		/// Transducer time constant (<i>T</i><i><sub>6</sub></i>) (>= 0).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t6;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t6;
 		/// <summary>
 		/// Time constant (<i>Tdelay</i>) (>= 0).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tdelay;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tdelay;
 		/// <summary>
 		/// Stabilizer input cutoff threshold (<i>Vcl</i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vcl;
+		public TC57CIM.IEC61970.Base.Domain.PU? vcl;
 		/// <summary>
 		/// Stabilizer input cutoff threshold (<i>Vcu</i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vcu;
+		public TC57CIM.IEC61970.Base.Domain.PU? vcu;
 		/// <summary>
-		/// Maximum stabilizer output (<i>Vrmax</i>) (> Pss1A.vrmin).
+		/// Maximum stabilizer output (<i>Vrmax</i>) (greater than Pss1A.vrmin).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vrmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? vrmax;
 		/// <summary>
-		/// Minimum stabilizer output (<i>Vrmin</i>) (< Pss1A.vrmax).
+		/// Minimum stabilizer output (<i>Vrmin</i>) (less than Pss1A.vrmax).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vrmin;
+		public TC57CIM.IEC61970.Base.Domain.PU? vrmin;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Pss1A"/> class

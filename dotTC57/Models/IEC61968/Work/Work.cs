@@ -14,23 +14,23 @@ namespace TC57CIM.IEC61968.Work {
 		/// <summary>
 		/// Date and time work was requested.
 		/// </summary>
-		public System.DateTime requestDateTime;
+		public System.DateTime? requestDateTime;
 		/// <summary>
 		/// Work order number (or other unique identifying information) for this work.
 		/// </summary>
-		public string workOrderNumber;
+		public string? workOrderNumber;
 		/// <summary>
 		/// The erp project accounting
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfERPSupport.ErpProjectAccounting ErpProjectAccounting;
+		public TC57CIM.IEC61968.InfIEC61968.InfERPSupport.ErpProjectAccounting? ErpProjectAccounting;
 		/// <summary>
 		/// All tasks in this work.
 		/// </summary>
-		public TC57CIM.IEC61968.Work.WorkTask WorkTasks;
+		public TC57CIM.IEC61968.Work.WorkTask? WorkTasks;
 		/// <summary>
 		/// The project
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfWork.Project Project;
+		public TC57CIM.IEC61968.InfIEC61968.InfWork.Project? Project;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Work"/> class

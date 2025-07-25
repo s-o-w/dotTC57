@@ -22,15 +22,15 @@ namespace TC57CIM.IEC61968.PaymentMetering {
 		/// monthly; 6-monthly; 12-monthly; etc. At the end of each cycle, the business
 		/// rules are reset to start from the beginning again.
 		/// </summary>
-		public string tariffCycle;
+		public string? tariffCycle;
 		/// <summary>
 		/// All time tariff intervals used to define this tariff profile.
 		/// </summary>
-		public TC57CIM.IEC61968.PaymentMetering.TimeTariffInterval TimeTariffIntervals;
+		public TC57CIM.IEC61968.PaymentMetering.TimeTariffInterval? TimeTariffIntervals;
 		/// <summary>
 		/// All consumption tariff intervals used to define this tariff profile.
 		/// </summary>
-		public TC57CIM.IEC61968.PaymentMetering.ConsumptionTariffInterval ConsumptionTariffIntervals;
+		public TC57CIM.IEC61968.PaymentMetering.ConsumptionTariffInterval? ConsumptionTariffIntervals;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="TariffProfile"/> class

@@ -13,11 +13,6 @@ namespace TC57CIM.IEC61968.AssetInfo.Assets {
 	public class Facility : AssetContainer {
 
 		/// <summary>
-		/// Kind of this facility.
-		/// </summary>
-		public string kind;
-
-		/// <summary>
 		/// Initializes a new instance of the <see cref="Facility"/> class
 		/// </summary>
 		public Facility(){

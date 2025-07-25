@@ -19,7 +19,7 @@ namespace TC57CIM.IEC61970.Base.Generation.GenerationTrainingSimulation {
 		/// <summary>
 		/// Synchronous machines this Prime mover drives.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Wires.SynchronousMachine SynchronousMachines;
+		public TC57CIM.IEC61970.Base.Wires.SynchronousMachine? SynchronousMachines;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="PrimeMover"/> class

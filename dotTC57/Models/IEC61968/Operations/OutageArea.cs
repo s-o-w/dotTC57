@@ -15,11 +15,11 @@ namespace TC57CIM.IEC61968.Operations {
 		/// <summary>
 		/// This is the reported time of the first outage report
 		/// </summary>
-		public System.DateTime earliestReportedTime;
+		public System.DateTime? earliestReportedTime;
 		/// <summary>
 		/// defines the number of meters served in the defined area.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer metersServed;
+		public TC57CIM.IEC61970.Base.Domain.Integer? metersServed;
 		/// <summary>
 		/// defines the type of area that has the outage - county, state, zipcode, etc.
 		/// </summary>
@@ -27,7 +27,7 @@ namespace TC57CIM.IEC61968.Operations {
 		/// <summary>
 		/// The outage associated with the outage area.
 		/// </summary>
-		public TC57CIM.IEC61968.Operations.Outage Outage;
+		public TC57CIM.IEC61968.Operations.Outage? Outage;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="OutageArea"/> class

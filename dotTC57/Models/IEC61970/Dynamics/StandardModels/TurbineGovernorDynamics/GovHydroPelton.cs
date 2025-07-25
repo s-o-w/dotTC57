@@ -20,59 +20,59 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.TurbineGovernorDynamics {
 		/// Area of the surge tank (<i>A</i><i><sub>V0</sub></i>). Unit = m<sup>2</sup>.
 		/// Typical value = 30.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Area av0;
+		public TC57CIM.IEC61970.Base.Domain.Area? av0;
 		/// <summary>
 		/// Area of the compensation tank (<i>A</i><i><sub>V1</sub></i>). Unit =
 		/// m<sup>2</sup>. Typical value = 700.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Area av1;
+		public TC57CIM.IEC61970.Base.Domain.Area? av1;
 		/// <summary>
 		/// Droop (<i>bp</i>).  Typical value = 0,05.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU bp;
+		public TC57CIM.IEC61970.Base.Domain.PU? bp;
 		/// <summary>
 		/// Intentional dead-band width (<i>DB1</i>).  Unit = Hz.  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Frequency db1;
+		public TC57CIM.IEC61970.Base.Domain.Frequency? db1;
 		/// <summary>
 		/// Intentional dead-band width of valve opening error (<i>DB2</i>). Unit = Hz.
 		/// Typical value = 0,01.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Frequency db2;
+		public TC57CIM.IEC61970.Base.Domain.Frequency? db2;
 		/// <summary>
 		/// Head of compensation chamber water level with respect to the level of penstock
 		/// (<i>H</i><i><sub>1</sub></i>).  Unit = km.  Typical value = 0,004.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Length h1;
+		public TC57CIM.IEC61970.Base.Domain.Length? h1;
 		/// <summary>
 		/// Head of surge tank water level with respect to the level of penstock
 		/// (<i>H</i><i><sub>2</sub></i>).  Unit = km.  Typical value = 0,040.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Length h2;
+		public TC57CIM.IEC61970.Base.Domain.Length? h2;
 		/// <summary>
 		/// Rated hydraulic head (<i>H</i><i><sub>n</sub></i>).  Unit = km.  Typical value
 		/// = 0,250.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Length hn;
+		public TC57CIM.IEC61970.Base.Domain.Length? hn;
 		/// <summary>
 		/// Penstock loss coefficient (due to friction) (<i>Kc</i>).  Typical value = 0,025.
 		///
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kc;
+		public TC57CIM.IEC61970.Base.Domain.PU? kc;
 		/// <summary>
 		/// Water tunnel and surge chamber loss coefficient (due to friction) (<i>Kg</i>).
 		/// Typical value = 0,025.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kg;
+		public TC57CIM.IEC61970.Base.Domain.PU? kg;
 		/// <summary>
 		/// No-load turbine flow at nominal head (<i>Qc0</i>).  Typical value = 0,05.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU qc0;
+		public TC57CIM.IEC61970.Base.Domain.PU? qc0;
 		/// <summary>
 		/// Rated flow (<i>Q</i><i><sub>n</sub></i>). Unit = m<sup>3</sup>/s. Typical value
 		/// = 250.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.VolumeFlowRate qn;
+		public TC57CIM.IEC61970.Base.Domain.VolumeFlowRate? qn;
 		/// <summary>
 		/// Simplified Pelton model simulation (<i>Sflag</i>).
 		/// true = enable of simplified Pelton model simulation
@@ -92,28 +92,28 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.TurbineGovernorDynamics {
 		/// Derivative gain (accelerometer time constant) (<i>Ta</i>) (>= 0).  Typical
 		/// value = 3.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds ta;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? ta;
 		/// <summary>
 		/// Gate servo time constant (<i>Ts</i>) (>= 0).  Typical value = 0,15.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds ts;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? ts;
 		/// <summary>
 		/// Servomotor integrator time constant (<i>Tv</i>) (>= 0).  Typical value = 0,3.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tv;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tv;
 		/// <summary>
 		/// Water inertia time constant (<i>Twnc</i>) (>= 0).  Typical value = 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds twnc;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? twnc;
 		/// <summary>
 		/// Water tunnel and surge chamber inertia time constant (<i>Twng</i>) (>= 0).
 		/// Typical value = 3.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds twng;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? twng;
 		/// <summary>
 		/// Electronic integrator time constant (<i>Tx</i>) (>= 0).  Typical value = 0,5.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tx;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tx;
 		/// <summary>
 		/// Maximum gate opening velocity (<i>Va</i>).  Unit = PU / s.  Typical value = 0,
 		/// 06.
@@ -123,16 +123,16 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.TurbineGovernorDynamics {
 		/// Maximum gate opening (<i>ValvMax</i>) (> GovHydroPelton.valvmin).  Typical
 		/// value = 1,1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU valvmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? valvmax;
 		/// <summary>
-		/// Minimum gate opening (<i>ValvMin</i>) (< GovHydroPelton.valvmax).  Typical
+		/// Minimum gate opening (<i>ValvMin</i>) (&lt; GovHydroPelton.valvmax).  Typical
 		/// value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU valvmin;
+		public TC57CIM.IEC61970.Base.Domain.PU? valvmin;
 		/// <summary>
 		/// Maximum servomotor valve opening velocity (<i>Vav</i>).  Typical value = 0,1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vav;
+		public TC57CIM.IEC61970.Base.Domain.PU? vav;
 		/// <summary>
 		/// Maximum gate closing velocity (<i>Vc</i>).  Unit = PU / s.  Typical value = -0,
 		/// 06.
@@ -141,7 +141,7 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.TurbineGovernorDynamics {
 		/// <summary>
 		/// Maximum servomotor valve closing velocity (<i>Vcv</i>).  Typical value = -0,1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vcv;
+		public TC57CIM.IEC61970.Base.Domain.PU? vcv;
 		/// <summary>
 		/// Water tunnel and surge chamber simulation (<i>Tflag</i>).
 		/// true = enable of water tunnel and surge chamber simulation
@@ -153,7 +153,7 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.TurbineGovernorDynamics {
 		/// Head of upper water level with respect to the level of penstock (<i>Zsfc</i>).
 		/// Unit = km.  Typical value = 0,025.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Length zsfc;
+		public TC57CIM.IEC61970.Base.Domain.Length? zsfc;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="GovHydroPelton"/> class

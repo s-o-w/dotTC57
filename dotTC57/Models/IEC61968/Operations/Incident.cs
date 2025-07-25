@@ -17,40 +17,40 @@ namespace TC57CIM.IEC61968.Operations {
 		/// <summary>
 		/// Cause of this incident.
 		/// </summary>
-		public string cause;
+		public string? cause;
 		/// <summary>
 		/// The asset
 		/// </summary>
-		public TC57CIM.IEC61968.AssetInfo.Assets.Asset Asset;
+		public TC57CIM.IEC61968.AssetInfo.Assets.Asset? Asset;
 		/// <summary>
 		/// All works addressing this incident.
 		/// </summary>
-		public TC57CIM.IEC61968.Work.Work Works;
+		public TC57CIM.IEC61968.Work.Work? Works;
 		/// <summary>
 		/// All hazards associated with this incident.
 		/// </summary>
-		public TC57CIM.IEC61968.Customers.IncidentHazard IncidentHazard;
+		public TC57CIM.IEC61968.Customers.IncidentHazard? IncidentHazard;
 		/// <summary>
 		/// Outage for this incident.
 		/// </summary>
-		public TC57CIM.IEC61968.Operations.Outage Outage;
+		public TC57CIM.IEC61968.Operations.Outage? Outage;
 		/// <summary>
 		/// Location of this incident.
 		/// </summary>
-		public TC57CIM.IEC61968.Common.Location Location;
+		public TC57CIM.IEC61968.Common.Location? Location;
 		/// <summary>
 		/// Operator who owns this incident.
 		/// </summary>
-		public TC57CIM.IEC61968.Common.Operator Owner;
+		public TC57CIM.IEC61968.Common.Operator? Owner;
 		/// <summary>
 		/// All notifications for a customer related to the status change of this incident.
 		///
 		/// </summary>
-		public TC57CIM.IEC61968.Customers.CustomerNotification CustomerNotifications;
+		public TC57CIM.IEC61968.Customers.CustomerNotification? CustomerNotifications;
 		/// <summary>
 		/// The unplanned outage that may be associated with the incidents.
 		/// </summary>
-		public TC57CIM.IEC61968.Operations.UnplannedOutage UnplannedOutage;
+		public TC57CIM.IEC61968.Operations.UnplannedOutage? UnplannedOutage;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Incident"/> class

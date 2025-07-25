@@ -14,14 +14,11 @@ namespace TC57CIM.IEC61968.Operations {
 	/// </summary>
 	public class OutageOrder : Document {
 
-		/// <summary>
-		/// Free-form comment associated with the outage order
-		/// </summary>
-		public string comment;
+
 		/// <summary>
 		/// Location of this outage order.
 		/// </summary>
-		public TC57CIM.IEC61968.Common.Location Location;
+		public TC57CIM.IEC61968.Common.Location? Location;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="OutageOrder"/> class

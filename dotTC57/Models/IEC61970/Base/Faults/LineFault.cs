@@ -16,11 +16,11 @@ namespace TC57CIM.IEC61970.Base.Faults {
 		/// The length to the place where the fault is located starting from terminal with
 		/// sequence number 1 of the faulted line segment.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Length lengthFromTerminal1;
+		public TC57CIM.IEC61970.Base.Domain.Length? lengthFromTerminal1;
 		/// <summary>
 		/// The line segment of this line fault.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Wires.ACLineSegment ACLineSegment;
+		public TC57CIM.IEC61970.Base.Wires.ACLineSegment? ACLineSegment;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="LineFault"/> class

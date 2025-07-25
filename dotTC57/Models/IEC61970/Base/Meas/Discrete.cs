@@ -16,20 +16,20 @@ namespace TC57CIM.IEC61970.Base.Meas {
 		/// Normal value range maximum for any of the MeasurementValue.values. Used for
 		/// scaling, e.g. in bar graphs or of telemetered raw values.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer maxValue;
+		public TC57CIM.IEC61970.Base.Domain.Integer? maxValue;
 		/// <summary>
 		/// Normal value range minimum for any of the MeasurementValue.values. Used for
 		/// scaling, e.g. in bar graphs or of telemetered raw values.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer minValue;
+		public TC57CIM.IEC61970.Base.Domain.Integer? minValue;
 		/// <summary>
 		/// Normal measurement value, e.g., used for percentage calculations.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer normalValue;
+		public TC57CIM.IEC61970.Base.Domain.Integer? normalValue;
 		/// <summary>
 		/// The values connected to this measurement.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Meas.DiscreteValue DiscreteValues;
+		public TC57CIM.IEC61970.Base.Meas.DiscreteValue? DiscreteValues;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Discrete"/> class

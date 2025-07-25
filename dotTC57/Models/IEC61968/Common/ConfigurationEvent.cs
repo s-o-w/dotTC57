@@ -16,19 +16,19 @@ namespace TC57CIM.IEC61968.Common {
 		/// <summary>
 		/// Date and time this event has or will become effective.
 		/// </summary>
-		public System.DateTime effectiveDateTime;
+		public System.DateTime? effectiveDateTime;
 		/// <summary>
 		/// Source/initiator of modification.
 		/// </summary>
-		public string modifiedBy;
+		public string? modifiedBy;
 		/// <summary>
 		/// Free text remarks.
 		/// </summary>
-		public string remark;
+		public string? remark;
 		/// <summary>
 		/// Fault cause type whose change resulted in this configuration event.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Faults.FaultCauseType FaultCauseType;
+		public TC57CIM.IEC61970.Base.Faults.FaultCauseType? FaultCauseType;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ConfigurationEvent"/> class

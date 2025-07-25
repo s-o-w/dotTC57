@@ -16,11 +16,11 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// <summary>
 		/// Regulating controls that have this schedule.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Wires.RegulatingControl RegulatingControl;
+		public TC57CIM.IEC61970.Base.Wires.RegulatingControl? RegulatingControl;
 		/// <summary>
 		/// A VoltageControlZone may have a  voltage regulation schedule.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Wires.VoltageControlZone VoltageControlZones;
+		public TC57CIM.IEC61970.Base.Wires.VoltageControlZone? VoltageControlZones;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="RegulationSchedule"/> class

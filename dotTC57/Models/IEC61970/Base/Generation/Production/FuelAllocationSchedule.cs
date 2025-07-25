@@ -16,11 +16,11 @@ namespace TC57CIM.IEC61970.Base.Generation.Production {
 		/// <summary>
 		/// The end time and date of the fuel allocation schedule.
 		/// </summary>
-		public System.DateTime fuelAllocationEndDate;
+		public System.DateTime? fuelAllocationEndDate;
 		/// <summary>
 		/// The start time and date of the fuel allocation schedule.
 		/// </summary>
-		public System.DateTime fuelAllocationStartDate;
+		public System.DateTime? fuelAllocationStartDate;
 		/// <summary>
 		/// The type of fuel, which also indicates the corresponding measurement unit.
 		/// </summary>

@@ -15,15 +15,15 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfERPSupport {
 		/// <summary>
 		/// The status
 		/// </summary>
-		public TC57CIM.IEC61968.Common.Status status;
+		public TC57CIM.IEC61968.Common.Status? status;
 		/// <summary>
 		/// The type material
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfWork.TypeMaterial TypeMaterial;
+		public TC57CIM.IEC61968.InfIEC61968.InfWork.TypeMaterial? TypeMaterial;
 		/// <summary>
 		/// The type asset
 		/// </summary>
-		public TC57CIM.IEC61968.AssetInfo.Assets.CatalogAssetType TypeAsset;
+		public TC57CIM.IEC61968.AssetInfo.Assets.CatalogAssetType? TypeAsset;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ErpIssueInventory"/> class

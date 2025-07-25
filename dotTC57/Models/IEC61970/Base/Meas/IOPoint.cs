@@ -17,7 +17,7 @@ namespace TC57CIM.IEC61970.Base.Meas {
 		/// <summary>
 		/// Bilateral ICCP point for the measurement or control.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.ICCPConfiguration.ProvidedBilateralPoint BilateralToIOPoint;
+		public TC57CIM.IEC61970.Base.ICCPConfiguration.ProvidedBilateralPoint? BilateralToIOPoint;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="IOPoint"/> class

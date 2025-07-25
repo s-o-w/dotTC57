@@ -22,7 +22,7 @@ namespace TC57CIM.IEC61970.Base.Contingency {
 		/// <summary>
 		/// The single piece of equipment to which to apply the contingency.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Core.Equipment Equipment;
+		public TC57CIM.IEC61970.Base.Core.Equipment? Equipment;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ContingencyEquipment"/> class

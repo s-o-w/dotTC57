@@ -17,7 +17,7 @@ namespace TC57CIM.IEC61968.AssetInfo.Assets {
 		/// <summary>
 		/// Catalogue number for asset model.
 		/// </summary>
-		public string catalogueNumber;
+		public string? catalogueNumber;
 		/// <summary>
 		/// Kind of corporate standard for this asset model.
 		/// </summary>
@@ -25,27 +25,27 @@ namespace TC57CIM.IEC61968.AssetInfo.Assets {
 		/// <summary>
 		/// Drawing number for asset model.
 		/// </summary>
-		public string drawingNumber;
+		public string? drawingNumber;
 		/// <summary>
 		/// Reference manual or instruction book for this asset model.
 		/// </summary>
-		public string instructionManual;
+		public string? instructionManual;
 		/// <summary>
 		/// Manufacturer's model number.
 		/// </summary>
-		public string modelNumber;
+		public string? modelNumber;
 		/// <summary>
 		/// Version number for product model, which indicates vintage of the product.
 		/// </summary>
-		public string modelVersion;
+		public string? modelVersion;
 		/// <summary>
 		/// Overall length of this asset model.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Length overallLength;
+		public TC57CIM.IEC61970.Base.Domain.Length? overallLength;
 		/// <summary>
 		/// Style number of asset model.
 		/// </summary>
-		public string styleNumber;
+		public string? styleNumber;
 		/// <summary>
 		/// Intended usage for this asset model.
 		/// </summary>
@@ -53,23 +53,23 @@ namespace TC57CIM.IEC61968.AssetInfo.Assets {
 		/// <summary>
 		/// Total manufactured weight of asset.
 		/// </summary>
-		public Mass weightTotal;
+		public Mass? weightTotal;
 		/// <summary>
 		/// Catalog asset type to which this product asset model conforms.
 		/// </summary>
-		public TC57CIM.IEC61968.AssetInfo.Assets.CatalogAssetType CatalogAssetType;
+		public TC57CIM.IEC61968.AssetInfo.Assets.CatalogAssetType? CatalogAssetType;
 		/// <summary>
 		/// The asset model catalogue items
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfAssetInfo.AssetModelCatalogueItem AssetModelCatalogueItems;
+		public TC57CIM.IEC61968.InfIEC61968.InfAssetInfo.AssetModelCatalogueItem? AssetModelCatalogueItems;
 		/// <summary>
 		/// Manufacturer of this asset model.
 		/// </summary>
-		public TC57CIM.IEC61968.AssetInfo.Assets.Manufacturer Manufacturer;
+		public TC57CIM.IEC61968.AssetInfo.Assets.Manufacturer? Manufacturer;
 		/// <summary>
 		/// Asset information (nameplate) for this product asset model.
 		/// </summary>
-		public TC57CIM.IEC61968.AssetInfo.Assets.AssetInfo AssetInfo;
+		public TC57CIM.IEC61968.AssetInfo.Assets.AssetInfo? AssetInfo;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ProductAssetModel"/> class

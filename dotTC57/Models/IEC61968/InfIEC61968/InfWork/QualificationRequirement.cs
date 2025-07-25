@@ -15,11 +15,11 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfWork {
 		/// <summary>
 		/// Qualification identifier.
 		/// </summary>
-		public string qualificationID;
+		public string? qualificationID;
 		/// <summary>
 		/// The specifications
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfAssets.Specification Specifications;
+		public TC57CIM.IEC61968.InfIEC61968.InfAssets.Specification? Specifications;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="QualificationRequirement"/> class

@@ -20,7 +20,7 @@ namespace TC57CIM.IEC61970.Base.Contingency {
 		/// <summary>
 		/// A contingency can have any number of contingency elements.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Contingency.ContingencyElement ContingencyElement;
+		public TC57CIM.IEC61970.Base.Contingency.ContingencyElement? ContingencyElement;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Contingency"/> class

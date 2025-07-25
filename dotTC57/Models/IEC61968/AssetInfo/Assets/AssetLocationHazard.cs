@@ -23,7 +23,7 @@ namespace TC57CIM.IEC61968.AssetInfo.Assets {
 		/// <summary>
 		/// The location of this hazard.
 		/// </summary>
-		public TC57CIM.IEC61968.Common.Location Locations;
+		public TC57CIM.IEC61968.Common.Location? Locations;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="AssetLocationHazard"/> class

@@ -20,11 +20,11 @@ namespace TC57CIM.IEC61968.PaymentMetering {
 		/// <summary>
 		/// Receipted amount with rounding, date and note.
 		/// </summary>
-		public LineDetail line;
+		public LineDetail? line;
 		/// <summary>
 		/// All transactions recorded for this receipted payment.
 		/// </summary>
-		public TC57CIM.IEC61968.PaymentMetering.Transaction Transactions;
+		public TC57CIM.IEC61968.PaymentMetering.Transaction? Transactions;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Receipt"/> class

@@ -20,30 +20,30 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// <summary>
 		/// Resistance between the 'from' and the 'to' end, seen from the 'from' end.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Resistance r;
+		public TC57CIM.IEC61970.Base.Domain.Resistance? r;
 		/// <summary>
 		/// Zero-sequence resistance between the 'from' and the 'to' end, seen from the
 		/// 'from' end.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Resistance r0;
+		public TC57CIM.IEC61970.Base.Domain.Resistance? r0;
 		/// <summary>
 		/// Reactance between the 'from' and the 'to' end, seen from the 'from' end.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Reactance x;
+		public TC57CIM.IEC61970.Base.Domain.Reactance? x;
 		/// <summary>
 		/// Zero-sequence reactance between the 'from' and the 'to' end, seen from the
 		/// 'from' end.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Reactance x0;
+		public TC57CIM.IEC61970.Base.Domain.Reactance? x0;
 		/// <summary>
 		/// All transformer ends this mesh impedance is connected to.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Wires.TransformerEnd ToTransformerEnd;
+		public TC57CIM.IEC61970.Base.Wires.TransformerEnd? ToTransformerEnd;
 		/// <summary>
 		/// From end this mesh impedance is connected to. It determines the voltage
 		/// reference.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Wires.TransformerEnd FromTransformerEnd;
+		public TC57CIM.IEC61970.Base.Wires.TransformerEnd? FromTransformerEnd;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="TransformerMeshImpedance"/> class

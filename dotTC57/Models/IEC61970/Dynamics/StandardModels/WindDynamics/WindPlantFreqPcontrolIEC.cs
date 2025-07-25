@@ -19,25 +19,25 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics {
 		/// controller to the wind turbines (<i>dp</i><i><sub>refmax</sub></i>) (>
 		/// WindPlantFreqPcontrolIEC.dprefmin). It is a case-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU dprefmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? dprefmax;
 		/// <summary>
 		/// Minimum (negative) ramp rate of <i>p</i><i><sub>WTref</sub></i> request from
 		/// the plant controller to the wind turbines (<i>dp</i><i><sub>refmin</sub></i>)
-		/// (< WindPlantFreqPcontrolIEC.dprefmax). It is a project-dependent parameter.
+		/// (&lt; WindPlantFreqPcontrolIEC.dprefmax). It is a project-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU dprefmin;
+		public TC57CIM.IEC61970.Base.Domain.PU? dprefmin;
 		/// <summary>
 		/// Maximum positive ramp rate for wind plant power reference
 		/// (<i>dp</i><i><sub>WPrefmax</sub></i>) (> WindPlantFreqPcontrolIEC.dpwprefmin).
 		/// It is a project-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU dpwprefmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? dpwprefmax;
 		/// <summary>
 		/// Maximum negative ramp rate for wind plant power reference
-		/// (<i>dp</i><i><sub>WPrefmin</sub></i>) (< WindPlantFreqPcontrolIEC.dpwprefmax).
+		/// (<i>dp</i><i><sub>WPrefmin</sub></i>) (&lt; WindPlantFreqPcontrolIEC.dpwprefmax).
 		/// It is a project-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU dpwprefmin;
+		public TC57CIM.IEC61970.Base.Domain.PU? dpwprefmin;
 		/// <summary>
 		/// Plant P controller integral gain (<i>K</i><i><sub>IWPp</sub></i>). It is a
 		/// project-dependent parameter.
@@ -47,12 +47,12 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics {
 		/// Maximum PI integrator term (<i>K</i><i><sub>IWPpmax</sub></i>) (>
 		/// WindPlantFreqPcontrolIEC.kiwppmin). It is a project-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kiwppmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? kiwppmax;
 		/// <summary>
-		/// Minimum PI integrator term (<i>K</i><i><sub>IWPpmin</sub></i>) (<
+		/// Minimum PI integrator term (<i>K</i><i><sub>IWPpmin</sub></i>) (&lt;
 		/// WindPlantFreqPcontrolIEC.kiwppmax). It is a project-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kiwppmin;
+		public TC57CIM.IEC61970.Base.Domain.PU? kiwppmin;
 		/// <summary>
 		/// Plant P controller proportional gain (<i>K</i><i><sub>PWPp</sub></i>). It is a
 		/// project-dependent parameter.
@@ -62,46 +62,46 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics {
 		/// Power reference gain (<i>K</i><i><sub>WPpref</sub></i>). It is a project-
 		/// dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kwppref;
+		public TC57CIM.IEC61970.Base.Domain.PU? kwppref;
 		/// <summary>
 		/// Maximum <i>p</i><i><sub>WTref</sub></i> request from the plant controller to
 		/// the wind turbines (<i>p</i><i><sub>refmax</sub></i>) (>
 		/// WindPlantFreqPcontrolIEC.prefmin). It is a project-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU prefmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? prefmax;
 		/// <summary>
 		/// Minimum <i>p</i><i><sub>WTref</sub></i> request from the plant controller to
-		/// the wind turbines (<i>p</i><i><sub>refmin</sub></i>) (<
+		/// the wind turbines (<i>p</i><i><sub>refmin</sub></i>) (&lt;
 		/// WindPlantFreqPcontrolIEC.prefmax). It is a project-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU prefmin;
+		public TC57CIM.IEC61970.Base.Domain.PU? prefmin;
 		/// <summary>
 		/// Lead time constant in reference value transfer function
 		/// (<i>T</i><i><sub>pft</sub></i>) (>= 0). It is a project-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tpft;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tpft;
 		/// <summary>
 		/// Lag time constant in reference value transfer function
 		/// (<i>T</i><i><sub>pfv</sub></i>) (>= 0). It is a project-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tpfv;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tpfv;
 		/// <summary>
 		/// Filter time constant for frequency measurement
 		/// (<i>T</i><i><sub>WPffiltp</sub></i>) (>= 0). It is a project-dependent
 		/// parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds twpffiltp;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? twpffiltp;
 		/// <summary>
 		/// Filter time constant for active power measurement
 		/// (<i>T</i><i><sub>WPpfiltp</sub></i>) (>= 0). It is a project-dependent
 		/// parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds twppfiltp;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? twppfiltp;
 		/// <summary>
 		/// Wind plant model with which this wind plant frequency and active power control
 		/// is associated.
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics.WindPlantIEC WindPlantIEC;
+		public TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics.WindPlantIEC? WindPlantIEC;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="WindPlantFreqPcontrolIEC"/> class

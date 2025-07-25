@@ -23,7 +23,7 @@ namespace TC57CIM.IEC61968.Operations {
 		/// <summary>
 		/// All power system resources tagged through this clearance.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Core.PowerSystemResource TaggedPSRs;
+		public TC57CIM.IEC61970.Base.Core.PowerSystemResource? TaggedPSRs;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ClearanceDocument"/> class

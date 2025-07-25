@@ -15,7 +15,7 @@ namespace TC57CIM.IEC61970.Base.Meas {
 		/// <summary>
 		/// The limit values used for supervision of Measurements.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Meas.AccumulatorLimit Limits;
+		public TC57CIM.IEC61970.Base.Meas.AccumulatorLimit? Limits;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="AccumulatorLimitSet"/> class

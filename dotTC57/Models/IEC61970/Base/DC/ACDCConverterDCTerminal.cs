@@ -29,7 +29,7 @@ namespace TC57CIM.IEC61970.Base.DC {
 		/// <summary>
 		/// A DC converter terminal belong to an DC converter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.DC.ACDCConverter DCConductingEquipment;
+		public TC57CIM.IEC61970.Base.DC.ACDCConverter? DCConductingEquipment;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ACDCConverterDCTerminal"/> class

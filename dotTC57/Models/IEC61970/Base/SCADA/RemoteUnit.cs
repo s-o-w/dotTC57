@@ -22,11 +22,11 @@ namespace TC57CIM.IEC61970.Base.SCADA {
 		/// <summary>
 		/// Type of remote unit.
 		/// </summary>
-		public RemoteUnitType remoteUnitType;
+		public RemoteUnitType? remoteUnitType;
 		/// <summary>
 		/// Remote points this Remote unit contains.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.SCADA.RemotePoint RemotePoints;
+		public TC57CIM.IEC61970.Base.SCADA.RemotePoint? RemotePoints;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="RemoteUnit"/> class

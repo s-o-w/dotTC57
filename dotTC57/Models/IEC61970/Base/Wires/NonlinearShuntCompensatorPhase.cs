@@ -19,7 +19,7 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// <summary>
 		/// All points of the non-linear shunt compensator phase.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Wires.NonlinearShuntCompensatorPhasePoint NonlinearShuntCompensatorPhasePoints;
+		public TC57CIM.IEC61970.Base.Wires.NonlinearShuntCompensatorPhasePoint? NonlinearShuntCompensatorPhasePoints;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="NonlinearShuntCompensatorPhase"/> class

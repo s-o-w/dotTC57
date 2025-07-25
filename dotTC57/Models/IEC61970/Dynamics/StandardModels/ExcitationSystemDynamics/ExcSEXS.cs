@@ -13,33 +13,33 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.ExcitationSystemDynamics {
 	public class ExcSEXS : ExcitationSystemDynamics {
 
 		/// <summary>
-		/// Field voltage clipping maximum limit (<i>Efdmax</i>) (> ExcSEXS.efdmin).
+		/// Field voltage clipping maximum limit (<i>Efdmax</i>) (&gt; ExcSEXS.efdmin).
 		/// Typical value = 5.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU efdmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? efdmax;
 		/// <summary>
-		/// Field voltage clipping minimum limit (<i>Efdmin</i>) (< ExcSEXS.efdmax).
+		/// Field voltage clipping minimum limit (<i>Efdmin</i>) (&lt; ExcSEXS.efdmax).
 		/// Typical value = -5.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU efdmin;
+		public TC57CIM.IEC61970.Base.Domain.PU? efdmin;
 		/// <summary>
-		/// Maximum field voltage output (<i>Emax</i>) (> ExcSEXS.emin).  Typical value = 5.
+		/// Maximum field voltage output (<i>Emax</i>) (&gt; ExcSEXS.emin).  Typical value = 5.
 		///
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU emax;
+		public TC57CIM.IEC61970.Base.Domain.PU? emax;
 		/// <summary>
-		/// Minimum field voltage output (<i>Emin</i>) (< ExcSEXS.emax).  Typical value = -
+		/// Minimum field voltage output (<i>Emin</i>) (&lt; ExcSEXS.emax).  Typical value = -
 		/// 5.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU emin;
+		public TC57CIM.IEC61970.Base.Domain.PU? emin;
 		/// <summary>
 		/// Gain (<i>K</i>) (> 0).  Typical value = 100.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU k;
+		public TC57CIM.IEC61970.Base.Domain.PU? k;
 		/// <summary>
 		/// PI controller gain (<i>Kc</i>) (> 0 if ExcSEXS.tc > 0).  Typical value = 0,08.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kc;
+		public TC57CIM.IEC61970.Base.Domain.PU? kc;
 		/// <summary>
 		/// Gain reduction ratio of lag-lead element (<i>[Ta / Tb]</i>).  Typical value = 0,
 		/// 1.
@@ -49,15 +49,15 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.ExcitationSystemDynamics {
 		/// Denominator time constant of lag-lead block (<i>Tb</i>) (>= 0).  Typical value
 		/// = 10.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tb;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tb;
 		/// <summary>
 		/// PI controller phase lead time constant (<i>Tc</i>) (>= 0).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tc;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tc;
 		/// <summary>
 		/// Time constant of gain block (<i>Te</i>) (> 0).  Typical value = 0,05.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds te;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? te;
 
 		/// <summary>
 		/// Constructor for ExcSEXS.

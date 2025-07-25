@@ -22,7 +22,7 @@ namespace TC57CIM.IEC61970.Base.Domain {
 		/// <summary>
 		/// The value
 		/// </summary>
-		public Decimal value;
+		public Decimal? value;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Money"/> class

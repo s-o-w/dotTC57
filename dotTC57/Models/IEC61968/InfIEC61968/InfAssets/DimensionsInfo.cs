@@ -19,27 +19,27 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfAssets {
 		/// an example, a vault may have north-south orientation for the sizeLength
 		/// measurement and sizeDepth may be the height of the vault.
 		/// </summary>
-		public string orientation;
+		public string? orientation;
 		/// <summary>
 		/// Depth measurement.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Length sizeDepth;
+		public TC57CIM.IEC61970.Base.Domain.Length? sizeDepth;
 		/// <summary>
 		/// Diameter measurement.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Length sizeDiameter;
+		public TC57CIM.IEC61970.Base.Domain.Length? sizeDiameter;
 		/// <summary>
 		/// Length measurement.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Length sizeLength;
+		public TC57CIM.IEC61970.Base.Domain.Length? sizeLength;
 		/// <summary>
 		/// Width measurement.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Length sizeWidth;
+		public TC57CIM.IEC61970.Base.Domain.Length? sizeWidth;
 		/// <summary>
 		/// The specifications
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfAssets.Specification Specifications;
+		public TC57CIM.IEC61968.InfIEC61968.InfAssets.Specification? Specifications;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="DimensionsInfo"/> class

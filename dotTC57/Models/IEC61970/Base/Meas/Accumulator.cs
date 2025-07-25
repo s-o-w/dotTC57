@@ -16,15 +16,15 @@ namespace TC57CIM.IEC61970.Base.Meas {
 		/// Normal value range maximum for any of the MeasurementValue.values. Used for
 		/// scaling, e.g. in bar graphs or of telemetered raw values.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer maxValue;
+		public TC57CIM.IEC61970.Base.Domain.Integer? maxValue;
 		/// <summary>
 		/// The values connected to this measurement.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Meas.AccumulatorValue AccumulatorValues;
+		public TC57CIM.IEC61970.Base.Meas.AccumulatorValue? AccumulatorValues;
 		/// <summary>
 		/// A measurement may have zero or more limit ranges defined for it.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Meas.AccumulatorLimitSet LimitSets;
+		public TC57CIM.IEC61970.Base.Meas.AccumulatorLimitSet? LimitSets;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Accumulator"/> class

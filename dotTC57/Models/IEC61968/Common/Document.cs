@@ -17,61 +17,61 @@ namespace TC57CIM.IEC61968.Common {
 		/// <summary>
 		/// Name of the author of this document.
 		/// </summary>
-		public string authorName;
+		public string? authorName;
 		/// <summary>
 		/// Free text comment.
 		/// </summary>
-		public string comment;
+		public string? comment;
 		/// <summary>
 		/// Date and time that this document was created.
 		/// </summary>
-		public System.DateTime createdDateTime;
+		public System.DateTime? createdDateTime;
 		/// <summary>
 		/// Status of this document. For status of subject matter this document represents
 		/// (e.g., Agreement, Work), use 'status' attribute.
 		/// Example values for 'docStatus.status' are draft, approved, cancelled, etc.
 		/// </summary>
-		public Status docStatus;
+		public Status? docStatus;
 		/// <summary>
 		/// Electronic address.
 		/// </summary>
-		public ElectronicAddress electronicAddress;
+		public ElectronicAddress? electronicAddress;
 		/// <summary>
 		/// Date and time this document was last modified. Documents may potentially be
 		/// modified many times during their lifetime.
 		/// </summary>
-		public System.DateTime lastModifiedDateTime;
+		public System.DateTime? lastModifiedDateTime;
 		/// <summary>
 		/// Revision number for this document.
 		/// </summary>
-		public string revisionNumber;
+		public string? revisionNumber;
 		/// <summary>
 		/// Status of subject matter (e.g., Agreement, Work) this document represents. For
 		/// status of the document itself, use 'docStatus' attribute.
 		/// </summary>
-		public Status status;
+		public Status? status;
 		/// <summary>
 		/// Document subject.
 		/// </summary>
-		public string subject;
+		public string? subject;
 		/// <summary>
 		/// Document title.
 		/// </summary>
-		public string title;
+		public string? title;
 		/// <summary>
 		/// Utility-specific classification of this document, according to its corporate
 		/// standards, practices, and existing IT systems (e.g., for management of assets,
 		/// maintenance, work, outage, customers, etc.).
 		/// </summary>
-		public string type;
+		public string? type;
 		/// <summary>
 		/// The activity record for a document
 		/// </summary>
-		public TC57CIM.IEC61968.Common.ActivityRecord ActivityRecord;
+		public TC57CIM.IEC61968.Common.ActivityRecord? ActivityRecord;
 		/// <summary>
 		/// All configuration events created for this document.
 		/// </summary>
-		public TC57CIM.IEC61968.Common.ConfigurationEvent ConfigurationEvents;
+		public TC57CIM.IEC61968.Common.ConfigurationEvent? ConfigurationEvents;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Document"/> class

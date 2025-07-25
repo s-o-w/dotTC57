@@ -20,15 +20,15 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// <summary>
 		/// Positive sequence shunt (charging) susceptance per section.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Susceptance b;
+		public TC57CIM.IEC61970.Base.Domain.Susceptance? b;
 		/// <summary>
 		/// Positive sequence shunt (charging) conductance per section.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Conductance g;
+		public TC57CIM.IEC61970.Base.Domain.Conductance? g;
 		/// <summary>
 		/// The number of the section.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer sectionNumber;
+		public TC57CIM.IEC61970.Base.Domain.Integer? sectionNumber;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="NonlinearShuntCompensatorPhasePoint"/> class

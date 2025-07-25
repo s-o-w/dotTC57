@@ -20,21 +20,21 @@ namespace TC57CIM.IEC61970.Base.StateVariables {
 		/// The terminal phase at which the connection is applied.   If missing, the
 		/// injection is assumed to be balanced among non-neutral phases.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Wires.SinglePhaseKind phase;
+		public TC57CIM.IEC61970.Base.Wires.SinglePhaseKind? phase;
 		/// <summary>
 		/// The active power mismatch between calculated injection and initial injection.
 		/// Positive sign means injection into the TopologicalNode (bus).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower pInjection;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? pInjection;
 		/// <summary>
 		/// The reactive power mismatch between calculated injection and initial injection.
 		/// Positive sign means injection into the TopologicalNode (bus).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ReactivePower qInjection;
+		public TC57CIM.IEC61970.Base.Domain.ReactivePower? qInjection;
 		/// <summary>
 		/// The topological node associated with the flow injection state variable.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Topology.TopologicalNode TopologicalNode;
+		public TC57CIM.IEC61970.Base.Topology.TopologicalNode? TopologicalNode;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="SvInjection"/> class

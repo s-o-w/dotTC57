@@ -47,15 +47,15 @@ namespace TC57CIM.IEC61968.Customers {
 		/// <summary>
 		/// (if tariff became inactive) Date tariff was terminated.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Date endDate;
+		public TC57CIM.IEC61970.Base.Domain.Date? endDate;
 		/// <summary>
 		/// Date tariff was activated.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Date startDate;
+		public TC57CIM.IEC61970.Base.Domain.Date? startDate;
 		/// <summary>
 		/// All tariff profiles using this tariff.
 		/// </summary>
-		public TC57CIM.IEC61968.PaymentMetering.TariffProfile TariffProfiles;
+		public TC57CIM.IEC61968.PaymentMetering.TariffProfile? TariffProfiles;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Tariff"/> class

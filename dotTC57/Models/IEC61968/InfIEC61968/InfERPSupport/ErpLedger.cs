@@ -20,7 +20,7 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfERPSupport {
 		/// <summary>
 		/// The erp ledger entries
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfERPSupport.ErpLedgerEntry ErpLedgerEntries;
+		public TC57CIM.IEC61968.InfIEC61968.InfERPSupport.ErpLedgerEntry? ErpLedgerEntries;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ErpLedger"/> class

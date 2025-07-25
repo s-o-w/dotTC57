@@ -29,25 +29,25 @@ namespace TC57CIM.IEC61968.PaymentMetering {
 		/// <summary>
 		/// Interval for activity of this shift.
 		/// </summary>
-		public DateTimeInterval activityInterval;
+		public DateTimeInterval? activityInterval;
 		/// <summary>
 		/// Total of amounts receipted during this shift that can be manually banked (cash
 		/// and cheques for example). Values are obtained from Receipt attributes:
 		/// =sum(Receipt.receiptAmount) for all Receipt.bankable = true.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Money receiptsGrandTotalBankable;
+		public TC57CIM.IEC61970.Base.Domain.Money? receiptsGrandTotalBankable;
 		/// <summary>
 		/// Total of amounts receipted during this shift that cannot be manually banked
 		/// (card payments for example). Values are obtained from Receipt attributes:
 		/// =sum(Receipt.receiptAmount) for all Receipt.bankable = false.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Money receiptsGrandTotalNonBankable;
+		public TC57CIM.IEC61970.Base.Domain.Money? receiptsGrandTotalNonBankable;
 		/// <summary>
 		/// Cumulative amount in error due to process rounding not reflected in
 		/// receiptsGrandTotal. Values are obtained from Receipt attributes:
 		/// =sum(Receipt.receiptRounding).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Money receiptsGrandTotalRounding;
+		public TC57CIM.IEC61970.Base.Domain.Money? receiptsGrandTotalRounding;
 		/// <summary>
 		/// Cumulative total of transacted amounts during this shift. Values are obtained
 		/// from transaction:
@@ -55,13 +55,13 @@ namespace TC57CIM.IEC61968.PaymentMetering {
 		/// transaction summary:
 		/// =sum('TransactionSummary.transactionsTotal').
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Money transactionsGrandTotal;
+		public TC57CIM.IEC61970.Base.Domain.Money? transactionsGrandTotal;
 		/// <summary>
 		/// Cumulative amount in error due to process rounding not reflected in
 		/// transactionsGandTotal. Values are obtained from Transaction attributes:
 		/// =sum(Transaction.transactionRounding).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Money transactionsGrandTotalRounding;
+		public TC57CIM.IEC61970.Base.Domain.Money? transactionsGrandTotalRounding;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Shift"/> class

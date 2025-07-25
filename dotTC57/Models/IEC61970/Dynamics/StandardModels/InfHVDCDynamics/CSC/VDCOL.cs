@@ -15,7 +15,7 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.InfHVDCDynamics.CSC {
 		/// <summary>
 		/// The idcinvertercontrol
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.StandardModels.InfHVDCDynamics.CSC.IdcInverterControl m_IdcInverterControl;
+		public TC57CIM.IEC61970.Dynamics.StandardModels.InfHVDCDynamics.CSC.IdcInverterControl? m_IdcInverterControl;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="VDCOL"/> class

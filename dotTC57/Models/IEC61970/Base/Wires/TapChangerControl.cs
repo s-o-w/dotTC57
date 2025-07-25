@@ -18,7 +18,7 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// Maximum allowed regulated voltage on the PT secondary, regardless of line drop
 		/// compensation. Sometimes referred to as first-house protection.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Voltage limitVoltage;
+		public TC57CIM.IEC61970.Base.Domain.Voltage? limitVoltage;
 		/// <summary>
 		/// If true, the line drop compensation is to be applied.
 		/// </summary>
@@ -26,19 +26,19 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// <summary>
 		/// Line drop compensator resistance setting for normal (forward) power flow.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Resistance lineDropR;
+		public TC57CIM.IEC61970.Base.Domain.Resistance? lineDropR;
 		/// <summary>
 		/// Line drop compensator reactance setting for normal (forward) power flow.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Reactance lineDropX;
+		public TC57CIM.IEC61970.Base.Domain.Reactance? lineDropX;
 		/// <summary>
 		/// Line drop compensator resistance setting for reverse power flow.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Resistance reverseLineDropR;
+		public TC57CIM.IEC61970.Base.Domain.Resistance? reverseLineDropR;
 		/// <summary>
 		/// Line drop compensator reactance setting for reverse power flow.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Reactance reverseLineDropX;
+		public TC57CIM.IEC61970.Base.Domain.Reactance? reverseLineDropX;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="TapChangerControl"/> class

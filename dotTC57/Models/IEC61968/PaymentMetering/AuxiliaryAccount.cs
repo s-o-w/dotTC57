@@ -19,31 +19,31 @@ namespace TC57CIM.IEC61968.PaymentMetering {
 		/// paid in order to settle the account to zero. This excludes any due amounts not
 		/// yet paid.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Money balance;
+		public TC57CIM.IEC61970.Base.Domain.Money? balance;
 		/// <summary>
 		/// Current amounts now due for payment on this account.
 		/// </summary>
-		public Due due;
+		public Due? due;
 		/// <summary>
 		/// Details of the last credit transaction performed on this account.
 		/// </summary>
-		public AccountMovement lastCredit;
+		public AccountMovement? lastCredit;
 		/// <summary>
 		/// Details of the last debit transaction performed on this account.
 		/// </summary>
-		public AccountMovement lastDebit;
+		public AccountMovement? lastDebit;
 		/// <summary>
 		/// The initial principle amount, with which this account was instantiated.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Money principleAmount;
+		public TC57CIM.IEC61970.Base.Domain.Money? principleAmount;
 		/// <summary>
 		/// All charges levied on this account.
 		/// </summary>
-		public TC57CIM.IEC61968.PaymentMetering.Charge Charges;
+		public TC57CIM.IEC61968.PaymentMetering.Charge? Charges;
 		/// <summary>
 		/// All payments against this account.
 		/// </summary>
-		public TC57CIM.IEC61968.PaymentMetering.Transaction PaymentTransactions;
+		public TC57CIM.IEC61968.PaymentMetering.Transaction? PaymentTransactions;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="AuxiliaryAccount"/> class

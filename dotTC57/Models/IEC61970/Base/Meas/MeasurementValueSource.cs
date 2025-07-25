@@ -17,7 +17,7 @@ namespace TC57CIM.IEC61970.Base.Meas {
 		/// <summary>
 		/// The MeasurementValues updated by the source.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Meas.MeasurementValue MeasurementValues;
+		public TC57CIM.IEC61970.Base.Meas.MeasurementValue? MeasurementValues;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="MeasurementValueSource"/> class

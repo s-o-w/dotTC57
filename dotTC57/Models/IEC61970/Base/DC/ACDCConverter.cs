@@ -19,50 +19,50 @@ namespace TC57CIM.IEC61970.Base.DC {
 		/// Base apparent power of the converter pole. The attribute shall be a positive
 		/// value.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ApparentPower baseS;
+		public TC57CIM.IEC61970.Base.Domain.ApparentPower? baseS;
 		/// <summary>
 		/// Converter DC current, also called Id. It is converter�s state variable, result
 		/// from power flow.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.CurrentFlow idc;
+		public TC57CIM.IEC61970.Base.Domain.CurrentFlow? idc;
 		/// <summary>
 		/// Active power loss in pole at no power transfer. It is converter�s configuration
 		/// data used in power flow. The attribute shall be a positive value.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower idleLoss;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? idleLoss;
 		/// <summary>
 		/// Maximum active power limit. The value is overwritten by values of
 		/// VsCapabilityCurve, if present.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower maxP;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? maxP;
 		/// <summary>
 		/// The maximum voltage on the DC side at which the converter should operate. It is
 		/// converter�s configuration data used in power flow. The attribute shall be a
 		/// positive value.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Voltage maxUdc;
+		public TC57CIM.IEC61970.Base.Domain.Voltage? maxUdc;
 		/// <summary>
 		/// Minimum active power limit. The value is overwritten by values of
 		/// VsCapabilityCurve, if present.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower minP;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? minP;
 		/// <summary>
 		/// The minimum voltage on the DC side at which the converter should operate. It is
 		/// converter�s configuration data used in power flow. The attribute shall be a
 		/// positive value.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Voltage minUdc;
+		public TC57CIM.IEC61970.Base.Domain.Voltage? minUdc;
 		/// <summary>
 		/// Number of valves in the converter. Used in loss calculations.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer numberOfValves;
+		public TC57CIM.IEC61970.Base.Domain.Integer? numberOfValves;
 		/// <summary>
 		/// Active power at the point of common coupling. Load sign convention is used, i.e.
 		/// positive sign means flow out from a node.
 		/// Starting value for a steady state solution in the case a simplified power flow
 		/// model is used.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower p;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? p;
 		/// <summary>
 		/// The active power loss at a DC Pole
 		/// = idleLoss + switchingLoss*|Idc| + resitiveLoss*Idc^2.
@@ -72,63 +72,63 @@ namespace TC57CIM.IEC61970.Base.DC {
 		/// It is converter�s state variable used in power flow. The attribute shall be a
 		/// positive value.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower poleLossP;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? poleLossP;
 		/// <summary>
 		/// Reactive power at the point of common coupling. Load sign convention is used, i.
 		/// e. positive sign means flow out from a node.
 		/// Starting value for a steady state solution in the case a simplified power flow
 		/// model is used.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ReactivePower q;
+		public TC57CIM.IEC61970.Base.Domain.ReactivePower? q;
 		/// <summary>
 		/// Rated converter DC voltage, also called UdN. The attribute shall be a positive
 		/// value. It is converter�s configuration data used in power flow. For instance a
 		/// bipolar HVDC link with value  200 kV has a 400kV difference between the dc
 		/// lines.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Voltage ratedUdc;
+		public TC57CIM.IEC61970.Base.Domain.Voltage? ratedUdc;
 		/// <summary>
 		/// It is converter�s configuration data used in power flow. Refer to poleLossP.
 		/// The attribute shall be a positive value.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Resistance resistiveLoss;
+		public TC57CIM.IEC61970.Base.Domain.Resistance? resistiveLoss;
 		/// <summary>
 		/// Switching losses, relative to the base apparent power 'baseS'. Refer to
 		/// poleLossP. The attribute shall be a positive value.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePowerPerCurrentFlow switchingLoss;
+		public TC57CIM.IEC61970.Base.Domain.ActivePowerPerCurrentFlow? switchingLoss;
 		/// <summary>
 		/// Real power injection target in AC grid, at point of common coupling.  Load sign
 		/// convention is used, i.e. positive sign means flow out from a node.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower targetPpcc;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? targetPpcc;
 		/// <summary>
 		/// Target value for DC voltage magnitude. The attribute shall be a positive value.
 		///
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Voltage targetUdc;
+		public TC57CIM.IEC61970.Base.Domain.Voltage? targetUdc;
 		/// <summary>
 		/// Line-to-line converter voltage, the voltage at the AC side of the valve. It is
 		/// converter�s state variable, result from power flow. The attribute shall be a
 		/// positive value.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Voltage uc;
+		public TC57CIM.IEC61970.Base.Domain.Voltage? uc;
 		/// <summary>
 		/// Converter voltage at the DC side, also called Ud. It is converter�s state
 		/// variable, result from power flow. The attribute shall be a positive value.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Voltage udc;
+		public TC57CIM.IEC61970.Base.Domain.Voltage? udc;
 		/// <summary>
 		/// Valve threshold voltage, also called Uvalve. Forward voltage drop when the
 		/// valve is conducting. Used in loss calculations, i.e. the switchLoss depend on
 		/// numberOfValves * valveU0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Voltage valveU0;
+		public TC57CIM.IEC61970.Base.Domain.Voltage? valveU0;
 		/// <summary>
 		/// Point of common coupling terminal for this converter DC side. It is typically
 		/// the terminal on the power transformer (or switch) closest to the AC network.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Core.Terminal PccTerminal;
+		public TC57CIM.IEC61970.Base.Core.Terminal? PccTerminal;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ACDCConverter"/> class

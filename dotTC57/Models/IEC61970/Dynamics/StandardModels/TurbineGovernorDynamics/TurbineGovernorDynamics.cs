@@ -19,7 +19,7 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.TurbineGovernorDynamics {
 		/// TurbineGovernorDynamics shall have either an association to
 		/// SynchronousMachineDynamics or to AsynchronousMachineDynamics.
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.StandardModels.AsynchronousMachineDynamics.AsynchronousMachineDynamics AsynchronousMachineDynamics;
+		public TC57CIM.IEC61970.Dynamics.StandardModels.AsynchronousMachineDynamics.AsynchronousMachineDynamics? AsynchronousMachineDynamics;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="TurbineGovernorDynamics"/> class

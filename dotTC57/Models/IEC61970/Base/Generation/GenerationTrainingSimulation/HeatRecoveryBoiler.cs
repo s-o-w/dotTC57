@@ -19,7 +19,7 @@ namespace TC57CIM.IEC61970.Base.Generation.GenerationTrainingSimulation {
 		/// <summary>
 		/// A combustion turbine may have a heat recovery boiler for making steam.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Generation.GenerationTrainingSimulation.CombustionTurbine CombustionTurbines;
+		public TC57CIM.IEC61970.Base.Generation.GenerationTrainingSimulation.CombustionTurbine? CombustionTurbines;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="HeatRecoveryBoiler"/> class

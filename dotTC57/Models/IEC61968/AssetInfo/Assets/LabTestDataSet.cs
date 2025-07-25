@@ -15,11 +15,11 @@ namespace TC57CIM.IEC61968.AssetInfo.Assets {
 		/// <summary>
 		/// Conclusion drawn from test results.
 		/// </summary>
-		public string conclusion;
+		public string? conclusion;
 		/// <summary>
 		/// Description of confidence in conclusion.
 		/// </summary>
-		public string conclusionConfidence;
+		public string? conclusionConfidence;
 		/// <summary>
 		/// Reason for performing test.
 		/// </summary>
@@ -27,15 +27,15 @@ namespace TC57CIM.IEC61968.AssetInfo.Assets {
 		/// <summary>
 		/// Identity of lab equipment used to perform test.
 		/// </summary>
-		public string testEquipmentID;
+		public string? testEquipmentID;
 		/// <summary>
 		/// Test lab which produced this set of lab test results.
 		/// </summary>
-		public TC57CIM.IEC61968.AssetInfo.Assets.AssetTestLab AssetTestLab;
+		public TC57CIM.IEC61968.AssetInfo.Assets.AssetTestLab? AssetTestLab;
 		/// <summary>
 		/// Specimen on which lab testing done in determining results.
 		/// </summary>
-		public TC57CIM.IEC61968.AssetInfo.Assets.Specimen Specimen;
+		public TC57CIM.IEC61968.AssetInfo.Assets.Specimen? Specimen;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="LabTestDataSet"/> class

@@ -17,107 +17,107 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.ExcitationSystemDynamics {
 		/// <summary>
 		/// Field voltage value 1 (<i>E</i><i><sub>1</sub></i>).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU e1;
+		public TC57CIM.IEC61970.Base.Domain.PU? e1;
 		/// <summary>
 		/// Field voltage value 2 (<i>E</i><i><sub>2</sub></i>).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU e2;
+		public TC57CIM.IEC61970.Base.Domain.PU? e2;
 		/// <summary>
 		/// Exciter maximum limit (<i>E</i><i><sub>fdmax</sub></i>) (> ExcPIC.efdmin).
 		/// Typical value = 8.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU efdmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? efdmax;
 		/// <summary>
 		/// Exciter minimum limit (<i>E</i><i><sub>fdmin</sub></i>) (less than ExcPIC.efdmax).
 		/// Typical value = -0,87.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU efdmin;
+		public TC57CIM.IEC61970.Base.Domain.PU? efdmin;
 		/// <summary>
 		/// PI controller gain (<i>K</i><i><sub>a</sub></i>).  Typical value = 3,15.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU ka;
+		public TC57CIM.IEC61970.Base.Domain.PU? ka;
 		/// <summary>
 		/// Exciter regulation factor (<i>K</i><i><sub>c</sub></i>).  Typical value = 0,08.
 		///
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kc;
+		public TC57CIM.IEC61970.Base.Domain.PU? kc;
 		/// <summary>
 		/// Exciter constant (<i>K</i><i><sub>e</sub></i>).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU ke;
+		public TC57CIM.IEC61970.Base.Domain.PU? ke;
 		/// <summary>
 		/// Rate feedback gain (<i>K</i><i><sub>f</sub></i>).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kf;
+		public TC57CIM.IEC61970.Base.Domain.PU? kf;
 		/// <summary>
 		/// Current source gain (<i>K</i><i><sub>i</sub></i>).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU ki;
+		public TC57CIM.IEC61970.Base.Domain.PU? ki;
 		/// <summary>
 		/// Potential source gain (<i>K</i><i><sub>p</sub></i>).  Typical value = 6,5.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kp;
+		public TC57CIM.IEC61970.Base.Domain.PU? kp;
 		/// <summary>
 		/// Saturation factor at <i>E</i><i><sub>1</sub></i> (<i>Se</i><i><sub>1</sub></i>).
 		///  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU se1;
+		public TC57CIM.IEC61970.Base.Domain.PU? se1;
 		/// <summary>
 		/// Saturation factor at <i>E</i><i><sub>2</sub></i> (<i>Se</i><i><sub>2</sub></i>).
 		///  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU se2;
+		public TC57CIM.IEC61970.Base.Domain.PU? se2;
 		/// <summary>
 		/// PI controller time constant (<i>T</i><i><sub>a1</sub></i>) (>= 0).  Typical
 		/// value = 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds ta1;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? ta1;
 		/// <summary>
 		/// Voltage regulator time constant (<i>T</i><i><sub>a2</sub></i>) (>= 0).  Typical
 		/// value = 0,01.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds ta2;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? ta2;
 		/// <summary>
 		/// Lead time constant (<i>T</i><i><sub>a3</sub></i>) (>= 0).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds ta3;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? ta3;
 		/// <summary>
 		/// Lag time constant (<i>T</i><i><sub>a4</sub></i>) (>= 0).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds ta4;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? ta4;
 		/// <summary>
 		/// Exciter time constant (<i>T</i><i><sub>e</sub></i>) (>= 0).  Typical value = 0.
 		///
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds te;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? te;
 		/// <summary>
 		/// Rate feedback time constant (<i>T</i><i><sub>f1</sub></i>) (>= 0).  Typical
 		/// value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tf1;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tf1;
 		/// <summary>
 		/// Rate feedback lag time constant (<i>T</i><i><sub>f2</sub></i>) (>= 0).  Typical
 		/// value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tf2;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tf2;
 		/// <summary>
 		/// PI maximum limit (<i>V</i><i><sub>r1</sub></i>).  Typical value = 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vr1;
+		public TC57CIM.IEC61970.Base.Domain.PU? vr1;
 		/// <summary>
 		/// PI minimum limit (<i>V</i><i><sub>r2</sub></i>).  Typical value = -0,87.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vr2;
+		public TC57CIM.IEC61970.Base.Domain.PU? vr2;
 		/// <summary>
 		/// Voltage regulator maximum limit (<i>V</i><i><sub>rmax</sub></i>) (> ExcPIC.
 		/// vrmin).  Typical value = 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vrmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? vrmax;
 		/// <summary>
 		/// Voltage regulator minimum limit (<i>V</i><i><sub>rmin</sub></i>) (less than ExcPIC.vrmax).
 		/// Typical value = -0,87.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vrmin;
+		public TC57CIM.IEC61970.Base.Domain.PU? vrmin;
 
 		/// <summary>
 		/// Constructor for ExcPIC.

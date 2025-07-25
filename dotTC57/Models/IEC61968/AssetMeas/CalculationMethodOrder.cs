@@ -16,12 +16,12 @@ namespace TC57CIM.IEC61968.AssetMeas {
 		/// Order of the statistical calculation method within the calculation method
 		/// hierarchy.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer order;
+		public TC57CIM.IEC61970.Base.Domain.Integer? order;
 		/// <summary>
 		/// The calculation method hierarchy of which this order of statistical calculation
 		/// is a member.
 		/// </summary>
-		public TC57CIM.IEC61968.AssetMeas.CalculationMethodHierarchy CalculationMethodHierarchy;
+		public TC57CIM.IEC61968.AssetMeas.CalculationMethodHierarchy? CalculationMethodHierarchy;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="CalculationMethodOrder"/> class

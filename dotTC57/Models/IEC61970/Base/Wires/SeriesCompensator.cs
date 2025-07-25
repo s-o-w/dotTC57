@@ -16,11 +16,11 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// <summary>
 		/// Positive sequence resistance.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Resistance r;
+		public TC57CIM.IEC61970.Base.Domain.Resistance? r;
 		/// <summary>
 		/// Zero sequence resistance.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Resistance r0;
+		public TC57CIM.IEC61970.Base.Domain.Resistance? r0;
 		/// <summary>
 		/// Describe if a metal oxide varistor (mov) for over voltage protection is
 		/// configured in parallel with the series compensator. It is used for short
@@ -33,21 +33,21 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// SeriesCompensator.varistorPresent is true.
 		/// The attribute shall be a positive value.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.CurrentFlow varistorRatedCurrent;
+		public TC57CIM.IEC61970.Base.Domain.CurrentFlow? varistorRatedCurrent;
 		/// <summary>
 		/// The dc voltage at which the varistor starts conducting. It is used for short
 		/// circuit calculations and exchanged only if SeriesCompensator.varistorPresent is
 		/// true.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Voltage varistorVoltageThreshold;
+		public TC57CIM.IEC61970.Base.Domain.Voltage? varistorVoltageThreshold;
 		/// <summary>
 		/// Positive sequence reactance.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Reactance x;
+		public TC57CIM.IEC61970.Base.Domain.Reactance? x;
 		/// <summary>
 		/// Zero sequence reactance.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Reactance x0;
+		public TC57CIM.IEC61970.Base.Domain.Reactance? x0;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="SeriesCompensator"/> class

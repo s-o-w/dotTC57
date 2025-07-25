@@ -16,7 +16,7 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.StaticVarCompensatorDynamics 
 		/// <summary>
 		/// Static Var Compensator to which Static Var Compensator dynamics model applies.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Wires.StaticVarCompensator StaticVarCompensator;
+		public TC57CIM.IEC61970.Base.Wires.StaticVarCompensator? StaticVarCompensator;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="StaticVarCompensatorDynamics"/> class

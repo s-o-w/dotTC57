@@ -21,11 +21,11 @@ namespace TC57CIM.IEC61968.AssetInfo.Assets {
 		/// <summary>
 		/// Analytic score for this asset group.
 		/// </summary>
-		public TC57CIM.IEC61968.AssetInfo.Assets.AnalyticScore AnalyticScore;
+		public TC57CIM.IEC61968.AssetInfo.Assets.AnalyticScore? AnalyticScore;
 		/// <summary>
 		/// Asset which is a part of this asset group.
 		/// </summary>
-		public TC57CIM.IEC61968.AssetInfo.Assets.Asset Asset;
+		public TC57CIM.IEC61968.AssetInfo.Assets.Asset? Asset;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="AssetGroup"/> class

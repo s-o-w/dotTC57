@@ -15,19 +15,19 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfERPSupport {
 		/// <summary>
 		/// The status
 		/// </summary>
-		public TC57CIM.IEC61968.Common.Status status;
+		public TC57CIM.IEC61968.Common.Status? status;
 		/// <summary>
 		/// The erp journal entries
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfERPSupport.ErpJournalEntry ErpJournalEntries;
+		public TC57CIM.IEC61968.InfIEC61968.InfERPSupport.ErpJournalEntry? ErpJournalEntries;
 		/// <summary>
 		/// The erp payments
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfERPSupport.ErpPayment ErpPayments;
+		public TC57CIM.IEC61968.InfIEC61968.InfERPSupport.ErpPayment? ErpPayments;
 		/// <summary>
 		/// The erp receivable
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfERPSupport.ErpReceivable ErpReceivable;
+		public TC57CIM.IEC61968.InfIEC61968.InfERPSupport.ErpReceivable? ErpReceivable;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ErpRecLineItem"/> class

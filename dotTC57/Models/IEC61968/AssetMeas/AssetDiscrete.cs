@@ -16,7 +16,7 @@ namespace TC57CIM.IEC61968.AssetMeas {
 		/// <summary>
 		/// The lab test standard to which this asset health discrete is related.
 		/// </summary>
-		public TC57CIM.IEC61968.AssetInfo.Assets.TestStandard TestStandard;
+		public TC57CIM.IEC61968.AssetInfo.Assets.TestStandard? TestStandard;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="AssetDiscrete"/> class

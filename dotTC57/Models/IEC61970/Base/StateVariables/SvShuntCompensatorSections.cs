@@ -16,7 +16,7 @@ namespace TC57CIM.IEC61970.Base.StateVariables {
 		/// The terminal phase at which the connection is applied.   If missing, the
 		/// injection is assumed to be balanced among non-neutral phases.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Wires.SinglePhaseKind phase;
+		public TC57CIM.IEC61970.Base.Wires.SinglePhaseKind? phase;
 		/// <summary>
 		/// The number of sections in service as a continuous variable. The attribute shall
 		/// be a positive value or zero. To get integer value scale with ShuntCompensator.
@@ -26,7 +26,7 @@ namespace TC57CIM.IEC61970.Base.StateVariables {
 		/// <summary>
 		/// The shunt compensator for which the state applies.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Wires.ShuntCompensator ShuntCompensator;
+		public TC57CIM.IEC61970.Base.Wires.ShuntCompensator? ShuntCompensator;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="SvShuntCompensatorSections"/> class

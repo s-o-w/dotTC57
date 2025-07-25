@@ -15,7 +15,7 @@ namespace TC57CIM.IEC61968.AssetInfo.Assets {
 		/// <summary>
 		/// Interrupter controlled by this mechanism.
 		/// </summary>
-		public TC57CIM.IEC61968.AssetInfo.Assets.InterrupterUnit InterrupterUnit;
+		public TC57CIM.IEC61968.AssetInfo.Assets.InterrupterUnit? InterrupterUnit;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="OperatingMechanism"/> class

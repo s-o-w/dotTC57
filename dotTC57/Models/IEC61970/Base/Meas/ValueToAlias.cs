@@ -16,7 +16,7 @@ namespace TC57CIM.IEC61970.Base.Meas {
 		/// <summary>
 		/// The value that is mapped.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer value;
+		public TC57CIM.IEC61970.Base.Domain.Integer? value;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ValueToAlias"/> class

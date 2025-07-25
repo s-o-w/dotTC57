@@ -16,36 +16,36 @@ namespace TC57CIM.IEC61968.Operations {
 		/// <summary>
 		/// Actual date and time of this switching step.
 		/// </summary>
-		public System.DateTime executedDateTime;
+		public System.DateTime? executedDateTime;
 		/// <summary>
 		/// Date and time when the crew was given the instruction to execute the action;
 		/// not applicable if the action is performed by operator remote control.
 		/// </summary>
-		public System.DateTime issuedDateTime;
+		public System.DateTime? issuedDateTime;
 		/// <summary>
 		/// Phases of the Switching Action
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Core.PhaseCode phases;
+		public TC57CIM.IEC61970.Base.Core.PhaseCode? phases;
 		/// <summary>
 		/// Planned date and time of this switching step.
 		/// </summary>
-		public System.DateTime plannedDateTime;
+		public System.DateTime? plannedDateTime;
 		/// <summary>
 		/// The switching plan that is associated with the switching actions.
 		/// </summary>
-		public TC57CIM.IEC61968.Operations.SwitchingPlan SwitchingPlan;
+		public TC57CIM.IEC61968.Operations.SwitchingPlan? SwitchingPlan;
 		/// <summary>
 		/// Operator responsible for this switching step.
 		/// </summary>
-		public TC57CIM.IEC61968.Common.Operator Operator;
+		public TC57CIM.IEC61968.Common.Operator? Operator;
 		/// <summary>
 		/// The crew that is assigned to the switching action.
 		/// </summary>
-		public TC57CIM.IEC61968.Common.Crew Crew;
+		public TC57CIM.IEC61968.Common.Crew? Crew;
 		/// <summary>
 		/// The switching event that the switching action is performed on
 		/// </summary>
-		public TC57CIM.IEC61968.Operations.SwitchingEvent SwitchingEvent;
+		public TC57CIM.IEC61968.Operations.SwitchingEvent? SwitchingEvent;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="SwitchingAction"/> class

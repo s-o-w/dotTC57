@@ -15,7 +15,7 @@ namespace TC57CIM.IEC61968.Operations {
 		/// <summary>
 		/// The measurement that the measurement action is performed on
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Meas.Measurement Measurement;
+		public TC57CIM.IEC61970.Base.Meas.Measurement? Measurement;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="MeasurementAction"/> class

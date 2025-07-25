@@ -17,22 +17,22 @@ namespace TC57CIM.IEC61968.PaymentMetering {
 		/// <summary>
 		/// The current operating balance of this account.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Money currentBalance;
+		public TC57CIM.IEC61970.Base.Domain.Money? currentBalance;
 		/// <summary>
 		/// The balance of this account after taking into account any pending debits from
 		/// VendorShift.merchantDebitAmount and pending credits from BankStatement.
 		/// merchantCreditAmount or credits (see also BankStatement attributes and
 		/// VendorShift attributes).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Money provisionalBalance;
+		public TC57CIM.IEC61970.Base.Domain.Money? provisionalBalance;
 		/// <summary>
 		/// All vendor shifts that operate on this merchant account.
 		/// </summary>
-		public TC57CIM.IEC61968.PaymentMetering.VendorShift VendorShifts;
+		public TC57CIM.IEC61968.PaymentMetering.VendorShift? VendorShifts;
 		/// <summary>
 		/// All transactors this merchant account is registered with.
 		/// </summary>
-		public TC57CIM.IEC61968.PaymentMetering.Transactor Transactors;
+		public TC57CIM.IEC61968.PaymentMetering.Transactor? Transactors;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="MerchantAccount"/> class

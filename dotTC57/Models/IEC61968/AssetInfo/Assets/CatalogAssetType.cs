@@ -16,7 +16,7 @@ namespace TC57CIM.IEC61968.AssetInfo.Assets {
 		/// Estimated unit cost (or cost per unit length) of this type of asset. It does
 		/// not include labor to install, construct or configure it.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Money estimatedUnitCost;
+		public TC57CIM.IEC61970.Base.Domain.Money? estimatedUnitCost;
 		/// <summary>
 		/// Kind of asset (from enumerated list).
 		/// </summary>
@@ -24,7 +24,7 @@ namespace TC57CIM.IEC61968.AssetInfo.Assets {
 		/// <summary>
 		/// The value, unit of measure, and multiplier for the quantity.
 		/// </summary>
-		public string quantity;
+		public string? quantity;
 		/// <summary>
 		/// True if item is a stock item (default).
 		/// </summary>
@@ -32,19 +32,19 @@ namespace TC57CIM.IEC61968.AssetInfo.Assets {
 		/// <summary>
 		/// Description of type of asset.
 		/// </summary>
-		public string type;
+		public string? type;
 		/// <summary>
 		/// The erp bom item datas
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfERPSupport.ErpBomItemData ErpBomItemDatas;
+		public TC57CIM.IEC61968.InfIEC61968.InfERPSupport.ErpBomItemData? ErpBomItemDatas;
 		/// <summary>
 		/// The erp req line items
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfERPSupport.ErpReqLineItem ErpReqLineItems;
+		public TC57CIM.IEC61968.InfIEC61968.InfERPSupport.ErpReqLineItem? ErpReqLineItems;
 		/// <summary>
 		/// The type asset catalogue
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfTypeAsset.TypeAssetCatalogue TypeAssetCatalogue;
+		public TC57CIM.IEC61968.InfIEC61968.InfTypeAsset.TypeAssetCatalogue? TypeAssetCatalogue;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="CatalogAssetType"/> class

@@ -17,75 +17,75 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// Maximum fault current this device will contribute, in per-unit of rated current,
 		/// before the converter protection will trip or bypass.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU maxIFault;
+		public TC57CIM.IEC61970.Base.Domain.PU? maxIFault;
 		/// <summary>
 		/// Maximum reactive power limit. This is the maximum (nameplate) limit for the
 		/// unit.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ReactivePower maxQ;
+		public TC57CIM.IEC61970.Base.Domain.ReactivePower? maxQ;
 		/// <summary>
 		/// Minimum reactive power limit for the unit. This is the minimum (nameplate)
 		/// limit for the unit.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ReactivePower minQ;
+		public TC57CIM.IEC61970.Base.Domain.ReactivePower? minQ;
 		/// <summary>
 		/// Active power injection. Load sign convention is used, i.e. positive sign means
 		/// flow out from a node.
 		/// Starting value for a steady state solution.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower p;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? p;
 		/// <summary>
 		/// Reactive power injection. Load sign convention is used, i.e. positive sign
 		/// means flow out from a node.
 		/// Starting value for a steady state solution.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ReactivePower q;
+		public TC57CIM.IEC61970.Base.Domain.ReactivePower? q;
 		/// <summary>
 		/// Equivalent resistance (RG) of generator. RG is considered for the calculation
 		/// of all currents, except for the calculation of the peak current ip. Used for
 		/// short circuit data exchange according to IEC 60909.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Resistance r;
+		public TC57CIM.IEC61970.Base.Domain.Resistance? r;
 		/// <summary>
 		/// Zero sequence resistance of the synchronous machine.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Resistance r0;
+		public TC57CIM.IEC61970.Base.Domain.Resistance? r0;
 		/// <summary>
 		/// Nameplate apparent power rating for the unit.
 		/// The attribute shall have a positive value.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ApparentPower ratedS;
+		public TC57CIM.IEC61970.Base.Domain.ApparentPower? ratedS;
 		/// <summary>
 		/// Rated voltage (nameplate data, Ur in IEC 60909-0). It is primarily used for
 		/// short circuit data exchange according to IEC 60909.
 		/// The attribute shall be a positive value.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Voltage ratedU;
+		public TC57CIM.IEC61970.Base.Domain.Voltage? ratedU;
 		/// <summary>
 		/// Negative sequence Thevenin resistance.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Resistance rn;
+		public TC57CIM.IEC61970.Base.Domain.Resistance? rn;
 		/// <summary>
 		/// Positive sequence Thevenin reactance.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Reactance x;
+		public TC57CIM.IEC61970.Base.Domain.Reactance? x;
 		/// <summary>
 		/// Zero sequence Thevenin reactance.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Reactance x0;
+		public TC57CIM.IEC61970.Base.Domain.Reactance? x0;
 		/// <summary>
 		/// Negative sequence Thevenin reactance.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Reactance xn;
+		public TC57CIM.IEC61970.Base.Domain.Reactance? xn;
 		/// <summary>
 		/// An AC network connection may have several power electronics units connecting
 		/// through it.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Generation.Production.PowerElectronicsUnit PowerElectronicsUnit;
+		public TC57CIM.IEC61970.Base.Generation.Production.PowerElectronicsUnit? PowerElectronicsUnit;
 		/// <summary>
 		/// The individual phases models for the power electronics connection.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Wires.PowerElectronicsConnectionPhase PowerElectronicsConnectionPhase;
+		public TC57CIM.IEC61970.Base.Wires.PowerElectronicsConnectionPhase? PowerElectronicsConnectionPhase;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="PowerElectronicsConnection"/> class

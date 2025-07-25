@@ -19,12 +19,12 @@ namespace TC57CIM.IEC61970.Base.SCADA {
 		/// <summary>
 		/// RTUs may be attached to communication links.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.SCADA.RemoteUnit RemoteUnits;
+		public TC57CIM.IEC61970.Base.SCADA.RemoteUnit? RemoteUnits;
 		/// <summary>
 		/// ICCP data provider or consumer using communication addressing for a Bilateral
 		/// table.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.ICCPConfiguration.BilateralExchangeActor BilateralExchangeActor;
+		public TC57CIM.IEC61970.Base.ICCPConfiguration.BilateralExchangeActor? BilateralExchangeActor;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="CommunicationLink"/> class

@@ -16,113 +16,113 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.TurbineGovernorDynamics {
 		/// <summary>
 		/// Turbine numerator multiplier (<i>Aturb</i>).  Typical value = -1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU aturb;
+		public TC57CIM.IEC61970.Base.Domain.PU? aturb;
 		/// <summary>
 		/// Turbine denominator multiplier (<i>Bturb</i>) (> 0).  Typical value = 0,5.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU bturb;
+		public TC57CIM.IEC61970.Base.Domain.PU? bturb;
 		/// <summary>
 		/// Intentional deadband width (<i>db1</i>).  Unit = Hz.  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Frequency db1;
+		public TC57CIM.IEC61970.Base.Domain.Frequency? db1;
 		/// <summary>
 		/// Unintentional deadband (<i>db2</i>).  Unit = MW.  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower db2;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? db2;
 		/// <summary>
 		/// Intentional db hysteresis (<i>eps</i>).  Unit = Hz.  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Frequency eps;
+		public TC57CIM.IEC61970.Base.Domain.Frequency? eps;
 		/// <summary>
 		/// Nonlinear gain point 1, PU gv (<i>Gv1</i>).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU gv1;
+		public TC57CIM.IEC61970.Base.Domain.PU? gv1;
 		/// <summary>
 		/// Nonlinear gain point 2, PU gv (<i>Gv2</i>).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU gv2;
+		public TC57CIM.IEC61970.Base.Domain.PU? gv2;
 		/// <summary>
 		/// Nonlinear gain point 3, PU gv (<i>Gv3</i>).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU gv3;
+		public TC57CIM.IEC61970.Base.Domain.PU? gv3;
 		/// <summary>
 		/// Nonlinear gain point 4, PU gv (<i>Gv4</i>).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU gv4;
+		public TC57CIM.IEC61970.Base.Domain.PU? gv4;
 		/// <summary>
 		/// Nonlinear gain point 5, PU gv (<i>Gv5</i>).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU gv5;
+		public TC57CIM.IEC61970.Base.Domain.PU? gv5;
 		/// <summary>
 		/// Nonlinear gain point 6, PU gv (<i>Gv6</i>).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU gv6;
+		public TC57CIM.IEC61970.Base.Domain.PU? gv6;
 		/// <summary>
 		/// Turbine gain (<i>Kturb</i>).  Typical value = 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kturb;
+		public TC57CIM.IEC61970.Base.Domain.PU? kturb;
 		/// <summary>
 		/// Base for power values (<i>MWbase</i>) (> 0).  Unit = MW.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower mwbase;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? mwbase;
 		/// <summary>
 		/// Nonlinear gain point 1, PU power (<i>Pgv1</i>).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU pgv1;
+		public TC57CIM.IEC61970.Base.Domain.PU? pgv1;
 		/// <summary>
 		/// Nonlinear gain point 2, PU power (<i>Pgv2</i>).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU pgv2;
+		public TC57CIM.IEC61970.Base.Domain.PU? pgv2;
 		/// <summary>
 		/// Nonlinear gain point 3, PU power (<i>Pgv3</i>).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU pgv3;
+		public TC57CIM.IEC61970.Base.Domain.PU? pgv3;
 		/// <summary>
 		/// Nonlinear gain point 4, PU power (P<i>gv4</i>).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU pgv4;
+		public TC57CIM.IEC61970.Base.Domain.PU? pgv4;
 		/// <summary>
 		/// Nonlinear gain point 5, PU power (<i>Pgv5</i>).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU pgv5;
+		public TC57CIM.IEC61970.Base.Domain.PU? pgv5;
 		/// <summary>
 		/// Nonlinear gain point 6, PU power (<i>Pgv6</i>).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU pgv6;
+		public TC57CIM.IEC61970.Base.Domain.PU? pgv6;
 		/// <summary>
-		/// Maximum gate opening (<i>Pmax</i>) (> GovHydro2.pmin).  Typical value = 1.
+		/// Maximum gate opening (<i>Pmax</i>) (&gt; GovHydro2.pmin).  Typical value = 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU pmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? pmax;
 		/// <summary>
-		/// Minimum gate opening (<i>Pmin</i>) (< GovHydro2.pmax).  Typical value = 0.
+		/// Minimum gate opening (<i>Pmin</i>) (&lt; GovHydro2.pmax).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU pmin;
+		public TC57CIM.IEC61970.Base.Domain.PU? pmin;
 		/// <summary>
 		/// Permanent droop (<i>Rperm</i>).  Typical value = 0,05.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU rperm;
+		public TC57CIM.IEC61970.Base.Domain.PU? rperm;
 		/// <summary>
 		/// Temporary droop (<i>Rtemp</i>).  Typical value = 0,5.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU rtemp;
+		public TC57CIM.IEC61970.Base.Domain.PU? rtemp;
 		/// <summary>
-		/// Gate servo time constant (<i>Tg</i>) (> 0).  Typical value = 0,5.
+		/// Gate servo time constant (<i>Tg</i>) (&gt; 0).  Typical value = 0,5.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tg;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tg;
 		/// <summary>
 		/// Pilot servo valve time constant (<i>Tp</i>) (>= 0).  Typical value = 0,03.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tp;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tp;
 		/// <summary>
 		/// Dashpot time constant (<i>Tr</i>) (>= 0).  Typical value = 12.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tr;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tr;
 		/// <summary>
-		/// Water inertia time constant (<i>Tw</i>) (>= 0).  Typical value = 2.
+		/// Water inertia time constant (<i>Tw</i>) (&gt;= 0).  Typical value = 2.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tw;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tw;
 		/// <summary>
-		/// Maximum gate closing velocity (<i>Uc</i>) (< 0).  Unit = PU / s.   Typical
+		/// Maximum gate closing velocity (<i>Uc</i>) (&lt; 0).  Unit = PU / s.   Typical
 		/// value = -0,1.
 		/// </summary>
 		public float uc;

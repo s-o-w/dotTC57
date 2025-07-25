@@ -15,26 +15,23 @@ namespace TC57CIM.IEC61968.Operations {
 	/// </summary>
 	public class TroubleOrder : Document {
 
-		/// <summary>
-		/// Free-form comment associated with the trouble order.
-		/// </summary>
-		public string comment;
+
 		/// <summary>
 		/// The planned start and end time for the trouble order.
 		/// </summary>
-		public DateTimeInterval plannedExecutionInterval;
+		public DateTimeInterval? plannedExecutionInterval;
 		/// <summary>
 		/// The location of this trouble order
 		/// </summary>
-		public TC57CIM.IEC61968.Common.Location Location;
+		public TC57CIM.IEC61968.Common.Location? Location;
 		/// <summary>
 		/// The incident that may be associated with the trouble order.
 		/// </summary>
-		public TC57CIM.IEC61968.Operations.Incident Incident;
+		public TC57CIM.IEC61968.Operations.Incident? Incident;
 		/// <summary>
 		/// The ticket called in by the customer that describes the trouble
 		/// </summary>
-		public TC57CIM.IEC61968.Customers.TroubleTicket TroubleTicket;
+		public TC57CIM.IEC61968.Customers.TroubleTicket? TroubleTicket;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="TroubleOrder"/> class

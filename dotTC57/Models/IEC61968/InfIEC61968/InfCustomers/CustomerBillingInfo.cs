@@ -29,7 +29,7 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfCustomers {
 		/// Business date designated for the billing run which produced this
 		/// CustomerBillingInfo.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Date billingDate;
+		public TC57CIM.IEC61970.Base.Domain.Date? billingDate;
 		/// <summary>
 		/// Calculated date upon which a customer billing amount is due, used in the
 		/// invoicing process to determine when a Customer's Payment is delinquent. It
@@ -37,7 +37,7 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfCustomers {
 		/// due date. In the absence of a Customer requested due date, the due date is
 		/// typically calculated from the regulated number of days and the 'billingDate'.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Date dueDate;
+		public TC57CIM.IEC61970.Base.Domain.Date? dueDate;
 		/// <summary>
 		/// Kind of bill customer receives.
 		/// </summary>
@@ -47,34 +47,34 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfCustomers {
 		/// Customer Billing system, although the details of each payment are tracked in
 		/// the ERP system.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Money lastPaymentAmt;
+		public TC57CIM.IEC61970.Base.Domain.Money? lastPaymentAmt;
 		/// <summary>
 		/// Date of the last payment received from the customer. It is retained in the
 		/// Customer Billing system, although the details of each payment are tracked in
 		/// the ERP system.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Date lastPaymentDate;
+		public TC57CIM.IEC61970.Base.Domain.Date? lastPaymentDate;
 		/// <summary>
 		/// Outstanding balance on the CustomerAccount as of the statement date.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Money outBalance;
+		public TC57CIM.IEC61970.Base.Domain.Money? outBalance;
 		/// <summary>
 		/// Monthly amortized amount due during each billing cycle for the CustomerAccount
 		/// balance for which the Payment Plan is set-up.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Money pymtPlanAmt;
+		public TC57CIM.IEC61970.Base.Domain.Money? pymtPlanAmt;
 		/// <summary>
 		/// Type of payment plan.
 		/// </summary>
-		public string pymtPlanType;
+		public string? pymtPlanType;
 		/// <summary>
 		/// The customer account
 		/// </summary>
-		public TC57CIM.IEC61968.Customers.CustomerAccount CustomerAccount;
+		public TC57CIM.IEC61968.Customers.CustomerAccount? CustomerAccount;
 		/// <summary>
 		/// The erp invoice line items
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfERPSupport.ErpInvoiceLineItem ErpInvoiceLineItems;
+		public TC57CIM.IEC61968.InfIEC61968.InfERPSupport.ErpInvoiceLineItem? ErpInvoiceLineItems;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="CustomerBillingInfo"/> class

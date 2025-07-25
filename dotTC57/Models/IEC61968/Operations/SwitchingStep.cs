@@ -29,23 +29,23 @@ namespace TC57CIM.IEC61968.Operations {
 		/// Order of this activity in the sequence of activities within the switching plan.
 		///
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer sequenceNumber;
+		public TC57CIM.IEC61970.Base.Domain.Integer? sequenceNumber;
 		/// <summary>
 		/// Supports compound switching steps that are made up of several sub steps.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer subStepSequenceNumber;
+		public TC57CIM.IEC61970.Base.Domain.Integer? subStepSequenceNumber;
 		/// <summary>
 		/// The switching step group that contains the switching steps.
 		/// </summary>
-		public TC57CIM.IEC61968.Operations.SwitchingStepGroup SwitchingStepGroup;
+		public TC57CIM.IEC61968.Operations.SwitchingStepGroup? SwitchingStepGroup;
 		/// <summary>
 		/// The revision history
 		/// </summary>
-		public TC57CIM.IEC61968.Operations.RevisionHistory RevisionHistory;
+		public TC57CIM.IEC61968.Operations.RevisionHistory? RevisionHistory;
 		/// <summary>
 		/// The switching action that is associated to the switching step.
 		/// </summary>
-		public TC57CIM.IEC61968.Operations.SwitchingAction SwitchingAction;
+		public TC57CIM.IEC61968.Operations.SwitchingAction? SwitchingAction;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="SwitchingStep"/> class

@@ -15,7 +15,7 @@ namespace TC57CIM.IEC61970.Base.LoadModel {
 		/// <summary>
 		/// The Loadgroups in the SubLoadArea.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.LoadModel.LoadGroup LoadGroups;
+		public TC57CIM.IEC61970.Base.LoadModel.LoadGroup? LoadGroups;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="SubLoadArea"/> class

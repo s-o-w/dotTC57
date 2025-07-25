@@ -15,57 +15,57 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.PowerSystemStabilizerDynamics
 		/// <summary>
 		/// Gain <i>P</i> (<i>K</i><i><sub>1</sub></i>).  Typical value = -0,3.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU k1;
+		public TC57CIM.IEC61970.Base.Domain.PU? k1;
 		/// <summary>
 		/// Gain <i>f</i><i><sub>E</sub></i><i> </i>(<i>K</i><i><sub>2</sub></i>).  Typical
 		/// value = -0,15.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU k2;
+		public TC57CIM.IEC61970.Base.Domain.PU? k2;
 		/// <summary>
 		/// Gain <i>I</i><i><sub>f</sub></i><i> </i>(<i>K</i><i><sub>3</sub></i>).  Typical
 		/// value = 10.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU k3;
+		public TC57CIM.IEC61970.Base.Domain.PU? k3;
 		/// <summary>
 		/// Denominator time constant (<i>T</i><i><sub>1</sub></i>) (> 0,005).  Typical
 		/// value = 0,3.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t1;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t1;
 		/// <summary>
 		/// Filter time constant (<i>T</i><i><sub>2</sub></i>) (> 0,005).  Typical value =
 		/// 0,35.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t2;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t2;
 		/// <summary>
 		/// Denominator time constant (<i>T</i><i><sub>3</sub></i>) (> 0,005).  Typical
 		/// value = 0,22.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t3;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t3;
 		/// <summary>
 		/// Filter time constant (<i>T</i><i><sub>4</sub></i>) (> 0,005).  Typical value =
 		/// 0,02.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t4;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t4;
 		/// <summary>
 		/// Denominator time constant (<i>T</i><i><sub>5</sub></i>) (> 0,005).  Typical
 		/// value = 0,02.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t5;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t5;
 		/// <summary>
 		/// Filter time constant (<i>T</i><i><sub>6</sub></i>) (> 0,005).  Typical value =
 		/// 0,02.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t6;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t6;
 		/// <summary>
-		/// Stabilizer output maximum limit (<i>V</i><i><sub>SMAX</sub></i>) (> PssSK.
+		/// Stabilizer output maximum limit (<i>V</i><i><sub>SMAX</sub></i>) (greater than PssSK.
 		/// vsmin).  Typical value = 0,4.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vsmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? vsmax;
 		/// <summary>
-		/// Stabilizer output minimum limit (<i>V</i><i><sub>SMIN</sub></i>) (< PssSK.
+		/// Stabilizer output minimum limit (<i>V</i><i><sub>SMIN</sub></i>) (less than PssSK.
 		/// vsmax).  Typical value = -0.4.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vsmin;
+		public TC57CIM.IEC61970.Base.Domain.PU? vsmin;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="PssSK"/> class

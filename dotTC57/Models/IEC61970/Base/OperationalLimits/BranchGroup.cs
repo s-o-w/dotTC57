@@ -17,19 +17,19 @@ namespace TC57CIM.IEC61970.Base.OperationalLimits {
 		/// <summary>
 		/// The maximum active power flow.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower maximumActivePower;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? maximumActivePower;
 		/// <summary>
 		/// The maximum reactive power flow.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ReactivePower maximumReactivePower;
+		public TC57CIM.IEC61970.Base.Domain.ReactivePower? maximumReactivePower;
 		/// <summary>
 		/// The minimum active power flow.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower minimumActivePower;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? minimumActivePower;
 		/// <summary>
 		/// The minimum reactive power flow.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ReactivePower minimumReactivePower;
+		public TC57CIM.IEC61970.Base.Domain.ReactivePower? minimumReactivePower;
 		/// <summary>
 		/// Monitor the active power flow.
 		/// </summary>
@@ -41,7 +41,7 @@ namespace TC57CIM.IEC61970.Base.OperationalLimits {
 		/// <summary>
 		/// The directed branch group terminals to be summed.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.OperationalLimits.BranchGroupTerminal BranchGroupTerminal;
+		public TC57CIM.IEC61970.Base.OperationalLimits.BranchGroupTerminal? BranchGroupTerminal;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="BranchGroup"/> class

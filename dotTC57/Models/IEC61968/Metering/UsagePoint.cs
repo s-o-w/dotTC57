@@ -29,7 +29,7 @@ namespace TC57CIM.IEC61968.Metering {
 		/// A code used to specify the connection category, e.g., low voltage or low
 		/// pressure, where the usage point is defined.
 		/// </summary>
-		public string connectionCategory;
+		public string? connectionCategory;
 		/// <summary>
 		/// State of the usage point with respect to connection to the network.
 		/// </summary>
@@ -38,11 +38,11 @@ namespace TC57CIM.IEC61968.Metering {
 		/// Is an indication of how the usage point is physically connected or disconnected.
 		///
 		/// </summary>
-		public string disconnectionMethod;
+		public string? disconnectionMethod;
 		/// <summary>
 		/// Estimated load.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.CurrentFlow estimatedLoad;
+		public TC57CIM.IEC61970.Base.Domain.CurrentFlow? estimatedLoad;
 		/// <summary>
 		/// True if grounded.
 		/// </summary>
@@ -71,80 +71,80 @@ namespace TC57CIM.IEC61968.Metering {
 		/// <summary>
 		/// Nominal service voltage.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Voltage nominalServiceVoltage;
+		public TC57CIM.IEC61970.Base.Domain.Voltage? nominalServiceVoltage;
 		/// <summary>
 		/// Outage region in which this usage point is located.
 		/// </summary>
-		public string outageRegion;
+		public string? outageRegion;
 		/// <summary>
 		/// Phase code. Number of wires and specific nominal phases can be deduced from
 		/// enumeration literal values. For example, ABCN is three-phase, four-wire, s12n
 		/// (splitSecondary12N) is single-phase, three-wire, and s1n and s2n are single-
 		/// phase, two-wire.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Core.PhaseCode phaseCode;
+		public TC57CIM.IEC61970.Base.Core.PhaseCode? phaseCode;
 		/// <summary>
 		/// Number of potential phases the Usage Point supports, typically 0, 1 or 3.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer phaseCount;
+		public TC57CIM.IEC61970.Base.Domain.Integer? phaseCount;
 		/// <summary>
 		/// Quantitative information about the maximum physical capacity of the connection
 		/// for the usage point.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.DecimalQuantity physicalConnectionCapacity;
+		public TC57CIM.IEC61970.Base.Domain.DecimalQuantity? physicalConnectionCapacity;
 		/// <summary>
 		/// Current flow that this usage point is configured to deliver.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.CurrentFlow ratedCurrent;
+		public TC57CIM.IEC61970.Base.Domain.CurrentFlow? ratedCurrent;
 		/// <summary>
 		/// Active power that this usage point is configured to deliver.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower ratedPower;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? ratedPower;
 		/// <summary>
 		/// Cycle day on which the meter for this usage point will normally be read.
 		/// Usually correlated with the billing cycle.
 		/// </summary>
-		public string readCycle;
+		public string? readCycle;
 		/// <summary>
 		/// Identifier of the route to which this usage point is assigned for purposes of
 		/// meter reading. Typically used to configure hand held meter reading systems
 		/// prior to collection of reads.
 		/// </summary>
-		public string readRoute;
+		public string? readRoute;
 		/// <summary>
 		/// Remarks about this usage point, for example the reason for it being rated with
 		/// a non-nominal priority.
 		/// </summary>
-		public string serviceDeliveryRemark;
+		public string? serviceDeliveryRemark;
 		/// <summary>
 		/// Priority of service for this usage point. Note that usage points at the same
 		/// service location can have different priorities.
 		/// </summary>
-		public string servicePriority;
+		public string? servicePriority;
 		/// <summary>
 		/// All registers for quantities metered at this Usage Point.
 		/// </summary>
-		public TC57CIM.IEC61968.Metering.Register Register;
+		public TC57CIM.IEC61968.Metering.Register? Register;
 		/// <summary>
 		/// All equipment connecting this usage point to the electrical grid.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Core.Equipment Equipments;
+		public TC57CIM.IEC61970.Base.Core.Equipment? Equipments;
 		/// <summary>
 		/// All end devices at this usage point.
 		/// </summary>
-		public TC57CIM.IEC61968.Metering.EndDevice EndDevices;
+		public TC57CIM.IEC61968.Metering.EndDevice? EndDevices;
 		/// <summary>
 		/// All multipliers applied at this usage point.
 		/// </summary>
-		public TC57CIM.IEC61968.Metering.ServiceMultiplier ServiceMultipliers;
+		public TC57CIM.IEC61968.Metering.ServiceMultiplier? ServiceMultipliers;
 		/// <summary>
 		/// All configuration events created for this usage point.
 		/// </summary>
-		public TC57CIM.IEC61968.Common.ConfigurationEvent ConfigurationEvents;
+		public TC57CIM.IEC61968.Common.ConfigurationEvent? ConfigurationEvents;
 		/// <summary>
 		/// Service category delivered by this usage point.
 		/// </summary>
-		public TC57CIM.IEC61968.Customers.ServiceCategory ServiceCategory;
+		public TC57CIM.IEC61968.Customers.ServiceCategory? ServiceCategory;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="UsagePoint"/> class

@@ -25,7 +25,7 @@ namespace TC57CIM.IEC61968.AssetMeas {
 		/// <summary>
 		/// The order in which this statistical calculation is done.
 		/// </summary>
-		public TC57CIM.IEC61968.AssetMeas.CalculationMethodOrder CalculationMethodOrder;
+		public TC57CIM.IEC61968.AssetMeas.CalculationMethodOrder? CalculationMethodOrder;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="StatisticalCalculation"/> class

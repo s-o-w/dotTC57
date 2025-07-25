@@ -18,42 +18,42 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics {
 		/// Maximum wind turbine power ramp rate (<i>dp</i><i><sub>max</sub></i>). It is a
 		/// type-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU dpmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? dpmax;
 		/// <summary>
 		/// Maximum ramp rate of wind turbine reference power
 		/// (<i>dp</i><i><sub>refmax</sub></i>). It is a project-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU dprefmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? dprefmax;
 		/// <summary>
 		/// Minimum ramp rate of wind turbine reference power
 		/// (<i>dp</i><i><sub>refmin</sub></i>). It is a project-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU dprefmin;
+		public TC57CIM.IEC61970.Base.Domain.PU? dprefmin;
 		/// <summary>
 		/// Ramp limitation of torque, required in some grid codes
 		/// (<i>dt</i><i><sub>max</sub></i>). It is a project-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU dthetamax;
+		public TC57CIM.IEC61970.Base.Domain.PU? dthetamax;
 		/// <summary>
 		/// Limitation of torque rise rate during UVRT
 		/// (<i>dtheta</i><i><sub>maxUVRT</sub></i>). It is a project-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU dthetamaxuvrt;
+		public TC57CIM.IEC61970.Base.Domain.PU? dthetamaxuvrt;
 		/// <summary>
 		/// Gain for active drive train damping (<i>K</i><i><sub>DTD</sub></i>). It is a
 		/// type-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kdtd;
+		public TC57CIM.IEC61970.Base.Domain.PU? kdtd;
 		/// <summary>
 		/// PI controller integration parameter (<i>K</i><sub>Ip</sub>). It is a type-
 		/// dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kip;
+		public TC57CIM.IEC61970.Base.Domain.PU? kip;
 		/// <summary>
 		/// PI controller proportional gain (<i>K</i><sub>Pp</sub>). It is a type-dependent
 		/// parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kpp;
+		public TC57CIM.IEC61970.Base.Domain.PU? kpp;
 		/// <summary>
 		/// Enable UVRT power control mode (<i>M</i><i><sub>pUVRT</sub></i><sub>)</sub>.
 		/// It is a project-dependent parameter.
@@ -66,69 +66,69 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics {
 		/// can be calculated from two mass model parameters. It is a type-dependent
 		/// parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU omegadtd;
+		public TC57CIM.IEC61970.Base.Domain.PU? omegadtd;
 		/// <summary>
 		/// Offset to reference value that limits controller action during rotor speed
 		/// changes (<i>omega</i><i><sub>offset</sub></i>). It is a case-dependent
 		/// parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU omegaoffset;
+		public TC57CIM.IEC61970.Base.Domain.PU? omegaoffset;
 		/// <summary>
 		/// Maximum active drive train damping power (<i>p</i><sub>DTDmax</sub>). It is a
 		/// type-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU pdtdmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? pdtdmax;
 		/// <summary>
 		/// Time<sub> </sub>delay after deep voltage sags (<i>T</i><i><sub>DVS</sub></i>)
 		/// (>= 0). It is a project-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tdvs;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tdvs;
 		/// <summary>
 		/// Minimum electrical generator torque (<i>t</i><sub>emin</sub>). It is a type-
 		/// dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU thetaemin;
+		public TC57CIM.IEC61970.Base.Domain.PU? thetaemin;
 		/// <summary>
 		/// Voltage scaling factor of reset-torque (<i>t</i><sub>uscale</sub>). It is a
 		/// project-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU thetauscale;
+		public TC57CIM.IEC61970.Base.Domain.PU? thetauscale;
 		/// <summary>
 		/// Filter time constant for generator speed measurement
 		/// (<i>T</i><sub>omegafiltp3</sub>) (>= 0). It is a type-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tomegafiltp3;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tomegafiltp3;
 		/// <summary>
 		/// Time constant in speed reference filter (<i>T</i><sub>omega,ref</sub>) (>= 0).
 		/// It is a type-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tomegaref;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tomegaref;
 		/// <summary>
 		/// Filter time constant for power measurement (<i>T</i><sub>pfiltp3</sub>) (>= 0).
 		/// It is a type-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tpfiltp3;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tpfiltp3;
 		/// <summary>
 		/// Time constant in power order lag (<i>T</i><sub>pord</sub>). It is a type-
 		/// dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU tpord;
+		public TC57CIM.IEC61970.Base.Domain.PU? tpord;
 		/// <summary>
 		/// Filter time constant for voltage measurement (<i>T</i><sub>ufiltp3</sub>) (>=
 		/// 0). It is a type-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tufiltp3;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tufiltp3;
 		/// <summary>
 		/// Voltage limit for hold UVRT status after deep voltage sags
 		/// (<i>u</i><i><sub>DVS</sub></i>). It is a project-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU udvs;
+		public TC57CIM.IEC61970.Base.Domain.PU? udvs;
 		/// <summary>
 		/// Voltage dip threshold for P-control (<i>u</i><sub>Pdip</sub>).  Part of turbine
 		/// control, often different (e.g 0.8) from converter thresholds. It is a project-
 		/// dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU updip;
+		public TC57CIM.IEC61970.Base.Domain.PU? updip;
 		/// <summary>
 		/// Coefficient for active drive train damping (<i>zeta</i>). It is a type-
 		/// dependent parameter.
@@ -138,7 +138,7 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics {
 		/// Wind turbine type 3 model with which this wind control P type 3 model is
 		/// associated.
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics.WindTurbineType3IEC WindTurbineType3IEC;
+		public TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics.WindTurbineType3IEC? WindTurbineType3IEC;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="WindContPType3IEC"/> class

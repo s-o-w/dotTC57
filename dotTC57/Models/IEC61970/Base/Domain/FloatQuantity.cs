@@ -22,7 +22,7 @@ namespace TC57CIM.IEC61970.Base.Domain {
 		/// <summary>
 		/// Value of this quantity.
 		/// </summary>
-		public Float value;
+		public Float? value;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="FloatQuantity"/> class

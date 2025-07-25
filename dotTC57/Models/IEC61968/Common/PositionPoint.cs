@@ -23,23 +23,23 @@ namespace TC57CIM.IEC61968.Common {
 		/// when there is a need to express disjoint groups of points that are considered
 		/// to be part of a single location.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer groupNumber;
+		public TC57CIM.IEC61970.Base.Domain.Integer? groupNumber;
 		/// <summary>
 		/// Zero-relative sequence number of this point within a series of points.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer sequenceNumber;
+		public TC57CIM.IEC61970.Base.Domain.Integer? sequenceNumber;
 		/// <summary>
 		/// X axis position.
 		/// </summary>
-		public string xPosition;
+		public string? xPosition;
 		/// <summary>
 		/// Y axis position.
 		/// </summary>
-		public string yPosition;
+		public string? yPosition;
 		/// <summary>
 		/// (if applicable) Z axis position.
 		/// </summary>
-		public string zPosition;
+		public string? zPosition;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="PositionPoint"/> class

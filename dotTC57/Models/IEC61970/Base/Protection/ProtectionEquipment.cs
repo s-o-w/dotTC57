@@ -31,29 +31,29 @@ namespace TC57CIM.IEC61970.Base.Protection {
 		/// <summary>
 		/// The time delay from detection of abnormal conditions to relay operation.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds relayDelayTime;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? relayDelayTime;
 		/// <summary>
 		/// The unit multiplier of the value.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.UnitMultiplier unitMultiplier;
+		public TC57CIM.IEC61970.Base.Domain.UnitMultiplier? unitMultiplier;
 		/// <summary>
 		/// The unit of measure of the value.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.UnitSymbol unitSymbol;
+		public TC57CIM.IEC61970.Base.Domain.UnitSymbol? unitSymbol;
 		/// <summary>
 		/// Protected switches operated by this ProtectionEquipment.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Wires.ProtectedSwitch ProtectedSwitches;
+		public TC57CIM.IEC61970.Base.Wires.ProtectedSwitch? ProtectedSwitches;
 		/// <summary>
 		/// Protection equipment may be used to protect specific conducting equipment.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Core.ConductingEquipment ConductingEquipments;
+		public TC57CIM.IEC61970.Base.Core.ConductingEquipment? ConductingEquipments;
 		/// <summary>
 		/// Protective action can emulate the action done by one or more protection
 		/// equipment. In a node breaker model were protective equipment is model this
 		/// association will be used.
 		/// </summary>
-		public TC57CIM.IEC61970.InfIEC61970.InfSIPS.ProtectiveAction ProtectiveAction;
+		public TC57CIM.IEC61970.InfIEC61970.InfSIPS.ProtectiveAction? ProtectiveAction;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ProtectionEquipment"/> class

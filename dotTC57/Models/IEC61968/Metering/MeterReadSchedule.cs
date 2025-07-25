@@ -17,35 +17,35 @@ namespace TC57CIM.IEC61968.Metering {
 		/// <summary>
 		/// All usage points for the meter read schedule.
 		/// </summary>
-		public TC57CIM.IEC61968.Metering.UsagePoint UsagePoint;
+		public TC57CIM.IEC61968.Metering.UsagePoint? UsagePoint;
 		/// <summary>
 		/// All end device groups for the meter read schedule.
 		/// </summary>
-		public TC57CIM.IEC61968.Metering.EndDeviceGroup EndDeviceGroup;
+		public TC57CIM.IEC61968.Metering.EndDeviceGroup? EndDeviceGroup;
 		/// <summary>
 		/// All reading types for the meter read schedule.
 		/// </summary>
-		public TC57CIM.IEC61968.Metering.ReadingType ReadingType;
+		public TC57CIM.IEC61968.Metering.ReadingType? ReadingType;
 		/// <summary>
 		/// All usage point groups for the meter read schedule.
 		/// </summary>
-		public TC57CIM.IEC61968.Metering.UsagePointGroup UsagePointGroup;
+		public TC57CIM.IEC61968.Metering.UsagePointGroup? UsagePointGroup;
 		/// <summary>
 		/// All time schedules for the meter read schedule.
 		/// </summary>
-		public TC57CIM.IEC61968.Common.TimeSchedule TimeSchedule;
+		public TC57CIM.IEC61968.Common.TimeSchedule? TimeSchedule;
 		/// <summary>
 		/// All customer agreements for the meter read schedule.
 		/// </summary>
-		public TC57CIM.IEC61968.Customers.CustomerAgreement CustomerAgreement;
+		public TC57CIM.IEC61968.Customers.CustomerAgreement? CustomerAgreement;
 		/// <summary>
 		/// All end devices for the meter read schedule.
 		/// </summary>
-		public TC57CIM.IEC61968.Metering.EndDevice EndDevice;
+		public TC57CIM.IEC61968.Metering.EndDevice? EndDevice;
 		/// <summary>
 		/// All customer accounts for the meter read schedule.
 		/// </summary>
-		public TC57CIM.IEC61968.Customers.CustomerAccount CustomerAccount;
+		public TC57CIM.IEC61968.Customers.CustomerAccount? CustomerAccount;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="MeterReadSchedule"/> class

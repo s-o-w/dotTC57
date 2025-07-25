@@ -31,87 +31,87 @@ namespace TC57CIM.IEC61968.Operations {
 		/// Actual outage period; end of the period corresponds to the actual restoration
 		/// time.
 		/// </summary>
-		public DateTimeInterval actualPeriod;
+		public DateTimeInterval? actualPeriod;
 		/// <summary>
 		/// a name to denote the community - this could be a name or a code of some kind.
 		/// </summary>
-		public string communityDescriptor;
+		public string? communityDescriptor;
 		/// <summary>
 		/// number of customers that have been restored in the area.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer customersRestored;
+		public TC57CIM.IEC61970.Base.Domain.Integer? customersRestored;
 		/// <summary>
 		/// Estimated outage period for a planned outage. The start of the period is the
 		/// start of the planned outage and the end of the period corresponds to the end of
 		/// the planned outage.
 		/// </summary>
-		public DateTimeInterval estimatedPeriod;
+		public DateTimeInterval? estimatedPeriod;
 		/// <summary>
 		/// The updated number of meters affected by the outage as reported by the OMS
 		/// within the utility.  It is assumed this number will be updated repeatedly until
 		/// the full outage is resolved.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer metersAffected;
+		public TC57CIM.IEC61970.Base.Domain.Integer? metersAffected;
 		/// <summary>
 		/// the total number of customers that are served in the area (both outaged and not
 		/// outaged).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer originalCustomersServed;
+		public TC57CIM.IEC61970.Base.Domain.Integer? originalCustomersServed;
 		/// <summary>
 		/// The original number of meters that were affected as reported by the OMS within
 		/// the utility. That is, this is the total number of meters that were out at the
 		/// beginning of the outage.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer originalMetersAffected;
+		public TC57CIM.IEC61970.Base.Domain.Integer? originalMetersAffected;
 		/// <summary>
 		/// Defines if the outage has been verified or is only estimated
 		/// </summary>
-		public OutageStatusKind outageKind;
+		public OutageStatusKind? outageKind;
 		/// <summary>
 		/// defines the status of the crew as in dispatched or arrived, etc.
 		/// </summary>
-		public TC57CIM.IEC61968.Common.CrewStatusKind statusKind;
+		public TC57CIM.IEC61968.Common.CrewStatusKind? statusKind;
 		/// <summary>
 		/// Summary counts of service points (customers) affected by this outage.
 		/// </summary>
-		public ServicePointOutageSummary summary;
+		public ServicePointOutageSummary? summary;
 		/// <summary>
 		/// This contains an disclaimers the utility would like to place on the data
 		/// provided to any stakeholder.  This may be different for different stakeholders.
 		/// This should possibly be an attribute under the Organization class but it is
 		/// placed here for now.
 		/// </summary>
-		public string utilityDisclaimer;
+		public string? utilityDisclaimer;
 		/// <summary>
 		/// All energized usage points associated with this outage.
 		/// </summary>
-		public TC57CIM.IEC61968.Metering.UsagePoint EnergizedUsagePoint;
+		public TC57CIM.IEC61968.Metering.UsagePoint? EnergizedUsagePoint;
 		/// <summary>
 		/// All equipments associated with this outage.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Core.Equipment Equipments;
+		public TC57CIM.IEC61970.Base.Core.Equipment? Equipments;
 		/// <summary>
 		/// All switch actions to apply within the scope of this planned outage. Each such
 		/// action groups switches to which the action is to apply in order to produce the
 		/// desired network state considered as outage.
 		/// </summary>
-		public TC57CIM.IEC61968.Operations.SwitchAction PlannedSwitchActions;
+		public TC57CIM.IEC61968.Operations.SwitchAction? PlannedSwitchActions;
 		/// <summary>
 		/// all deenergized useage points associated with the outage.
 		/// </summary>
-		public TC57CIM.IEC61968.Metering.UsagePoint DeEnergizedUsagePoint;
+		public TC57CIM.IEC61968.Metering.UsagePoint? DeEnergizedUsagePoint;
 		/// <summary>
 		/// All faults involved in this outage.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Faults.Fault Faults;
+		public TC57CIM.IEC61970.Base.Faults.Fault? Faults;
 		/// <summary>
 		/// The crew that is assigned to the outage.
 		/// </summary>
-		public TC57CIM.IEC61968.Common.Crew Crew;
+		public TC57CIM.IEC61968.Common.Crew? Crew;
 		/// <summary>
 		/// The equipment that isolates this outage
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Core.ConductingEquipment OutageIsolationEquipment;
+		public TC57CIM.IEC61970.Base.Core.ConductingEquipment? OutageIsolationEquipment;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Outage"/> class

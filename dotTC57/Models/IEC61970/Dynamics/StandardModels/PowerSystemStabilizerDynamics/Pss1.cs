@@ -33,40 +33,40 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.PowerSystemStabilizerDynamics
 		/// <summary>
 		/// Minimum power PSS enabling (<i>Pmin</i>).  Typical value = 0,25.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU pmin;
+		public TC57CIM.IEC61970.Base.Domain.PU? pmin;
 		/// <summary>
 		/// Lead/lag time constant (<i>T</i><i><sub>10</sub></i>) (>= 0).  Typical value =
 		/// 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t10;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t10;
 		/// <summary>
 		/// Washout (<i>T</i><i><sub>5</sub></i>) (>= 0).  Typical value = 3,5.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t5;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t5;
 		/// <summary>
 		/// Filter time constant (<i>T</i><i><sub>6</sub></i>) (>= 0).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t6;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t6;
 		/// <summary>
 		/// Lead/lag time constant (<i>T</i><i><sub>7</sub></i>) (>= 0). If = 0, both
 		/// blocks are bypassed.  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t7;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t7;
 		/// <summary>
 		/// Lead/lag time constant (<i>T</i><i><sub>8</sub></i>) (>= 0).  Typical value = 0.
 		///
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t8;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t8;
 		/// <summary>
 		/// Lead/lag time constant (<i>T</i><i><sub>9</sub></i>) (>= 0).  If = 0, both
 		/// blocks are bypassed.  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t9;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t9;
 		/// <summary>
 		/// Electric power filter time constant (<i>T</i><i><sub>PE</sub></i>) (>= 0).
 		/// Typical value = 0,05.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tpe;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tpe;
 		/// <summary>
 		/// <font color="#0f0f0f">Signal selector (<i>V</i><i><sub>ADAT</sub></i>).</font>
 		/// <font color="#0f0f0f">true = closed (generator power is greater than
@@ -80,12 +80,12 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.PowerSystemStabilizerDynamics
 		/// Stabilizer output maximum limit (<i>V</i><i><sub>SMN</sub></i>).  Typical value
 		/// = -0,06.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vsmn;
+		public TC57CIM.IEC61970.Base.Domain.PU? vsmn;
 		/// <summary>
 		/// Stabilizer output minimum limit (<i>V</i><i><sub>SMX</sub></i>).  Typical value
 		/// = 0,06.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vsmx;
+		public TC57CIM.IEC61970.Base.Domain.PU? vsmx;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Pss1"/> class

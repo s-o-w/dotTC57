@@ -17,11 +17,11 @@ namespace TC57CIM.IEC61968.Common {
 		/// <summary>
 		/// Organisation having this role.
 		/// </summary>
-		public TC57CIM.IEC61968.Common.Organisation Organisation;
+		public TC57CIM.IEC61968.Common.Organisation? Organisation;
 		/// <summary>
 		/// All configuration events created for this organisation role.
 		/// </summary>
-		public TC57CIM.IEC61968.Common.ConfigurationEvent ConfigurationEvents;
+		public TC57CIM.IEC61968.Common.ConfigurationEvent? ConfigurationEvents;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="OrganisationRole"/> class

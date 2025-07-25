@@ -19,7 +19,7 @@ namespace TC57CIM.IEC61968.Operations {
 		/// <summary>
 		/// Energy source on which this action is taken.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Wires.EnergySource EnergySource;
+		public TC57CIM.IEC61970.Base.Wires.EnergySource? EnergySource;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="EnergySourceAction"/> class

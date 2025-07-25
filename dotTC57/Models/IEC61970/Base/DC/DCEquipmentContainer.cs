@@ -18,7 +18,7 @@ namespace TC57CIM.IEC61970.Base.DC {
 		/// <summary>
 		/// The topological nodes which belong to this connectivity node container.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.DC.DCTopologicalNode DCTopologicalNode;
+		public TC57CIM.IEC61970.Base.DC.DCTopologicalNode? DCTopologicalNode;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="DCEquipmentContainer"/> class

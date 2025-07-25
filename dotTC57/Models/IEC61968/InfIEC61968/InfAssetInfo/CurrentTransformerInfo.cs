@@ -15,68 +15,68 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfAssetInfo {
 		/// <summary>
 		/// CT accuracy classification.
 		/// </summary>
-		public string accuracyClass;
+		public string? accuracyClass;
 		/// <summary>
 		/// Accuracy limit.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.CurrentFlow accuracyLimit;
+		public TC57CIM.IEC61970.Base.Domain.CurrentFlow? accuracyLimit;
 		/// <summary>
 		/// Number of cores.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer coreCount;
+		public TC57CIM.IEC61970.Base.Domain.Integer? coreCount;
 		/// <summary>
 		/// The ct
 		/// </summary>
-		public string ctClass;
+		public string? ctClass;
 		/// <summary>
 		/// Maximum primary current where the CT still displays linear characteristicts.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.CurrentFlow kneePointCurrent;
+		public TC57CIM.IEC61970.Base.Domain.CurrentFlow? kneePointCurrent;
 		/// <summary>
 		/// Maximum voltage across the secondary terminals where the CT still displays
 		/// linear characteristicts.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Voltage kneePointVoltage;
+		public TC57CIM.IEC61970.Base.Domain.Voltage? kneePointVoltage;
 		/// <summary>
 		/// Maximum ratio between the primary and secondary current.
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfCommon.Ratio maxRatio;
+		public TC57CIM.IEC61968.InfIEC61968.InfCommon.Ratio? maxRatio;
 		/// <summary>
 		/// Nominal ratio between the primary and secondary current; i.e. 100:5.
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfCommon.Ratio nominalRatio;
+		public TC57CIM.IEC61968.InfIEC61968.InfCommon.Ratio? nominalRatio;
 		/// <summary>
 		/// Full load secondary (FLS) rating for primary winding.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.CurrentFlow primaryFlsRating;
+		public TC57CIM.IEC61970.Base.Domain.CurrentFlow? primaryFlsRating;
 		/// <summary>
 		/// Ratio for the primary winding tap changer.
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfCommon.Ratio primaryRatio;
+		public TC57CIM.IEC61968.InfIEC61968.InfCommon.Ratio? primaryRatio;
 		/// <summary>
 		/// Rated current on the primary side.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.CurrentFlow ratedCurrent;
+		public TC57CIM.IEC61970.Base.Domain.CurrentFlow? ratedCurrent;
 		/// <summary>
 		/// Full load secondary (FLS) rating for secondary winding.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.CurrentFlow secondaryFlsRating;
+		public TC57CIM.IEC61970.Base.Domain.CurrentFlow? secondaryFlsRating;
 		/// <summary>
 		/// Ratio for the secondary winding tap changer.
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfCommon.Ratio secondaryRatio;
+		public TC57CIM.IEC61968.InfIEC61968.InfCommon.Ratio? secondaryRatio;
 		/// <summary>
 		/// Full load secondary (FLS) rating for tertiary winding.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.CurrentFlow tertiaryFlsRating;
+		public TC57CIM.IEC61970.Base.Domain.CurrentFlow? tertiaryFlsRating;
 		/// <summary>
 		/// Ratio for the tertiary winding tap changer.
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfCommon.Ratio tertiaryRatio;
+		public TC57CIM.IEC61968.InfIEC61968.InfCommon.Ratio? tertiaryRatio;
 		/// <summary>
 		/// Usage: eg. metering, protection, etc.
 		/// </summary>
-		public string usage;
+		public string? usage;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="CurrentTransformerInfo"/> class

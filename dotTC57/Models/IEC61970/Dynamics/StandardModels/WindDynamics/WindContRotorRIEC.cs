@@ -18,7 +18,7 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics {
 		/// Integral gain in rotor resistance PI controller (<i>K</i><i><sub>Irr</sub></i>).
 		/// It is a type-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kirr;
+		public TC57CIM.IEC61970.Base.Domain.PU? kirr;
 		/// <summary>
 		/// Filter gain for generator speed measurement
 		/// (<i>K</i><i><sub>omegafilt</sub></i>). It is a type-dependent parameter.
@@ -33,33 +33,33 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics {
 		/// Proportional gain in rotor resistance PI controller
 		/// (<i>K</i><i><sub>Prr</sub></i>). It is a type-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kprr;
+		public TC57CIM.IEC61970.Base.Domain.PU? kprr;
 		/// <summary>
 		/// Maximum rotor resistance (<i>r</i><i><sub>max</sub></i>) (> WindContRotorRIEC.
 		/// rmin). It is a type-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU rmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? rmax;
 		/// <summary>
-		/// Minimum rotor resistance (<i>r</i><i><sub>min</sub></i>) (< WindContRotorRIEC.
-		/// rmax). It is a type-dependent parameter.
+		/// Minimum rotor resistance (<i>r</i><i><sub>min</sub></i>) (&lt; WindContRotorRIEC.rmax).
+		/// It is a type-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU rmin;
+		public TC57CIM.IEC61970.Base.Domain.PU? rmin;
 		/// <summary>
 		/// Filter time constant for generator speed measurement
 		/// (<i>T</i><i><sub>omegafiltrr</sub></i>) (>= 0). It is a type-dependent
 		/// parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tomegafiltrr;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tomegafiltrr;
 		/// <summary>
 		/// Filter time constant for power measurement (<i>T</i><i><sub>pfiltrr</sub></i>)
 		/// (>= 0). It is a type-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tpfiltrr;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tpfiltrr;
 		/// <summary>
 		/// Wind turbine type 2 model with whitch this wind control rotor resistance model
 		/// is associated.
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics.WindGenTurbineType2IEC WindGenTurbineType2IEC;
+		public TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics.WindGenTurbineType2IEC? WindGenTurbineType2IEC;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="WindContRotorRIEC"/> class

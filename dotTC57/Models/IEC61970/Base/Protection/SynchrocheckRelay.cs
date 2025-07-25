@@ -18,15 +18,15 @@ namespace TC57CIM.IEC61970.Base.Protection {
 		/// The maximum allowable voltage vector phase angle difference across the open
 		/// device.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.AngleRadians maxAngleDiff;
+		public TC57CIM.IEC61970.Base.Domain.AngleRadians? maxAngleDiff;
 		/// <summary>
 		/// The maximum allowable frequency difference across the open device.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Frequency maxFreqDiff;
+		public TC57CIM.IEC61970.Base.Domain.Frequency? maxFreqDiff;
 		/// <summary>
 		/// The maximum allowable difference voltage across the open device.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Voltage maxVoltDiff;
+		public TC57CIM.IEC61970.Base.Domain.Voltage? maxVoltDiff;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="SynchrocheckRelay"/> class

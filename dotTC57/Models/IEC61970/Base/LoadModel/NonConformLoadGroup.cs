@@ -14,11 +14,11 @@ namespace TC57CIM.IEC61970.Base.LoadModel {
 		/// <summary>
 		/// Conform loads assigned to this ConformLoadGroup.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.LoadModel.NonConformLoad EnergyConsumers;
+		public TC57CIM.IEC61970.Base.LoadModel.NonConformLoad? EnergyConsumers;
 		/// <summary>
 		/// The NonConformLoadSchedules in the NonConformLoadGroup.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.LoadModel.NonConformLoadSchedule NonConformLoadSchedules;
+		public TC57CIM.IEC61970.Base.LoadModel.NonConformLoadSchedule? NonConformLoadSchedules;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="NonConformLoadGroup"/> class

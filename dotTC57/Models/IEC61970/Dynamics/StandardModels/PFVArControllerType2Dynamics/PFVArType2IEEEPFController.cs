@@ -28,25 +28,25 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.PFVArControllerType2Dynamics 
 		/// Integral gain of the pf controller (<i>K</i><i><sub>I</sub></i>).  Typical
 		/// value = 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU ki;
+		public TC57CIM.IEC61970.Base.Domain.PU? ki;
 		/// <summary>
 		/// Proportional gain of the pf controller (<i>K</i><i><sub>P</sub></i>).  Typical
 		/// value = 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kp;
+		public TC57CIM.IEC61970.Base.Domain.PU? kp;
 		/// <summary>
 		/// Power factor reference (<i>P</i><i><sub>FREF</sub></i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU pfref;
+		public TC57CIM.IEC61970.Base.Domain.PU? pfref;
 		/// <summary>
 		/// Maximum output of the pf controller (<i>V</i><i><sub>CLMT</sub></i>).  Typical
 		/// value = 0,1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vclmt;
+		public TC57CIM.IEC61970.Base.Domain.PU? vclmt;
 		/// <summary>
 		/// Voltage regulator reference (<i>V</i><i><sub>REF</sub></i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vref;
+		public TC57CIM.IEC61970.Base.Domain.PU? vref;
 		/// <summary>
 		/// Generator sensing voltage (<i>V</i><i><sub>S</sub></i>).
 		/// </summary>

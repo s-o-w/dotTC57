@@ -20,47 +20,47 @@ namespace TC57CIM.IEC61968.Operations {
 		/// <summary>
 		/// The date and time the switching plan was approved
 		/// </summary>
-		public System.DateTime approvedDateTime;
+		public System.DateTime? approvedDateTime;
 		/// <summary>
 		/// Date and Time the switching plan was cancelled.
 		/// </summary>
-		public System.DateTime cancelledDateTime;
+		public System.DateTime? cancelledDateTime;
 		/// <summary>
 		/// the planned start and end times for the switching plan.
 		/// </summary>
-		public DateTimeInterval plannedPeriod;
+		public DateTimeInterval? plannedPeriod;
 		/// <summary>
 		/// Purpose of  this plan, such as whether it is to move the state from normal to
 		/// some abnormal condition, or to restore the normal state after an abnormal
 		/// condition, or to perform some kind of optimisation such as correction of
 		/// overload, voltage control, etc.
 		/// </summary>
-		public string purpose;
+		public string? purpose;
 		/// <summary>
 		/// Ranking in comparison to other switching plans.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer rank;
+		public TC57CIM.IEC61970.Base.Domain.Integer? rank;
 		/// <summary>
 		/// All work tasks to execute this switching plan.
 		/// </summary>
-		public TC57CIM.IEC61968.Work.WorkTask WorkTasks;
+		public TC57CIM.IEC61968.Work.WorkTask? WorkTasks;
 		/// <summary>
 		/// The outage plan for which the switching plan is defined.
 		/// </summary>
-		public TC57CIM.IEC61968.Operations.OutagePlan OutagePlan;
+		public TC57CIM.IEC61968.Operations.OutagePlan? OutagePlan;
 		/// <summary>
 		/// All safety documents applicable to this swtiching plan.
 		/// </summary>
-		public TC57CIM.IEC61968.Operations.SafetyDocument SafetyDocuments;
+		public TC57CIM.IEC61968.Operations.SafetyDocument? SafetyDocuments;
 		/// <summary>
 		/// All groups of switching steps within this switching plan.
 		/// </summary>
-		public TC57CIM.IEC61968.Operations.SwitchingStepGroup SwitchingStepGroups;
+		public TC57CIM.IEC61968.Operations.SwitchingStepGroup? SwitchingStepGroups;
 		/// <summary>
 		/// Outage that will be activated or eliminated when this switching plan gets
 		/// executed.
 		/// </summary>
-		public TC57CIM.IEC61968.Operations.Outage Outage;
+		public TC57CIM.IEC61968.Operations.Outage? Outage;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="SwitchingPlan"/> class

@@ -14,23 +14,23 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfWork {
 		/// <summary>
 		/// The equipment type code.
 		/// </summary>
-		public string equipCode;
+		public string? equipCode;
 		/// <summary>
 		/// Standard usage rate for the type of vehicle.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.CostRate rate;
+		public TC57CIM.IEC61970.Base.Domain.CostRate? rate;
 		/// <summary>
 		/// The status
 		/// </summary>
-		public TC57CIM.IEC61968.Common.Status status;
+		public TC57CIM.IEC61968.Common.Status? status;
 		/// <summary>
 		/// The compatible units
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfWork.CompatibleUnit CompatibleUnits;
+		public TC57CIM.IEC61968.InfIEC61968.InfWork.CompatibleUnit? CompatibleUnits;
 		/// <summary>
 		/// The type asset
 		/// </summary>
-		public TC57CIM.IEC61968.Work.WorkAsset TypeAsset;
+		public TC57CIM.IEC61968.Work.WorkAsset? TypeAsset;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="CUWorkEquipmentItem"/> class

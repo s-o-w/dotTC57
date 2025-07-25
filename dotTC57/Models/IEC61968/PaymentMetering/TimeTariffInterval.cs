@@ -18,18 +18,18 @@ namespace TC57CIM.IEC61968.PaymentMetering {
 		/// A sequential reference that defines the identity of this interval and its
 		/// relative position with respect to other intervals in a sequence of intervals.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer sequenceNumber;
+		public TC57CIM.IEC61970.Base.Domain.Integer? sequenceNumber;
 		/// <summary>
 		/// A real time marker that defines the starting time (typically it is the time of
 		/// day) for this interval. The interval extends to the start of the next interval
 		/// or until it is reset to the start of the first interval by TariffProfile.
 		/// tariffCycle.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Time startTime;
+		public TC57CIM.IEC61970.Base.Domain.Time? startTime;
 		/// <summary>
 		/// All charges used to define this time tariff interval.
 		/// </summary>
-		public TC57CIM.IEC61968.PaymentMetering.Charge Charges;
+		public TC57CIM.IEC61968.PaymentMetering.Charge? Charges;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="TimeTariffInterval"/> class

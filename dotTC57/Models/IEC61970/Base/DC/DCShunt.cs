@@ -16,11 +16,11 @@ namespace TC57CIM.IEC61970.Base.DC {
 		/// <summary>
 		/// Capacitance of the DC shunt.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Capacitance capacitance;
+		public TC57CIM.IEC61970.Base.Domain.Capacitance? capacitance;
 		/// <summary>
 		/// Resistance of the DC device.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Resistance resistance;
+		public TC57CIM.IEC61970.Base.Domain.Resistance? resistance;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="DCShunt"/> class

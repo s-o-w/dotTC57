@@ -17,19 +17,19 @@ namespace TC57CIM.IEC61968.Customers {
 		/// <summary>
 		/// Type of contact (e.g., phone, email, etc.).
 		/// </summary>
-		public string contactType;
+		public string? contactType;
 		/// <summary>
 		/// Value of contact type (e.g., phone number, email address, etc.).
 		/// </summary>
-		public string contactValue;
+		public string? contactValue;
 		/// <summary>
 		/// Earliest date time to call the customer.
 		/// </summary>
-		public System.DateTime earliestDateTimeToCall;
+		public System.DateTime? earliestDateTimeToCall;
 		/// <summary>
 		/// Latest date time to call the customer.
 		/// </summary>
-		public System.DateTime latestDateTimeToCall;
+		public System.DateTime? latestDateTimeToCall;
 		/// <summary>
 		/// Trigger for this notification.
 		/// </summary>
@@ -37,11 +37,11 @@ namespace TC57CIM.IEC61968.Customers {
 		/// <summary>
 		/// Customer requiring this notification.
 		/// </summary>
-		public TC57CIM.IEC61968.Customers.Customer Customer;
+		public TC57CIM.IEC61968.Customers.Customer? Customer;
 		/// <summary>
 		/// All trouble tickets with this notification.
 		/// </summary>
-		public TC57CIM.IEC61968.Customers.TroubleTicket TroubleTickets;
+		public TC57CIM.IEC61968.Customers.TroubleTicket? TroubleTickets;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="CustomerNotification"/> class

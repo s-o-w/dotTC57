@@ -15,7 +15,7 @@ namespace TC57CIM.IEC61968.AssetInfo {
 		/// <summary>
 		/// Per length line parameter associated with this wire assembly.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Wires.PerLengthLineParameter PerLengthLineParameter;
+		public TC57CIM.IEC61970.Base.Wires.PerLengthLineParameter? PerLengthLineParameter;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="WireAssemblyInfo"/> class

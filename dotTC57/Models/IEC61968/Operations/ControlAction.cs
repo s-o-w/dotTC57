@@ -20,11 +20,11 @@ namespace TC57CIM.IEC61968.Operations {
 		/// <summary>
 		/// The integer value used for the command or the accumulator reset.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer discreteValue;
+		public TC57CIM.IEC61970.Base.Domain.Integer? discreteValue;
 		/// <summary>
 		/// The control that the control action is performed on.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Meas.Control Control;
+		public TC57CIM.IEC61970.Base.Meas.Control? Control;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ControlAction"/> class

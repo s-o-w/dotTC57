@@ -25,7 +25,7 @@ namespace TC57CIM.IEC61970.Dynamics.UserDefinedModels {
 		/// <summary>
 		/// Parameter of this proprietary user-defined model.
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.UserDefinedModels.ProprietaryParameterDynamics ProprietaryParameterDynamics;
+		public TC57CIM.IEC61970.Dynamics.UserDefinedModels.ProprietaryParameterDynamics? ProprietaryParameterDynamics;
 
 		/// <summary>
 		/// Constructor for WindType3or4UserDefined.

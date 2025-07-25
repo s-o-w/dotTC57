@@ -16,7 +16,7 @@ namespace TC57CIM.IEC61968.Work {
 		/// <summary>
 		/// Quantity of material used.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.IntegerQuantity quantity;
+		public TC57CIM.IEC61970.Base.Domain.IntegerQuantity? quantity;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="MaterialItem"/> class

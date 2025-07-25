@@ -15,7 +15,7 @@ namespace TC57CIM.IEC61968.Metering {
 		/// <summary>
 		/// Unique identifier of the business entity originating an end device control.
 		/// </summary>
-		public string issuerID;
+		public string? issuerID;
 		/// <summary>
 		/// Identifier assigned by the initiator (e.g. retail electric provider) of an end
 		/// device control action to uniquely identify the demand response event, text
@@ -23,27 +23,27 @@ namespace TC57CIM.IEC61968.Metering {
 		/// event or text message request or to identify the originating event or text
 		/// message in a consequential end device event.
 		/// </summary>
-		public string issuerTrackingID;
+		public string? issuerTrackingID;
 		/// <summary>
 		/// (if user initiated) ID of user who initiated this end device event.
 		/// </summary>
-		public string userID;
+		public string? userID;
 		/// <summary>
 		/// End device that reported this end device event.
 		/// </summary>
-		public TC57CIM.IEC61968.Metering.EndDevice EndDevice;
+		public TC57CIM.IEC61968.Metering.EndDevice? EndDevice;
 		/// <summary>
 		/// All details of this end device event.
 		/// </summary>
-		public TC57CIM.IEC61968.Metering.EndDeviceEventDetail EndDeviceEventDetails;
+		public TC57CIM.IEC61968.Metering.EndDeviceEventDetail? EndDeviceEventDetails;
 		/// <summary>
 		/// Type of this end device event.
 		/// </summary>
-		public TC57CIM.IEC61968.Metering.EndDeviceEventType EndDeviceEventType;
+		public TC57CIM.IEC61968.Metering.EndDeviceEventType? EndDeviceEventType;
 		/// <summary>
 		/// Usage point for which this end device event is reported.
 		/// </summary>
-		public TC57CIM.IEC61968.Metering.UsagePoint UsagePoint;
+		public TC57CIM.IEC61968.Metering.UsagePoint? UsagePoint;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="EndDeviceEvent"/> class

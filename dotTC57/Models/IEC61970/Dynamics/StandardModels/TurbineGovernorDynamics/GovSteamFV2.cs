@@ -16,54 +16,54 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.TurbineGovernorDynamics {
 		/// <summary>
 		/// (<i>Dt</i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU dt;
+		public TC57CIM.IEC61970.Base.Domain.PU? dt;
 		/// <summary>
 		/// Fraction of the turbine power developed by turbine sections not involved in
 		/// fast valving (<i>K</i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU k;
+		public TC57CIM.IEC61970.Base.Domain.PU? k;
 		/// <summary>
 		/// Alternate base used instead of machine base in equipment model if necessary
 		/// (<i>MWbase</i>) (> 0).  Unit = MW.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower mwbase;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? mwbase;
 		/// <summary>
 		/// (<i>R</i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU r;
+		public TC57CIM.IEC61970.Base.Domain.PU? r;
 		/// <summary>
 		/// Governor time constant (<i>T1</i>) (>= 0).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t1;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t1;
 		/// <summary>
 		/// Reheater time constant (<i>T3</i>) (>= 0).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t3;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t3;
 		/// <summary>
 		/// Time after initial time for valve to close (<i>Ta</i>) (>= 0).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds ta;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? ta;
 		/// <summary>
 		/// Time after initial time for valve to begin opening (<i>Tb</i>) (>= 0).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tb;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tb;
 		/// <summary>
 		/// Time after initial time for valve to become fully open (<i>Tc</i>) (>= 0).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tc;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tc;
 		/// <summary>
 		/// Time constant with which power falls off after intercept valve closure
 		/// (<i>Tt</i>) (>= 0).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tt;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tt;
 		/// <summary>
 		/// (<i>Vmax</i>) (> GovSteamFV2.vmin).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? vmax;
 		/// <summary>
-		/// (<i>Vmin</i>) (< GovSteamFV2.vmax).
+		/// (<i>Vmin</i>) (&lt; GovSteamFV2.vmax).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vmin;
+		public TC57CIM.IEC61970.Base.Domain.PU? vmin;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="GovSteamFV2"/> class

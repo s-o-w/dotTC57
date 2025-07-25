@@ -15,12 +15,12 @@ namespace TC57CIM.IEC61968.PaymentMetering {
 		/// <summary>
 		/// Formal reference for use with diverse payment (traffic fine for example).
 		/// </summary>
-		public string diverseReference;
+		public string? diverseReference;
 		/// <summary>
 		/// Reference to the entity that is the source of 'amount' (for example: customer
 		/// for token purchase; or supplier for free issue token).
 		/// </summary>
-		public string donorReference;
+		public string? donorReference;
 		/// <summary>
 		/// Kind of transaction.
 		/// </summary>
@@ -28,30 +28,30 @@ namespace TC57CIM.IEC61968.PaymentMetering {
 		/// <summary>
 		/// Transaction amount, rounding, date and note for this transaction line.
 		/// </summary>
-		public LineDetail line;
+		public LineDetail? line;
 		/// <summary>
 		/// Reference to the entity that is the recipient of 'amount' (for example,
 		/// supplier for service charge payment; or tax receiver for VAT).
 		/// </summary>
-		public string receiverReference;
+		public string? receiverReference;
 		/// <summary>
 		/// (if 'kind' is transactionReversal) Reference to the original transaction that
 		/// is being reversed by this transaction.
 		/// </summary>
-		public string reversedId;
+		public string? reversedId;
 		/// <summary>
 		/// Actual amount of service units that is being paid for.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.RealEnergy serviceUnitsEnergy;
+		public TC57CIM.IEC61970.Base.Domain.RealEnergy? serviceUnitsEnergy;
 		/// <summary>
 		/// Number of service units not reflected in 'serviceUnitsEnergy' due to process
 		/// rounding or truncating errors.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.RealEnergy serviceUnitsError;
+		public TC57CIM.IEC61970.Base.Domain.RealEnergy? serviceUnitsError;
 		/// <summary>
 		/// Meter for this vending transaction.
 		/// </summary>
-		public TC57CIM.IEC61968.Metering.Meter Meter;
+		public TC57CIM.IEC61968.Metering.Meter? Meter;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Transaction"/> class

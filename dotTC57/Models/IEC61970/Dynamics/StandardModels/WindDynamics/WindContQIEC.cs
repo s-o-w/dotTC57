@@ -18,104 +18,104 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics {
 		/// Maximum reactive current injection during dip (<i>i</i><i><sub>qh1</sub></i>).
 		/// It is a type-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU iqh1;
+		public TC57CIM.IEC61970.Base.Domain.PU? iqh1;
 		/// <summary>
 		/// Maximum reactive current injection (<i>i</i><i><sub>qmax</sub></i>) (>
 		/// WindContQIEC.iqmin). It is a type-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU iqmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? iqmax;
 		/// <summary>
-		/// Minimum reactive current injection (<i>i</i><i><sub>qmin</sub></i>) (<
+		/// Minimum reactive current injection (<i>i</i><i><sub>qmin</sub></i>) (&lt;
 		/// WindContQIEC.iqmax). It is a type-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU iqmin;
+		public TC57CIM.IEC61970.Base.Domain.PU? iqmin;
 		/// <summary>
 		/// Post fault reactive current injection (<i>i</i><i><sub>qpost</sub></i>). It is
 		/// a project-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU iqpost;
+		public TC57CIM.IEC61970.Base.Domain.PU? iqpost;
 		/// <summary>
 		/// Reactive power PI controller integration gain (<i>K</i><i><sub>I,q</sub></i>).
 		/// It is a type-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kiq;
+		public TC57CIM.IEC61970.Base.Domain.PU? kiq;
 		/// <summary>
 		/// Voltage PI controller integration gain (<i>K</i><i><sub>I,u</sub></i>). It is a
 		/// type-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kiu;
+		public TC57CIM.IEC61970.Base.Domain.PU? kiu;
 		/// <summary>
 		/// Reactive power PI controller proportional gain (<i>K</i><i><sub>P,q</sub></i>).
 		/// It is a type-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kpq;
+		public TC57CIM.IEC61970.Base.Domain.PU? kpq;
 		/// <summary>
 		/// Voltage PI controller proportional gain (<i>K</i><i><sub>P,u</sub></i>). It is
 		/// a type-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kpu;
+		public TC57CIM.IEC61970.Base.Domain.PU? kpu;
 		/// <summary>
 		/// Voltage scaling factor for UVRT current (<i>K</i><i><sub>qv</sub></i>). It is a
 		/// project-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kqv;
+		public TC57CIM.IEC61970.Base.Domain.PU? kqv;
 		/// <summary>
 		/// Resistive component of voltage drop impedance (<i>r</i><i><sub>droop</sub></i>)
 		/// (>= 0). It is a project-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU rdroop;
+		public TC57CIM.IEC61970.Base.Domain.PU? rdroop;
 		/// <summary>
 		/// Power measurement filter time constant (<i>T</i><i><sub>pfiltq</sub></i>) (>=
 		/// 0). It is a type-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tpfiltq;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tpfiltq;
 		/// <summary>
 		/// Length of time period where post fault reactive power is injected
 		/// (<i>T</i><i><sub>post</sub></i>) (>= 0). It is a project-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tpost;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tpost;
 		/// <summary>
 		/// Time constant in reactive power order lag (<i>T</i><i><sub>qord</sub></i>) (>=
 		/// 0). It is a type-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tqord;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tqord;
 		/// <summary>
 		/// Voltage measurement filter time constant (<i>T</i><i><sub>ufiltq</sub></i>) (>=
 		/// 0). It is a type-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tufiltq;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tufiltq;
 		/// <summary>
 		/// Voltage deadband lower limit (<i>u</i><i><sub>db1</sub></i>). It is a type-
 		/// dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU udb1;
+		public TC57CIM.IEC61970.Base.Domain.PU? udb1;
 		/// <summary>
 		/// Voltage deadband upper limit (<i>u</i><i><sub>db2</sub></i>). It is a type-
 		/// dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU udb2;
+		public TC57CIM.IEC61970.Base.Domain.PU? udb2;
 		/// <summary>
 		/// Maximum voltage in voltage PI controller integral term
 		/// (<i>u</i><i><sub>max</sub></i>) (> WindContQIEC.umin). It is a type-dependent
 		/// parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU umax;
+		public TC57CIM.IEC61970.Base.Domain.PU? umax;
 		/// <summary>
 		/// Minimum voltage in voltage PI controller integral term
-		/// (<i>u</i><i><sub>min</sub></i>) (< WindContQIEC.umax). It is a type-dependent
+		/// (<i>u</i><i><sub>min</sub></i>) (&lt; WindContQIEC.umax). It is a type-dependent
 		/// parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU umin;
+		public TC57CIM.IEC61970.Base.Domain.PU? umin;
 		/// <summary>
 		/// Voltage threshold for UVRT detection in Q control
 		/// (<i>u</i><i><sub>qdip</sub></i>). It is a type-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU uqdip;
+		public TC57CIM.IEC61970.Base.Domain.PU? uqdip;
 		/// <summary>
 		/// User-defined bias in voltage reference (<i>u</i><i><sub>ref0</sub></i>). It is
 		/// a case-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU uref0;
+		public TC57CIM.IEC61970.Base.Domain.PU? uref0;
 		/// <summary>
 		/// Types of general wind turbine Q control modes (<i>M</i><i><sub>qG</sub></i>).
 		/// It is a project-dependent parameter.
@@ -130,12 +130,12 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics {
 		/// Inductive component of voltage drop impedance (<i>x</i><i><sub>droop</sub></i>)
 		/// (>= 0). It is a project-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU xdroop;
+		public TC57CIM.IEC61970.Base.Domain.PU? xdroop;
 		/// <summary>
 		/// Wind turbine type 3 or type 4 model with which this reactive control model is
 		/// associated.
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics.WindTurbineType3or4IEC WindTurbineType3or4IEC;
+		public TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics.WindTurbineType3or4IEC? WindTurbineType3or4IEC;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="WindContQIEC"/> class

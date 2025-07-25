@@ -15,11 +15,11 @@ namespace TC57CIM.IEC61970.Base.Domain {
 		/// <summary>
 		/// End time of this interval.
 		/// </summary>
-		public Time end;
+		public Time? end;
 		/// <summary>
 		/// Start time of this interval.
 		/// </summary>
-		public Time start;
+		public Time? start;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="TimeInterval"/> class

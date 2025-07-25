@@ -23,7 +23,7 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfWork {
 		/// <summary>
 		/// Instructions for marking a dig area, if applicable.
 		/// </summary>
-		public string markingInstruction;
+		public string? markingInstruction;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="OneCallRequest"/> class

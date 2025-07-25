@@ -12,11 +12,6 @@ namespace TC57CIM.IEC61968.AssetInfo.Assets {
 	public class FACTSDevice : Asset {
 
 		/// <summary>
-		/// Kind of FACTS device.
-		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfAssets.FACTSDeviceKind kind;
-
-		/// <summary>
 		/// Initializes a new instance of the <see cref="FACTSDevice"/> class
 		/// </summary>
 		public FACTSDevice(){

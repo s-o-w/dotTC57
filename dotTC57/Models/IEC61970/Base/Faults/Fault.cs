@@ -18,7 +18,7 @@ namespace TC57CIM.IEC61970.Base.Faults {
 		/// <summary>
 		/// Fault impedance. Its usage is described by 'kind'.
 		/// </summary>
-		public FaultImpedance impedance;
+		public FaultImpedance? impedance;
 		/// <summary>
 		/// The kind of phase fault.
 		/// </summary>
@@ -26,24 +26,24 @@ namespace TC57CIM.IEC61970.Base.Faults {
 		/// <summary>
 		/// The date and time at which the fault occurred.
 		/// </summary>
-		public System.DateTime occurredDateTime;
+		public System.DateTime? occurredDateTime;
 		/// <summary>
 		/// The phases participating in the fault. The fault connections into these phases
 		/// are further specified by the type of fault.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Core.PhaseCode phases;
+		public TC57CIM.IEC61970.Base.Core.PhaseCode? phases;
 		/// <summary>
 		/// Equipment carrying this fault.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Core.Equipment FaultyEquipment;
+		public TC57CIM.IEC61970.Base.Core.Equipment? FaultyEquipment;
 		/// <summary>
 		/// All types of fault cause.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Faults.FaultCauseType FaultCauseTypes;
+		public TC57CIM.IEC61970.Base.Faults.FaultCauseType? FaultCauseTypes;
 		/// <summary>
 		/// Location of this fault.
 		/// </summary>
-		public TC57CIM.IEC61968.Common.Location Location;
+		public TC57CIM.IEC61968.Common.Location? Location;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Fault"/> class

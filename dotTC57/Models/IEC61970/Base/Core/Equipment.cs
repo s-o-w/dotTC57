@@ -48,12 +48,12 @@ namespace TC57CIM.IEC61970.Base.Core {
 		/// <summary>
 		/// The weather station
 		/// </summary>
-		public TC57CIM.IEC61970.InfIEC61970.InfOperationalLimits.WeatherStation WeatherStation;
+		public TC57CIM.IEC61970.InfIEC61970.InfOperationalLimits.WeatherStation? WeatherStation;
 		/// <summary>
 		/// Limit dependencymodels organized under this equipment as a means for organizing
 		/// the model in a tree view.
 		/// </summary>
-		public TC57CIM.IEC61970.InfIEC61970.InfOperationalLimits.LimitDependency LimitDependencyModel;
+		public TC57CIM.IEC61970.InfIEC61970.InfOperationalLimits.LimitDependency? LimitDependencyModel;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Equipment"/> class

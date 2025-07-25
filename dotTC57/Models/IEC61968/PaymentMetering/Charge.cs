@@ -18,7 +18,7 @@ namespace TC57CIM.IEC61968.PaymentMetering {
 		/// <summary>
 		/// The fixed portion of this charge element.
 		/// </summary>
-		public AccountingUnit fixedPortion;
+		public AccountingUnit? fixedPortion;
 		/// <summary>
 		/// The kind of charge to be applied.
 		/// </summary>
@@ -27,11 +27,11 @@ namespace TC57CIM.IEC61968.PaymentMetering {
 		/// The variable portion of this charge element, calculated as a percentage of the
 		/// total amount of a parent charge.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PerCent variablePortion;
+		public TC57CIM.IEC61970.Base.Domain.PerCent? variablePortion;
 		/// <summary>
 		/// All sub-components of this complex charge.
 		/// </summary>
-		public TC57CIM.IEC61968.PaymentMetering.Charge ChildCharges;
+		public TC57CIM.IEC61968.PaymentMetering.Charge? ChildCharges;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Charge"/> class

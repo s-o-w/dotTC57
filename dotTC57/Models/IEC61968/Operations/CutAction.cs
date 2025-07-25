@@ -19,7 +19,7 @@ namespace TC57CIM.IEC61968.Operations {
 		/// <summary>
 		/// Cut on which this action is taken.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Wires.Cut Cut;
+		public TC57CIM.IEC61970.Base.Wires.Cut? Cut;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="CutAction"/> class

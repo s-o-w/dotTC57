@@ -18,17 +18,17 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics {
 		/// Maximum reactive power (<i>q</i><i><sub>max</sub></i>) (> WindContQLimIEC.qmin).
 		/// It is a type-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU qmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? qmax;
 		/// <summary>
-		/// Minimum reactive power (<i>q</i><i><sub>min</sub></i>) (< WindContQLimIEC.qmax).
+		/// Minimum reactive power (<i>q</i><i><sub>min</sub></i>) (&lt; WindContQLimIEC.qmax).
 		/// It is a type-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU qmin;
+		public TC57CIM.IEC61970.Base.Domain.PU? qmin;
 		/// <summary>
 		/// Wind generator type 3 or type 4 model with which this constant Q limitation
 		/// model is associated.
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics.WindTurbineType3or4IEC WindTurbineType3or4IEC;
+		public TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics.WindTurbineType3or4IEC? WindTurbineType3or4IEC;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="WindContQLimIEC"/> class

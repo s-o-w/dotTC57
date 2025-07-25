@@ -15,27 +15,27 @@ namespace TC57CIM.IEC61968.PaymentMetering {
 		/// <summary>
 		/// Part of 'current' that constitutes the arrears portion.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Money arrears;
+		public TC57CIM.IEC61970.Base.Domain.Money? arrears;
 		/// <summary>
 		/// Part of 'current' that constitutes the charge portion: 'charges' = 'Charge.
 		/// fixedPortion' + 'Charge.variablePortion'.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Money charges;
+		public TC57CIM.IEC61970.Base.Domain.Money? charges;
 		/// <summary>
 		/// Current total amount now due: current = principle + arrears + interest +
 		/// charges. Typically the rule for settlement priority is: interest dues, then
 		/// arrears dues, then current dues, then charge dues.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Money current;
+		public TC57CIM.IEC61970.Base.Domain.Money? current;
 		/// <summary>
 		/// Part of 'current' that constitutes the interest portion.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Money interest;
+		public TC57CIM.IEC61970.Base.Domain.Money? interest;
 		/// <summary>
 		/// Part of 'current' that constitutes the portion of the principle amount
 		/// currently due.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Money principle;
+		public TC57CIM.IEC61970.Base.Domain.Money? principle;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Due"/> class

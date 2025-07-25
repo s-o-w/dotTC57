@@ -65,7 +65,7 @@ namespace TC57CIM.IEC61970.Base.Meas {
 		/// Source gives information related to the origin of a value. The value may be
 		/// acquired from the process, defaulted or substituted.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.SCADA.Source source;
+		public TC57CIM.IEC61970.Base.SCADA.Source? source;
 		/// <summary>
 		/// A correlation function has detected that the value is not consistent with other
 		/// values. Typically set by a network State Estimator.

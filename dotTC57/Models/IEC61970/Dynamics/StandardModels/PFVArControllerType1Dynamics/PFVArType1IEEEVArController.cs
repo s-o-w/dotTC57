@@ -18,11 +18,11 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.PFVArControllerType1Dynamics 
 		/// Var controller time delay (<i>T</i><i><sub>VARC</sub></i>) (>= 0).  Typical
 		/// value = 5.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tvarc;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tvarc;
 		/// <summary>
 		/// Synchronous machine power factor (<i>V</i><i><sub>VAR</sub></i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vvar;
+		public TC57CIM.IEC61970.Base.Domain.PU? vvar;
 		/// <summary>
 		/// Var controller deadband (<i>V</i><i><sub>VARC_BW</sub></i>).  Typical value = 0,
 		/// 02.
@@ -31,17 +31,17 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.PFVArControllerType1Dynamics 
 		/// <summary>
 		/// Var controller reference (<i>V</i><i><sub>VARREF</sub></i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vvarref;
+		public TC57CIM.IEC61970.Base.Domain.PU? vvarref;
 		/// <summary>
 		/// Maximum machine terminal voltage needed for pf/VAr controller to be enabled
-		/// (<i>V</i><i><sub>VTMAX</sub></i>) (> PVFArType1IEEEVArController.vvtmin).
+		/// (<i>V</i><i><sub>VTMAX</sub></i>) (greater than PFVArType1IEEEVArController.vvtmin).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vvtmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? vvtmax;
 		/// <summary>
 		/// Minimum machine terminal voltage needed to enable pf/var controller
-		/// (<i>V</i><i><sub>VTMIN</sub></i>) (< PVFArType1IEEEVArController.vvtmax).
+		/// (<i>V</i><i><sub>VTMIN</sub></i>) (less than PFVArType1IEEEVArController.vvtmax).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vvtmin;
+		public TC57CIM.IEC61970.Base.Domain.PU? vvtmin;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="PFVArType1IEEEVArController"/> class

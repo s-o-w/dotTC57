@@ -16,24 +16,24 @@ namespace TC57CIM.IEC61970.Base.Generation.Production {
 		/// <summary>
 		/// The pumping discharge under maximum head conditions, usually at full gate.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.VolumeFlowRate pumpDischAtMaxHead;
+		public TC57CIM.IEC61970.Base.Domain.VolumeFlowRate? pumpDischAtMaxHead;
 		/// <summary>
 		/// The pumping discharge under minimum head conditions, usually at full gate.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.VolumeFlowRate pumpDischAtMinHead;
+		public TC57CIM.IEC61970.Base.Domain.VolumeFlowRate? pumpDischAtMinHead;
 		/// <summary>
 		/// The pumping power under maximum head conditions, usually at full gate.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower pumpPowerAtMaxHead;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? pumpPowerAtMaxHead;
 		/// <summary>
 		/// The pumping power under minimum head conditions, usually at full gate.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower pumpPowerAtMinHead;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? pumpPowerAtMinHead;
 		/// <summary>
 		/// The hydro pump has a pumping schedule over time, indicating when pumping is to
 		/// occur.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Generation.Production.HydroPumpOpSchedule HydroPumpOpSchedule;
+		public TC57CIM.IEC61970.Base.Generation.Production.HydroPumpOpSchedule? HydroPumpOpSchedule;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="HydroPump"/> class

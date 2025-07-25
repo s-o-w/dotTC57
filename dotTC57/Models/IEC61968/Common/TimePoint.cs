@@ -19,24 +19,24 @@ namespace TC57CIM.IEC61968.Common {
 		/// is typically manually entered, while for interval-based or sequence-based time
 		/// point it is derived.
 		/// </summary>
-		public System.DateTime dateTime;
+		public System.DateTime? dateTime;
 		/// <summary>
 		/// (if interval-based) A point in time relative to scheduled start time in
 		/// 'TimeSchedule.scheduleInterval.start'.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds relativeTimeInterval;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? relativeTimeInterval;
 		/// <summary>
 		/// (if sequence-based) Relative sequence number for this time point.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer sequenceNumber;
+		public TC57CIM.IEC61970.Base.Domain.Integer? sequenceNumber;
 		/// <summary>
 		/// Status of this time point.
 		/// </summary>
-		public Status status;
+		public Status? status;
 		/// <summary>
 		/// Interval defining the window of time for which this time point is valid.
 		/// </summary>
-		public DateTimeInterval window;
+		public DateTimeInterval? window;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="TimePoint"/> class

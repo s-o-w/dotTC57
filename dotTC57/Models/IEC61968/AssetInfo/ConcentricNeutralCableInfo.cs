@@ -15,23 +15,23 @@ namespace TC57CIM.IEC61968.AssetInfo {
 		/// <summary>
 		/// Diameter over the concentric neutral strands.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Length diameterOverNeutral;
+		public TC57CIM.IEC61970.Base.Domain.Length? diameterOverNeutral;
 		/// <summary>
 		/// Number of concentric neutral strands.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer neutralStrandCount;
+		public TC57CIM.IEC61970.Base.Domain.Integer? neutralStrandCount;
 		/// <summary>
 		/// Geometric mean radius of the neutral strand.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Length neutralStrandGmr;
+		public TC57CIM.IEC61970.Base.Domain.Length? neutralStrandGmr;
 		/// <summary>
 		/// Outside radius of the neutral strand.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Length neutralStrandRadius;
+		public TC57CIM.IEC61970.Base.Domain.Length? neutralStrandRadius;
 		/// <summary>
 		/// DC resistance per unit length of the neutral strand at 20 �C.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ResistancePerLength neutralStrandRDC20;
+		public TC57CIM.IEC61970.Base.Domain.ResistancePerLength? neutralStrandRDC20;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ConcentricNeutralCableInfo"/> class

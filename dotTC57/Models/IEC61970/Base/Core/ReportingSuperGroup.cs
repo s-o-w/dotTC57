@@ -15,7 +15,7 @@ namespace TC57CIM.IEC61970.Base.Core {
 		/// <summary>
 		/// Reporting groups that are grouped under this super group.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Core.ReportingGroup ReportingGroup;
+		public TC57CIM.IEC61970.Base.Core.ReportingGroup? ReportingGroup;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ReportingSuperGroup"/> class

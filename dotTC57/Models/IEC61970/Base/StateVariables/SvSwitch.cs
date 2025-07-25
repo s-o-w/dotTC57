@@ -20,11 +20,11 @@ namespace TC57CIM.IEC61970.Base.StateVariables {
 		/// The terminal phase at which the connection is applied.   If missing, the
 		/// injection is assumed to be balanced among non-neutral phases.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Wires.SinglePhaseKind phase;
+		public TC57CIM.IEC61970.Base.Wires.SinglePhaseKind? phase;
 		/// <summary>
 		/// The switch associated with the switch state.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Wires.Switch Switch;
+		public TC57CIM.IEC61970.Base.Wires.Switch? Switch;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="SvSwitch"/> class

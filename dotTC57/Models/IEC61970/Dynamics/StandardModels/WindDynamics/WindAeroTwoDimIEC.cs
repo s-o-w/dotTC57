@@ -18,42 +18,42 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics {
 		/// Partial derivative of aerodynamic power with respect to changes in WTR speed
 		/// (<i>dp</i><i><sub>omega</sub></i>). It is a type-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU dpomega;
+		public TC57CIM.IEC61970.Base.Domain.PU? dpomega;
 		/// <summary>
 		/// Partial derivative of aerodynamic power with respect to changes in pitch angle
 		/// (<i>dp</i><i><sub>theta</sub></i>). It is a type-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU dptheta;
+		public TC57CIM.IEC61970.Base.Domain.PU? dptheta;
 		/// <summary>
 		/// Partial derivative (<i>dp</i><i><sub>v1</sub></i>). It is a type-dependent
 		/// parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU dpv1;
+		public TC57CIM.IEC61970.Base.Domain.PU? dpv1;
 		/// <summary>
 		/// Rotor speed if the wind turbine is not derated
 		/// (<i>omega</i><i><sub>0</sub></i>). It is a type-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU omegazero;
+		public TC57CIM.IEC61970.Base.Domain.PU? omegazero;
 		/// <summary>
 		/// Available aerodynamic power (<i>p</i><i><sub>avail</sub></i><i>)</i>. It is a
 		/// case-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU pavail;
+		public TC57CIM.IEC61970.Base.Domain.PU? pavail;
 		/// <summary>
 		/// Blade angle at twice rated wind speed (<i>theta</i><i><sub>v2</sub></i>). It is
 		/// a type-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.AngleDegrees thetav2;
+		public TC57CIM.IEC61970.Base.Domain.AngleDegrees? thetav2;
 		/// <summary>
 		/// Pitch angle if the wind turbine is not derated
 		/// (<i>theta</i><i><sub>0</sub></i>). It is a case-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.AngleDegrees thetazero;
+		public TC57CIM.IEC61970.Base.Domain.AngleDegrees? thetazero;
 		/// <summary>
 		/// Wind turbine type 3 model with which this wind aerodynamic model is associated.
 		///
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics.WindTurbineType3IEC WindTurbineType3IEC;
+		public TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics.WindTurbineType3IEC? WindTurbineType3IEC;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="WindAeroTwoDimIEC"/> class

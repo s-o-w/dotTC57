@@ -18,49 +18,49 @@ namespace TC57CIM.IEC61968.AssetInfo {
 		/// <summary>
 		/// Short circuit current..
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.CurrentFlow current;
+		public TC57CIM.IEC61970.Base.Domain.CurrentFlow? current;
 		/// <summary>
 		/// Tap step number for the energised end of the test pair.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer energisedEndStep;
+		public TC57CIM.IEC61970.Base.Domain.Integer? energisedEndStep;
 		/// <summary>
 		/// Tap step number for the grounded end of the test pair.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer groundedEndStep;
+		public TC57CIM.IEC61970.Base.Domain.Integer? groundedEndStep;
 		/// <summary>
 		/// Leakage impedance measured from a positive-sequence or single-phase short-
 		/// circuit test.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Impedance leakageImpedance;
+		public TC57CIM.IEC61970.Base.Domain.Impedance? leakageImpedance;
 		/// <summary>
 		/// Leakage impedance measured from a zero-sequence short-circuit test.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Impedance leakageImpedanceZero;
+		public TC57CIM.IEC61970.Base.Domain.Impedance? leakageImpedanceZero;
 		/// <summary>
 		/// Load losses from a positive-sequence or single-phase short-circuit test.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.KiloActivePower loss;
+		public TC57CIM.IEC61970.Base.Domain.KiloActivePower? loss;
 		/// <summary>
 		/// Load losses from a zero-sequence short-circuit test.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.KiloActivePower lossZero;
+		public TC57CIM.IEC61970.Base.Domain.KiloActivePower? lossZero;
 		/// <summary>
 		/// Short circuit apparent power.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ApparentPower power;
+		public TC57CIM.IEC61970.Base.Domain.ApparentPower? power;
 		/// <summary>
 		/// Short circuit voltage..
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PerCent voltage;
+		public TC57CIM.IEC61970.Base.Domain.PerCent? voltage;
 		/// <summary>
 		/// Transformer end that voltage is applied to in this short-circuit test. The test
 		/// voltage is chosen to induce rated current in the energised end.
 		/// </summary>
-		public TC57CIM.IEC61968.AssetInfo.TransformerEndInfo EnergisedEnd;
+		public TC57CIM.IEC61968.AssetInfo.TransformerEndInfo? EnergisedEnd;
 		/// <summary>
 		/// All ends short-circuited in this short-circuit test.
 		/// </summary>
-		public TC57CIM.IEC61968.AssetInfo.TransformerEndInfo GroundedEnds;
+		public TC57CIM.IEC61968.AssetInfo.TransformerEndInfo? GroundedEnds;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ShortCircuitTest"/> class

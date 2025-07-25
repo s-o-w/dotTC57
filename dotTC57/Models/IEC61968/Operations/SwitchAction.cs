@@ -19,7 +19,7 @@ namespace TC57CIM.IEC61968.Operations {
 		/// <summary>
 		/// Switch that is the object of this switch action.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Wires.Switch OperatedSwitch;
+		public TC57CIM.IEC61970.Base.Wires.Switch? OperatedSwitch;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="SwitchAction"/> class

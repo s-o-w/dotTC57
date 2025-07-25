@@ -17,7 +17,7 @@ namespace TC57CIM.IEC61968.AssetMeas {
 		/// <summary>
 		/// Measurement value to which this calculation method hierarchy applies.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Meas.MeasurementValue MeasurementValue;
+		public TC57CIM.IEC61970.Base.Meas.MeasurementValue? MeasurementValue;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="CalculationMethodHierarchy"/> class

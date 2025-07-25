@@ -18,44 +18,44 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics {
 		/// Rate limit for increasing power (<i>dp</i><i><sub>max</sub></i>) (>
 		/// WindPitchContPowerIEC.dpmin). It is a type-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU dpmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? dpmax;
 		/// <summary>
-		/// Rate limit for decreasing power (<i>dp</i><i><sub>min</sub></i>) (<
+		/// Rate limit for decreasing power (<i>dp</i><i><sub>min</sub></i>) (&lt;
 		/// WindPitchContPowerIEC.dpmax). It is a type-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU dpmin;
+		public TC57CIM.IEC61970.Base.Domain.PU? dpmin;
 		/// <summary>
 		/// Minimum power setting (<i>p</i><i><sub>min</sub></i>). It is a type-dependent
 		/// parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU pmin;
+		public TC57CIM.IEC61970.Base.Domain.PU? pmin;
 		/// <summary>
-		/// If <i>p</i><i><sub>init</sub></i><sub> </sub><
+		/// If <i>p</i><i><sub>init</sub></i><sub> </sub>&lt;
 		/// <i>p</i><i><sub>set</sub></i><sub> </sub>then power will be ramped down to
 		/// <i>p</i><i><sub>min</sub></i>. It is (<i>p</i><i><sub>set</sub></i>) in the IEC
 		/// 61400-27-1:2015. It is a type-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU pset;
+		public TC57CIM.IEC61970.Base.Domain.PU? pset;
 		/// <summary>
 		/// Lag time constant (<i>T</i><i><sub>1</sub></i>) (>= 0). It is a type-dependent
 		/// parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t1;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t1;
 		/// <summary>
 		/// Voltage measurement time constant (<i>T</i><i><sub>r</sub></i>) (>= 0). It is a
 		/// type-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tr;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tr;
 		/// <summary>
 		/// Dip detection threshold (<i>u</i><i><sub>UVRT</sub></i>). It is a type-
 		/// dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU uuvrt;
+		public TC57CIM.IEC61970.Base.Domain.PU? uuvrt;
 		/// <summary>
 		/// Wind turbine type 2 model with which this pitch control power model is
 		/// associated.
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics.WindGenTurbineType2IEC WindGenTurbineType2IEC;
+		public TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics.WindGenTurbineType2IEC? WindGenTurbineType2IEC;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="WindPitchContPowerIEC"/> class

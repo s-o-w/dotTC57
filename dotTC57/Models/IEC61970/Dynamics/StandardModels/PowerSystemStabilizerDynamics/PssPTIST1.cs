@@ -16,49 +16,49 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.PowerSystemStabilizerDynamics
 		/// Time step related to activation of controls (<i>deltatc</i>) (>= 0).  Typical
 		/// value = 0,025.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds dtc;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? dtc;
 		/// <summary>
 		/// Time step frequency calculation (<i>deltatf</i>) (>= 0).  Typical value = 0,025.
 		///
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds dtf;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? dtf;
 		/// <summary>
 		/// Time step active power calculation (<i>deltatp</i>) (>= 0).  Typical value = 0,
 		/// 0125.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds dtp;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? dtp;
 		/// <summary>
 		/// Gain (<i>K</i>).  Typical value = 9.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU k;
+		public TC57CIM.IEC61970.Base.Domain.PU? k;
 		/// <summary>
 		/// (<i>M</i>).  <i>M </i>= 2 x <i>H</i>.  Typical value = 5.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU m;
+		public TC57CIM.IEC61970.Base.Domain.PU? m;
 		/// <summary>
 		/// Time constant (<i>T1</i>) (>= 0).  Typical value = 0,3.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t1;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t1;
 		/// <summary>
 		/// Time constant (<i>T2</i>) (>= 0).  Typical value = 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t2;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t2;
 		/// <summary>
 		/// Time constant (<i>T3</i>) (>= 0).  Typical value = 0,2.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t3;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t3;
 		/// <summary>
 		/// Time constant (<i>T4</i>) (>= 0).  Typical value = 0,05.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t4;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t4;
 		/// <summary>
 		/// Time constant (<i>Tf</i>) (>= 0).  Typical value = 0,2.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tf;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tf;
 		/// <summary>
 		/// Time constant (<i>Tp</i>) (>= 0).  Typical value = 0,2.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tp;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tp;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="PssPTIST1"/> class

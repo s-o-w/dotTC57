@@ -22,28 +22,28 @@ namespace TC57CIM.IEC61968.Customers {
 		/// representatives to identify the correct price structure for allocating to a
 		/// customer. For rate schedules it is often prefixed by a state code.
 		/// </summary>
-		public string code;
+		public string? code;
 		/// <summary>
 		/// Absolute maximum valid non-demand usage quantity used in validating a
 		/// customer's billed non-demand usage.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer dailyCeilingUsage;
+		public TC57CIM.IEC61970.Base.Domain.Integer? dailyCeilingUsage;
 		/// <summary>
 		/// Used in place of actual computed estimated average when history of usage is not
 		/// available, and typically manually entered by customer accounting.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer dailyEstimatedUsage;
+		public TC57CIM.IEC61970.Base.Domain.Integer? dailyEstimatedUsage;
 		/// <summary>
 		/// Absolute minimum valid non-demand usage quantity used in validating a
 		/// customer's billed non-demand usage.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer dailyFloorUsage;
+		public TC57CIM.IEC61970.Base.Domain.Integer? dailyFloorUsage;
 		/// <summary>
 		/// (accounting) Kind of revenue, often used to determine the grace period allowed,
 		/// before collection actions are taken on a customer (grace periods vary between
 		/// revenue classes).
 		/// </summary>
-		public RevenueKind revenueKind;
+		public RevenueKind? revenueKind;
 		/// <summary>
 		/// True if this pricing structure is not taxable.
 		/// </summary>
@@ -51,17 +51,17 @@ namespace TC57CIM.IEC61968.Customers {
 		/// <summary>
 		/// All transactions applying this pricing structure.
 		/// </summary>
-		public TC57CIM.IEC61968.PaymentMetering.Transaction Transactions;
+		public TC57CIM.IEC61968.PaymentMetering.Transaction? Transactions;
 		/// <summary>
 		/// All tariffs used by this pricing structure.
 		/// </summary>
-		public TC57CIM.IEC61968.Customers.Tariff Tariffs;
+		public TC57CIM.IEC61968.Customers.Tariff? Tariffs;
 		/// <summary>
 		/// All service delivery points (with prepayment meter running as a stand-alone
 		/// device, with no CustomerAgreement or Customer) to which this pricing structure
 		/// applies.
 		/// </summary>
-		public TC57CIM.IEC61968.Metering.UsagePoint UsagePoints;
+		public TC57CIM.IEC61968.Metering.UsagePoint? UsagePoints;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="PricingStructure"/> class

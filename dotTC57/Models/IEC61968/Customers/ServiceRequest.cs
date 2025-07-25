@@ -30,19 +30,19 @@ namespace TC57CIM.IEC61968.Customers {
 		/// The size or quantity requested by the customer; for example, 200 AMPS for
 		/// electrical service, 50 MBits per second for internet service, etc.
 		/// </summary>
-		public string serviceSize;
+		public string? serviceSize;
 		/// <summary>
 		/// All work time schedules associated with a service request
 		/// </summary>
-		public TC57CIM.IEC61968.Work.WorkTimeSchedule WorkTimeSchedule;
+		public TC57CIM.IEC61968.Work.WorkTimeSchedule? WorkTimeSchedule;
 		/// <summary>
 		/// The service location for the serivce request
 		/// </summary>
-		public TC57CIM.IEC61968.Customers.ServiceLocation ServiceLocation;
+		public TC57CIM.IEC61968.Customers.ServiceLocation? ServiceLocation;
 		/// <summary>
 		/// The customer making the service request
 		/// </summary>
-		public TC57CIM.IEC61968.Customers.Customer Customer;
+		public TC57CIM.IEC61968.Customers.Customer? Customer;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ServiceRequest"/> class

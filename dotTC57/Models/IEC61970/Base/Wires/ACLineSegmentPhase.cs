@@ -24,15 +24,15 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// PerLengthPhaseImpedance) with the connectivity model (this class) and the
 		/// physical model (WirePosition) without tight coupling.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer sequenceNumber;
+		public TC57CIM.IEC61970.Base.Domain.Integer? sequenceNumber;
 		/// <summary>
 		/// The line segment to which the phase belongs.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Wires.ACLineSegment ACLineSegment;
+		public TC57CIM.IEC61970.Base.Wires.ACLineSegment? ACLineSegment;
 		/// <summary>
 		/// Wire information contributing to this AC line segment phase information.
 		/// </summary>
-		public TC57CIM.IEC61968.AssetInfo.WireInfo WireInfo;
+		public TC57CIM.IEC61968.AssetInfo.WireInfo? WireInfo;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ACLineSegmentPhase"/> class

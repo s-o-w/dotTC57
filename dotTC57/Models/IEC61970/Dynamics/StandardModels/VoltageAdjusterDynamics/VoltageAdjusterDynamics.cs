@@ -18,7 +18,7 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.VoltageAdjusterDynamics {
 		/// Power factor or VAr controller type 1 model with which this voltage adjuster is
 		/// associated.
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.StandardModels.PFVArControllerType1Dynamics.PFVArControllerType1Dynamics PFVArControllerType1Dynamics;
+		public TC57CIM.IEC61970.Dynamics.StandardModels.PFVArControllerType1Dynamics.PFVArControllerType1Dynamics? PFVArControllerType1Dynamics;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="VoltageAdjusterDynamics"/> class

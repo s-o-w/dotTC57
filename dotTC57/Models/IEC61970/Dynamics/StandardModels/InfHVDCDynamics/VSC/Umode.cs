@@ -15,7 +15,7 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.InfHVDCDynamics.VSC {
 		/// <summary>
 		/// The vs ctype
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.StandardModels.InfHVDCDynamics.VSC.VSCtype1 VSCtype1;
+		public TC57CIM.IEC61970.Dynamics.StandardModels.InfHVDCDynamics.VSC.VSCtype1? VSCtype1;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Umode"/> class

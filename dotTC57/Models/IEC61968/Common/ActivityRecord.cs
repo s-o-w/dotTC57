@@ -18,24 +18,24 @@ namespace TC57CIM.IEC61968.Common {
 		/// dateTime', which is the time of a status change of the associated object, if
 		/// applicable).
 		/// </summary>
-		public System.DateTime createdDateTime;
+		public System.DateTime? createdDateTime;
 		/// <summary>
 		/// Reason for event resulting in this activity record, typically supplied when
 		/// user initiated.
 		/// </summary>
-		public string reason;
+		public string? reason;
 		/// <summary>
 		/// Severity level of event resulting in this activity record.
 		/// </summary>
-		public string severity;
+		public string? severity;
 		/// <summary>
 		/// Information on consequence of event resulting in this activity record.
 		/// </summary>
-		public Status status;
+		public Status? status;
 		/// <summary>
 		/// Type of event resulting in this activity record.
 		/// </summary>
-		public string type;
+		public string? type;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ActivityRecord"/> class

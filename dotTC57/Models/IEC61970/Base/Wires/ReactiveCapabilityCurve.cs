@@ -21,23 +21,23 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// The machine's coolant temperature (e.g., ambient air or stator circulating
 		/// water).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Temperature coolantTemperature;
+		public TC57CIM.IEC61970.Base.Domain.Temperature? coolantTemperature;
 		/// <summary>
 		/// The hydrogen coolant pressure.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Pressure hydrogenPressure;
+		public TC57CIM.IEC61970.Base.Domain.Pressure? hydrogenPressure;
 		/// <summary>
 		/// The equivalent injection using this reactive capability curve.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Equivalents.EquivalentInjection EquivalentInjection;
+		public TC57CIM.IEC61970.Base.Equivalents.EquivalentInjection? EquivalentInjection;
 		/// <summary>
 		/// Synchronous machines using this curve as default.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Wires.SynchronousMachine InitiallyUsedBySynchronousMachines;
+		public TC57CIM.IEC61970.Base.Wires.SynchronousMachine? InitiallyUsedBySynchronousMachines;
 		/// <summary>
 		/// Synchronous machines using this curve.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Wires.SynchronousMachine SynchronousMachines;
+		public TC57CIM.IEC61970.Base.Wires.SynchronousMachine? SynchronousMachines;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ReactiveCapabilityCurve"/> class

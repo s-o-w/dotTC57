@@ -19,23 +19,23 @@ namespace TC57CIM.IEC61968.Metering {
 		/// <summary>
 		/// Elaboration on the quality code.
 		/// </summary>
-		public string comment;
+		public string? comment;
 		/// <summary>
 		/// System acting as the source of the quality code.
 		/// </summary>
-		public string source;
+		public string? source;
 		/// <summary>
 		/// Date and time at which the quality code was assigned or ascertained.
 		/// </summary>
-		public System.DateTime timeStamp;
+		public System.DateTime? timeStamp;
 		/// <summary>
 		/// Type of this reading quality.
 		/// </summary>
-		public TC57CIM.IEC61968.Metering.ReadingQualityType ReadingQualityType;
+		public TC57CIM.IEC61968.Metering.ReadingQualityType? ReadingQualityType;
 		/// <summary>
 		/// Reading value to which this quality applies.
 		/// </summary>
-		public TC57CIM.IEC61968.Metering.BaseReading Reading;
+		public TC57CIM.IEC61968.Metering.BaseReading? Reading;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ReadingQuality"/> class

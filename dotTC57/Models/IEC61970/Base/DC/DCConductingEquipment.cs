@@ -18,11 +18,11 @@ namespace TC57CIM.IEC61970.Base.DC {
 		/// Rated DC device voltage. The attribute shall be a positive value. It is
 		/// configuration data used in power flow.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Voltage ratedUdc;
+		public TC57CIM.IEC61970.Base.Domain.Voltage? ratedUdc;
 		/// <summary>
 		/// A DC conducting equipment has DC terminals.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.DC.DCTerminal DCTerminals;
+		public TC57CIM.IEC61970.Base.DC.DCTerminal? DCTerminals;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="DCConductingEquipment"/> class

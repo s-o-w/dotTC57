@@ -19,87 +19,87 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.DiscontinuousExcitationContro
 		/// Speed change reference (<i>E</i><i><sub>SC</sub></i>).  Typical value = 0,0015.
 		///
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU esc;
+		public TC57CIM.IEC61970.Base.Domain.PU? esc;
 		/// <summary>
 		/// Discontinuous controller gain (<i>K</i><i><sub>AN</sub></i>).  Typical value =
 		/// 400.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kan;
+		public TC57CIM.IEC61970.Base.Domain.PU? kan;
 		/// <summary>
 		/// Terminal voltage limiter gain (<i>K</i><i><sub>ETL</sub></i>).  Typical value =
 		/// 47.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU ketl;
+		public TC57CIM.IEC61970.Base.Domain.PU? ketl;
 		/// <summary>
 		/// Discontinuous controller time constant (<i>T</i><i><sub>AN</sub></i>) (>= 0).
 		/// Typical value = 0,08.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tan;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tan;
 		/// <summary>
 		/// Time constant (<i>T</i><i><sub>D</sub></i>) (>= 0).  Typical value = 0,03.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds td;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? td;
 		/// <summary>
 		/// Time constant (<i>T</i><i><sub>L</sub></i><sub>1</sub>) (>= 0).  Typical value
 		/// = 0,025.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tl1;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tl1;
 		/// <summary>
 		/// Time constant (<i>T</i><i><sub>L</sub></i><sub>2</sub>) (>= 0).  Typical value
 		/// = 1,25.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tl2;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tl2;
 		/// <summary>
 		/// DEC washout time constant (<i>T</i><i><sub>W</sub></i><sub>5</sub>) (>= 0).
 		/// Typical value = 5.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tw5;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tw5;
 		/// <summary>
 		/// Regulator voltage reference (<i>V</i><i><sub>AL</sub></i>).  Typical value = 5,
 		/// 5.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU val;
+		public TC57CIM.IEC61970.Base.Domain.PU? val;
 		/// <summary>
 		/// Limiter for Van (<i>V</i><i><sub>ANMAX</sub></i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vanmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? vanmax;
 		/// <summary>
 		/// Limiter (<i>V</i><i><sub>OMAX</sub></i>) (greater than DiscExcContIEEEDEC1A.vomin).
 		/// Typical value = 0,3.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vomax;
+		public TC57CIM.IEC61970.Base.Domain.PU? vomax;
 		/// <summary>
 		/// Limiter (<i>V</i><i><sub>OMIN</sub></i>) (less than DiscExcContIEEEDEC1A.vomax).
 		/// Typical value = 0,1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vomin;
+		public TC57CIM.IEC61970.Base.Domain.PU? vomin;
 		/// <summary>
 		/// Limiter (<i>V</i><i><sub>SMAX</sub></i>) (greater than DiscExcContIEEEDEC1A.vsmin).
 		/// Typical value = 0,2.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vsmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? vsmax;
 		/// <summary>
 		/// Limiter (<i>V</i><i><sub>SMIN</sub></i>) (less than DiscExcContIEEEDEC1A.vsmax).
 		/// Typical value = -0,066.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vsmin;
+		public TC57CIM.IEC61970.Base.Domain.PU? vsmin;
 		/// <summary>
 		/// Terminal voltage level reference (<i>V</i><i><sub>TC</sub></i>).  Typical value
 		/// = 0,95.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vtc;
+		public TC57CIM.IEC61970.Base.Domain.PU? vtc;
 		/// <summary>
 		/// Voltage reference (<i>V</i><i><sub>TLMT</sub></i>).  Typical value = 1,1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vtlmt;
+		public TC57CIM.IEC61970.Base.Domain.PU? vtlmt;
 		/// <summary>
 		/// Voltage limits (<i>V</i><i><sub>TM</sub></i>).  Typical value = 1,13.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vtm;
+		public TC57CIM.IEC61970.Base.Domain.PU? vtm;
 		/// <summary>
 		/// Voltage limits (<i>V</i><i><sub>TN</sub></i>).  Typical value = 1,12.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vtn;
+		public TC57CIM.IEC61970.Base.Domain.PU? vtn;
 
 		/// <summary>
 		/// Constructor for DiscExcContIEEEDEC1A.

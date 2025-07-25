@@ -22,85 +22,85 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.ExcitationSystemDynamics {
 		/// Rectifier regulation factor (<i>K</i><i><sub>C</sub></i>) (>= 0).  Typical
 		/// value = 0,004.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kc;
+		public TC57CIM.IEC61970.Base.Domain.PU? kc;
 		/// <summary>
 		/// Regulator gain (<i>K</i><i><sub>R</sub></i>) (> 0).  Typical value = 200.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kr;
+		public TC57CIM.IEC61970.Base.Domain.PU? kr;
 		/// <summary>
 		/// Firing circuit time constant (<i>T1</i>) (>= 0).  Typical value = 0,004.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t1;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t1;
 		/// <summary>
 		/// Regulator lag time constant (<i>T</i><i><sub>B1</sub></i>) (>= 0).  Typical
 		/// value = 6.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tb1;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tb1;
 		/// <summary>
 		/// Regulator lag time constant (<i>T</i><i><sub>B2</sub></i>) (>= 0).  Typical
 		/// value = 0,01.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tb2;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tb2;
 		/// <summary>
 		/// Regulator lead time constant (<i>T</i><i><sub>C1</sub></i>) (>= 0).  Typical
 		/// value = 0,8.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tc1;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tc1;
 		/// <summary>
 		/// Regulator lead time constant (<i>T</i><i><sub>C2</sub></i>) (>= 0).  Typical
 		/// value = 0,08.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tc2;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tc2;
 		/// <summary>
 		/// OEL lag time constant (<i>T</i><i><sub>OB1</sub></i>) (>= 0).  Typical value =
 		/// 2.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tob1;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tob1;
 		/// <summary>
 		/// OEL lag time constant (<i>T</i><i><sub>OB2</sub></i>) (>= 0).  Typical value =
 		/// 0,08.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tob2;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tob2;
 		/// <summary>
 		/// OEL lead time constant (<i>T</i><i><sub>OC1</sub></i>) (>= 0).  Typical value =
 		/// 0,1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds toc1;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? toc1;
 		/// <summary>
 		/// OEL lead time constant (<i>T</i><i><sub>OC2</sub></i>) (>= 0).  Typical value =
 		/// 0,08.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds toc2;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? toc2;
 		/// <summary>
 		/// UEL lag time constant (<i>T</i><i><sub>UB1</sub></i>) (>= 0).  Typical value =
 		/// 10.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tub1;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tub1;
 		/// <summary>
 		/// UEL lag time constant (<i>T</i><i><sub>UB2</sub></i>) (>= 0).  Typical value =
 		/// 0,05.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tub2;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tub2;
 		/// <summary>
 		/// UEL lead time constant (<i>T</i><i><sub>UC1</sub></i>) (>= 0).  Typical value =
 		/// 2.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tuc1;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tuc1;
 		/// <summary>
 		/// UEL lead time constant (<i>T</i><i><sub>UC2</sub></i>) (>= 0).  Typical value =
 		/// 0,1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tuc2;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tuc2;
 		/// <summary>
 		/// Maximum voltage regulator output (<i>V</i><i><sub>RMAX</sub></i>) (> 0).
 		/// Typical value = 5.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vrmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? vrmax;
 		/// <summary>
-		/// Minimum voltage regulator output (<i>V</i><i><sub>RMIN</sub></i>) (< 0).
+		/// Minimum voltage regulator output (<i>V</i><i><sub>RMIN</sub></i>) (less than 0).
 		/// Typical value = -4.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vrmin;
+		public TC57CIM.IEC61970.Base.Domain.PU? vrmin;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ExcIEEEST5B"/> class

@@ -15,15 +15,15 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfERPSupport {
 		/// <summary>
 		/// Bill period for the line item.
 		/// </summary>
-		public DateTimeInterval billPeriod;
+		public DateTimeInterval? billPeriod;
 		/// <summary>
 		/// General Ledger account code, must be a valid combination.
 		/// </summary>
-		public string glAccount;
+		public string? glAccount;
 		/// <summary>
 		/// Date and time line item will be posted to the General Ledger.
 		/// </summary>
-		public System.DateTime glDateTime;
+		public System.DateTime? glDateTime;
 		/// <summary>
 		/// Kind of line item.
 		/// </summary>
@@ -35,11 +35,11 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfERPSupport {
 		/// <summary>
 		/// Line item number on invoice statement.
 		/// </summary>
-		public string lineNumber;
+		public string? lineNumber;
 		/// <summary>
 		/// Version number of the bill run.
 		/// </summary>
-		public string lineVersion;
+		public string? lineVersion;
 		/// <summary>
 		/// Net line item charge amount.
 		/// </summary>
@@ -51,31 +51,31 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfERPSupport {
 		/// <summary>
 		/// The erp payable line item
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfERPSupport.ErpPayableLineItem ErpPayableLineItem;
+		public TC57CIM.IEC61968.InfIEC61968.InfERPSupport.ErpPayableLineItem? ErpPayableLineItem;
 		/// <summary>
 		/// The erp payments
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfERPSupport.ErpPayment ErpPayments;
+		public TC57CIM.IEC61968.InfIEC61968.InfERPSupport.ErpPayment? ErpPayments;
 		/// <summary>
 		/// The erp rec line item
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfERPSupport.ErpRecLineItem ErpRecLineItem;
+		public TC57CIM.IEC61968.InfIEC61968.InfERPSupport.ErpRecLineItem? ErpRecLineItem;
 		/// <summary>
 		/// The container erp invoice line item
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfERPSupport.ErpInvoiceLineItem ContainerErpInvoiceLineItem;
+		public TC57CIM.IEC61968.InfIEC61968.InfERPSupport.ErpInvoiceLineItem? ContainerErpInvoiceLineItem;
 		/// <summary>
 		/// The user attributes
 		/// </summary>
-		public TC57CIM.IEC61968.Common.UserAttribute UserAttributes;
+		public TC57CIM.IEC61968.Common.UserAttribute? UserAttributes;
 		/// <summary>
 		/// The erp journal entries
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfERPSupport.ErpJournalEntry ErpJournalEntries;
+		public TC57CIM.IEC61968.InfIEC61968.InfERPSupport.ErpJournalEntry? ErpJournalEntries;
 		/// <summary>
 		/// The erp invoice
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfERPSupport.ErpInvoice ErpInvoice;
+		public TC57CIM.IEC61968.InfIEC61968.InfERPSupport.ErpInvoice? ErpInvoice;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ErpInvoiceLineItem"/> class

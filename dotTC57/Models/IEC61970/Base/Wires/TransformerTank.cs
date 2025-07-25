@@ -19,7 +19,7 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// <summary>
 		/// Bank this transformer belongs to.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Wires.PowerTransformer PowerTransformer;
+		public TC57CIM.IEC61970.Base.Wires.PowerTransformer? PowerTransformer;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="TransformerTank"/> class

@@ -57,47 +57,47 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.SynchronousMachineDynamics {
 		/// <summary>
 		/// Direct-axis damper 1 winding resistance.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU r1d;
+		public TC57CIM.IEC61970.Base.Domain.PU? r1d;
 		/// <summary>
 		/// Quadrature-axis damper 1 winding resistance.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU r1q;
+		public TC57CIM.IEC61970.Base.Domain.PU? r1q;
 		/// <summary>
 		/// Quadrature-axis damper 2 winding resistance.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU r2q;
+		public TC57CIM.IEC61970.Base.Domain.PU? r2q;
 		/// <summary>
 		/// Field winding resistance.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU rfd;
+		public TC57CIM.IEC61970.Base.Domain.PU? rfd;
 		/// <summary>
 		/// Direct-axis damper 1 winding leakage reactance.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU x1d;
+		public TC57CIM.IEC61970.Base.Domain.PU? x1d;
 		/// <summary>
 		/// Quadrature-axis damper 1 winding leakage reactance.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU x1q;
+		public TC57CIM.IEC61970.Base.Domain.PU? x1q;
 		/// <summary>
 		/// Quadrature-axis damper 2 winding leakage reactance.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU x2q;
+		public TC57CIM.IEC61970.Base.Domain.PU? x2q;
 		/// <summary>
 		/// Direct-axis mutual reactance.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU xad;
+		public TC57CIM.IEC61970.Base.Domain.PU? xad;
 		/// <summary>
 		/// Quadrature-axis mutual reactance.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU xaq;
+		public TC57CIM.IEC61970.Base.Domain.PU? xaq;
 		/// <summary>
 		/// Differential mutual (�Canay�) reactance.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU xf1d;
+		public TC57CIM.IEC61970.Base.Domain.PU? xf1d;
 		/// <summary>
 		/// Field winding leakage reactance.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU xfd;
+		public TC57CIM.IEC61970.Base.Domain.PU? xfd;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="SynchronousMachineEquivalentCircuit"/> class

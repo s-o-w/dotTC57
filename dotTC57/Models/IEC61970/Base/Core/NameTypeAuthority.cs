@@ -16,11 +16,11 @@ namespace TC57CIM.IEC61970.Base.Core {
 		/// <summary>
 		/// Description of the name type authority.
 		/// </summary>
-		public string description;
+		public string? description;
 		/// <summary>
 		/// Name of the name type authority.
 		/// </summary>
-		public string name;
+		public string? name;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="NameTypeAuthority"/> class

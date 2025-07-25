@@ -23,7 +23,7 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfLocations {
 		/// this piece of land that has a formal reference to Surveyor General's records.
 		/// The governing organisation is specified in associated Organisation.
 		/// </summary>
-		public string externalRecordReference;
+		public string? externalRecordReference;
 		/// <summary>
 		/// Kind of (land) property, categorised according to its main functional use from
 		/// the utility's perspective.
@@ -32,31 +32,31 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfLocations {
 		/// <summary>
 		/// The status
 		/// </summary>
-		public TC57CIM.IEC61968.Common.Status status;
+		public TC57CIM.IEC61968.Common.Status? status;
 		/// <summary>
 		/// The erp organisation roles
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfCommon.PropertyOrganisationRole ErpOrganisationRoles;
+		public TC57CIM.IEC61968.InfIEC61968.InfCommon.PropertyOrganisationRole? ErpOrganisationRoles;
 		/// <summary>
 		/// The asset containers
 		/// </summary>
-		public TC57CIM.IEC61968.AssetInfo.Assets.AssetContainer AssetContainers;
+		public TC57CIM.IEC61968.AssetInfo.Assets.AssetContainer? AssetContainers;
 		/// <summary>
 		/// The erp site level datas
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfERPSupport.ErpSiteLevelData ErpSiteLevelDatas;
+		public TC57CIM.IEC61968.InfIEC61968.InfERPSupport.ErpSiteLevelData? ErpSiteLevelDatas;
 		/// <summary>
 		/// The erp person roles
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfCommon.PersonPropertyRole ErpPersonRoles;
+		public TC57CIM.IEC61968.InfIEC61968.InfCommon.PersonPropertyRole? ErpPersonRoles;
 		/// <summary>
 		/// The spatail description of a piece of property.
 		/// </summary>
-		public TC57CIM.IEC61968.Common.Location Locations;
+		public TC57CIM.IEC61968.Common.Location? Locations;
 		/// <summary>
 		/// All location grants this land property has.
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfLocations.LocationGrant LocationGrants;
+		public TC57CIM.IEC61968.InfIEC61968.InfLocations.LocationGrant? LocationGrants;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="LandProperty"/> class

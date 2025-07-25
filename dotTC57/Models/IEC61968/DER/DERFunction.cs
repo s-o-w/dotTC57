@@ -51,7 +51,7 @@ namespace TC57CIM.IEC61968.DER {
 		/// <summary>
 		/// The DER Group supporting the DER functions.
 		/// </summary>
-		public TC57CIM.IEC61968.Metering.EndDeviceGroup EndDeviceGroup;
+		public TC57CIM.IEC61968.Metering.EndDeviceGroup? EndDeviceGroup;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="DERFunction"/> class

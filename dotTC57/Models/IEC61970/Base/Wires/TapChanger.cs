@@ -21,15 +21,15 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// Highest possible tap step position, advance from neutral.
 		/// The attribute shall be greater than lowStep.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer highStep;
+		public TC57CIM.IEC61970.Base.Domain.Integer? highStep;
 		/// <summary>
 		/// For an LTC, the delay for initial tap changer operation (first step change).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds initialDelay;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? initialDelay;
 		/// <summary>
 		/// Lowest possible tap step position, retard from neutral.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer lowStep;
+		public TC57CIM.IEC61970.Base.Domain.Integer? lowStep;
 		/// <summary>
 		/// Specifies whether or not a TapChanger has load tap changing capabilities.
 		/// </summary>
@@ -42,7 +42,7 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// of the transformer are at the ratedU.  If there are other tap changers on the
 		/// transformer those taps are kept constant at their neutralStep.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer neutralStep;
+		public TC57CIM.IEC61970.Base.Domain.Integer? neutralStep;
 		/// <summary>
 		/// Voltage at which the winding operates at the neutral tap setting. It is the
 		/// voltage at the terminal of the PowerTransformerEnd associated with the tap
@@ -54,14 +54,14 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// This attribute is not relevant for PhaseTapChangerAsymmetrical,
 		/// PhaseTapChangerSymmetrical and PhaseTapChangerLinear.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Voltage neutralU;
+		public TC57CIM.IEC61970.Base.Domain.Voltage? neutralU;
 		/// <summary>
 		/// The tap step position used in "normal" network operation for this winding. For
 		/// a "Fixed" tap changer indicates the current physical tap setting.
 		/// The attribute shall be equal to or greater than lowStep and equal to or less
 		/// than highStep.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer normalStep;
+		public TC57CIM.IEC61970.Base.Domain.Integer? normalStep;
 		/// <summary>
 		/// Tap changer position.
 		/// Starting step for a steady state solution. Non integer values are allowed to
@@ -77,11 +77,11 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// For an LTC, the delay for subsequent tap changer operation (second and later
 		/// step changes).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds subsequentDelay;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? subsequentDelay;
 		/// <summary>
 		/// The regulating control scheme in which this tap changer participates.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Wires.TapChangerControl TapChangerControl;
+		public TC57CIM.IEC61970.Base.Wires.TapChangerControl? TapChangerControl;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="TapChanger"/> class

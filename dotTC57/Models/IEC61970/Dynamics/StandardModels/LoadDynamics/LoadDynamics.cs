@@ -21,7 +21,7 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.LoadDynamics {
 		/// <summary>
 		/// Energy consumer to which this dynamics load model applies.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Wires.EnergyConsumer EnergyConsumer;
+		public TC57CIM.IEC61970.Base.Wires.EnergyConsumer? EnergyConsumer;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="LoadDynamics"/> class

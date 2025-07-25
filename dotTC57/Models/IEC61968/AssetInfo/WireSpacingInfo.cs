@@ -18,16 +18,16 @@ namespace TC57CIM.IEC61968.AssetInfo {
 		/// <summary>
 		/// If true, this spacing data describes a cable.
 		/// </summary>
-		public System.Boolean isCable;
+		public System.Boolean? isCable;
 		/// <summary>
 		/// Number of wire sub-conductors in the symmetrical bundle (typically between 1
 		/// and 4).
 		/// </summary>
-		public System.Int32 phaseWireCount;
+		public System.Int32? phaseWireCount;
 		/// <summary>
 		/// Distance between wire sub-conductors in a symmetrical bundle.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Length phaseWireSpacing;
+		public TC57CIM.IEC61970.Base.Domain.Length? phaseWireSpacing;
 		/// <summary>
 		/// Usage of the associated wires.
 		/// </summary>
@@ -35,15 +35,15 @@ namespace TC57CIM.IEC61968.AssetInfo {
 		/// <summary>
 		/// The duct bank
 		/// </summary>
-		public TC57CIM.IEC61968.AssetInfo.Assets.DuctBank DuctBank;
+		public TC57CIM.IEC61968.AssetInfo.Assets.DuctBank? DuctBank;
 		/// <summary>
 		/// The structures
 		/// </summary>
-		public TC57CIM.IEC61968.AssetInfo.Assets.Structure Structures;
+		public TC57CIM.IEC61968.AssetInfo.Assets.Structure? Structures;
 		/// <summary>
 		/// All positions of single wires (phase or neutral) making the conductor.
 		/// </summary>
-		public TC57CIM.IEC61968.AssetInfo.WirePosition WirePositions;
+		public TC57CIM.IEC61968.AssetInfo.WirePosition? WirePositions;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="WireSpacingInfo"/> class

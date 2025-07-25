@@ -17,23 +17,23 @@ namespace TC57CIM.IEC61968.AssetInfo.Assets {
 		/// <summary>
 		/// Date and time procedure was completed.
 		/// </summary>
-		public System.DateTime completedDateTime;
+		public System.DateTime? completedDateTime;
 		/// <summary>
 		/// Work task that created this procedure data set.
 		/// </summary>
-		public TC57CIM.IEC61968.Work.WorkTask WorkTask;
+		public TC57CIM.IEC61968.Work.WorkTask? WorkTask;
 		/// <summary>
 		/// The transformer observations
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfAssets.TransformerObservation TransformerObservations;
+		public TC57CIM.IEC61968.InfIEC61968.InfAssets.TransformerObservation? TransformerObservations;
 		/// <summary>
 		/// Measurement value related to this procedure data set.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Meas.MeasurementValue MeasurementValue;
+		public TC57CIM.IEC61970.Base.Meas.MeasurementValue? MeasurementValue;
 		/// <summary>
 		/// Asset to which this procedure data set applies.
 		/// </summary>
-		public TC57CIM.IEC61968.AssetInfo.Assets.Asset Asset;
+		public TC57CIM.IEC61968.AssetInfo.Assets.Asset? Asset;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ProcedureDataSet"/> class

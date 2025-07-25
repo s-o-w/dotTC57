@@ -43,7 +43,7 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// material and construction.
 		/// The attribute shall be a positive value.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.CurrentFlow ratedCurrent;
+		public TC57CIM.IEC61970.Base.Domain.CurrentFlow? ratedCurrent;
 		/// <summary>
 		/// Branch is retained in the topological solution.  The flow through retained
 		/// switches will normally be calculated in power flow.
@@ -52,19 +52,19 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// <summary>
 		/// The switch on count since the switch was last reset or initialized.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer switchOnCount;
+		public TC57CIM.IEC61970.Base.Domain.Integer? switchOnCount;
 		/// <summary>
 		/// The date and time when the switch was last switched on.
 		/// </summary>
-		public System.DateTime switchOnDate;
+		public System.DateTime? switchOnDate;
 		/// <summary>
 		/// The individual switch phases for the switch.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Wires.SwitchPhase SwitchPhase;
+		public TC57CIM.IEC61970.Base.Wires.SwitchPhase? SwitchPhase;
 		/// <summary>
 		/// A Switch can be associated with SwitchSchedules.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Wires.SwitchSchedule SwitchSchedules;
+		public TC57CIM.IEC61970.Base.Wires.SwitchSchedule? SwitchSchedules;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Switch"/> class

@@ -22,15 +22,15 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfAssetInfo {
 		/// <summary>
 		/// Ground trip rating.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.CurrentFlow groundTripRating;
+		public TC57CIM.IEC61970.Base.Domain.CurrentFlow? groundTripRating;
 		/// <summary>
 		/// Phase trip rating.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.CurrentFlow phaseTripRating;
+		public TC57CIM.IEC61970.Base.Domain.CurrentFlow? phaseTripRating;
 		/// <summary>
 		/// Total number of phase reclose operations.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer recloseLockoutCount;
+		public TC57CIM.IEC61970.Base.Domain.Integer? recloseLockoutCount;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="RecloserInfo"/> class

@@ -16,7 +16,7 @@ namespace TC57CIM.IEC61970.Base.LoadModel {
 		/// <summary>
 		/// Schedules that use this DayType.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.LoadModel.SeasonDayTypeSchedule SeasonDayTypeSchedules;
+		public TC57CIM.IEC61970.Base.LoadModel.SeasonDayTypeSchedule? SeasonDayTypeSchedules;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="DayType"/> class

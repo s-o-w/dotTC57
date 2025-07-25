@@ -16,7 +16,7 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.VoltageCompensatorDynamics {
 		/// Power factor or VAr controller type 2 model with which this voltage compensator is
 		/// associated.
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.StandardModels.PFVArControllerType2Dynamics.PFVArControllerType2Dynamics PFVArControllerType2Dynamics;
+		public TC57CIM.IEC61970.Dynamics.StandardModels.PFVArControllerType2Dynamics.PFVArControllerType2Dynamics? PFVArControllerType2Dynamics;
 
 		/// <summary>
 		/// Constructor for VoltageCompensatorDynamics.

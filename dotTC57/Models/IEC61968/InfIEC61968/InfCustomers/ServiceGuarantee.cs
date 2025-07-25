@@ -27,7 +27,7 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfCustomers {
 		/// <summary>
 		/// Period in which this service guantee applies.
 		/// </summary>
-		public DateTimeInterval applicationPeriod;
+		public DateTimeInterval? applicationPeriod;
 		/// <summary>
 		/// True if utility must autmatically pay the specified amount whenever the
 		/// condition is not satisified, otherwise customer must make a claim to receive
@@ -38,11 +38,11 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfCustomers {
 		/// Amount to be paid by the service provider to the customer for each violation of
 		/// the 'serviceRequirement'.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Money payAmount;
+		public TC57CIM.IEC61970.Base.Domain.Money? payAmount;
 		/// <summary>
 		/// Explanation of the requirement and conditions for satisfying it.
 		/// </summary>
-		public string serviceRequirement;
+		public string? serviceRequirement;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ServiceGuarantee"/> class

@@ -15,15 +15,15 @@ namespace TC57CIM.IEC61970.Base.Protection {
 		/// <summary>
 		/// Current limit number one 1 for inverse time pickup.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.CurrentFlow currentLimit1;
+		public TC57CIM.IEC61970.Base.Domain.CurrentFlow? currentLimit1;
 		/// <summary>
 		/// Current limit number 2 for inverse time pickup.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.CurrentFlow currentLimit2;
+		public TC57CIM.IEC61970.Base.Domain.CurrentFlow? currentLimit2;
 		/// <summary>
 		/// Current limit number 3 for inverse time pickup.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.CurrentFlow currentLimit3;
+		public TC57CIM.IEC61970.Base.Domain.CurrentFlow? currentLimit3;
 		/// <summary>
 		/// Set true if the current relay has inverse time characteristic.
 		/// </summary>
@@ -31,15 +31,15 @@ namespace TC57CIM.IEC61970.Base.Protection {
 		/// <summary>
 		/// Inverse time delay number 1 for current limit number 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds timeDelay1;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? timeDelay1;
 		/// <summary>
 		/// Inverse time delay number 2 for current limit number 2.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds timeDelay2;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? timeDelay2;
 		/// <summary>
 		/// Inverse time delay number 3 for current limit number 3.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds timeDelay3;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? timeDelay3;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="CurrentRelay"/> class

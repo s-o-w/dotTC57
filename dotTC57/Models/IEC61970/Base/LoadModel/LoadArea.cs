@@ -15,7 +15,7 @@ namespace TC57CIM.IEC61970.Base.LoadModel {
 		/// <summary>
 		/// The SubLoadAreas in the LoadArea.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.LoadModel.SubLoadArea SubLoadAreas;
+		public TC57CIM.IEC61970.Base.LoadModel.SubLoadArea? SubLoadAreas;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="LoadArea"/> class

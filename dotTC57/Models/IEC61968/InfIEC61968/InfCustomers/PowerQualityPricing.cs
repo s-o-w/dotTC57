@@ -15,19 +15,19 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfCustomers {
 		/// <summary>
 		/// Emergency high voltage limit.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Voltage emergencyHighVoltLimit;
+		public TC57CIM.IEC61970.Base.Domain.Voltage? emergencyHighVoltLimit;
 		/// <summary>
 		/// Emergency low voltage limit.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Voltage emergencyLowVoltLimit;
+		public TC57CIM.IEC61970.Base.Domain.Voltage? emergencyLowVoltLimit;
 		/// <summary>
 		/// Normal high voltage limit.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Voltage normalHighVoltLimit;
+		public TC57CIM.IEC61970.Base.Domain.Voltage? normalHighVoltLimit;
 		/// <summary>
 		/// Normal low voltage limit.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Voltage normalLowVoltLimit;
+		public TC57CIM.IEC61970.Base.Domain.Voltage? normalLowVoltLimit;
 		/// <summary>
 		/// Threshold minimum power factor for this PricingStructure, specified in
 		/// instances where a special charge is levied if the actual power factor for a
@@ -37,7 +37,7 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfCustomers {
 		/// <summary>
 		/// Value of uninterrupted service (Cost per energy).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.CostPerEnergyUnit valueUninterruptedServiceEnergy;
+		public TC57CIM.IEC61970.Base.Domain.CostPerEnergyUnit? valueUninterruptedServiceEnergy;
 		/// <summary>
 		/// Value of uninterrupted service (Cost per active power).
 		/// </summary>

@@ -17,12 +17,12 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// <summary>
 		/// The maximum number of sections that may be switched in for this phase.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer maximumSections;
+		public TC57CIM.IEC61970.Base.Domain.Integer? maximumSections;
 		/// <summary>
 		/// For the capacitor phase, the normal number of sections switched in. The value
 		/// shall be between zero and ShuntCompensatorPhase.maximumSections.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer normalSections;
+		public TC57CIM.IEC61970.Base.Domain.Integer? normalSections;
 		/// <summary>
 		/// Phase of this shunt compensator component.   If the shunt compensator is wye
 		/// connected, the connection is from the indicated phase to the central ground or

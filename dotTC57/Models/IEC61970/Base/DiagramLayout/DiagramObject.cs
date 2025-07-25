@@ -21,7 +21,7 @@ namespace TC57CIM.IEC61970.Base.DiagramLayout {
 		/// is drawn in sequence. This is used to ensure that elements that overlap are
 		/// rendered in the correct order.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer drawingOrder;
+		public TC57CIM.IEC61970.Base.Domain.Integer? drawingOrder;
 		/// <summary>
 		/// Defines whether or not the diagram objects points define the boundaries of a
 		/// polygon or the routing of a polyline. If this value is true then a receiving
@@ -61,25 +61,25 @@ namespace TC57CIM.IEC61970.Base.DiagramLayout {
 		/// diagram. The connection point "From side" of an element which has more than one
 		/// terminal is pointing to the right hand side of the diagram.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.AngleDegrees rotation;
+		public TC57CIM.IEC61970.Base.Domain.AngleDegrees? rotation;
 		/// <summary>
 		/// A diagram object is part of a diagram.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.DiagramLayout.Diagram Diagram;
+		public TC57CIM.IEC61970.Base.DiagramLayout.Diagram? Diagram;
 		/// <summary>
 		/// A diagram object can be part of multiple visibility layers.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.DiagramLayout.VisibilityLayer VisibilityLayers;
+		public TC57CIM.IEC61970.Base.DiagramLayout.VisibilityLayer? VisibilityLayers;
 		/// <summary>
 		/// A diagram object can have 0 or more points to reflect its layout position,
 		/// routing (for polylines) or boundary (for polygons).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.DiagramLayout.DiagramObjectPoint DiagramObjectPoints;
+		public TC57CIM.IEC61970.Base.DiagramLayout.DiagramObjectPoint? DiagramObjectPoints;
 		/// <summary>
 		/// A diagram object has a style associated that provides a reference for the style
 		/// used in the originating system.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.DiagramLayout.DiagramObjectStyle DiagramObjectStyle;
+		public TC57CIM.IEC61970.Base.DiagramLayout.DiagramObjectStyle? DiagramObjectStyle;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="DiagramObject"/> class

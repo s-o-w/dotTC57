@@ -15,27 +15,27 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.UnderexcitationLimiterDynamic
 		/// <summary>
 		/// Minimum excitation limit slope (<i>K</i>) (> 0).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU k;
+		public TC57CIM.IEC61970.Base.Domain.PU? k;
 		/// <summary>
 		/// Differential gain (<i>K</i><i><sub>F2</sub></i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kf2;
+		public TC57CIM.IEC61970.Base.Domain.PU? kf2;
 		/// <summary>
 		/// Minimum excitation limit gain (<i>K</i><i><sub>M</sub></i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU km;
+		public TC57CIM.IEC61970.Base.Domain.PU? km;
 		/// <summary>
 		/// Minimum excitation limit value (<i>MELMAX</i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU melmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? melmax;
 		/// <summary>
 		/// Differential time constant (<i>T</i><i><sub>F2</sub></i>) (>= 0).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tf2;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tf2;
 		/// <summary>
 		/// Minimum excitation limit time constant (<i>T</i><i><sub>M</sub></i>) (>= 0).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tm;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tm;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="UnderexcLimX1"/> class

@@ -18,21 +18,21 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics {
 		/// Maximum active current ramp rate (<i>di</i><i><sub>pmax</sub></i>). It is a
 		/// project-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU dipmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? dipmax;
 		/// <summary>
 		/// Maximum reactive current ramp rate (<i>di</i><i><sub>qmax</sub></i>). It is a
 		/// project-dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU diqmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? diqmax;
 		/// <summary>
 		/// Electromagnetic transient reactance (<i>x</i><i><sub>S</sub></i>). It is a type-
 		/// dependent parameter.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU xs;
+		public TC57CIM.IEC61970.Base.Domain.PU? xs;
 		/// <summary>
 		/// Wind turbine type 3 model with which this wind generator type 3 is associated.
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics.WindTurbineType3IEC WindTurbineType3IEC;
+		public TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics.WindTurbineType3IEC? WindTurbineType3IEC;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="WindGenType3IEC"/> class

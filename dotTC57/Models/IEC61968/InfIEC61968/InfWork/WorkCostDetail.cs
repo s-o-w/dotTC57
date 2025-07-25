@@ -18,7 +18,7 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfWork {
 		/// work for: planned cost, actual cost, authorized cost, budgeted cost, forecasted
 		/// cost, other.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Money amount;
+		public TC57CIM.IEC61970.Base.Domain.Money? amount;
 		/// <summary>
 		/// True if 'amount' is a debit, false if it is a credit.
 		/// </summary>
@@ -26,31 +26,31 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfWork {
 		/// <summary>
 		/// Date and time that 'amount' is posted to the work.
 		/// </summary>
-		public System.DateTime transactionDateTime;
+		public System.DateTime? transactionDateTime;
 		/// <summary>
 		/// The erp project accounting
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfERPSupport.ErpProjectAccounting ErpProjectAccounting;
+		public TC57CIM.IEC61968.InfIEC61968.InfERPSupport.ErpProjectAccounting? ErpProjectAccounting;
 		/// <summary>
 		/// The work task
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfWork.OldWorkTask WorkTask;
+		public TC57CIM.IEC61968.InfIEC61968.InfWork.OldWorkTask? WorkTask;
 		/// <summary>
 		/// The work cost summary
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfWork.WorkCostSummary WorkCostSummary;
+		public TC57CIM.IEC61968.InfIEC61968.InfWork.WorkCostSummary? WorkCostSummary;
 		/// <summary>
 		/// The contractor items
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfWork.ContractorItem ContractorItems;
+		public TC57CIM.IEC61968.InfIEC61968.InfWork.ContractorItem? ContractorItems;
 		/// <summary>
 		/// The property units
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfWork.PropertyUnit PropertyUnits;
+		public TC57CIM.IEC61968.InfIEC61968.InfWork.PropertyUnit? PropertyUnits;
 		/// <summary>
 		/// The works
 		/// </summary>
-		public TC57CIM.IEC61968.Work.Work Works;
+		public TC57CIM.IEC61968.Work.Work? Works;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="WorkCostDetail"/> class

@@ -17,73 +17,73 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfAssets {
 		/// <summary>
 		/// Bushing temperature.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Temperature bushingTemp;
+		public TC57CIM.IEC61970.Base.Domain.Temperature? bushingTemp;
 		/// <summary>
 		/// Dissolved Gas Analysis. Typical values are: Acceptable, Overheating, Corona,
 		/// Sparking, Arcing.
 		/// </summary>
-		public string dga;
+		public string? dga;
 		/// <summary>
 		/// Frequency Response Analysis. Typical values are: acceptable, slight movement,
 		/// significant movement, failed, near failure. A graphic of the response diagram,
 		/// which is a type of document, may be associated with this analysis through the
 		/// recursive document relationship of the ProcedureDataSet.
 		/// </summary>
-		public string freqResp;
+		public string? freqResp;
 		/// <summary>
 		/// Overall measure of furfural in oil and mechanical strength of paper. DP, the
 		/// degree of polymerization, is the strength of the paper. Furfural is a measure
 		/// of furfural compounds, often expressed in parts per million.
 		/// </summary>
-		public string furfuralDP;
+		public string? furfuralDP;
 		/// <summary>
 		/// Hotspot oil temperature.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Temperature hotSpotTemp;
+		public TC57CIM.IEC61970.Base.Domain.Temperature? hotSpotTemp;
 		/// <summary>
 		/// Oil Quality Analysis-Color.
 		/// </summary>
-		public string oilColor;
+		public string? oilColor;
 		/// <summary>
 		/// Oil Quality Analysis-Dielectric Strength.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Voltage oilDielectricStrength;
+		public TC57CIM.IEC61970.Base.Domain.Voltage? oilDielectricStrength;
 		/// <summary>
 		/// Oil Quality Analysis- inter facial tension (IFT) - number-Dynes/CM.
 		/// </summary>
-		public string oilIFT;
+		public string? oilIFT;
 		/// <summary>
 		/// The level of oil in the transformer.
 		/// </summary>
-		public string oilLevel;
+		public string? oilLevel;
 		/// <summary>
 		/// Oil Quality Analysis-Neutralization Number - Number - Mg KOH.
 		/// </summary>
-		public string oilNeutralizationNumber;
+		public string? oilNeutralizationNumber;
 		/// <summary>
 		/// Pump vibration, with typical values being: nominal, high.
 		/// </summary>
-		public string pumpVibration;
+		public string? pumpVibration;
 		/// <summary>
 		/// The status
 		/// </summary>
-		public TC57CIM.IEC61968.Common.Status status;
+		public TC57CIM.IEC61968.Common.Status? status;
 		/// <summary>
 		/// Top oil temperature.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Temperature topOilTemp;
+		public TC57CIM.IEC61970.Base.Domain.Temperature? topOilTemp;
 		/// <summary>
 		/// Water Content expressed in parts per million.
 		/// </summary>
-		public string waterContent;
+		public string? waterContent;
 		/// <summary>
 		/// The transformer
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Wires.TransformerTank Transformer;
+		public TC57CIM.IEC61970.Base.Wires.TransformerTank? Transformer;
 		/// <summary>
 		/// The winding insulation fs
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfAssets.WindingInsulation WindingInsulationPFs;
+		public TC57CIM.IEC61968.InfIEC61968.InfAssets.WindingInsulation? WindingInsulationPFs;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="TransformerObservation"/> class

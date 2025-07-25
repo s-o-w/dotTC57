@@ -14,24 +14,24 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfWork {
 		/// <summary>
 		/// Activity code identifies a specific and distinguishable unit of work.
 		/// </summary>
-		public string activityCode;
+		public string? activityCode;
 		/// <summary>
 		/// The amount that a given contractor will charge for performing this unit of work.
 		///
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Money bidAmount;
+		public TC57CIM.IEC61970.Base.Domain.Money? bidAmount;
 		/// <summary>
 		/// The total amount charged.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Money cost;
+		public TC57CIM.IEC61970.Base.Domain.Money? cost;
 		/// <summary>
 		/// The status
 		/// </summary>
-		public TC57CIM.IEC61968.Common.Status status;
+		public TC57CIM.IEC61968.Common.Status? status;
 		/// <summary>
 		/// The erp payables
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfERPSupport.ErpPayable ErpPayables;
+		public TC57CIM.IEC61968.InfIEC61968.InfERPSupport.ErpPayable? ErpPayables;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ContractorItem"/> class

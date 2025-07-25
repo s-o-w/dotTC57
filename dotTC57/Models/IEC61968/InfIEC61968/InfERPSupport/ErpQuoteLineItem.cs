@@ -15,25 +15,25 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfERPSupport {
 		/// <summary>
 		/// The status
 		/// </summary>
-		public TC57CIM.IEC61968.Common.Status status;
+		public TC57CIM.IEC61968.Common.Status? status;
 		/// <summary>
 		/// The erp quote
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfERPSupport.ErpQuote ErpQuote;
+		public TC57CIM.IEC61968.InfIEC61968.InfERPSupport.ErpQuote? ErpQuote;
 		/// <summary>
 		/// Some utilities provide quotes to customer for services, where the customer
 		/// accepts the quote by making a payment. An invoice is required for this to occur.
 		///
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfERPSupport.ErpInvoiceLineItem ErpInvoiceLineItem;
+		public TC57CIM.IEC61968.InfIEC61968.InfERPSupport.ErpInvoiceLineItem? ErpInvoiceLineItem;
 		/// <summary>
 		/// The erp req line item
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfERPSupport.ErpReqLineItem ErpReqLineItem;
+		public TC57CIM.IEC61968.InfIEC61968.InfERPSupport.ErpReqLineItem? ErpReqLineItem;
 		/// <summary>
 		/// The design
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfWork.Design Design;
+		public TC57CIM.IEC61968.InfIEC61968.InfWork.Design? Design;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ErpQuoteLineItem"/> class

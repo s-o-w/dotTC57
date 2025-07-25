@@ -19,7 +19,7 @@ namespace TC57CIM.IEC61970.Base.Equivalents {
 		/// <summary>
 		/// The associated reduced equivalents.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Equivalents.EquivalentEquipment EquivalentEquipments;
+		public TC57CIM.IEC61970.Base.Equivalents.EquivalentEquipment? EquivalentEquipments;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="EquivalentNetwork"/> class

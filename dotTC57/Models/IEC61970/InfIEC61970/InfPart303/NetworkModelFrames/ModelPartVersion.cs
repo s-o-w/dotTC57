@@ -22,7 +22,7 @@ namespace TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelFrames {
 	   /// <summary>
 	   /// The model specification for this model part version.
 	   /// </summary>
-	   private TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelFrames.ModelPartSpecification? ModelSpecification;
+	   public TC57CIM.IEC61970.InfIEC61970.InfPart303.NetworkModelFrames.ModelPartSpecification? ModelSpecification;
 	   /// <summary>
 	   /// The data set associated with this model part version.
 	   /// </summary>

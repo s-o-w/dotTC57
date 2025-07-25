@@ -15,11 +15,11 @@ namespace TC57CIM.IEC61968.Common {
 		/// <summary>
 		/// All documents of this this author.
 		/// </summary>
-		public TC57CIM.IEC61968.Common.Document Documents;
+		public TC57CIM.IEC61968.Common.Document? Documents;
 		/// <summary>
 		/// All activity records with this author.
 		/// </summary>
-		public TC57CIM.IEC61968.Common.ActivityRecord ActivityRecords;
+		public TC57CIM.IEC61968.Common.ActivityRecord? ActivityRecords;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Author"/> class

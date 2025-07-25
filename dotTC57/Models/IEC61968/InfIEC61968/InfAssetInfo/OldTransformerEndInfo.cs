@@ -18,15 +18,15 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfAssetInfo {
 		/// <summary>
 		/// Overload rating for 24 hours.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ApparentPower dayOverLoadRating;
+		public TC57CIM.IEC61970.Base.Domain.ApparentPower? dayOverLoadRating;
 		/// <summary>
 		/// Overload rating for 1 hour.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ApparentPower hourOverLoadRating;
+		public TC57CIM.IEC61970.Base.Domain.ApparentPower? hourOverLoadRating;
 		/// <summary>
 		/// Weight of solid insultation in transformer.
 		/// </summary>
-		public Mass solidInsulationWeight;
+		public Mass? solidInsulationWeight;
 		/// <summary>
 		/// Type of insultation used for transformer windings.
 		/// </summary>

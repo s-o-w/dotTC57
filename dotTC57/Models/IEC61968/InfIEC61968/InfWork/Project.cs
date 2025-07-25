@@ -15,11 +15,11 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfWork {
 		/// <summary>
 		/// Overall project budget.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Money budget;
+		public TC57CIM.IEC61970.Base.Domain.Money? budget;
 		/// <summary>
 		/// The sub projects
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfWork.Project SubProjects;
+		public TC57CIM.IEC61968.InfIEC61968.InfWork.Project? SubProjects;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Project"/> class

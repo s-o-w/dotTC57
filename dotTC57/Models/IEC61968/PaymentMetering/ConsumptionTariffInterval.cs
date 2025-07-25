@@ -11,8 +11,8 @@ namespace TC57CIM.IEC61968.PaymentMetering {
 	/// service such as electricity, water, gas, etc. It is typically used in
 	/// association with TariffProfile to define the steps or blocks in a step tariff
 	/// structure, where startValue simultaneously defines the entry value of this step
-	/// and the closing value of the previous step. Where consumption is >= startValue
-	/// it falls within this interval and where consumption is < startValue it falls
+	/// and the closing value of the previous step. Where consumption is greater than or equal to startValue
+	/// it falls within this interval and where consumption is less than startValue it falls
 	/// within the previous interval.
 	/// </summary>
 	public class ConsumptionTariffInterval {
@@ -21,7 +21,7 @@ namespace TC57CIM.IEC61968.PaymentMetering {
 		/// A sequential reference that defines the identity of this interval and its
 		/// relative position with respect to other intervals in a sequence of intervals.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer sequenceNumber;
+		public TC57CIM.IEC61970.Base.Domain.Integer? sequenceNumber;
 		/// <summary>
 		/// The lowest level of consumption that defines the starting point of this
 		/// interval. The interval extends to the start of the next interval or until it is
@@ -31,16 +31,16 @@ namespace TC57CIM.IEC61968.PaymentMetering {
 		/// <summary>
 		/// Reading type for 'startValue'.
 		/// </summary>
-		public TC57CIM.IEC61968.Metering.ReadingType ReadingType;
+		public TC57CIM.IEC61968.Metering.ReadingType? ReadingType;
 		/// <summary>
 		/// All charges used to define this consumption tariff interval.
 		/// </summary>
-		public TC57CIM.IEC61968.PaymentMetering.Charge Charges;
+		public TC57CIM.IEC61968.PaymentMetering.Charge? Charges;
 		/// <summary>
 		/// All time of use tariff intervals influenced by this consumption tariff interval.
 		///
 		/// </summary>
-		public TC57CIM.IEC61968.PaymentMetering.TimeTariffInterval TouTariffIntervals;
+		public TC57CIM.IEC61968.PaymentMetering.TimeTariffInterval? TouTariffIntervals;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ConsumptionTariffInterval"/> class

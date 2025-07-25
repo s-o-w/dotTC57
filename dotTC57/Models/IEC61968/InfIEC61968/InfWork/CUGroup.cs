@@ -15,11 +15,11 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfWork {
 		/// <summary>
 		/// The status
 		/// </summary>
-		public TC57CIM.IEC61968.Common.Status status;
+		public TC57CIM.IEC61968.Common.Status? status;
 		/// <summary>
 		/// The child cu groups
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfWork.CUGroup ChildCUGroups;
+		public TC57CIM.IEC61968.InfIEC61968.InfWork.CUGroup? ChildCUGroups;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="CUGroup"/> class

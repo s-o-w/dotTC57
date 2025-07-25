@@ -21,21 +21,21 @@ namespace TC57CIM.IEC61970.Base.Generation.Production {
 		/// <summary>
 		/// The cost in terms of heat value for the given type of fuel.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.CostPerHeatUnit fuelCost;
+		public TC57CIM.IEC61970.Base.Domain.CostPerHeatUnit? fuelCost;
 		/// <summary>
 		/// The cost of fuel used for economic dispatching which includes: fuel cost,
 		/// transportation cost,  and incremental maintenance cost.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.CostPerHeatUnit fuelDispatchCost;
+		public TC57CIM.IEC61970.Base.Domain.CostPerHeatUnit? fuelDispatchCost;
 		/// <summary>
 		/// The efficiency factor for the fuel (per unit) in terms of the effective energy
 		/// absorbed.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU fuelEffFactor;
+		public TC57CIM.IEC61970.Base.Domain.PU? fuelEffFactor;
 		/// <summary>
 		/// Handling and processing cost associated with this fuel.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.CostPerHeatUnit fuelHandlingCost;
+		public TC57CIM.IEC61970.Base.Domain.CostPerHeatUnit? fuelHandlingCost;
 		/// <summary>
 		/// The amount of heat per weight (or volume) of the given type of fuel.
 		/// </summary>
@@ -44,31 +44,31 @@ namespace TC57CIM.IEC61970.Base.Generation.Production {
 		/// Relative amount of the given type of fuel, when multiple fuels are being
 		/// consumed.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PerCent fuelMixture;
+		public TC57CIM.IEC61970.Base.Domain.PerCent? fuelMixture;
 		/// <summary>
 		/// The fuel's fraction of pollution credit per unit of heat content.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU fuelSulfur;
+		public TC57CIM.IEC61970.Base.Domain.PU? fuelSulfur;
 		/// <summary>
 		/// The active power output level of the unit at which the given type of fuel is
 		/// switched on. This fuel (e.g., oil) is sometimes used to supplement the base
 		/// fuel (e.g., coal) at high active power output levels.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower highBreakpointP;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? highBreakpointP;
 		/// <summary>
 		/// The active power output level of the unit at which the given type of fuel is
 		/// switched off. This fuel (e.g., oil) is sometimes used to stabilize the base
 		/// fuel (e.g., coal) at low active power output levels.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower lowBreakpointP;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? lowBreakpointP;
 		/// <summary>
 		/// A fuel allocation schedule shall have a fossil fuel.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Generation.Production.FuelAllocationSchedule FuelAllocationSchedules;
+		public TC57CIM.IEC61970.Base.Generation.Production.FuelAllocationSchedule? FuelAllocationSchedules;
 		/// <summary>
 		/// A thermal generating unit may have one or more fossil fuels.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Generation.Production.ThermalGeneratingUnit ThermalGeneratingUnit;
+		public TC57CIM.IEC61970.Base.Generation.Production.ThermalGeneratingUnit? ThermalGeneratingUnit;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="FossilFuel"/> class

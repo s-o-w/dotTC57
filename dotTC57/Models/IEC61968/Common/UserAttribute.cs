@@ -17,31 +17,31 @@ namespace TC57CIM.IEC61968.Common {
 		/// <summary>
 		/// Name of an attribute.
 		/// </summary>
-		public string name;
+		public string? name;
 		/// <summary>
 		/// Sequence number for this attribute in a list of attributes.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer sequenceNumber;
+		public TC57CIM.IEC61970.Base.Domain.Integer? sequenceNumber;
 		/// <summary>
 		/// Value of an attribute, including unit information.
 		/// </summary>
-		public StringQuantity value;
+		public StringQuantity? value;
 		/// <summary>
 		/// Transaction for which this snapshot has been recorded.
 		/// </summary>
-		public TC57CIM.IEC61968.PaymentMetering.Transaction Transaction;
+		public TC57CIM.IEC61968.PaymentMetering.Transaction? Transaction;
 		/// <summary>
 		/// The procedure data sets
 		/// </summary>
-		public TC57CIM.IEC61968.AssetInfo.Assets.ProcedureDataSet ProcedureDataSets;
+		public TC57CIM.IEC61968.AssetInfo.Assets.ProcedureDataSet? ProcedureDataSets;
 		/// <summary>
 		/// The property specification
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfAssets.Specification PropertySpecification;
+		public TC57CIM.IEC61968.InfIEC61968.InfAssets.Specification? PropertySpecification;
 		/// <summary>
 		/// The rating specification
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfAssets.Specification RatingSpecification;
+		public TC57CIM.IEC61968.InfIEC61968.InfAssets.Specification? RatingSpecification;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="UserAttribute"/> class

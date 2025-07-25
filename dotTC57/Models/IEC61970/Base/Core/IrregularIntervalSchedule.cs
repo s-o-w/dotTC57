@@ -14,7 +14,7 @@ namespace TC57CIM.IEC61970.Base.Core {
 		/// <summary>
 		/// The point data values that define a curve.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Core.IrregularTimePoint TimePoints;
+		public TC57CIM.IEC61970.Base.Core.IrregularTimePoint? TimePoints;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="IrregularIntervalSchedule"/> class

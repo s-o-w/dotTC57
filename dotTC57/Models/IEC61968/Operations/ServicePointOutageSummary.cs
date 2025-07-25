@@ -16,11 +16,11 @@ namespace TC57CIM.IEC61968.Operations {
 		/// <summary>
 		/// Number of critical service (delivery) points affected by an outage.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer criticalCount;
+		public TC57CIM.IEC61970.Base.Domain.Integer? criticalCount;
 		/// <summary>
 		/// Number of all service (delivery) points affected by an outage.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer totalCount;
+		public TC57CIM.IEC61970.Base.Domain.Integer? totalCount;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ServicePointOutageSummary"/> class

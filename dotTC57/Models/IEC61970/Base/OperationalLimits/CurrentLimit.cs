@@ -16,11 +16,11 @@ namespace TC57CIM.IEC61970.Base.OperationalLimits {
 		/// The normal value for limit on current flow. The attribute shall be a positive
 		/// value or zero.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.CurrentFlow normalValue;
+		public TC57CIM.IEC61970.Base.Domain.CurrentFlow? normalValue;
 		/// <summary>
 		/// Limit on current flow. The attribute shall be a positive value or zero.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.CurrentFlow value;
+		public TC57CIM.IEC61970.Base.Domain.CurrentFlow? value;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="CurrentLimit"/> class

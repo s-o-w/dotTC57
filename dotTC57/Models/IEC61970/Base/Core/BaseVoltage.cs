@@ -15,13 +15,13 @@ namespace TC57CIM.IEC61970.Base.Core {
 		/// The power system resource's base voltage.  Shall be a positive value and not
 		/// zero.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Voltage nominalVoltage;
+		public TC57CIM.IEC61970.Base.Domain.Voltage? nominalVoltage;
 		/// <summary>
 		/// All conducting equipment with this base voltage.  Use only when there is no
 		/// voltage level container used and only one base voltage applies.  For example,
 		/// not used for transformers.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Core.ConductingEquipment ConductingEquipment;
+		public TC57CIM.IEC61970.Base.Core.ConductingEquipment? ConductingEquipment;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="BaseVoltage"/> class

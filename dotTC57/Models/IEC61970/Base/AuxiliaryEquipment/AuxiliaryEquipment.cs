@@ -19,7 +19,7 @@ namespace TC57CIM.IEC61970.Base.AuxiliaryEquipment {
 		/// <summary>
 		/// The Terminal at the equipment where the AuxiliaryEquipment is attached.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Core.Terminal Terminal;
+		public TC57CIM.IEC61970.Base.Core.Terminal? Terminal;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="AuxiliaryEquipment"/> class

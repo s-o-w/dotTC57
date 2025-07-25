@@ -27,15 +27,15 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.InfHVDCDynamics {
 		/// <summary>
 		/// The sequence
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer sequence;
+		public TC57CIM.IEC61970.Base.Domain.Integer? sequence;
 		/// <summary>
 		/// The qregulator
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.StandardModels.InfHVDCDynamics.VSC.Qregulator Qregulator;
+		public TC57CIM.IEC61970.Dynamics.StandardModels.InfHVDCDynamics.VSC.Qregulator? Qregulator;
 		/// <summary>
 		/// The vdcol
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.StandardModels.InfHVDCDynamics.CSC.VDCOL m_VDCOL;
+		public TC57CIM.IEC61970.Dynamics.StandardModels.InfHVDCDynamics.CSC.VDCOL? m_VDCOL;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="HVDCLookUpTable"/> class

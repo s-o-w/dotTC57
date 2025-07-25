@@ -17,12 +17,12 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.ExcitationSystemDynamics {
 		/// Exciter voltage at which exciter saturation is defined
 		/// (<i>Efd</i><i><sub>1</sub></i>) (> 0).  Typical value = 2,6.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU efd1;
+		public TC57CIM.IEC61970.Base.Domain.PU? efd1;
 		/// <summary>
 		/// Exciter voltage at which exciter saturation is defined
 		/// (<i>Efd</i><i><sub>2</sub></i>) (> 0).  Typical value = 3,45.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU efd2;
+		public TC57CIM.IEC61970.Base.Domain.PU? efd2;
 		/// <summary>
 		/// (<i>Efdlim</i>).
 		/// true = exciter output limiter is active
@@ -34,12 +34,12 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.ExcitationSystemDynamics {
 		/// Maximum voltage exciter output limiter (<i>Efdmax</i>) (> ExcDC3A.efdmin).
 		/// Typical value = 99.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU efdmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? efdmax;
 		/// <summary>
-		/// Minimum voltage exciter output limiter (<i>Efdmin</i>) (< ExcDC3A.efdmax).
+		/// Minimum voltage exciter output limiter (<i>Efdmin</i>) (&lt; ExcDC3A.efdmax).
 		/// Typical value = -99.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU efdmin;
+		public TC57CIM.IEC61970.Base.Domain.PU? efdmin;
 		/// <summary>
 		/// (<i>exclim</i>).  IEEE standard is ambiguous about lower limit on exciter
 		/// output.
@@ -52,20 +52,20 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.ExcitationSystemDynamics {
 		/// Exciter constant related to self-excited field (<i>Ke</i>).  Typical value = 1.
 		///
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU ke;
+		public TC57CIM.IEC61970.Base.Domain.PU? ke;
 		/// <summary>
 		/// Deadband (<i>Kr</i>).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kr;
+		public TC57CIM.IEC61970.Base.Domain.PU? kr;
 		/// <summary>
 		/// Coefficient to allow different usage of the model-speed coefficient (<i>Ks</i>).
 		///  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU ks;
+		public TC57CIM.IEC61970.Base.Domain.PU? ks;
 		/// <summary>
 		/// Fast raise/lower contact setting (<i>Kv</i>) (> 0).  Typical value = 0,05.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kv;
+		public TC57CIM.IEC61970.Base.Domain.PU? kv;
 		/// <summary>
 		/// Exciter saturation function value at the corresponding exciter voltage,
 		/// <i>Efd</i><i><sub>1</sub></i> (<i>Se[Efd</i><i><sub>1</sub></i><i>]</i>) (>= 0).
@@ -82,19 +82,19 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.ExcitationSystemDynamics {
 		/// Exciter time constant, integration rate associated with exciter control
 		/// (<i>Te</i>) (> 0).  Typical value = 1,83.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds te;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? te;
 		/// <summary>
 		/// Rheostat travel time (<i>Trh</i>) (> 0).  Typical value = 20.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds trh;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? trh;
 		/// <summary>
-		/// Maximum voltage regulator output (<i>Vrmax</i>) (> 0).  Typical value = 5.
+		/// Maximum voltage regulator output (<i>Vrmax</i>) (&gt; 0).  Typical value = 5.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vrmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? vrmax;
 		/// <summary>
-		/// Minimum voltage regulator output (<i>Vrmin</i>) (<= 0).  Typical value = 0.
+		/// Minimum voltage regulator output (<i>Vrmin</i>) (&lt;= 0).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vrmin;
+		public TC57CIM.IEC61970.Base.Domain.PU? vrmin;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ExcDC3A"/> class

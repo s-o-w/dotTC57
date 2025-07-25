@@ -41,12 +41,12 @@ namespace TC57CIM.IEC61970.Base.ControlArea {
 		/// The specified positive net interchange into the control area, i.e. positive
 		/// sign means flow into the area.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower netInterchange;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? netInterchange;
 		/// <summary>
 		/// Active power net interchange tolerance. The attribute shall be a positive value
 		/// or zero.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower pTolerance;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? pTolerance;
 		/// <summary>
 		/// The primary type of control area definition used to determine if this is used
 		/// for automatic generation control, for planning interchange control, or other
@@ -58,15 +58,15 @@ namespace TC57CIM.IEC61970.Base.ControlArea {
 		/// <summary>
 		/// The generating unit specifications for the control area.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.ControlArea.ControlAreaGeneratingUnit ControlAreaGeneratingUnit;
+		public TC57CIM.IEC61970.Base.ControlArea.ControlAreaGeneratingUnit? ControlAreaGeneratingUnit;
 		/// <summary>
 		/// The tie flows associated with the control area.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.ControlArea.TieFlow TieFlow;
+		public TC57CIM.IEC61970.Base.ControlArea.TieFlow? TieFlow;
 		/// <summary>
 		/// The energy area that is forecast from this control area specification.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.LoadModel.EnergyArea EnergyArea;
+		public TC57CIM.IEC61970.Base.LoadModel.EnergyArea? EnergyArea;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ControlArea"/> class

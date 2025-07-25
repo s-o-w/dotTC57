@@ -15,23 +15,23 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfWork {
 		/// <summary>
 		/// Permit application number that is used by municipality, state, province, etc.
 		/// </summary>
-		public string applicationNumber;
+		public string? applicationNumber;
 		/// <summary>
 		/// Date that permit became official.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Date effectiveDate;
+		public TC57CIM.IEC61970.Base.Domain.Date? effectiveDate;
 		/// <summary>
 		/// Permit expiration date.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Date expirationDate;
+		public TC57CIM.IEC61970.Base.Domain.Date? expirationDate;
 		/// <summary>
 		/// Total cost of permit.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Money payment;
+		public TC57CIM.IEC61970.Base.Domain.Money? payment;
 		/// <summary>
 		/// Permit identifier.
 		/// </summary>
-		public string permitID;
+		public string? permitID;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="AccessPermit"/> class

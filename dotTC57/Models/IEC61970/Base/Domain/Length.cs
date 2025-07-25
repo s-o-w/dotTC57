@@ -22,7 +22,7 @@ namespace TC57CIM.IEC61970.Base.Domain {
 		/// <summary>
 		/// The value
 		/// </summary>
-		public System.Single value;
+		public System.Single? value;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Length"/> class

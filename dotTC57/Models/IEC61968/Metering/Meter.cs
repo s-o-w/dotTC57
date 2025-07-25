@@ -16,21 +16,21 @@ namespace TC57CIM.IEC61968.Metering {
 		/// A code used to specify the connection category, e.g. low voltage, where the
 		/// meter operates.
 		/// </summary>
-		public string connectionCategory;
+		public string? connectionCategory;
 		/// <summary>
 		/// Meter form designation per ANSI C12.10 or other applicable standard. An
 		/// alphanumeric designation denoting the circuit arrangement for which the meter
 		/// is applicable and its specific terminal arrangement.
 		/// </summary>
-		public string formNumber;
+		public string? formNumber;
 		/// <summary>
 		/// All multipliers applied at this meter.
 		/// </summary>
-		public TC57CIM.IEC61968.Metering.MeterMultiplier MeterMultipliers;
+		public TC57CIM.IEC61968.Metering.MeterMultiplier? MeterMultipliers;
 		/// <summary>
 		/// All meter readings provided by this meter.
 		/// </summary>
-		public TC57CIM.IEC61968.Metering.MeterReading MeterReadings;
+		public TC57CIM.IEC61968.Metering.MeterReading? MeterReadings;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Meter"/> class

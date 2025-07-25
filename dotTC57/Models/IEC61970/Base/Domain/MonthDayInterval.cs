@@ -15,11 +15,11 @@ namespace TC57CIM.IEC61970.Base.Domain {
 		/// <summary>
 		/// End time of this interval.
 		/// </summary>
-		public MonthDay end;
+		public MonthDay? end;
 		/// <summary>
 		/// Start time of this interval.
 		/// </summary>
-		public MonthDay start;
+		public MonthDay? start;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="MonthDayInterval"/> class

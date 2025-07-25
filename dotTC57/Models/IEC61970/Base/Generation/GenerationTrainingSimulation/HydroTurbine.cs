@@ -19,35 +19,35 @@ namespace TC57CIM.IEC61970.Base.Generation.GenerationTrainingSimulation {
 		/// <summary>
 		/// Gate upper limit.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU gateUpperLimit;
+		public TC57CIM.IEC61970.Base.Domain.PU? gateUpperLimit;
 		/// <summary>
 		/// Maximum efficiency active power at maximum head conditions.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower maxHeadMaxP;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? maxHeadMaxP;
 		/// <summary>
 		/// Maximum efficiency active power at minimum head conditions.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower minHeadMaxP;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? minHeadMaxP;
 		/// <summary>
 		/// Rated speed in number of revolutions. The attribute shall be a positive value.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.RotationSpeed speedRating;
+		public TC57CIM.IEC61970.Base.Domain.RotationSpeed? speedRating;
 		/// <summary>
 		/// Speed regulation.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU speedRegulation;
+		public TC57CIM.IEC61970.Base.Domain.PU? speedRegulation;
 		/// <summary>
 		/// Transient droop time constant.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds transientDroopTime;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? transientDroopTime;
 		/// <summary>
 		/// Transient regulation.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU transientRegulation;
+		public TC57CIM.IEC61970.Base.Domain.PU? transientRegulation;
 		/// <summary>
 		/// Rated turbine active power. The attribute shall be a positive value.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower turbineRating;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? turbineRating;
 		/// <summary>
 		/// Type of turbine.
 		/// </summary>
@@ -55,7 +55,7 @@ namespace TC57CIM.IEC61970.Base.Generation.GenerationTrainingSimulation {
 		/// <summary>
 		/// Water starting time.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds waterStartingTime;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? waterStartingTime;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="HydroTurbine"/> class

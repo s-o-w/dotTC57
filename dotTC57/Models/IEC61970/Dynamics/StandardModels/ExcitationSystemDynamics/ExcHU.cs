@@ -15,35 +15,35 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.ExcitationSystemDynamics {
 		/// <summary>
 		/// Major loop PI tag gain factor (<i>Ae</i>).  Typical value = 3.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU ae;
+		public TC57CIM.IEC61970.Base.Domain.PU? ae;
 		/// <summary>
 		/// Minor loop PI tag gain factor (<i>Ai</i>).  Typical value = 22.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU ai;
+		public TC57CIM.IEC61970.Base.Domain.PU? ai;
 		/// <summary>
 		/// AVR constant (<i>Atr</i>).  Typical value = 2,19.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU atr;
+		public TC57CIM.IEC61970.Base.Domain.PU? atr;
 		/// <summary>
-		/// Field voltage control signal upper limit on AVR base (<i>Emax</i>) (> ExcHU.
+		/// Field voltage control signal upper limit on AVR base (<i>Emax</i>) (greater than ExcHU.
 		/// emin).  Typical value = 0,996.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU emax;
+		public TC57CIM.IEC61970.Base.Domain.PU? emax;
 		/// <summary>
-		/// Field voltage control signal lower limit on AVR base (<i>Emin</i>) (< ExcHU.
+		/// Field voltage control signal lower limit on AVR base (<i>Emin</i>) (less than ExcHU.
 		/// emax).  Typical value = -0,866.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU emin;
+		public TC57CIM.IEC61970.Base.Domain.PU? emin;
 		/// <summary>
-		/// Major loop PI tag output signal upper limit (<i>Imax</i>) (> ExcHU.imin).
+		/// Major loop PI tag output signal upper limit (<i>Imax</i>) (greater than ExcHU.imin).
 		/// Typical value = 2,19.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU imax;
+		public TC57CIM.IEC61970.Base.Domain.PU? imax;
 		/// <summary>
-		/// Major loop PI tag output signal lower limit (<i>Imin</i>) (< ExcHU.imax).
+		/// Major loop PI tag output signal lower limit (<i>Imin</i>) (less than ExcHU.imax).
 		/// Typical value = 0,1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU imin;
+		public TC57CIM.IEC61970.Base.Domain.PU? imin;
 		/// <summary>
 		/// Voltage base conversion constant (<i>Ke</i>).  Typical value = 4,666.
 		/// </summary>
@@ -56,18 +56,18 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.ExcitationSystemDynamics {
 		/// Major loop PI tag integration time constant (<i>Te</i>) (>= 0).  Typical value
 		/// = 0,154.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds te;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? te;
 		/// <summary>
 		/// Minor loop PI control tag integration time constant (<i>Ti</i>) (>= 0).
 		/// Typical value = 0,01333.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds ti;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? ti;
 		/// <summary>
 		/// Filter time constant (<i>Tr</i>) (>= 0). If a voltage compensator is used in
 		/// conjunction with this excitation system model, <i>Tr </i>should be set to 0.
 		/// Typical value = 0,01.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tr;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tr;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ExcHU"/> class

@@ -17,29 +17,29 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfAssets {
 		/// Deterioration or Moisture Absorption, Major Deterioration or Moisture
 		/// Absorption, Failed.
 		/// </summary>
-		public string insulationPFStatus;
+		public string? insulationPFStatus;
 		/// <summary>
 		/// For testType, status of Winding Insulation Resistance as of statusDate. Typical
 		/// values are: Acceptable, Questionable, Failed.
 		/// </summary>
-		public string insulationResistance;
+		public string? insulationResistance;
 		/// <summary>
 		/// As of statusDate, the leakage reactance measured at the "from" winding with the
 		/// "to" winding short-circuited and all other windings open-circuited.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Reactance leakageReactance;
+		public TC57CIM.IEC61970.Base.Domain.Reactance? leakageReactance;
 		/// <summary>
 		/// The status
 		/// </summary>
-		public TC57CIM.IEC61968.Common.Status status;
+		public TC57CIM.IEC61968.Common.Status? status;
 		/// <summary>
 		/// The from winding
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Wires.TransformerEnd FromWinding;
+		public TC57CIM.IEC61970.Base.Wires.TransformerEnd? FromWinding;
 		/// <summary>
 		/// The to winding
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Wires.TransformerEnd ToWinding;
+		public TC57CIM.IEC61970.Base.Wires.TransformerEnd? ToWinding;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="WindingInsulation"/> class

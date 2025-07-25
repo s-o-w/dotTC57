@@ -15,11 +15,11 @@ namespace TC57CIM.IEC61968.AssetInfo {
 		/// <summary>
 		/// Phase information.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Wires.SinglePhaseKind phaseInfo;
+		public TC57CIM.IEC61970.Base.Wires.SinglePhaseKind? phaseInfo;
 		/// <summary>
 		/// Wire assembly information using this wire phase information.
 		/// </summary>
-		public TC57CIM.IEC61968.AssetInfo.WireAssemblyInfo WireAssemblyInfo;
+		public TC57CIM.IEC61968.AssetInfo.WireAssemblyInfo? WireAssemblyInfo;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="WirePhaseInfo"/> class

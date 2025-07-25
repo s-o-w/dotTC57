@@ -17,11 +17,11 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics {
 		/// The power electronics connection associated with this wind turbine type 3 or
 		/// type 4 dynamics model.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Wires.PowerElectronicsConnection PowerElectronicsConnection;
+		public TC57CIM.IEC61970.Base.Wires.PowerElectronicsConnection? PowerElectronicsConnection;
 		/// <summary>
 		/// Remote input signal used by these wind turbine type 3 or type 4 models.
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.StandardInterconnections.RemoteInputSignal RemoteInputSignal;
+		public TC57CIM.IEC61970.Dynamics.StandardInterconnections.RemoteInputSignal? RemoteInputSignal;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="WindTurbineType3or4Dynamics"/> class

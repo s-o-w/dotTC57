@@ -16,11 +16,11 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfCommon {
 		/// <summary>
 		/// Account reference number.
 		/// </summary>
-		public string accountNumber;
+		public string? accountNumber;
 		/// <summary>
 		/// Bank that provides this BankAccount.
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfCommon.Bank Bank;
+		public TC57CIM.IEC61968.InfIEC61968.InfCommon.Bank? Bank;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="BankAccount"/> class

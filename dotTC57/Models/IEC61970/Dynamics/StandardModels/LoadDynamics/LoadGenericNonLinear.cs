@@ -39,12 +39,12 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.LoadDynamics {
 		/// Time constant of lag function of active power (<i>T</i><i><sub>P</sub></i>) (>
 		/// 0).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tp;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tp;
 		/// <summary>
 		/// Time constant of lag function of reactive power (<i>T</i><i><sub>Q</sub></i>)
 		/// (> 0).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tq;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tq;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="LoadGenericNonLinear"/> class

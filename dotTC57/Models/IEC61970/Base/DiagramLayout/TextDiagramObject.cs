@@ -16,7 +16,7 @@ namespace TC57CIM.IEC61970.Base.DiagramLayout {
 		/// <summary>
 		/// The text that is displayed by this text diagram object.
 		/// </summary>
-		public string text;
+		public string? text;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="TextDiagramObject"/> class

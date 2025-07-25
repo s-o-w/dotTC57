@@ -15,31 +15,31 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfAssetInfo {
 		/// <summary>
 		/// The accuracy
 		/// </summary>
-		public string accuracyClass;
+		public string? accuracyClass;
 		/// <summary>
 		/// The nominal ratio
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfCommon.Ratio nominalRatio;
+		public TC57CIM.IEC61968.InfIEC61968.InfCommon.Ratio? nominalRatio;
 		/// <summary>
 		/// Ratio for the primary winding tap changer.
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfCommon.Ratio primaryRatio;
+		public TC57CIM.IEC61968.InfIEC61968.InfCommon.Ratio? primaryRatio;
 		/// <summary>
 		/// The pt
 		/// </summary>
-		public string ptClass;
+		public string? ptClass;
 		/// <summary>
 		/// Rated voltage on the primary side.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Voltage ratedVoltage;
+		public TC57CIM.IEC61970.Base.Domain.Voltage? ratedVoltage;
 		/// <summary>
 		/// Ratio for the secondary winding tap changer.
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfCommon.Ratio secondaryRatio;
+		public TC57CIM.IEC61968.InfIEC61968.InfCommon.Ratio? secondaryRatio;
 		/// <summary>
 		/// Ratio for the tertiary winding tap changer.
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfCommon.Ratio tertiaryRatio;
+		public TC57CIM.IEC61968.InfIEC61968.InfCommon.Ratio? tertiaryRatio;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="PotentialTransformerInfo"/> class

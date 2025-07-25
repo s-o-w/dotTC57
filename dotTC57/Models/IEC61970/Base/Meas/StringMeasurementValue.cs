@@ -14,11 +14,11 @@ namespace TC57CIM.IEC61970.Base.Meas {
 		/// <summary>
 		/// The value to supervise.
 		/// </summary>
-		public string value;
+		public string? value;
 		/// <summary>
 		/// Measurement to which this value is connected.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Meas.StringMeasurement StringMeasurement;
+		public TC57CIM.IEC61970.Base.Meas.StringMeasurement? StringMeasurement;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="StringMeasurementValue"/> class

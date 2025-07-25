@@ -21,15 +21,15 @@ namespace TC57CIM.IEC61970.Base.OperationalLimits {
 		/// <summary>
 		/// Values of equipment limits.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.OperationalLimits.OperationalLimit OperationalLimitValue;
+		public TC57CIM.IEC61970.Base.OperationalLimits.OperationalLimit? OperationalLimitValue;
 		/// <summary>
 		/// The equipment to which the limit set applies.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Core.Equipment Equipment;
+		public TC57CIM.IEC61970.Base.Core.Equipment? Equipment;
 		/// <summary>
 		/// The terminal where the operational limit set apply.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Core.ACDCTerminal Terminal;
+		public TC57CIM.IEC61970.Base.Core.ACDCTerminal? Terminal;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="OperationalLimitSet"/> class

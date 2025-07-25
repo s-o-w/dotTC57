@@ -19,7 +19,7 @@ namespace TC57CIM.IEC61968.PaymentMetering {
 		/// The amount that is to be debited from the merchant account for this vendor
 		/// shift. This amount reflects the sum(PaymentTransaction.transactionAmount).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Money merchantDebitAmount;
+		public TC57CIM.IEC61970.Base.Domain.Money? merchantDebitAmount;
 		/// <summary>
 		/// If true, merchantDebitAmount has been debited from MerchantAccount; typically
 		/// happens at the end of VendorShift when it closes.
@@ -28,11 +28,11 @@ namespace TC57CIM.IEC61968.PaymentMetering {
 		/// <summary>
 		/// All receipts recorded during this vendor shift.
 		/// </summary>
-		public TC57CIM.IEC61968.PaymentMetering.Receipt Receipts;
+		public TC57CIM.IEC61968.PaymentMetering.Receipt? Receipts;
 		/// <summary>
 		/// All transactions recorded during this vendor shift.
 		/// </summary>
-		public TC57CIM.IEC61968.PaymentMetering.Transaction Transactions;
+		public TC57CIM.IEC61968.PaymentMetering.Transaction? Transactions;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="VendorShift"/> class

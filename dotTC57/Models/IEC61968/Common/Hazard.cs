@@ -16,19 +16,19 @@ namespace TC57CIM.IEC61968.Common {
 		/// <summary>
 		/// Status of this hazard.
 		/// </summary>
-		public Status status;
+		public Status? status;
 		/// <summary>
 		/// Type of this hazard.
 		/// </summary>
-		public string type;
+		public string? type;
 		/// <summary>
 		/// The trouble ticket
 		/// </summary>
-		public TC57CIM.IEC61968.Customers.TroubleTicket TroubleTicket;
+		public TC57CIM.IEC61968.Customers.TroubleTicket? TroubleTicket;
 		/// <summary>
 		/// The incident
 		/// </summary>
-		public TC57CIM.IEC61968.Operations.Incident Incident;
+		public TC57CIM.IEC61968.Operations.Incident? Incident;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Hazard"/> class

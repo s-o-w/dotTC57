@@ -14,15 +14,15 @@ namespace TC57CIM.IEC61970.Base.Meas {
 		/// <summary>
 		/// Normal value for Control.value e.g. used for percentage scaling.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer normalValue;
+		public TC57CIM.IEC61970.Base.Domain.Integer? normalValue;
 		/// <summary>
 		/// The value representing the actuator output.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer value;
+		public TC57CIM.IEC61970.Base.Domain.Integer? value;
 		/// <summary>
 		/// The ValueAliasSet used for translation of a Control value to a name.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Meas.ValueAliasSet ValueAliasSet;
+		public TC57CIM.IEC61970.Base.Meas.ValueAliasSet? ValueAliasSet;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Command"/> class

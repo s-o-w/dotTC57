@@ -15,16 +15,16 @@ namespace TC57CIM.IEC61968.AssetInfo.Assets {
 		/// <summary>
 		/// Configuration of joint.
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfAssets.JointConfigurationKind configurationKind;
+		public TC57CIM.IEC61968.InfIEC61968.InfAssets.JointConfigurationKind? configurationKind;
 		/// <summary>
 		/// Material used to fill the joint.
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfAssets.JointFillKind fillKind;
+		public TC57CIM.IEC61968.InfIEC61968.InfAssets.JointFillKind? fillKind;
 		/// <summary>
 		/// The type of insulation around the joint, classified according to the utility's
 		/// asset management standards and practices.
 		/// </summary>
-		public string insulation;
+		public string? insulation;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Joint"/> class

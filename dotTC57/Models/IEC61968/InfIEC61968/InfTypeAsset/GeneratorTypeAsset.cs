@@ -17,67 +17,67 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfTypeAsset {
 		/// <summary>
 		/// Maximum real power limit.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower maxP;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? maxP;
 		/// <summary>
 		/// Maximum reactive power limit.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ReactivePower maxQ;
+		public TC57CIM.IEC61970.Base.Domain.ReactivePower? maxQ;
 		/// <summary>
 		/// Minimum real power generated.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower minP;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? minP;
 		/// <summary>
 		/// Minimum reactive power generated.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ReactivePower minQ;
+		public TC57CIM.IEC61970.Base.Domain.ReactivePower? minQ;
 		/// <summary>
 		/// Direct-axis subtransient resistance.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Resistance rDirectSubtrans;
+		public TC57CIM.IEC61970.Base.Domain.Resistance? rDirectSubtrans;
 		/// <summary>
 		/// Direct-axis synchronous resistance.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Resistance rDirectSync;
+		public TC57CIM.IEC61970.Base.Domain.Resistance? rDirectSync;
 		/// <summary>
 		/// Direct-axis transient resistance.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Resistance rDirectTrans;
+		public TC57CIM.IEC61970.Base.Domain.Resistance? rDirectTrans;
 		/// <summary>
 		/// Quadrature-axis subtransient resistance.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Resistance rQuadSubtrans;
+		public TC57CIM.IEC61970.Base.Domain.Resistance? rQuadSubtrans;
 		/// <summary>
 		/// Quadrature-axis synchronous resistance.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Resistance rQuadSync;
+		public TC57CIM.IEC61970.Base.Domain.Resistance? rQuadSync;
 		/// <summary>
 		/// Quadrature-axis transient resistance.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Resistance rQuadTrans;
+		public TC57CIM.IEC61970.Base.Domain.Resistance? rQuadTrans;
 		/// <summary>
 		/// Direct-axis subtransient reactance.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Reactance xDirectSubtrans;
+		public TC57CIM.IEC61970.Base.Domain.Reactance? xDirectSubtrans;
 		/// <summary>
 		/// Direct-axis synchronous reactance.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Reactance xDirectSync;
+		public TC57CIM.IEC61970.Base.Domain.Reactance? xDirectSync;
 		/// <summary>
 		/// Direct-axis transient reactance.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Reactance xDirectTrans;
+		public TC57CIM.IEC61970.Base.Domain.Reactance? xDirectTrans;
 		/// <summary>
 		/// Quadrature-axis subtransient reactance.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Reactance xQuadSubtrans;
+		public TC57CIM.IEC61970.Base.Domain.Reactance? xQuadSubtrans;
 		/// <summary>
 		/// Quadrature-axis synchronous reactance.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Reactance xQuadSync;
+		public TC57CIM.IEC61970.Base.Domain.Reactance? xQuadSync;
 		/// <summary>
 		/// Quadrature-axis transient reactance.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Reactance xQuadTrans;
+		public TC57CIM.IEC61970.Base.Domain.Reactance? xQuadTrans;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="GeneratorTypeAsset"/> class

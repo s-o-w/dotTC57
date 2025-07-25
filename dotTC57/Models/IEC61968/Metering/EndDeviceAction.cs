@@ -16,11 +16,11 @@ namespace TC57CIM.IEC61968.Metering {
 		/// <summary>
 		/// Command text.
 		/// </summary>
-		public string command;
+		public string? command;
 		/// <summary>
 		/// Amount of time the action of this control is to remain active.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Minutes duration;
+		public TC57CIM.IEC61970.Base.Domain.Minutes? duration;
 		/// <summary>
 		/// True if the action of this control is indefinite.
 		/// </summary>
@@ -28,7 +28,7 @@ namespace TC57CIM.IEC61968.Metering {
 		/// <summary>
 		/// Start date and time for action of this control.
 		/// </summary>
-		public System.DateTime startDateTime;
+		public System.DateTime? startDateTime;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="EndDeviceAction"/> class

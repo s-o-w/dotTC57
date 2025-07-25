@@ -31,7 +31,7 @@ namespace TC57CIM.IEC61968.Operations {
 		/// Note: At present, this is a free string text; it could be replaced with an
 		/// enumeration in the future.
 		/// </summary>
-		public string cause;
+		public string? cause;
 		/// <summary>
 		/// The possible cause that could be associated with this unplanned outage.
 		/// </summary>
@@ -40,15 +40,15 @@ namespace TC57CIM.IEC61968.Operations {
 		/// The earliest start time of the Outage - as reported by some system or
 		/// individual
 		/// </summary>
-		public System.DateTime reportedStartTime;
+		public System.DateTime? reportedStartTime;
 		/// <summary>
 		/// The ticket called in by the customer that describes the trouble
 		/// </summary>
-		public TC57CIM.IEC61968.Customers.TroubleTicket TroubleTicket;
+		public TC57CIM.IEC61968.Customers.TroubleTicket? TroubleTicket;
 		/// <summary>
 		/// The trouble order that is associated to the unplanned outage.
 		/// </summary>
-		public TC57CIM.IEC61968.Operations.TroubleOrder TroubleOrder;
+		public TC57CIM.IEC61968.Operations.TroubleOrder? TroubleOrder;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="UnplannedOutage"/> class

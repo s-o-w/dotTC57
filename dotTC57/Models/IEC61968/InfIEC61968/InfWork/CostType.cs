@@ -22,37 +22,37 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfWork {
 		/// <summary>
 		/// A codified representation of the resource element.
 		/// </summary>
-		public string code;
+		public string? code;
 		/// <summary>
 		/// The level of the resource element in the hierarchy of resource elements
 		/// (recursive relationship).
 		/// </summary>
-		public string level;
+		public string? level;
 		/// <summary>
 		/// The stage for which this costType applies: estimated design, estimated actual
 		/// or actual actual.
 		/// </summary>
-		public string stage;
+		public string? stage;
 		/// <summary>
 		/// The status
 		/// </summary>
-		public TC57CIM.IEC61968.Common.Status status;
+		public TC57CIM.IEC61968.Common.Status? status;
 		/// <summary>
 		/// The compatible units
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfWork.CompatibleUnit CompatibleUnits;
+		public TC57CIM.IEC61968.InfIEC61968.InfWork.CompatibleUnit? CompatibleUnits;
 		/// <summary>
 		/// The erp journal entries
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfERPSupport.ErpJournalEntry ErpJournalEntries;
+		public TC57CIM.IEC61968.InfIEC61968.InfERPSupport.ErpJournalEntry? ErpJournalEntries;
 		/// <summary>
 		/// The work cost details
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfWork.WorkCostDetail WorkCostDetails;
+		public TC57CIM.IEC61968.InfIEC61968.InfWork.WorkCostDetail? WorkCostDetails;
 		/// <summary>
 		/// The child cost types
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfWork.CostType ChildCostTypes;
+		public TC57CIM.IEC61968.InfIEC61968.InfWork.CostType? ChildCostTypes;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="CostType"/> class

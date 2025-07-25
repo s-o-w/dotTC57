@@ -22,72 +22,72 @@ namespace TC57CIM.IEC61968.Common {
 		/// 'NW' (northwest) corner of the customer's site, or a usage point may be located
 		/// on the second floor of an apartment building.
 		/// </summary>
-		public string direction;
+		public string? direction;
 		/// <summary>
 		/// Electronic address.
 		/// </summary>
-		public ElectronicAddress electronicAddress;
+		public ElectronicAddress? electronicAddress;
 		/// <summary>
 		/// (if applicable) Reference to geographical information source, often external to
 		/// the utility.
 		/// </summary>
-		public string geoInfoReference;
+		public string? geoInfoReference;
 		/// <summary>
 		/// Main address of the location.
 		/// </summary>
-		public StreetAddress mainAddress;
+		public StreetAddress? mainAddress;
 		/// <summary>
 		/// Phone number.
 		/// </summary>
-		public TelephoneNumber phone1;
+		public TelephoneNumber? phone1;
 		/// <summary>
 		/// Additional phone number.
 		/// </summary>
-		public TelephoneNumber phone2;
+		public TelephoneNumber? phone2;
 		/// <summary>
 		/// Secondary address of the location. For example, PO Box address may have
 		/// different ZIP code than that in the 'mainAddress'.
 		/// </summary>
-		public StreetAddress secondaryAddress;
+		public StreetAddress? secondaryAddress;
 		/// <summary>
 		/// Status of this location.
 		/// </summary>
-		public Status status;
+		public Status? status;
 		/// <summary>
 		/// Classification by utility's corporate standards and practices, relative to the
 		/// location itself (e.g., geographical, functional accounting, etc., not a given
 		/// property that happens to exist at that location).
 		/// </summary>
-		public string type;
+		public string? type;
 		/// <summary>
 		/// All configuration events created for this location.
 		/// </summary>
-		public TC57CIM.IEC61968.Common.ConfigurationEvent ConfigurationEvents;
+		public TC57CIM.IEC61968.Common.ConfigurationEvent? ConfigurationEvents;
 		/// <summary>
 		/// The switching order at this location.
 		/// </summary>
-		public TC57CIM.IEC61968.Operations.SwitchingOrder SwitchingOrder;
+		public TC57CIM.IEC61968.Operations.SwitchingOrder? SwitchingOrder;
 		/// <summary>
 		/// The crew that is assigned to this locaton.
 		/// </summary>
-		public TC57CIM.IEC61968.Common.Crew Crew;
+		public TC57CIM.IEC61968.Common.Crew? Crew;
 		/// <summary>
 		/// All power system resources at this location.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Core.PowerSystemResource PowerSystemResources;
+		public TC57CIM.IEC61970.Base.Core.PowerSystemResource? PowerSystemResources;
 		/// <summary>
 		/// Coordinate system used to describe position points of this location.
 		/// </summary>
-		public TC57CIM.IEC61968.Common.CoordinateSystem CoordinateSystem;
+		public TC57CIM.IEC61968.Common.CoordinateSystem? CoordinateSystem;
 		/// <summary>
 		/// Sequence of position points describing this location, expressed in coordinate
 		/// system 'Location.CoordinateSystem'.
 		/// </summary>
-		public TC57CIM.IEC61968.Common.PositionPoint PositionPoints;
+		public TC57CIM.IEC61968.Common.PositionPoint? PositionPoints;
 		/// <summary>
 		/// All measurements at this location.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Meas.Measurement Measurements;
+		public TC57CIM.IEC61970.Base.Meas.Measurement? Measurements;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Location"/> class

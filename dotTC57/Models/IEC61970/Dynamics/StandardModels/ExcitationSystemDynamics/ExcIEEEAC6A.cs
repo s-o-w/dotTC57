@@ -22,27 +22,27 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.ExcitationSystemDynamics {
 		/// Voltage regulator gain (<i>K</i><i><sub>A</sub></i>) (> 0).  Typical value =
 		/// 536.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU ka;
+		public TC57CIM.IEC61970.Base.Domain.PU? ka;
 		/// <summary>
 		/// Rectifier loading factor proportional to commutating reactance
 		/// (<i>K</i><i><sub>C</sub></i>) (>= 0). Typical value = 0,173.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kc;
+		public TC57CIM.IEC61970.Base.Domain.PU? kc;
 		/// <summary>
 		/// Demagnetizing factor, a function of exciter alternator reactances
 		/// (<i>K</i><i><sub>D</sub></i>) (>= 0).  Typical value = 1,91.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kd;
+		public TC57CIM.IEC61970.Base.Domain.PU? kd;
 		/// <summary>
 		/// Exciter constant related to self-excited field (<i>K</i><i><sub>E</sub></i>).
 		/// Typical value = 1,6.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU ke;
+		public TC57CIM.IEC61970.Base.Domain.PU? ke;
 		/// <summary>
 		/// Exciter field current limiter gain (<i>K</i><i><sub>H</sub></i>) (>= 0).
 		/// Typical value = 92.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kh;
+		public TC57CIM.IEC61970.Base.Domain.PU? kh;
 		/// <summary>
 		/// Exciter saturation function value at the corresponding exciter voltage,
 		/// <i>V</i><i><sub>E1</sub></i>, back of commutating reactance
@@ -61,79 +61,78 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.ExcitationSystemDynamics {
 		/// Voltage regulator time constant (<i>T</i><i><sub>A</sub></i>) (>= 0).  Typical
 		/// value = 0,086.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds ta;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? ta;
 		/// <summary>
 		/// Voltage regulator time constant (<i>T</i><i><sub>B</sub></i>) (>= 0).  Typical
 		/// value = 9.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tb;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tb;
 		/// <summary>
 		/// Voltage regulator time constant (<i>T</i><i><sub>C</sub></i>) (>= 0).  Typical
 		/// value = 3.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tc;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tc;
 		/// <summary>
 		/// Exciter time constant, integration rate associated with exciter control
 		/// (<i>T</i><i><sub>E</sub></i>) (> 0).  Typical value = 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds te;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? te;
 		/// <summary>
 		/// Exciter field current limiter time constant (<i>T</i><i><sub>H</sub></i>) (> 0).
 		///  Typical value = 0,08.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds th;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? th;
 		/// <summary>
 		/// Exciter field current limiter time constant (<i>T</i><i><sub>J</sub></i>) (>=
 		/// 0).  Typical value = 0,02.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tj;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tj;
 		/// <summary>
 		/// Voltage regulator time constant (<i>T</i><i><sub>K</sub></i>) (>= 0).  Typical
 		/// value = 0,18.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tk;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tk;
 		/// <summary>
-		/// Maximum voltage regulator output (<i>V</i><i><sub>AMAX</sub></i>) (> 0).
+		/// Maximum voltage regulator output (<i>V</i><i><sub>AMAX</sub></i>) (greater than 0).
 		/// Typical value = 75.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vamax;
+		public TC57CIM.IEC61970.Base.Domain.PU? vamax;
 		/// <summary>
-		/// Minimum voltage regulator output (V<sub>AMIN</sub>) (< 0).  Typical value = -75.
-		///
+		/// Minimum voltage regulator output (V<sub>AMIN</sub>) (less than 0).  Typical value = -75.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vamin;
+		public TC57CIM.IEC61970.Base.Domain.PU? vamin;
 		/// <summary>
 		/// Exciter alternator output voltages back of commutating reactance at which
 		/// saturation is defined (<i>V</i><i><sub>E1</sub></i>) (> 0).  Typical value = 7,
 		/// 4.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU ve1;
+		public TC57CIM.IEC61970.Base.Domain.PU? ve1;
 		/// <summary>
 		/// Exciter alternator output voltages back of commutating reactance at which
 		/// saturation is defined (<i>V</i><i><sub>E2</sub></i>) (> 0).  Typical value = 5,
 		/// 55.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU ve2;
+		public TC57CIM.IEC61970.Base.Domain.PU? ve2;
 		/// <summary>
 		/// Exciter field current limit reference (<i>V</i><i><sub>FELIM</sub></i>) (> 0).
 		/// Typical value = 19.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vfelim;
+		public TC57CIM.IEC61970.Base.Domain.PU? vfelim;
 		/// <summary>
 		/// Maximum field current limiter signal reference (<i>V</i><i><sub>HMAX</sub></i>)
 		/// (> 0).  Typical value = 75.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vhmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? vhmax;
 		/// <summary>
 		/// Maximum voltage regulator output (<i>V</i><i><sub>RMAX</sub></i>) (> 0).
 		/// Typical value = 44.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vrmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? vrmax;
 		/// <summary>
-		/// Minimum voltage regulator output (<i>V</i><i><sub>RMIN</sub></i>) (< 0).
+		/// Minimum voltage regulator output (<i>V</i><i><sub>RMIN</sub></i>) (less than 0).
 		/// Typical value = -36.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vrmin;
+		public TC57CIM.IEC61970.Base.Domain.PU? vrmin;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ExcIEEEAC6A"/> class

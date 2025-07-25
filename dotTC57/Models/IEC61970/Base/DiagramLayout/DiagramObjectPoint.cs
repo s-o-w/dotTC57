@@ -19,7 +19,7 @@ namespace TC57CIM.IEC61970.Base.DiagramLayout {
 		/// diagram objects acting as a polyline or polygon with more than one point. The
 		/// attribute shall be a positive value.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer sequenceNumber;
+		public TC57CIM.IEC61970.Base.Domain.Integer? sequenceNumber;
 		/// <summary>
 		/// The X coordinate of this point.
 		/// </summary>
@@ -35,7 +35,7 @@ namespace TC57CIM.IEC61970.Base.DiagramLayout {
 		/// <summary>
 		/// The 'glue' point to which this point is associated.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.DiagramLayout.DiagramObjectGluePoint DiagramObjectGluePoint;
+		public TC57CIM.IEC61970.Base.DiagramLayout.DiagramObjectGluePoint? DiagramObjectGluePoint;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="DiagramObjectPoint"/> class

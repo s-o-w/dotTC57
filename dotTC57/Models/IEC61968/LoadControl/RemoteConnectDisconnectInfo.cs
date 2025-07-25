@@ -15,25 +15,25 @@ namespace TC57CIM.IEC61968.LoadControl {
 		/// <summary>
 		/// Setting of the timeout elapsed time.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds armedTimeout;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? armedTimeout;
 		/// <summary>
 		/// Voltage limit on customer side of RCD switch above which the connect should not
 		/// be made.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Voltage customerVoltageLimit;
+		public TC57CIM.IEC61970.Base.Domain.Voltage? customerVoltageLimit;
 		/// <summary>
 		/// Limit of energy before disconnect.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.RealEnergy energyLimit;
+		public TC57CIM.IEC61970.Base.Domain.RealEnergy? energyLimit;
 		/// <summary>
 		/// Start date and time to accumulate energy for energy usage limiting.
 		/// </summary>
-		public System.DateTime energyUsageStartDateTime;
+		public System.DateTime? energyUsageStartDateTime;
 		/// <summary>
 		/// Warning energy limit, used to trigger event code that energy usage is nearing
 		/// limit.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.RealEnergy energyUsageWarning;
+		public TC57CIM.IEC61970.Base.Domain.RealEnergy? energyUsageWarning;
 		/// <summary>
 		/// True if the RCD switch has to be armed before a connect action can be initiated.
 		///
@@ -63,7 +63,7 @@ namespace TC57CIM.IEC61968.LoadControl {
 		/// Load limit above which the connect should either not take place or should cause
 		/// an immediate disconnect.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower powerLimit;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? powerLimit;
 		/// <summary>
 		/// True if pushbutton has to be used for connect.
 		/// </summary>

@@ -18,15 +18,15 @@ namespace TC57CIM.IEC61970.Base.Core {
 		/// <summary>
 		/// Any free text that name the object.
 		/// </summary>
-		public string name;
+		public string? name;
 		/// <summary>
 		/// Type of this name.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Core.NameType NameType;
+		public TC57CIM.IEC61970.Base.Core.NameType? NameType;
 		/// <summary>
 		/// Identified object that this name designates.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Core.IdentifiedObject IdentifiedObject;
+		public TC57CIM.IEC61970.Base.Core.IdentifiedObject? IdentifiedObject;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Name"/> class

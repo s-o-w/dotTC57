@@ -23,30 +23,30 @@ namespace TC57CIM.IEC61968.Metering {
 		/// Number of digits (dials on a mechanical meter) to the left of the decimal place;
 		/// default is normally 5.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer leftDigitCount;
+		public TC57CIM.IEC61970.Base.Domain.Integer? leftDigitCount;
 		/// <summary>
 		/// Number of digits (dials on a mechanical meter) to the right of the decimal
 		/// place.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer rightDigitCount;
+		public TC57CIM.IEC61970.Base.Domain.Integer? rightDigitCount;
 		/// <summary>
 		/// Clock time interval for register to beging/cease accumulating time of usage (e.
 		/// g., start at 8:00 am, stop at 5:00 pm).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.TimeInterval touTier;
+		public TC57CIM.IEC61970.Base.Domain.TimeInterval? touTier;
 		/// <summary>
 		/// Name used for the time of use tier (also known as bin or bucket).  For example,
 		/// "peak", "off-peak", "TOU Category A", etc.
 		/// </summary>
-		public string touTierName;
+		public string? touTierName;
 		/// <summary>
 		/// All channels that collect/report values from this register.
 		/// </summary>
-		public TC57CIM.IEC61968.Metering.Channel Channels;
+		public TC57CIM.IEC61968.Metering.Channel? Channels;
 		/// <summary>
 		/// End device function metering quantities displayed by this register.
 		/// </summary>
-		public TC57CIM.IEC61968.Metering.EndDeviceFunction EndDeviceFunction;
+		public TC57CIM.IEC61968.Metering.EndDeviceFunction? EndDeviceFunction;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Register"/> class

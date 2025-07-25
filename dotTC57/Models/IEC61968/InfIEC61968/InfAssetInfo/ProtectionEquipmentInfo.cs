@@ -15,11 +15,11 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfAssetInfo {
 		/// <summary>
 		/// Actual ground trip for this type of relay, if applicable.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.CurrentFlow groundTrip;
+		public TC57CIM.IEC61970.Base.Domain.CurrentFlow? groundTrip;
 		/// <summary>
 		/// Actual phase trip for this type of relay, if applicable.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.CurrentFlow phaseTrip;
+		public TC57CIM.IEC61970.Base.Domain.CurrentFlow? phaseTrip;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ProtectionEquipmentInfo"/> class

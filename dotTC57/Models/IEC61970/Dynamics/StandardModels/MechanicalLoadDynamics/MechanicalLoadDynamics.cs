@@ -19,13 +19,13 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.MechanicalLoadDynamics {
 		/// MechanicalLoadDynamics shall have either an association to
 		/// SynchronousMachineDynamics or to AsynchronousMachineDynamics.
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.StandardModels.AsynchronousMachineDynamics.AsynchronousMachineDynamics AsynchronousMachineDynamics;
+		public TC57CIM.IEC61970.Dynamics.StandardModels.AsynchronousMachineDynamics.AsynchronousMachineDynamics? AsynchronousMachineDynamics;
 		/// <summary>
 		/// Synchronous machine model with which this mechanical load model is associated.
 		/// MechanicalLoadDynamics shall have either an association to
 		/// SynchronousMachineDynamics or AsynchronousMachineDyanmics.
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.StandardModels.SynchronousMachineDynamics.SynchronousMachineDynamics SynchronousMachineDynamics;
+		public TC57CIM.IEC61970.Dynamics.StandardModels.SynchronousMachineDynamics.SynchronousMachineDynamics? SynchronousMachineDynamics;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="MechanicalLoadDynamics"/> class

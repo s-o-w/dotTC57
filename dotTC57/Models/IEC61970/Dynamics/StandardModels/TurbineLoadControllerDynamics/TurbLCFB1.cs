@@ -19,16 +19,16 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.TurbineLoadControllerDynamics
 		/// <summary>
 		/// Controller deadband (<i>db</i>).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU db;
+		public TC57CIM.IEC61970.Base.Domain.PU? db;
 		/// <summary>
 		/// Maximum control error (<i>Emax</i>) (see parameter detail 4).  Typical value =
 		/// 0,02.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU emax;
+		public TC57CIM.IEC61970.Base.Domain.PU? emax;
 		/// <summary>
 		/// Frequency bias gain (<i>Fb</i>).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU fb;
+		public TC57CIM.IEC61970.Base.Domain.PU? fb;
 		/// <summary>
 		/// Frequency bias flag (<i>Fbf</i>).
 		/// true = enable frequency bias
@@ -40,19 +40,19 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.TurbineLoadControllerDynamics
 		/// Maximum turbine speed/load reference bias (<i>Irmax</i>) (see parameter detail
 		/// 3).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU irmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? irmax;
 		/// <summary>
 		/// Integral gain (<i>Ki</i>).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU ki;
+		public TC57CIM.IEC61970.Base.Domain.PU? ki;
 		/// <summary>
 		/// Proportional gain (<i>Kp</i>).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU kp;
+		public TC57CIM.IEC61970.Base.Domain.PU? kp;
 		/// <summary>
 		/// Base for power values (<i>MWbase</i>) (> 0).  Unit = MW.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower mwbase;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? mwbase;
 		/// <summary>
 		/// Power controller flag (<i>Pbf</i>).
 		/// true = enable load controller
@@ -64,7 +64,7 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.TurbineLoadControllerDynamics
 		/// Power controller setpoint (<i>Pmwset</i>) (see parameter detail 1).  Unit = MW.
 		/// Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower pmwset;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? pmwset;
 		/// <summary>
 		/// Type of turbine governor reference (<i>Type</i>).
 		/// true = speed reference governor
@@ -75,7 +75,7 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.TurbineLoadControllerDynamics
 		/// <summary>
 		/// Power transducer time constant (<i>Tpelec</i>) (>= 0).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tpelec;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tpelec;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="TurbLCFB1"/> class

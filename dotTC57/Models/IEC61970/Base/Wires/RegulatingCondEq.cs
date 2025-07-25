@@ -20,7 +20,7 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// <summary>
 		/// The regulating control scheme in which this equipment participates.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Wires.RegulatingControl RegulatingControl;
+		public TC57CIM.IEC61970.Base.Wires.RegulatingControl? RegulatingControl;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="RegulatingCondEq"/> class

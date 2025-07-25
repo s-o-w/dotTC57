@@ -16,11 +16,11 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics {
 		/// <summary>
 		/// The wind turbine type 3 or type 4 associated with this wind plant.
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics.WindTurbineType3or4Dynamics WindTurbineType3or4Dynamics;
+		public TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics.WindTurbineType3or4Dynamics? WindTurbineType3or4Dynamics;
 		/// <summary>
 		/// The remote signal with which this power plant is associated.
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.StandardInterconnections.RemoteInputSignal RemoteInputSignal;
+		public TC57CIM.IEC61970.Dynamics.StandardInterconnections.RemoteInputSignal? RemoteInputSignal;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="WindPlantDynamics"/> class

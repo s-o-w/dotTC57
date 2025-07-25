@@ -17,15 +17,15 @@ namespace TC57CIM.IEC61968.Operations {
 		/// <summary>
 		/// The Usage Point that is specified in the planned outage notification.
 		/// </summary>
-		public TC57CIM.IEC61968.Metering.UsagePoint UsagePoint;
+		public TC57CIM.IEC61968.Metering.UsagePoint? UsagePoint;
 		/// <summary>
 		/// The customer that receives the notification
 		/// </summary>
-		public TC57CIM.IEC61968.Customers.Customer Customer;
+		public TC57CIM.IEC61968.Customers.Customer? Customer;
 		/// <summary>
 		/// The switching plan that contains the planned outage notification.
 		/// </summary>
-		public TC57CIM.IEC61968.Operations.SwitchingPlan SwitchingPlan;
+		public TC57CIM.IEC61968.Operations.SwitchingPlan? SwitchingPlan;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="PlannedOutageNotification"/> class

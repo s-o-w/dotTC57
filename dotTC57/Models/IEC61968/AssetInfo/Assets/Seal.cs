@@ -16,7 +16,7 @@ namespace TC57CIM.IEC61968.AssetInfo.Assets {
 		/// <summary>
 		/// Date and time this seal has been applied.
 		/// </summary>
-		public System.DateTime appliedDateTime;
+		public System.DateTime? appliedDateTime;
 		/// <summary>
 		/// Condition of seal.
 		/// </summary>
@@ -28,7 +28,7 @@ namespace TC57CIM.IEC61968.AssetInfo.Assets {
 		/// <summary>
 		/// (reserved word) Seal number.
 		/// </summary>
-		public string sealNumber;
+		public string? sealNumber;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Seal"/> class

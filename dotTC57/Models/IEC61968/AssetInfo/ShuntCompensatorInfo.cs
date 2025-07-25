@@ -15,23 +15,23 @@ namespace TC57CIM.IEC61968.AssetInfo {
 		/// <summary>
 		/// Maximum allowed apparent power loss.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ApparentPower maxPowerLoss;
+		public TC57CIM.IEC61970.Base.Domain.ApparentPower? maxPowerLoss;
 		/// <summary>
 		/// Rated current.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.CurrentFlow ratedCurrent;
+		public TC57CIM.IEC61970.Base.Domain.CurrentFlow? ratedCurrent;
 		/// <summary>
 		/// Rated reactive power.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ReactivePower ratedReactivePower;
+		public TC57CIM.IEC61970.Base.Domain.ReactivePower? ratedReactivePower;
 		/// <summary>
 		/// Rated voltage.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Voltage ratedVoltage;
+		public TC57CIM.IEC61970.Base.Domain.Voltage? ratedVoltage;
 		/// <summary>
 		/// The shunt compensator control
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfWiresExt.ShuntCompensatorControl ShuntCompensatorControl;
+		public TC57CIM.IEC61968.InfIEC61968.InfWiresExt.ShuntCompensatorControl? ShuntCompensatorControl;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ShuntCompensatorInfo"/> class

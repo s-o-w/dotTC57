@@ -16,55 +16,55 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.InfHVDCDynamics {
 		/// <summary>
 		/// Time constant.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tm;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tm;
 		/// <summary>
 		/// The idcinvertercontrol
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.StandardModels.InfHVDCDynamics.CSC.IdcInverterControl m_IdcInverterControl;
+		public TC57CIM.IEC61970.Dynamics.StandardModels.InfHVDCDynamics.CSC.IdcInverterControl? m_IdcInverterControl;
 		/// <summary>
 		/// The vdcol
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.StandardModels.InfHVDCDynamics.CSC.VDCOL m_VDCOL;
+		public TC57CIM.IEC61970.Dynamics.StandardModels.InfHVDCDynamics.CSC.VDCOL? m_VDCOL;
 		/// <summary>
 		/// The ccainverter
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.StandardModels.InfHVDCDynamics.CSC.CCAinverter m_CCAinverter;
+		public TC57CIM.IEC61970.Dynamics.StandardModels.InfHVDCDynamics.CSC.CCAinverter? m_CCAinverter;
 		/// <summary>
 		/// The pcontrol
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.StandardModels.InfHVDCDynamics.VSC.Pcontrol Pcontrol;
+		public TC57CIM.IEC61970.Dynamics.StandardModels.InfHVDCDynamics.VSC.Pcontrol? Pcontrol;
 		/// <summary>
 		/// The qregulator
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.StandardModels.InfHVDCDynamics.VSC.Qregulator Qregulator;
+		public TC57CIM.IEC61970.Dynamics.StandardModels.InfHVDCDynamics.VSC.Qregulator? Qregulator;
 		/// <summary>
 		/// The ccarectifiercontrol
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.StandardModels.InfHVDCDynamics.CSC.CCArectifierControl m_CCArectifierControl;
+		public TC57CIM.IEC61970.Dynamics.StandardModels.InfHVDCDynamics.CSC.CCArectifierControl? m_CCArectifierControl;
 		/// <summary>
 		/// The cvoltage control
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.StandardModels.InfHVDCDynamics.VSC.DCvoltageControl DCvoltageControl;
+		public TC57CIM.IEC61970.Dynamics.StandardModels.InfHVDCDynamics.VSC.DCvoltageControl? DCvoltageControl;
 		/// <summary>
 		/// The umode
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.StandardModels.InfHVDCDynamics.VSC.Umode Umode;
+		public TC57CIM.IEC61970.Dynamics.StandardModels.InfHVDCDynamics.VSC.Umode? Umode;
 		/// <summary>
 		/// The qlimiter
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.StandardModels.InfHVDCDynamics.VSC.Qlimiter Qlimiter;
+		public TC57CIM.IEC61970.Dynamics.StandardModels.InfHVDCDynamics.VSC.Qlimiter? Qlimiter;
 		/// <summary>
 		/// The blocking function
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.StandardModels.InfHVDCDynamics.VSC.BlockingFunction BlockingFunction;
+		public TC57CIM.IEC61970.Dynamics.StandardModels.InfHVDCDynamics.VSC.BlockingFunction? BlockingFunction;
 		/// <summary>
 		/// The qmode
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.StandardModels.InfHVDCDynamics.VSC.Qmode Qmode;
+		public TC57CIM.IEC61970.Dynamics.StandardModels.InfHVDCDynamics.VSC.Qmode? Qmode;
 		/// <summary>
 		/// The fmode
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.StandardModels.InfHVDCDynamics.VSC.PFmode PFmode;
+		public TC57CIM.IEC61970.Dynamics.StandardModels.InfHVDCDynamics.VSC.PFmode? PFmode;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Delay"/> class

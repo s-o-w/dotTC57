@@ -19,17 +19,17 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// For voltage dependent loads the value is at rated voltage.
 		/// Starting value for a steady state solution.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower p;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? p;
 		/// <summary>
 		/// Active power of the load that is a fixed quantity. Load sign convention is used,
 		/// i.e. positive sign means flow out from a node.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower pfixed;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? pfixed;
 		/// <summary>
 		/// Fixed active power as per cent of load group fixed active power. Load sign
 		/// convention is used, i.e. positive sign means flow out from a node.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PerCent pfixedPct;
+		public TC57CIM.IEC61970.Base.Domain.PerCent? pfixedPct;
 		/// <summary>
 		/// Phase of this energy consumer component.   If the energy consumer is wye
 		/// connected, the connection is from the indicated phase to the central ground or
@@ -44,17 +44,17 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// For voltage dependent loads the value is at rated voltage.
 		/// Starting value for a steady state solution.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ReactivePower q;
+		public TC57CIM.IEC61970.Base.Domain.ReactivePower? q;
 		/// <summary>
 		/// Reactive power of the load that is a fixed quantity. Load sign convention is
 		/// used, i.e. positive sign means flow out from a node.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ReactivePower qfixed;
+		public TC57CIM.IEC61970.Base.Domain.ReactivePower? qfixed;
 		/// <summary>
 		/// Fixed reactive power as per cent of load group fixed reactive power. Load sign
 		/// convention is used, i.e. positive sign means flow out from a node.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PerCent qfixedPct;
+		public TC57CIM.IEC61970.Base.Domain.PerCent? qfixedPct;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="EnergyConsumerPhase"/> class

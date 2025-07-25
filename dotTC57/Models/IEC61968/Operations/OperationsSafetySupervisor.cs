@@ -17,11 +17,11 @@ namespace TC57CIM.IEC61968.Operations {
 		/// <summary>
 		/// All safety documents issued by this supervisor.
 		/// </summary>
-		public TC57CIM.IEC61968.Operations.SafetyDocument IssuedSafetyDocuments;
+		public TC57CIM.IEC61968.Operations.SafetyDocument? IssuedSafetyDocuments;
 		/// <summary>
 		/// All safety documents released to this supervisor.
 		/// </summary>
-		public TC57CIM.IEC61968.Operations.SafetyDocument ReleasedSafetyDocuments;
+		public TC57CIM.IEC61968.Operations.SafetyDocument? ReleasedSafetyDocuments;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="OperationsSafetySupervisor"/> class

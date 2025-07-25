@@ -17,48 +17,48 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// positive sign means flow out from a node.
 		/// Starting value for steady state solutions.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower activePower;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? activePower;
 		/// <summary>
 		/// Phase-to-phase nominal voltage.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Voltage nominalVoltage;
+		public TC57CIM.IEC61970.Base.Domain.Voltage? nominalVoltage;
 		/// <summary>
 		/// This is the maximum active power that can be produced by the source. Load sign
 		/// convention is used, i.e. positive sign means flow out from a TopologicalNode
 		/// (bus) into the conducting equipment.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower pMax;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? pMax;
 		/// <summary>
 		/// This is the minimum active power that can be produced by the source. Load sign
 		/// convention is used, i.e. positive sign means flow out from a TopologicalNode
 		/// (bus) into the conducting equipment.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ActivePower pMin;
+		public TC57CIM.IEC61970.Base.Domain.ActivePower? pMin;
 		/// <summary>
 		/// Positive sequence Thevenin resistance.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Resistance r;
+		public TC57CIM.IEC61970.Base.Domain.Resistance? r;
 		/// <summary>
 		/// Zero sequence Thevenin resistance.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Resistance r0;
+		public TC57CIM.IEC61970.Base.Domain.Resistance? r0;
 		/// <summary>
 		/// High voltage source reactive injection. Load sign convention is used, i.e.
 		/// positive sign means flow out from a node.
 		/// Starting value for steady state solutions.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.ReactivePower reactivePower;
+		public TC57CIM.IEC61970.Base.Domain.ReactivePower? reactivePower;
 		/// <summary>
 		/// Negative sequence Thevenin resistance.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Resistance rn;
+		public TC57CIM.IEC61970.Base.Domain.Resistance? rn;
 		/// <summary>
 		/// Phase angle of a-phase open circuit used when voltage characteristics need to
 		/// be imposed at the node associated with the terminal of the energy source, such
 		/// as when voltages and angles from the transmission level are used as input to
 		/// the distribution network. The attribute shall be a positive value or zero.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.AngleRadians voltageAngle;
+		public TC57CIM.IEC61970.Base.Domain.AngleRadians? voltageAngle;
 		/// <summary>
 		/// Phase-to-phase open circuit voltage magnitude used when voltage characteristics
 		/// need to be imposed at the node associated with the terminal of the energy
@@ -66,23 +66,23 @@ namespace TC57CIM.IEC61970.Base.Wires {
 		/// as input to the distribution network. The attribute shall be a positive value
 		/// or zero.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Voltage voltageMagnitude;
+		public TC57CIM.IEC61970.Base.Domain.Voltage? voltageMagnitude;
 		/// <summary>
 		/// Positive sequence Thevenin reactance.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Reactance x;
+		public TC57CIM.IEC61970.Base.Domain.Reactance? x;
 		/// <summary>
 		/// Zero sequence Thevenin reactance.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Reactance x0;
+		public TC57CIM.IEC61970.Base.Domain.Reactance? x0;
 		/// <summary>
 		/// Negative sequence Thevenin reactance.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Reactance xn;
+		public TC57CIM.IEC61970.Base.Domain.Reactance? xn;
 		/// <summary>
 		/// Energy Scheduling Type of an Energy Source.
 		/// </summary>
-		private TC57CIM.IEC61970.Base.Wires.EnergySchedulingType EnergySchedulingType;
+		public TC57CIM.IEC61970.Base.Wires.EnergySchedulingType? EnergySchedulingType;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="EnergySource"/> class

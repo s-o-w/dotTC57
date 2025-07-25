@@ -15,23 +15,23 @@ namespace TC57CIM.IEC61968.PaymentMetering {
 		/// <summary>
 		/// Operational account reference number.
 		/// </summary>
-		public string accountNumber;
+		public string? accountNumber;
 		/// <summary>
 		/// Name of bank where account is held.
 		/// </summary>
-		public string bankName;
+		public string? bankName;
 		/// <summary>
 		/// Branch of bank where account is held.
 		/// </summary>
-		public string branchCode;
+		public string? branchCode;
 		/// <summary>
 		/// National identity number (or equivalent) of account holder.
 		/// </summary>
-		public string holderID;
+		public string? holderID;
 		/// <summary>
 		/// Name of account holder.
 		/// </summary>
-		public string holderName;
+		public string? holderName;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="BankAccountDetail"/> class

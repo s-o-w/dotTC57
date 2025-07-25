@@ -17,7 +17,7 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.HVDCDynamics {
 		/// Voltage source converter to which voltage source converter dynamics model
 		/// applies.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.DC.VsConverter VsConverter;
+		public TC57CIM.IEC61970.Base.DC.VsConverter? VsConverter;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="VSCDynamics"/> class

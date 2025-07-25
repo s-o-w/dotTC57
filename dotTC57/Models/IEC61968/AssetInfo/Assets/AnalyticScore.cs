@@ -19,11 +19,11 @@ namespace TC57CIM.IEC61968.AssetInfo.Assets {
 		/// <summary>
 		/// Timestamp of when the score was calculated.
 		/// </summary>
-		public System.DateTime calculationDateTime;
+		public System.DateTime? calculationDateTime;
 		/// <summary>
 		/// Date-time for when the score applies.
 		/// </summary>
-		public System.DateTime effectiveDateTime;
+		public System.DateTime? effectiveDateTime;
 		/// <summary>
 		/// Asset health score value.
 		/// </summary>
@@ -31,7 +31,7 @@ namespace TC57CIM.IEC61968.AssetInfo.Assets {
 		/// <summary>
 		/// Asset to which this analytic score applies.
 		/// </summary>
-		public TC57CIM.IEC61968.AssetInfo.Assets.Asset Asset;
+		public TC57CIM.IEC61968.AssetInfo.Assets.Asset? Asset;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="AnalyticScore"/> class

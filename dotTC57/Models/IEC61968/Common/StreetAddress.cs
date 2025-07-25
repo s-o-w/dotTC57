@@ -15,27 +15,27 @@ namespace TC57CIM.IEC61968.Common {
 		/// The language in which the address is specified, using ISO 639-1 two digit
 		/// language code.
 		/// </summary>
-		public string language;
+		public string? language;
 		/// <summary>
 		/// Post office box.
 		/// </summary>
-		public string poBox;
+		public string? poBox;
 		/// <summary>
 		/// Postal code for the address.
 		/// </summary>
-		public string postalCode;
+		public string? postalCode;
 		/// <summary>
 		/// Status of this address.
 		/// </summary>
-		public Status status;
+		public Status? status;
 		/// <summary>
 		/// Street detail.
 		/// </summary>
-		public StreetDetail streetDetail;
+		public StreetDetail? streetDetail;
 		/// <summary>
 		/// Town detail.
 		/// </summary>
-		public TownDetail townDetail;
+		public TownDetail? townDetail;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="StreetAddress"/> class

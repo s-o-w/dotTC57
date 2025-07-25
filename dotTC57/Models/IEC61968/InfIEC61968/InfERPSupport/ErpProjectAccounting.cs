@@ -18,7 +18,7 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfERPSupport {
 		/// <summary>
 		/// The projects
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfWork.Project Projects;
+		public TC57CIM.IEC61968.InfIEC61968.InfWork.Project? Projects;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ErpProjectAccounting"/> class

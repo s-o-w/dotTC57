@@ -20,67 +20,67 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.ExcitationSystemDynamics {
 		/// <summary>
 		/// Controller follow up deadband (<i>Dpnf</i>).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU dpnf;
+		public TC57CIM.IEC61970.Base.Domain.PU? dpnf;
 		/// <summary>
-		/// Maximum open circuit excitation voltage (<i>Efmax</i>) (> ExcELIN1.efmin).
+		/// Maximum open circuit excitation voltage (<i>Efmax</i>) (&gt; ExcELIN1.efmin).
 		/// Typical value = 5.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU efmax;
+		public TC57CIM.IEC61970.Base.Domain.PU? efmax;
 		/// <summary>
-		/// Minimum open circuit excitation voltage (<i>Efmin</i>) (< ExcELIN1.efmax).
+		/// Minimum open circuit excitation voltage (<i>Efmin</i>) (&lt; ExcELIN1.efmax).
 		/// Typical value = -5.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU efmin;
+		public TC57CIM.IEC61970.Base.Domain.PU? efmin;
 		/// <summary>
 		/// Stabilizer gain 1 (<i>Ks1</i>).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU ks1;
+		public TC57CIM.IEC61970.Base.Domain.PU? ks1;
 		/// <summary>
 		/// Stabilizer gain 2 (<i>Ks2</i>).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU ks2;
+		public TC57CIM.IEC61970.Base.Domain.PU? ks2;
 		/// <summary>
 		/// Stabilizer limit output (<i>smax</i>).  Typical value = 0,1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU smax;
+		public TC57CIM.IEC61970.Base.Domain.PU? smax;
 		/// <summary>
 		/// Current transducer time constant (<i>Tfi</i>) (>= 0).  Typical value = 0.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tfi;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tfi;
 		/// <summary>
 		/// Controller reset time constant (<i>Tnu</i>) (>= 0).  Typical value = 2.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tnu;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tnu;
 		/// <summary>
 		/// Stabilizer phase lag time constant (<i>Ts1</i>) (>= 0).  Typical value = 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds ts1;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? ts1;
 		/// <summary>
 		/// Stabilizer filter time constant (<i>Ts2</i>) (>= 0).  Typical value = 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds ts2;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? ts2;
 		/// <summary>
 		/// Stabilizer parameters (<i>Tsw</i>) (>= 0).  Typical value = 3.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tsw;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tsw;
 		/// <summary>
 		/// Current controller gain (<i>Vpi</i>).  Typical value = 12,45.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vpi;
+		public TC57CIM.IEC61970.Base.Domain.PU? vpi;
 		/// <summary>
 		/// Controller follow up gain (<i>Vpnf</i>).  Typical value = 2.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vpnf;
+		public TC57CIM.IEC61970.Base.Domain.PU? vpnf;
 		/// <summary>
 		/// Voltage controller proportional gain (<i>Vpu</i>).  Typical value = 34,5.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU vpu;
+		public TC57CIM.IEC61970.Base.Domain.PU? vpu;
 		/// <summary>
 		/// Excitation transformer effective reactance (<i>Xe</i>) (>= 0).  <i>Xe</i>
 		/// represents the regulation of the transformer/rectifier unit.  Typical value = 0,
 		/// 06.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU xe;
+		public TC57CIM.IEC61970.Base.Domain.PU? xe;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ExcELIN1"/> class

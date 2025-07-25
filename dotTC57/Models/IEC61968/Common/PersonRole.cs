@@ -17,11 +17,11 @@ namespace TC57CIM.IEC61968.Common {
 		/// <summary>
 		/// All configuration events created for this person role.
 		/// </summary>
-		public TC57CIM.IEC61968.Common.ConfigurationEvent ConfigurationEvents;
+		public TC57CIM.IEC61968.Common.ConfigurationEvent? ConfigurationEvents;
 		/// <summary>
 		/// All appointments for this person.
 		/// </summary>
-		public TC57CIM.IEC61968.Common.Appointment Appointments;
+		public TC57CIM.IEC61968.Common.Appointment? Appointments;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="PersonRole"/> class

@@ -18,11 +18,11 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.WindDynamics {
 		/// Asynchronous machine model with which this wind generator type 1 or type 2
 		/// model is associated.
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.StandardModels.AsynchronousMachineDynamics.AsynchronousMachineDynamics AsynchronousMachineDynamics;
+		public TC57CIM.IEC61970.Dynamics.StandardModels.AsynchronousMachineDynamics.AsynchronousMachineDynamics? AsynchronousMachineDynamics;
 		/// <summary>
 		/// Remote input signal used by this wind generator type 1 or type 2 model.
 		/// </summary>
-		public TC57CIM.IEC61970.Dynamics.StandardInterconnections.RemoteInputSignal RemoteInputSignal;
+		public TC57CIM.IEC61970.Dynamics.StandardInterconnections.RemoteInputSignal? RemoteInputSignal;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="WindTurbineType1or2Dynamics"/> class

@@ -34,11 +34,11 @@ namespace TC57CIM.IEC61970.Base.Meas {
 		/// <summary>
 		/// The values connected to this measurement.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Meas.AnalogValue AnalogValues;
+		public TC57CIM.IEC61970.Base.Meas.AnalogValue? AnalogValues;
 		/// <summary>
 		/// A measurement may have zero or more limit ranges defined for it.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Meas.AnalogLimitSet LimitSets;
+		public TC57CIM.IEC61970.Base.Meas.AnalogLimitSet? LimitSets;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Analog"/> class

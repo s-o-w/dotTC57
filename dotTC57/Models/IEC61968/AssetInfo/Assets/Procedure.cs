@@ -15,7 +15,7 @@ namespace TC57CIM.IEC61968.AssetInfo.Assets {
 		/// <summary>
 		/// Textual description of this procedure.
 		/// </summary>
-		public string instruction;
+		public string? instruction;
 		/// <summary>
 		/// Kind of procedure.
 		/// </summary>
@@ -23,23 +23,23 @@ namespace TC57CIM.IEC61968.AssetInfo.Assets {
 		/// <summary>
 		/// Sequence number in a sequence of procedures being performed.
 		/// </summary>
-		public string sequenceNumber;
+		public string? sequenceNumber;
 		/// <summary>
 		/// All assets to which this procedure applies.
 		/// </summary>
-		public TC57CIM.IEC61968.AssetInfo.Assets.Asset Assets;
+		public TC57CIM.IEC61968.AssetInfo.Assets.Asset? Assets;
 		/// <summary>
 		/// The limits
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Meas.Limit Limits;
+		public TC57CIM.IEC61970.Base.Meas.Limit? Limits;
 		/// <summary>
 		/// All data sets captured by this procedure.
 		/// </summary>
-		public TC57CIM.IEC61968.AssetInfo.Assets.ProcedureDataSet ProcedureDataSets;
+		public TC57CIM.IEC61968.AssetInfo.Assets.ProcedureDataSet? ProcedureDataSets;
 		/// <summary>
 		/// Document containing this measurement.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Meas.Measurement Measurements;
+		public TC57CIM.IEC61970.Base.Meas.Measurement? Measurements;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Procedure"/> class

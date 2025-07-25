@@ -15,11 +15,11 @@ namespace TC57CIM.IEC61968.AssetInfo {
 		/// <summary>
 		/// Close current (nominal).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.CurrentFlow closeAmps;
+		public TC57CIM.IEC61970.Base.Domain.CurrentFlow? closeAmps;
 		/// <summary>
 		/// Close voltage in volts DC.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Voltage closeVoltage;
+		public TC57CIM.IEC61970.Base.Domain.Voltage? closeVoltage;
 		/// <summary>
 		/// Kind of breaker operating mechanism.
 		/// </summary>
@@ -27,23 +27,23 @@ namespace TC57CIM.IEC61968.AssetInfo {
 		/// <summary>
 		/// Rated motor run current in amps.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.CurrentFlow motorRunCurrent;
+		public TC57CIM.IEC61970.Base.Domain.CurrentFlow? motorRunCurrent;
 		/// <summary>
 		/// Rated motor start current in amps.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.CurrentFlow motorStartCurrent;
+		public TC57CIM.IEC61970.Base.Domain.CurrentFlow? motorStartCurrent;
 		/// <summary>
 		/// Nominal motor voltage in volts DC.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Voltage motorVoltage;
+		public TC57CIM.IEC61970.Base.Domain.Voltage? motorVoltage;
 		/// <summary>
 		/// Trip current (nominal).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.CurrentFlow tripAmps;
+		public TC57CIM.IEC61970.Base.Domain.CurrentFlow? tripAmps;
 		/// <summary>
 		/// Trip voltage in volts DC.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Voltage tripVoltage;
+		public TC57CIM.IEC61970.Base.Domain.Voltage? tripVoltage;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="OperatingMechanismInfo"/> class

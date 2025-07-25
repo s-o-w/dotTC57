@@ -15,23 +15,23 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfCommon {
 		/// <summary>
 		/// Classification by utility's work management standards and practices.
 		/// </summary>
-		public string type;
+		public string? type;
 		/// <summary>
 		/// The shift patterns
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfWork.ShiftPattern ShiftPatterns;
+		public TC57CIM.IEC61968.InfIEC61968.InfWork.ShiftPattern? ShiftPatterns;
 		/// <summary>
 		/// The route
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfLocations.Route Route;
+		public TC57CIM.IEC61968.InfIEC61968.InfLocations.Route? Route;
 		/// <summary>
 		/// The locations
 		/// </summary>
-		public TC57CIM.IEC61968.Common.Location Locations;
+		public TC57CIM.IEC61968.Common.Location? Locations;
 		/// <summary>
 		/// All Assignments for this Crew.
 		/// </summary>
-		public TC57CIM.IEC61968.InfIEC61968.InfWork.Assignment Assignments;
+		public TC57CIM.IEC61968.InfIEC61968.InfWork.Assignment? Assignments;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="OldCrew"/> class

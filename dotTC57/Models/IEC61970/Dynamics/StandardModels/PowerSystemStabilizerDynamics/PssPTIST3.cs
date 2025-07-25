@@ -15,79 +15,79 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.PowerSystemStabilizerDynamics
 		/// <summary>
 		/// Filter coefficient (<i>A0</i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU a0;
+		public TC57CIM.IEC61970.Base.Domain.PU? a0;
 		/// <summary>
 		/// Limiter (<i>Al</i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU a1;
+		public TC57CIM.IEC61970.Base.Domain.PU? a1;
 		/// <summary>
 		/// Filter coefficient (<i>A2</i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU a2;
+		public TC57CIM.IEC61970.Base.Domain.PU? a2;
 		/// <summary>
 		/// Filter coefficient (<i>A3</i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU a3;
+		public TC57CIM.IEC61970.Base.Domain.PU? a3;
 		/// <summary>
 		/// Filter coefficient (<i>A4</i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU a4;
+		public TC57CIM.IEC61970.Base.Domain.PU? a4;
 		/// <summary>
 		/// Filter coefficient (<i>A5</i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU a5;
+		public TC57CIM.IEC61970.Base.Domain.PU? a5;
 		/// <summary>
 		/// Limiter (<i>Al</i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU al;
+		public TC57CIM.IEC61970.Base.Domain.PU? al;
 		/// <summary>
 		/// Threshold value above which output averaging will be bypassed (<i>Athres</i>).
 		/// Typical value = 0,005.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU athres;
+		public TC57CIM.IEC61970.Base.Domain.PU? athres;
 		/// <summary>
 		/// Filter coefficient (<i>B0</i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU b0;
+		public TC57CIM.IEC61970.Base.Domain.PU? b0;
 		/// <summary>
 		/// Filter coefficient (<i>B1</i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU b1;
+		public TC57CIM.IEC61970.Base.Domain.PU? b1;
 		/// <summary>
 		/// Filter coefficient (<i>B2</i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU b2;
+		public TC57CIM.IEC61970.Base.Domain.PU? b2;
 		/// <summary>
 		/// Filter coefficient (<i>B3</i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU b3;
+		public TC57CIM.IEC61970.Base.Domain.PU? b3;
 		/// <summary>
 		/// Filter coefficient (<i>B4</i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU b4;
+		public TC57CIM.IEC61970.Base.Domain.PU? b4;
 		/// <summary>
 		/// Filter coefficient (<i>B5</i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU b5;
+		public TC57CIM.IEC61970.Base.Domain.PU? b5;
 		/// <summary>
 		/// Limiter (<i>Dl</i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU dl;
+		public TC57CIM.IEC61970.Base.Domain.PU? dl;
 		/// <summary>
 		/// Time step related to activation of controls (<i>deltatc</i>) (>= 0).  Typical
 		/// value = 0,025 (0,03 for 50 Hz).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds dtc;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? dtc;
 		/// <summary>
 		/// Time step frequency calculation (<i>deltatf</i>) (>= 0).  Typical value = 0,025
 		/// (0,03 for 50 Hz).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds dtf;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? dtf;
 		/// <summary>
 		/// Time step active power calculation (<i>deltatp</i>) (>= 0).  Typical value = 0,
 		/// 0125  (0,015 for 50 Hz).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds dtp;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? dtp;
 		/// <summary>
 		/// Digital/analogue output switch (<i>Isw</i>).
 		/// true = produce analogue output
@@ -97,22 +97,22 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.PowerSystemStabilizerDynamics
 		/// <summary>
 		/// Gain (<i>K</i>).  Typical value = 9.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU k;
+		public TC57CIM.IEC61970.Base.Domain.PU? k;
 		/// <summary>
 		/// Threshold value (<i>Lthres</i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU lthres;
+		public TC57CIM.IEC61970.Base.Domain.PU? lthres;
 		/// <summary>
 		/// (<i>M</i>).  <i>M</i> = 2 x <i>H</i>.  Typical value = 5.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU m;
+		public TC57CIM.IEC61970.Base.Domain.PU? m;
 		/// <summary>
-		/// Number of control outputs to average (<i>NAV</i>) (1 <=  <i>NAV</i> <= 16).
+		/// Number of control outputs to average (<i>NAV</i>) (1 less than or equal to <i>NAV</i> less than or equal to 16).
 		/// Typical value = 4.
 		/// </summary>
 		public float nav;
 		/// <summary>
-		/// Number of counts at limit to active limit function (<i>NCL</i>) (> 0).
+		/// Number of counts at limit to active limit function (<i>NCL</i>) (greater than 0).
 		/// </summary>
 		public float ncl;
 		/// <summary>
@@ -122,39 +122,39 @@ namespace TC57CIM.IEC61970.Dynamics.StandardModels.PowerSystemStabilizerDynamics
 		/// <summary>
 		/// (<i>Pmin</i>).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.PU pmin;
+		public TC57CIM.IEC61970.Base.Domain.PU? pmin;
 		/// <summary>
 		/// Time constant (<i>T1</i>) (>= 0).  Typical value = 0,3.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t1;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t1;
 		/// <summary>
 		/// Time constant (<i>T2</i>) (>= 0).  Typical value = 1.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t2;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t2;
 		/// <summary>
 		/// Time constant (<i>T3</i>) (>= 0).  Typical value = 0,2.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t3;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t3;
 		/// <summary>
 		/// Time constant (<i>T4</i>) (>= 0).  Typical value = 0,05.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t4;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t4;
 		/// <summary>
 		/// Time constant (<i>T5</i>) (>= 0).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t5;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t5;
 		/// <summary>
 		/// Time constant (<i>T6</i>) (>= 0).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds t6;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? t6;
 		/// <summary>
 		/// Time constant (<i>Tf</i>) (>= 0).  Typical value = 0,2.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tf;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tf;
 		/// <summary>
 		/// Time constant (<i>Tp</i>) (>= 0).  Typical value = 0,2.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Seconds tp;
+		public TC57CIM.IEC61970.Base.Domain.Seconds? tp;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="PssPTIST3"/> class

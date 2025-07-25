@@ -24,24 +24,24 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfAssets {
 		/// <summary>
 		/// Pole class: 1, 2, 3, 4, 5, 6, 7, H1, H2, Other, Unknown.
 		/// </summary>
-		public string classification;
+		public string? classification;
 		/// <summary>
 		/// The framing structure mounted on the pole.
 		/// </summary>
-		public string construction;
+		public string? construction;
 		/// <summary>
 		/// Diameter of the pole.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Length diameter;
+		public TC57CIM.IEC61970.Base.Domain.Length? diameter;
 		/// <summary>
 		/// Joint pole agreement reference number.
 		/// </summary>
-		public string jpaReference;
+		public string? jpaReference;
 		/// <summary>
 		/// Length of the pole (inclusive of any section of the pole that may be
 		/// underground post-installation).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Length length;
+		public TC57CIM.IEC61970.Base.Domain.Length? length;
 		/// <summary>
 		/// Kind of preservative for this pole.
 		/// </summary>
@@ -52,11 +52,11 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfAssets {
 		/// Truncated, Wood-Treated, Wood-Hard, Wood-Salt Treated, Wood-Soft, Wood, Other,
 		/// Unknown.
 		/// </summary>
-		public string speciesType;
+		public string? speciesType;
 		/// <summary>
 		/// Date and time pole was last treated with preservative.
 		/// </summary>
-		public System.DateTime treatedDateTime;
+		public System.DateTime? treatedDateTime;
 		/// <summary>
 		/// Kind of treatment for this pole.
 		/// </summary>
@@ -64,7 +64,7 @@ namespace TC57CIM.IEC61968.InfIEC61968.InfAssets {
 		/// <summary>
 		/// All streetlights attached to this pole.
 		/// </summary>
-		public TC57CIM.IEC61968.AssetInfo.Assets.Streetlight Streetlights;
+		public TC57CIM.IEC61968.AssetInfo.Assets.Streetlight? Streetlights;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Pole"/> class

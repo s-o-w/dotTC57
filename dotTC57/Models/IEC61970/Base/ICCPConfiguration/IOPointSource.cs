@@ -16,7 +16,7 @@ namespace TC57CIM.IEC61970.Base.ICCPConfiguration {
 		/// <summary>
 		/// ICCP point for a local measurement value source.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Meas.IOPoint IOPoint;
+		public TC57CIM.IEC61970.Base.Meas.IOPoint? IOPoint;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="IOPointSource"/> class
