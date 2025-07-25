@@ -1,9 +1,9 @@
 bin/
 obj/
 docs/
+nupkg/
 
 *.ps1
 *.bat
 *.sh
-
-CS1570_warnings.txt
+*.nupkg

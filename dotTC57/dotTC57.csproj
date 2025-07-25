@@ -19,12 +19,9 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="dotNetRDF" Version="3.0.0" />
-		<!-- In an actual application the dependency injection would happen in the calling/hosting application, not in the library.
-			 If that's the case, then remove this reference and just use the Abstractions one. -->
-		<PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.0" />
-		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.0" />
-		<PackageReference Include="System.ComponentModel.Annotations" Version="5.0.0" />
-		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+			<None Include="docs\**\*" Pack="true" PackagePath="docs" />
+			<None Include="..\icon.png" Pack="true" PackagePath="\" />
+			<None Include="..\README.md" Pack="true" PackagePath="\" />
 	</ItemGroup>
+
 </Project>
